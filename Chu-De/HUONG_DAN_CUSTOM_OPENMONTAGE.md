@@ -65,10 +65,10 @@ Trong file JSON kịch bản, mỗi phân cảnh (`cut`) chỉ cần khai báo `
 
 ## Phần 3: Chức Năng Từng Thư Mục Trong Workspace
 
-Dưới đây là bản đồ toàn bộ các thư mục tại `C:\Users\ACER\Desktop\OpenMontage`:
+Dưới đây là bản đồ toàn bộ các thư mục tại `C:\Users\ACER\Desktop\Openmontage-Room`:
 
 ```text
-C:\Users\ACER\Desktop\OpenMontage\
+C:\Users\ACER\Desktop\Openmontage-Room\
 ├── 📁 Chu-De/                  ⭐ [QUAN TRỌNG NHẤT VỚI BẠN] Kho lưu trữ toàn bộ tài liệu & 6 chủ đề kênh YouTube
 │   ├── README.md               # Mục lục trung tâm của thư mục Chu-De
 │   ├── TIM_HIEU_OPENMONTAGE.md # Tài liệu toàn tập tìm hiểu & custom OpenMontage
@@ -188,7 +188,7 @@ Một file JSON Props của `Explainer` có 5 phần chính mà bạn có thể 
 Khi muốn vừa sửa giao diện vừa nhìn thấy kết quả ngay lập tức trên trình duyệt:
 
 ```powershell
-cd C:\Users\ACER\Desktop\OpenMontage\remotion-composer
+cd C:\Users\ACER\Desktop\Openmontage-Room\remotion-composer
 npx remotion studio
 ```
 - Trình duyệt sẽ mở tại `http://localhost:3000`.

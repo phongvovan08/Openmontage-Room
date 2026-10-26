@@ -1,6 +1,6 @@
 # Quy Chuẩn Dự Án Sản Xuất & Tùy Biến Video (`OpenMontage Custom Workspace`)
 
-Tài liệu này là **Quy tắc cố định (Workspace Rules)** được nạp tự động cho mọi tác vụ trong thư mục `C:\Users\ACER\Desktop\OpenMontage`.
+Tài liệu này là **Quy tắc cố định (Workspace Rules)** được nạp tự động cho mọi tác vụ trong thư mục `C:\Users\ACER\Desktop\Openmontage-Room`.
 
 ---
 
