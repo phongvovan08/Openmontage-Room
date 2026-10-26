@@ -1,0 +1,721 @@
+{
+  "theme": "flat-motion-graphics",
+  "themeConfig": {
+    "primaryColor": "#06B6D4",
+    "accentColor": "#F43F5E",
+    "backgroundColor": "#070B14",
+    "surfaceColor": "#0F172A",
+    "textColor": "#F8FAFC",
+    "mutedTextColor": "#94A3B8",
+    "chartColors": [
+      "#06B6D4",
+      "#F43F5E",
+      "#F59E0B",
+      "#10B981"
+    ],
+    "captionHighlightColor": "#22D3EE",
+    "captionBackgroundColor": "rgba(7, 11, 20, 0.85)"
+  },
+  "cuts": [
+    {
+      "id": "t1-hook",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0.0,
+      "out_seconds": 3.8,
+      "text": "Đừng Nhìn Vào Gương Mặt Họ",
+      "heroSubtitle": "Hồ Sơ Đọc Vị Hành Vi Cựu Đặc Vụ FBI Joe Navarro",
+      "backgroundVideo": "topics/t1/shot_01.mp4",
+      "backgroundOverlay": 0.45,
+      "accentColor": "#22D3EE"
+    },
+    {
+      "id": "t1-feet",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 3.8,
+      "out_seconds": 7.9,
+      "stat": "45°",
+      "subtitle": "Góc xoay mũi bàn chân tố cáo ý định muốn rời khỏi cuộc trò chuyện",
+      "backgroundVideo": "topics/t1/shot_02.mp4",
+      "backgroundOverlay": 0.48,
+      "accentColor": "#F43F5E"
+    },
+    {
+      "id": "t1-limbic-chart",
+      "source": "",
+      "type": "bar_chart",
+      "in_seconds": 7.9,
+      "out_seconds": 14.2,
+      "title": "Độ Trung Thực Của Các Bộ Phận Cơ Thể (%)",
+      "chartData": [
+        {
+          "label": "Đôi Bàn Chân (Hệ Limbic)",
+          "value": 94
+        },
+        {
+          "label": "Ánh Mắt & Đồng Tử",
+          "value": 78
+        },
+        {
+          "label": "Cử Chỉ Đôi Tay",
+          "value": 64
+        },
+        {
+          "label": "Lời Nói & Nụ Cười",
+          "value": 38
+        }
+      ],
+      "chartColors": [
+        "#22D3EE",
+        "#38BDF8",
+        "#F59E0B",
+        "#F43F5E"
+      ],
+      "showGrid": true,
+      "showValues": true,
+      "backgroundVideo": "topics/t1/shot_04.mp4",
+      "backgroundOverlay": 0.58
+    },
+    {
+      "id": "t1-compare",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 14.2,
+      "out_seconds": 18.5,
+      "title": "Đối Chiếu Ngôn Ngữ Cơ Thể Khi Giao Tiếp",
+      "leftLabel": "Thân Trên (Vỏ Não Trước)",
+      "leftValue": "Mỉm cười lịch sự • Gật đầu xã giao",
+      "rightLabel": "Mũi Bàn Chân (Não Limbic)",
+      "rightValue": "Xoay 45° về phía cửa thoát hiểm",
+      "backgroundVideo": "topics/t1/shot_05.mp4",
+      "backgroundOverlay": 0.52
+    },
+    {
+      "id": "t1-close",
+      "source": "",
+      "type": "anime_scene",
+      "in_seconds": 18.5,
+      "out_seconds": 23.6,
+      "images": [
+        "topics/t1/ai_feet_exit.jpg",
+        "topics/t1/ai_pupil_micro.jpg"
+      ],
+      "animation": "ken-burns",
+      "particles": "sparkles",
+      "particleColor": "#22D3EE",
+      "particleCount": 26
+    }
+  ],
+  "overlays": [
+    {
+      "type": "section_title",
+      "in_seconds": 4.0,
+      "out_seconds": 7.5,
+      "text": "QUY LUẬT ĐỌC VỊ SỐ 01",
+      "subtitle": "Quan sát hướng mũi giày trong 3 giây đầu",
+      "accentColor": "#22D3EE",
+      "position": "top-left"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 18.8,
+      "out_seconds": 23.2,
+      "text": "94%",
+      "subtitle": "Độ chính xác phản xạ bàn chân",
+      "accentColor": "#F43F5E",
+      "position": "bottom-right"
+    }
+  ],
+  "captions": [
+    {
+      "word": "Khi",
+      "startMs": 108,
+      "endMs": 337,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "startMs": 337,
+      "endMs": 566,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "người",
+      "startMs": 566,
+      "endMs": 794,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mỉm",
+      "startMs": 794,
+      "endMs": 1023,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cười",
+      "startMs": 1023,
+      "endMs": 1252,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "với",
+      "startMs": 1252,
+      "endMs": 1481,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bạn",
+      "startMs": 1481,
+      "endMs": 1710,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhưng",
+      "startMs": 1710,
+      "endMs": 1939,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đôi",
+      "startMs": 1939,
+      "endMs": 2167,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bàn",
+      "startMs": 2167,
+      "endMs": 2396,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chân",
+      "startMs": 2396,
+      "endMs": 2625,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "của",
+      "startMs": 2625,
+      "endMs": 2854,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "họ",
+      "startMs": 2854,
+      "endMs": 3083,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lại",
+      "startMs": 3083,
+      "endMs": 3312,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "xoay",
+      "startMs": 3312,
+      "endMs": 3540,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "về",
+      "startMs": 3540,
+      "endMs": 3769,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phía",
+      "startMs": 3769,
+      "endMs": 3998,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cửa",
+      "startMs": 3998,
+      "endMs": 4227,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ra",
+      "startMs": 4227,
+      "endMs": 4456,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vào,",
+      "startMs": 4456,
+      "endMs": 4684,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tiềm",
+      "startMs": 4684,
+      "endMs": 4913,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thức",
+      "startMs": 4913,
+      "endMs": 5142,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "của",
+      "startMs": 5142,
+      "endMs": 5371,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "họ",
+      "startMs": 5371,
+      "endMs": 5600,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đang",
+      "startMs": 5600,
+      "endMs": 5829,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "muốn",
+      "startMs": 5829,
+      "endMs": 6057,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "rời",
+      "startMs": 6057,
+      "endMs": 6286,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khỏi",
+      "startMs": 6286,
+      "endMs": 6515,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cuộc",
+      "startMs": 6515,
+      "endMs": 6744,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trò",
+      "startMs": 6744,
+      "endMs": 6973,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chuyện",
+      "startMs": 6973,
+      "endMs": 7202,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ngay",
+      "startMs": 7202,
+      "endMs": 7430,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lập",
+      "startMs": 7430,
+      "endMs": 7659,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tức.",
+      "startMs": 7659,
+      "endMs": 7888,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Tâm",
+      "startMs": 8405,
+      "endMs": 8609,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lý",
+      "startMs": 8609,
+      "endMs": 8813,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "học",
+      "startMs": 8813,
+      "endMs": 9017,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hành",
+      "startMs": 9017,
+      "endMs": 9221,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vi",
+      "startMs": 9221,
+      "endMs": 9425,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chỉ",
+      "startMs": 9425,
+      "endMs": 9629,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ra",
+      "startMs": 9629,
+      "endMs": 9833,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "rằng:",
+      "startMs": 9833,
+      "endMs": 10037,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "lời",
+      "startMs": 10639,
+      "endMs": 10879,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nói",
+      "startMs": 10879,
+      "endMs": 11120,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "có",
+      "startMs": 11120,
+      "endMs": 11360,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thể",
+      "startMs": 11360,
+      "endMs": 11601,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "được",
+      "startMs": 11601,
+      "endMs": 11841,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chuẩn",
+      "startMs": 11841,
+      "endMs": 12081,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bị",
+      "startMs": 12081,
+      "endMs": 12322,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trước,",
+      "startMs": 12322,
+      "endMs": 12562,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhưng",
+      "startMs": 12562,
+      "endMs": 12803,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phản",
+      "startMs": 12803,
+      "endMs": 13043,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "xạ",
+      "startMs": 13043,
+      "endMs": 13283,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vi",
+      "startMs": 13283,
+      "endMs": 13524,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "biểu",
+      "startMs": 13524,
+      "endMs": 13764,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cảm",
+      "startMs": 13764,
+      "endMs": 14004,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trong",
+      "startMs": 14004,
+      "endMs": 14245,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "không",
+      "startMs": 14245,
+      "endMs": 14485,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phẩy",
+      "startMs": 14485,
+      "endMs": 14726,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hai",
+      "startMs": 14726,
+      "endMs": 14966,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giây",
+      "startMs": 14966,
+      "endMs": 15206,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đầu",
+      "startMs": 15206,
+      "endMs": 15447,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tiên",
+      "startMs": 15447,
+      "endMs": 15687,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thì",
+      "startMs": 15687,
+      "endMs": 15928,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "không",
+      "startMs": 15928,
+      "endMs": 16168,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bao",
+      "startMs": 16168,
+      "endMs": 16408,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giờ",
+      "startMs": 16408,
+      "endMs": 16649,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "biết",
+      "startMs": 16649,
+      "endMs": 16889,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nói",
+      "startMs": 16889,
+      "endMs": 17130,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "dối.",
+      "startMs": 17130,
+      "endMs": 17370,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Nắm",
+      "startMs": 17695,
+      "endMs": 17919,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vững",
+      "startMs": 17919,
+      "endMs": 18143,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ba",
+      "startMs": 18143,
+      "endMs": 18367,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "quy",
+      "startMs": 18367,
+      "endMs": 18591,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "luật",
+      "startMs": 18591,
+      "endMs": 18815,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đọc",
+      "startMs": 18815,
+      "endMs": 19039,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vị",
+      "startMs": 19039,
+      "endMs": 19263,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "này,",
+      "startMs": 19263,
+      "endMs": 19487,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bạn",
+      "startMs": 19487,
+      "endMs": 19711,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sẽ",
+      "startMs": 19711,
+      "endMs": 19935,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhìn",
+      "startMs": 19935,
+      "endMs": 20159,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thấu",
+      "startMs": 20159,
+      "endMs": 20383,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ý",
+      "startMs": 20383,
+      "endMs": 20606,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "định",
+      "startMs": 20606,
+      "endMs": 20830,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thật",
+      "startMs": 20830,
+      "endMs": 21054,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sự",
+      "startMs": 21054,
+      "endMs": 21278,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "của",
+      "startMs": 21278,
+      "endMs": 21502,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bất",
+      "startMs": 21502,
+      "endMs": 21726,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kỳ",
+      "startMs": 21726,
+      "endMs": 21950,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ai",
+      "startMs": 21950,
+      "endMs": 22174,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chỉ",
+      "startMs": 22174,
+      "endMs": 22398,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sau",
+      "startMs": 22398,
+      "endMs": 22622,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "năm",
+      "startMs": 22622,
+      "endMs": 22846,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phút",
+      "startMs": 22846,
+      "endMs": 23070,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giao",
+      "startMs": 23070,
+      "endMs": 23294,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tiếp.",
+      "startMs": 23294,
+      "endMs": 23518,
+      "pageBreakAfter": true
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "topics/t1/narration.mp3",
+      "volume": 1.0
+    },
+    "music": {
+      "src": "topics/t1/music.wav",
+      "volume": 0.3,
+      "fadeInSeconds": 0.8,
+      "fadeOutSeconds": 1.5,
+      "loop": true
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_note": "Giọng của các bài Friends: MiniMax clone 1ad2682d, speed 1.2 (khớp độ dài audio bài 7, đo ngày 2026-10-23).",
+  "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+  "provider": "minimax",
+  "model_id": "speech-2.8-hd",
+  "language_code": "Vietnamese",
+  "voice_settings": {"speed": 1.2, "pitch": 0, "vol": 1},
+  "english": {"language_code": "English", "voice_settings": {"speed": 1.0, "pitch": -1, "vol": 1},
+              "pitch_shift": 0.8},
+  "_english_note": "English mode reads ~0.7 semitone higher than Vietnamese mode (median 138 vs 132 Hz, lesson 21); pitch -1 brings it in line."
+}

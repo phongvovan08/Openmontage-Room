@@ -1,0 +1,554 @@
+{
+  "theme": "flat-motion-graphics",
+  "themeConfig": {
+    "primaryColor": "#38BDF8",
+    "accentColor": "#34D399",
+    "backgroundColor": "#06101E",
+    "surfaceColor": "#0F1E36",
+    "textColor": "#F8FAFC",
+    "mutedTextColor": "#94A3B8",
+    "chartColors": [
+      "#38BDF8",
+      "#34D399",
+      "#FBBF24",
+      "#F43F5E"
+    ],
+    "captionHighlightColor": "#38BDF8",
+    "captionBackgroundColor": "rgba(6, 16, 30, 0.85)"
+  },
+  "cuts": [
+    {
+      "id": "t6-hook",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0.0,
+      "out_seconds": 6.6,
+      "text": "Đừng Vứt Giày Ố Vàng & Nồi Cháy Đen",
+      "heroSubtitle": "Mẹo Khoa Học Đời Thường • Xử Lý Sạch Bóng Trong 30 Giây",
+      "backgroundVideo": "topics/t6/shot_01.mp4",
+      "backgroundOverlay": 0.46,
+      "accentColor": "#38BDF8"
+    },
+    {
+      "id": "t6-formula",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 6.6,
+      "out_seconds": 11.2,
+      "title": "Công Thức Phản Ứng Trung Hòa Tự Nhiên",
+      "leftLabel": "2 Thìa Baking Soda (NaHCO₃)",
+      "leftValue": "Chất kiềm nhẹ làm mềm cặn cháy & vết ố",
+      "rightLabel": "1 Lát Chanh Tươi (Axit Citric)",
+      "rightValue": "Kích hoạt hàng triệu vi bọt khí CO₂ bóc tách",
+      "backgroundVideo": "topics/t6/shot_02.mp4",
+      "backgroundOverlay": 0.52
+    },
+    {
+      "id": "t6-timer-stat",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 11.2,
+      "out_seconds": 15.2,
+      "stat": "30 Giây",
+      "subtitle": "Thời gian vi bọt khí CO₂ tự động bóc tách mảng bám cứng đầu nhất",
+      "backgroundVideo": "topics/t6/shot_04.mp4",
+      "backgroundOverlay": 0.44,
+      "accentColor": "#34D399"
+    },
+    {
+      "id": "t6-kpi-save",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 15.2,
+      "out_seconds": 20.0,
+      "title": "Hiệu Quả Thực Tế Cho Gian Bếp Gia Đình",
+      "columns": 3,
+      "chartData": [
+        {
+          "label": "Thời Gian Chờ",
+          "value": 30,
+          "suffix": " Giây",
+          "change": 95
+        },
+        {
+          "label": "Độ Sáng Bóng Bề Mặt",
+          "value": 100,
+          "suffix": "%",
+          "change": 100
+        },
+        {
+          "label": "Tiết Kiệm Mỗi Tuần",
+          "value": 3,
+          "suffix": " Giờ",
+          "change": 90
+        }
+      ],
+      "backgroundVideo": "topics/t6/shot_06.mp4",
+      "backgroundOverlay": 0.54
+    }
+  ],
+  "overlays": [
+    {
+      "type": "section_title",
+      "in_seconds": 11.4,
+      "out_seconds": 15.0,
+      "text": "PHẢN ỨNG SỦI BỌT CO₂",
+      "subtitle": "Không cần dùng bùi nhùi thép gây trầy xước",
+      "accentColor": "#34D399",
+      "position": "top-left"
+    }
+  ],
+  "captions": [
+    {
+      "word": "Đừng",
+      "startMs": 109,
+      "endMs": 378,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vội",
+      "startMs": 378,
+      "endMs": 646,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vứt",
+      "startMs": 646,
+      "endMs": 915,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bỏ",
+      "startMs": 915,
+      "endMs": 1183,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đôi",
+      "startMs": 1183,
+      "endMs": 1452,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giày",
+      "startMs": 1452,
+      "endMs": 1720,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trắng",
+      "startMs": 1720,
+      "endMs": 1989,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bị",
+      "startMs": 1989,
+      "endMs": 2258,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ố",
+      "startMs": 2258,
+      "endMs": 2526,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vàng",
+      "startMs": 2526,
+      "endMs": 2795,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hay",
+      "startMs": 2795,
+      "endMs": 3063,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chiếc",
+      "startMs": 3063,
+      "endMs": 3332,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nồi",
+      "startMs": 3332,
+      "endMs": 3601,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "inox",
+      "startMs": 3601,
+      "endMs": 3869,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cháy",
+      "startMs": 3869,
+      "endMs": 4138,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đen",
+      "startMs": 4138,
+      "endMs": 4406,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "dưới",
+      "startMs": 4406,
+      "endMs": 4675,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đáy",
+      "startMs": 4675,
+      "endMs": 4944,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sau",
+      "startMs": 4944,
+      "endMs": 5212,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "startMs": 5212,
+      "endMs": 5481,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lần",
+      "startMs": 5481,
+      "endMs": 5749,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nấu",
+      "startMs": 5749,
+      "endMs": 6018,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "quá",
+      "startMs": 6018,
+      "endMs": 6286,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lửa.",
+      "startMs": 6286,
+      "endMs": 6555,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Chỉ",
+      "startMs": 6977,
+      "endMs": 7231,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cần",
+      "startMs": 7231,
+      "endMs": 7485,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kết",
+      "startMs": 7485,
+      "endMs": 7739,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hợp",
+      "startMs": 7739,
+      "endMs": 7993,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "baking",
+      "startMs": 7993,
+      "endMs": 8247,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "soda",
+      "startMs": 8247,
+      "endMs": 8501,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "với",
+      "startMs": 8501,
+      "endMs": 8755,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "startMs": 8755,
+      "endMs": 9009,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lát",
+      "startMs": 9009,
+      "endMs": 9263,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chanh",
+      "startMs": 9263,
+      "endMs": 9517,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tươi,",
+      "startMs": 9517,
+      "endMs": 9771,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phản",
+      "startMs": 9771,
+      "endMs": 10025,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ứng",
+      "startMs": 10025,
+      "endMs": 10279,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trung",
+      "startMs": 10279,
+      "endMs": 10533,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hòa",
+      "startMs": 10533,
+      "endMs": 10787,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tự",
+      "startMs": 10787,
+      "endMs": 11041,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhiên",
+      "startMs": 11041,
+      "endMs": 11295,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sẽ",
+      "startMs": 11295,
+      "endMs": 11549,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bóc",
+      "startMs": 11549,
+      "endMs": 11803,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tách",
+      "startMs": 11803,
+      "endMs": 12057,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lớp",
+      "startMs": 12057,
+      "endMs": 12311,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mảng",
+      "startMs": 12311,
+      "endMs": 12565,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bám",
+      "startMs": 12565,
+      "endMs": 12819,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cứng",
+      "startMs": 12819,
+      "endMs": 13073,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đầu",
+      "startMs": 13073,
+      "endMs": 13327,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhất",
+      "startMs": 13327,
+      "endMs": 13581,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chỉ",
+      "startMs": 13581,
+      "endMs": 13835,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sau",
+      "startMs": 13835,
+      "endMs": 14089,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ba",
+      "startMs": 14089,
+      "endMs": 14343,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mươi",
+      "startMs": 14343,
+      "endMs": 14597,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giây.",
+      "startMs": 14597,
+      "endMs": 14851,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Ba",
+      "startMs": 15358,
+      "endMs": 15606,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mẹo",
+      "startMs": 15606,
+      "endMs": 15853,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khoa",
+      "startMs": 15853,
+      "endMs": 16101,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "học",
+      "startMs": 16101,
+      "endMs": 16348,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đời",
+      "startMs": 16348,
+      "endMs": 16596,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thường",
+      "startMs": 16596,
+      "endMs": 16843,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "này",
+      "startMs": 16843,
+      "endMs": 17091,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sẽ",
+      "startMs": 17091,
+      "endMs": 17338,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giúp",
+      "startMs": 17338,
+      "endMs": 17586,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bạn",
+      "startMs": 17586,
+      "endMs": 17834,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tiết",
+      "startMs": 17834,
+      "endMs": 18081,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kiệm",
+      "startMs": 18081,
+      "endMs": 18329,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hàng",
+      "startMs": 18329,
+      "endMs": 18576,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giờ",
+      "startMs": 18576,
+      "endMs": 18824,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "dọn",
+      "startMs": 18824,
+      "endMs": 19071,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "dẹp",
+      "startMs": 19071,
+      "endMs": 19319,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mỗi",
+      "startMs": 19319,
+      "endMs": 19566,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tuần.",
+      "startMs": 19566,
+      "endMs": 19814,
+      "pageBreakAfter": true
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "topics/t6/narration.mp3",
+      "volume": 1.0
+    },
+    "music": {
+      "src": "topics/t6/music.wav",
+      "volume": 0.3,
+      "fadeInSeconds": 0.8,
+      "fadeOutSeconds": 1.5,
+      "loop": true
+    }
+  }
+}

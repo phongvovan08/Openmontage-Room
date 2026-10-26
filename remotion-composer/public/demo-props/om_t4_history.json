@@ -1,0 +1,652 @@
+{
+  "theme": "flat-motion-graphics",
+  "themeConfig": {
+    "primaryColor": "#F59E0B",
+    "accentColor": "#EF4444",
+    "backgroundColor": "#0C0906",
+    "surfaceColor": "#1C140D",
+    "textColor": "#FEF3C7",
+    "mutedTextColor": "#D6D3D1",
+    "chartColors": [
+      "#F59E0B",
+      "#EF4444",
+      "#10B981",
+      "#38BDF8"
+    ],
+    "captionHighlightColor": "#FBBF24",
+    "captionBackgroundColor": "rgba(12, 9, 6, 0.86)"
+  },
+  "cuts": [
+    {
+      "id": "t4-coloa-open",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0.0,
+      "out_seconds": 5.2,
+      "text": "Bí Ẩn Quân Sự Thành Cổ Loa",
+      "heroSubtitle": "Kiệt Tác 3 Vòng Thành Xoắn Ốc Thế Kỷ III TCN",
+      "backgroundVideo": "topics/t4/shot_01.mp4",
+      "backgroundOverlay": 0.4,
+      "accentColor": "#F59E0B"
+    },
+    {
+      "id": "t4-walls-chart",
+      "source": "",
+      "type": "bar_chart",
+      "in_seconds": 5.2,
+      "out_seconds": 10.2,
+      "title": "Quy Mô Chu Vi 3 Vòng Thành Cổ Loa (Mét)",
+      "chartData": [
+        {
+          "label": "Thành Ngoại (Vòng Ngoài)",
+          "value": 8000
+        },
+        {
+          "label": "Thành Trung (Vòng Giữa)",
+          "value": 6500
+        },
+        {
+          "label": "Thành Nội (Trung Tâm)",
+          "value": 1650
+        }
+      ],
+      "chartColors": [
+        "#F59E0B",
+        "#EF4444",
+        "#38BDF8"
+      ],
+      "showGrid": true,
+      "showValues": true,
+      "backgroundVideo": "topics/t4/shot_03.mp4",
+      "backgroundOverlay": 0.58
+    },
+    {
+      "id": "t4-kpi-arrows",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 10.2,
+      "out_seconds": 16.6,
+      "title": "Hồ Sơ Khảo Cổ Kho Mũi Tên Đồng Cầu Vực",
+      "columns": 3,
+      "chartData": [
+        {
+          "label": "Mũi Tên Đồng Khai Quật",
+          "value": 10,
+          "suffix": " Vạn+",
+          "change": 100
+        },
+        {
+          "label": "Thiết Kế Khí Động Học",
+          "value": 3,
+          "suffix": " Cạnh Sắc",
+          "change": 95
+        },
+        {
+          "label": "Sai Số Khuôn Đúc Đá",
+          "value": 0.1,
+          "suffix": " mm",
+          "change": 99
+        }
+      ],
+      "backgroundVideo": "topics/t4/shot_04.mp4",
+      "backgroundOverlay": 0.56
+    },
+    {
+      "id": "t4-no-than-close",
+      "source": "",
+      "type": "anime_scene",
+      "in_seconds": 16.6,
+      "out_seconds": 22.7,
+      "images": [
+        "topics/t4/ai_no_than_arrow.jpg",
+        "topics/t4/ai_coloa_citadel.jpg"
+      ],
+      "animation": "ken-burns",
+      "particles": "light-rays",
+      "particleColor": "#F59E0B",
+      "particleCount": 24
+    }
+  ],
+  "overlays": [
+    {
+      "type": "stat_reveal",
+      "in_seconds": 17.0,
+      "out_seconds": 22.2,
+      "text": "257 TCN",
+      "subtitle": "Kỹ thuật quân sự Âu Lạc có thật",
+      "accentColor": "#F59E0B",
+      "position": "bottom-right"
+    }
+  ],
+  "captions": [
+    {
+      "word": "Hơn",
+      "startMs": 115,
+      "endMs": 369,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hai",
+      "startMs": 369,
+      "endMs": 622,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nghìn",
+      "startMs": 622,
+      "endMs": 876,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "năm",
+      "startMs": 876,
+      "endMs": 1130,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trước,",
+      "startMs": 1130,
+      "endMs": 1383,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "làm",
+      "startMs": 1383,
+      "endMs": 1637,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thế",
+      "startMs": 1637,
+      "endMs": 1891,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nào",
+      "startMs": 1891,
+      "endMs": 2144,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "người",
+      "startMs": 2144,
+      "endMs": 2398,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Việt",
+      "startMs": 2398,
+      "endMs": 2651,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cổ",
+      "startMs": 2651,
+      "endMs": 2905,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "có",
+      "startMs": 2905,
+      "endMs": 3159,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thể",
+      "startMs": 3159,
+      "endMs": 3412,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "dựng",
+      "startMs": 3412,
+      "endMs": 3666,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nên",
+      "startMs": 3666,
+      "endMs": 3920,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ba",
+      "startMs": 3920,
+      "endMs": 4173,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vòng",
+      "startMs": 4173,
+      "endMs": 4427,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thành",
+      "startMs": 4427,
+      "endMs": 4681,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ốc",
+      "startMs": 4681,
+      "endMs": 4934,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "xoắn",
+      "startMs": 4934,
+      "endMs": 5188,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kiên",
+      "startMs": 5188,
+      "endMs": 5442,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cố",
+      "startMs": 5442,
+      "endMs": 5695,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "và",
+      "startMs": 5695,
+      "endMs": 5949,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chế",
+      "startMs": 5949,
+      "endMs": 6203,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tạo",
+      "startMs": 6203,
+      "endMs": 6456,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lẫy",
+      "startMs": 6456,
+      "endMs": 6710,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nỏ",
+      "startMs": 6710,
+      "endMs": 6964,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đồng",
+      "startMs": 6964,
+      "endMs": 7217,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bắn",
+      "startMs": 7217,
+      "endMs": 7471,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cùng",
+      "startMs": 7471,
+      "endMs": 7724,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lúc",
+      "startMs": 7724,
+      "endMs": 7978,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hàng",
+      "startMs": 7978,
+      "endMs": 8232,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chục",
+      "startMs": 8232,
+      "endMs": 8485,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mũi",
+      "startMs": 8485,
+      "endMs": 8739,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tên",
+      "startMs": 8739,
+      "endMs": 8993,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "xuyên",
+      "startMs": 8993,
+      "endMs": 9246,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giáp?",
+      "startMs": 9246,
+      "endMs": 9500,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Khi",
+      "startMs": 10025,
+      "endMs": 10271,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "các",
+      "startMs": 10271,
+      "endMs": 10517,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhà",
+      "startMs": 10517,
+      "endMs": 10763,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khảo",
+      "startMs": 10763,
+      "endMs": 11009,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cổ",
+      "startMs": 11009,
+      "endMs": 11255,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khai",
+      "startMs": 11255,
+      "endMs": 11501,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "quật",
+      "startMs": 11501,
+      "endMs": 11748,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kho",
+      "startMs": 11748,
+      "endMs": 11994,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mũi",
+      "startMs": 11994,
+      "endMs": 12240,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tên",
+      "startMs": 12240,
+      "endMs": 12486,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đồng",
+      "startMs": 12486,
+      "endMs": 12732,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Cổ",
+      "startMs": 12732,
+      "endMs": 12978,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Loa,",
+      "startMs": 12978,
+      "endMs": 13224,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "họ",
+      "startMs": 13224,
+      "endMs": 13470,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phát",
+      "startMs": 13470,
+      "endMs": 13716,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hiện",
+      "startMs": 13716,
+      "endMs": 13962,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kỹ",
+      "startMs": 13962,
+      "endMs": 14208,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thuật",
+      "startMs": 14208,
+      "endMs": 14454,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đúc",
+      "startMs": 14454,
+      "endMs": 14700,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hợp",
+      "startMs": 14700,
+      "endMs": 14947,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kim",
+      "startMs": 14947,
+      "endMs": 15193,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chính",
+      "startMs": 15193,
+      "endMs": 15439,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "xác",
+      "startMs": 15439,
+      "endMs": 15685,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đến",
+      "startMs": 15685,
+      "endMs": 15931,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kinh",
+      "startMs": 15931,
+      "endMs": 16177,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ngạc.",
+      "startMs": 16177,
+      "endMs": 16423,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Đằng",
+      "startMs": 16894,
+      "endMs": 17138,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sau",
+      "startMs": 17138,
+      "endMs": 17381,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "truyền",
+      "startMs": 17381,
+      "endMs": 17625,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thuyết",
+      "startMs": 17625,
+      "endMs": 17869,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "An",
+      "startMs": 17869,
+      "endMs": 18113,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Dương",
+      "startMs": 18113,
+      "endMs": 18356,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Vương",
+      "startMs": 18356,
+      "endMs": 18600,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "là",
+      "startMs": 18600,
+      "endMs": 18844,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "startMs": 18844,
+      "endMs": 19088,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nền",
+      "startMs": 19088,
+      "endMs": 19331,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "quân",
+      "startMs": 19331,
+      "endMs": 19575,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sự",
+      "startMs": 19575,
+      "endMs": 19819,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cổ",
+      "startMs": 19819,
+      "endMs": 20063,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đại",
+      "startMs": 20063,
+      "endMs": 20306,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "có",
+      "startMs": 20306,
+      "endMs": 20550,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thật",
+      "startMs": 20550,
+      "endMs": 20794,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "từng",
+      "startMs": 20794,
+      "endMs": 21038,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "làm",
+      "startMs": 21038,
+      "endMs": 21281,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chấn",
+      "startMs": 21281,
+      "endMs": 21525,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "động",
+      "startMs": 21525,
+      "endMs": 21769,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cả",
+      "startMs": 21769,
+      "endMs": 22013,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phương",
+      "startMs": 22013,
+      "endMs": 22256,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Nam.",
+      "startMs": 22256,
+      "endMs": 22500,
+      "pageBreakAfter": true
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "topics/t4/narration.mp3",
+      "volume": 1.0
+    },
+    "music": {
+      "src": "topics/t4/music.wav",
+      "volume": 0.3,
+      "fadeInSeconds": 0.8,
+      "fadeOutSeconds": 1.5,
+      "loop": true
+    }
+  }
+}

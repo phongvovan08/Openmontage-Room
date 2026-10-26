@@ -1,0 +1,623 @@
+{
+  "theme": "flat-motion-graphics",
+  "themeConfig": {
+    "primaryColor": "#10B981",
+    "accentColor": "#F59E0B",
+    "backgroundColor": "#040D08",
+    "surfaceColor": "#0A1F14",
+    "textColor": "#ECFDF5",
+    "mutedTextColor": "#A7F3D0",
+    "chartColors": [
+      "#10B981",
+      "#F59E0B",
+      "#38BDF8",
+      "#EF4444"
+    ],
+    "captionHighlightColor": "#34D399",
+    "captionBackgroundColor": "rgba(4, 13, 8, 0.86)"
+  },
+  "cuts": [
+    {
+      "id": "t5-hook",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0.0,
+      "out_seconds": 5.0,
+      "text": "Bóng Ma Săn Đêm Thảo Nguyên",
+      "heroSubtitle": "Giải Phẫu Sinh Tồn Báo Hoa Mai Châu Phi (Panthera pardus)",
+      "backgroundVideo": "topics/t5/shot_01.mp4",
+      "backgroundOverlay": 0.38,
+      "accentColor": "#10B981"
+    },
+    {
+      "id": "t5-vision-compare",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 5.0,
+      "out_seconds": 9.5,
+      "title": "Khả Năng Nhìn Xuyên Bóng Tối (Màng Tapetum Lucidum)",
+      "leftLabel": "Thị Giác Báo Hoa Mai",
+      "leftValue": "Nhân ×7 lần ánh sáng • Khóa mục tiêu trong đêm đen",
+      "rightLabel": "Thị Giác Con Người",
+      "rightValue": "1× Cơ bản • Mất phương hướng khi thiếu sáng",
+      "backgroundVideo": "topics/t5/shot_03.mp4",
+      "backgroundOverlay": 0.54
+    },
+    {
+      "id": "t5-speed-kpi",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 9.5,
+      "out_seconds": 17.0,
+      "title": "Thông Số Vũ Khí Sinh Học Khi Bứt Tốc",
+      "columns": 3,
+      "chartData": [
+        {
+          "label": "Vận Tốc Nước Rút",
+          "value": 60,
+          "suffix": " km/h",
+          "change": 98
+        },
+        {
+          "label": "Cự Ly Kích Hoạt Vồ",
+          "value": 5,
+          "suffix": " Mét",
+          "change": 95
+        },
+        {
+          "label": "Độ Ồn Bước Chân",
+          "value": 0,
+          "suffix": " dB",
+          "change": 100
+        }
+      ],
+      "backgroundVideo": "topics/t5/shot_04.mp4",
+      "backgroundOverlay": 0.54
+    },
+    {
+      "id": "t5-leopard-close",
+      "source": "",
+      "type": "anime_scene",
+      "in_seconds": 17.0,
+      "out_seconds": 21.5,
+      "images": [
+        "topics/t5/ai_leopard_night.jpg",
+        "topics/t5/wiki_leopard_action.jpg"
+      ],
+      "animation": "zoom-in",
+      "particles": "sparkles",
+      "particleColor": "#10B981",
+      "particleCount": 25
+    }
+  ],
+  "overlays": [
+    {
+      "type": "stat_reveal",
+      "in_seconds": 17.2,
+      "out_seconds": 21.0,
+      "text": "60 km/h",
+      "subtitle": "Cỗ máy săn đêm hoàn hảo",
+      "accentColor": "#10B981",
+      "position": "bottom-right"
+    }
+  ],
+  "captions": [
+    {
+      "word": "Giữa",
+      "startMs": 112,
+      "endMs": 360,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "màn",
+      "startMs": 360,
+      "endMs": 607,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đêm",
+      "startMs": 607,
+      "endMs": 855,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đặc",
+      "startMs": 855,
+      "endMs": 1103,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "quánh",
+      "startMs": 1103,
+      "endMs": 1350,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "của",
+      "startMs": 1350,
+      "endMs": 1598,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thảo",
+      "startMs": 1598,
+      "endMs": 1846,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nguyên",
+      "startMs": 1846,
+      "endMs": 2093,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "châu",
+      "startMs": 2093,
+      "endMs": 2341,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Phi,",
+      "startMs": 2341,
+      "endMs": 2589,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "báo",
+      "startMs": 2589,
+      "endMs": 2836,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hoa",
+      "startMs": 2836,
+      "endMs": 3084,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mai",
+      "startMs": 3084,
+      "endMs": 3332,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "có",
+      "startMs": 3332,
+      "endMs": 3579,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thể",
+      "startMs": 3579,
+      "endMs": 3827,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tiến",
+      "startMs": 3827,
+      "endMs": 4075,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sát",
+      "startMs": 4075,
+      "endMs": 4322,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "con",
+      "startMs": 4322,
+      "endMs": 4570,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mồi",
+      "startMs": 4570,
+      "endMs": 4818,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trong",
+      "startMs": 4818,
+      "endMs": 5065,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phạm",
+      "startMs": 5065,
+      "endMs": 5313,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vi",
+      "startMs": 5313,
+      "endMs": 5561,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "năm",
+      "startMs": 5561,
+      "endMs": 5808,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét",
+      "startMs": 5808,
+      "endMs": 6056,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mà",
+      "startMs": 6056,
+      "endMs": 6304,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "không",
+      "startMs": 6304,
+      "endMs": 6551,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phát",
+      "startMs": 6551,
+      "endMs": 6799,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ra",
+      "startMs": 6799,
+      "endMs": 7047,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "dù",
+      "startMs": 7047,
+      "endMs": 7294,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chỉ",
+      "startMs": 7294,
+      "endMs": 7542,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "startMs": 7542,
+      "endMs": 7790,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tiếng",
+      "startMs": 7790,
+      "endMs": 8037,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lá",
+      "startMs": 8037,
+      "endMs": 8285,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khô",
+      "startMs": 8285,
+      "endMs": 8533,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "xào",
+      "startMs": 8533,
+      "endMs": 8780,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "xạc.",
+      "startMs": 8780,
+      "endMs": 9028,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Đôi",
+      "startMs": 9591,
+      "endMs": 9826,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mắt",
+      "startMs": 9826,
+      "endMs": 10061,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "của",
+      "startMs": 10061,
+      "endMs": 10296,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chúng",
+      "startMs": 10296,
+      "endMs": 10531,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khuếch",
+      "startMs": 10531,
+      "endMs": 10766,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đại",
+      "startMs": 10766,
+      "endMs": 11001,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ánh",
+      "startMs": 11001,
+      "endMs": 11236,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sáng",
+      "startMs": 11236,
+      "endMs": 11471,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "gấp",
+      "startMs": 11471,
+      "endMs": 11706,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bảy",
+      "startMs": 11706,
+      "endMs": 11941,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lần",
+      "startMs": 11941,
+      "endMs": 12176,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "con",
+      "startMs": 12176,
+      "endMs": 12411,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "người,",
+      "startMs": 12411,
+      "endMs": 12646,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kết",
+      "startMs": 12646,
+      "endMs": 12881,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hợp",
+      "startMs": 12881,
+      "endMs": 13116,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cú",
+      "startMs": 13116,
+      "endMs": 13351,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vồ",
+      "startMs": 13351,
+      "endMs": 13586,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đạt",
+      "startMs": 13586,
+      "endMs": 13821,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "vận",
+      "startMs": 13821,
+      "endMs": 14056,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tốc",
+      "startMs": 14056,
+      "endMs": 14291,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sáu",
+      "startMs": 14291,
+      "endMs": 14526,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mươi",
+      "startMs": 14526,
+      "endMs": 14761,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ki",
+      "startMs": 14761,
+      "endMs": 14996,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lô",
+      "startMs": 14996,
+      "endMs": 15231,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét",
+      "startMs": 15231,
+      "endMs": 15466,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "startMs": 15466,
+      "endMs": 15701,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giờ",
+      "startMs": 15701,
+      "endMs": 15936,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chỉ",
+      "startMs": 15936,
+      "endMs": 16171,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trong",
+      "startMs": 16171,
+      "endMs": 16406,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hai",
+      "startMs": 16406,
+      "endMs": 16641,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giây.",
+      "startMs": 16641,
+      "endMs": 16876,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Đó",
+      "startMs": 17319,
+      "endMs": 17553,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "là",
+      "startMs": 17553,
+      "endMs": 17787,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cỗ",
+      "startMs": 17787,
+      "endMs": 18021,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "máy",
+      "startMs": 18021,
+      "endMs": 18255,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "săn",
+      "startMs": 18255,
+      "endMs": 18488,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mồi",
+      "startMs": 18488,
+      "endMs": 18722,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hoàn",
+      "startMs": 18722,
+      "endMs": 18956,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hảo",
+      "startMs": 18956,
+      "endMs": 19190,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhất",
+      "startMs": 19190,
+      "endMs": 19424,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mà",
+      "startMs": 19424,
+      "endMs": 19658,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tiến",
+      "startMs": 19658,
+      "endMs": 19892,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hóa",
+      "startMs": 19892,
+      "endMs": 20126,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tự",
+      "startMs": 20126,
+      "endMs": 20359,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhiên",
+      "startMs": 20359,
+      "endMs": 20593,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "từng",
+      "startMs": 20593,
+      "endMs": 20827,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tạo",
+      "startMs": 20827,
+      "endMs": 21061,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ra.",
+      "startMs": 21061,
+      "endMs": 21295,
+      "pageBreakAfter": true
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "topics/t5/narration.mp3",
+      "volume": 1.0
+    },
+    "music": {
+      "src": "topics/t5/music.wav",
+      "volume": 0.3,
+      "fadeInSeconds": 0.8,
+      "fadeOutSeconds": 1.5,
+      "loop": true
+    }
+  }
+}
