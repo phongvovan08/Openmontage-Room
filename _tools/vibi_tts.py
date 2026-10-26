@@ -33,12 +33,45 @@ import time
 import urllib.error
 import urllib.request
 
-from prepare_capcut import normalized, parse_srt, srt_text, stale_tts, stamp, tts_items
+try:
+    from prepare_capcut import normalized, parse_srt, srt_text, stale_tts, stamp, tts_items
+except ImportError:
+    def stamp(ms: int) -> str:
+        s, ms = divmod(max(0, ms), 1000)
+        m, s = divmod(s, 60)
+        h, m = divmod(m, 60)
+        return f'{h:02d}:{m:02d}:{s:02d},{ms:03d}'
+
+    def parse_srt(path: Path) -> list[tuple[int, int, str]]:
+        cues = []
+        raw = path.read_text(encoding='utf-8-sig', errors='replace')
+        for m in re.finditer(r'(\d{2}):(\d{2}):(\d{2})[,.](\d{3})\s*-->\s*(\d{2}):(\d{2}):(\d{2})[,.](\d{3})\s*\n([\s\S]*?)(?=\n\s*\n|\Z)', raw):
+            h1, m1, s1, ms1, h2, m2, s2, ms2, txt = m.groups()
+            t1 = ((int(h1) * 60 + int(m1)) * 60 + int(s1)) * 1000 + int(ms1)
+            t2 = ((int(h2) * 60 + int(m2)) * 60 + int(s2)) * 1000 + int(ms2)
+            cues.append((t1, t2, txt.strip()))
+        return cues
+
+    def srt_text(srt: str) -> str:
+        lines = [l.strip() for l in srt.splitlines() if l.strip() and not l.strip().isdigit() and '-->' not in l]
+        return ' '.join(lines)
+
+    def normalized(s: str) -> str:
+        return re.sub(r'\W+', '', s.lower())
+
+    def stale_tts(*_a, **_kw):
+        return []
+
+    def tts_items(*_a, **_kw):
+        return []
 
 HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
 API = 'https://api.vibi.pro'
 CONFIG = HERE / 'vibi_tts.json'
 KEY_FILE = HERE / '.vibi_api_key'
+ROOT_KEY_FILE = ROOT / '.vibi_api_key'
+ENV_FILE = ROOT / '.env'
 # Cloudflare in front of the API rejects Python's default User-Agent (error 1010).
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) vibi-tts-lesson/1.0'
 BATCH = 38          # Vibi API enforces max 40 POST /v1/text-to-speech per 60-second window
@@ -57,9 +90,19 @@ def loudness(path: Path) -> float:
 
 
 def api_key() -> str:
-    key = os.environ.get('VIBI_API_KEY') or (KEY_FILE.read_text(encoding='utf-8').strip() if KEY_FILE.exists() else '')
+    key = os.environ.get('VIBI_API_KEY', '').strip()
+    if not key and ENV_FILE.exists():
+        for line in ENV_FILE.read_text(encoding='utf-8', errors='ignore').splitlines():
+            line = line.strip()
+            if line.startswith('VIBI_API_KEY='):
+                key = line.partition('=')[2].strip().strip('\'"')
+                break
+    if not key and ROOT_KEY_FILE.exists():
+        key = ROOT_KEY_FILE.read_text(encoding='utf-8').strip()
+    if not key and KEY_FILE.exists():
+        key = KEY_FILE.read_text(encoding='utf-8').strip()
     if not key:
-        raise SystemExit(f'Chưa có API key: đặt biến VIBI_API_KEY hoặc ghi key vào {KEY_FILE}')
+        raise SystemExit(f'Chưa có API key: đặt biến VIBI_API_KEY trong .env hoặc ghi key vào {ROOT_KEY_FILE}')
     return key
 
 
@@ -312,11 +355,24 @@ def main() -> None:
                         help='remake every line (cached pieces are reused, so only the joining is redone)')
     parser.add_argument('--history', action='store_true')
     parser.add_argument('--me', action='store_true')
+    parser.add_argument('--text', help='direct text string to synthesize via Vibi API')
+    parser.add_argument('--out-mp3', type=Path, help='output MP3 path for --text mode')
+    parser.add_argument('--out-srt', type=Path, help='output SRT path for --text mode')
     args = parser.parse_args()
     if args.me:
         print(json.dumps(call('GET', '/v1/auth/me'), ensure_ascii=False, indent=2))
     elif args.history:
         show_history()
+    elif args.text:
+        voice = json.loads(CONFIG.read_text(encoding='utf-8'))
+        audio_bytes, srt_bytes = synthesize([('vi', ' '.join(args.text.split()))], voice)[0]
+        if args.out_mp3:
+            args.out_mp3.parent.mkdir(parents=True, exist_ok=True)
+            args.out_mp3.write_bytes(audio_bytes)
+        if args.out_srt:
+            args.out_srt.parent.mkdir(parents=True, exist_ok=True)
+            args.out_srt.write_text(srt_bytes.decode('utf-8-sig', errors='replace'), encoding='utf-8')
+        print(f'Xong TTS: mp3={args.out_mp3} srt={args.out_srt}')
     elif args.lesson:
         lines = [int(x) for x in args.lines.split(',')] if args.lines else None
         if args.all:

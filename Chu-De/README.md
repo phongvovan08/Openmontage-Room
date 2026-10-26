@@ -14,6 +14,7 @@ Thư mục này tập trung toàn bộ **Tài liệu nghiên cứu, Hồ sơ đ�
 | 4 | [`TIM_HIEU_OPENMONTAGE.md`](./TIM_HIEU_OPENMONTAGE.md) • [`HUONG_DAN_CUSTOM_OPENMONTAGE.md`](./HUONG_DAN_CUSTOM_OPENMONTAGE.md) | Toàn tập tìm hiểu OpenMontage là gì, tính năng 14+ Cut Types, bản đồ từng thư mục và 5 cấp độ Custom từ JSON đến React/Remotion. |
 | 5 | [`DANH_SACH_28_SKILLS_LAM_VIDEO.md`](./DANH_SACH_28_SKILLS_LAM_VIDEO.md) | Danh sách 28 Skills tốt nhất chia theo 6 tầng sản xuất video và công thức phối hợp cho từng chủ đề. |
 | 6 | [`TONG_HOP_REPO_SKILLS.md`](./TONG_HOP_REPO_SKILLS.md) | Tổng hợp các Repository AI Video & YouTube Agent Skills mã nguồn mở đã tích hợp. |
+| 7 | [`CAU_HINH_ENV_VA_API_KEYS.md`](./CAU_HINH_ENV_VA_API_KEYS.md) | Giải thích chi tiết các biến trong `.env.example`, `.vibi_api_key` và bộ API Keys tối ưu chất lượng video. |
 
 ---
 

@@ -33,6 +33,7 @@ Toàn bộ tài liệu nghiên cứu, kế hoạch sản xuất, hướng dẫn 
 - **Bản nghiên cứu chọn chủ đề:** [`./Chu-De/NGHIEN_CUU_CHU_DE.md`](./Chu-De/NGHIEN_CUU_CHU_DE.md)
 - **Tổng hợp kịch bản 2 cột (AV Script) & Props JSON 6 chủ đề:** [`./Chu-De/TONG_HOP_KICH_BAN_VA_VIDEO_DEMO_6_CHU_DE.md`](./Chu-De/TONG_HOP_KICH_BAN_VA_VIDEO_DEMO_6_CHU_DE.md)
 - **Hướng dẫn tùy biến (Custom) OpenMontage:** [`./Chu-De/HUONG_DAN_CUSTOM_OPENMONTAGE.md`](./Chu-De/HUONG_DAN_CUSTOM_OPENMONTAGE.md)
+- **Hướng dẫn cấu hình `.env` & API Keys tối ưu:** [`./Chu-De/CAU_HINH_ENV_VA_API_KEYS.md`](./Chu-De/CAU_HINH_ENV_VA_API_KEYS.md)
 - **Danh sách 28 Skills & Kho Repo làm video:** [`./Chu-De/DANH_SACH_28_SKILLS_LAM_VIDEO.md`](./Chu-De/DANH_SACH_28_SKILLS_LAM_VIDEO.md) • [`./Chu-De/TONG_HOP_REPO_SKILLS.md`](./Chu-De/TONG_HOP_REPO_SKILLS.md)
 - **6 thư mục kịch bản & hồ sơ kênh:**
   1. [`./Chu-De/Tam-Ly-Hoc-Tu-Duy/`](./Chu-De/Tam-Ly-Hoc-Tu-Duy/KICH_BAN_VA_PHAN_CANH_DEMO.md) *(Props: [`om_t1_behavior.json`](./remotion-composer/public/demo-props/om_t1_behavior.json))*
