@@ -20,6 +20,7 @@ Mỗi video trả lời một câu hỏi cụ thể về một cảng, sân bay,
 ## Tài liệu điều hành
 
 - [Quyết định ngách và checklist Giai đoạn 0](./21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md) — file hiện hành: đã chốt, chưa chốt, việc theo ngày và cổng duyệt.
+- [Gợi ý 20 chủ đề hấp dẫn & được tìm kiếm nhiều (2025–2026)](./22_GOI_Y_20_CHU_DE_XU_HUONG_TIM_KIEM_2026-11-17.md) — kho 20 đề tài bản đồ 3D bám sát xu hướng tìm kiếm mới nhất.
 - [Phân tích GitHub, thị trường, chính sách và kế hoạch ngách](./16_PHAN_TICH_DOC_LAP_GITHUB_THI_TRUONG_NGACH_2026-11-14.md) — tài liệu nghiên cứu, giữ nguyên làm tư liệu tham khảo.
 - [Đánh giá 19 repository GitHub](./14_DANH_GIA_19_REPO_GITHUB.md) — chi tiết workflow, license, chi phí từng repo.
 - [Quét ngách YouTube ngày 14/11/2026](./17_QUET_NGACH_YOUTUBE_2026-11-14.md) — 4.585 video công khai trên 22 nhóm ngách.

@@ -4,7 +4,7 @@
   "pipeline_type": "animated-explainer",
   "stage": "compose",
   "status": "completed",
-  "timestamp": "2026-11-16T16:18:31.471579+00:00",
+  "timestamp": "2026-11-16T17:19:37.240343+00:00",
   "checkpoint_policy": "guided",
   "human_approval_required": false,
   "human_approved": true,
@@ -20,14 +20,14 @@
           "resolution": "1920x1080",
           "fps": 30.0,
           "duration_seconds": 590.49,
-          "file_size_bytes": 2040410625,
+          "file_size_bytes": 2030426968,
           "platform_target": "youtube_landscape"
         }
       ],
-      "render_time_seconds": 1448.54,
+      "render_time_seconds": 1643.76,
       "warnings": [],
       "verification_notes": [
-        "Rendered 590.49s @ 30.0fps (2,040,410,625 bytes, CRF 14).",
+        "Rendered 590.49s @ 30.0fps (2,030,426,968 bytes, CRF 14).",
         "Atelier check: stock_reuse_detected=False, art_direction_declared=True.",
         "Transcript accuracy: word_accuracy=1.0, transcript_matches_script=True."
       ],
@@ -49,7 +49,7 @@
           "fps": 30.0,
           "has_audio": true,
           "codec": "h264",
-          "file_size_bytes": 2040410625,
+          "file_size_bytes": 2030426968,
           "issues": [],
           "target_duration": 590.44,
           "duration_drift_pct": 0.0
@@ -116,7 +116,7 @@
     "critical_count": 0,
     "suggestion_count": 0,
     "notes": [
-      "Rendered 590.49s @ 30.0fps (2,040,410,625 bytes, CRF 14).",
+      "Rendered 590.49s @ 30.0fps (2,030,426,968 bytes, CRF 14).",
       "Atelier check: stock_reuse_detected=False, art_direction_declared=True.",
       "Transcript accuracy: word_accuracy=1.0, transcript_matches_script=True."
     ]

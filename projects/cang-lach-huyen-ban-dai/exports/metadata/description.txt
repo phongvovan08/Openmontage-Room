@@ -21,14 +21,24 @@ Từ Bến Sáu Kho năm 1874 đến đại cảng nước sâu Lạch Huyện 2
 🛰️ BẢN QUYỀN HÌNH ẢNH, BẢN ĐỒ & ÂM THANH:
 • Ảnh vệ tinh nền: EOxCloudless Sentinel-2 cloudless mosaic 2024 (z6–z14) by EOX IT Services GmbH / Copernicus — CC BY 4.0 (https://cloudless.eox.at).
 • Đường bờ & hạ tầng: Natural Earth (Public Domain) & © OpenStreetMap contributors — ODbL (https://www.openstreetmap.org/copyright).
-• Ảnh tư liệu thực địa (Wikimedia Commons):
+• Ảnh tư liệu thực địa (Wikimedia Commons — 17 ảnh):
   - Cảng Hải Phòng xưa (File:Cang_Hai_Phong.jpg) — Aero Mre Indochine / TUNMCHP, CC0 1.0.
+  - Siêu tàu container HMM Algeciras 400 m (File:HMM_Algeciras_Arriving_in_Southampton_4.jpg) — Tim Sheerman-Chase, CC BY 4.0.
   - Bến cảng Chùa Vẽ (File:Chùa_Vẽ_Terminal,_Port_of_Hải_Phòng.JPG) — Phó Nháy, Public Domain.
   - Bến cảng Tân Vũ (File:CANG_TAN_VU.jpg) — TUNMCHP, CC0 1.0.
+  - Cảng trung chuyển Singapore Tanjong Pagar (File:Singapore_(SG),_Tanjong_Pagar_Terminal_--_2019_--_4728.jpg) — Dietmar Rabich, CC BY-SA 4.0.
   - Sông Cấm Hải Phòng tháng 12/2023 (File:Sông_Cấm_Hải_Phòng_tháng_12_năm_2023f.jpg) — HP1992, CC BY-SA 4.0.
+  - Cảng Đình Vũ (File:CANG_DINH_VU.jpg) — TUNMCHP, CC0 1.0.
+  - Cầu Hoàng Văn Thụ bắc qua sông Cấm (File:Cau-hoang-van-thu-hai-phong.jpg) — HP1992, CC BY-SA 4.0.
+  - Bến cảng Hoàng Diệu – Chùa Vẽ (File:CANG_HOANG_DIEU_CHUA_VE.jpg) — TUNMCHP, CC0 1.0.
+  - Tàu nạo vét hút bụng Pallieter (File:Pallieter_Hopper_Dredger_R02.jpg) — Marc Ryckaert, CC BY-SA 4.0.
   - Cầu vượt biển Tân Vũ – Lạch Huyện (File:Dinh_Vu_-_Cat_Hai_Bridge.jpg) — Thu Hà Nội, CC BY 3.0.
+  - Tàu container cập bến HICT Cát Hải (File:Container_Ship_at_the_Hai_Phong_International_Container_Terminal_01.jpg) — Nathan.cima, CC BY-SA 4.0.
   - Cẩu bờ Lạch Huyện nhìn từ Cái Viềng (File:Lach_Huyen_Port_from_Cai_Vieng_Port.jpg) — Marc Mongenet, CC BY-SA 4.0.
   - Bến 3–4 HTIT Lạch Huyện (File:CANG_HTIT.jpg) — TUNMCHP, CC0 1.0.
+  - Cảng Los Angeles bờ Tây Hoa Kỳ (File:View_of_Port_of_Los_Angeles_with_container_ships.jpg) — Downtowngal, CC BY-SA 4.0.
+  - Vùng biển Đồ Sơn Hải Phòng (File:Khu_du_lịch_Đồ_Sơn,_Đồ_Sơn,_Hải_Phòng,_Vietnam_-_panoramio_(1).jpg) — duymanh.do89, CC BY-SA 3.0.
+  - Ga Hải Phòng (File:Bambus-rejser-ga-hai-phong.jpg) — Bambusser, CC BY 4.0.
 • Công bố nội dung tổng hợp (Altered/Synthetic Content Disclosure): Lời bình sử dụng giọng đọc AI tổng hợp (Vibi TTS — Haitrieu) cùng đồ họa bản đồ 3D mô phỏng từ ảnh vệ tinh và dữ liệu địa lý thực tế.
 
 #GiaiMaBanDo #CangLachHuyen #HaiPhong #DiaLyKinhTe #HaTangVietNam
