@@ -221,9 +221,10 @@ export const ComparisonCard: React.FC<ComparisonCardProps> = ({
               style={{
                 fontFamily,
                 fontWeight: 800,
-                fontSize: valueFontSize,
+                fontSize: leftValue.length > 24 ? Math.min(valueFontSize, 42) : leftValue.length > 14 ? Math.min(valueFontSize, 52) : valueFontSize,
                 color: leftColor,
-                lineHeight: 1.1,
+                lineHeight: 1.2,
+                textAlign: "center",
               }}
             >
               {leftValue}
@@ -345,9 +346,10 @@ export const ComparisonCard: React.FC<ComparisonCardProps> = ({
               style={{
                 fontFamily,
                 fontWeight: 800,
-                fontSize: valueFontSize,
+                fontSize: rightValue.length > 24 ? Math.min(valueFontSize, 42) : rightValue.length > 14 ? Math.min(valueFontSize, 52) : valueFontSize,
                 color: rightColor,
-                lineHeight: 1.1,
+                lineHeight: 1.2,
+                textAlign: "center",
               }}
             >
               {rightValue}

@@ -127,30 +127,35 @@ class VibiSTT(SpeechAPI):
         if not audio_file.is_file():
             raise FileNotFoundError(f"Audio file not found: {audio_file}")
 
+        import mimetypes
+
         lang = inputs.get("language_code") or inputs.get("language") or "vi"
-        granularity = inputs.get("timestamps_granularity", "word")
         form_fields: list[tuple[str, str]] = [
             ("language_code", str(lang)),
-            ("timestamps_granularity", str(granularity)),
-            ("tag_audio_events", "true" if inputs.get("tag_audio_events", True) else "false"),
-            ("no_verbatim", "true" if inputs.get("no_verbatim", False) else "false"),
         ]
+        if "timestamps_granularity" in inputs:
+            form_fields.append(("timestamps_granularity", str(inputs["timestamps_granularity"])))
+        if "tag_audio_events" in inputs:
+            form_fields.append(("tag_audio_events", "true" if inputs["tag_audio_events"] else "false"))
+        if "no_verbatim" in inputs:
+            form_fields.append(("no_verbatim", "true" if inputs["no_verbatim"] else "false"))
         if inputs.get("diarize"):
             form_fields.append(("diarize", "true"))
             if inputs.get("num_speakers") is not None:
                 form_fields.append(("num_speakers", str(int(inputs["num_speakers"]))))
         for term in inputs.get("keyterms") or []:
             form_fields.append(("keyterms", str(term)))
-        for fmt in inputs.get("additional_formats", ["srt"]):
+        for fmt in inputs.get("additional_formats") or []:
             form_fields.append(("additional_formats", str(fmt)))
 
+        mime_type = mimetypes.guess_type(str(audio_file))[0] or "audio/mpeg"
         headers = {"xi-api-key": key, "User-Agent": self.USER_AGENT}
         with audio_file.open("rb") as fh:
             submit_resp = requests.post(
                 f"{self.API_BASE}/v1/speech-to-text",
                 headers=headers,
                 data=form_fields,
-                files={"file": (audio_file.name, fh)},
+                files={"file": (audio_file.name, fh, mime_type)},
                 timeout=300,
             )
         submit_resp.raise_for_status()

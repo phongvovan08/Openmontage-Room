@@ -1,0 +1,501 @@
+{
+  "section_id": "s2",
+  "provider": "vibi",
+  "vibi_provider": "minimax",
+  "model": "speech-2.8-hd",
+  "voice_name": "Haitrieu",
+  "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+  "voice_settings": {
+    "speed": 1.1,
+    "pitch": 0,
+    "vol": 1
+  },
+  "provider_text": "Phóng to bản đồ cửa biển Hải Phòng, bạn sẽ thấy ngay nghịch lý. Cụm cảng truyền thống nằm sâu trên sông Cấm, cách phao số không ngoài khơi tới bốn mươi tám ki lô mét. Trước đây, hàng xuất khẩu miền Bắc buộc phải đi tàu nhỏ sang Xin ga po hoặc Hồng Kông để ghép chuyến.",
+  "display_text": "Phóng to bản đồ cửa biển Hải Phòng, bạn sẽ thấy ngay nghịch lý. Cụm cảng truyền thống nằm sâu trên sông Cấm, cách phao số 0 ngoài khơi tới 48 km. Trước đây, hàng xuất khẩu miền Bắc buộc phải đi tàu nhỏ sang Singapore hoặc Hồng Kông để ghép chuyến.",
+  "raw_duration_seconds": 15.25,
+  "duration_seconds": 14.897,
+  "lead_trimmed_seconds": 0.19,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 3.628,
+      "text": "Phóng to bản đồ cửa biển Hải Phòng, bạn sẽ thấy ngay nghịch lý."
+    },
+    {
+      "start": 4.062,
+      "end": 9.373,
+      "text": "Cụm cảng truyền thống nằm sâu trên sông Cấm, cách phao số không ngoài khơi tới bốn mươi tám ki lô mét."
+    },
+    {
+      "start": 10.028,
+      "end": 14.897,
+      "text": "Trước đây, hàng xuất khẩu miền Bắc buộc phải đi tàu nhỏ sang Xin ga po hoặc Hồng Kông để ghép chuyến."
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word": "Phóng",
+      "start": 0.108,
+      "end": 0.373,
+      "startMs": 108,
+      "endMs": 373,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "to",
+      "start": 0.373,
+      "end": 0.638,
+      "startMs": 373,
+      "endMs": 638,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bản",
+      "start": 0.638,
+      "end": 0.903,
+      "startMs": 638,
+      "endMs": 903,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đồ",
+      "start": 0.903,
+      "end": 1.168,
+      "startMs": 903,
+      "endMs": 1168,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cửa",
+      "start": 1.168,
+      "end": 1.433,
+      "startMs": 1168,
+      "endMs": 1433,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "biển",
+      "start": 1.433,
+      "end": 1.698,
+      "startMs": 1433,
+      "endMs": 1698,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Hải",
+      "start": 1.698,
+      "end": 1.963,
+      "startMs": 1698,
+      "endMs": 1963,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Phòng,",
+      "start": 1.963,
+      "end": 2.228,
+      "startMs": 1963,
+      "endMs": 2228,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bạn",
+      "start": 2.228,
+      "end": 2.493,
+      "startMs": 2228,
+      "endMs": 2493,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sẽ",
+      "start": 2.493,
+      "end": 2.758,
+      "startMs": 2493,
+      "endMs": 2758,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thấy",
+      "start": 2.758,
+      "end": 3.023,
+      "startMs": 2758,
+      "endMs": 3023,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ngay",
+      "start": 3.023,
+      "end": 3.288,
+      "startMs": 3023,
+      "endMs": 3288,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nghịch",
+      "start": 3.288,
+      "end": 3.553,
+      "startMs": 3288,
+      "endMs": 3553,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lý.",
+      "start": 3.553,
+      "end": 3.818,
+      "startMs": 3553,
+      "endMs": 3818,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Cụm",
+      "start": 4.252,
+      "end": 4.493,
+      "startMs": 4252,
+      "endMs": 4493,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cảng",
+      "start": 4.493,
+      "end": 4.735,
+      "startMs": 4493,
+      "endMs": 4735,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "truyền",
+      "start": 4.735,
+      "end": 4.976,
+      "startMs": 4735,
+      "endMs": 4976,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thống",
+      "start": 4.976,
+      "end": 5.218,
+      "startMs": 4976,
+      "endMs": 5218,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nằm",
+      "start": 5.218,
+      "end": 5.459,
+      "startMs": 5218,
+      "endMs": 5459,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sâu",
+      "start": 5.459,
+      "end": 5.7,
+      "startMs": 5459,
+      "endMs": 5700,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trên",
+      "start": 5.7,
+      "end": 5.942,
+      "startMs": 5700,
+      "endMs": 5942,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sông",
+      "start": 5.942,
+      "end": 6.183,
+      "startMs": 5942,
+      "endMs": 6183,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Cấm,",
+      "start": 6.183,
+      "end": 6.425,
+      "startMs": 6183,
+      "endMs": 6425,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cách",
+      "start": 6.425,
+      "end": 6.666,
+      "startMs": 6425,
+      "endMs": 6666,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phao",
+      "start": 6.666,
+      "end": 6.908,
+      "startMs": 6666,
+      "endMs": 6908,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "số",
+      "start": 6.908,
+      "end": 7.149,
+      "startMs": 6908,
+      "endMs": 7149,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "không",
+      "start": 7.149,
+      "end": 7.39,
+      "startMs": 7149,
+      "endMs": 7390,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ngoài",
+      "start": 7.39,
+      "end": 7.632,
+      "startMs": 7390,
+      "endMs": 7632,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khơi",
+      "start": 7.632,
+      "end": 7.873,
+      "startMs": 7632,
+      "endMs": 7873,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tới",
+      "start": 7.873,
+      "end": 8.115,
+      "startMs": 7873,
+      "endMs": 8115,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bốn",
+      "start": 8.115,
+      "end": 8.356,
+      "startMs": 8115,
+      "endMs": 8356,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mươi",
+      "start": 8.356,
+      "end": 8.597,
+      "startMs": 8356,
+      "endMs": 8597,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tám",
+      "start": 8.597,
+      "end": 8.839,
+      "startMs": 8597,
+      "endMs": 8839,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ki",
+      "start": 8.839,
+      "end": 9.08,
+      "startMs": 8839,
+      "endMs": 9080,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lô",
+      "start": 9.08,
+      "end": 9.322,
+      "startMs": 9080,
+      "endMs": 9322,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét.",
+      "start": 9.322,
+      "end": 9.563,
+      "startMs": 9322,
+      "endMs": 9563,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Trước",
+      "start": 10.218,
+      "end": 10.439,
+      "startMs": 10218,
+      "endMs": 10439,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đây,",
+      "start": 10.439,
+      "end": 10.661,
+      "startMs": 10439,
+      "endMs": 10661,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hàng",
+      "start": 10.661,
+      "end": 10.882,
+      "startMs": 10661,
+      "endMs": 10882,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "xuất",
+      "start": 10.882,
+      "end": 11.104,
+      "startMs": 10882,
+      "endMs": 11104,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khẩu",
+      "start": 11.104,
+      "end": 11.325,
+      "startMs": 11104,
+      "endMs": 11325,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "miền",
+      "start": 11.325,
+      "end": 11.547,
+      "startMs": 11325,
+      "endMs": 11547,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Bắc",
+      "start": 11.547,
+      "end": 11.768,
+      "startMs": 11547,
+      "endMs": 11768,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "buộc",
+      "start": 11.768,
+      "end": 11.99,
+      "startMs": 11768,
+      "endMs": 11990,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phải",
+      "start": 11.99,
+      "end": 12.211,
+      "startMs": 11990,
+      "endMs": 12211,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đi",
+      "start": 12.211,
+      "end": 12.433,
+      "startMs": 12211,
+      "endMs": 12433,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tàu",
+      "start": 12.433,
+      "end": 12.654,
+      "startMs": 12433,
+      "endMs": 12654,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhỏ",
+      "start": 12.654,
+      "end": 12.875,
+      "startMs": 12654,
+      "endMs": 12875,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sang",
+      "start": 12.875,
+      "end": 13.097,
+      "startMs": 12875,
+      "endMs": 13097,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Xin",
+      "start": 13.097,
+      "end": 13.318,
+      "startMs": 13097,
+      "endMs": 13318,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ga",
+      "start": 13.318,
+      "end": 13.54,
+      "startMs": 13318,
+      "endMs": 13540,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "po",
+      "start": 13.54,
+      "end": 13.761,
+      "startMs": 13540,
+      "endMs": 13761,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hoặc",
+      "start": 13.761,
+      "end": 13.983,
+      "startMs": 13761,
+      "endMs": 13983,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Hồng",
+      "start": 13.983,
+      "end": 14.204,
+      "startMs": 13983,
+      "endMs": 14204,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Kông",
+      "start": 14.204,
+      "end": 14.426,
+      "startMs": 14204,
+      "endMs": 14426,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "để",
+      "start": 14.426,
+      "end": 14.647,
+      "startMs": 14426,
+      "endMs": 14647,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ghép",
+      "start": 14.647,
+      "end": 14.869,
+      "startMs": 14647,
+      "endMs": 14869,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chuyến.",
+      "start": 14.869,
+      "end": 15.09,
+      "startMs": 14869,
+      "endMs": 15090,
+      "pageBreakAfter": true
+    }
+  ]
+}

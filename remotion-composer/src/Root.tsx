@@ -5,7 +5,11 @@ import {
   calculateCinematicMetadata,
 } from "./CinematicRenderer";
 import { signalFromTomorrowWithMusicFixture } from "./cinematic/fixtures";
-import { TalkingHead, TalkingHeadProps } from "./TalkingHead";
+import {
+  TalkingHead,
+  TalkingHeadProps,
+  calculateTalkingHeadMetadata,
+} from "./TalkingHead";
 import {
   TitledVideo,
   calculateTitledVideoMetadata,
@@ -16,6 +20,64 @@ import { ProductReveal, ProductRevealProps } from "./components/ProductReveal";
 import { CaptionOverlay, WordCaption } from "./components/CaptionOverlay";
 import { CollageBurst, CollageBurstProps } from "./CollageBurst";
 import { LyricOverlay, LyricOverlayProps } from "./LyricOverlay";
+import { InnerThoughtsEpisode, InnerThoughtsProps } from "./InnerThoughtsEpisode";
+import {
+  ReactiveMindAtelier,
+  ReactiveMindAtelierProps,
+} from "./ReactiveMindAtelier";
+import {
+  Loai07CollageBurst,
+  Loai08UIChatSim,
+  Loai09PoeticQuote,
+  Loai10BookReveal,
+  Loai11DanKoeSketch,
+  Loai12SplitRoleplay,
+  Loai13PodcastAudiogram,
+  ShowcaseVideoProps,
+} from "./Showcase7To13";
+import {
+  TiktokVerticalBespoke,
+  TiktokVerticalBespokeProps,
+} from "./TiktokVerticalBespoke";
+import {
+  PhatBieuCartoon2D,
+  PhatBieuCartoon2DProps,
+} from "./PhatBieuCartoon2D";
+import { CharacterSelectionBoard } from "./CharacterSelectionBoard";
+import { MochiVertical9x16, MochiVertical9x16Props } from "./MochiVertical9x16";
+import { CrayonDoodle9x16, CrayonDoodle9x16Props } from "./CrayonDoodle9x16";
+import {
+  CarterSelfDevStyle9x16,
+  MochiCarterVertical9x16,
+  CarterSelfDevProps,
+} from "./CarterSelfDevSuite";
+import {
+  StickmanB1Director,
+  StickmanB1DirectorProps,
+} from "./StickmanB1Director";
+import {
+  StickmanFullMotion9x16,
+  StickmanFullMotion9x16Props,
+} from "./StickmanFullMotion9x16";
+import {
+  TurboFlowOmniFlash9x16,
+  TurboFlowOmniFlash9x16Props,
+} from "./TurboFlowOmniFlash9x16";
+import {
+  BeMochiEp01Master,
+  BeMochiEp01Props,
+} from "./BeMochiEp01Suite";
+import {
+  BeMochiEp01Full16x9,
+  BeMochiEp01FullProps,
+} from "./BeMochiEp01Full16x9";
+import { BeMochi5StatesShowcase } from "./components/MochiCharacter";
+import { MochiLocalDemoRoot } from "./MochiLocalComparison";
+import { MochiThreeStylesRoot } from "./MochiThreeStyles";
+import { HumanReferenceRoot } from "./HumanReferenceRevision";
+import { PaperPuppetRoot } from "./PaperPuppetFilm";
+import { OpenPeepsRoot } from "./OpenPeepsDemo";
+import { BridgeRoot } from "./videos/bridge/BridgeRoot";
 
 // ---------------------------------------------------------------------------
 // Theme System — prevents every video from looking like dark fintech
@@ -133,8 +195,331 @@ const calculateMetadata: CalculateMetadataFunction<ExplainerProps> = async ({
 };
 
 export const Root: React.FC = () => {
+  const calcShowcaseMeta = ({ props }: { props: ShowcaseVideoProps }) => ({
+    durationInFrames: Math.max(
+      1,
+      Math.ceil((props.durationSeconds || 69) * 30)
+    ),
+  });
+
+  const defaultShowcaseProps: ShowcaseVideoProps = {
+    durationSeconds: 69,
+    narrationSrc: "episodes/reactive-mind/narration.mp3",
+    musicSrc: "episodes/reactive-mind/ambient_music.wav",
+    captions: [],
+  };
+
   return (
     <>
+      <Composition
+        id="TurboFlowOmniFlash9x16"
+        component={TurboFlowOmniFlash9x16}
+        durationInFrames={30 * 90}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          durationSeconds: 90,
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: TurboFlowOmniFlash9x16Props;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 90) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="StickmanFullMotion9x16"
+        component={StickmanFullMotion9x16}
+        durationInFrames={30 * 90}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          durationSeconds: 90,
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: StickmanFullMotion9x16Props;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 90) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="StickmanB1Director"
+        component={StickmanB1Director}
+        durationInFrames={30 * 90}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          durationSeconds: 90,
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: StickmanB1DirectorProps;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 90) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="CarterSelfDevStyle9x16"
+        component={CarterSelfDevStyle9x16}
+        durationInFrames={30 * 90}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          durationSeconds: 90,
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: CarterSelfDevProps;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 90) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="MochiCarterVertical9x16"
+        component={MochiCarterVertical9x16}
+        durationInFrames={30 * 90}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          durationSeconds: 90,
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: CarterSelfDevProps;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 90) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="CrayonDoodle9x16"
+        component={CrayonDoodle9x16}
+        durationInFrames={30 * 90}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          durationSeconds: 90,
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: CrayonDoodle9x16Props;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 90) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="MochiVertical9x16"
+        component={MochiVertical9x16}
+        durationInFrames={30 * 90}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          durationSeconds: 90,
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: MochiVertical9x16Props;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 90) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="CharacterSelectionBoard"
+        component={CharacterSelectionBoard}
+        durationInFrames={30}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          mode: "all" as const,
+        }}
+      />
+      <Composition
+        id="PhatBieuCartoon2D"
+        component={PhatBieuCartoon2D}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          durationSeconds: 69,
+          narrationSrc: "episodes/reactive-mind/narration.mp3",
+          musicSrc: "episodes/reactive-mind/tiktok_newpulse_bgm.wav",
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: PhatBieuCartoon2DProps;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 69) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="TiktokVerticalBespoke"
+        component={TiktokVerticalBespoke}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          durationSeconds: 69,
+          narrationSrc: "episodes/reactive-mind/narration.mp3",
+          musicSrc: "episodes/reactive-mind/tiktok_newpulse_bgm.wav",
+          captions: [],
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: TiktokVerticalBespokeProps;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 69) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="Loai07CollageBurst"
+        component={Loai07CollageBurst}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={defaultShowcaseProps}
+        calculateMetadata={calcShowcaseMeta}
+      />
+      <Composition
+        id="Loai08UIChatSim"
+        component={Loai08UIChatSim}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={defaultShowcaseProps}
+        calculateMetadata={calcShowcaseMeta}
+      />
+      <Composition
+        id="Loai09PoeticQuote"
+        component={Loai09PoeticQuote}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={defaultShowcaseProps}
+        calculateMetadata={calcShowcaseMeta}
+      />
+      <Composition
+        id="Loai10BookReveal"
+        component={Loai10BookReveal}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={defaultShowcaseProps}
+        calculateMetadata={calcShowcaseMeta}
+      />
+      <Composition
+        id="Loai11DanKoeSketch"
+        component={Loai11DanKoeSketch}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={defaultShowcaseProps}
+        calculateMetadata={calcShowcaseMeta}
+      />
+      <Composition
+        id="Loai12SplitRoleplay"
+        component={Loai12SplitRoleplay}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={defaultShowcaseProps}
+        calculateMetadata={calcShowcaseMeta}
+      />
+      <Composition
+        id="Loai13PodcastAudiogram"
+        component={Loai13PodcastAudiogram}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={defaultShowcaseProps}
+        calculateMetadata={calcShowcaseMeta}
+      />
+      <Composition
+        id="ReactiveMindAtelier"
+        component={ReactiveMindAtelier}
+        durationInFrames={30 * 69}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          durationSeconds: 69,
+          narrationSrc: "episodes/reactive-mind/narration.mp3",
+          musicSrc: "episodes/reactive-mind/ambient_music.wav",
+          captions: [],
+        }}
+        calculateMetadata={({
+          props,
+        }: {
+          props: ReactiveMindAtelierProps;
+        }) => ({
+          durationInFrames: Math.max(
+            1,
+            Math.ceil((props.durationSeconds || 69) * 30)
+          ),
+        })}
+      />
+      <Composition
+        id="InnerThoughtsEpisode"
+        component={InnerThoughtsEpisode}
+        durationInFrames={30 * 60}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{durationSeconds: 60, narration: "", music: "", fontRegular: "", fontSemibold: "", chapters: [], beats: [], captions: []}}
+        calculateMetadata={({props}: {props: InnerThoughtsProps}) => ({durationInFrames: Math.max(1, Math.ceil(props.durationSeconds * 30))})}
+      />
       <Composition
         id="Explainer"
         component={Explainer}
@@ -178,7 +563,7 @@ export const Root: React.FC = () => {
       <Composition
         id="TalkingHead"
         component={TalkingHead}
-        durationInFrames={30 * 300}
+        durationInFrames={30 * 69}
         fps={30}
         width={1080}
         height={1920}
@@ -190,6 +575,7 @@ export const Root: React.FC = () => {
           fontSize: 52,
           highlightColor: "#22D3EE",
         }}
+        calculateMetadata={calculateTalkingHeadMetadata}
       />
       <Composition
         id="TitledVideo"
@@ -330,6 +716,118 @@ export const Root: React.FC = () => {
           overlay: true,
         } as EndTagProps}
       />
+      <Composition
+        id="BeMochiEp01Horizontal16x9"
+        component={BeMochiEp01Master}
+        durationInFrames={2700}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          orientation: "16:9",
+          useOmniFlashClips: false,
+        } as BeMochiEp01Props}
+      />
+      <Composition
+        id="BeMochiEp01Vertical9x16"
+        component={BeMochiEp01Master}
+        durationInFrames={2700}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          orientation: "9:16",
+          visualMode: "svg",
+          useOmniFlashClips: false,
+        } as BeMochiEp01Props}
+      />
+      <Composition
+        id="BeMochiEp01Crayon16x9"
+        component={BeMochiEp01Master}
+        durationInFrames={2700}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          orientation: "16:9",
+          visualMode: "crayon",
+          useOmniFlashClips: false,
+        } as BeMochiEp01Props}
+      />
+      <Composition
+        id="BeMochiEp01Crayon9x16"
+        component={BeMochiEp01Master}
+        durationInFrames={2700}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          orientation: "9:16",
+          visualMode: "crayon",
+          useOmniFlashClips: false,
+        } as BeMochiEp01Props}
+      />
+      <Composition
+        id="BeMochiEp01OmniFlash16x9"
+        component={BeMochiEp01Master}
+        durationInFrames={2700}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          orientation: "16:9",
+          visualMode: "omniflash",
+          useOmniFlashClips: true,
+        } as BeMochiEp01Props}
+      />
+      <Composition
+        id="BeMochiEp01OmniFlash9x16"
+        component={BeMochiEp01Master}
+        durationInFrames={2700}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          orientation: "9:16",
+          visualMode: "omniflash",
+          useOmniFlashClips: true,
+        } as BeMochiEp01Props}
+      />
+      <Composition
+        id="BeMochi5StatesIllustrated"
+        component={BeMochi5StatesShowcase}
+        durationInFrames={180}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{ mode: "illustrated" as const }}
+      />
+      <Composition
+        id="BeMochi5StatesSvgRig"
+        component={BeMochi5StatesShowcase}
+        durationInFrames={240}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{ mode: "svg" as const }}
+      />
+      <Composition
+        id="BeMochiEp01Full16x9"
+        component={BeMochiEp01Full16x9}
+        durationInFrames={17700}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          clipFolder: "episodes/mochi-ep01-full",
+        } as BeMochiEp01FullProps}
+      />
+      <MochiLocalDemoRoot />
+      <MochiThreeStylesRoot />
+      <HumanReferenceRoot />
+      <PaperPuppetRoot />
+      <OpenPeepsRoot />
+      <BridgeRoot />
     </>
   );
 };

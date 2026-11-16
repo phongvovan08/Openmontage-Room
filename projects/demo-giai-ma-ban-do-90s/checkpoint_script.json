@@ -1,0 +1,315 @@
+{
+  "version": "1.0",
+  "project_id": "demo-giai-ma-ban-do-90s",
+  "pipeline_type": "animated-explainer",
+  "stage": "script",
+  "status": "completed",
+  "timestamp": "2026-11-15T17:26:33.113853+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "script": {
+      "version": "1.0",
+      "title": "V\u00ec sao mi\u1ec1n B\u1eafc ph\u1ea3i ra t\u1eadn L\u1ea1ch Huy\u1ec7n m\u1edbi l\u00e0m \u0111\u01b0\u1ee3c c\u1ea3ng n\u01b0\u1edbc s\u00e2u?",
+      "total_duration_seconds": 90,
+      "voice_performance": {
+        "performance_intent": "Bi\u00ean t\u1eadp vi\u00ean gi\u1ea3i m\u00e3 b\u1ea3n \u0111\u1ed3 kinh t\u1ebf - h\u1ea1 t\u1ea7ng Vi\u1ec7t Nam: \u0111i\u1ec1m t\u0129nh, \u0111\u0129nh \u0111\u1ea1c, gi\u00e0u s\u1ee9c n\u1eb7ng d\u1eef li\u1ec7u nh\u01b0ng g\u1ecdn g\u00e0ng, d\u1ec5 nghe.",
+        "pacing_profile": "technical",
+        "energy_curve": "M\u1edf \u0111\u1ea7u g\u1ee3i t\u00f2 m\u00f2 b\u1eb1ng ngh\u1ecbch l\u00fd l\u1ecbch s\u1eed (s1), tr\u1ea7m v\u00e0 r\u00f5 khi ch\u1ec9 ra \u0111i\u1ec3m ngh\u1ebdn ph\u00f9 sa (s2-s3), d\u1ee9t kho\u00e1t khi ph\u00f3ng tuy\u1ebfn c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n (s4), s\u1eafc n\u00e9t \u1edf cao tr\u00e0o m\u1eb7t c\u1eaft 48 km (s5), v\u00e0 k\u1ebft m\u1edf g\u1ecdn g\u00e0ng (s6).",
+        "pause_policy": "Ngh\u1ec9 kho\u1ea3ng 0,35s sau d\u1ea5u ch\u1ea5m c\u00e2u theo b\u1ed9 l\u1ecdc t\u1ef1 \u0111\u1ed9ng c\u1ee7a _tools/vibi_tts.py v\u00e0 ch\u1eeba kho\u1ea3ng th\u1edf 0,4s-0,5s gi\u1eefa 6 c\u1ea3nh \u0111\u1ec3 ng\u01b0\u1eddi xem \u0111\u1ecdc th\u00f4ng s\u1ed1 h\u1ea3i \u0111\u1ed3 tr\u00ean m\u00e0n h\u00ecnh.",
+        "sample_section_id": "s5",
+        "provider_notes": {
+          "vibi": "D\u00f9ng gi\u1ecdng Haitrieu (model speech-2.8-hd, speed 1.1). Truy\u1ec1n tr\u01b0\u1eddng delivery_cues.provider_text \u0111\u00e3 vi\u1ebft th\u00e0nh ch\u1eef ti\u1ebfng Vi\u1ec7t \u0111\u1ea7y \u0111\u1ee7 cho s\u1ed1 \u00e2m, s\u1ed1 th\u1eadp ph\u00e2n v\u00e0 \u0111\u01a1n v\u1ecb (v\u00ed d\u1ee5 '\u00e2m b\u1ea3y m\u00e9t', 'm\u1ed9t tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m ngh\u00ecn t\u1ea5n') \u0111\u1ec3 tr\u00e1nh \u0111\u1ecdc nh\u1ea7m d\u1ea5u tr\u1eeb ho\u1eb7c ch\u1eef vi\u1ebft t\u1eaft DWT; tuy\u1ec7t \u0111\u1ed1i kh\u00f4ng ch\u00e8n th\u1ebb XML SSML v\u00e0o chu\u1ed7i g\u1eedi MiniMax."
+        }
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "label": "Hook \u2014 Ngh\u1ecbch l\u00fd th\u00e0nh ph\u1ed1 c\u1ea3ng tr\u0103m tu\u1ed5i (C\u00fa m\u00e1y 1: overview)",
+          "text": "H\u01a1n m\u1ed9t th\u1ebf k\u1ef7 mang danh th\u00e0nh ph\u1ed1 c\u1ea3ng l\u1edbn nh\u1ea5t mi\u1ec1n B\u1eafc, nh\u01b0ng su\u1ed1t h\u00e0ng ch\u1ee5c n\u0103m, H\u1ea3i Ph\u00f2ng kh\u00f4ng th\u1ec3 \u0111\u00f3n n\u1ed5i m\u1ed9t si\u00eau t\u00e0u container \u0111i th\u1eb3ng sang M\u1ef9 hay ch\u00e2u \u00c2u. V\u00ec sao c\u1ea3ng bi\u1ec3n l\u1ea1i ph\u1ea3i ch\u1ea1y tr\u1ed1n kh\u1ecfi d\u00f2ng s\u00f4ng sinh ra n\u00f3?",
+          "start_seconds": 0,
+          "end_seconds": 13,
+          "speaker_directions": "V\u00e0o nh\u1ecbp \u0111i\u1ec1m t\u0129nh, nh\u1ea5n nh\u1eb9 c\u1ee5m 'h\u01a1n m\u1ed9t th\u1ebf k\u1ef7' v\u00e0 'kh\u00f4ng th\u1ec3 \u0111\u00f3n n\u1ed5i', ng\u1eaft nh\u1ecbp ng\u1eafn tr\u01b0\u1edbc c\u00e2u h\u1ecfi cu\u1ed1i \u0111\u1ec3 m\u1edf kho\u1ea3ng tr\u1ed1ng t\u00f2 m\u00f2.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "curious_authoritative",
+            "emphasis_words": [
+              "h\u01a1n m\u1ed9t th\u1ebf k\u1ef7",
+              "kh\u00f4ng th\u1ec3 \u0111\u00f3n n\u1ed5i",
+              "ch\u1ea1y tr\u1ed1n"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.45,
+            "delivery_note": "\u0110\u1eb7t \u0111\u1ed1i l\u1eadp r\u00f5 gi\u1eefa danh ti\u1ebfng tr\u0103m n\u0103m v\u00e0 gi\u1edbi h\u1ea1n kh\u00f4ng \u0111\u00f3n \u0111\u01b0\u1ee3c si\u00eau t\u00e0u tuy\u1ebfn xa.",
+            "provider_text": "H\u01a1n m\u1ed9t th\u1ebf k\u1ef7 mang danh th\u00e0nh ph\u1ed1 c\u1ea3ng l\u1edbn nh\u1ea5t mi\u1ec1n B\u1eafc, nh\u01b0ng su\u1ed1t h\u00e0ng ch\u1ee5c n\u0103m, H\u1ea3i Ph\u00f2ng kh\u00f4ng th\u1ec3 \u0111\u00f3n n\u1ed5i m\u1ed9t si\u00eau t\u00e0u c\u00f4ng ten n\u01a1 \u0111i th\u1eb3ng sang M\u1ef9 hay ch\u00e2u \u00c2u. V\u00ec sao c\u1ea3ng bi\u1ec3n l\u1ea1i ph\u1ea3i ch\u1ea1y tr\u1ed1n kh\u1ecfi d\u00f2ng s\u00f4ng sinh ra n\u00f3?"
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "C\u00fa m\u00e1y overview (16:9): B\u1ea3n \u0111\u1ed3 vector to\u00e0n c\u1ea3nh Vi\u1ec7t Nam v\u00e0 Bi\u1ec3n \u0110\u00f4ng, hi\u1ec3n th\u1ecb \u0111\u1ea7y \u0111\u1ee7 nh\u00e3n Qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa v\u00e0 Qu\u1ea7n \u0111\u1ea3o Tr\u01b0\u1eddng Sa, \u0111\u1ecbnh v\u1ecb t\u00e2m \u0111i\u1ec3m H\u1ea3i Ph\u00f2ng \u1edf mi\u1ec1n B\u1eafc.",
+              "timestamp_seconds": 0
+            },
+            {
+              "type": "overlay",
+              "description": "\u0110\u01b0\u1eddng h\u1ea3i tr\u00ecnh xu\u1ea5t kh\u1ea9u tuy\u1ebfn xa b\u1ecb ch\u1eb7n l\u1ea1i ngo\u00e0i kh\u01a1i v\u1ecbnh B\u1eafc B\u1ed9 k\u00e8m nh\u00e3n c\u00e2u h\u1ecfi m\u1edf m\u00e0n trong v\u00f9ng an to\u00e0n g\u00f3c tr\u00ean tr\u00e1i.",
+              "timestamp_seconds": 6.5
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "container",
+              "phonetic": "c\u00f4ng ten n\u01a1"
+            }
+          ],
+          "source_ref": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165"
+        },
+        {
+          "id": "s2",
+          "label": "Setup \u2014 Kho\u1ea3ng c\u00e1ch 48 km t\u1eeb n\u1ed9i \u0111\u00f4 ra bi\u1ec3n (C\u00fa m\u00e1y 2: zoom)",
+          "text": "Ph\u00f3ng to b\u1ea3n \u0111\u1ed3 c\u1eeda bi\u1ec3n H\u1ea3i Ph\u00f2ng, b\u1ea1n s\u1ebd th\u1ea5y ngay ngh\u1ecbch l\u00fd. C\u1ee5m c\u1ea3ng truy\u1ec1n th\u1ed1ng n\u1eb1m s\u00e2u tr\u00ean s\u00f4ng C\u1ea5m, c\u00e1ch phao s\u1ed1 0 ngo\u00e0i kh\u01a1i t\u1edbi 48 km. Tr\u01b0\u1edbc \u0111\u00e2y, h\u00e0ng xu\u1ea5t kh\u1ea9u mi\u1ec1n B\u1eafc bu\u1ed9c ph\u1ea3i \u0111i t\u00e0u nh\u1ecf sang Singapore ho\u1eb7c H\u1ed3ng K\u00f4ng \u0111\u1ec3 gh\u00e9p chuy\u1ebfn.",
+          "start_seconds": 13,
+          "end_seconds": 27,
+          "speaker_directions": "Gi\u1eef nh\u1ecbp d\u1eabn chuy\u1ec7n m\u1ea1ch l\u1ea1c theo \u0111\u00e0 ph\u00f3ng to c\u1ee7a camera b\u1ea3n \u0111\u1ed3; nh\u1ea5n r\u00f5 con s\u1ed1 '48 km' v\u00e0 c\u1ee5m 'bu\u1ed9c ph\u1ea3i \u0111i t\u00e0u nh\u1ecf'.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "focused",
+            "emphasis_words": [
+              "ngh\u1ecbch l\u00fd",
+              "b\u1ed1n m\u01b0\u01a1i t\u00e1m ki l\u00f4 m\u00e9t",
+              "gh\u00e9p chuy\u1ebfn"
+            ],
+            "pause_before_seconds": 0.2,
+            "pause_after_seconds": 0.4,
+            "delivery_note": "Kh\u1edbp nh\u1ecbp \u0111\u1ecdc c\u00e2u \u0111\u1ea7u v\u1edbi chuy\u1ec3n \u0111\u1ed9ng camera zoom t\u1eeb to\u00e0n mi\u1ec1n B\u1eafc v\u00e0o v\u00f9ng c\u1eeda s\u00f4ng H\u1ea3i Ph\u00f2ng.",
+            "provider_text": "Ph\u00f3ng to b\u1ea3n \u0111\u1ed3 c\u1eeda bi\u1ec3n H\u1ea3i Ph\u00f2ng, b\u1ea1n s\u1ebd th\u1ea5y ngay ngh\u1ecbch l\u00fd. C\u1ee5m c\u1ea3ng truy\u1ec1n th\u1ed1ng n\u1eb1m s\u00e2u tr\u00ean s\u00f4ng C\u1ea5m, c\u00e1ch phao s\u1ed1 kh\u00f4ng ngo\u00e0i kh\u01a1i t\u1edbi b\u1ed1n m\u01b0\u01a1i t\u00e1m ki l\u00f4 m\u00e9t. Tr\u01b0\u1edbc \u0111\u00e2y, h\u00e0ng xu\u1ea5t kh\u1ea9u mi\u1ec1n B\u1eafc bu\u1ed9c ph\u1ea3i \u0111i t\u00e0u nh\u1ecf sang Xin ga po ho\u1eb7c H\u1ed3ng K\u00f4ng \u0111\u1ec3 gh\u00e9p chuy\u1ebfn."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "C\u00fa m\u00e1y zoom: Camera thu ph\u00f3ng m\u01b0\u1ee3t theo khung chi\u1ebfu Mercator 16:9 t\u1eeb b\u1ea3n \u0111\u1ed3 mi\u1ec1n B\u1eafc v\u00e0o chi ti\u1ebft h\u1ec7 th\u1ed1ng S\u00f4ng C\u1ea5m - B\u1ea1ch \u0110\u1eb1ng - \u0111\u1ea3o C\u00e1t H\u1ea3i.",
+              "timestamp_seconds": 13
+            },
+            {
+              "type": "stat_card",
+              "description": "Hi\u1ec3n th\u1ecb th\u1ebb th\u00f4ng s\u1ed1 g\u00f3c ph\u1ea3i: 'C\u1ea3ng S\u00f4ng C\u1ea5m \u2194 Phao s\u1ed1 0: 48,0 km lu\u1ed3ng d\u1eabn | H\u1ec7 qu\u1ea3 c\u0169: Trung chuy\u1ec3n qua Singapore / H\u1ed3ng K\u00f4ng'.",
+              "timestamp_seconds": 20
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "48 km",
+              "phonetic": "b\u1ed1n m\u01b0\u01a1i t\u00e1m ki l\u00f4 m\u00e9t"
+            },
+            {
+              "word": "Singapore",
+              "phonetic": "Xin ga po"
+            }
+          ],
+          "source_ref": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/"
+        },
+        {
+          "id": "s3",
+          "label": "Build 1 \u2014 C\u00e1i b\u1eaby ph\u00f9 sa S\u00f4ng C\u1ea5m & C\u1eeda Nam Tri\u1ec7u (C\u00fa m\u00e1y 3: pin-label)",
+          "text": "Th\u1ee7 ph\u1ea1m n\u1eb1m d\u01b0\u1edbi m\u1eb7t n\u01b0\u1edbc: ph\u00f9 sa h\u1ec7 th\u1ed1ng s\u00f4ng Th\u00e1i B\u00ecnh v\u00e0 B\u1ea1ch \u0110\u1eb1ng \u0111\u1ed5 ra m\u1ed7i n\u0103m. Theo s\u1ed1 li\u1ec7u lu\u1ed3ng h\u00e0ng h\u1ea3i n\u0103m 2026, \u0111o\u1ea1n s\u00f4ng C\u1ea5m ch\u1ec9 r\u1ed9ng 80 m v\u00e0 s\u00e2u -7,0 m, c\u00f2n c\u1eeda t\u1ef1 nhi\u00ean Nam Tri\u1ec7u nhi\u1ec1u \u0111o\u1ea1n b\u1ed3i c\u1ea1n ch\u1ec9 c\u00f2n -0,5 m.",
+          "start_seconds": 27,
+          "end_seconds": 44,
+          "speaker_directions": "H\u1ea1 gi\u1ecdng tr\u1ea7m v\u00e0 ch\u1eafc \u1edf c\u1ee5m 'Th\u1ee7 ph\u1ea1m n\u1eb1m d\u01b0\u1edbi m\u1eb7t n\u01b0\u1edbc'; \u0111\u1ecdc t\u00e1ch b\u1ea1ch t\u1eebng con s\u1ed1 \u0111\u1ed9 s\u00e2u \u0111\u1ec3 ng\u01b0\u1eddi xem k\u1ecbp \u0111\u1ed1i chi\u1ebfu nh\u00e3n ghim tr\u00ean b\u1ea3n \u0111\u1ed3.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "analytical",
+            "emphasis_words": [
+              "ph\u00f9 sa",
+              "t\u00e1m m\u01b0\u01a1i m\u00e9t",
+              "\u00e2m b\u1ea3y m\u00e9t",
+              "\u00e2m kh\u00f4ng ph\u1ea9y n\u0103m m\u00e9t"
+            ],
+            "pause_before_seconds": 0.2,
+            "pause_after_seconds": 0.45,
+            "delivery_note": "T\u1ea1o c\u1ea3m gi\u00e1c ch\u1eadt h\u1eb9p v\u00e0 n\u00f4ng c\u1ea1n b\u1eb1ng nh\u1ecbp ng\u1eaft d\u1ee9t kho\u00e1t gi\u1eefa hai m\u1ed1c \u00e2m b\u1ea3y m\u00e9t v\u00e0 \u00e2m kh\u00f4ng ph\u1ea9y n\u0103m m\u00e9t.",
+            "provider_text": "Th\u1ee7 ph\u1ea1m n\u1eb1m d\u01b0\u1edbi m\u1eb7t n\u01b0\u1edbc: ph\u00f9 sa h\u1ec7 th\u1ed1ng s\u00f4ng Th\u00e1i B\u00ecnh v\u00e0 B\u1ea1ch \u0110\u1eb1ng \u0111\u1ed5 ra m\u1ed7i n\u0103m. Theo s\u1ed1 li\u1ec7u lu\u1ed3ng h\u00e0ng h\u1ea3i n\u0103m hai ngh\u00ecn kh\u00f4ng tr\u0103m hai m\u01b0\u01a1i s\u00e1u, \u0111o\u1ea1n s\u00f4ng C\u1ea5m ch\u1ec9 r\u1ed9ng t\u00e1m m\u01b0\u01a1i m\u00e9t v\u00e0 s\u00e2u \u00e2m b\u1ea3y m\u00e9t, c\u00f2n c\u1eeda t\u1ef1 nhi\u00ean Nam Tri\u1ec7u nhi\u1ec1u \u0111o\u1ea1n b\u1ed3i c\u1ea1n ch\u1ec9 c\u00f2n \u00e2m kh\u00f4ng ph\u1ea9y n\u0103m m\u00e9t."
+          },
+          "enhancement_cues": [
+            {
+              "type": "overlay",
+              "description": "C\u00fa m\u00e1y pin-label: Ghim 2 c\u1ee5m nh\u00e3n k\u1ef9 thu\u1eadt n\u1eb1m g\u1ecdn trong v\u00f9ng an to\u00e0n 16:9: (1) S\u00f4ng C\u1ea5m: R\u1ed9ng 80 m | S\u00e2u -7,0 m; (2) C\u1eeda Nam Tri\u1ec7u: Ph\u00f9 sa b\u1ed3i c\u1ea1n -0,5 m \u0111\u1ebfn -3,7 m (t\u00f4 v\u00f9ng h\u1ed5 ph\u00e1ch #D97706).",
+              "timestamp_seconds": 27.5
+            },
+            {
+              "type": "stat_card",
+              "description": "Ch\u00fa th\u00edch ngu\u1ed3n chu\u1ea9n x\u00e1c \u1edf \u0111\u00e1y khung an to\u00e0n: 'Ngu\u1ed3n: C\u1ea3ng v\u1ee5 H\u00e0ng h\u1ea3i H\u1ea3i Ph\u00f2ng \u2014 Th\u00f4ng b\u00e1o lu\u1ed3ng 29/08/2026 (Q\u0110 1995/Q\u0110-CHH\u0110TVN)'.",
+              "timestamp_seconds": 35.5
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "-7,0 m",
+              "phonetic": "\u00e2m b\u1ea3y m\u00e9t"
+            },
+            {
+              "word": "-0,5 m",
+              "phonetic": "\u00e2m kh\u00f4ng ph\u1ea9y n\u0103m m\u00e9t"
+            }
+          ],
+          "source_ref": "https://cangvuhaiphong.gov.vn/luong-nam-trieu/"
+        },
+        {
+          "id": "s4",
+          "label": "Build 2 \u2014 C\u00fa nh\u1ea3y v\u01b0\u1ee3t bi\u1ec3n sang \u0111\u1ea3o C\u00e1t H\u1ea3i (C\u00fa m\u00e1y 4: route)",
+          "text": "Kho\u00e9t s\u00e2u l\u00f2ng s\u00f4ng gi\u1eefa n\u1ed9i \u0111\u00f4 v\u1eeba \u0111e d\u1ecda s\u1ea1t l\u1edf b\u1edd ph\u1ed1, v\u1eeba t\u1ed1n ti\u1ec1n v\u00e9t b\u00f9n v\u00f4 t\u1eadn. V\u00ec th\u1ebf, Vi\u1ec7t Nam ch\u1ecdn nh\u1ea3y qua v\u00f9ng ph\u00f9 sa: b\u1eafc tuy\u1ebfn \u0111\u01b0\u1eddng c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n T\u00e2n V\u0169 \u2013 L\u1ea1ch Huy\u1ec7n d\u00e0i 15,63 km, ri\u00eang ph\u1ea7n c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n 5,44 km, sang \u0111\u1ea3o C\u00e1t H\u1ea3i.",
+          "start_seconds": 44,
+          "end_seconds": 61,
+          "speaker_directions": "Chuy\u1ec3n t\u1eeb gi\u1ecdng c\u1ea3nh b\u00e1o \u1edf c\u00e2u \u0111\u1ea7u sang nh\u1ecbp m\u1edf r\u1ed9ng, d\u1ee9t kho\u00e1t t\u1eeb ch\u1eef 'V\u00ec th\u1ebf, Vi\u1ec7t Nam ch\u1ecdn nh\u1ea3y qua v\u00f9ng ph\u00f9 sa'.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "decisive",
+            "emphasis_words": [
+              "v\u00f4 t\u1eadn",
+              "nh\u1ea3y qua v\u00f9ng ph\u00f9 sa",
+              "n\u0103m ph\u1ea9y b\u1ed1n t\u01b0 ki l\u00f4 m\u00e9t",
+              "\u0111\u1ea3o C\u00e1t H\u1ea3i"
+            ],
+            "pause_before_seconds": 0.2,
+            "pause_after_seconds": 0.45,
+            "delivery_note": "Nh\u1ea5n ch\u1eef 'V\u00ec th\u1ebf' l\u00e0m b\u1ea3n l\u1ec1 nh\u00e2n qu\u1ea3 gi\u1ea3i th\u00edch tr\u1ef1c ti\u1ebfp l\u00fd do ph\u1ea3i b\u1eafc c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n.",
+            "provider_text": "Kho\u00e9t s\u00e2u l\u00f2ng s\u00f4ng gi\u1eefa n\u1ed9i \u0111\u00f4 v\u1eeba \u0111e d\u1ecda s\u1ea1t l\u1edf b\u1edd ph\u1ed1, v\u1eeba t\u1ed1n ti\u1ec1n v\u00e9t b\u00f9n v\u00f4 t\u1eadn. V\u00ec th\u1ebf, Vi\u1ec7t Nam ch\u1ecdn nh\u1ea3y qua v\u00f9ng ph\u00f9 sa: b\u1eafc tuy\u1ebfn \u0111\u01b0\u1eddng c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n T\u00e2n V\u0169 L\u1ea1ch Huy\u1ec7n d\u00e0i m\u01b0\u1eddi l\u0103m ph\u1ea9y s\u00e1u ki l\u00f4 m\u00e9t, ri\u00eang ph\u1ea7n c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n n\u0103m ph\u1ea9y b\u1ed1n t\u01b0 ki l\u00f4 m\u00e9t, sang \u0111\u1ea3o C\u00e1t H\u1ea3i."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "C\u00fa m\u00e1y route: V\u1ebd \u0111\u01b0\u1eddng ti\u1ebfn tr\u00ecnh m\u00e0u ng\u1ecdc lam (#2DD4BF) t\u1eeb n\u00fat giao T\u00e2n V\u0169 - \u0110\u00ecnh V\u0169 b\u0103ng qua bi\u1ec3n sang \u0111\u1ea3o C\u00e1t H\u1ea3i v\u1edbi nh\u00e3n 'Tuy\u1ebfn T\u00e2n V\u0169 \u2013 L\u1ea1ch Huy\u1ec7n: 15,63 km (C\u1ea7u v\u01b0\u1ee3t bi\u1ec3n: 5,44 km)'.",
+              "timestamp_seconds": 44.5
+            },
+            {
+              "type": "diagram",
+              "description": "V\u1ebd ti\u1ebfp \u0111\u01b0\u1eddng lu\u1ed3ng h\u00e0ng h\u1ea3i L\u1ea1ch Huy\u1ec7n d\u00e0i 20,66 km v\u01b0\u01a1n th\u1eb3ng ra Phao s\u1ed1 0 k\u00e8m \u0111\u01b0\u1eddng \u0111\u00ea ch\u1eafn c\u00e1t b\u1ea3o v\u1ec7 lu\u1ed3ng ph\u00eda \u0110\u00f4ng Nam \u0111\u1ea3o C\u00e1t H\u1ea3i.",
+              "timestamp_seconds": 53
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "15,63 km",
+              "phonetic": "m\u01b0\u1eddi l\u0103m ph\u1ea9y s\u00e1u ki l\u00f4 m\u00e9t"
+            },
+            {
+              "word": "5,44 km",
+              "phonetic": "n\u0103m ph\u1ea9y b\u1ed1n t\u01b0 ki l\u00f4 m\u00e9t"
+            }
+          ],
+          "source_ref": "https://tapchicongthuong.vn/hai-phong--khanh-thanh-ben-cang-container-quoc-te-so-3-va-4-khu-ben-cang-lach-huyen-140409.htm"
+        },
+        {
+          "id": "s5",
+          "label": "Climax \u2014 M\u1eb7t c\u1eaft d\u1ecdc b\u1eadc thang \u0111\u1ed9 s\u00e2u 48 km (C\u00fa m\u00e1y 5: comparison-measure + Signature Device)",
+          "text": "Nh\u00ecn l\u00e1t c\u1eaft 48 km, c\u00e2u tr\u1ea3 l\u1eddi l\u1ed9 r\u00f5. Trong s\u00f4ng C\u1ea5m -7,0 m hay k\u00eanh H\u00e0 Nam -8,0 m, t\u00e0u m\u1eb9 \u0111\u1ec1u ch\u1ea1m \u0111\u00e1y. Nh\u01b0ng ngo\u00e0i r\u00eca C\u00e1t H\u1ea3i, lu\u1ed3ng L\u1ea1ch Huy\u1ec7n r\u1ed9ng 160 m s\u00e2u g\u1ea7n 13 \u0111\u1ebfn 14 m, \u0111\u1ee7 \u0111\u00f3n t\u00e0u 165.000 DWT.",
+          "start_seconds": 61,
+          "end_seconds": 78,
+          "speaker_directions": "\u0110\u00e2y l\u00e0 kho\u1ea3nh kh\u1eafc 'aha' quan tr\u1ecdng nh\u1ea5t: \u0111\u1ecdc ch\u1eafc t\u1eebng b\u1eadc '-7,0 m', '-8,0 m', r\u1ed3i m\u1edf r\u1ed9ng \u00e2m l\u01b0\u1ee3ng \u1edf v\u1ebf 'Nh\u01b0ng ngo\u00e0i r\u00eca C\u00e1t H\u1ea3i... \u0111\u00f3n t\u00e0u 165.000 t\u1ea5n'.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "revelatory",
+            "emphasis_words": [
+              "ch\u1ea1m \u0111\u00e1y",
+              "m\u1ed9t tr\u0103m s\u00e1u m\u01b0\u01a1i m\u00e9t",
+              "m\u01b0\u1eddi ba \u0111\u1ebfn m\u01b0\u1eddi b\u1ed1n m\u00e9t",
+              "m\u1ed9t tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m ngh\u00ecn t\u1ea5n"
+            ],
+            "pause_before_seconds": 0.25,
+            "pause_after_seconds": 0.5,
+            "delivery_note": "Ng\u1eaft r\u00f5 sau ch\u1eef 'ch\u1ea1m \u0111\u00e1y' (0,35s) \u0111\u1ec3 m\u1eaft ng\u01b0\u1eddi xem th\u1ea5y v\u1ea1ch m\u1edbn n\u01b0\u1edbc \u0111\u1ecf va v\u00e0o \u0111\u00e1y s\u00f4ng tr\u01b0\u1edbc khi chuy\u1ec3n ra v\u00f9ng n\u01b0\u1edbc s\u00e2u L\u1ea1ch Huy\u1ec7n.",
+            "provider_text": "Nh\u00ecn l\u00e1t c\u1eaft b\u1ed1n m\u01b0\u01a1i t\u00e1m ki l\u00f4 m\u00e9t, c\u00e2u tr\u1ea3 l\u1eddi l\u1ed9 r\u00f5. Trong s\u00f4ng C\u1ea5m \u00e2m b\u1ea3y m\u00e9t hay k\u00eanh H\u00e0 Nam \u00e2m t\u00e1m m\u00e9t, t\u00e0u m\u1eb9 \u0111\u1ec1u ch\u1ea1m \u0111\u00e1y. Nh\u01b0ng ngo\u00e0i r\u00eca C\u00e1t H\u1ea3i, lu\u1ed3ng L\u1ea1ch Huy\u1ec7n r\u1ed9ng m\u1ed9t tr\u0103m s\u00e1u m\u01b0\u01a1i m\u00e9t s\u00e2u g\u1ea7n m\u01b0\u1eddi ba \u0111\u1ebfn m\u01b0\u1eddi b\u1ed1n m\u00e9t, \u0111\u1ee7 \u0111\u00f3n t\u00e0u m\u1ed9t tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m ngh\u00ecn t\u1ea5n."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "C\u00fa m\u00e1y comparison-measure + Signature Device: Th\u01b0\u1edbc \u0111o Haversine (distanceKm) tr\u00ean b\u1ea3n \u0111\u1ed3 nh\u1ecf ph\u00eda tr\u00ean k\u1ebft h\u1ee3p M\u1eb7t c\u1eaft d\u1ecdc th\u1ee7y v\u0103n 48 km ph\u00eda d\u01b0\u1edbi \u0111\u1ed1i chi\u1ebfu 3 b\u1eadc: S\u00f4ng C\u1ea5m (-7,0 m) -> K\u00eanh H\u00e0 Nam (-8,0 m) -> Lu\u1ed3ng L\u1ea1ch Huy\u1ec7n (-12,9 m th\u1ef1c \u0111o | -14,0 m chu\u1ea9n t\u1eafc).",
+              "timestamp_seconds": 61
+            },
+            {
+              "type": "stat_card",
+              "description": "M\u00f4 ph\u1ecfng m\u1eb7t c\u1eaft m\u1edbn n\u01b0\u1edbc si\u00eau t\u00e0u 165.000 DWT (gi\u1ea3m t\u1ea3i): b\u00e1o \u0111\u1ecf 'Ch\u1ea1m \u0111\u00e1y' t\u1ea1i S\u00f4ng C\u1ea5m (-7,0 m) v\u00e0 b\u00e1o xanh ng\u1ecdc 'An to\u00e0n khai th\u00e1c' t\u1ea1i L\u1ea1ch Huy\u1ec7n.",
+              "timestamp_seconds": 69.5
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "-8,0 m",
+              "phonetic": "\u00e2m t\u00e1m m\u00e9t"
+            },
+            {
+              "word": "165.000 DWT",
+              "phonetic": "m\u1ed9t tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m ngh\u00ecn t\u1ea5n"
+            }
+          ],
+          "source_ref": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/"
+        },
+        {
+          "id": "s6",
+          "label": "Landing \u2014 T\u00e1ch b\u1ea1ch 6 b\u1ebfn \u0111ang ch\u1ea1y & Quy ho\u1ea1ch 2030 + CTA",
+          "text": "Hi\u1ec7n 6 b\u1ebfn t\u1ea1i L\u1ea1ch Huy\u1ec7n \u0111\u00e3 khai th\u00e1c, n\u1ed1i th\u1eb3ng h\u00e0ng mi\u1ec1n B\u1eafc t\u1edbi M\u1ef9 v\u00e0 ch\u00e2u \u00c2u, t\u00e1ch bi\u1ec7t v\u1edbi ph\u1ea7n m\u1edf r\u1ed9ng quy ho\u1ea1ch \u0111\u1ebfn n\u0103m 2030. Tu\u1ea7n t\u1edbi, gi\u1ea3i m\u00e3 Long Th\u00e0nh hay cao t\u1ed1c mi\u1ec1n T\u00e2y?",
+          "start_seconds": 78,
+          "end_seconds": 90,
+          "speaker_directions": "Nh\u1ecbp k\u1ebft g\u1ecdn, s\u00e1ng v\u00e0 ch\u1eafc ch\u1eafn; c\u00e2u h\u1ecfi cu\u1ed1i n\u00e2ng nh\u1eb9 ng\u1eef \u0111i\u1ec7u m\u1eddi g\u1ecdi ng\u01b0\u1eddi xem b\u00ecnh lu\u1eadn ch\u1ecdn ch\u1ee7 \u0111\u1ec1 ti\u1ebfp theo.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "warm_conclusive",
+            "emphasis_words": [
+              "s\u00e1u b\u1ebfn",
+              "n\u1ed1i th\u1eb3ng",
+              "n\u0103m hai ngh\u00ecn kh\u00f4ng tr\u0103m ba m\u01b0\u01a1i",
+              "Long Th\u00e0nh",
+              "cao t\u1ed1c mi\u1ec1n T\u00e2y"
+            ],
+            "pause_before_seconds": 0.2,
+            "pause_after_seconds": 1.0,
+            "delivery_note": "Ch\u1eeba kho\u1ea3ng l\u1eb7ng 1 gi\u00e2y cu\u1ed1i video \u0111\u1ec3 khung b\u1ea3n \u0111\u1ed3 t\u1ed5ng k\u1ebft gi\u1eef t\u0129nh cho ng\u01b0\u1eddi xem \u0111\u1ecdc tr\u1ecdn hai tr\u1ea1ng th\u00e1i h\u1ea1 t\u1ea7ng.",
+            "provider_text": "Hi\u1ec7n s\u00e1u b\u1ebfn t\u1ea1i L\u1ea1ch Huy\u1ec7n \u0111\u00e3 khai th\u00e1c, n\u1ed1i th\u1eb3ng h\u00e0ng mi\u1ec1n B\u1eafc t\u1edbi M\u1ef9 v\u00e0 ch\u00e2u \u00c2u, t\u00e1ch bi\u1ec7t v\u1edbi ph\u1ea7n m\u1edf r\u1ed9ng quy ho\u1ea1ch \u0111\u1ebfn n\u0103m hai ngh\u00ecn kh\u00f4ng tr\u0103m ba m\u01b0\u01a1i. Tu\u1ea7n t\u1edbi, gi\u1ea3i m\u00e3 Long Th\u00e0nh hay cao t\u1ed1c mi\u1ec1n T\u00e2y?"
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "B\u1ea3n \u0111\u1ed3 tr\u1ea1ng th\u00e1i h\u1ea1 t\u1ea7ng \u0111\u1ea3o C\u00e1t H\u1ea3i: t\u00f4 li\u1ec1n n\u00e9t 6 b\u1ebfn \u0111ang v\u1eadn h\u00e0nh th\u1ef1c t\u1ebf (B\u1ebfn 1-2 & B\u1ebfn 3-6, \u0111\u00f3n t\u00e0u \u0111\u1ebfn 165.000 DWT gi\u1ea3m t\u1ea3i) v\u00e0 vi\u1ec1n n\u00e9t \u0111\u1ee9t v\u00f9ng quy ho\u1ea1ch m\u1edf r\u1ed9ng \u0111\u1ebfn n\u0103m 2030 (Q\u0110 1579/Q\u0110-TTg).",
+              "timestamp_seconds": 78
+            },
+            {
+              "type": "overlay",
+              "description": "Th\u1ebb c\u00e2u h\u1ecfi t\u01b0\u01a1ng t\u00e1c cu\u1ed1i video: 'B\u1ea3n \u0111\u1ed3 ti\u1ebfp theo: [1] S\u00e2n bay Long Th\u00e0nh 40 km  |  [2] Cao t\u1ed1c mi\u1ec1n T\u00e2y?'.",
+              "timestamp_seconds": 84.5
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "2030",
+              "phonetic": "hai ngh\u00ecn kh\u00f4ng tr\u0103m ba m\u01b0\u01a1i"
+            }
+          ],
+          "source_ref": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt"
+        }
+      ],
+      "metadata": {
+        "language": "vi",
+        "vietnamese_syllable_calibration": {
+          "provider_text_syllables": 344,
+          "reference_voice": "Haitrieu (speech-2.8-hd, speed=1.1)",
+          "empirical_rate_syllables_per_sec": 3.88,
+          "estimated_spoken_seconds": 88.6,
+          "target_total_seconds": 90.0,
+          "lexical_compound_words_approx": 202
+        },
+        "stage_0_shots_mapped": {
+          "s1": "overview (k\u00e8m Qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa & Tr\u01b0\u1eddng Sa)",
+          "s2": "zoom",
+          "s3": "pin-label",
+          "s4": "route",
+          "s5": "comparison-measure + longitudinal bathymetric cross-section",
+          "s6": "operating vs planned infrastructure ledger"
+        }
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0
+  }
+}

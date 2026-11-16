@@ -1,0 +1,65 @@
+{
+  "selection": "fixed_haitrieu",
+  "voices": [
+    {
+      "voice_name": "Haitrieu",
+      "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+      "enabled": true,
+      "provider": "minimax",
+      "model_id": "speech-2.8-hd",
+      "language_code": "Vietnamese",
+      "voice_settings": {"speed": 1.1, "pitch": 0, "vol": 1},
+      "english": {"language_code": "English", "voice_settings": {"speed": 1.1, "pitch": 0, "vol": 1}, "pitch_shift": 0}
+    },
+    {
+      "voice_name": "Lacthien",
+      "voice_id": "c10a3efd-f16c-469c-beee-6475474865b7",
+      "enabled": false,
+      "provider": "minimax",
+      "model_id": "speech-2.8-hd",
+      "language_code": "Vietnamese",
+      "voice_settings": {"speed": 1.1, "pitch": 0, "vol": 1},
+      "english": {"language_code": "English", "voice_settings": {"speed": 1.1, "pitch": 0, "vol": 1}, "pitch_shift": 0}
+    },
+    {
+      "voice_name": "Zoe 2",
+      "voice_id": "30de6177-7cdf-4ebd-8342-07f6f1b4e679",
+      "enabled": false,
+      "provider": "minimax",
+      "model_id": "speech-2.8-hd",
+      "language_code": "Vietnamese",
+      "voice_settings": {"speed": 1.05, "pitch": -1, "vol": 1},
+      "english": {"language_code": "English", "voice_settings": {"speed": 1.05, "pitch": -1, "vol": 1}, "pitch_shift": 0}
+    },
+    {
+      "voice_name": "clone10",
+      "voice_id": "0a35cc4a-c480-4622-a0bc-dcb7a64348c5",
+      "enabled": false,
+      "provider": "minimax",
+      "model_id": "speech-2.8-hd",
+      "language_code": "Vietnamese",
+      "voice_settings": {"speed": 1.0, "pitch": 0, "vol": 1},
+      "english": {"language_code": "English", "voice_settings": {"speed": 1.0, "pitch": 0, "vol": 1}, "pitch_shift": 0}
+    },
+    {
+      "voice_name": "clone4",
+      "voice_id": "da9c3b54-814e-4c59-8087-54671a73ee70",
+      "enabled": false,
+      "provider": "minimax",
+      "model_id": "speech-2.8-hd",
+      "language_code": "Vietnamese",
+      "voice_settings": {"speed": 1.1, "pitch": 0, "vol": 1},
+      "english": {"language_code": "English", "voice_settings": {"speed": 1.0, "pitch": 0, "vol": 1}, "pitch_shift": 0}
+    },
+    {
+      "voice_name": "vanhoc",
+      "voice_id": "321254eb-32f9-46cd-a635-9df4aa27e3c0",
+      "enabled": false,
+      "provider": "minimax",
+      "model_id": "speech-2.8-hd",
+      "language_code": "Vietnamese",
+      "voice_settings": {"speed": 1.1, "pitch": 0, "vol": 1},
+      "english": {"language_code": "English", "voice_settings": {"speed": 1.1, "pitch": 0, "vol": 1}, "pitch_shift": 0}
+    }
+  ]
+}

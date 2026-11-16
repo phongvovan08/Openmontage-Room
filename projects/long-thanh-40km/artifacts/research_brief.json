@@ -1,0 +1,355 @@
+{
+  "version": "1.0",
+  "topic": "Vì sao sân bay Long Thành nằm cách TP.HCM 40 km? Quy hoạch sân bay, giao thông kết nối và lộ trình khai thác",
+  "research_date": "2026-11-15",
+  "landscape": {
+    "existing_content": [
+      {
+        "title": "Sân bay Long Thành - 40KM Cần Phương Án Giải Quyết",
+        "url": "https://www.youtube.com/results?search_query=s%C3%A2n+bay+long+th%C3%A0nh+v%C3%AC+sao+40+km",
+        "source": "youtube",
+        "angle": "Đặt vấn đề khoảng cách 40 km như một nghịch lý cần giải quyết, đưa ra các phương án đường bộ và đường sắt",
+        "what_it_covers": "Khoảng cách 40 km từ trung tâm TP.HCM và các tuyến kết nối dự kiến",
+        "what_it_misses": "Không đối chiếu với công suất thiết kế và tỷ lệ phân chia khai thác hai sân bay; không có số liệu công suất Tân Sơn Nhất để chứng minh vì sao phải dời sân bay",
+        "engagement_signal": "Tiêu đề xuất hiện trong kết quả tìm kiếm YouTube tiếng Việt; số view không có trong bộ dữ liệu cục bộ"
+      },
+      {
+        "title": "Sân bay Long Thành mở cửa, vì sao 322 trong 366 chuyến mỗi tuần là bay nội địa?",
+        "url": "https://www.youtube.com/watch?v=wGSHYdLj5oo",
+        "source": "youtube",
+        "angle": "Giải thích nghịch lý vận hành: sân bay mới mở cửa nhưng phần lớn chuyến bay vẫn là nội địa",
+        "what_it_covers": "Tỷ lệ chuyến bay nội địa và quốc tế sau khi khai thác, bằng lý do phân chia theo mùa lịch bay",
+        "what_it_misses": "Không giải thích gốc rễ: vị trí 40 km được chọn như thế nào, và điều đó có hợp lý với công suất 100 triệu hành khách tương lai hay không",
+        "engagement_signal": "7.378 lượt xem, thời lượng 1.250 giây (~21 phút) trong bộ dữ liệu niche_scan.json cục bộ (không có ngày đăng)"
+      },
+      {
+        "title": "Sân bay Long Thành sắp mở: cách trung tâm 40 km thì ai ra đó?",
+        "url": "https://www.youtube.com/results?search_query=s%C3%A2n+bay+long+th%C3%A0nh+v%C3%AC+sao+40+km",
+        "source": "youtube",
+        "angle": "Góc nhìn từ hành khách: đi từ trung tâm 40 km thì mất bao lâu, ai sẽ chịu đi",
+        "what_it_covers": "Trải nghiệm đi lại và lo ngại về khoảng cách từ trung tâm",
+        "what_it_misses": "Không có bản đồ hay phép so sánh định lượng giữa Tân Sơn Nhất và Long Thành",
+        "engagement_signal": "Có trong danh sách 25 tiêu đề tiếng Việt lấy từ trang kết quả YouTube"
+      },
+      {
+        "title": "Các video của Land Kết Nối về Long Thành và metro (141 video liên quan)",
+        "url": "https://www.youtube.com/watch?v=U_LiGKpGjSE",
+        "source": "youtube",
+        "angle": "Theo dõi dự án liên tục: giảm phí cất hạ cánh, nút thắt cầu, tiến độ, đề xuất metro Thủ Thiêm - Long Thành",
+        "what_it_covers": "Diễn biến dự án, gói thầu, metro, giá dịch vụ hàng không",
+        "what_it_misses": "Không có video nào dạng explainer giải thích bối cảnh quy hoạch: vì sao chọn Đồng Nai, vì sao 40 km, và so sánh với mô hình Singapore/Kuala Lumpur",
+        "engagement_signal": "Trong 147 video hạ tầng/địa lý liên quan, Land Connect chiếm 141 video; trung vị 6.600 lượt xem, tối đa 85.000 (video giảm phí cất hạ cánh). 6 video còn lại trung vị 125.848 lượt xem"
+      },
+      {
+        "title": "Long Thanh int'l airport set for commercial launch by late 2026 (Government News)",
+        "url": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm",
+        "source": "blog",
+        "angle": "Bản tin chính phủ: tiến độ, quy mô, công suất thiết kế 100 triệu hành khách",
+        "what_it_covers": "9.000 công nhân, 74% khối lượng hợp đồng, tổng đầu tư ~16 tỷ USD, 3 giai đoạn, 100 triệu hành khách và 5 triệu tấn hàng hóa",
+        "what_it_misses": "Không giải thích quyết định vị trí và bối cảnh hạ tầng giao thông đi kèm",
+        "engagement_signal": "Bài chính thức, ngày 30/03/2026"
+      }
+    ],
+    "saturated_angles": [
+      "Theo dõi tiến độ dự án và gói thầu (đã có 141 video từ một kênh duy nhất)",
+      "Tin đồn chuyển đổi khai thác và metro Thủ Thiêm - Long Thành",
+      "Câu chuyện 'tiến độ chậm, trễ hẹn' và thị trường đất quanh sân bay",
+      "So sánh giá cất hạ cánh và cơ chế ưu đãi giá dịch vụ hàng không"
+    ],
+    "underserved_gaps": [
+      "Không có video tiếng Việt nào giải thích bối cảnh quy hoạch: vì sao sân bay thứ hai của Việt Nam lại đặt ở Đồng Nai thay vì mở rộng Tân Sơn Nhất, và 40 km được đánh đổi bằng lợi thế gì",
+      "Chưa có video so sánh định lượng công suất: Tân Sơn Nhất đã vượt thiết kế (nhà ga T3 đạt ~71% công suất thiết kế 20 triệu) so với 25 triệu của Long Thành giai đoạn 1 và 100 triệu toàn dự án",
+      "Thiếu video dùng bản đồ để đo cự ly thực tế (40 km đường bộ vs 8-10 km của Tân Sơn Nhất) và các tuyến kết nối 5 đường bộ + 3 đường sắt",
+      "Chưa giải thích rõ vì sao lộ trình chuyển đổi 3 bước kéo dài đến mùa Đông 2027-2028 dù sân bay mở cửa thương mại từ 1/12/2026",
+      "Thiếu góc nhìn quy hoạch vùng: kết nối trực tiếp với các vùng kinh tế trọng điểm Đông Nam Bộ, mô hình đô thị sân bay, khu thương mại tự do"
+    ]
+  },
+  "trending": {
+    "recent_developments": [
+      {
+        "headline": "Lộ trình chuyển đổi khai thác 3 bước giữa Long Thành và Tân Sơn Nhất được thống nhất, vận hành thương mại từ 1/12/2026",
+        "url": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm",
+        "date": "2026-07-28",
+        "relevance": "Đây là mốc thời gian neo cho cả chuỗi video: khai thác thương mại 1/12/2026, mùa Hè 2027 toàn bộ đường bay quốc tế dài, mùa Đông 2027-2028 toàn bộ chuyến quốc tế còn lại"
+      },
+      {
+        "headline": "Chính phủ tiếp tục yêu cầu hoàn thành đồng bộ toàn bộ hạng mục để khai thác thương mại trong năm 2026",
+        "url": "https://baochinhphu.vn/day-nhanh-tien-do-thi-cong-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260525211615704.htm",
+        "date": "2026-05-25",
+        "relevance": "Nhấn mạnh rằng chỉ một hạng mục chưa xong cũng ảnh hưởng vận hành chung; cao tốc TPHCM-Long Thành-Dầu Giây hoàn thành trong 2026, riêng cầu Long Thành trong quý I/2027"
+      },
+      {
+        "headline": "Nhà ga T3 Tân Sơn Nhất đạt khoảng 71% công suất thiết kế, chiếm gần 54% sản lượng hành khách nội địa",
+        "url": "https://baochinhphu.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-kiem-tra-tien-do-du-an-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260523190527671.htm",
+        "date": "2026-05-23",
+        "relevance": "Con số 71% của công suất thiết kế 20 triệu là bằng chứng định lượng cho lập luận vì sao cần sân bay thứ hai"
+      },
+      {
+        "headline": "Government News xác nhận mục tiêu khai thác thương mại cuối năm 2026 với khối lượng 74% hợp đồng",
+        "url": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm",
+        "date": "2026-03-30",
+        "relevance": "Xác nhận mục tiêu hoàn thành thi công tháng 9/2026 và khai thác thương mại trong quý IV/2026"
+      }
+    ],
+    "active_discussions": [
+      {
+        "platform": "youtube",
+        "topic_or_url": "https://www.youtube.com/results?search_query=s%C3%A2n+bay+long+th%C3%A0nh+v%C3%AC+sao+40+km",
+        "sentiment": "Tranh luận chia làm: một phe cho rằng 40 km là bất lợi lớn và sẽ khiến hành khách chọn Tân Sơn Nhất, phe khác cho rằng vị trí này kết nối trực tiếp với vùng kinh tế Đông Nam Bộ nên lợi thế dài hạn",
+        "key_quotes": [
+          "Dù khoảng cách từ trung tâm TP.HCM tới Long Thành (40km) dài hơn so với Tân Sơn Nhất (8-10km) song sân bay Long Thành lại nằm ở vị trí thuận lợi, kết nối trực tiếp với các vùng kinh tế trọng điểm Đông Nam Bộ (ACV, 12/08/2025)",
+          "Sân bay Long Thành mở cửa, vì sao 322 trong 366 chuyến mỗi tuần là bay nội địa? (tiêu đề video YouTube)"
+        ]
+      }
+    ],
+    "timeliness_window": "weeks"
+  },
+  "data_points": [
+    {
+      "claim": "Sân bay Long Thành nằm ở Đồng Nai, cách trung tâm TP.HCM khoảng 40 km về phía đông, trong khi Tân Sơn Nhất chỉ cách 8-10 km. Đây là lập luận của ACV về lợi thế vị trí hiện tại, không phải bản ghi lý do chọn vị trí vào năm 2015.",
+      "source_url": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm",
+      "source_name": "Báo Chính phủ, bài ngày 12/08/2025, dẫn ACV",
+      "credibility": "primary_source",
+      "surprise_factor": "expected",
+      "usable_as": "hook"
+    },
+    {
+      "claim": "Tổng mức đầu tư toàn dự án khoảng 16 tỷ USD, chia 3 giai đoạn, công suất thiết kế cuối cùng 100 triệu hành khách và 5 triệu tấn hàng hóa mỗi năm.",
+      "source_url": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm",
+      "source_name": "Báo Chính phủ tiếng Anh, ngày 30/03/2026",
+      "credibility": "primary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Giai đoạn 1 dự kiến phục vụ 25 triệu lượt hành khách và 1,2 triệu tấn hàng hóa mỗi năm, trong đó 70-80% là chuyến bay quốc tế.",
+      "source_url": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm",
+      "source_name": "Báo Chính phủ ngày 03/12/2024, dẫn Bộ GTVT",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Nhà ga T3 Tân Sơn Nhất đã đạt khoảng 71% công suất thiết kế (thiết kế 20 triệu hành khách/năm) và chiếm gần 54% sản lượng hành khách nội địa, sau khi ACV đầu tư khoảng 10.873 tỷ đồng.",
+      "source_url": "https://baochinhphu.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-kiem-tra-tien-do-du-an-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260523190527671.htm",
+      "source_name": "Báo Chính phủ ngày 23/05/2026",
+      "credibility": "primary_source",
+      "surprise_factor": "counterintuitive",
+      "usable_as": "hook"
+    },
+    {
+      "claim": "Phương án khai thác của ACV chia Long Thành 80% chuyến quốc tế và 10% nội địa, Tân Sơn Nhất 20% quốc tế và 90% nội địa; với Long Thành áp dụng cho toàn bộ đường bay quốc tế từ 1.000 km trở lên.",
+      "source_url": "https://baochinhphu.vn/bo-xay-dung-bao-cao-ve-phuong-an-khai-thac-san-bay-long-thanh-102251002182442016.htm",
+      "source_name": "Báo Chính phủ ngày 02/10/2025, dẫn Bộ Xây dựng",
+      "credibility": "primary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Cục Hàng không Việt Nam thống nhất lộ trình chuyển đổi 3 bước với khai thác thương mại từ 1/12/2026: bước 1 khuyến khích các hãng khai thác quốc tế tại Long Thành đến hết mùa Đông 2026 (27/3/2027); bước 2 mùa Hè 2027 khai thác toàn bộ chuyến quốc tế dài; bước 3 mùa Đông 2027-2028 khai thác toàn bộ chuyến quốc tế còn lại trừ chặng ngắn dưới 1.000 km của hãng Việt Nam.",
+      "source_url": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm",
+      "source_name": "Báo Chính phủ ngày 28/07/2026",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Hạ tầng kết nối sân bay Long Thành được quy hoạch theo 2 phương thức gồm 5 tuyến đường bộ và 3 tuyến đường sắt; các tỉnh cũng được yêu cầu tổ chức 5 tuyến nội thành Đồng Nai và 10 tuyến liên tỉnh.",
+      "source_url": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm",
+      "source_name": "Báo Chính phủ ngày 03/12/2024, dẫn Bộ GTVT",
+      "credibility": "primary_source",
+      "surprise_factor": "expected",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Sân bay Long Thành có dư địa mở rộng lớn, tách biệt khu dân cư, cho phép khai thác 24/7 mà không chịu nhiều hạn chế giờ bay ban đêm, giảm ô nhiễm tiếng ồn cho khu vực nội đô.",
+      "source_url": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm",
+      "source_name": "Báo Chính phủ ngày 12/08/2025, dẫn ACV",
+      "credibility": "primary_source",
+      "surprise_factor": "counterintuitive",
+      "usable_as": "closing_punch"
+    },
+    {
+      "claim": "Quy hoạch chung TP.HCM thời kỳ 2021-2030, tầm nhìn 2050 được phê duyệt bằng Quyết định 1711/QĐ-TTg ngày 31/12/2024; quy hoạch hệ thống cảng hàng không toàn quốc 2021-2030 được phê duyệt bằng Quyết định 648/QĐ-TTg ngày 07/06/2023.",
+      "source_url": "https://vanban.chinhphu.vn/?docid=212234&pageid=27160",
+      "source_name": "Cổng thông tin điện tử Chính phủ",
+      "credibility": "primary_source",
+      "surprise_factor": "expected",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Quyết định 562/QĐ-BXD ngày 09/05/2025 của Bộ Xây dựng phê duyệt điều chỉnh cục bộ Quy hoạch Cảng hàng không quốc tế Long Thành; theo Cục Hàng không Việt Nam, văn bản còn hiệu lực.",
+      "source_url": "https://caa.gov.vn/van-ban/562-qd-bxd-30511.htm",
+      "source_name": "Cục Hàng không Việt Nam - văn bản 562/QĐ-BXD",
+      "credibility": "primary_source",
+      "surprise_factor": "expected",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Chuỗi văn bản pháp lý của dự án theo chính quyết định 562/QĐ-BXD: Nghị quyết 94/2015/QH13 ngày 25/6/2015 của Quốc hội về chủ trương đầu tư; Quyết định 909/QĐ-TTg ngày 14/6/2011 phê duyệt Quy hoạch Cảng HKQT Long Thành; Quyết định 1777/QĐ-TTg ngày 11/11/2020 phê duyệt Dự án đầu tư xây dựng giai đoạn 1; Quyết định 692/QĐ-TTg ngày 29/3/2025 điều chỉnh dự án giai đoạn 1.",
+      "source_url": "https://caa.gov.vn/van-ban/562-qd-bxd-30511.htm",
+      "source_name": "Quyết định 562/QĐ-BXD - phần căn cứ, đã đọc từ PDF đính kèm",
+      "credibility": "primary_source",
+      "surprise_factor": "expected",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Theo điều chỉnh quy hoạch ngày 09/05/2025, nhu cầu sử dụng đất của Cảng HKQT Long Thành khoảng 5.000 ha, gồm 570 ha do quân sự quản lý, 480 ha dùng chung giữa dân dụng và quân sự, và 3.950 ha do hàng không dân dụng quản lý; mặt đường cất hạ cánh số 2 được giảm chiều rộng cách đường cất hạ cánh số 1 từ 60 m xuống 45 m.",
+      "source_url": "https://caa.gov.vn/van-ban/562-qd-bxd-30511.htm",
+      "source_name": "Quyết định 562/QĐ-BXD điều 1, đã đọc từ PDF đính kèm",
+      "credibility": "primary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Tính đến cuối tháng 3/2026, Dự án thành phần 3 gồm 145 gói thầu đã hoàn thành khối lượng trị giá khoảng 64.100 tỷ đồng (~2,4 tỷ USD), tương đương 74% giá trị hợp đồng, giải ngân khoảng 40.700 tỷ đồng, với gần 9.000 công nhân tại công trường.",
+      "source_url": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm",
+      "source_name": "Báo Chính phủ tiếng Anh, ngày 30/03/2026",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "stat_card"
+    }
+  ],
+  "audience_insights": {
+    "common_questions": [
+      "Sân bay Long Thành cách trung tâm TP.HCM bao nhiêu km và đi mất bao lâu?",
+      "Vì sao sân bay thứ hai của Việt Nam lại đặt xa hơn sân bay hiện tại thay vì mở rộng Tân Sơn Nhất?",
+      "Khi sân bay Long Thành mở cửa thì hành khách phải đi bằng gì, có xe buýt công cộng không?",
+      "Sân bay Long Thành mở cửa thì có phải tất cả chuyến bay quốc tế chuyển sang không?",
+      "Sân bay Long Thành mở rộng tới bao nhiêu triệu hành khách một năm và khi nào hoàn thành?"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Sân bay Long Thành mở cửa là toàn bộ chuyến bay quốc tế chuyển sang ngay.",
+        "reality": "Cục Hàng không chốt lộ trình chuyển đổi 3 bước bám theo mùa lịch bay: đến hết mùa Đông 2026 mới khuyến khích hãng bay quốc tế, mùa Hè 2027 mới toàn bộ chuyến quốc tế dài, mùa Đông 2027-2028 mới toàn bộ chuyến quốc tế còn lại.",
+        "source": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm"
+      },
+      {
+        "myth": "Giai đoạn 1 sân bay Long Thành phục vụ 100 triệu hành khách một năm.",
+        "reality": "100 triệu là công suất thiết kế sau khi hoàn thành cả 3 giai đoạn. Giai đoạn 1 dự kiến 25 triệu lượt hành khách và 1,2 triệu tấn hàng hóa mỗi năm.",
+        "source": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm"
+      },
+      {
+        "myth": "Tân Sơn Nhất xây xong nhà ga T3 là đã giải quyết được tình trạng quá tải.",
+        "reality": "Nhà ga T3 mới đạt khoảng 71% công suất thiết kế 20 triệu hành khách/năm, và Tân Sơn Nhất nhiều năm qua đã khai thác vượt công suất thiết kế, dẫn đến kẹt cứng và kéo dài thời gian làm thủ tục.",
+        "source": "https://baochinhphu.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-kiem-tra-tien-do-du-an-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260523190527671.htm"
+      },
+      {
+        "myth": "Sân bay xa 40 km là điểm yếu không thể bù.",
+        "reality": "ACV lập luận vị trí này kết nối trực tiếp với các vùng kinh tế trọng điểm Đông Nam Bộ, cho phép khai thác 24/7, giảm ô nhiễm tiếng ồn cho nội đô, và có mạng lưới đường bộ/đường sắt kết nối theo quy hoạch.",
+        "source": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm"
+      }
+    ],
+    "knowledge_level": "Khán giả biết sân bay Long Thành sắp mở và biết nó nằm ở Đồng Nai, nhưng đa số nhầm công suất 100 triệu là giai đoạn 1 và không biết lộ trình chuyển đổi 3 bước. Họ dễ tiếp nhận một explainer có bản đồ và phép so sánh trực quan.",
+    "pain_points": [
+      "Thiếu thông tin về phương tiện đi lại thực tế từ TP.HCM tới sân bay mới: bao lâu, bao nhiêu tiền, có xe buýt không",
+      "Không biết sẽ phải đi sân bay nào sau ngày 1/12/2026 cho chuyến bay của mình",
+      "Khó hình dung vì sao 40 km lại là lựa chọn đúng, khi tin tức thường chỉ nói khoảng cách mà không giải thích",
+      "Không phân biệt được công suất thiết kế, công suất khai thác thực tế và sản lượng hành khách của nhà ga T3"
+    ]
+  },
+  "expert_voices": [
+    {
+      "name": "Đào Xuân Hoạch",
+      "title_or_affiliation": "Phó Cục trưởng Cục Hàng không Việt Nam",
+      "position": "Đánh giá phương án chuyển đổi từng bước phù hợp chu kỳ điều hành lịch bay quốc tế, tiến độ hoàn thành hạ tầng và khả năng tiếp nhận của sân bay Long Thành.",
+      "source_url": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm",
+      "contrarian": false
+    },
+    {
+      "name": "Phạm Gia Túc",
+      "title_or_affiliation": "Phó Thủ tướng Thường trực Chính phủ",
+      "position": "Khẳng định mục tiêu hoàn thành và khai thác thương mại trong năm 2026 không thay đổi; yêu cầu toàn bộ hạng mục từ giao thông kết nối, nhà ga, đài kiểm soát không lưu đến cơ quan quản lý phải hoàn thành đồng bộ.",
+      "source_url": "https://baochinhphu.vn/day-nhanh-tien-do-thi-cong-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260525211615704.htm",
+      "contrarian": false
+    }
+  ],
+  "angles_discovered": [
+    {
+      "name": "40 km để đổi lấy 100 triệu hành khách",
+      "hook": "Sân bay mới đặt xa trung tâm hơn sân bay cũ gấp bốn, và đó là một phần của thiết kế vùng.",
+      "type": "data_driven",
+      "why_now": "Sân bay dự kiến khai thác thương mại từ 1/12/2026 theo lộ trình 3 bước Chính phủ công bố; câu hỏi 40 km có đáng không đang trở nên cụ thể với hành khách.",
+      "grounded_in": ["40 km so với 8-10 km của Tân Sơn Nhất", "100 triệu hành khách là công suất cuối cùng sau ba giai đoạn", "Tân Sơn Nhất đã vượt công suất thiết kế"]
+    },
+    {
+      "name": "Ba năm để dời chuyến quốc tế",
+      "hook": "Sân bay dự kiến mở tháng 12, nhưng chuyển đổi quốc tế diễn ra qua ba mùa lịch bay. Vì sao không làm cùng lúc?",
+      "type": "trending",
+      "why_now": "Cục Hàng không thống nhất mốc khai thác 1/12/2026 và lộ trình chuyển đổi 3 bước đến mùa Đông 2027-2028.",
+      "grounded_in": ["Lộ trình chuyển đổi 3 bước", "Phương án phân chia 80/10 và 20/90 trong báo cáo 2025", "Yêu cầu hoàn thành đồng bộ hạ tầng và dịch vụ"]
+    },
+    {
+      "name": "Vì sao không mở rộng Tân Sơn Nhất",
+      "hook": "Tân Sơn Nhất có nhà ga mới, nhưng một nhà ga không thể giải quyết mọi giới hạn của sân bay nằm giữa đô thị.",
+      "type": "contrarian",
+      "why_now": "Báo cáo Chính phủ tháng 5/2026 nói T3 đạt khoảng 71% công suất thiết kế 20 triệu; ACV nêu lợi ích tách khỏi khu dân cư và khai thác đêm.",
+      "grounded_in": ["T3: 20 triệu thiết kế, khoảng 71% công suất thiết kế được báo cáo", "Long Thành có thể khai thác 24/7 và giảm tiếng ồn nội đô", "Kết nối vùng Đông Nam Bộ"]
+    },
+    {
+      "name": "Bản đồ tám tuyến kết nối sân bay",
+      "hook": "Long Thành không phải một sân bay đứng riêng lẻ: quy hoạch nêu năm tuyến đường bộ và ba tuyến đường sắt.",
+      "type": "narrative",
+      "why_now": "Các bài Chính phủ 2026 đặt tiến độ đường kết nối là điều kiện vận hành; phương án còn yêu cầu 5 tuyến nội thành và 10 tuyến liên tỉnh.",
+      "grounded_in": ["5 tuyến đường bộ và 3 tuyến đường sắt", "Tuyến vận tải công cộng nội thành và liên tỉnh", "Cao tốc TPHCM-Long Thành-Dầu Giây dự kiến hoàn thành trong 2026, cầu trong quý I/2027"]
+    },
+    {
+      "name": "Sân bay nào cho chuyến bay nào",
+      "hook": "Khi Long Thành mở, không phải mọi hành khách đều đến cùng một sân bay.",
+      "type": "evergreen",
+      "why_now": "Lộ trình khai thác phân chia chuyến quốc tế theo quãng đường và mùa bay, tạo nhu cầu tra cứu thực tế trước ngày mở cửa.",
+      "grounded_in": ["Ngưỡng 1.000 km cho các chuyến quốc tế dài", "Lộ trình 3 bước", "Đề xuất phân chia khai thác 80/10 và 20/90"]
+    }
+  ],
+  "visual_references": [
+    {
+      "description": "Bản đồ động so sánh cự ly và tuyến kết nối: Tân Sơn Nhất trong nội đô so với Long Thành trên trục Đông Nam Bộ",
+      "url": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm",
+      "what_works": "Số liệu cự ly 8-10 km và 40 km tạo phép so sánh trực quan, tránh tranh luận cảm tính."
+    },
+    {
+      "description": "Biểu đồ ba tầng: Tân Sơn Nhất thiết kế 20 triệu, Long Thành giai đoạn 1 25 triệu, toàn dự án 100 triệu",
+      "url": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm",
+      "what_works": "Ba mốc công suất phân biệt rõ giai đoạn 1 với công suất sau ba giai đoạn."
+    },
+    {
+      "description": "Dòng thời gian chuyển đổi 3 bước theo mùa lịch bay 2026-2028",
+      "url": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm",
+      "what_works": "Các mốc 1/12/2026, 28/3/2027 và 30/10/2027 giải thích vì sao chuyến bay không chuyển cùng một lúc."
+    }
+  ],
+  "sources": [
+    {"url":"https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm","title":"Lộ trình chuyển đổi khai thác 2 sân bay Long Thành và Tân Sơn Nhất từ 1/12/2026","used_for":"Lộ trình 3 bước, xu hướng và mốc thương mại","reliability":"primary"},
+    {"url":"https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm","title":"Long Thanh int'l airport set for commercial launch by late 2026","used_for":"Quy mô đầu tư, công suất cuối cùng, tiến độ tháng 3/2026","reliability":"primary"},
+    {"url":"https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm","title":"Đề xuất chuyển toàn bộ chuyến bay quốc tế về sân bay Long Thành","used_for":"Khoảng cách 40 km và lợi ích vị trí theo ACV","reliability":"primary"},
+    {"url":"https://baochinhphu.vn/bo-xay-dung-bao-cao-ve-phuong-an-khai-thac-san-bay-long-thanh-102251002182442016.htm","title":"Bộ Xây dựng báo cáo về phương án khai thác sân bay Long Thành","used_for":"Tỷ lệ khai thác đề xuất và phân chia chuyến bay","reliability":"primary"},
+    {"url":"https://baochinhphu.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-kiem-tra-tien-do-du-an-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260523190527671.htm","title":"Phó Thủ tướng kiểm tra tiến độ dự án sân bay Long Thành","used_for":"T3, công suất 20 triệu và tỷ lệ sử dụng được báo cáo","reliability":"primary"},
+    {"url":"https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm","title":"Thủ tướng: Sân bay Long Thành phải hoàn thành trong năm 2025","used_for":"Công suất giai đoạn 1, kết nối bộ/đường sắt","reliability":"primary"},
+    {"url":"https://baochinhphu.vn/day-nhanh-tien-do-thi-cong-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260525211615704.htm","title":"Đẩy nhanh tiến độ thi công sân bay và cao tốc TPHCM-Long Thành-Dầu Giây","used_for":"Tiến độ hạ tầng kết nối năm 2026 và cầu Long Thành","reliability":"primary"},
+    {"url":"https://vanban.chinhphu.vn/?docid=212234&pageid=27160","title":"Quyết định 1711/QĐ-TTg về quy hoạch TP.HCM","used_for":"Nguồn văn bản quy hoạch cấp Chính phủ","reliability":"primary"},
+    {"url":"https://vanban.chinhphu.vn/?pageid=27160&docid=208031","title":"Quyết định 648/QĐ-TTg về quy hoạch hệ thống cảng hàng không","used_for":"Nguồn văn bản quy hoạch hàng không toàn quốc","reliability":"primary"},
+    {"url":"https://caa.gov.vn/van-ban/648-qd-ttg-28627.htm","title":"Cục Hàng không Việt Nam - Hồ sơ Quy hoạch theo Quyết định 648/QĐ-TTg","used_for":"Hồ sơ quy hoạch hàng không của cơ quan quản lý","reliability":"primary"},
+    {"url":"https://baochinhphu.vn/khuyen-khich-cac-hang-hang-khong-chuyen-bay-quoc-te-sang-san-bay-long-thanh-tu-he-2026-102250929194105721.htm","title":"Khuyến khích các hãng hàng không chuyển bay quốc tế sang Long Thành từ Hè 2026","used_for":"Bối cảnh quy hoạch vùng và đề xuất khai thác","reliability":"primary"},
+    {"url":"https://www.youtube.com/watch?v=wGSHYdLj5oo","title":"Sân bay Long Thành mở cửa, vì sao 322 trong 366 chuyến mỗi tuần là bay nội địa?","used_for":"Video đối chiếu trực tiếp","reliability":"secondary"},
+    {"url":"https://www.youtube.com/watch?v=U_LiGKpGjSE","title":"Sân bay Long Thành giảm phí cất hạ cánh 50% nhưng vẫn chưa đủ hấp dẫn!","used_for":"Đối chiếu cách kênh Land Connect làm chủ đề dự án","reliability":"secondary"},
+    {"url":"https://www.youtube.com/results?search_query=s%C3%A2n+bay+long+th%C3%A0nh+v%C3%AC+sao+40+km","title":"Kết quả tìm kiếm YouTube: sân bay Long Thành vì sao 40 km","used_for":"Các tiêu đề hiện có, dùng đánh giá cạnh tranh","reliability":"secondary"},
+    {"url":"https://datareportal.com/reports/digital-2025-vietnam","title":"Digital 2025: Vietnam","used_for":"Quy mô tiếp cận quảng cáo YouTube tại Việt Nam","reliability":"secondary"},
+    {"url":"https://support.google.com/youtube/answer/1311392","title":"YouTube channel monetization policies","used_for":"Rủi ro nội dung lặp lại và thiếu tính nguyên gốc","reliability":"primary"},
+    {"url":"https://support.google.com/youtube/answer/72851","title":"YouTube Partner Program overview and eligibility","used_for":"Ngưỡng tham gia YPP và thị trường được hỗ trợ","reliability":"primary"},
+    {"url":"https://support.google.com/youtube/answer/9230970","title":"Disclosing altered or synthetic content","used_for":"Yêu cầu khai báo nội dung AI giống thật","reliability":"primary"}
+  ],
+  "research_summary": "Câu hỏi 'vì sao sân bay Long Thành nằm cách 40 km' là cơ hội explainer nhưng không phải thị trường trống. Khoảng cách này dài hơn Tân Sơn Nhất (8-10 km), đổi lại theo ACV là kết nối vùng Đông Nam Bộ, khả năng khai thác 24/7, giảm tiếng ồn nội đô và dư địa mở rộng. Dữ liệu Chính phủ cho biết giai đoạn 1 dự kiến đạt 25 triệu hành khách/năm, còn 100 triệu là công suất sau ba giai đoạn. Cục Hàng không thống nhất lộ trình khai thác 3 bước từ 1/12/2026 đến mùa Đông 2027-2028. Trong dữ liệu YouTube cục bộ, 147 video liên quan hạ tầng sân bay chủ yếu thuộc một kênh theo dõi tiến độ; có video trực tiếp về 322/366 chuyến nội địa và nhiều tiêu đề hỏi về 40 km, nên nên làm explainer bản đồ, so sánh công suất và hành trình thực tế thay vì lặp tin tiến độ. Giới hạn quan trọng: vidIQ MCP không khả dụng, chưa có volume/competition/RPM; niche scan không có ngày đăng; hai PDF quy hoạch là bản scan, chưa OCR. Vì vậy các kết luận về nhu cầu và xu hướng là giả thuyết cần thử, không phải dự báo chắc chắn.",
+  "metadata": {
+    "research_method": "Scrapy HTTP crawl of government, Civil Aviation Authority, and ACV pages; direct DataReportal fetch; local cached YouTube niche scan",
+    "spider_files": ["_tools/research_spider/long_thanh.py", "_tools/research_spider/long_thanh_news.py"],
+    "raw_outputs": ["projects/long-thanh-40km/artifacts/scrapy-sources.jsonl", "projects/long-thanh-40km/artifacts/scrapy-news.jsonl"],
+    "limitations": [
+      "vidIQ MCP is unavailable in this session; search volume, competition, and RPM by country remain unverified",
+      "PDFs for decisions 648 and 1711 are scanned images with no text layer; pdftotext extracted only a few hundred characters and OCR is not installed. Decision 562/QD-BXD (2025) does have a readable text layer and was read in full.",
+      "The 2011 master plan (909/QD-TTg) and the 2015 National Assembly resolution (94/2015/QH13) are confirmed only through the citation list inside 562/QD-BXD; their own text was not read, so the original site-selection rationale is not yet established",
+      "The local niche scan has no upload dates; view counts are directional signals only, not evidence of current trend velocity",
+      "Thuvienphapluat was blocked by Cloudflare and the initially guessed ACV root returned 404; no access controls were bypassed",
+      "No direct RPM/CPM comparison by country was verified; market ranking weighs audience reach, language fit, competition, and sourcing cost"
+    ]
+  }
+}

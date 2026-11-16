@@ -1,0 +1,404 @@
+{
+  "version": "1.0",
+  "project_id": "cang-lach-huyen-ban-dai",
+  "pipeline_type": "animated-explainer",
+  "stage": "edit",
+  "status": "completed",
+  "timestamp": "2026-11-16T15:54:00.964720+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": true,
+  "artifacts": {
+    "edit_decisions": {
+      "version": "1.0",
+      "renderer_family": "explainer-data",
+      "render_runtime": "remotion",
+      "composition_mode": "atelier",
+      "bespoke": {
+        "entry": "projects/cang-lach-huyen-ban-dai/index.tsx",
+        "composition_id": "CangLachHuyenBanDai",
+        "art_direction": "projects/cang-lach-huyen-ban-dai/art-direction.md",
+        "props_path": "C:/Users/ACER/Desktop/Openmontage-Room/projects/cang-lach-huyen-ban-dai/artifacts/props.json",
+        "public_dir": "projects/cang-lach-huyen-ban-dai/public",
+        "crf": 14,
+        "concurrency": 4
+      },
+      "cuts": [
+        {
+          "id": "cut_01",
+          "source": "snapshots/scene_01.png",
+          "in_seconds": 0.0,
+          "out_seconds": 25.6,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_01 (introduce_subject): [Chương 1.1 — Hook: Nghịch lý 150 năm của thành phố cảng lớn nhất miền Bắc] Không ảnh 3D Biển Đông & Vịnh Bắc Bộ (53°, Hoàng Sa & Trường Sa "
+        },
+        {
+          "id": "cut_02",
+          "source": "snapshots/scene_02.png",
+          "in_seconds": 25.6,
+          "out_seconds": 62.79,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_02 (establish_context): [Chương 1.2 — Năm 1874: Vì sao người Pháp đặt Bến Sáu Kho sâu 48 km trong sông Cấm?] Bản đồ 3D miền Bắc & hành lang đường sắt Đông Dương 190"
+        },
+        {
+          "id": "cut_03",
+          "source": "snapshots/scene_03.png",
+          "in_seconds": 62.79,
+          "out_seconds": 93.35,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_03 (build_tension): [Chương 1.3 — Cú nhảy vọt kích cỡ tàu thế kỷ XXI biến dòng sông thành chiếc lồng] Sơ đồ so sánh tỷ lệ 1:1 ba thế hệ tàu: Tàu hơi nước 1874 ("
+        },
+        {
+          "id": "cut_04",
+          "source": "snapshots/scene_04.png",
+          "in_seconds": 93.35,
+          "out_seconds": 118.4,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_04 (establish_context): [Chương 1.4 — Cú bổ nhào 3D dọc hành lang 48,0 km từ Phao số 0 vào nội đô] Camera 3D góc 56° bổ nhào dọc hành lang 48,0 km từ Phao số 0 vào "
+        },
+        {
+          "id": "cut_05",
+          "source": "snapshots/scene_05.png",
+          "in_seconds": 118.4,
+          "out_seconds": 152.32,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_05 (build_tension): [Chương 2.1 — Cái giá của việc đi tàu gom hàng vòng qua Singapore & Hồng Kông] Bản đồ 3D Đông Nam Á (52°) với 4 vòng cung 3D nối Hải Phòng v"
+        },
+        {
+          "id": "cut_06",
+          "source": "snapshots/scene_06.png",
+          "in_seconds": 152.32,
+          "out_seconds": 180.34,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_06 (evidence): [Chương 2.2 — Hồ sơ thủy văn QĐ 1995: Thủ phạm phù sa dưới mặt nước (-7,0 m)] Bản đồ 3D vùng bùn phù sa cửa Nam Triệu + Tờ hồ sơ giấy kem QĐ"
+        },
+        {
+          "id": "cut_07",
+          "source": "snapshots/scene_07.png",
+          "in_seconds": 180.34,
+          "out_seconds": 212.82,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_07 (build_tension): [Chương 2.3 — Hơn một thế kỷ vá lỗi: Từ nạo vét 1904 đến kênh đào Hà Nam (-8,5 m)] Bản đồ 3D cận cảnh bán đảo Đình Vũ & Kênh đào Hà Nam (z14"
+        },
+        {
+          "id": "cut_08",
+          "source": "snapshots/scene_08.png",
+          "in_seconds": 212.82,
+          "out_seconds": 244.09,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_08 (build_tension): [Chương 2.4 — Nút thắt trên không & hai bờ: Tĩnh không cầu nội đô và di dời cảng cũ] Sơ đồ mặt đứng 3D sông Cấm nội đô: tĩnh không cầu đường"
+        },
+        {
+          "id": "cut_09",
+          "source": "snapshots/scene_09.png",
+          "in_seconds": 244.09,
+          "out_seconds": 275.15,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_09 (evidence): [Chương 3.1 — Sa bàn địa chất 3D: Đào sâu 14 m bằng tòa nhà 4 tầng sẽ làm sập hai bờ phố] Sa bàn 3D Isometric cắt dọc lòng sông Cấm 80 m: tò"
+        },
+        {
+          "id": "cut_10",
+          "source": "snapshots/scene_10.png",
+          "in_seconds": 275.15,
+          "out_seconds": 311.67,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_10 (emotional_beat): [Chương 3.2 — Cái phễu hứng bùn vô đáy mỗi mùa mưa lũ & Quyết định bước ngoặt] Mô phỏng chu kỳ bồi lắng 4 mùa & biểu đồ chi phí duy tu vô tậ"
+        },
+        {
+          "id": "cut_11",
+          "source": "snapshots/scene_11.png",
+          "in_seconds": 311.67,
+          "out_seconds": 340.81,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_11 (deliver_payload): [Chương 4.1 — Flycam 3D Cầu vượt biển Tân Vũ – Lạch Huyện 5,44 km sang đảo Cát Hải] Flycam 3D góc 56° dọc cầu nổi 18 trụ bê tông đổ bóng xuố"
+        },
+        {
+          "id": "cut_12",
+          "source": "snapshots/scene_12.png",
+          "in_seconds": 340.81,
+          "out_seconds": 373.02,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_12 (evidence): [Chương 4.2 — Vũ khí bí mật ngoài khơi: Đê chắn cát Tây Nam & Đê chắn sóng Đông Bắc] Bản đồ 3D cận cảnh mũi Nam đảo Cát Hải (vệ tinh EOX 202"
+        },
+        {
+          "id": "cut_13",
+          "source": "snapshots/scene_13.png",
+          "in_seconds": 373.02,
+          "out_seconds": 404.97,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_13 (comparison): [Chương 4.3 — Trường đua tách đôi 1:1: Luồng cũ 48 km / 80 m đối đầu Luồng mới 20,66 km / 160 m] Màn hình tách đôi tỷ lệ 1:1: Làn trên luồng"
+        },
+        {
+          "id": "cut_14",
+          "source": "snapshots/scene_14.png",
+          "in_seconds": 404.97,
+          "out_seconds": 437.85,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_14 (deliver_payload): [Chương 4.4 — Hero Moment Mặt cắt đáy biển: Mắc cạn ở -7,0 m vs Tòa nhà 4 tầng ở -14,0 m / -16,0 m] Hero Moment mặt cắt thủy văn: Tàu lớn ng"
+        },
+        {
+          "id": "cut_15",
+          "source": "snapshots/scene_15.png",
+          "in_seconds": 437.85,
+          "out_seconds": 472.99,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_15 (resolution): [Chương 5.1 — Cú bứt tốc 2018–2026: 6 bến liên hoàn dài 2,4 km đạt 4,7 triệu TEU/năm] Bản đồ 3D Cát Hải bật sáng tuần tự 3 khối cảng nổi 3D:"
+        },
+        {
+          "id": "cut_16",
+          "source": "snapshots/scene_16.png",
+          "in_seconds": 472.99,
+          "out_seconds": 500.85,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_16 (resolution): [Chương 5.2 — Tuyến hàng hải đi thẳng Mỹ & châu Âu: Bỏ qua khâu trung chuyển Singapore] Bản đồ 3D liên lục địa: các cung hàng hải xanh ngọc "
+        },
+        {
+          "id": "cut_17",
+          "source": "snapshots/scene_17.png",
+          "in_seconds": 500.85,
+          "out_seconds": 532.4,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_17 (evidence): [Chương 5.3 — Tầm nhìn QĐ 1579/QĐ-TTg: Mở tiếp Bến 7–8 và cực tăng trưởng mới Nam Đồ Sơn] Bản đồ 3D toàn dải ven biển Hải Phòng (Cát Hải + N"
+        },
+        {
+          "id": "cut_18",
+          "source": "snapshots/scene_18.png",
+          "in_seconds": 532.4,
+          "out_seconds": 562.13,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_18 (resolution): [Chương 5.4 — Mảnh ghép sống còn cuối cùng: Đường sắt khổ 1.435 mm Lào Cai – Hà Nội – Hải Phòng] Bản đồ 3D hành lang kinh tế miền Bắc: tuyến"
+        },
+        {
+          "id": "cut_19",
+          "source": "snapshots/scene_19.png",
+          "in_seconds": 562.13,
+          "out_seconds": 590.44,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_19 (call_to_action): [Chương 5.5 — Kết luận 150 năm & Bình chọn tập giải mã bản đồ tiếp theo] Không ảnh 3D toàn cảnh Hải Phòng vươn ra Biển Đông (hiển thị trang "
+        }
+      ],
+      "audio": {
+        "narration": {
+          "segments": [
+            {
+              "asset_id": "narration-s01",
+              "start_seconds": 0.2,
+              "end_seconds": 25.154
+            },
+            {
+              "asset_id": "narration-s02",
+              "start_seconds": 25.8,
+              "end_seconds": 62.342
+            },
+            {
+              "asset_id": "narration-s03",
+              "start_seconds": 62.99,
+              "end_seconds": 92.901
+            },
+            {
+              "asset_id": "narration-s04",
+              "start_seconds": 93.55,
+              "end_seconds": 117.946
+            },
+            {
+              "asset_id": "narration-s05",
+              "start_seconds": 118.6,
+              "end_seconds": 151.871
+            },
+            {
+              "asset_id": "narration-s06",
+              "start_seconds": 152.52,
+              "end_seconds": 179.887
+            },
+            {
+              "asset_id": "narration-s07",
+              "start_seconds": 180.54,
+              "end_seconds": 212.372
+            },
+            {
+              "asset_id": "narration-s08",
+              "start_seconds": 213.02,
+              "end_seconds": 243.642
+            },
+            {
+              "asset_id": "narration-s09",
+              "start_seconds": 244.29,
+              "end_seconds": 274.699
+            },
+            {
+              "asset_id": "narration-s10",
+              "start_seconds": 275.35,
+              "end_seconds": 311.22
+            },
+            {
+              "asset_id": "narration-s11",
+              "start_seconds": 311.87,
+              "end_seconds": 340.361
+            },
+            {
+              "asset_id": "narration-s12",
+              "start_seconds": 341.01,
+              "end_seconds": 372.573
+            },
+            {
+              "asset_id": "narration-s13",
+              "start_seconds": 373.22,
+              "end_seconds": 404.519
+            },
+            {
+              "asset_id": "narration-s14",
+              "start_seconds": 405.17,
+              "end_seconds": 437.399
+            },
+            {
+              "asset_id": "narration-s15",
+              "start_seconds": 438.05,
+              "end_seconds": 472.543
+            },
+            {
+              "asset_id": "narration-s16",
+              "start_seconds": 473.19,
+              "end_seconds": 500.4
+            },
+            {
+              "asset_id": "narration-s17",
+              "start_seconds": 501.05,
+              "end_seconds": 531.952
+            },
+            {
+              "asset_id": "narration-s18",
+              "start_seconds": 532.6,
+              "end_seconds": 561.681
+            },
+            {
+              "asset_id": "narration-s19",
+              "start_seconds": 562.33,
+              "end_seconds": 589.592
+            }
+          ]
+        },
+        "sfx": [
+          {
+            "asset_id": "sfx-hydrographic-bed",
+            "start_seconds": 0.0,
+            "volume": 1.0
+          }
+        ]
+      },
+      "subtitles": {
+        "enabled": false,
+        "source": "assets/audio/narration_full.srt"
+      },
+      "slideshow_risk_score": {
+        "average": 0.06,
+        "verdict": "strong"
+      },
+      "metadata": {
+        "target_duration_seconds": 590.44,
+        "proposal_render_runtime": "remotion",
+        "style_playbook": "clean-professional",
+        "selective_photo_zoom_scenes": {
+          "scene_11": [
+            10.2,
+            22.75
+          ],
+          "scene_15": [
+            14.5,
+            28.85
+          ]
+        }
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "passed": true,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "notes": [
+      "Locked bespoke Atelier render config for 19 scenes across 590.44s (CRF 14, concurrency 8).",
+      "Verified selective photo zoom restricted exclusively to Scene 11 (Tân Vũ Bridge) and Scene 15 (6 Berths HTIT)."
+    ]
+  },
+  "cost_snapshot": {
+    "stage_cost_usd": 0.0,
+    "cumulative_cost_usd": 0.0,
+    "budget_usd": 5.0
+  }
+}

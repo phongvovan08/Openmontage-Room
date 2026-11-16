@@ -1,0 +1,32 @@
+{
+  "s1": {
+    "success": true,
+    "cost": 0.0137,
+    "dur": 7.17
+  },
+  "s2": {
+    "success": true,
+    "cost": 0.0229,
+    "dur": 10.24
+  },
+  "s3": {
+    "success": true,
+    "cost": 0.0266,
+    "dur": 10.63
+  },
+  "s4": {
+    "success": true,
+    "cost": 0.0212,
+    "dur": 8.64
+  },
+  "s5": {
+    "success": true,
+    "cost": 0.0239,
+    "dur": 9.97
+  },
+  "s6": {
+    "success": true,
+    "cost": 0.0268,
+    "dur": 10.23
+  }
+}

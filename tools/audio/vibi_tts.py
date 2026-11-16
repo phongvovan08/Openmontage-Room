@@ -98,9 +98,13 @@ class VibiTTS(BaseTool):
             "voice_id": {
                 "type": "string",
                 "description": (
-                    "Voice ID for the selected engine (ElevenLabs voice_id, MiniMax numeric/uniq_id/cloned UUID, "
-                    "or CapCut voice_id). Defaults to _tools/vibi_tts.json if present."
+                    "Voice ID or voice_name from _tools/vibi_voice_pool.json (e.g. 'Haitrieu', 'Lacthien', "
+                    "'Zoe 2', 'clone10', 'clone4', 'vanhoc', or UUID). Defaults to _tools/vibi_voice_pool.json."
                 ),
+            },
+            "voice_name": {
+                "type": "string",
+                "description": "Friendly voice name in _tools/vibi_voice_pool.json (e.g. 'Haitrieu', 'Lacthien').",
             },
             "vibi_provider": {
                 "type": "string",
@@ -269,8 +273,23 @@ class VibiTTS(BaseTool):
             base *= 1.15
         return round(base, 4)
 
-    def _load_default_voice_config(self) -> dict[str, Any]:
+    def _load_default_voice_config(self, voice_query: str | None = None) -> dict[str, Any]:
         root = Path(__file__).resolve().parent.parent.parent
+        pool_path = root / "_tools" / "vibi_voice_pool.json"
+        if pool_path.is_file():
+            try:
+                pool = json.loads(pool_path.read_text(encoding="utf-8"))
+                voices = pool.get("voices", [])
+                if voice_query:
+                    q = voice_query.strip().lower()
+                    for v in voices:
+                        if v.get("voice_name", "").lower() == q or v.get("voice_id", "").lower() == q:
+                            return v
+                enabled = [v for v in voices if v.get("enabled") and v.get("voice_id")]
+                if enabled:
+                    return enabled[0]
+            except Exception:
+                pass
         cfg_path = root / "_tools" / "vibi_tts.json"
         if cfg_path.is_file():
             try:
@@ -350,7 +369,9 @@ class VibiTTS(BaseTool):
             or inputs.get("with_timestamps", False)
             or inputs.get("timestamps", False)
         )
-        default_cfg = self._load_default_voice_config()
+        default_cfg = self._load_default_voice_config(
+            inputs.get("voice_name") or inputs.get("voice_id")
+        )
 
         if inputs.get("speakers"):
             endpoint = f"{self.API_BASE}/v1/dialogue"
@@ -408,11 +429,15 @@ class VibiTTS(BaseTool):
                     "pitch": int(inputs.get("pitch", 0)),
                 }
             else:
-                voice_id = (
-                    inputs.get("voice_id")
-                    or default_cfg.get("voice_id")
-                    or self.DEFAULT_MINIMAX_VOICE_ID
-                )
+                raw_vid = inputs.get("voice_id")
+                if raw_vid and default_cfg.get("voice_name", "").lower() == raw_vid.strip().lower():
+                    voice_id = default_cfg.get("voice_id") or raw_vid
+                else:
+                    voice_id = (
+                        default_cfg.get("voice_id")
+                        if inputs.get("voice_name")
+                        else (raw_vid or default_cfg.get("voice_id") or self.DEFAULT_MINIMAX_VOICE_ID)
+                    )
                 model_id = (
                     requested_model
                     if (requested_model and requested_model.startswith("speech-"))

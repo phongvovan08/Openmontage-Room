@@ -1,0 +1,498 @@
+{
+  "version": "1.0",
+  "project_id": "long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "research",
+  "status": "completed",
+  "timestamp": "2026-11-15T15:34:50.471673+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "research_brief": {
+      "version": "1.0",
+      "topic": "V\u00ec sao s\u00e2n bay Long Th\u00e0nh n\u1eb1m c\u00e1ch TP.HCM 40 km? Quy ho\u1ea1ch s\u00e2n bay, giao th\u00f4ng k\u1ebft n\u1ed1i v\u00e0 l\u1ed9 tr\u00ecnh khai th\u00e1c",
+      "research_date": "2026-11-15",
+      "landscape": {
+        "existing_content": [
+          {
+            "title": "S\u00e2n bay Long Th\u00e0nh - 40KM C\u1ea7n Ph\u01b0\u01a1ng \u00c1n Gi\u1ea3i Quy\u1ebft",
+            "url": "https://www.youtube.com/results?search_query=s%C3%A2n+bay+long+th%C3%A0nh+v%C3%AC+sao+40+km",
+            "source": "youtube",
+            "angle": "\u0110\u1eb7t v\u1ea5n \u0111\u1ec1 kho\u1ea3ng c\u00e1ch 40 km nh\u01b0 m\u1ed9t ngh\u1ecbch l\u00fd c\u1ea7n gi\u1ea3i quy\u1ebft, \u0111\u01b0a ra c\u00e1c ph\u01b0\u01a1ng \u00e1n \u0111\u01b0\u1eddng b\u1ed9 v\u00e0 \u0111\u01b0\u1eddng s\u1eaft",
+            "what_it_covers": "Kho\u1ea3ng c\u00e1ch 40 km t\u1eeb trung t\u00e2m TP.HCM v\u00e0 c\u00e1c tuy\u1ebfn k\u1ebft n\u1ed1i d\u1ef1 ki\u1ebfn",
+            "what_it_misses": "Kh\u00f4ng \u0111\u1ed1i chi\u1ebfu v\u1edbi c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf v\u00e0 t\u1ef7 l\u1ec7 ph\u00e2n chia khai th\u00e1c hai s\u00e2n bay; kh\u00f4ng c\u00f3 s\u1ed1 li\u1ec7u c\u00f4ng su\u1ea5t T\u00e2n S\u01a1n Nh\u1ea5t \u0111\u1ec3 ch\u1ee9ng minh v\u00ec sao ph\u1ea3i d\u1eddi s\u00e2n bay",
+            "engagement_signal": "Ti\u00eau \u0111\u1ec1 xu\u1ea5t hi\u1ec7n trong k\u1ebft qu\u1ea3 t\u00ecm ki\u1ebfm YouTube ti\u1ebfng Vi\u1ec7t; s\u1ed1 view kh\u00f4ng c\u00f3 trong b\u1ed9 d\u1eef li\u1ec7u c\u1ee5c b\u1ed9"
+          },
+          {
+            "title": "S\u00e2n bay Long Th\u00e0nh m\u1edf c\u1eeda, v\u00ec sao 322 trong 366 chuy\u1ebfn m\u1ed7i tu\u1ea7n l\u00e0 bay n\u1ed9i \u0111\u1ecba?",
+            "url": "https://www.youtube.com/watch?v=wGSHYdLj5oo",
+            "source": "youtube",
+            "angle": "Gi\u1ea3i th\u00edch ngh\u1ecbch l\u00fd v\u1eadn h\u00e0nh: s\u00e2n bay m\u1edbi m\u1edf c\u1eeda nh\u01b0ng ph\u1ea7n l\u1edbn chuy\u1ebfn bay v\u1eabn l\u00e0 n\u1ed9i \u0111\u1ecba",
+            "what_it_covers": "T\u1ef7 l\u1ec7 chuy\u1ebfn bay n\u1ed9i \u0111\u1ecba v\u00e0 qu\u1ed1c t\u1ebf sau khi khai th\u00e1c, b\u1eb1ng l\u00fd do ph\u00e2n chia theo m\u00f9a l\u1ecbch bay",
+            "what_it_misses": "Kh\u00f4ng gi\u1ea3i th\u00edch g\u1ed1c r\u1ec5: v\u1ecb tr\u00ed 40 km \u0111\u01b0\u1ee3c ch\u1ecdn nh\u01b0 th\u1ebf n\u00e0o, v\u00e0 \u0111i\u1ec1u \u0111\u00f3 c\u00f3 h\u1ee3p l\u00fd v\u1edbi c\u00f4ng su\u1ea5t 100 tri\u1ec7u h\u00e0nh kh\u00e1ch t\u01b0\u01a1ng lai hay kh\u00f4ng",
+            "engagement_signal": "7.378 l\u01b0\u1ee3t xem, th\u1eddi l\u01b0\u1ee3ng 1.250 gi\u00e2y (~21 ph\u00fat) trong b\u1ed9 d\u1eef li\u1ec7u niche_scan.json c\u1ee5c b\u1ed9 (kh\u00f4ng c\u00f3 ng\u00e0y \u0111\u0103ng)"
+          },
+          {
+            "title": "S\u00e2n bay Long Th\u00e0nh s\u1eafp m\u1edf: c\u00e1ch trung t\u00e2m 40 km th\u00ec ai ra \u0111\u00f3?",
+            "url": "https://www.youtube.com/results?search_query=s%C3%A2n+bay+long+th%C3%A0nh+v%C3%AC+sao+40+km",
+            "source": "youtube",
+            "angle": "G\u00f3c nh\u00ecn t\u1eeb h\u00e0nh kh\u00e1ch: \u0111i t\u1eeb trung t\u00e2m 40 km th\u00ec m\u1ea5t bao l\u00e2u, ai s\u1ebd ch\u1ecbu \u0111i",
+            "what_it_covers": "Tr\u1ea3i nghi\u1ec7m \u0111i l\u1ea1i v\u00e0 lo ng\u1ea1i v\u1ec1 kho\u1ea3ng c\u00e1ch t\u1eeb trung t\u00e2m",
+            "what_it_misses": "Kh\u00f4ng c\u00f3 b\u1ea3n \u0111\u1ed3 hay ph\u00e9p so s\u00e1nh \u0111\u1ecbnh l\u01b0\u1ee3ng gi\u1eefa T\u00e2n S\u01a1n Nh\u1ea5t v\u00e0 Long Th\u00e0nh",
+            "engagement_signal": "C\u00f3 trong danh s\u00e1ch 25 ti\u00eau \u0111\u1ec1 ti\u1ebfng Vi\u1ec7t l\u1ea5y t\u1eeb trang k\u1ebft qu\u1ea3 YouTube"
+          },
+          {
+            "title": "C\u00e1c video c\u1ee7a Land K\u1ebft N\u1ed1i v\u1ec1 Long Th\u00e0nh v\u00e0 metro (141 video li\u00ean quan)",
+            "url": "https://www.youtube.com/watch?v=U_LiGKpGjSE",
+            "source": "youtube",
+            "angle": "Theo d\u00f5i d\u1ef1 \u00e1n li\u00ean t\u1ee5c: gi\u1ea3m ph\u00ed c\u1ea5t h\u1ea1 c\u00e1nh, n\u00fat th\u1eaft c\u1ea7u, ti\u1ebfn \u0111\u1ed9, \u0111\u1ec1 xu\u1ea5t metro Th\u1ee7 Thi\u00eam - Long Th\u00e0nh",
+            "what_it_covers": "Di\u1ec5n bi\u1ebfn d\u1ef1 \u00e1n, g\u00f3i th\u1ea7u, metro, gi\u00e1 d\u1ecbch v\u1ee5 h\u00e0ng kh\u00f4ng",
+            "what_it_misses": "Kh\u00f4ng c\u00f3 video n\u00e0o d\u1ea1ng explainer gi\u1ea3i th\u00edch b\u1ed1i c\u1ea3nh quy ho\u1ea1ch: v\u00ec sao ch\u1ecdn \u0110\u1ed3ng Nai, v\u00ec sao 40 km, v\u00e0 so s\u00e1nh v\u1edbi m\u00f4 h\u00ecnh Singapore/Kuala Lumpur",
+            "engagement_signal": "Trong 147 video h\u1ea1 t\u1ea7ng/\u0111\u1ecba l\u00fd li\u00ean quan, Land Connect chi\u1ebfm 141 video; trung v\u1ecb 6.600 l\u01b0\u1ee3t xem, t\u1ed1i \u0111a 85.000 (video gi\u1ea3m ph\u00ed c\u1ea5t h\u1ea1 c\u00e1nh). 6 video c\u00f2n l\u1ea1i trung v\u1ecb 125.848 l\u01b0\u1ee3t xem"
+          },
+          {
+            "title": "Long Thanh int'l airport set for commercial launch by late 2026 (Government News)",
+            "url": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm",
+            "source": "blog",
+            "angle": "B\u1ea3n tin ch\u00ednh ph\u1ee7: ti\u1ebfn \u0111\u1ed9, quy m\u00f4, c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf 100 tri\u1ec7u h\u00e0nh kh\u00e1ch",
+            "what_it_covers": "9.000 c\u00f4ng nh\u00e2n, 74% kh\u1ed1i l\u01b0\u1ee3ng h\u1ee3p \u0111\u1ed3ng, t\u1ed5ng \u0111\u1ea7u t\u01b0 ~16 t\u1ef7 USD, 3 giai \u0111o\u1ea1n, 100 tri\u1ec7u h\u00e0nh kh\u00e1ch v\u00e0 5 tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a",
+            "what_it_misses": "Kh\u00f4ng gi\u1ea3i th\u00edch quy\u1ebft \u0111\u1ecbnh v\u1ecb tr\u00ed v\u00e0 b\u1ed1i c\u1ea3nh h\u1ea1 t\u1ea7ng giao th\u00f4ng \u0111i k\u00e8m",
+            "engagement_signal": "B\u00e0i ch\u00ednh th\u1ee9c, ng\u00e0y 30/03/2026"
+          }
+        ],
+        "saturated_angles": [
+          "Theo d\u00f5i ti\u1ebfn \u0111\u1ed9 d\u1ef1 \u00e1n v\u00e0 g\u00f3i th\u1ea7u (\u0111\u00e3 c\u00f3 141 video t\u1eeb m\u1ed9t k\u00eanh duy nh\u1ea5t)",
+          "Tin \u0111\u1ed3n chuy\u1ec3n \u0111\u1ed5i khai th\u00e1c v\u00e0 metro Th\u1ee7 Thi\u00eam - Long Th\u00e0nh",
+          "C\u00e2u chuy\u1ec7n 'ti\u1ebfn \u0111\u1ed9 ch\u1eadm, tr\u1ec5 h\u1eb9n' v\u00e0 th\u1ecb tr\u01b0\u1eddng \u0111\u1ea5t quanh s\u00e2n bay",
+          "So s\u00e1nh gi\u00e1 c\u1ea5t h\u1ea1 c\u00e1nh v\u00e0 c\u01a1 ch\u1ebf \u01b0u \u0111\u00e3i gi\u00e1 d\u1ecbch v\u1ee5 h\u00e0ng kh\u00f4ng"
+        ],
+        "underserved_gaps": [
+          "Kh\u00f4ng c\u00f3 video ti\u1ebfng Vi\u1ec7t n\u00e0o gi\u1ea3i th\u00edch b\u1ed1i c\u1ea3nh quy ho\u1ea1ch: v\u00ec sao s\u00e2n bay th\u1ee9 hai c\u1ee7a Vi\u1ec7t Nam l\u1ea1i \u0111\u1eb7t \u1edf \u0110\u1ed3ng Nai thay v\u00ec m\u1edf r\u1ed9ng T\u00e2n S\u01a1n Nh\u1ea5t, v\u00e0 40 km \u0111\u01b0\u1ee3c \u0111\u00e1nh \u0111\u1ed5i b\u1eb1ng l\u1ee3i th\u1ebf g\u00ec",
+          "Ch\u01b0a c\u00f3 video so s\u00e1nh \u0111\u1ecbnh l\u01b0\u1ee3ng c\u00f4ng su\u1ea5t: T\u00e2n S\u01a1n Nh\u1ea5t \u0111\u00e3 v\u01b0\u1ee3t thi\u1ebft k\u1ebf (nh\u00e0 ga T3 \u0111\u1ea1t ~71% c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf 20 tri\u1ec7u) so v\u1edbi 25 tri\u1ec7u c\u1ee7a Long Th\u00e0nh giai \u0111o\u1ea1n 1 v\u00e0 100 tri\u1ec7u to\u00e0n d\u1ef1 \u00e1n",
+          "Thi\u1ebfu video d\u00f9ng b\u1ea3n \u0111\u1ed3 \u0111\u1ec3 \u0111o c\u1ef1 ly th\u1ef1c t\u1ebf (40 km \u0111\u01b0\u1eddng b\u1ed9 vs 8-10 km c\u1ee7a T\u00e2n S\u01a1n Nh\u1ea5t) v\u00e0 c\u00e1c tuy\u1ebfn k\u1ebft n\u1ed1i 5 \u0111\u01b0\u1eddng b\u1ed9 + 3 \u0111\u01b0\u1eddng s\u1eaft",
+          "Ch\u01b0a gi\u1ea3i th\u00edch r\u00f5 v\u00ec sao l\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i 3 b\u01b0\u1edbc k\u00e9o d\u00e0i \u0111\u1ebfn m\u00f9a \u0110\u00f4ng 2027-2028 d\u00f9 s\u00e2n bay m\u1edf c\u1eeda th\u01b0\u01a1ng m\u1ea1i t\u1eeb 1/12/2026",
+          "Thi\u1ebfu g\u00f3c nh\u00ecn quy ho\u1ea1ch v\u00f9ng: k\u1ebft n\u1ed1i tr\u1ef1c ti\u1ebfp v\u1edbi c\u00e1c v\u00f9ng kinh t\u1ebf tr\u1ecdng \u0111i\u1ec3m \u0110\u00f4ng Nam B\u1ed9, m\u00f4 h\u00ecnh \u0111\u00f4 th\u1ecb s\u00e2n bay, khu th\u01b0\u01a1ng m\u1ea1i t\u1ef1 do"
+        ]
+      },
+      "trending": {
+        "recent_developments": [
+          {
+            "headline": "L\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i khai th\u00e1c 3 b\u01b0\u1edbc gi\u1eefa Long Th\u00e0nh v\u00e0 T\u00e2n S\u01a1n Nh\u1ea5t \u0111\u01b0\u1ee3c th\u1ed1ng nh\u1ea5t, v\u1eadn h\u00e0nh th\u01b0\u01a1ng m\u1ea1i t\u1eeb 1/12/2026",
+            "url": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm",
+            "date": "2026-07-28",
+            "relevance": "\u0110\u00e2y l\u00e0 m\u1ed1c th\u1eddi gian neo cho c\u1ea3 chu\u1ed7i video: khai th\u00e1c th\u01b0\u01a1ng m\u1ea1i 1/12/2026, m\u00f9a H\u00e8 2027 to\u00e0n b\u1ed9 \u0111\u01b0\u1eddng bay qu\u1ed1c t\u1ebf d\u00e0i, m\u00f9a \u0110\u00f4ng 2027-2028 to\u00e0n b\u1ed9 chuy\u1ebfn qu\u1ed1c t\u1ebf c\u00f2n l\u1ea1i"
+          },
+          {
+            "headline": "Ch\u00ednh ph\u1ee7 ti\u1ebfp t\u1ee5c y\u00eau c\u1ea7u ho\u00e0n th\u00e0nh \u0111\u1ed3ng b\u1ed9 to\u00e0n b\u1ed9 h\u1ea1ng m\u1ee5c \u0111\u1ec3 khai th\u00e1c th\u01b0\u01a1ng m\u1ea1i trong n\u0103m 2026",
+            "url": "https://baochinhphu.vn/day-nhanh-tien-do-thi-cong-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260525211615704.htm",
+            "date": "2026-05-25",
+            "relevance": "Nh\u1ea5n m\u1ea1nh r\u1eb1ng ch\u1ec9 m\u1ed9t h\u1ea1ng m\u1ee5c ch\u01b0a xong c\u0169ng \u1ea3nh h\u01b0\u1edfng v\u1eadn h\u00e0nh chung; cao t\u1ed1c TPHCM-Long Th\u00e0nh-D\u1ea7u Gi\u00e2y ho\u00e0n th\u00e0nh trong 2026, ri\u00eang c\u1ea7u Long Th\u00e0nh trong qu\u00fd I/2027"
+          },
+          {
+            "headline": "Nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t \u0111\u1ea1t kho\u1ea3ng 71% c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf, chi\u1ebfm g\u1ea7n 54% s\u1ea3n l\u01b0\u1ee3ng h\u00e0nh kh\u00e1ch n\u1ed9i \u0111\u1ecba",
+            "url": "https://baochinhphu.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-kiem-tra-tien-do-du-an-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260523190527671.htm",
+            "date": "2026-05-23",
+            "relevance": "Con s\u1ed1 71% c\u1ee7a c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf 20 tri\u1ec7u l\u00e0 b\u1eb1ng ch\u1ee9ng \u0111\u1ecbnh l\u01b0\u1ee3ng cho l\u1eadp lu\u1eadn v\u00ec sao c\u1ea7n s\u00e2n bay th\u1ee9 hai"
+          },
+          {
+            "headline": "Government News x\u00e1c nh\u1eadn m\u1ee5c ti\u00eau khai th\u00e1c th\u01b0\u01a1ng m\u1ea1i cu\u1ed1i n\u0103m 2026 v\u1edbi kh\u1ed1i l\u01b0\u1ee3ng 74% h\u1ee3p \u0111\u1ed3ng",
+            "url": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm",
+            "date": "2026-03-30",
+            "relevance": "X\u00e1c nh\u1eadn m\u1ee5c ti\u00eau ho\u00e0n th\u00e0nh thi c\u00f4ng th\u00e1ng 9/2026 v\u00e0 khai th\u00e1c th\u01b0\u01a1ng m\u1ea1i trong qu\u00fd IV/2026"
+          }
+        ],
+        "active_discussions": [
+          {
+            "platform": "youtube",
+            "topic_or_url": "https://www.youtube.com/results?search_query=s%C3%A2n+bay+long+th%C3%A0nh+v%C3%AC+sao+40+km",
+            "sentiment": "Tranh lu\u1eadn chia l\u00e0m: m\u1ed9t phe cho r\u1eb1ng 40 km l\u00e0 b\u1ea5t l\u1ee3i l\u1edbn v\u00e0 s\u1ebd khi\u1ebfn h\u00e0nh kh\u00e1ch ch\u1ecdn T\u00e2n S\u01a1n Nh\u1ea5t, phe kh\u00e1c cho r\u1eb1ng v\u1ecb tr\u00ed n\u00e0y k\u1ebft n\u1ed1i tr\u1ef1c ti\u1ebfp v\u1edbi v\u00f9ng kinh t\u1ebf \u0110\u00f4ng Nam B\u1ed9 n\u00ean l\u1ee3i th\u1ebf d\u00e0i h\u1ea1n",
+            "key_quotes": [
+              "D\u00f9 kho\u1ea3ng c\u00e1ch t\u1eeb trung t\u00e2m TP.HCM t\u1edbi Long Th\u00e0nh (40km) d\u00e0i h\u01a1n so v\u1edbi T\u00e2n S\u01a1n Nh\u1ea5t (8-10km) song s\u00e2n bay Long Th\u00e0nh l\u1ea1i n\u1eb1m \u1edf v\u1ecb tr\u00ed thu\u1eadn l\u1ee3i, k\u1ebft n\u1ed1i tr\u1ef1c ti\u1ebfp v\u1edbi c\u00e1c v\u00f9ng kinh t\u1ebf tr\u1ecdng \u0111i\u1ec3m \u0110\u00f4ng Nam B\u1ed9 (ACV, 12/08/2025)",
+              "S\u00e2n bay Long Th\u00e0nh m\u1edf c\u1eeda, v\u00ec sao 322 trong 366 chuy\u1ebfn m\u1ed7i tu\u1ea7n l\u00e0 bay n\u1ed9i \u0111\u1ecba? (ti\u00eau \u0111\u1ec1 video YouTube)"
+            ]
+          }
+        ],
+        "timeliness_window": "weeks"
+      },
+      "data_points": [
+        {
+          "claim": "S\u00e2n bay Long Th\u00e0nh n\u1eb1m \u1edf \u0110\u1ed3ng Nai, c\u00e1ch trung t\u00e2m TP.HCM kho\u1ea3ng 40 km v\u1ec1 ph\u00eda \u0111\u00f4ng, trong khi T\u00e2n S\u01a1n Nh\u1ea5t ch\u1ec9 c\u00e1ch 8-10 km. \u0110\u00e2y l\u00e0 l\u1eadp lu\u1eadn c\u1ee7a ACV v\u1ec1 l\u1ee3i th\u1ebf v\u1ecb tr\u00ed hi\u1ec7n t\u1ea1i, kh\u00f4ng ph\u1ea3i b\u1ea3n ghi l\u00fd do ch\u1ecdn v\u1ecb tr\u00ed v\u00e0o n\u0103m 2015.",
+          "source_url": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm",
+          "source_name": "B\u00e1o Ch\u00ednh ph\u1ee7, b\u00e0i ng\u00e0y 12/08/2025, d\u1eabn ACV",
+          "credibility": "primary_source",
+          "surprise_factor": "expected",
+          "usable_as": "hook"
+        },
+        {
+          "claim": "T\u1ed5ng m\u1ee9c \u0111\u1ea7u t\u01b0 to\u00e0n d\u1ef1 \u00e1n kho\u1ea3ng 16 t\u1ef7 USD, chia 3 giai \u0111o\u1ea1n, c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf cu\u1ed1i c\u00f9ng 100 tri\u1ec7u h\u00e0nh kh\u00e1ch v\u00e0 5 tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a m\u1ed7i n\u0103m.",
+          "source_url": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm",
+          "source_name": "B\u00e1o Ch\u00ednh ph\u1ee7 ti\u1ebfng Anh, ng\u00e0y 30/03/2026",
+          "credibility": "primary_source",
+          "surprise_factor": "surprising",
+          "usable_as": "stat_card"
+        },
+        {
+          "claim": "Giai \u0111o\u1ea1n 1 d\u1ef1 ki\u1ebfn ph\u1ee5c v\u1ee5 25 tri\u1ec7u l\u01b0\u1ee3t h\u00e0nh kh\u00e1ch v\u00e0 1,2 tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a m\u1ed7i n\u0103m, trong \u0111\u00f3 70-80% l\u00e0 chuy\u1ebfn bay qu\u1ed1c t\u1ebf.",
+          "source_url": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm",
+          "source_name": "B\u00e1o Ch\u00ednh ph\u1ee7 ng\u00e0y 03/12/2024, d\u1eabn B\u1ed9 GTVT",
+          "credibility": "primary_source",
+          "surprise_factor": "notable",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "Nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t \u0111\u00e3 \u0111\u1ea1t kho\u1ea3ng 71% c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf (thi\u1ebft k\u1ebf 20 tri\u1ec7u h\u00e0nh kh\u00e1ch/n\u0103m) v\u00e0 chi\u1ebfm g\u1ea7n 54% s\u1ea3n l\u01b0\u1ee3ng h\u00e0nh kh\u00e1ch n\u1ed9i \u0111\u1ecba, sau khi ACV \u0111\u1ea7u t\u01b0 kho\u1ea3ng 10.873 t\u1ef7 \u0111\u1ed3ng.",
+          "source_url": "https://baochinhphu.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-kiem-tra-tien-do-du-an-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260523190527671.htm",
+          "source_name": "B\u00e1o Ch\u00ednh ph\u1ee7 ng\u00e0y 23/05/2026",
+          "credibility": "primary_source",
+          "surprise_factor": "counterintuitive",
+          "usable_as": "hook"
+        },
+        {
+          "claim": "Ph\u01b0\u01a1ng \u00e1n khai th\u00e1c c\u1ee7a ACV chia Long Th\u00e0nh 80% chuy\u1ebfn qu\u1ed1c t\u1ebf v\u00e0 10% n\u1ed9i \u0111\u1ecba, T\u00e2n S\u01a1n Nh\u1ea5t 20% qu\u1ed1c t\u1ebf v\u00e0 90% n\u1ed9i \u0111\u1ecba; v\u1edbi Long Th\u00e0nh \u00e1p d\u1ee5ng cho to\u00e0n b\u1ed9 \u0111\u01b0\u1eddng bay qu\u1ed1c t\u1ebf t\u1eeb 1.000 km tr\u1edf l\u00ean.",
+          "source_url": "https://baochinhphu.vn/bo-xay-dung-bao-cao-ve-phuong-an-khai-thac-san-bay-long-thanh-102251002182442016.htm",
+          "source_name": "B\u00e1o Ch\u00ednh ph\u1ee7 ng\u00e0y 02/10/2025, d\u1eabn B\u1ed9 X\u00e2y d\u1ef1ng",
+          "credibility": "primary_source",
+          "surprise_factor": "surprising",
+          "usable_as": "stat_card"
+        },
+        {
+          "claim": "C\u1ee5c H\u00e0ng kh\u00f4ng Vi\u1ec7t Nam th\u1ed1ng nh\u1ea5t l\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i 3 b\u01b0\u1edbc v\u1edbi khai th\u00e1c th\u01b0\u01a1ng m\u1ea1i t\u1eeb 1/12/2026: b\u01b0\u1edbc 1 khuy\u1ebfn kh\u00edch c\u00e1c h\u00e3ng khai th\u00e1c qu\u1ed1c t\u1ebf t\u1ea1i Long Th\u00e0nh \u0111\u1ebfn h\u1ebft m\u00f9a \u0110\u00f4ng 2026 (27/3/2027); b\u01b0\u1edbc 2 m\u00f9a H\u00e8 2027 khai th\u00e1c to\u00e0n b\u1ed9 chuy\u1ebfn qu\u1ed1c t\u1ebf d\u00e0i; b\u01b0\u1edbc 3 m\u00f9a \u0110\u00f4ng 2027-2028 khai th\u00e1c to\u00e0n b\u1ed9 chuy\u1ebfn qu\u1ed1c t\u1ebf c\u00f2n l\u1ea1i tr\u1eeb ch\u1eb7ng ng\u1eafn d\u01b0\u1edbi 1.000 km c\u1ee7a h\u00e3ng Vi\u1ec7t Nam.",
+          "source_url": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm",
+          "source_name": "B\u00e1o Ch\u00ednh ph\u1ee7 ng\u00e0y 28/07/2026",
+          "credibility": "primary_source",
+          "surprise_factor": "notable",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "H\u1ea1 t\u1ea7ng k\u1ebft n\u1ed1i s\u00e2n bay Long Th\u00e0nh \u0111\u01b0\u1ee3c quy ho\u1ea1ch theo 2 ph\u01b0\u01a1ng th\u1ee9c g\u1ed3m 5 tuy\u1ebfn \u0111\u01b0\u1eddng b\u1ed9 v\u00e0 3 tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft; c\u00e1c t\u1ec9nh c\u0169ng \u0111\u01b0\u1ee3c y\u00eau c\u1ea7u t\u1ed5 ch\u1ee9c 5 tuy\u1ebfn n\u1ed9i th\u00e0nh \u0110\u1ed3ng Nai v\u00e0 10 tuy\u1ebfn li\u00ean t\u1ec9nh.",
+          "source_url": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm",
+          "source_name": "B\u00e1o Ch\u00ednh ph\u1ee7 ng\u00e0y 03/12/2024, d\u1eabn B\u1ed9 GTVT",
+          "credibility": "primary_source",
+          "surprise_factor": "expected",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "S\u00e2n bay Long Th\u00e0nh c\u00f3 d\u01b0 \u0111\u1ecba m\u1edf r\u1ed9ng l\u1edbn, t\u00e1ch bi\u1ec7t khu d\u00e2n c\u01b0, cho ph\u00e9p khai th\u00e1c 24/7 m\u00e0 kh\u00f4ng ch\u1ecbu nhi\u1ec1u h\u1ea1n ch\u1ebf gi\u1edd bay ban \u0111\u00eam, gi\u1ea3m \u00f4 nhi\u1ec5m ti\u1ebfng \u1ed3n cho khu v\u1ef1c n\u1ed9i \u0111\u00f4.",
+          "source_url": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm",
+          "source_name": "B\u00e1o Ch\u00ednh ph\u1ee7 ng\u00e0y 12/08/2025, d\u1eabn ACV",
+          "credibility": "primary_source",
+          "surprise_factor": "counterintuitive",
+          "usable_as": "closing_punch"
+        },
+        {
+          "claim": "Quy ho\u1ea1ch chung TP.HCM th\u1eddi k\u1ef3 2021-2030, t\u1ea7m nh\u00ecn 2050 \u0111\u01b0\u1ee3c ph\u00ea duy\u1ec7t b\u1eb1ng Quy\u1ebft \u0111\u1ecbnh 1711/Q\u0110-TTg ng\u00e0y 31/12/2024; quy ho\u1ea1ch h\u1ec7 th\u1ed1ng c\u1ea3ng h\u00e0ng kh\u00f4ng to\u00e0n qu\u1ed1c 2021-2030 \u0111\u01b0\u1ee3c ph\u00ea duy\u1ec7t b\u1eb1ng Quy\u1ebft \u0111\u1ecbnh 648/Q\u0110-TTg ng\u00e0y 07/06/2023.",
+          "source_url": "https://vanban.chinhphu.vn/?docid=212234&pageid=27160",
+          "source_name": "C\u1ed5ng th\u00f4ng tin \u0111i\u1ec7n t\u1eed Ch\u00ednh ph\u1ee7",
+          "credibility": "primary_source",
+          "surprise_factor": "expected",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "Quy\u1ebft \u0111\u1ecbnh 562/Q\u0110-BXD ng\u00e0y 09/05/2025 c\u1ee7a B\u1ed9 X\u00e2y d\u1ef1ng ph\u00ea duy\u1ec7t \u0111i\u1ec1u ch\u1ec9nh c\u1ee5c b\u1ed9 Quy ho\u1ea1ch C\u1ea3ng h\u00e0ng kh\u00f4ng qu\u1ed1c t\u1ebf Long Th\u00e0nh; theo C\u1ee5c H\u00e0ng kh\u00f4ng Vi\u1ec7t Nam, v\u0103n b\u1ea3n c\u00f2n hi\u1ec7u l\u1ef1c.",
+          "source_url": "https://caa.gov.vn/van-ban/562-qd-bxd-30511.htm",
+          "source_name": "C\u1ee5c H\u00e0ng kh\u00f4ng Vi\u1ec7t Nam - v\u0103n b\u1ea3n 562/Q\u0110-BXD",
+          "credibility": "primary_source",
+          "surprise_factor": "expected",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "Chu\u1ed7i v\u0103n b\u1ea3n ph\u00e1p l\u00fd c\u1ee7a d\u1ef1 \u00e1n theo ch\u00ednh quy\u1ebft \u0111\u1ecbnh 562/Q\u0110-BXD: Ngh\u1ecb quy\u1ebft 94/2015/QH13 ng\u00e0y 25/6/2015 c\u1ee7a Qu\u1ed1c h\u1ed9i v\u1ec1 ch\u1ee7 tr\u01b0\u01a1ng \u0111\u1ea7u t\u01b0; Quy\u1ebft \u0111\u1ecbnh 909/Q\u0110-TTg ng\u00e0y 14/6/2011 ph\u00ea duy\u1ec7t Quy ho\u1ea1ch C\u1ea3ng HKQT Long Th\u00e0nh; Quy\u1ebft \u0111\u1ecbnh 1777/Q\u0110-TTg ng\u00e0y 11/11/2020 ph\u00ea duy\u1ec7t D\u1ef1 \u00e1n \u0111\u1ea7u t\u01b0 x\u00e2y d\u1ef1ng giai \u0111o\u1ea1n 1; Quy\u1ebft \u0111\u1ecbnh 692/Q\u0110-TTg ng\u00e0y 29/3/2025 \u0111i\u1ec1u ch\u1ec9nh d\u1ef1 \u00e1n giai \u0111o\u1ea1n 1.",
+          "source_url": "https://caa.gov.vn/van-ban/562-qd-bxd-30511.htm",
+          "source_name": "Quy\u1ebft \u0111\u1ecbnh 562/Q\u0110-BXD - ph\u1ea7n c\u0103n c\u1ee9, \u0111\u00e3 \u0111\u1ecdc t\u1eeb PDF \u0111\u00ednh k\u00e8m",
+          "credibility": "primary_source",
+          "surprise_factor": "expected",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "Theo \u0111i\u1ec1u ch\u1ec9nh quy ho\u1ea1ch ng\u00e0y 09/05/2025, nhu c\u1ea7u s\u1eed d\u1ee5ng \u0111\u1ea5t c\u1ee7a C\u1ea3ng HKQT Long Th\u00e0nh kho\u1ea3ng 5.000 ha, g\u1ed3m 570 ha do qu\u00e2n s\u1ef1 qu\u1ea3n l\u00fd, 480 ha d\u00f9ng chung gi\u1eefa d\u00e2n d\u1ee5ng v\u00e0 qu\u00e2n s\u1ef1, v\u00e0 3.950 ha do h\u00e0ng kh\u00f4ng d\u00e2n d\u1ee5ng qu\u1ea3n l\u00fd; m\u1eb7t \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh s\u1ed1 2 \u0111\u01b0\u1ee3c gi\u1ea3m chi\u1ec1u r\u1ed9ng c\u00e1ch \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh s\u1ed1 1 t\u1eeb 60 m xu\u1ed1ng 45 m.",
+          "source_url": "https://caa.gov.vn/van-ban/562-qd-bxd-30511.htm",
+          "source_name": "Quy\u1ebft \u0111\u1ecbnh 562/Q\u0110-BXD \u0111i\u1ec1u 1, \u0111\u00e3 \u0111\u1ecdc t\u1eeb PDF \u0111\u00ednh k\u00e8m",
+          "credibility": "primary_source",
+          "surprise_factor": "surprising",
+          "usable_as": "stat_card"
+        },
+        {
+          "claim": "T\u00ednh \u0111\u1ebfn cu\u1ed1i th\u00e1ng 3/2026, D\u1ef1 \u00e1n th\u00e0nh ph\u1ea7n 3 g\u1ed3m 145 g\u00f3i th\u1ea7u \u0111\u00e3 ho\u00e0n th\u00e0nh kh\u1ed1i l\u01b0\u1ee3ng tr\u1ecb gi\u00e1 kho\u1ea3ng 64.100 t\u1ef7 \u0111\u1ed3ng (~2,4 t\u1ef7 USD), t\u01b0\u01a1ng \u0111\u01b0\u01a1ng 74% gi\u00e1 tr\u1ecb h\u1ee3p \u0111\u1ed3ng, gi\u1ea3i ng\u00e2n kho\u1ea3ng 40.700 t\u1ef7 \u0111\u1ed3ng, v\u1edbi g\u1ea7n 9.000 c\u00f4ng nh\u00e2n t\u1ea1i c\u00f4ng tr\u01b0\u1eddng.",
+          "source_url": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm",
+          "source_name": "B\u00e1o Ch\u00ednh ph\u1ee7 ti\u1ebfng Anh, ng\u00e0y 30/03/2026",
+          "credibility": "primary_source",
+          "surprise_factor": "notable",
+          "usable_as": "stat_card"
+        }
+      ],
+      "audience_insights": {
+        "common_questions": [
+          "S\u00e2n bay Long Th\u00e0nh c\u00e1ch trung t\u00e2m TP.HCM bao nhi\u00eau km v\u00e0 \u0111i m\u1ea5t bao l\u00e2u?",
+          "V\u00ec sao s\u00e2n bay th\u1ee9 hai c\u1ee7a Vi\u1ec7t Nam l\u1ea1i \u0111\u1eb7t xa h\u01a1n s\u00e2n bay hi\u1ec7n t\u1ea1i thay v\u00ec m\u1edf r\u1ed9ng T\u00e2n S\u01a1n Nh\u1ea5t?",
+          "Khi s\u00e2n bay Long Th\u00e0nh m\u1edf c\u1eeda th\u00ec h\u00e0nh kh\u00e1ch ph\u1ea3i \u0111i b\u1eb1ng g\u00ec, c\u00f3 xe bu\u00fdt c\u00f4ng c\u1ed9ng kh\u00f4ng?",
+          "S\u00e2n bay Long Th\u00e0nh m\u1edf c\u1eeda th\u00ec c\u00f3 ph\u1ea3i t\u1ea5t c\u1ea3 chuy\u1ebfn bay qu\u1ed1c t\u1ebf chuy\u1ec3n sang kh\u00f4ng?",
+          "S\u00e2n bay Long Th\u00e0nh m\u1edf r\u1ed9ng t\u1edbi bao nhi\u00eau tri\u1ec7u h\u00e0nh kh\u00e1ch m\u1ed9t n\u0103m v\u00e0 khi n\u00e0o ho\u00e0n th\u00e0nh?"
+        ],
+        "misconceptions": [
+          {
+            "myth": "S\u00e2n bay Long Th\u00e0nh m\u1edf c\u1eeda l\u00e0 to\u00e0n b\u1ed9 chuy\u1ebfn bay qu\u1ed1c t\u1ebf chuy\u1ec3n sang ngay.",
+            "reality": "C\u1ee5c H\u00e0ng kh\u00f4ng ch\u1ed1t l\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i 3 b\u01b0\u1edbc b\u00e1m theo m\u00f9a l\u1ecbch bay: \u0111\u1ebfn h\u1ebft m\u00f9a \u0110\u00f4ng 2026 m\u1edbi khuy\u1ebfn kh\u00edch h\u00e3ng bay qu\u1ed1c t\u1ebf, m\u00f9a H\u00e8 2027 m\u1edbi to\u00e0n b\u1ed9 chuy\u1ebfn qu\u1ed1c t\u1ebf d\u00e0i, m\u00f9a \u0110\u00f4ng 2027-2028 m\u1edbi to\u00e0n b\u1ed9 chuy\u1ebfn qu\u1ed1c t\u1ebf c\u00f2n l\u1ea1i.",
+            "source": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm"
+          },
+          {
+            "myth": "Giai \u0111o\u1ea1n 1 s\u00e2n bay Long Th\u00e0nh ph\u1ee5c v\u1ee5 100 tri\u1ec7u h\u00e0nh kh\u00e1ch m\u1ed9t n\u0103m.",
+            "reality": "100 tri\u1ec7u l\u00e0 c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf sau khi ho\u00e0n th\u00e0nh c\u1ea3 3 giai \u0111o\u1ea1n. Giai \u0111o\u1ea1n 1 d\u1ef1 ki\u1ebfn 25 tri\u1ec7u l\u01b0\u1ee3t h\u00e0nh kh\u00e1ch v\u00e0 1,2 tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a m\u1ed7i n\u0103m.",
+            "source": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm"
+          },
+          {
+            "myth": "T\u00e2n S\u01a1n Nh\u1ea5t x\u00e2y xong nh\u00e0 ga T3 l\u00e0 \u0111\u00e3 gi\u1ea3i quy\u1ebft \u0111\u01b0\u1ee3c t\u00ecnh tr\u1ea1ng qu\u00e1 t\u1ea3i.",
+            "reality": "Nh\u00e0 ga T3 m\u1edbi \u0111\u1ea1t kho\u1ea3ng 71% c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf 20 tri\u1ec7u h\u00e0nh kh\u00e1ch/n\u0103m, v\u00e0 T\u00e2n S\u01a1n Nh\u1ea5t nhi\u1ec1u n\u0103m qua \u0111\u00e3 khai th\u00e1c v\u01b0\u1ee3t c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf, d\u1eabn \u0111\u1ebfn k\u1eb9t c\u1ee9ng v\u00e0 k\u00e9o d\u00e0i th\u1eddi gian l\u00e0m th\u1ee7 t\u1ee5c.",
+            "source": "https://baochinhphu.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-kiem-tra-tien-do-du-an-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260523190527671.htm"
+          },
+          {
+            "myth": "S\u00e2n bay xa 40 km l\u00e0 \u0111i\u1ec3m y\u1ebfu kh\u00f4ng th\u1ec3 b\u00f9.",
+            "reality": "ACV l\u1eadp lu\u1eadn v\u1ecb tr\u00ed n\u00e0y k\u1ebft n\u1ed1i tr\u1ef1c ti\u1ebfp v\u1edbi c\u00e1c v\u00f9ng kinh t\u1ebf tr\u1ecdng \u0111i\u1ec3m \u0110\u00f4ng Nam B\u1ed9, cho ph\u00e9p khai th\u00e1c 24/7, gi\u1ea3m \u00f4 nhi\u1ec5m ti\u1ebfng \u1ed3n cho n\u1ed9i \u0111\u00f4, v\u00e0 c\u00f3 m\u1ea1ng l\u01b0\u1edbi \u0111\u01b0\u1eddng b\u1ed9/\u0111\u01b0\u1eddng s\u1eaft k\u1ebft n\u1ed1i theo quy ho\u1ea1ch.",
+            "source": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm"
+          }
+        ],
+        "knowledge_level": "Kh\u00e1n gi\u1ea3 bi\u1ebft s\u00e2n bay Long Th\u00e0nh s\u1eafp m\u1edf v\u00e0 bi\u1ebft n\u00f3 n\u1eb1m \u1edf \u0110\u1ed3ng Nai, nh\u01b0ng \u0111a s\u1ed1 nh\u1ea7m c\u00f4ng su\u1ea5t 100 tri\u1ec7u l\u00e0 giai \u0111o\u1ea1n 1 v\u00e0 kh\u00f4ng bi\u1ebft l\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i 3 b\u01b0\u1edbc. H\u1ecd d\u1ec5 ti\u1ebfp nh\u1eadn m\u1ed9t explainer c\u00f3 b\u1ea3n \u0111\u1ed3 v\u00e0 ph\u00e9p so s\u00e1nh tr\u1ef1c quan.",
+        "pain_points": [
+          "Thi\u1ebfu th\u00f4ng tin v\u1ec1 ph\u01b0\u01a1ng ti\u1ec7n \u0111i l\u1ea1i th\u1ef1c t\u1ebf t\u1eeb TP.HCM t\u1edbi s\u00e2n bay m\u1edbi: bao l\u00e2u, bao nhi\u00eau ti\u1ec1n, c\u00f3 xe bu\u00fdt kh\u00f4ng",
+          "Kh\u00f4ng bi\u1ebft s\u1ebd ph\u1ea3i \u0111i s\u00e2n bay n\u00e0o sau ng\u00e0y 1/12/2026 cho chuy\u1ebfn bay c\u1ee7a m\u00ecnh",
+          "Kh\u00f3 h\u00ecnh dung v\u00ec sao 40 km l\u1ea1i l\u00e0 l\u1ef1a ch\u1ecdn \u0111\u00fang, khi tin t\u1ee9c th\u01b0\u1eddng ch\u1ec9 n\u00f3i kho\u1ea3ng c\u00e1ch m\u00e0 kh\u00f4ng gi\u1ea3i th\u00edch",
+          "Kh\u00f4ng ph\u00e2n bi\u1ec7t \u0111\u01b0\u1ee3c c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf, c\u00f4ng su\u1ea5t khai th\u00e1c th\u1ef1c t\u1ebf v\u00e0 s\u1ea3n l\u01b0\u1ee3ng h\u00e0nh kh\u00e1ch c\u1ee7a nh\u00e0 ga T3"
+        ]
+      },
+      "expert_voices": [
+        {
+          "name": "\u0110\u00e0o Xu\u00e2n Ho\u1ea1ch",
+          "title_or_affiliation": "Ph\u00f3 C\u1ee5c tr\u01b0\u1edfng C\u1ee5c H\u00e0ng kh\u00f4ng Vi\u1ec7t Nam",
+          "position": "\u0110\u00e1nh gi\u00e1 ph\u01b0\u01a1ng \u00e1n chuy\u1ec3n \u0111\u1ed5i t\u1eebng b\u01b0\u1edbc ph\u00f9 h\u1ee3p chu k\u1ef3 \u0111i\u1ec1u h\u00e0nh l\u1ecbch bay qu\u1ed1c t\u1ebf, ti\u1ebfn \u0111\u1ed9 ho\u00e0n th\u00e0nh h\u1ea1 t\u1ea7ng v\u00e0 kh\u1ea3 n\u0103ng ti\u1ebfp nh\u1eadn c\u1ee7a s\u00e2n bay Long Th\u00e0nh.",
+          "source_url": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm",
+          "contrarian": false
+        },
+        {
+          "name": "Ph\u1ea1m Gia T\u00fac",
+          "title_or_affiliation": "Ph\u00f3 Th\u1ee7 t\u01b0\u1edbng Th\u01b0\u1eddng tr\u1ef1c Ch\u00ednh ph\u1ee7",
+          "position": "Kh\u1eb3ng \u0111\u1ecbnh m\u1ee5c ti\u00eau ho\u00e0n th\u00e0nh v\u00e0 khai th\u00e1c th\u01b0\u01a1ng m\u1ea1i trong n\u0103m 2026 kh\u00f4ng thay \u0111\u1ed5i; y\u00eau c\u1ea7u to\u00e0n b\u1ed9 h\u1ea1ng m\u1ee5c t\u1eeb giao th\u00f4ng k\u1ebft n\u1ed1i, nh\u00e0 ga, \u0111\u00e0i ki\u1ec3m so\u00e1t kh\u00f4ng l\u01b0u \u0111\u1ebfn c\u01a1 quan qu\u1ea3n l\u00fd ph\u1ea3i ho\u00e0n th\u00e0nh \u0111\u1ed3ng b\u1ed9.",
+          "source_url": "https://baochinhphu.vn/day-nhanh-tien-do-thi-cong-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260525211615704.htm",
+          "contrarian": false
+        }
+      ],
+      "angles_discovered": [
+        {
+          "name": "40 km \u0111\u1ec3 \u0111\u1ed5i l\u1ea5y 100 tri\u1ec7u h\u00e0nh kh\u00e1ch",
+          "hook": "S\u00e2n bay m\u1edbi \u0111\u1eb7t xa trung t\u00e2m h\u01a1n s\u00e2n bay c\u0169 g\u1ea5p b\u1ed1n, v\u00e0 \u0111\u00f3 l\u00e0 m\u1ed9t ph\u1ea7n c\u1ee7a thi\u1ebft k\u1ebf v\u00f9ng.",
+          "type": "data_driven",
+          "why_now": "S\u00e2n bay d\u1ef1 ki\u1ebfn khai th\u00e1c th\u01b0\u01a1ng m\u1ea1i t\u1eeb 1/12/2026 theo l\u1ed9 tr\u00ecnh 3 b\u01b0\u1edbc Ch\u00ednh ph\u1ee7 c\u00f4ng b\u1ed1; c\u00e2u h\u1ecfi 40 km c\u00f3 \u0111\u00e1ng kh\u00f4ng \u0111ang tr\u1edf n\u00ean c\u1ee5 th\u1ec3 v\u1edbi h\u00e0nh kh\u00e1ch.",
+          "grounded_in": [
+            "40 km so v\u1edbi 8-10 km c\u1ee7a T\u00e2n S\u01a1n Nh\u1ea5t",
+            "100 tri\u1ec7u h\u00e0nh kh\u00e1ch l\u00e0 c\u00f4ng su\u1ea5t cu\u1ed1i c\u00f9ng sau ba giai \u0111o\u1ea1n",
+            "T\u00e2n S\u01a1n Nh\u1ea5t \u0111\u00e3 v\u01b0\u1ee3t c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf"
+          ]
+        },
+        {
+          "name": "Ba n\u0103m \u0111\u1ec3 d\u1eddi chuy\u1ebfn qu\u1ed1c t\u1ebf",
+          "hook": "S\u00e2n bay d\u1ef1 ki\u1ebfn m\u1edf th\u00e1ng 12, nh\u01b0ng chuy\u1ec3n \u0111\u1ed5i qu\u1ed1c t\u1ebf di\u1ec5n ra qua ba m\u00f9a l\u1ecbch bay. V\u00ec sao kh\u00f4ng l\u00e0m c\u00f9ng l\u00fac?",
+          "type": "trending",
+          "why_now": "C\u1ee5c H\u00e0ng kh\u00f4ng th\u1ed1ng nh\u1ea5t m\u1ed1c khai th\u00e1c 1/12/2026 v\u00e0 l\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i 3 b\u01b0\u1edbc \u0111\u1ebfn m\u00f9a \u0110\u00f4ng 2027-2028.",
+          "grounded_in": [
+            "L\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i 3 b\u01b0\u1edbc",
+            "Ph\u01b0\u01a1ng \u00e1n ph\u00e2n chia 80/10 v\u00e0 20/90 trong b\u00e1o c\u00e1o 2025",
+            "Y\u00eau c\u1ea7u ho\u00e0n th\u00e0nh \u0111\u1ed3ng b\u1ed9 h\u1ea1 t\u1ea7ng v\u00e0 d\u1ecbch v\u1ee5"
+          ]
+        },
+        {
+          "name": "V\u00ec sao kh\u00f4ng m\u1edf r\u1ed9ng T\u00e2n S\u01a1n Nh\u1ea5t",
+          "hook": "T\u00e2n S\u01a1n Nh\u1ea5t c\u00f3 nh\u00e0 ga m\u1edbi, nh\u01b0ng m\u1ed9t nh\u00e0 ga kh\u00f4ng th\u1ec3 gi\u1ea3i quy\u1ebft m\u1ecdi gi\u1edbi h\u1ea1n c\u1ee7a s\u00e2n bay n\u1eb1m gi\u1eefa \u0111\u00f4 th\u1ecb.",
+          "type": "contrarian",
+          "why_now": "B\u00e1o c\u00e1o Ch\u00ednh ph\u1ee7 th\u00e1ng 5/2026 n\u00f3i T3 \u0111\u1ea1t kho\u1ea3ng 71% c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf 20 tri\u1ec7u; ACV n\u00eau l\u1ee3i \u00edch t\u00e1ch kh\u1ecfi khu d\u00e2n c\u01b0 v\u00e0 khai th\u00e1c \u0111\u00eam.",
+          "grounded_in": [
+            "T3: 20 tri\u1ec7u thi\u1ebft k\u1ebf, kho\u1ea3ng 71% c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf \u0111\u01b0\u1ee3c b\u00e1o c\u00e1o",
+            "Long Th\u00e0nh c\u00f3 th\u1ec3 khai th\u00e1c 24/7 v\u00e0 gi\u1ea3m ti\u1ebfng \u1ed3n n\u1ed9i \u0111\u00f4",
+            "K\u1ebft n\u1ed1i v\u00f9ng \u0110\u00f4ng Nam B\u1ed9"
+          ]
+        },
+        {
+          "name": "B\u1ea3n \u0111\u1ed3 t\u00e1m tuy\u1ebfn k\u1ebft n\u1ed1i s\u00e2n bay",
+          "hook": "Long Th\u00e0nh kh\u00f4ng ph\u1ea3i m\u1ed9t s\u00e2n bay \u0111\u1ee9ng ri\u00eang l\u1ebb: quy ho\u1ea1ch n\u00eau n\u0103m tuy\u1ebfn \u0111\u01b0\u1eddng b\u1ed9 v\u00e0 ba tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft.",
+          "type": "narrative",
+          "why_now": "C\u00e1c b\u00e0i Ch\u00ednh ph\u1ee7 2026 \u0111\u1eb7t ti\u1ebfn \u0111\u1ed9 \u0111\u01b0\u1eddng k\u1ebft n\u1ed1i l\u00e0 \u0111i\u1ec1u ki\u1ec7n v\u1eadn h\u00e0nh; ph\u01b0\u01a1ng \u00e1n c\u00f2n y\u00eau c\u1ea7u 5 tuy\u1ebfn n\u1ed9i th\u00e0nh v\u00e0 10 tuy\u1ebfn li\u00ean t\u1ec9nh.",
+          "grounded_in": [
+            "5 tuy\u1ebfn \u0111\u01b0\u1eddng b\u1ed9 v\u00e0 3 tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft",
+            "Tuy\u1ebfn v\u1eadn t\u1ea3i c\u00f4ng c\u1ed9ng n\u1ed9i th\u00e0nh v\u00e0 li\u00ean t\u1ec9nh",
+            "Cao t\u1ed1c TPHCM-Long Th\u00e0nh-D\u1ea7u Gi\u00e2y d\u1ef1 ki\u1ebfn ho\u00e0n th\u00e0nh trong 2026, c\u1ea7u trong qu\u00fd I/2027"
+          ]
+        },
+        {
+          "name": "S\u00e2n bay n\u00e0o cho chuy\u1ebfn bay n\u00e0o",
+          "hook": "Khi Long Th\u00e0nh m\u1edf, kh\u00f4ng ph\u1ea3i m\u1ecdi h\u00e0nh kh\u00e1ch \u0111\u1ec1u \u0111\u1ebfn c\u00f9ng m\u1ed9t s\u00e2n bay.",
+          "type": "evergreen",
+          "why_now": "L\u1ed9 tr\u00ecnh khai th\u00e1c ph\u00e2n chia chuy\u1ebfn qu\u1ed1c t\u1ebf theo qu\u00e3ng \u0111\u01b0\u1eddng v\u00e0 m\u00f9a bay, t\u1ea1o nhu c\u1ea7u tra c\u1ee9u th\u1ef1c t\u1ebf tr\u01b0\u1edbc ng\u00e0y m\u1edf c\u1eeda.",
+          "grounded_in": [
+            "Ng\u01b0\u1ee1ng 1.000 km cho c\u00e1c chuy\u1ebfn qu\u1ed1c t\u1ebf d\u00e0i",
+            "L\u1ed9 tr\u00ecnh 3 b\u01b0\u1edbc",
+            "\u0110\u1ec1 xu\u1ea5t ph\u00e2n chia khai th\u00e1c 80/10 v\u00e0 20/90"
+          ]
+        }
+      ],
+      "visual_references": [
+        {
+          "description": "B\u1ea3n \u0111\u1ed3 \u0111\u1ed9ng so s\u00e1nh c\u1ef1 ly v\u00e0 tuy\u1ebfn k\u1ebft n\u1ed1i: T\u00e2n S\u01a1n Nh\u1ea5t trong n\u1ed9i \u0111\u00f4 so v\u1edbi Long Th\u00e0nh tr\u00ean tr\u1ee5c \u0110\u00f4ng Nam B\u1ed9",
+          "url": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm",
+          "what_works": "S\u1ed1 li\u1ec7u c\u1ef1 ly 8-10 km v\u00e0 40 km t\u1ea1o ph\u00e9p so s\u00e1nh tr\u1ef1c quan, tr\u00e1nh tranh lu\u1eadn c\u1ea3m t\u00ednh."
+        },
+        {
+          "description": "Bi\u1ec3u \u0111\u1ed3 ba t\u1ea7ng: T\u00e2n S\u01a1n Nh\u1ea5t thi\u1ebft k\u1ebf 20 tri\u1ec7u, Long Th\u00e0nh giai \u0111o\u1ea1n 1 25 tri\u1ec7u, to\u00e0n d\u1ef1 \u00e1n 100 tri\u1ec7u",
+          "url": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm",
+          "what_works": "Ba m\u1ed1c c\u00f4ng su\u1ea5t ph\u00e2n bi\u1ec7t r\u00f5 giai \u0111o\u1ea1n 1 v\u1edbi c\u00f4ng su\u1ea5t sau ba giai \u0111o\u1ea1n."
+        },
+        {
+          "description": "D\u00f2ng th\u1eddi gian chuy\u1ec3n \u0111\u1ed5i 3 b\u01b0\u1edbc theo m\u00f9a l\u1ecbch bay 2026-2028",
+          "url": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm",
+          "what_works": "C\u00e1c m\u1ed1c 1/12/2026, 28/3/2027 v\u00e0 30/10/2027 gi\u1ea3i th\u00edch v\u00ec sao chuy\u1ebfn bay kh\u00f4ng chuy\u1ec3n c\u00f9ng m\u1ed9t l\u00fac."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm",
+          "title": "L\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i khai th\u00e1c 2 s\u00e2n bay Long Th\u00e0nh v\u00e0 T\u00e2n S\u01a1n Nh\u1ea5t t\u1eeb 1/12/2026",
+          "used_for": "L\u1ed9 tr\u00ecnh 3 b\u01b0\u1edbc, xu h\u01b0\u1edbng v\u00e0 m\u1ed1c th\u01b0\u01a1ng m\u1ea1i",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm",
+          "title": "Long Thanh int'l airport set for commercial launch by late 2026",
+          "used_for": "Quy m\u00f4 \u0111\u1ea7u t\u01b0, c\u00f4ng su\u1ea5t cu\u1ed1i c\u00f9ng, ti\u1ebfn \u0111\u1ed9 th\u00e1ng 3/2026",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm",
+          "title": "\u0110\u1ec1 xu\u1ea5t chuy\u1ec3n to\u00e0n b\u1ed9 chuy\u1ebfn bay qu\u1ed1c t\u1ebf v\u1ec1 s\u00e2n bay Long Th\u00e0nh",
+          "used_for": "Kho\u1ea3ng c\u00e1ch 40 km v\u00e0 l\u1ee3i \u00edch v\u1ecb tr\u00ed theo ACV",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://baochinhphu.vn/bo-xay-dung-bao-cao-ve-phuong-an-khai-thac-san-bay-long-thanh-102251002182442016.htm",
+          "title": "B\u1ed9 X\u00e2y d\u1ef1ng b\u00e1o c\u00e1o v\u1ec1 ph\u01b0\u01a1ng \u00e1n khai th\u00e1c s\u00e2n bay Long Th\u00e0nh",
+          "used_for": "T\u1ef7 l\u1ec7 khai th\u00e1c \u0111\u1ec1 xu\u1ea5t v\u00e0 ph\u00e2n chia chuy\u1ebfn bay",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://baochinhphu.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-kiem-tra-tien-do-du-an-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260523190527671.htm",
+          "title": "Ph\u00f3 Th\u1ee7 t\u01b0\u1edbng ki\u1ec3m tra ti\u1ebfn \u0111\u1ed9 d\u1ef1 \u00e1n s\u00e2n bay Long Th\u00e0nh",
+          "used_for": "T3, c\u00f4ng su\u1ea5t 20 tri\u1ec7u v\u00e0 t\u1ef7 l\u1ec7 s\u1eed d\u1ee5ng \u0111\u01b0\u1ee3c b\u00e1o c\u00e1o",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm",
+          "title": "Th\u1ee7 t\u01b0\u1edbng: S\u00e2n bay Long Th\u00e0nh ph\u1ea3i ho\u00e0n th\u00e0nh trong n\u0103m 2025",
+          "used_for": "C\u00f4ng su\u1ea5t giai \u0111o\u1ea1n 1, k\u1ebft n\u1ed1i b\u1ed9/\u0111\u01b0\u1eddng s\u1eaft",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://baochinhphu.vn/day-nhanh-tien-do-thi-cong-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260525211615704.htm",
+          "title": "\u0110\u1ea9y nhanh ti\u1ebfn \u0111\u1ed9 thi c\u00f4ng s\u00e2n bay v\u00e0 cao t\u1ed1c TPHCM-Long Th\u00e0nh-D\u1ea7u Gi\u00e2y",
+          "used_for": "Ti\u1ebfn \u0111\u1ed9 h\u1ea1 t\u1ea7ng k\u1ebft n\u1ed1i n\u0103m 2026 v\u00e0 c\u1ea7u Long Th\u00e0nh",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=212234&pageid=27160",
+          "title": "Quy\u1ebft \u0111\u1ecbnh 1711/Q\u0110-TTg v\u1ec1 quy ho\u1ea1ch TP.HCM",
+          "used_for": "Ngu\u1ed3n v\u0103n b\u1ea3n quy ho\u1ea1ch c\u1ea5p Ch\u00ednh ph\u1ee7",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=208031",
+          "title": "Quy\u1ebft \u0111\u1ecbnh 648/Q\u0110-TTg v\u1ec1 quy ho\u1ea1ch h\u1ec7 th\u1ed1ng c\u1ea3ng h\u00e0ng kh\u00f4ng",
+          "used_for": "Ngu\u1ed3n v\u0103n b\u1ea3n quy ho\u1ea1ch h\u00e0ng kh\u00f4ng to\u00e0n qu\u1ed1c",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://caa.gov.vn/van-ban/648-qd-ttg-28627.htm",
+          "title": "C\u1ee5c H\u00e0ng kh\u00f4ng Vi\u1ec7t Nam - H\u1ed3 s\u01a1 Quy ho\u1ea1ch theo Quy\u1ebft \u0111\u1ecbnh 648/Q\u0110-TTg",
+          "used_for": "H\u1ed3 s\u01a1 quy ho\u1ea1ch h\u00e0ng kh\u00f4ng c\u1ee7a c\u01a1 quan qu\u1ea3n l\u00fd",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://baochinhphu.vn/khuyen-khich-cac-hang-hang-khong-chuyen-bay-quoc-te-sang-san-bay-long-thanh-tu-he-2026-102250929194105721.htm",
+          "title": "Khuy\u1ebfn kh\u00edch c\u00e1c h\u00e3ng h\u00e0ng kh\u00f4ng chuy\u1ec3n bay qu\u1ed1c t\u1ebf sang Long Th\u00e0nh t\u1eeb H\u00e8 2026",
+          "used_for": "B\u1ed1i c\u1ea3nh quy ho\u1ea1ch v\u00f9ng v\u00e0 \u0111\u1ec1 xu\u1ea5t khai th\u00e1c",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wGSHYdLj5oo",
+          "title": "S\u00e2n bay Long Th\u00e0nh m\u1edf c\u1eeda, v\u00ec sao 322 trong 366 chuy\u1ebfn m\u1ed7i tu\u1ea7n l\u00e0 bay n\u1ed9i \u0111\u1ecba?",
+          "used_for": "Video \u0111\u1ed1i chi\u1ebfu tr\u1ef1c ti\u1ebfp",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=U_LiGKpGjSE",
+          "title": "S\u00e2n bay Long Th\u00e0nh gi\u1ea3m ph\u00ed c\u1ea5t h\u1ea1 c\u00e1nh 50% nh\u01b0ng v\u1eabn ch\u01b0a \u0111\u1ee7 h\u1ea5p d\u1eabn!",
+          "used_for": "\u0110\u1ed1i chi\u1ebfu c\u00e1ch k\u00eanh Land Connect l\u00e0m ch\u1ee7 \u0111\u1ec1 d\u1ef1 \u00e1n",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=s%C3%A2n+bay+long+th%C3%A0nh+v%C3%AC+sao+40+km",
+          "title": "K\u1ebft qu\u1ea3 t\u00ecm ki\u1ebfm YouTube: s\u00e2n bay Long Th\u00e0nh v\u00ec sao 40 km",
+          "used_for": "C\u00e1c ti\u00eau \u0111\u1ec1 hi\u1ec7n c\u00f3, d\u00f9ng \u0111\u00e1nh gi\u00e1 c\u1ea1nh tranh",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://datareportal.com/reports/digital-2025-vietnam",
+          "title": "Digital 2025: Vietnam",
+          "used_for": "Quy m\u00f4 ti\u1ebfp c\u1eadn qu\u1ea3ng c\u00e1o YouTube t\u1ea1i Vi\u1ec7t Nam",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://support.google.com/youtube/answer/1311392",
+          "title": "YouTube channel monetization policies",
+          "used_for": "R\u1ee7i ro n\u1ed9i dung l\u1eb7p l\u1ea1i v\u00e0 thi\u1ebfu t\u00ednh nguy\u00ean g\u1ed1c",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://support.google.com/youtube/answer/72851",
+          "title": "YouTube Partner Program overview and eligibility",
+          "used_for": "Ng\u01b0\u1ee1ng tham gia YPP v\u00e0 th\u1ecb tr\u01b0\u1eddng \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://support.google.com/youtube/answer/9230970",
+          "title": "Disclosing altered or synthetic content",
+          "used_for": "Y\u00eau c\u1ea7u khai b\u00e1o n\u1ed9i dung AI gi\u1ed1ng th\u1eadt",
+          "reliability": "primary"
+        }
+      ],
+      "research_summary": "C\u00e2u h\u1ecfi 'v\u00ec sao s\u00e2n bay Long Th\u00e0nh n\u1eb1m c\u00e1ch 40 km' l\u00e0 c\u01a1 h\u1ed9i explainer nh\u01b0ng kh\u00f4ng ph\u1ea3i th\u1ecb tr\u01b0\u1eddng tr\u1ed1ng. Kho\u1ea3ng c\u00e1ch n\u00e0y d\u00e0i h\u01a1n T\u00e2n S\u01a1n Nh\u1ea5t (8-10 km), \u0111\u1ed5i l\u1ea1i theo ACV l\u00e0 k\u1ebft n\u1ed1i v\u00f9ng \u0110\u00f4ng Nam B\u1ed9, kh\u1ea3 n\u0103ng khai th\u00e1c 24/7, gi\u1ea3m ti\u1ebfng \u1ed3n n\u1ed9i \u0111\u00f4 v\u00e0 d\u01b0 \u0111\u1ecba m\u1edf r\u1ed9ng. D\u1eef li\u1ec7u Ch\u00ednh ph\u1ee7 cho bi\u1ebft giai \u0111o\u1ea1n 1 d\u1ef1 ki\u1ebfn \u0111\u1ea1t 25 tri\u1ec7u h\u00e0nh kh\u00e1ch/n\u0103m, c\u00f2n 100 tri\u1ec7u l\u00e0 c\u00f4ng su\u1ea5t sau ba giai \u0111o\u1ea1n. C\u1ee5c H\u00e0ng kh\u00f4ng th\u1ed1ng nh\u1ea5t l\u1ed9 tr\u00ecnh khai th\u00e1c 3 b\u01b0\u1edbc t\u1eeb 1/12/2026 \u0111\u1ebfn m\u00f9a \u0110\u00f4ng 2027-2028. Trong d\u1eef li\u1ec7u YouTube c\u1ee5c b\u1ed9, 147 video li\u00ean quan h\u1ea1 t\u1ea7ng s\u00e2n bay ch\u1ee7 y\u1ebfu thu\u1ed9c m\u1ed9t k\u00eanh theo d\u00f5i ti\u1ebfn \u0111\u1ed9; c\u00f3 video tr\u1ef1c ti\u1ebfp v\u1ec1 322/366 chuy\u1ebfn n\u1ed9i \u0111\u1ecba v\u00e0 nhi\u1ec1u ti\u00eau \u0111\u1ec1 h\u1ecfi v\u1ec1 40 km, n\u00ean n\u00ean l\u00e0m explainer b\u1ea3n \u0111\u1ed3, so s\u00e1nh c\u00f4ng su\u1ea5t v\u00e0 h\u00e0nh tr\u00ecnh th\u1ef1c t\u1ebf thay v\u00ec l\u1eb7p tin ti\u1ebfn \u0111\u1ed9. Gi\u1edbi h\u1ea1n quan tr\u1ecdng: vidIQ MCP kh\u00f4ng kh\u1ea3 d\u1ee5ng, ch\u01b0a c\u00f3 volume/competition/RPM; niche scan kh\u00f4ng c\u00f3 ng\u00e0y \u0111\u0103ng; hai PDF quy ho\u1ea1ch l\u00e0 b\u1ea3n scan, ch\u01b0a OCR. V\u00ec v\u1eady c\u00e1c k\u1ebft lu\u1eadn v\u1ec1 nhu c\u1ea7u v\u00e0 xu h\u01b0\u1edbng l\u00e0 gi\u1ea3 thuy\u1ebft c\u1ea7n th\u1eed, kh\u00f4ng ph\u1ea3i d\u1ef1 b\u00e1o ch\u1eafc ch\u1eafn.",
+      "metadata": {
+        "research_method": "Scrapy HTTP crawl of government, Civil Aviation Authority, and ACV pages; direct DataReportal fetch; local cached YouTube niche scan",
+        "spider_files": [
+          "_tools/research_spider/long_thanh.py",
+          "_tools/research_spider/long_thanh_news.py"
+        ],
+        "raw_outputs": [
+          "projects/long-thanh-40km/artifacts/scrapy-sources.jsonl",
+          "projects/long-thanh-40km/artifacts/scrapy-news.jsonl"
+        ],
+        "limitations": [
+          "vidIQ MCP is unavailable in this session; search volume, competition, and RPM by country remain unverified",
+          "PDFs for decisions 648 and 1711 are scanned images with no text layer; pdftotext extracted only a few hundred characters and OCR is not installed. Decision 562/QD-BXD (2025) does have a readable text layer and was read in full.",
+          "The 2011 master plan (909/QD-TTg) and the 2015 National Assembly resolution (94/2015/QH13) are confirmed only through the citation list inside 562/QD-BXD; their own text was not read, so the original site-selection rationale is not yet established",
+          "The local niche scan has no upload dates; view counts are directional signals only, not evidence of current trend velocity",
+          "Thuvienphapluat was blocked by Cloudflare and the initially guessed ACV root returned 404; no access controls were bypassed",
+          "No direct RPM/CPM comparison by country was verified; market ranking weighs audience reach, language fit, competition, and sourcing cost"
+        ]
+      }
+    }
+  },
+  "style_playbook": "minimalist-diagram",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "summary": {
+      "critical": 0,
+      "suggestions": 0,
+      "nitpicks": 0,
+      "success_criteria_met": "13 data points with source URLs; 5 angles discovered; 18 sources cited"
+    }
+  },
+  "cost_snapshot": {
+    "spent_usd": 0.0
+  }
+}

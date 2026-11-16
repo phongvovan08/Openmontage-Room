@@ -1,0 +1,1675 @@
+{
+  "retrievedDateLocal": "2026-10-26",
+  "timezone": "Asia/Saigon",
+  "notes": [
+    "Retrieval date is not an upstream freshness timestamp.",
+    "Keyword research used country=VN; estimatedMonthlySearch remains distinct from countryVolume.",
+    "Keyword research returned no comparable baseline, growth window, or freshness timestamp.",
+    "Trending discovery: long, vi, channelCountry VN, publication dates 2026-10-01 to 2026-10-27; channel country is not audience geography.",
+    "Hourly video history: 2026-10-22T17:00:00Z to 2026-10-25T17:00:00Z (23-26 October midnight in Vietnam).",
+    "Three initial stats requests with timezone offsets failed schema validation; successful retries used equivalent UTC Z timestamps."
+  ],
+  "results": {
+    "vidiq_rising_week": [
+      {
+        "type": "text",
+        "text": "## Keyword research — mode: rising · period: week\n\n### risingKeywords (100)\n| keyword | language | searchResultLanguages (top 2) | volume | competition | overall | estimatedMonthlySearch | periodPercentChange | topMarkets (top 3) | vphVolumeChangePct | latestVph |\n|---|---|---|---|---|---|---|---|---|---|---|\n| hush valorant | en | en 90%, vi 10% | 87 | 16 | 85 | 626768 | +14828.5% | US 16%, IN 16%, BR 9% | +1209.8% | 120000 |\n| mrpolfer | null | es 100% | 85 | 26 | 80 | 467000 | +12076.3% | ES 55%, MX 8%, AR 7% |  |  |\n| monk mode films | en | en 100% | 85 | 31 | 79 | 491859 | +10675.5% | VN 31%, PK 10%, IN 9% |  |  |\n| fauji trailer | en | en 70%, te 20% | 83 | 46 | 71 | 340288 | +9798.4% | IN 79%, BD 16%, US 2% | +1757.6% | 34000 |\n| debate globo | pt | pt 100% | 93 | 52 | 75 | 1757168 | +9258.6% | BR 96%, US 1%, PT 0% | +108.5% | 2000000 |\n| felca | null | pt 100% | 100 | 68 | 73 | 6160120 | +8625% | BR 96%, PT 2%, US 1% |  |  |\n| tiger shroff | null | hi 50%, en 40% | 87 | 74 | 63 | 681223 | +8505.7% | IN 72%, PK 8%, BD 7% | +6216.9% | 5800000 |\n| ind vs nz highlights | en | en 80%, hi 20% | 83 | 58 | 67 | 379931 | +8491.6% | IN 80%, PK 10%, BD 4% | +284599% | 3000000 |\n| finance with harish | en | ta 90%, en 10% | 83 | 39 | 74 | 375798 | +8083.9% | IN 92%, US 1%, NL 1% |  |  |\n| psg barcelona | null | en 90%, es 10% | 84 | 66 | 64 | 394653 | +7716.1% | TR 26%, ES 13%, US 6% |  |  |\n| arsenal vs bayern munich | en | en 90%, es 10% | 81 | 52 | 68 | 247911 | +7635.2% | VN 9%, NG 9%, KE 7% | +15246.9% | 270000 |\n| bioware | null | en 80%, es 20% | 81 | 43 | 71 | 268605 | +7323.8% | US 19%, DE 7%, GB 6% | +8215.9% | 480000 |\n| ethan klein | null | en 100% | 88 | 74 | 63 | 736993 | +7201.2% | US 44%, GB 13%, CA 5% | +534.6% | 1000000 |\n| php | null | en 60%, ko 10% | 89 | 71 | 65 | 871822 | +7001.2% | JP 46%, IN 6%, US 4% | +731.5% | 900000 |\n| barcelona vs psg | en | en 80%, fr 10% | 85 | 33 | 78 | 501516 | +6457.8% | BD 13%, US 6%, GB 6% |  |  |\n| debate presidencial 2026 ao vivo | pt | pt 100% | 96 | 55 | 76 | 2787585 | +6306.9% | BR 99%, US 0%, FR 0% |  |  |\n| ravan tandav | hi | en 80%, hi 20% | 79 | 39 | 72 | 203035 | +5758% | IN 88%, CA 4%, NP 4% |  |  |\n| bayern vs arsenal | en | en 60%, es 30% | 82 | 47 | 70 | 304239 | +5652.8% | VN 14%, GB 8%, ID 7% |  |  |\n| debate presidencial | es | pt 90%, es 10% | 80 | 61 | 64 | 241646 | +5579.5% | BR 98%, GB 2% | +348.5% | 3600000 |\n| fauzi | null | en 50%, hi 30% | 84 | 79 | 59 | 442340 | +5456.7% | IN 74%, PK 10%, BD 9% | +198.5% | 1800000 |\n| debate globo ao vivo | pt | pt 100% | 85 | 54 | 69 | 463082 | +5260.9% | BR 92%, US 4%, PT 2% |  |  |\n| 사서알려줌 | ko | ko 100% | 79 | 29 | 75 | 185354 | +5103% | KR 94%, JP 3%, US 2% |  |  |\n| pak vs eng | en | en 100% | 83 | 61 | 65 | 362275 | +5065.9% | PK 87%, IN 5%, BD 1% |  |  |\n| funnotsofun | en | en 100% | 79 | 29 | 76 | 197530 | +4908.4% | PK 18%, US 10%, KZ 10% |  |  |\n| mr polfer | null | en 80%, es 20% | 78 | 66 | 61 | 169951 | +4806.4% | ES 48%, AR 16%, MX 10% |  |  |\n| psychology of mechanical intelligence | en | en 100% | 78 | 26 | 77 | 169982 | +4718% | IN 25%, PK 22%, US 8% |  |  |\n| psg vs barcelona | en | en 80%, es 20% | 93 | 62 | 71 | 1594289 | +4655.3% | VN 12%, BD 12%, US 7% |  |  |\n| debate na globo | pt | pt 100% | 81 | 57 | 66 | 283967 | +4643.6% | BR 95%, PT 2%, US 2% | +556.5% | 3800000 |\n| diwali 2026 | null | hi 50%, en 40% | 86 | 47 | 72 | 546351 | +4507.7% | IN 99%, GB 0%, CY 0% | +192.2% | 3200000 |\n| 76ers vs knicks | en | en 90%, es 10% | 79 | 58 | 64 | 204892 | +4481.9% | US 43%, VN 6%, PH 6% |  |  |\n| psg vs barcelona highlights | en | en 70%, es 20% | 80 | 47 | 69 | 231056 | +4471.9% | BD 34%, NG 16%, IN 7% |  |  |\n| barcelona x psg | null | en 80%, fr 10% | 77 | 61 | 62 | 154157 | +4395% | BR 100% |  |  |\n| 길바닥 | ko | ko 100% | 81 | 65 | 62 | 258027 | +4319.1% | KR 95%, TW 1%, VN 1% | +151.4% | 140000 |\n| 신박발견 | ko | ko 100% | 86 | 36 | 77 | 546558 | +4315.9% | KR 96%, US 3%, JP 1% |  |  |\n| band debate | en | pt 100% | 78 | 55 | 65 | 165413 | +4188.1% | BR 93%, PT 3%, IT 2% |  |  |\n| 계란밥 | ko | ko 100% | 78 | 47 | 68 | 173604 | +3825.6% | KR 93%, US 3%, CA 2% |  |  |\n| tornillo | es | es 100% | 78 | 68 | 60 | 168421 | +3691.2% | MX 49%, AR 10%, US 7% | +85.1% | 110000 |\n| ricks clips | en | en 100% | 86 | 45 | 73 | 537661 | +3586.5% | KR 10%, IN 10%, PK 6% |  |  |\n| the faithful sheriff | en | en 100% | 83 | 64 | 64 | 370307 | +3570.4% | US 52%, GB 8%, AU 6% | +1128.4% | 16000 |\n| goku vs saitama reaction | en | en 100% | 78 | 66 | 61 | 175252 | +3543.2% | US 41%, DE 9%, CA 9% | +726.9% | 26000 |\n| debate ao vivo hoje | pt | pt 100% | 79 | 53 | 66 | 209269 | +3511.8% | BR 99%, US 1% |  |  |\n| one small if | en | en 100% | 79 | 55 | 65 | 196817 | +3502.5% | PK 11%, VN 11%, IN 10% | +97.6% | 2300 |\n| oyun gemisi | tr | tr 100% | 83 | 48 | 70 | 344373 | +3460.6% | TR 91%, AZ 3%, PH 1% |  |  |\n| firestarter | en | en 100% | 90 | 63 | 69 | 1105131 | +3448.7% | VN 15%, BR 12%, DE 7% | +6095.6% | 500000 |\n| barca vs psg | null | en 60%, es 40% | 84 | 57 | 68 | 420671 | +3422.1% | VN 20%, BD 16%, US 9% |  |  |\n| the hollow roblox | en | en 100% | 84 | 45 | 72 | 452905 | +3181.9% | US 19%, RU 9%, BR 7% |  |  |\n| debate ao vivo | pt | pt 70%, es 30% | 90 | 51 | 73 | 1003595 | +3124.6% | BR 98%, US 1%, PT 0% | +940.6% | 1300000 |\n| debate lula e flavio bolsonaro | pt | pt 100% | 83 | 53 | 68 | 341916 | +2805.5% | BR 67%, US 8%, PT 5% | +2084.6% | 46000 |\n| real madrid sevilla | null | es 70%, en 30% | 81 | 58 | 65 | 268830 | +2602.3% | TR 42%, ES 18%, MA 4% |  |  |\n| barcelona psg | null | en 80%, fr 10% | 79 | 53 | 66 | 203833 | +2580.3% | TR 31%, ES 13%, BR 8% |  |  |\n| debate band 2026 | en | pt 100% | 80 | 58 | 65 | 235893 | +2329.3% | BR 97%, PT 2%, US 1% |  |  |\n| psg barca | null | en 90%, es 10% | 80 | 55 | 66 | 238100 | +2326.2% | FR 31%, ID 7%, ES 6% |  |  |\n| debate na band | tl | pt 100% | 82 | 69 | 62 | 307456 | +2267.1% | BR 99%, KY 1% |  |  |\n| шкя | ru | ru 100% | 82 | 63 | 64 | 322929 | +2238.1% | RU 20%, DE 12%, UA 10% |  |  |\n| victoria secret fashion show 2026 | en | en 100% | 91 | 70 | 67 | 1292607 | +2195.9% | US 17%, IN 10%, TR 7% |  |  |\n| roblox the hollow | en | en 100% | 81 | 39 | 73 | 271388 | +2028.7% | US 12%, GB 6%, BR 6% |  |  |\n| pmgo | null | en 50%, ne 20% | 82 | 73 | 60 | 326020 | +2012.3% | PK 41%, IN 16%, NP 13% | +645.2% | 720000 |\n| ecco2k | null | en 100% | 80 | 47 | 69 | 222753 | +1888.2% | US 16%, RU 13%, PL 11% | +359.2% | 4200 |\n| clayface review | en | en 100% | 78 | 56 | 65 | 177865 | +1851% | US 29%, CA 12%, IN 12% | +1460.9% | 65000 |\n| w sound | en | es 100% | 84 | 62 | 66 | 421123 | +1843.7% | CO 52%, ES 11%, DO 6% |  |  |\n| roberta luchsinger | null | pt 100% | 83 | 72 | 61 | 351659 | +1807.2% | BR 96%, US 1%, DE 1% |  |  |\n| kda | null | en 90%, id 10% | 95 | 59 | 74 | 2417415 | +1771.7% | BR 14%, VN 12%, US 9% |  |  |\n| ufc 333 | null | en 100% | 82 | 76 | 59 | 294110 | +1734.1% | UZ 9%, RU 6%, DE 6% |  |  |\n| band | en | en 50%, cs 10% | 91 | 49 | 75 | 1323656 | +1631.3% | BR 93%, US 1%, KR 1% |  |  |\n| fauji | hi | en 50%, te 30% | 79 | 54 | 66 | 203548 | +1563.1% | IN 77%, BD 11%, PK 8% |  |  |\n| frança | fr | pt 90%, es 10% | 82 | 67 | 62 | 304503 | +1555.5% | BR 94%, PT 3%, NZ 1% |  |  |\n| h3h3 | null | en 100% | 88 | 60 | 69 | 828227 | +1523.2% | US 37%, GB 15%, CA 9% | +275.8% | 420000 |\n| wardega | null | pl 100% | 80 | 66 | 62 | 224807 | +1501.5% | PL 96%, CH 1%, GB 1% |  |  |\n| debate band | en | pt 100% | 88 | 59 | 69 | 806304 | +1423% | BR 95%, US 1%, AR 1% |  |  |\n| jason samuel | null | ta 60%, en 40% | 84 | 29 | 79 | 427707 | +1420.5% | IN 94%, DE 1%, US 1% |  |  |\n| real madrid vs sevilla | en | es 60%, en 40% | 82 | 67 | 62 | 317131 | +1397.5% | US 12%, IN 9%, ID 7% |  |  |\n| k/da | null | en 90%, ko 10% | 88 | 75 | 63 | 781390 | +1361.8% | US 16%, VN 14%, KR 9% | +6033.4% | 440000 |\n| mw4 multiplayer | en | en 100% | 82 | 69 | 61 | 292023 | +1337.5% | US 54%, GB 9%, IN 5% | +190.1% | 150000 |\n| the curious stick | en | en 100% | 82 | 38 | 74 | 290561 | +1282.1% | VN 15%, PK 14%, BD 6% |  |  |\n| 김정은 | ko | ko 100% | 87 | 71 | 64 | 701063 | +1253% | KR 94%, VN 3%, US 1% | +367.1% | 2100000 |\n| the hollow | en | en 100% | 85 | 46 | 73 | 491284 | +1251.1% | US 14%, RU 8%, BR 8% |  |  |\n| la revuelta | es | es 100% | 81 | 79 | 57 | 247038 | +1248.5% | ES 82%, CO 4%, US 2% | +182.4% | 270000 |\n| 418 movie trailer | en | en 80%, hi 20% | 81 | 64 | 63 | 281293 | +1219.9% | IN 91%, US 3%, BD 2% | +140.4% | 130000 |\n| debate | en | en 70%, pt 30% | 99 | 70 | 71 | 3987641 | +1205.6% | BR 92%, US 2%, IN 1% | +95.8% | 35000000 |\n| 세상포착 | ko | ko 100% | 83 | 50 | 70 | 346879 | +1193.9% | KR 98%, US 2%, HK 1% |  |  |\n| 프랑스 시위 | ko | ko 100% | 81 | 63 | 63 | 255385 | +1176% | KR 97%, CA 2%, US 1% | +1130.3% | 100000 |\n| hush | en | en 100% | 85 | 55 | 69 | 477945 | +1119.8% | IN 18%, VN 10%, US 9% |  |  |\n| victoria secret fashion show | en | en 100% | 90 | 61 | 70 | 1066548 | +1096.2% | VN 14%, US 9%, BR 9% | +2934.8% | 280000 |\n| debate lula e bolsonaro | pt | pt 90%, es 10% | 83 | 53 | 68 | 341852 | +1093.9% | BR 92%, US 1%, FR 1% | +1669% | 620000 |\n| 그냥요기 | ko | ko 100% | 78 | 41 | 71 | 170866 | +1089.6% | KR 97%, CA 2%, US 2% |  |  |\n| 콜오브듀티 모던워페어4 | ko | ko 100% | 82 | 47 | 71 | 317276 | +1089% | KR 97%, AU 1%, VN 1% | +8603.9% | 180000 |\n| lisa tarantino | null | en 80%, ko 20% | 81 | 77 | 58 | 266470 | +1070.1% | US 17%, BR 11%, GB 10% |  |  |\n| 양홍원 | ko | ko 100% | 85 | 51 | 71 | 481576 | +1020.7% | KR 98%, US 2% | +385.7% | 1300000 |\n| nobody gets in | en | en 100% | 84 | 57 | 68 | 396357 | +988.1% | PK 24%, IN 8%, BR 7% |  |  |\n| hurmat drama episode 6 | en | en 100% | 84 | 81 | 58 | 421033 | +984.6% | PK 78%, IN 13%, BD 7% | +417% | 12000 |\n| band ao vivo | pt | pt 100% | 89 | 53 | 72 | 956714 | +937.8% | BR 97%, US 1%, CA 0% |  |  |\n| clover rpg | en | en 100% | 83 | 46 | 71 | 360562 | +927.6% | US 43%, BR 14%, CA 8% | +1953.5% | 42000 |\n| france protest | en | en 100% | 88 | 57 | 70 | 808798 | +862.7% | IN 33%, PK 5%, US 5% | +837.3% | 1800000 |\n| tarantino lisa | null | en 80%, ko 20% | 78 | 55 | 65 | 179634 | +835.8% | TH 25%, VN 13%, PK 11% |  |  |\n| bradikinin | tr | en 100% | 87 | 68 | 65 | 725521 | +831.8% | PK 14%, US 10%, IN 10% |  |  |\n| ricardinho acf | null | pt 100% | 83 | 66 | 63 | 339342 | +805.1% | BR 98%, IT 1%, US 1% | +97.5% | 65000 |\n| greenbrorants | null | en 100% | 81 | 59 | 65 | 251362 | +799.4% | US 38%, DE 7%, CH 7% |  |  |\n| verified by your favorite martian | en | en 100% | 79 | 56 | 65 | 191007 | +797.6% | US 30%, PK 17%, GB 8% |  |  |\n| hunger | en | en 100% | 83 | 59 | 66 | 354416 | +769.4% | RU 15%, US 11%, UA 7% | +58.3% | 1200000 |\n| conor3d | null | en 100% | 89 | 59 | 70 | 956592 | +768.4% | US 24%, RU 6%, ID 6% | +155.9% | 57000 |\n\navailableTopics: politics news, pop music, comedy, rapping, role-playing games, soundtracks, action-adventure games, asian music, indian music, podcasts, vocal music, more from this story, roblox, anime, musical ensembles, history, thrillers, world news, hip hop, reaction videos, computers, computer program, tourism, trailers, bhajan music, film criticisms, cars, monetization, computer programming, storytelling, hindu music, pakistani dramas, pvp, tourist destinations, psychology, action thrillers, science, indie music, valorant, rpgs, techno, nature, computer science, video game music, sports leagues, gadgets, comic books, public speaking, religious recitation, intelligence, science fiction, cooperative video game, natok, restaurants, bodybuilding, role-playing, league of legends, nba, mantras, manga, consumer electronics, products, sports news, sports video games, mobile games, skills, ancient history, premier league, filmmaking, television series, pokémon, sports tournaments\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%.\nNote: These are the top rows by growth, not every match: filters you apply only cover them.\nNote: VPH is video-view velocity, not search demand. latestVph is the most recent views-per-hour point. Never sum VPH into views. Empty VPH cells mean no VPH data."
+      }
+    ],
+    "vidiq_psychology": [
+      {
+        "type": "text",
+        "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| tâm lý học | 78 | 41 | 70 | 158810 | -23.1% | 158810 | VN 100% |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| tâm lý học hành vi | 68 | 36 | 66 | 33806 | +11.3% | 33806 | VN 100% |\n| tâm lý học con người | 67 | 31 | 68 | 28864 | +21.4% | 25978 | none |\n| tâm lý học chiều sâu | 53 | 16 | 65 | 3301 | null | null | none |\n| sách tâm lý học | 60 | 27 | 65 | 10022 | -29.1% | null | none |\n| tâm lý con người | 62 | 32 | 64 | 13328 | -62.3% | null | none |\n| tâm lý học đời sống | 54 | 32 | 60 | 4333 | null | null | none |\n| chill tâm lý học | 55 | 23 | 64 | 4719 | null | null | none |\n| tâm lý phụ nữ | 67 | 24 | 71 | 31775 | -40.2% | 7944 | PK 82%, VN 18% |\n| tâm lý đàn ông | 57 | 17 | 68 | 7063 | +96.6% | null | none |\n| tâm lý học thành công | 57 | 41 | 58 | 6849 | +80% | null | none |\n| tâm lý học đơn giản | 53 | 33 | 59 | 3498 | null | null | none |\n| tâm lý học là gì | 65 | 30 | 67 | 22455 | +320.6% | null | none |\n| tâm lý học tích cực | 54 | 44 | 55 | 4140 | null | null | none |\n| lịch sử tâm lý học | 54 | 22 | 64 | 4344 | null | null | none |\n| tâm lý học tình yêu | 66 | 27 | 69 | 25380 | +46.5% | null | none |\n| phân tích tâm lý | 62 | 41 | 61 | 13624 | +175.7% | null | none |\n| phân tâm học | 54 | 30 | 60 | 4005 | null | null | none |\n| bẫy tâm lý | 53 | 42 | 55 | 3401 | null | null | none |\n| thao túng tâm lý | 65 | 39 | 63 | 21470 | -23% | null | none |\n| tâm lý | 71 | 52 | 61 | 53067 | -9.5% | 53067 | VN 100% |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+      }
+    ],
+    "vidiq_history": [
+      {
+        "type": "text",
+        "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| bí ẩn lịch sử | 76 | 34 | 72 | 131087 | +113.7% | 131087 | VN 100% |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| bí ẩn lịch sử việt nam | 61 | 25 | 66 | 11402 | null | null | none |\n| lịch sử thế giới | 71 | 50 | 63 | 57778 | +140.1% | 57778 | VN 100% |\n| bí ẩn | 72 | 47 | 64 | 66644 | -10.8% | 66644 | VN 100% |\n| lịch sử việt nam | 84 | 58 | 67 | 396737 | +38.9% | 382310 | VN 96%, US 3%, TW 1% |\n| lịch sử | 81 | 57 | 66 | 262979 | +30.2% | 257922 | VN 98%, JP 1%, US 1% |\n| tóm tắt lịch sử | 59 | 54 | 54 | 8854 | -29.1% | null | none |\n| lịch sử trung quốc | 71 | 46 | 64 | 53138 | +13.2% | 53138 | VN 100% |\n| bí ẩn trung quốc | 54 | 33 | 60 | 4425 | null | null | none |\n| bí ẩn thế giới | 67 | 25 | 70 | 32167 | -30.4% | null | none |\n| lịch sử trung đông | 55 | 33 | 60 | 4937 | null | null | none |\n| lịch sử israel | 63 | 44 | 60 | 16425 | null | null | none |\n| lịch sử iran | 56 | 26 | 63 | 5960 | null | null | none |\n| toàn bộ lịch sử | 71 | 48 | 63 | 53113 | +298.9% | 53113 | VN 100% |\n| bí ẩn khảo cổ | 63 | 30 | 66 | 17144 | +232.2% | null | none |\n| lịch sử mông cổ | 54 | 35 | 58 | 3911 | null | null | none |\n| tóm tắt lịch sử việt nam | 63 | 45 | 60 | 17540 | -19.1% | null | none |\n| hồ sơ lịch sử | 67 | 24 | 71 | 31374 | +131.6% | null | none |\n| top 10 bí ẩn | 57 | 33 | 61 | 6185 | -57.9% | null | none |\n| lịch sử loài người | 63 | 57 | 55 | 16497 | -17.2% | null | none |\n| khám phá bí ẩn | 69 | 43 | 65 | 44898 | +53.5% | 44898 | VN 100% |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+      }
+    ],
+    "vidiq_wildlife": [
+      {
+        "type": "text",
+        "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| thế giới động vật | 84 | 47 | 72 | 402204 | -3.6% | 390234 | VN 97%, JP 1%, US 1% |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| thế giới động vật thuyết minh | 59 | 31 | 63 | 9083 | -2.9% | null | none |\n| khám phá thế giới | 76 | 39 | 70 | 119093 | -7% | 116323 | VN 98%, KR 2% |\n| động vật hoang dã | 75 | 33 | 72 | 102725 | +20.6% | 97018 | VN 94%, PK 3%, UZ 3% |\n| động vật | 76 | 47 | 67 | 127578 | -16.3% | 124805 | VN 98%, US 2% |\n| thế giới hoang dã | 69 | 33 | 68 | 44652 | +142.6% | 44652 | VN 100% |\n| pow thế giới động vật | 71 | 51 | 62 | 53727 | -32.8% | 53727 | VN 100% |\n| động vật săn mồi | 58 | 36 | 61 | 8064 | -29.9% | null | none |\n| phim tài liệu động vật | 62 | 20 | 69 | 13970 | +159.5% | null | none |\n| đạt review - thế giới động vật | 59 | 27 | 65 | 9454 | -45.6% | null | none |\n| khám phá thế giới động vật | 53 | 48 | 52 | 3444 | null | null | none |\n| động vật hoang dã châu phi | 60 | 31 | 64 | 11236 | +227% | null | none |\n| động vật kỳ lạ | 66 | 43 | 62 | 26894 | +462.2% | null | none |\n| động vật biển | 53 | 34 | 58 | 3728 | null | null | none |\n| động vật châu phi | 53 | 29 | 60 | 3692 | null | null | none |\n| khám phá động vật | 63 | 15 | 72 | 17883 | +83.4% | null | none |\n| động vật bí ẩn | 54 | 36 | 58 | 4070 | null | null | none |\n| phim động vật | 59 | 49 | 56 | 9144 | null | null | none |\n| sinh tồn nơi hoang dã | 77 | 38 | 71 | 138452 | -23.5% | 135683 | VN 98%, AU 2% |\n| sinh tồn | 80 | 53 | 67 | 231657 | -17% | 229111 | VN 99%, JP 1% |\n| wild animals | 84 | 63 | 65 | 449481 | -11.3% | 174144 | VN 38%, PK 15%, IN 10% |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+      }
+    ],
+    "vidiq_mindset": [
+      {
+        "type": "text",
+        "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| tư duy tích cực | 69 | 34 | 68 | 40184 | +186.1% | 40184 | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| tư duy thành công | 65 | 18 | 72 | 23912 | +10.8% | null | VN 100% |\n| năng lượng tích cực | 63 | 32 | 65 | 16554 | +46.2% | null | none |\n| rèn luyện tư duy | 53 | 47 | 53 | 3673 | null | null | none |\n| thay đổi tư duy | 67 | 47 | 62 | 31041 | +28.8% | null | none |\n| sống tích cực | 54 | 28 | 61 | 4054 | null | null | none |\n| tư duy thịnh vượng | 63 | 32 | 65 | 16801 | +229.8% | null | none |\n| tâm lý học tích cực | 54 | 44 | 55 | 4140 | null | null | none |\n| phát triển tư duy | 65 | 37 | 65 | 23736 | +165.3% | null | none |\n| tư duy mở | 62 | 35 | 63 | 15157 | -0.8% | null | none |\n| phát triển bản thân | 79 | 35 | 73 | 183394 | +40.5% | 175420 | VN 95%, JP 2%, PL 2% |\n| kỹ năng sống | 61 | 54 | 55 | 11419 | -59% | null | none |\n| bài học cuộc sống | 77 | 39 | 71 | 142431 | -3.5% | 136953 | VN 96%, PL 2%, US 2% |\n| sống tỉnh thức | 61 | 43 | 59 | 11542 | +170.6% | null | none |\n| triết lý sống | 71 | 36 | 68 | 58756 | -35% | 58756 | VN 100% |\n| tâm an | 69 | 56 | 59 | 43836 | +16.7% | 43836 | VN 100% |\n| chữa lành tâm hồn | 63 | 29 | 66 | 17452 | +3.2% | null | none |\n| sống an nhiên | 53 | 28 | 61 | 3553 | null | null | none |\n| thiền định | 66 | 25 | 69 | 24849 | +66.6% | null | none |\n| học làm người | 62 | 26 | 67 | 14112 | +43.9% | null | none |\n| trí tuệ cổ nhân | 73 | 29 | 72 | 76656 | -29.1% | 76656 | VN 100% |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+      }
+    ],
+    "vidiq_stories": [
+      {
+        "type": "text",
+        "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| kể chuyện đêm khuya | 79 | 39 | 72 | 187307 | +4.9% | 184669 | VN 98%, TH 2% |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| đọc truyện đêm khuya | 70 | 54 | 61 | 52758 | +26.4% | 52758 | VN 100% |\n| truyện đêm khuya | 74 | 45 | 67 | 96792 | +51.1% | 93859 | VN 97%, PL 3% |\n| kể truyện đêm khuya | 70 | 43 | 65 | 45799 | +119.1% | 45799 | VN 100% |\n| chuyện đêm khuya | 70 | 41 | 66 | 47812 | -18.4% | 47812 | VN 100% |\n| kể chuyện đêm khuya hay nhất | 54 | 43 | 56 | 4451 | null | null | none |\n| kể chuyện | 76 | 43 | 69 | 130294 | -30.7% | 130294 | VN 100% |\n| truyện đêm khuya hay nhất | 68 | 37 | 66 | 38006 | +22.3% | 30405 | VN 80%, US 20% |\n| truyện đêm khuya dễ ngủ | 59 | 55 | 54 | 9672 | +164.6% | null | none |\n| nghe truyện đêm khuya | 63 | 46 | 60 | 16711 | +56.8% | null | none |\n| nghe kể chuyện | 65 | 57 | 56 | 21283 | -14.4% | null | none |\n| truyện ngắn đêm khuya | 54 | 27 | 62 | 4189 | null | null | none |\n| đọc truyện đêm khuya đài tiếng nói việt nam | 53 | 69 | 44 | 3694 | null | null | none |\n| kể chuyện làng quê | 60 | 44 | 58 | 9862 | -78% | null | none |\n| truyện ngôn tình | 77 | 46 | 68 | 137831 | -6.6% | 132318 | VN 96%, PL 2%, NL 2% |\n| mc thu huệ | 78 | 60 | 63 | 157407 | +110.7% | 157407 | VN 100% |\n| đọc truyện | 68 | 53 | 60 | 38017 | +101.4% | 34561 | VN 91%, PL 9% |\n| truyện ngắn hay | 66 | 53 | 58 | 24593 | +71.4% | null | none |\n| truyện làng quê | 73 | 36 | 69 | 74115 | +81.3% | 74115 | VN 100% |\n| truyện hay | 69 | 71 | 53 | 44230 | -20.9% | 41071 | VN 92%, PL 8% |\n| truyện tâm lý xã hội | 58 | 52 | 54 | 7720 | +1.3% | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+      }
+    ],
+    "vidiq_lifehack": [
+      {
+        "type": "text",
+        "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| mẹo vặt cuộc sống | 72 | 37 | 68 | 61823 | +0.8% | 58732 | VN 95%, JP 5% |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| mẹo vặt | 58 | 42 | 58 | 7920 | -67.5% | null | none |\n| mẹo cuộc sống | 59 | 34 | 62 | 9429 | +86.3% | null | none |\n| mẹo hay trong cuộc sống | 55 | 24 | 64 | 4718 | null | null | none |\n| mẹo hay | 52 | 36 | 57 | 3264 | null | null | none |\n| mẹo | 64 | 52 | 57 | 18288 | +43.1% | null | none |\n| mẹo gia đình | 52 | 27 | 60 | 3167 | null | null | none |\n| mẹo hay mỗi ngày | 53 | 33 | 58 | 3319 | null | null | none |\n| life tips | 63 | 51 | 57 | 15853 | -33.5% | null | none |\n| orchids | 60 | 68 | 49 | 9810 | null | null | none |\n| how to grow orchids | 54 | 31 | 60 | 4340 | null | null | none |\n| life hack | 76 | 73 | 56 | 114433 | +23.1% | 13955 | PK 13%, VN 13%, JP 10% |\n| sáng tạo | 62 | 70 | 49 | 14665 | +27.7% | null | none |\n| kỹ năng sống | 61 | 54 | 55 | 11419 | -59% | null | none |\n| ý tưởng sáng tạo | 56 | 35 | 59 | 5328 | null | null | none |\n| có thể bạn chưa biết | 67 | 57 | 58 | 33067 | +27.6% | 30311 | VN 92%, TW 8% |\n| món ngon mỗi ngày | 67 | 63 | 55 | 31068 | +68.6% | null | none |\n| growing phalaenopsis orchids | 53 | 47 | 53 | 3715 | null | null | none |\n| cách | 62 | 61 | 53 | 14059 | -62.6% | null | none |\n| hướng dẫn | 64 | 45 | 60 | 18212 | -16.2% | null | none |\n| orchid care | 54 | 48 | 53 | 3933 | null | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+      }
+    ],
+    "trend_history": {
+      "videos": [
+        {
+          "videoId": "FftQglc3VYE",
+          "videoTitle": "(Full) Bí ẩn tộc người không đầu | Thế Giới Kì Quái",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-20T10:52:50.000Z",
+          "videoDuration": 3100,
+          "channelId": "UCD7fSaifIXiByqWR4JCT2NA",
+          "channelTitle": "Thế Giới Kì Quái",
+          "channelCountry": "VN",
+          "subscriberCount": 201000,
+          "viewCount": 175686,
+          "likeCount": 1847,
+          "commentCount": 188,
+          "engagementRate": 0.012,
+          "vph": 1337.7106598984772,
+          "videoTags": [
+            "quytackila",
+            "quytac",
+            "kinhdiquytac",
+            "thegioikiquai"
+          ]
+        },
+        {
+          "videoId": "NRU3u6JrQPQ",
+          "videoTitle": "Hành Trình Đến Ngã Ba Đông Dương Việt Nam-Lào-Campuchia Và Bí Ẩn Về Miếu Thờ 29 Người Ở Đèo Lò Xo",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-25T11:30:17.000Z",
+          "videoDuration": 4970,
+          "channelId": "UC42MXS_x5WysGZNqD7Qs7DA",
+          "channelTitle": "Cuộc Sống Nhà Di Động ",
+          "channelCountry": "VN",
+          "subscriberCount": 6580,
+          "viewCount": 9195,
+          "likeCount": 147,
+          "commentCount": 16,
+          "engagementRate": 0.018,
+          "vph": 466.3567202028741,
+          "videoTags": [
+            "cuộc sống nhà di động",
+            "thử thách",
+            "khám phá",
+            "xuyên việt",
+            "tâm linh",
+            "camping",
+            "sinh tồn",
+            "du lịch Việt Nam",
+            "mobihomelife"
+          ]
+        },
+        {
+          "videoId": "2y-rHPkyyLE",
+          "videoTitle": "VÙNG ĐẤT NAM BỘ CÓ TỪ KHI NÀO? Sự Thật Lịch Sử Về Cột Mốc 1698 Bạn Chưa Từng Biết",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-20T12:00:28.000Z",
+          "videoDuration": 4564,
+          "channelId": "UCMgG83iRzUtFRJrQhFrtHJg",
+          "channelTitle": "Trang Sử Hay",
+          "channelCountry": "VN",
+          "subscriberCount": 185,
+          "viewCount": 17606,
+          "likeCount": 56,
+          "commentCount": 6,
+          "engagementRate": 0.004,
+          "vph": 151.0812356979405,
+          "videoTags": [
+            "Lịch sử việt nam",
+            "lịch sử",
+            "chuyện lịch sử",
+            "sử việt",
+            "kể chuyện lịch sử",
+            "podcast lịch sử",
+            "lịch sử dễ ngủ",
+            "nhân vật lịch sử",
+            "dòng chảy lịch sử",
+            "ngược dòng lịch sử"
+          ]
+        },
+        {
+          "videoId": "vY41frQ6LYc",
+          "videoTitle": "Người Tiền Sử Có Sợ Bóng Tối?",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-20T11:19:19.000Z",
+          "videoDuration": 919,
+          "channelId": "UCp2sYIM23EwsHYzKH1yVjZQ",
+          "channelTitle": "Vẽ Xàm VL",
+          "channelCountry": "VN",
+          "subscriberCount": 2060,
+          "viewCount": 2844,
+          "likeCount": 8,
+          "commentCount": 2,
+          "engagementRate": 0.004,
+          "vph": 146.47210300429182,
+          "videoTags": [
+            "người tiền sử",
+            "tổ tiên loài người",
+            "lịch sử tiến hóa",
+            "khảo cổ học",
+            "con người cổ đại",
+            "sự thật thú vị",
+            "kiến thức thú vị",
+            "video giải trí kiến thức",
+            "khoa học lịch sử",
+            "prehistoric humans",
+            "early humans",
+            "ancient history",
+            "ancient human origins",
+            "người tiền sử có sợ bóng tối",
+            "người tiền sử sợ gì",
+            "nỗi sợ bóng tối thời tiền sử",
+            "người tiền sử sống sót ban đêm",
+            "người tiền sử sử dụng lửa",
+            "cuộc sống người tiền sử ban đêm",
+            "người Neanderthal",
+            "động vật săn mồi thời tiền sử"
+          ]
+        }
+      ],
+      "_credits": {
+        "used": 5
+      }
+    },
+    "trend_psychology": {
+      "videos": [
+        {
+          "videoId": "4_vSVDzm6lE",
+          "videoTitle": "iPhone Duo 104 triệu vẫn cháy hàng sau 5 phút. Bí mật tâm lý khiến giới thượng lưu vui vẻ \"đốt tiền\"",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-23T14:50:30.000Z",
+          "videoDuration": 696,
+          "channelId": "UCtfsYfpS3KoRTEbCMc6l85w",
+          "channelTitle": "Tuấn Tiền Tỉ",
+          "channelCountry": "VN",
+          "subscriberCount": 2210000,
+          "viewCount": 338255,
+          "likeCount": 1904,
+          "commentCount": 320,
+          "engagementRate": 0.007,
+          "vph": 5304.573967590172,
+          "videoTags": [
+            "tuan tien ti",
+            "tuấn tiền tỉ",
+            "hải dớ",
+            "hai do",
+            "tổ buôn 247",
+            "to buon 247",
+            "vlog tuấn tiền tỉ",
+            "tuấn tiền tỉ chém gió",
+            "247",
+            "tổ buôn",
+            "to buon",
+            "tin tuc 247",
+            "trắng news 999",
+            "tuấn tiền tỉ bản tin",
+            "tuan tien ti ban tin",
+            "TỔ BUÔN 247 23/06",
+            "tin tức",
+            "tin tức 24h",
+            "đàm đạo lịch sử",
+            "dam dao lich su",
+            "tuấn tiền tỉ lịch sử",
+            "tuan tien ti lich su",
+            "lich su",
+            "lịch sử"
+          ]
+        },
+        {
+          "videoId": "MneapkY6_CI",
+          "videoTitle": "Vụ nam sinh lớp 12 đánh cô giáo:Giải mã bất ổn tâm lý đẩy học sinh vượt lằn ranh đạo đức",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-25T06:46:21.000Z",
+          "videoDuration": 568,
+          "channelId": "UCPhPBJ3qE719TgLYVcNY8yg",
+          "channelTitle": "Tiền Phong TV",
+          "channelCountry": "VN",
+          "subscriberCount": 1150000,
+          "viewCount": 41432,
+          "likeCount": 122,
+          "commentCount": 33,
+          "engagementRate": 0.004,
+          "vph": 1698.032786885246,
+          "videoTags": [
+            "Báo tiền phong",
+            "kênh báo tiền phong",
+            "tiền phong tv",
+            "tiền phong",
+            "tptv",
+            "tin tức",
+            "tin mới nhất",
+            "tin tức mới nhất",
+            "tin tức thời sự",
+            "tin thời sự",
+            "thời sự hôm nay",
+            "tin mới",
+            "tin 24h",
+            "thời sự",
+            "vấn đề hôm nay",
+            "toàn cảnh tin tức",
+            "tin hót hôm nay",
+            "phân tích",
+            "phân tích tiền phong",
+            "bình luận sự kiện",
+            "bình luận phân tích",
+            "nam sinh",
+            "nam sinh đánh cô giáo",
+            "đấm cô giáo",
+            "vụ đấm cô giáo ở hà nội",
+            "thpt mạc đĩnh chi",
+            "nam sinh lớp 12",
+            "bất ổn tâm lí",
+            "tâm tí học sinh",
+            "vượt lằn ranh đạo đức"
+          ]
+        },
+        {
+          "videoId": "F1qgKw9jvXw",
+          "videoTitle": "Cổ Nhân Dạy: Ngu Lắm Mới Đặt Chân Đến 7 Nơi Này | Triết Lý Cuộc Sống",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-24T12:00:20.000Z",
+          "videoDuration": 1543,
+          "channelId": "UCAE68o3x901D5MZm_Q0E0Zw",
+          "channelTitle": "Triết Lý Cuộc Sống",
+          "channelCountry": "VN",
+          "subscriberCount": 80500,
+          "viewCount": 14307,
+          "likeCount": 134,
+          "commentCount": 10,
+          "engagementRate": 0.01,
+          "vph": 342.81948881789134,
+          "videoTags": [
+            "triết lý cuộc sống",
+            "cổ nhân dạy",
+            "ngu lắm mới đặt chân đến 7 nơi này",
+            "7 nơi người khôn tuyệt đối tránh xa",
+            "bài học cuộc sống",
+            "triết lý nhân sinh",
+            "triết lý cổ nhân",
+            "triết lý sống",
+            "trí tuệ cổ nhân",
+            "minh triết cổ nhân",
+            "tinh hoa cổ nhân",
+            "bài học cổ nhân",
+            "triết lý cổ xưa"
+          ]
+        },
+        {
+          "videoId": "0U-u1SqoZps",
+          "videoTitle": "KHI BỐP BỐP TƯ DUY NGƯỢC SẼ HAY NHƯ THẾ NÀO ?!",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-20T11:00:12.000Z",
+          "videoDuration": 839,
+          "channelId": "UCdSGpiTIGwzlQQ9VP1IJXgg",
+          "channelTitle": "Bốp Bốp Top1 Liên Quân",
+          "channelCountry": "VN",
+          "subscriberCount": 37200,
+          "viewCount": 20424,
+          "likeCount": 140,
+          "commentCount": 14,
+          "engagementRate": 0.008,
+          "vph": 332.36777868185516,
+          "videoTags": [
+            "liên quân",
+            "liên quân mobile",
+            "aov",
+            "bốp bốp"
+          ]
+        },
+        {
+          "videoId": "wPZOLSEZMjI",
+          "videoTitle": "Học được gì sau 1020 PHÚT nghe podcast về TƯ DUY & CÁCH LÀM VIỆC của Alex Hormozi",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-21T12:00:38.000Z",
+          "videoDuration": 1029,
+          "channelId": "UCWGAdtJwk_ZM_TMnIea3_mg",
+          "channelTitle": "Trương Phương",
+          "channelCountry": "VN",
+          "subscriberCount": 92600,
+          "viewCount": 18285,
+          "likeCount": 375,
+          "commentCount": 13,
+          "engagementRate": 0.021,
+          "vph": 249.5110302478963,
+          "videoTags": [
+            "alex hormozi",
+            "alex hormozi mindset",
+            "go all in",
+            "quy tắc 100",
+            "rule of 100",
+            "ignorance tax",
+            "đầu tư bản thân",
+            "tư duy thành công",
+            "kỷ luật bản thân",
+            "phát triển bản thân",
+            "self improvement",
+            "hustle mindset",
+            "productivity mindset",
+            "cách đạt mục tiêu",
+            "môi trường thành công",
+            "khởi nghiệp tuổi 20",
+            "tư duy triệu phú",
+            "trương phương",
+            "truong phuong",
+            "bài học alex hormozi",
+            "tư duy alex hormozi",
+            "thói quen thành công",
+            "kiên trì mỗi ngày"
+          ]
+        },
+        {
+          "videoId": "kW3eJXjixB0",
+          "videoTitle": "MÃI SAU NÀY MỚI HIỂU: CÀNG LỚN THÌ VIỆC CÓ NHIỀU BẠN BÈ CHỈ CÀNG VÔ ÍCH! | TƯ DUY KHẮC KỶ",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-24T10:00:09.000Z",
+          "videoDuration": 1638,
+          "channelId": "UC0HOYYkiKmr5xlPhlKP93Xg",
+          "channelTitle": "TƯ DUY KHẮC KỶ",
+          "channelCountry": "VN",
+          "subscriberCount": 13200,
+          "viewCount": 4121,
+          "likeCount": 65,
+          "commentCount": 2,
+          "engagementRate": 0.016,
+          "vph": 249.25403225806448,
+          "videoTags": [
+            "khắc kỷ",
+            "tư duy khắc kỷ",
+            "triết học khắc kỷ",
+            "stoicism",
+            "stoic mindset",
+            "tư duy stoic",
+            "làm chủ cảm xúc",
+            "kỷ luật bản thân",
+            "sức mạnh nội tâm",
+            "rèn luyện ý chí",
+            "sống điềm tĩnh",
+            "bình thản trước nghịch cảnh",
+            "phát triển bản thân",
+            "tư duy mạnh mẽ",
+            "triết lý sống",
+            "trí tuệ cổ đại",
+            "minh triết sống",
+            "cân bằng nội tâm",
+            "rèn tâm",
+            "trưởng thành nội tâm"
+          ]
+        }
+      ],
+      "_credits": {
+        "used": 5
+      }
+    },
+    "trend_wildlife": {
+      "videos": [
+        {
+          "videoId": "7_zYmrc8Uqs",
+          "videoTitle": "Kẻ Săn Mồi Và Con Mồi: Cuộc Chiến Sinh Tồn Từ Rừng Rậm Đến Thảo Nguyên | POW - Thế Giới Động Vật",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-24T10:00:24.000Z",
+          "videoDuration": 7523,
+          "channelId": "UCxCoy51SzKKmqRU6B1nNBug",
+          "channelTitle": "POW – Thế Giới Động Vật",
+          "channelCountry": "VN",
+          "subscriberCount": 38900,
+          "viewCount": 135280,
+          "likeCount": 1413,
+          "commentCount": 36,
+          "engagementRate": 0.011,
+          "vph": 3149.7089639115247,
+          "videoTags": [
+            "động vật",
+            "thế giới động vật",
+            "thế giới động vật thuyết minh",
+            "động vật thuyết minh",
+            "sinh tồn",
+            "sinh tồn nơi hoang dã",
+            "khám phá thế giới",
+            "động vật hoang dã",
+            "wildlife",
+            "wild animals"
+          ]
+        },
+        {
+          "videoId": "t-JD-Ofhpw4",
+          "videoTitle": "Đỉnh Cao Săn Mồi: Tốc Độ Có Quyết Định Kẻ Chiến Thắng? | POW - Thế Giới Động Vật",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-20T10:00:35.000Z",
+          "videoDuration": 7693,
+          "channelId": "UCxCoy51SzKKmqRU6B1nNBug",
+          "channelTitle": "POW – Thế Giới Động Vật",
+          "channelCountry": "VN",
+          "subscriberCount": 38600,
+          "viewCount": 178013,
+          "likeCount": 1964,
+          "commentCount": 85,
+          "engagementRate": 0.012,
+          "vph": 1325.6522278763807,
+          "videoTags": [
+            "động vật",
+            "thế giới động vật",
+            "thế giới động vật thuyết minh",
+            "động vật thuyết minh",
+            "sinh tồn",
+            "sinh tồn nơi hoang dã",
+            "khám phá thế giới",
+            "động vật hoang dã",
+            "wildlife",
+            "wild animals"
+          ]
+        },
+        {
+          "videoId": "GhIolSWoxz0",
+          "videoTitle": "Ong Bắp Cày Tấn Công Trâu: Mối Nguy Hiểm Khi Chúng Bảo Vệ Tổ | Phim Tài Liệu Động Vật Hoang Dã",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-21T11:30:27.000Z",
+          "videoDuration": 562,
+          "channelId": "UCGKcnonwKV7w8fpDBfa_EVg",
+          "channelTitle": "Jimi Channel",
+          "channelCountry": "VN",
+          "subscriberCount": 299000,
+          "viewCount": 141159,
+          "likeCount": 272,
+          "commentCount": 3,
+          "engagementRate": 0.002,
+          "vph": 1308.6433868974043,
+          "videoTags": [
+            "hornets",
+            "hornet documentary",
+            "hornet behavior",
+            "hornet nest defense",
+            "hornet attack",
+            "hornets attack buffalo",
+            "buffalo and hornets",
+            "buffalo encounter",
+            "hornet swarm",
+            "hornet stings",
+            "hornet safety",
+            "avoiding hornet nests",
+            "buffalo behavior",
+            "wildlife encounter",
+            "animal behavior",
+            "forest wildlife",
+            "wildlife documentary",
+            "animal documentary",
+            "nature documentary"
+          ]
+        },
+        {
+          "videoId": "nvLDm34VPWQ",
+          "videoTitle": "Chuyện Lạ Châu Phi: Khi Kẻ Săn Mồi Chọn Nhầm Đối Thủ | POW - Thế Giới Động Vật",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-22T10:00:29.000Z",
+          "videoDuration": 7722,
+          "channelId": "UCxCoy51SzKKmqRU6B1nNBug",
+          "channelTitle": "POW – Thế Giới Động Vật",
+          "channelCountry": "VN",
+          "subscriberCount": 38700,
+          "viewCount": 97283,
+          "likeCount": 1088,
+          "commentCount": 39,
+          "engagementRate": 0.012,
+          "vph": 1049.0618260244428,
+          "videoTags": [
+            "động vật",
+            "thế giới động vật",
+            "thế giới động vật thuyết minh",
+            "động vật thuyết minh",
+            "sinh tồn",
+            "sinh tồn nơi hoang dã",
+            "khám phá thế giới",
+            "động vật hoang dã",
+            "wildlife",
+            "wild animals"
+          ]
+        },
+        {
+          "videoId": "NtdQ8uPTESQ",
+          "videoTitle": "LỘI NƯỚC SĂN CÁ RÔ GIÀ! Khám Phá “Bãi Cá Bí Ẩn” Khu Cỏ Hoang Mùa Lũ | Hunting Giant Climbing Perch",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-21T11:25:13.000Z",
+          "videoDuration": 1253,
+          "channelId": "UC1BA545tvtHggHAttYfuEFg",
+          "channelTitle": "Trúc Phương Vlog",
+          "channelCountry": "VN",
+          "subscriberCount": 395000,
+          "viewCount": 66273,
+          "likeCount": 838,
+          "commentCount": 138,
+          "engagementRate": 0.015,
+          "vph": 639.7007722007722,
+          "videoTags": [
+            "lội nước săn cá rô",
+            "săn cá rô già",
+            "cá rô đồng",
+            "bắt cá rô mùa nước lũ",
+            "cá rô khủng",
+            "săn cá ở khu cỏ hoang",
+            "mùa nước lũ miền Tây",
+            "cô gái miền Tây",
+            "câu cá rô đồng",
+            "bắt cá tự nhiên",
+            "cuộc sống miền Tây",
+            "hunting giant climbing perch",
+            "climbing perch fishing",
+            "giant climbing perch",
+            "catching climbing perch",
+            "flood season fishing",
+            "wild fishing Vietnam",
+            "Vietnam countryside",
+            "rural life Vietnam",
+            "truc phuong vlog moi",
+            "truc phuong vlog"
+          ]
+        },
+        {
+          "videoId": "X1_CO_p49Kw",
+          "videoTitle": "Con rắn lớn nhất ở ao hoang lâu năm #hcmt",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-25T12:39:05.000Z",
+          "videoDuration": 1622,
+          "channelId": "UCpxvC7FqYr0ibKdVUfpzXIg",
+          "channelTitle": "Hiển cá miền tây",
+          "channelCountry": "VN",
+          "subscriberCount": 46300,
+          "viewCount": 10766,
+          "likeCount": 126,
+          "commentCount": 12,
+          "engagementRate": 0.013,
+          "vph": 580.8992805755395,
+          "videoTags": [
+            "Hiển cá miền tây",
+            "câu cá lóc bằng vịt",
+            "câu cá",
+            "câu lure",
+            "trải nghiệm Sinh tồn",
+            "săn bắt",
+            "bẫy rắn",
+            "bẫy chuột cống nhum",
+            "HCMT"
+          ]
+        }
+      ],
+      "_credits": {
+        "used": 5
+      }
+    },
+    "trend_wildlife_control": {
+      "videos": [
+        {
+          "videoId": "7_zYmrc8Uqs",
+          "videoTitle": "Kẻ Săn Mồi Và Con Mồi: Cuộc Chiến Sinh Tồn Từ Rừng Rậm Đến Thảo Nguyên | POW - Thế Giới Động Vật",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-24T10:00:24.000Z",
+          "videoDuration": 7523,
+          "channelId": "UCxCoy51SzKKmqRU6B1nNBug",
+          "channelTitle": "POW – Thế Giới Động Vật",
+          "channelCountry": "VN",
+          "subscriberCount": 38900,
+          "viewCount": 135280,
+          "likeCount": 1413,
+          "commentCount": 36,
+          "engagementRate": 0.011,
+          "vph": 3149.7089639115247,
+          "videoTags": [
+            "động vật",
+            "thế giới động vật",
+            "thế giới động vật thuyết minh",
+            "động vật thuyết minh",
+            "sinh tồn",
+            "sinh tồn nơi hoang dã",
+            "khám phá thế giới",
+            "động vật hoang dã",
+            "wildlife",
+            "wild animals"
+          ]
+        },
+        {
+          "videoId": "TPtBurjjzjY",
+          "videoTitle": "Nữ streamer NGƯỢC ĐÃI ĐỘNG VẬT này là một đứa TIỂU NHÂN... (Lavlune/FoidElf)",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-24T12:50:00.000Z",
+          "videoDuration": 669,
+          "channelId": "UC55-m0jFLno_PXYUrJVR5NA",
+          "channelTitle": "leetgh",
+          "channelCountry": "VN",
+          "subscriberCount": 73000,
+          "viewCount": 65600,
+          "likeCount": 1112,
+          "commentCount": 118,
+          "engagementRate": 0.019,
+          "vph": 1648.9317134478426,
+          "videoTags": [
+            "commentary",
+            "leetgh",
+            "drama",
+            "acn",
+            "tiktok",
+            "gọi là tròn",
+            "quốc kang",
+            "lucas ai",
+            "notezenchung",
+            "dosewichte",
+            "skadi106",
+            "forsaken",
+            "minhsoora",
+            "xuân ngọc",
+            "xuân ngọc thợ đục",
+            "xuân ngọc ragebait",
+            "mr peak vn",
+            "stupiduck",
+            "mr peak",
+            "soopi",
+            "himass",
+            "tanvuu",
+            "nguyễn đức anh",
+            "xuan ngoc",
+            "penguinz0",
+            "responding to the weird lady",
+            "lavlune",
+            "foidelf",
+            "moist critical",
+            "moistcr1tikal"
+          ]
+        },
+        {
+          "videoId": "t-JD-Ofhpw4",
+          "videoTitle": "Đỉnh Cao Săn Mồi: Tốc Độ Có Quyết Định Kẻ Chiến Thắng? | POW - Thế Giới Động Vật",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-20T10:00:35.000Z",
+          "videoDuration": 7693,
+          "channelId": "UCxCoy51SzKKmqRU6B1nNBug",
+          "channelTitle": "POW – Thế Giới Động Vật",
+          "channelCountry": "VN",
+          "subscriberCount": 38600,
+          "viewCount": 178013,
+          "likeCount": 1964,
+          "commentCount": 85,
+          "engagementRate": 0.012,
+          "vph": 1325.6522278763807,
+          "videoTags": [
+            "động vật",
+            "thế giới động vật",
+            "thế giới động vật thuyết minh",
+            "động vật thuyết minh",
+            "sinh tồn",
+            "sinh tồn nơi hoang dã",
+            "khám phá thế giới",
+            "động vật hoang dã",
+            "wildlife",
+            "wild animals"
+          ]
+        },
+        {
+          "videoId": "GhIolSWoxz0",
+          "videoTitle": "Ong Bắp Cày Tấn Công Trâu: Mối Nguy Hiểm Khi Chúng Bảo Vệ Tổ | Phim Tài Liệu Động Vật Hoang Dã",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-21T11:30:27.000Z",
+          "videoDuration": 562,
+          "channelId": "UCGKcnonwKV7w8fpDBfa_EVg",
+          "channelTitle": "Jimi Channel",
+          "channelCountry": "VN",
+          "subscriberCount": 299000,
+          "viewCount": 141159,
+          "likeCount": 272,
+          "commentCount": 3,
+          "engagementRate": 0.002,
+          "vph": 1308.6433868974043,
+          "videoTags": [
+            "hornets",
+            "hornet documentary",
+            "hornet behavior",
+            "hornet nest defense",
+            "hornet attack",
+            "hornets attack buffalo",
+            "buffalo and hornets",
+            "buffalo encounter",
+            "hornet swarm",
+            "hornet stings",
+            "hornet safety",
+            "avoiding hornet nests",
+            "buffalo behavior",
+            "wildlife encounter",
+            "animal behavior",
+            "forest wildlife",
+            "wildlife documentary",
+            "animal documentary",
+            "nature documentary"
+          ]
+        },
+        {
+          "videoId": "g3I2GI9KY4E",
+          "videoTitle": "PETA ĐÒI NGOẠI HẠNG ANH BỎ LINH VẬT VÌ “NGƯỢC ĐẠI ĐỘNG VẬT” | LẠI THÊM TRÒ HỀ CỦA PETA ĐÀO LỬA",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-22T12:00:34.000Z",
+          "videoDuration": 707,
+          "channelId": "UCL22Q1lRBm3v6FaZzjz4U4g",
+          "channelTitle": "KHỐI CÊ",
+          "channelCountry": "VN",
+          "subscriberCount": 87200,
+          "viewCount": 102804,
+          "likeCount": 892,
+          "commentCount": 145,
+          "engagementRate": 0.01,
+          "vph": 1249.1373025516405,
+          "videoTags": [
+            "khối cê",
+            "củ đậu story",
+            "lịch sử",
+            "địa lý",
+            "văn học",
+            "bí ẩn",
+            "bí mật",
+            "những điều bạn chưa biết",
+            "discovery",
+            "khám phá",
+            "tiết sử khối cê",
+            "góc nhìn khối cê",
+            "quan điểm khối cê",
+            "củ đậu qua lăng kính khối cê",
+            "những điều chưa biết cùng khối cê",
+            "khối cê biết tuốt",
+            "x-factor",
+            "nhân vật bí ẩn",
+            "Q&A",
+            "hỏi đáp cùng khối cê",
+            "góc nhìn phương tây",
+            "peta",
+            "peta đòi bỏ linh vật chim",
+            "peta bảo vệ động vật",
+            "peta lại đào lửa"
+          ]
+        },
+        {
+          "videoId": "nvLDm34VPWQ",
+          "videoTitle": "Chuyện Lạ Châu Phi: Khi Kẻ Săn Mồi Chọn Nhầm Đối Thủ | POW - Thế Giới Động Vật",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-22T10:00:29.000Z",
+          "videoDuration": 7722,
+          "channelId": "UCxCoy51SzKKmqRU6B1nNBug",
+          "channelTitle": "POW – Thế Giới Động Vật",
+          "channelCountry": "VN",
+          "subscriberCount": 38700,
+          "viewCount": 97283,
+          "likeCount": 1088,
+          "commentCount": 39,
+          "engagementRate": 0.012,
+          "vph": 1049.0618260244428,
+          "videoTags": [
+            "động vật",
+            "thế giới động vật",
+            "thế giới động vật thuyết minh",
+            "động vật thuyết minh",
+            "sinh tồn",
+            "sinh tồn nơi hoang dã",
+            "khám phá thế giới",
+            "động vật hoang dã",
+            "wildlife",
+            "wild animals"
+          ]
+        },
+        {
+          "videoId": "oNxx9dM_dH0",
+          "videoTitle": "Phần 8 | Linh Căn Ngũ Hành Tu Tiên, Ta Có Không Gian Hắc Động Thôn Phệ Vạn Vật!",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-20T00:49:27.000Z",
+          "videoDuration": 8105,
+          "channelId": "UCoygEVORiacAS8QvzBzzMFA",
+          "channelTitle": "Tiểu Hồ Review ",
+          "channelCountry": "VN",
+          "subscriberCount": 252000,
+          "viewCount": 133947,
+          "likeCount": 1558,
+          "commentCount": 270,
+          "engagementRate": 0.014,
+          "vph": 942.9567053854275,
+          "videoTags": [
+            "hoathinhtrungquoc",
+            "trungsinh"
+          ]
+        },
+        {
+          "videoId": "HOmY2ent66c",
+          "videoTitle": "Khi Nào Thì Sư Tử Không Còn Là Kẻ Chiến Thắng Trên Thảo Nguyên Châu Phi | BBA – Thế Giới Động Vật",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-21T09:30:20.000Z",
+          "videoDuration": 7859,
+          "channelId": "UCDNdAtcpCLtn0isT7yvh2QQ",
+          "channelTitle": "BBA – Thế Giới Động Vật",
+          "channelCountry": "VN",
+          "subscriberCount": 12100,
+          "viewCount": 51397,
+          "likeCount": 1187,
+          "commentCount": 65,
+          "engagementRate": 0.024,
+          "vph": 454.9078035108423,
+          "videoTags": [
+            "phim tài liệu động vật",
+            "phim tài liệu thiên nhiên",
+            "động vật hoang dã",
+            "châu phi hoang dã",
+            "sinh tồn trong tự nhiên",
+            "hành vi động vật",
+            "chiến thuật săn mồi",
+            "kẻ săn mồi và con mồi",
+            "phục kích trong tự nhiên",
+            "cuộc săn trong tự nhiên",
+            "BBA - Thế Giới Động Vật"
+          ]
+        }
+      ],
+      "_credits": {
+        "used": 5
+      }
+    },
+    "trend_psychology_control": {
+      "videos": [
+        {
+          "videoId": "MneapkY6_CI",
+          "videoTitle": "Vụ nam sinh lớp 12 đánh cô giáo:Giải mã bất ổn tâm lý đẩy học sinh vượt lằn ranh đạo đức",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-25T06:46:21.000Z",
+          "videoDuration": 568,
+          "channelId": "UCPhPBJ3qE719TgLYVcNY8yg",
+          "channelTitle": "Tiền Phong TV",
+          "channelCountry": "VN",
+          "subscriberCount": 1150000,
+          "viewCount": 41432,
+          "likeCount": 122,
+          "commentCount": 33,
+          "engagementRate": 0.004,
+          "vph": 1698.032786885246,
+          "videoTags": [
+            "Báo tiền phong",
+            "kênh báo tiền phong",
+            "tiền phong tv",
+            "tiền phong",
+            "tptv",
+            "tin tức",
+            "tin mới nhất",
+            "tin tức mới nhất",
+            "tin tức thời sự",
+            "tin thời sự",
+            "thời sự hôm nay",
+            "tin mới",
+            "tin 24h",
+            "thời sự",
+            "vấn đề hôm nay",
+            "toàn cảnh tin tức",
+            "tin hót hôm nay",
+            "phân tích",
+            "phân tích tiền phong",
+            "bình luận sự kiện",
+            "bình luận phân tích",
+            "nam sinh",
+            "nam sinh đánh cô giáo",
+            "đấm cô giáo",
+            "vụ đấm cô giáo ở hà nội",
+            "thpt mạc đĩnh chi",
+            "nam sinh lớp 12",
+            "bất ổn tâm lí",
+            "tâm tí học sinh",
+            "vượt lằn ranh đạo đức"
+          ]
+        },
+        {
+          "videoId": "TNmR2ZFMqRY",
+          "videoTitle": "Severus Snape: Tình Yêu Vĩ Đại Hay Sự Ám Ảnh Bệnh Lý? | Giải Mã Tâm Lý Học Harry Potter",
+          "videoTitleLanguage": "vi",
+          "videoPublishedAt": "2026-10-22T03:58:25.000Z",
+          "videoDuration": 1448,
+          "channelId": "UCiM1Lt0SVGNHzRmdJQHMI7Q",
+          "channelTitle": "CBooks",
+          "channelCountry": "VN",
+          "subscriberCount": 6330,
+          "viewCount": 3315,
+          "likeCount": 33,
+          "commentCount": 5,
+          "engagementRate": 0.011,
+          "vph": 146.89807976366322,
+          "videoTags": [
+            "kể chuyện tiểu thuyết",
+            "tóm tắt tiểu thuyết",
+            "kể lại tiểu thuyết",
+            "review tiểu thuyết",
+            "phân tích tiểu thuyết",
+            "kể chuyện sách",
+            "sách nói",
+            "audiobook việt",
+            "truyện dài",
+            "tiểu thuyết hay",
+            "truyện kinh điển",
+            "văn học thế giới",
+            "văn học hiện đại",
+            "kể chuyện đêm khuya",
+            "nghe sách trước khi ngủ"
+          ]
+        }
+      ],
+      "_credits": {
+        "used": 5
+      }
+    },
+    "stats_7_zYmrc8Uqs": {
+      "videoId": "7_zYmrc8Uqs",
+      "data": [
+        {
+          "timestamp": "2026-10-24T10:01:29.877Z",
+          "views": 1,
+          "likes": 0,
+          "comments": 0,
+          "vph": 60
+        },
+        {
+          "timestamp": "2026-10-24T11:04:23.160Z",
+          "views": 1118,
+          "likes": 8,
+          "comments": 1,
+          "vph": 1080.9677419354837
+        },
+        {
+          "timestamp": "2026-10-24T12:18:22.735Z",
+          "views": 4061,
+          "likes": 21,
+          "comments": 2,
+          "vph": 2418.904109589041
+        },
+        {
+          "timestamp": "2026-10-24T13:29:24.793Z",
+          "views": 8001,
+          "likes": 41,
+          "comments": 2,
+          "vph": 3329.5774647887324
+        },
+        {
+          "timestamp": "2026-10-24T14:33:43.185Z",
+          "views": 12090,
+          "likes": 50,
+          "comments": 2,
+          "vph": 3833.4375
+        },
+        {
+          "timestamp": "2026-10-24T15:39:00.988Z",
+          "views": 16651,
+          "likes": 57,
+          "comments": 2,
+          "vph": 4210.153846153847
+        },
+        {
+          "timestamp": "2026-10-24T16:45:33.130Z",
+          "views": 19869,
+          "likes": 59,
+          "comments": 2,
+          "vph": 2925.454545454545
+        },
+        {
+          "timestamp": "2026-10-24T18:25:10.600Z",
+          "views": 22592,
+          "likes": 64,
+          "comments": 2,
+          "vph": 1650.3030303030305
+        },
+        {
+          "timestamp": "2026-10-24T20:29:09.755Z",
+          "views": 24341,
+          "likes": 69,
+          "comments": 2,
+          "vph": 853.1707317073171
+        },
+        {
+          "timestamp": "2026-10-24T22:21:05.899Z",
+          "views": 25178,
+          "likes": 72,
+          "comments": 2,
+          "vph": 452.4324324324324
+        },
+        {
+          "timestamp": "2026-10-24T23:43:25.816Z",
+          "views": 25815,
+          "likes": 75,
+          "comments": 2,
+          "vph": 466.0975609756097
+        },
+        {
+          "timestamp": "2026-10-25T00:59:12.955Z",
+          "views": 26564,
+          "likes": 77,
+          "comments": 2,
+          "vph": 599.2
+        },
+        {
+          "timestamp": "2026-10-25T02:02:15.369Z",
+          "views": 27491,
+          "likes": 80,
+          "comments": 2,
+          "vph": 882.8571428571428
+        },
+        {
+          "timestamp": "2026-10-25T03:39:36.985Z",
+          "views": 29205,
+          "likes": 86,
+          "comments": 2,
+          "vph": 1118
+        },
+        {
+          "timestamp": "2026-10-25T04:54:11.991Z",
+          "views": 30960,
+          "likes": 92,
+          "comments": 2,
+          "vph": 1422.972972972973
+        },
+        {
+          "timestamp": "2026-10-25T06:00:46.727Z",
+          "views": 32769,
+          "likes": 96,
+          "comments": 2,
+          "vph": 1644.5454545454545
+        },
+        {
+          "timestamp": "2026-10-25T07:02:10.297Z",
+          "views": 34551,
+          "likes": 100,
+          "comments": 2,
+          "vph": 1752.7868852459017
+        },
+        {
+          "timestamp": "2026-10-25T08:04:15.050Z",
+          "views": 36148,
+          "likes": 359,
+          "comments": 35,
+          "vph": 1545.4838709677417
+        },
+        {
+          "timestamp": "2026-10-25T09:06:02.968Z",
+          "views": 38069,
+          "likes": 627,
+          "comments": 35,
+          "vph": 1889.5081967213116
+        },
+        {
+          "timestamp": "2026-10-25T10:09:33.874Z",
+          "views": 44630,
+          "likes": 881,
+          "comments": 36,
+          "vph": 6248.571428571428
+        },
+        {
+          "timestamp": "2026-10-25T11:10:18.917Z",
+          "views": 53187,
+          "likes": 1149,
+          "comments": 36,
+          "vph": 8557
+        },
+        {
+          "timestamp": "2026-10-25T12:11:05.936Z",
+          "views": 63660,
+          "likes": 1162,
+          "comments": 36,
+          "vph": 10473
+        },
+        {
+          "timestamp": "2026-10-25T13:12:07.614Z",
+          "views": 77303,
+          "likes": 1354,
+          "comments": 36,
+          "vph": 13419.344262295082
+        },
+        {
+          "timestamp": "2026-10-25T14:12:08.419Z",
+          "views": 89317,
+          "likes": 1368,
+          "comments": 36,
+          "vph": 12014
+        },
+        {
+          "timestamp": "2026-10-25T15:13:09.554Z",
+          "views": 99139,
+          "likes": 1377,
+          "comments": 36,
+          "vph": 9660.983606557378
+        },
+        {
+          "timestamp": "2026-10-25T16:28:41.862Z",
+          "views": 109352,
+          "likes": 1384,
+          "comments": 36,
+          "vph": 8170.4
+        }
+      ],
+      "_credits": {
+        "used": 5
+      }
+    },
+    "stats_GhIolSWoxz0": {
+      "videoId": "GhIolSWoxz0",
+      "data": [
+        {
+          "timestamp": "2026-10-23T01:05:08.704Z",
+          "views": 38569,
+          "likes": 103,
+          "comments": 0,
+          "vph": 1026.6814551907719
+        },
+        {
+          "timestamp": "2026-10-23T02:14:11.680Z",
+          "views": 39526,
+          "likes": 108,
+          "comments": 0,
+          "vph": 832.1739130434784
+        },
+        {
+          "timestamp": "2026-10-23T03:42:55.215Z",
+          "views": 41297,
+          "likes": 109,
+          "comments": 0,
+          "vph": 1166.7567567567567
+        },
+        {
+          "timestamp": "2026-10-23T04:53:31.769Z",
+          "views": 42958,
+          "likes": 118,
+          "comments": 1,
+          "vph": 1423.7142857142856
+        },
+        {
+          "timestamp": "2026-10-23T06:10:31.790Z",
+          "views": 45857,
+          "likes": 120,
+          "comments": 1,
+          "vph": 2258.961038961039
+        },
+        {
+          "timestamp": "2026-10-23T07:11:24.037Z",
+          "views": 47920,
+          "likes": 122,
+          "comments": 1,
+          "vph": 2063
+        },
+        {
+          "timestamp": "2026-10-23T08:20:25.103Z",
+          "views": 50717,
+          "likes": 126,
+          "comments": 2,
+          "vph": 2432.1739130434785
+        },
+        {
+          "timestamp": "2026-10-23T09:23:04.406Z",
+          "views": 53064,
+          "likes": 127,
+          "comments": 2,
+          "vph": 2271.290322580645
+        },
+        {
+          "timestamp": "2026-10-23T10:28:46.970Z",
+          "views": 55176,
+          "likes": 128,
+          "comments": 2,
+          "vph": 1949.5384615384617
+        },
+        {
+          "timestamp": "2026-10-23T11:50:29.245Z",
+          "views": 58442,
+          "likes": 140,
+          "comments": 2,
+          "vph": 2419.259259259259
+        },
+        {
+          "timestamp": "2026-10-23T13:14:20.283Z",
+          "views": 61477,
+          "likes": 146,
+          "comments": 2,
+          "vph": 2193.975903614458
+        },
+        {
+          "timestamp": "2026-10-23T14:20:41.737Z",
+          "views": 64816,
+          "likes": 152,
+          "comments": 2,
+          "vph": 3035.454545454545
+        },
+        {
+          "timestamp": "2026-10-23T15:56:19.792Z",
+          "views": 70336,
+          "likes": 158,
+          "comments": 2,
+          "vph": 3486.315789473684
+        },
+        {
+          "timestamp": "2026-10-23T17:21:16.853Z",
+          "views": 73130,
+          "likes": 160,
+          "comments": 2,
+          "vph": 1995.7142857142858
+        },
+        {
+          "timestamp": "2026-10-23T21:09:00.708Z",
+          "views": 76846,
+          "likes": 162,
+          "comments": 2,
+          "vph": 982.2026431718062
+        },
+        {
+          "timestamp": "2026-10-23T22:16:35.340Z",
+          "views": 77214,
+          "likes": 162,
+          "comments": 2,
+          "vph": 329.55223880597015
+        },
+        {
+          "timestamp": "2026-10-23T23:34:52.471Z",
+          "views": 77213,
+          "likes": 165,
+          "comments": 2,
+          "vph": null
+        },
+        {
+          "timestamp": "2026-10-24T00:40:55.023Z",
+          "views": 77788,
+          "likes": 166,
+          "comments": 2,
+          "vph": 522.7272727272726
+        },
+        {
+          "timestamp": "2026-10-24T02:12:02.896Z",
+          "views": 78896,
+          "likes": 169,
+          "comments": 2,
+          "vph": 730.5494505494506
+        },
+        {
+          "timestamp": "2026-10-24T04:47:03.155Z",
+          "views": 82239,
+          "likes": 175,
+          "comments": 2,
+          "vph": 1492.1052631578948
+        },
+        {
+          "timestamp": "2026-10-24T05:51:05.675Z",
+          "views": 84383,
+          "likes": 181,
+          "comments": 2,
+          "vph": 2010
+        },
+        {
+          "timestamp": "2026-10-24T07:20:46.010Z",
+          "views": 87136,
+          "likes": 186,
+          "comments": 2,
+          "vph": 1855.9550561797753
+        },
+        {
+          "timestamp": "2026-10-24T08:27:17.516Z",
+          "views": 89572,
+          "likes": 189,
+          "comments": 3,
+          "vph": 2214.5454545454545
+        },
+        {
+          "timestamp": "2026-10-24T09:27:58.071Z",
+          "views": 92232,
+          "likes": 191,
+          "comments": 3,
+          "vph": 2660
+        },
+        {
+          "timestamp": "2026-10-24T10:32:19.176Z",
+          "views": 94581,
+          "likes": 193,
+          "comments": 3,
+          "vph": 2202.1875
+        },
+        {
+          "timestamp": "2026-10-24T11:56:35.547Z",
+          "views": 96893,
+          "likes": 202,
+          "comments": 3,
+          "vph": 1651.4285714285716
+        },
+        {
+          "timestamp": "2026-10-24T12:57:39.796Z",
+          "views": 99095,
+          "likes": 207,
+          "comments": 3,
+          "vph": 2165.9016393442625
+        },
+        {
+          "timestamp": "2026-10-24T14:07:30.329Z",
+          "views": 101880,
+          "likes": 210,
+          "comments": 3,
+          "vph": 2421.739130434783
+        },
+        {
+          "timestamp": "2026-10-24T16:57:51.852Z",
+          "views": 110675,
+          "likes": 222,
+          "comments": 3,
+          "vph": 3104.1176470588234
+        },
+        {
+          "timestamp": "2026-10-25T00:32:37.765Z",
+          "views": 115460,
+          "likes": 227,
+          "comments": 3,
+          "vph": 632.3788546255507
+        },
+        {
+          "timestamp": "2026-10-25T01:34:41.880Z",
+          "views": 115930,
+          "likes": 228,
+          "comments": 3,
+          "vph": 454.83870967741933
+        },
+        {
+          "timestamp": "2026-10-25T02:39:43.121Z",
+          "views": 116630,
+          "likes": 229,
+          "comments": 2,
+          "vph": 646.1538461538462
+        },
+        {
+          "timestamp": "2026-10-25T03:53:15.982Z",
+          "views": 117549,
+          "likes": 234,
+          "comments": 2,
+          "vph": 755.3424657534247
+        },
+        {
+          "timestamp": "2026-10-25T04:30:49.428Z",
+          "views": 117987,
+          "likes": 234,
+          "comments": 2,
+          "vph": 710.2702702702702
+        },
+        {
+          "timestamp": "2026-10-25T06:23:18.603Z",
+          "views": 120412,
+          "likes": 238,
+          "comments": 3,
+          "vph": 1299.107142857143
+        },
+        {
+          "timestamp": "2026-10-25T07:27:32.873Z",
+          "views": 121911,
+          "likes": 241,
+          "comments": 3,
+          "vph": 1405.3125
+        },
+        {
+          "timestamp": "2026-10-25T09:19:20.070Z",
+          "views": 124206,
+          "likes": 245,
+          "comments": 3,
+          "vph": 1240.5405405405404
+        },
+        {
+          "timestamp": "2026-10-25T10:41:09.357Z",
+          "views": 126066,
+          "likes": 249,
+          "comments": 3,
+          "vph": 1377.7777777777776
+        },
+        {
+          "timestamp": "2026-10-25T11:58:47.207Z",
+          "views": 127870,
+          "likes": 251,
+          "comments": 3,
+          "vph": 1405.7142857142856
+        },
+        {
+          "timestamp": "2026-10-25T13:02:38.964Z",
+          "views": 129666,
+          "likes": 251,
+          "comments": 3,
+          "vph": 1710.4761904761904
+        },
+        {
+          "timestamp": "2026-10-25T14:13:43.601Z",
+          "views": 131966,
+          "likes": 259,
+          "comments": 3,
+          "vph": 1943.661971830986
+        },
+        {
+          "timestamp": "2026-10-25T15:13:46.839Z",
+          "views": 133610,
+          "likes": 264,
+          "comments": 3,
+          "vph": 1644
+        },
+        {
+          "timestamp": "2026-10-25T16:15:27.831Z",
+          "views": 135650,
+          "likes": 268,
+          "comments": 3,
+          "vph": 2006.5573770491803
+        }
+      ],
+      "_credits": {
+        "used": 5
+      }
+    },
+    "stats_HOmY2ent66c": {
+      "videoId": "HOmY2ent66c",
+      "data": [
+        {
+          "timestamp": "2026-10-22T17:05:42.542Z",
+          "views": 1516,
+          "likes": 1050,
+          "comments": 65,
+          "vph": 48
+        },
+        {
+          "timestamp": "2026-10-23T01:13:18.899Z",
+          "views": 1553,
+          "likes": 1050,
+          "comments": 65,
+          "vph": 4.558521560574948
+        },
+        {
+          "timestamp": "2026-10-23T02:14:25.780Z",
+          "views": 1554,
+          "likes": 1050,
+          "comments": 65,
+          "vph": 0.9836065573770493
+        },
+        {
+          "timestamp": "2026-10-23T04:51:22.007Z",
+          "views": 1574,
+          "likes": 1050,
+          "comments": 66,
+          "vph": 7.692307692307692
+        },
+        {
+          "timestamp": "2026-10-23T07:30:17.409Z",
+          "views": 1578,
+          "likes": 1050,
+          "comments": 66,
+          "vph": 1.518987341772152
+        },
+        {
+          "timestamp": "2026-10-23T09:56:59.880Z",
+          "views": 1606,
+          "likes": 1051,
+          "comments": 60,
+          "vph": 11.506849315068495
+        },
+        {
+          "timestamp": "2026-10-23T13:26:05.095Z",
+          "views": 1684,
+          "likes": 1051,
+          "comments": 52,
+          "vph": 22.392344497607656
+        },
+        {
+          "timestamp": "2026-10-23T15:02:22.187Z",
+          "views": 1709,
+          "likes": 1052,
+          "comments": 52,
+          "vph": 15.625
+        },
+        {
+          "timestamp": "2026-10-24T01:35:35.503Z",
+          "views": 1797,
+          "likes": 1052,
+          "comments": 52,
+          "vph": 8.34123222748815
+        },
+        {
+          "timestamp": "2026-10-24T03:34:49.214Z",
+          "views": 1831,
+          "likes": 1052,
+          "comments": 52,
+          "vph": 17.28813559322034
+        },
+        {
+          "timestamp": "2026-10-24T07:36:38.617Z",
+          "views": 1900,
+          "likes": 1052,
+          "comments": 52,
+          "vph": 17.178423236514522
+        },
+        {
+          "timestamp": "2026-10-24T09:18:21.436Z",
+          "views": 1924,
+          "likes": 1052,
+          "comments": 52,
+          "vph": 14.257425742574258
+        },
+        {
+          "timestamp": "2026-10-24T10:24:05.301Z",
+          "views": 1991,
+          "likes": 1054,
+          "comments": 52,
+          "vph": 61.846153846153854
+        },
+        {
+          "timestamp": "2026-10-24T11:25:20.332Z",
+          "views": 1997,
+          "likes": 1054,
+          "comments": 52,
+          "vph": 5.901639344262295
+        },
+        {
+          "timestamp": "2026-10-24T13:26:51.033Z",
+          "views": 3038,
+          "likes": 1060,
+          "comments": 52,
+          "vph": 516.198347107438
+        },
+        {
+          "timestamp": "2026-10-24T14:31:05.644Z",
+          "views": 4086,
+          "likes": 1067,
+          "comments": 52,
+          "vph": 982.5
+        },
+        {
+          "timestamp": "2026-10-24T15:42:45.602Z",
+          "views": 6130,
+          "likes": 1073,
+          "comments": 62,
+          "vph": 1727.3239436619717
+        },
+        {
+          "timestamp": "2026-10-24T18:37:51.688Z",
+          "views": 9352,
+          "likes": 1073,
+          "comments": 62,
+          "vph": 1104.6857142857143
+        },
+        {
+          "timestamp": "2026-10-25T01:11:34.666Z",
+          "views": 10898,
+          "likes": 1079,
+          "comments": 62,
+          "vph": 236.03053435114504
+        },
+        {
+          "timestamp": "2026-10-25T02:13:33.465Z",
+          "views": 11315,
+          "likes": 1080,
+          "comments": 62,
+          "vph": 410.16393442622956
+        },
+        {
+          "timestamp": "2026-10-25T03:20:00.443Z",
+          "views": 11933,
+          "likes": 1086,
+          "comments": 62,
+          "vph": 561.8181818181818
+        },
+        {
+          "timestamp": "2026-10-25T04:47:04.779Z",
+          "views": 13440,
+          "likes": 1091,
+          "comments": 62,
+          "vph": 1039.3103448275863
+        },
+        {
+          "timestamp": "2026-10-25T06:14:46.086Z",
+          "views": 15646,
+          "likes": 1097,
+          "comments": 62,
+          "vph": 1521.3793103448277
+        },
+        {
+          "timestamp": "2026-10-25T07:24:54.815Z",
+          "views": 17836,
+          "likes": 1107,
+          "comments": 62,
+          "vph": 1877.142857142857
+        },
+        {
+          "timestamp": "2026-10-25T09:08:38.573Z",
+          "views": 21549,
+          "likes": 1118,
+          "comments": 64,
+          "vph": 2162.9126213592235
+        },
+        {
+          "timestamp": "2026-10-25T10:33:16.156Z",
+          "views": 25785,
+          "likes": 1131,
+          "comments": 64,
+          "vph": 3025.714285714286
+        },
+        {
+          "timestamp": "2026-10-25T12:18:40.003Z",
+          "views": 30021,
+          "likes": 1146,
+          "comments": 64,
+          "vph": 2420.5714285714284
+        },
+        {
+          "timestamp": "2026-10-25T13:41:04.139Z",
+          "views": 33830,
+          "likes": 1156,
+          "comments": 64,
+          "vph": 2787.0731707317073
+        },
+        {
+          "timestamp": "2026-10-25T14:56:22.841Z",
+          "views": 39086,
+          "likes": 1161,
+          "comments": 64,
+          "vph": 4204.8
+        },
+        {
+          "timestamp": "2026-10-25T16:08:05.720Z",
+          "views": 43503,
+          "likes": 1166,
+          "comments": 64,
+          "vph": 3732.676056338028
+        }
+      ],
+      "_credits": {
+        "used": 5
+      }
+    }
+  }
+}

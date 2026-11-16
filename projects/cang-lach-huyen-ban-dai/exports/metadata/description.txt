@@ -1,0 +1,40 @@
+Suốt 150 năm là thành phố cảng lớn nhất miền Bắc, vì sao Hải Phòng từng không thể đón nổi một siêu tàu container đi thẳng sang Mỹ hay châu Âu?
+Từ Bến Sáu Kho năm 1874 đến đại cảng nước sâu Lạch Huyện 2026 trên đảo Cát Hải: video giải mã trọn vẹn bài toán địa lý kinh tế, thủy văn phù sa, cơ học đất và đột phá hạ tầng 48 km vượt ra biển lớn.
+
+🎯 PHƯƠNG ÁN TIÊU ĐỀ TEST & COMPARE TRÊN YOUTUBE STUDIO:
+• Chính (57 ký tự): 150 năm kẹt ở sông Cấm: Hải Phòng vượt biển 48km thế nào?
+• Phương án B (59 ký tự): Tại sao Hải Phòng phải vượt biển 48km thoát ghép tàu Singapore?
+• Phương án C (58 ký tự): Giải mã cảng Lạch Huyện: Cú nhảy vượt bẫy phù sa 150 năm
+
+📌 NGUỒN DỮ LIỆU THAM CHIẾU CHÍNH THỐNG (Người duyệt xác minh lần cuối trong artifacts/candidate_facts_sources.json):
+1. Quyết định 1579/QĐ-TTg — Quy hoạch tổng thể phát triển hệ thống cảng biển Việt Nam 2021–2030, tầm nhìn 2050:
+   https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165
+2. Thông số chuẩn tắc luồng Hải Phòng – Lạch Huyện (Cảng vụ Hàng hải Hải Phòng / QĐ 1995/QĐ-CHHĐTVN):
+   https://cangvuhaiphong.gov.vn/luong-lach-huyen/
+3. Thông số luồng Nam Triệu (Cảng vụ Hàng hải Hải Phòng):
+   https://cangvuhaiphong.gov.vn/luong-nam-trieu/
+4. Bến 3, 4 khu cảng Lạch Huyện tiếp nhận tàu đến 165.000 DWT giảm tải (Bộ Công Thương):
+   https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt
+5. Cổng thông tin Cảng Hải Phòng & Dự án Đường sắt khổ 1.435 mm Lào Cai – Hà Nội – Hải Phòng:
+   https://haiphongport.com.vn/ | https://haiphong.gov.vn/
+
+🛰️ BẢN QUYỀN HÌNH ẢNH, BẢN ĐỒ & ÂM THANH:
+• Ảnh vệ tinh nền: EOxCloudless Sentinel-2 cloudless mosaic 2024 (z6–z14) by EOX IT Services GmbH / Copernicus — CC BY 4.0 (https://cloudless.eox.at).
+• Đường bờ & hạ tầng: Natural Earth (Public Domain) & © OpenStreetMap contributors — ODbL (https://www.openstreetmap.org/copyright).
+• Ảnh tư liệu thực địa (Wikimedia Commons):
+  - Cảng Hải Phòng xưa (File:Cang_Hai_Phong.jpg) — Aero Mre Indochine / TUNMCHP, CC0 1.0.
+  - Bến cảng Chùa Vẽ (File:Chùa_Vẽ_Terminal,_Port_of_Hải_Phòng.JPG) — Phó Nháy, Public Domain.
+  - Bến cảng Tân Vũ (File:CANG_TAN_VU.jpg) — TUNMCHP, CC0 1.0.
+  - Sông Cấm Hải Phòng tháng 12/2023 (File:Sông_Cấm_Hải_Phòng_tháng_12_năm_2023f.jpg) — HP1992, CC BY-SA 4.0.
+  - Cầu vượt biển Tân Vũ – Lạch Huyện (File:Dinh_Vu_-_Cat_Hai_Bridge.jpg) — Thu Hà Nội, CC BY 3.0.
+  - Cẩu bờ Lạch Huyện nhìn từ Cái Viềng (File:Lach_Huyen_Port_from_Cai_Vieng_Port.jpg) — Marc Mongenet, CC BY-SA 4.0.
+  - Bến 3–4 HTIT Lạch Huyện (File:CANG_HTIT.jpg) — TUNMCHP, CC0 1.0.
+• Công bố nội dung tổng hợp (Altered/Synthetic Content Disclosure): Lời bình sử dụng giọng đọc AI tổng hợp (Vibi TTS — Haitrieu) cùng đồ họa bản đồ 3D mô phỏng từ ảnh vệ tinh và dữ liệu địa lý thực tế.
+
+#GiaiMaBanDo #CangLachHuyen #HaiPhong #DiaLyKinhTe #HaTangVietNam
+
+0:00 - Nghịch lý 150 năm & Bến Sáu Kho 1874
+1:58 - Cái bẫy ghép tàu Singapore & Phù sa -7,0 m
+4:04 - Vì sao không thể đào sông Cấm sâu 14 m
+5:12 - Cầu vượt biển 5,44 km & Đê chắn cát
+7:18 - 6 bến 4,7 triệu TEU & Đường sắt 1.435 mm

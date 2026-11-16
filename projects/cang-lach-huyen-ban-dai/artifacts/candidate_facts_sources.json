@@ -1,0 +1,71 @@
+{
+  "project_id": "cang-lach-huyen-ban-dai",
+  "status": "unverified",
+  "note": "Toàn bộ số liệu lưu ở trạng thái candidate ('unverified') theo quy tắc Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md, chờ người dùng mở văn bản gốc xác nhận lần cuối trước khi đăng công khai.",
+  "claims": [
+    {
+      "claim": "Cảng Hải Phòng khởi dựng năm 1874 bên bờ sông Cấm (khu Bến Sáu Kho / Hoàng Diệu), cách Phao số 0 ngoài biển khoảng 48 km, tối ưu cho tàu hơi nước thế kỷ XIX mớn nước chỉ 4–6 m và nối đường sắt Hải Phòng – Hà Nội – Vân Nam (1902).",
+      "source_url": "https://haiphongport.com.vn/",
+      "source_name": "Lịch sử Cảng Hải Phòng (Công ty CP Cảng Hải Phòng)",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Theo Thông báo hàng hải QĐ 1995/QĐ-CHHĐTVN, đoạn luồng Sông Cấm nội đô chỉ rộng 80 m và đạt độ sâu khoảng -7,0 m; trong khi cửa tự nhiên Nam Triệu bị phù sa bồi cạn có dải chỉ còn -0,5 m đến -3,7 m.",
+      "source_url": "https://cangvuhaiphong.gov.vn/luong-nam-trieu/",
+      "source_name": "Cảng vụ Hàng hải Hải Phòng",
+      "credibility": "primary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "hook"
+    },
+    {
+      "claim": "Nỗ lực xẻ bán đảo Đình Vũ mở kênh đào Hà Nam và nâng cấp xuống chuẩn tắc -8,5 m (bề rộng đáy luồng 80 m) giúp đón tàu tới khoảng 48.000 DWT giảm tải/chờ triều, nhưng vẫn bất lực trước siêu tàu mẹ tuyến xa cần mớn nước -13 m đến -16 m.",
+      "source_url": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/",
+      "source_name": "Cảng vụ Hàng hải Hải Phòng",
+      "credibility": "primary_source",
+      "surprise_factor": "counterintuitive",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Khi phải đi tàu gom hàng (feeder) vòng qua Singapore (~2.600 km) hoặc Hồng Kông để ghép lên tàu mẹ đi Mỹ/Âu, hàng xuất khẩu miền Bắc mất thêm 5–7 ngày chờ nối chuyến và đội chi phí bốc dỡ hai đầu (THC) tại cảng trung chuyển.",
+      "source_url": "https://logistics.gov.vn/",
+      "source_name": "Báo cáo Logistics Việt Nam - Bộ Công Thương",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Dự án đường ô tô Tân Vũ – Lạch Huyện thông xe năm 2017 có tổng chiều dài 15,63 km, trong đó phần cầu vượt biển qua cửa Nam Triệu dài 5,44 km sang đảo Cát Hải.",
+      "source_url": "https://mt.gov.vn/",
+      "source_name": "Bộ Giao thông Vận tải / Bộ Xây dựng",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Luồng hàng hải Lạch Huyện dài khoảng 20,66 km từ đảo Cát Hải ra Phao số 0 (rút ngắn 57% so với 48 km từ sông Cấm), rộng 160 m (gấp đôi luồng sông Cấm), độ sâu thiết kế -14,0 m (vùng nước trước bến mới đạt tới -16,0 m), được bảo vệ bởi đê chắn cát phía Tây Nam ngăn dòng phù sa cửa sông.",
+      "source_url": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/",
+      "source_name": "Cảng vụ Hàng hải Hải Phòng",
+      "credibility": "primary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Đến giai đoạn 2025–2026, khu bến Lạch Huyện đã vận hành đồng bộ 6 bến đầu tiên (Bến 1–2 HICT, Bến 3–4 HTIT 750 m, Bến 5–6 Hateco HHIT) với tổng chiều dài cầu bến khoảng 2,4 km, công suất thiết kế khoảng 4,7 triệu TEU/năm, đón tàu container tới 165.000–200.000 DWT giảm tải; tiếp nối bằng Bến 7–8 (900 m, ~1,9 triệu TEU/năm).",
+      "source_url": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt",
+      "source_name": "Cổng thông tin Logistics Bộ Công Thương & Bộ Xây dựng",
+      "credibility": "primary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "closing_punch"
+    },
+    {
+      "claim": "Theo Quyết định 1579/QĐ-TTg (và quy hoạch phát triển tiếp theo), Hải Phòng không chỉ mở rộng dải bến Lạch Huyện đến 2030 mà còn quy hoạch khu bến Nam Đồ Sơn kết hợp dự án đường sắt khổ tiêu chuẩn 1.435 mm Lào Cai – Hà Nội – Hải Phòng (tốc độ thiết kế tuyến chính 160 km/h, có nhánh nối thẳng Lạch Huyện & Nam Đồ Sơn).",
+      "source_url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165",
+      "source_name": "Quyết định 1579/QĐ-TTg của Thủ tướng Chính phủ",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "closing_punch"
+    }
+  ]
+}

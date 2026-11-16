@@ -1,0 +1,526 @@
+{
+  "version": "1.0",
+  "style_playbook": "clean-professional",
+  "scenes": [
+    {
+      "id": "scene_01",
+      "type": "diagram",
+      "description": "[Chương 1.1 — Hook: Nghịch lý 150 năm của thành phố cảng lớn nhất miền Bắc] Không ảnh 3D Biển Đông & Vịnh Bắc Bộ (53°, Hoàng Sa & Trường Sa tự nhiên), trục siêu tàu quốc tế đi Mỹ – Âu lướt ngoài khơi, nhánh đỏ rẽ vào Hải Phòng bị chặn lại.",
+      "start_seconds": 0.0,
+      "end_seconds": 25.6,
+      "script_section_id": "s01",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "introduce_subject",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s01",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Không ảnh 3D Biển Đông & Vịnh Bắc Bộ (53°, Hoàng Sa & Trường Sa tự nhiên), trục siêu tàu quốc tế đi Mỹ – Âu lướt ngoài khơi, nhánh đỏ rẽ vào Hải Phòng bị chặn lại.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_02",
+      "type": "animation",
+      "description": "[Chương 1.2 — Năm 1874: Vì sao người Pháp đặt Bến Sáu Kho sâu 48 km trong sông Cấm?] Bản đồ 3D miền Bắc & hành lang đường sắt Đông Dương 1902 nối Bến Sáu Kho (Sông Cấm) qua Hà Nội lên Lào Cai – Vân Nam, kèm ảnh tư liệu cảng Hải Phòng đầu thế kỷ XX.",
+      "start_seconds": 25.6,
+      "end_seconds": 62.79,
+      "script_section_id": "s02",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "establish_context",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s02",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Bản đồ 3D miền Bắc & hành lang đường sắt Đông Dương 1902 nối Bến Sáu Kho (Sông Cấm) qua Hà Nội lên Lào Cai – Vân Nam, kèm ảnh tư liệu cảng Hải Phòng đầu thế kỷ XX.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_03",
+      "type": "text_card",
+      "description": "[Chương 1.3 — Cú nhảy vọt kích cỡ tàu thế kỷ XXI biến dòng sông thành chiếc lồng] Sơ đồ so sánh tỷ lệ 1:1 ba thế hệ tàu: Tàu hơi nước 1874 (mớn 5 m) -> Tàu feeder 30.000 DWT -> Siêu tàu mẹ 200.000 DWT dài ~400 m đặt cạnh 4 sân bóng đá.",
+      "start_seconds": 62.79,
+      "end_seconds": 93.35,
+      "script_section_id": "s03",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "build_tension",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s03",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Sơ đồ so sánh tỷ lệ 1:1 ba thế hệ tàu: Tàu hơi nước 1874 (mớn 5 m) -> Tàu feeder 30.000 DWT -> Siêu tàu mẹ 200.000 DWT dài ~400 m đặt cạnh 4 sân bóng đá.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_04",
+      "type": "animation",
+      "description": "[Chương 1.4 — Cú bổ nhào 3D dọc hành lang 48,0 km từ Phao số 0 vào nội đô] Camera 3D góc 56° bổ nhào dọc hành lang 48,0 km từ Phao số 0 vào Chùa Vẽ – Sông Cấm với đồng hồ đếm lớn 48,0 km và ảnh thực địa bến Chùa Vẽ.",
+      "start_seconds": 93.35,
+      "end_seconds": 118.4,
+      "script_section_id": "s04",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "establish_context",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s04",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Camera 3D góc 56° bổ nhào dọc hành lang 48,0 km từ Phao số 0 vào Chùa Vẽ – Sông Cấm với đồng hồ đếm lớn 48,0 km và ảnh thực địa bến Chùa Vẽ.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_05",
+      "type": "diagram",
+      "description": "[Chương 2.1 — Cái giá của việc đi tàu gom hàng vòng qua Singapore & Hồng Kông] Bản đồ 3D Đông Nam Á (52°) với 4 vòng cung 3D nối Hải Phòng vòng xuống Singapore & Hồng Kông, bảng thiệt hại 2 CHẶNG BỐC DỠ và +5–7 NGÀY chờ nối chuyến.",
+      "start_seconds": 118.4,
+      "end_seconds": 152.32,
+      "script_section_id": "s05",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "build_tension",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s05",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Bản đồ 3D Đông Nam Á (52°) với 4 vòng cung 3D nối Hải Phòng vòng xuống Singapore & Hồng Kông, bảng thiệt hại 2 CHẶNG BỐC DỠ và +5–7 NGÀY chờ nối chuyến.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_06",
+      "type": "text_card",
+      "description": "[Chương 2.2 — Hồ sơ thủy văn QĐ 1995: Thủ phạm phù sa dưới mặt nước (-7,0 m)] Bản đồ 3D vùng bùn phù sa cửa Nam Triệu + Tờ hồ sơ giấy kem QĐ 1995/QĐ-CHHĐTVN phóng lớn giữa màn hình quét bút dạ vàng lên thông số rộng 80 m, sâu -7,0 m.",
+      "start_seconds": 152.32,
+      "end_seconds": 180.34,
+      "script_section_id": "s06",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "evidence",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s06",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Bản đồ 3D vùng bùn phù sa cửa Nam Triệu + Tờ hồ sơ giấy kem QĐ 1995/QĐ-CHHĐTVN phóng lớn giữa màn hình quét bút dạ vàng lên thông số rộng 80 m, sâu -7,0 m.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_07",
+      "type": "animation",
+      "description": "[Chương 2.3 — Hơn một thế kỷ vá lỗi: Từ nạo vét 1904 đến kênh đào Hà Nam (-8,5 m)] Bản đồ 3D cận cảnh bán đảo Đình Vũ & Kênh đào Hà Nam (z14 cực nét): tô sáng rãnh cắt xuyên bán đảo, thẻ thông số -8,5 m / đón tàu ~48.000 DWT vs ngưỡng cần -14,0 m.",
+      "start_seconds": 180.34,
+      "end_seconds": 212.82,
+      "script_section_id": "s07",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "build_tension",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s07",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Bản đồ 3D cận cảnh bán đảo Đình Vũ & Kênh đào Hà Nam (z14 cực nét): tô sáng rãnh cắt xuyên bán đảo, thẻ thông số -8,5 m / đón tàu ~48.000 DWT vs ngưỡng cần -14,0 m.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_08",
+      "type": "diagram",
+      "description": "[Chương 2.4 — Nút thắt trên không & hai bờ: Tĩnh không cầu nội đô và di dời cảng cũ] Sơ đồ mặt đứng 3D sông Cấm nội đô: tĩnh không cầu đường bộ bắc qua sông Cấm chặn tháp lái siêu tàu container + hai bờ đô thị Hải Phòng – Thủy Nguyên.",
+      "start_seconds": 212.82,
+      "end_seconds": 244.09,
+      "script_section_id": "s08",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "build_tension",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s08",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Sơ đồ mặt đứng 3D sông Cấm nội đô: tĩnh không cầu đường bộ bắc qua sông Cấm chặn tháp lái siêu tàu container + hai bờ đô thị Hải Phòng – Thủy Nguyên.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_09",
+      "type": "animation",
+      "description": "[Chương 3.1 — Sa bàn địa chất 3D: Đào sâu 14 m bằng tòa nhà 4 tầng sẽ làm sập hai bờ phố] Sa bàn 3D Isometric cắt dọc lòng sông Cấm 80 m: tòa nhà 4 tầng màu vàng đứng trong hố đào -14,0 m, mái dốc taluy đỏ ăn sâu vào chân kè gây vết nứt sạt trượt hai bờ đô thị.",
+      "start_seconds": 244.09,
+      "end_seconds": 275.15,
+      "script_section_id": "s09",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "evidence",
+      "hero_moment": true,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s09",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Sa bàn 3D Isometric cắt dọc lòng sông Cấm 80 m: tòa nhà 4 tầng màu vàng đứng trong hố đào -14,0 m, mái dốc taluy đỏ ăn sâu vào chân kè gây vết nứt sạt trượt hai bờ đô thị.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_10",
+      "type": "text_card",
+      "description": "[Chương 3.2 — Cái phễu hứng bùn vô đáy mỗi mùa mưa lũ & Quyết định bước ngoặt] Mô phỏng chu kỳ bồi lắng 4 mùa & biểu đồ chi phí duy tu vô tận trên rãnh sâu cửa sông -> chuyển thành mũi tên chiến lược phóng vọt qua cửa Nam Triệu ra đảo Cát Hải.",
+      "start_seconds": 275.15,
+      "end_seconds": 311.67,
+      "script_section_id": "s10",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "emotional_beat",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s10",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Mô phỏng chu kỳ bồi lắng 4 mùa & biểu đồ chi phí duy tu vô tận trên rãnh sâu cửa sông -> chuyển thành mũi tên chiến lược phóng vọt qua cửa Nam Triệu ra đảo Cát Hải.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_11",
+      "type": "broll",
+      "description": "[Chương 4.1 — Flycam 3D Cầu vượt biển Tân Vũ – Lạch Huyện 5,44 km sang đảo Cát Hải] Flycam 3D góc 56° dọc cầu nổi 18 trụ bê tông đổ bóng xuống cửa Nam Triệu sang đảo Cát Hải + Phóng to Ảnh Đinh #1 (Cầu vượt biển Tân Vũ – Lạch Huyện thực tế).",
+      "start_seconds": 311.67,
+      "end_seconds": 340.81,
+      "script_section_id": "s11",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "deliver_payload",
+      "hero_moment": true,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s11",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Flycam 3D góc 56° dọc cầu nổi 18 trụ bê tông đổ bóng xuống cửa Nam Triệu sang đảo Cát Hải + Phóng to Ảnh Đinh #1 (Cầu vượt biển Tân Vũ – Lạch Huyện thực tế).",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_12",
+      "type": "diagram",
+      "description": "[Chương 4.2 — Vũ khí bí mật ngoài khơi: Đê chắn cát Tây Nam & Đê chắn sóng Đông Bắc] Bản đồ 3D cận cảnh mũi Nam đảo Cát Hải (vệ tinh EOX 2024 z14): mô phỏng mũi tên bùn vàng cửa Nam Triệu bị tuyến Đê chắn cát chặn đứng và sóng biển bị Đê chắn sóng cản lại.",
+      "start_seconds": 340.81,
+      "end_seconds": 373.02,
+      "script_section_id": "s12",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "evidence",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s12",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Bản đồ 3D cận cảnh mũi Nam đảo Cát Hải (vệ tinh EOX 2024 z14): mô phỏng mũi tên bùn vàng cửa Nam Triệu bị tuyến Đê chắn cát chặn đứng và sóng biển bị Đê chắn sóng cản lại.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_13",
+      "type": "animation",
+      "description": "[Chương 4.3 — Trường đua tách đôi 1:1: Luồng cũ 48 km / 80 m đối đầu Luồng mới 20,66 km / 160 m] Màn hình tách đôi tỷ lệ 1:1: Làn trên luồng bùn 80 m tàu nhỏ bò chậm 48,0 km vs Làn dưới đại lộ biển 160 m (xếp 2,3 sân bóng đá) cho siêu tàu phóng thẳng 20,66 km.",
+      "start_seconds": 373.02,
+      "end_seconds": 404.97,
+      "script_section_id": "s13",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "comparison",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s13",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Màn hình tách đôi tỷ lệ 1:1: Làn trên luồng bùn 80 m tàu nhỏ bò chậm 48,0 km vs Làn dưới đại lộ biển 160 m (xếp 2,3 sân bóng đá) cho siêu tàu phóng thẳng 20,66 km.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_14",
+      "type": "diagram",
+      "description": "[Chương 4.4 — Hero Moment Mặt cắt đáy biển: Mắc cạn ở -7,0 m vs Tòa nhà 4 tầng ở -14,0 m / -16,0 m] Hero Moment mặt cắt thủy văn: Tàu lớn nghiêng mũi đâm chạm đáy -7,0 m phát sóng xung kích đỏ vs Siêu tàu 165.000 DWT dài ~366 m (3,5 sân bóng) nổi cạnh tòa nhà 4 tầng sáng đèn ở đáy -14,0 m / -16,0 m.",
+      "start_seconds": 404.97,
+      "end_seconds": 437.85,
+      "script_section_id": "s14",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "deliver_payload",
+      "hero_moment": true,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s14",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Hero Moment mặt cắt thủy văn: Tàu lớn nghiêng mũi đâm chạm đáy -7,0 m phát sóng xung kích đỏ vs Siêu tàu 165.000 DWT dài ~366 m (3,5 sân bóng) nổi cạnh tòa nhà 4 tầng sáng đèn ở đáy -14,0 m / -16,0 m.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_15",
+      "type": "broll",
+      "description": "[Chương 5.1 — Cú bứt tốc 2018–2026: 6 bến liên hoàn dài 2,4 km đạt 4,7 triệu TEU/năm] Bản đồ 3D Cát Hải bật sáng tuần tự 3 khối cảng nổi 3D: Bến 1–2 (HICT) -> Bến 3–4 (HTIT 750 m) -> Bến 5–6 (Hateco HHIT), tổng công suất 4,7 triệu TEU + Phóng to Ảnh Đinh #2 (Siêu tàu MSC cập bến Lạch Huyện).",
+      "start_seconds": 437.85,
+      "end_seconds": 472.99,
+      "script_section_id": "s15",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "resolution",
+      "hero_moment": true,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s15",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Bản đồ 3D Cát Hải bật sáng tuần tự 3 khối cảng nổi 3D: Bến 1–2 (HICT) -> Bến 3–4 (HTIT 750 m) -> Bến 5–6 (Hateco HHIT), tổng công suất 4,7 triệu TEU + Phóng to Ảnh Đinh #2 (Siêu tàu MSC cập bến Lạch Huyện).",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_16",
+      "type": "animation",
+      "description": "[Chương 5.2 — Tuyến hàng hải đi thẳng Mỹ & châu Âu: Bỏ qua khâu trung chuyển Singapore] Bản đồ 3D liên lục địa: các cung hàng hải xanh ngọc phóng thẳng một mạch từ Lạch Huyện sang bờ Tây/Đông Mỹ & châu Âu, gạch mờ tuyến vòng Singapore cũ.",
+      "start_seconds": 472.99,
+      "end_seconds": 500.85,
+      "script_section_id": "s16",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "resolution",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s16",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Bản đồ 3D liên lục địa: các cung hàng hải xanh ngọc phóng thẳng một mạch từ Lạch Huyện sang bờ Tây/Đông Mỹ & châu Âu, gạch mờ tuyến vòng Singapore cũ.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_17",
+      "type": "text_card",
+      "description": "[Chương 5.3 — Tầm nhìn QĐ 1579/QĐ-TTg: Mở tiếp Bến 7–8 và cực tăng trưởng mới Nam Đồ Sơn] Bản đồ 3D toàn dải ven biển Hải Phòng (Cát Hải + Nam Đồ Sơn) với khối nét đứt vàng Bến 7–8 & Nam Đồ Sơn + Tờ hồ sơ giấy kem QĐ 1579/QĐ-TTg quét bút dạ vàng.",
+      "start_seconds": 500.85,
+      "end_seconds": 532.4,
+      "script_section_id": "s17",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "evidence",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s17",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Bản đồ 3D toàn dải ven biển Hải Phòng (Cát Hải + Nam Đồ Sơn) với khối nét đứt vàng Bến 7–8 & Nam Đồ Sơn + Tờ hồ sơ giấy kem QĐ 1579/QĐ-TTg quét bút dạ vàng.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_18",
+      "type": "diagram",
+      "description": "[Chương 5.4 — Mảnh ghép sống còn cuối cùng: Đường sắt khổ 1.435 mm Lào Cai – Hà Nội – Hải Phòng] Bản đồ 3D hành lang kinh tế miền Bắc: tuyến đường sắt khổ 1.435 mm điện khí hóa (160 km/h) chạy từ Lào Cai – Hà Nội về ga Nam Hải Phòng và tách 2 nhánh nối thẳng Lạch Huyện & Nam Đồ Sơn.",
+      "start_seconds": 532.4,
+      "end_seconds": 562.13,
+      "script_section_id": "s18",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "resolution",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s18",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Bản đồ 3D hành lang kinh tế miền Bắc: tuyến đường sắt khổ 1.435 mm điện khí hóa (160 km/h) chạy từ Lào Cai – Hà Nội về ga Nam Hải Phòng và tách 2 nhánh nối thẳng Lạch Huyện & Nam Đồ Sơn.",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene_19",
+      "type": "animation",
+      "description": "[Chương 5.5 — Kết luận 150 năm & Bình chọn tập giải mã bản đồ tiếp theo] Không ảnh 3D toàn cảnh Hải Phòng vươn ra Biển Đông (hiển thị trang trọng Quần đảo Hoàng Sa & Trường Sa Việt Nam) + Thanh bình chọn tập tiếp theo: [1] Sân bay Long Thành 40 km vs [2] Cao tốc miền Tây.",
+      "start_seconds": 562.13,
+      "end_seconds": 590.44,
+      "script_section_id": "s19",
+      "framing": "16:9 widescreen broadcast frame with SAFE_X=64, SAFE_Y=64 and stationary bottom subtitle zone",
+      "movement": "Smooth 52°–56° 3D camera glide / spring-driven infographic progression",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "overlay_notes": "Clean Story Chapter Pill top-left; zero source/telemetry clutter; stationary KeywordCaptionBar bottom.",
+      "narrative_role": "call_to_action",
+      "hero_moment": false,
+      "required_assets": [
+        {
+          "type": "audio",
+          "description": "Vibi TTS Haitrieu narration segment s19",
+          "source": "generate"
+        },
+        {
+          "type": "graphic",
+          "description": "Không ảnh 3D toàn cảnh Hải Phòng vươn ra Biển Đông (hiển thị trang trọng Quần đảo Hoàng Sa & Trường Sa Việt Nam) + Thanh bình chọn tập tiếp theo: [1] Sân bay Long Thành 40 km vs [2] Cao tốc miền Tây.",
+          "source": "provided"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_scenes": 19,
+    "hero_photo_zoom_scenes": [
+      "scene_11",
+      "scene_15"
+    ]
+  }
+}

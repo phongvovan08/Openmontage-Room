@@ -1,0 +1,165 @@
+{
+  "version": "1.0",
+  "project_id": "long-thanh-40km",
+  "decisions": [
+    {
+      "decision_id": "d-001",
+      "stage": "proposal",
+      "category": "pipeline_selection",
+      "subject": "Pipeline for the 90-second Long Thanh explainer",
+      "options_considered": [
+        {"option_id":"animated-explainer","label":"animated-explainer research-first explainer pipeline","score":0.95,"reason":"Fits a data-grounded explainer with narration, custom visuals and music. The project already has a schema-valid research_brief with 13 data points and 18 sources."},
+        {"option_id":"documentary-montage","label":"documentary-montage","score":0.25,"reason":"Would fit source footage but no user-provided airport footage exists.","rejected_because":"No primary source footage is available."},
+        {"option_id":"screen-demo","label":"screen-demo","score":0.05,"reason":"Not a software demonstration.","rejected_because":"Wrong medium."}
+      ],
+      "selected":"animated-explainer",
+      "reason":"The topic is a verified-data explainer with narration and generated motion graphics; the research artifact already exists.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.95
+    },
+    {
+      "decision_id":"d-002",
+      "stage":"proposal",
+      "category":"concept_selection",
+      "subject":"Creative direction for the 90-second video",
+      "options_considered":[
+        {"option_id":"c1","label":"A. 40 km, and why that's the point (comparison)","score":0.9,"reason":"Answers the title question with the distance contrast and verified capacity figures."},
+        {"option_id":"c2","label":"B. Your flight moves in 3 waves, not one (timeline)","score":0.7,"reason":"Practical audience question grounded in the official three-step transition timeline.","rejected_because":"Not selected by user; retain as a follow-up episode."},
+        {"option_id":"c3","label":"C. 5,000 hectares of runway (data narrative)","score":0.75,"reason":"A primary-document-led angle grounded in the 562/QD-BXD PDF.","rejected_because":"Not selected by user; retain as a follow-up episode."}
+      ],
+      "selected":"c1",
+      "reason":"The user selected Concept A.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.9
+    },
+    {
+      "decision_id":"d-003",
+      "stage":"proposal",
+      "category":"render_runtime_selection",
+      "subject":"Render runtime for the explainer",
+      "options_considered":[
+        {"option_id":"remotion","label":"Remotion","score":0.9,"reason":"Available; React composition supports custom maps/graphics and word-level caption integration, a strong fit for this 90-second Vietnamese explainer."},
+        {"option_id":"hyperframes","label":"HyperFrames","score":0.65,"reason":"Available; HTML/GSAP gives strong kinetic typography.","rejected_because":"Word-level caption parity is not available in this pipeline phase."},
+        {"option_id":"ffmpeg","label":"FFmpeg","score":0.2,"reason":"Available for basic assembly.","rejected_because":"Not suitable as the primary runtime for custom animated maps and comparison graphics."}
+      ],
+      "selected":"remotion",
+      "reason":"The user approved Atelier + Remotion; captions and data-led custom motion fit the brief.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.9
+    },
+    {
+      "decision_id":"d-004",
+      "stage":"proposal",
+      "category":"composition_mode",
+      "subject":"Composition authoring mode",
+      "options_considered":[
+        {"option_id":"atelier","label":"Atelier: hand-author a project-local composition","score":0.85,"reason":"A single hero explainer benefits from a bespoke visual language and scene compositions designed around this airport and its data."},
+        {"option_id":"templated","label":"Templated: assemble stock cut types","score":0.45,"reason":"Faster and less authoring effort.","rejected_because":"The user approved Atelier for a more distinctive final video."}
+      ],
+      "selected":"atelier",
+      "reason":"The user approved Atelier + Remotion. Stock creative components will not be reused.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.85
+    },
+    {
+      "decision_id":"d-005",
+      "stage":"proposal",
+      "category":"renderer_family_selection",
+      "subject":"Creative grammar",
+      "options_considered":[
+        {"option_id":"explainer-data","label":"Data-driven explainer","score":0.9,"reason":"The selected concept uses distance and airport-capacity comparisons."},
+        {"option_id":"explainer-teacher","label":"Teacher explainer","score":0.6,"reason":"Could explain the subject accessibly.","rejected_because":"Less suited to the selected comparison-led narrative."},
+        {"option_id":"documentary-montage","label":"Documentary montage","score":0.2,"reason":"Would rely on real footage.","rejected_because":"No source footage is available."}
+      ],
+      "selected":"explainer-data",
+      "reason":"Concept A is a data-driven comparison that resolves the 40 km question.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.9
+    },
+    {
+      "decision_id":"d-006",
+      "stage":"proposal",
+      "category":"playbook_selection",
+      "subject":"Visual identity",
+      "options_considered":[
+        {"option_id":"custom-atelier","label":"Custom infrastructure-documentary art direction","score":0.9,"reason":"Asphalt navy base, runway amber for distance and emphasis, concrete off-white typography, verified-fact teal used only for evidence markers; IBM Plex Sans."},
+        {"option_id":"minimalist-diagram","label":"Minimalist Diagram preset","score":0.55,"reason":"Precise and technical.","rejected_because":"Its whiteboard look is less appropriate than a purpose-built infrastructure documentary language."},
+        {"option_id":"clean-professional","label":"Clean Professional preset","score":0.45,"reason":"Restrained and legible.","rejected_because":"Reads too much like a corporate presentation."},
+        {"option_id":"flat-motion-graphics","label":"Flat Motion Graphics preset","score":0.4,"reason":"Supports animated graphics.","rejected_because":"A generic flat look is less suited to the documentary direction."}
+      ],
+      "selected":"custom-atelier",
+      "reason":"The visual system is designed specifically around runway geography, distance and capacity; atelier requires a fresh art direction.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.85
+    },
+    {
+      "decision_id":"d-007",
+      "stage":"proposal",
+      "category":"voice_selection",
+      "subject":"TTS provider for narration",
+      "options_considered":[
+        {"option_id":"vibi_minimax_haitrieu","label":"Vibi MiniMax Speech 2.8 HD, Vietnamese voice Haitrieu","score":0.9,"reason":"Configured Vietnamese voice in the voice pool. Estimated cost about $0.14; supports Vietnamese narration and transcript alignment."},
+        {"option_id":"openai_tts","label":"OpenAI gpt-4o-mini-tts","score":0.6,"reason":"Available low-cost cloud fallback.","rejected_because":"The configured Vietnamese MiniMax voice better fits the selected language and was explicitly approved."},
+        {"option_id":"piper_tts","label":"Piper local TTS","score":0.35,"reason":"Free and local.","rejected_because":"The configured default model is English; a Vietnamese Piper model has not been confirmed."}
+      ],
+      "selected":"vibi_minimax_haitrieu",
+      "reason":"The user approved Vibi MiniMax with a $0.20 ceiling. Credential is present in .env and loads through the registry dotenv initialization.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.9
+    },
+    {
+      "decision_id":"d-008",
+      "stage":"proposal",
+      "category":"music_source",
+      "subject":"Background music source",
+      "options_considered":[
+        {"option_id":"pixabay_music","label":"Pixabay royalty-free music search","score":0.75,"reason":"Available at zero cost; a restrained ambient documentary bed fits the voice and motion."},
+        {"option_id":"user_library","label":"User music library","score":0.5,"reason":"Could preserve a preferred sound.","rejected_because":"No music_library directory currently exists."},
+        {"option_id":"freesound_music","label":"Freesound","score":0.4,"reason":"Free licensed sound catalog.","rejected_because":"Tool unavailable in preflight."},
+        {"option_id":"ai_generated","label":"AI music generation","score":0.3,"reason":"Could tailor the bed to the composition.","rejected_because":"No music generation provider is available."}
+      ],
+      "selected":"pixabay_music",
+      "reason":"It is the available zero-cost search source. Track selection will happen at the assets stage.",
+      "user_visible":true,
+      "user_approved":false,
+      "confidence":0.75
+    },
+    {
+      "decision_id":"d-009",
+      "stage":"proposal",
+      "category":"approval_policy",
+      "subject":"Output format",
+      "options_considered":[
+        {"option_id":"youtube_landscape","label":"YouTube landscape 16:9, 1920x1080","score":0.95,"reason":"The user explicitly changed the requested format to landscape 16:9, which suits wide maps and side-by-side airport comparisons."},
+        {"option_id":"youtube_shorts","label":"Vertical 9:16, 1080x1920","score":0.5,"reason":"Native to the Shorts feed.","rejected_because":"Superseded by the user's later explicit instruction: Landscape 16:9."}
+      ],
+      "selected":"youtube_landscape",
+      "reason":"Explicit user instruction: Landscape 16:9.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.95
+    },
+    {
+      "decision_id":"d-010",
+      "stage":"proposal",
+      "category":"budget_tradeoff",
+      "subject":"Approved production spend ceiling",
+      "options_considered":[
+        {"option_id":"cap_0_20","label":"Up to $0.20","score":0.9,"reason":"The user approved this cap; estimated Vibi narration is ~$0.14 and Pixabay music plus local rendering are $0.00."},
+        {"option_id":"cap_2_00","label":"Pipeline default $2.00","score":0.4,"reason":"Would allow additional paid assets.","rejected_because":"The user approved the lower $0.20 ceiling."}
+      ],
+      "selected":"cap_0_20",
+      "reason":"Estimated spend is ~$0.14, leaving approximately $0.06 headroom; no paid image generation is planned.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.9
+    }
+  ]
+}

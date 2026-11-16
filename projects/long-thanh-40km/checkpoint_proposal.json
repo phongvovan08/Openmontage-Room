@@ -1,0 +1,791 @@
+{
+  "version": "1.0",
+  "project_id": "long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "proposal",
+  "status": "completed",
+  "timestamp": "2026-11-15T15:34:50.581942+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "proposal_packet": {
+      "version": "1.0",
+      "concept_options": [
+        {
+          "id": "c1",
+          "title": "40 km, v\u00e0 c\u00e1i \u0111\u1ed5i l\u1ea1i",
+          "hook": "S\u00e2n bay m\u1edbi c\u00e1ch trung t\u00e2m g\u1ea5p b\u1ed1n s\u00e2n bay c\u0169. \u0110\u1ed5i l\u1ea1i b\u1eb1ng g\u00ec?",
+          "narrative_structure": "comparison",
+          "visual_approach": "M\u1ed9t b\u1ea3n \u0111\u1ed3 v\u00f9ng duy nh\u1ea5t l\u00e0m tr\u1ee5c: T\u00e2n S\u01a1n Nh\u1ea5t n\u1eb1m trong l\u00f5i n\u1ed9i \u0111\u00f4, Long Th\u00e0nh n\u1eb1m \u1edf \u0110\u1ed3ng Nai, v\u00e0 m\u1ed9t \u0111\u01b0\u1eddng \u0111o kho\u1ea3ng c\u00e1ch 40 km ch\u1ea1y gi\u1eefa hai \u0111i\u1ec3m trong khi \u0111\u01b0\u1eddng 8-10 km c\u1ee7a s\u00e2n bay c\u0169 n\u1eb1m g\u1ecdn trong khung h\u00ecnh. Sau \u0111\u00f3 hai c\u1ed9t s\u1ed1 li\u1ec7u c\u00f4ng su\u1ea5t \u0111\u1ed1i chi\u1ebfu: 20 tri\u1ec7u thi\u1ebft k\u1ebf v\u00e0 71% s\u1eed d\u1ee5ng \u1edf T\u00e2n S\u01a1n Nh\u1ea5t, 25 tri\u1ec7u giai \u0111o\u1ea1n 1 v\u00e0 100 tri\u1ec7u cu\u1ed1i c\u00f9ng \u1edf Long Th\u00e0nh. K\u1ebft b\u1eb1ng m\u1ed9t m\u1eb7t b\u1eb1ng 5.000 ha thu g\u1ecdn th\u00e0nh kh\u1ed1i di\u1ec7n t\u00edch c\u00f3 nh\u00e3n, v\u00e0 m\u00e0n h\u00ecnh k\u1ebft \u0111\u01b0a v\u1ec1 kho\u1ea3ng c\u00e1ch 40 km nh\u01b0 m\u1ed9t \u0111\u00e1nh \u0111\u1ed5i c\u00f3 ch\u1ee7 \u00fd.",
+          "suggested_playbook": "custom-atelier",
+          "target_audience": "Ng\u01b0\u1eddi d\u00f9ng TP.HCM v\u00e0 ng\u01b0\u1eddi \u0111i c\u00f4ng t\u00e1c n\u01b0\u1edbc ngo\u00e0i mu\u1ed1n hi\u1ec3u v\u00ec sao s\u00e2n bay m\u1edbi l\u1ea1i xa, \u0111ang chu\u1ea9n b\u1ecb \u0111i t\u1eeb th\u00e1ng 12/2026",
+          "target_platform": "youtube",
+          "target_duration_seconds": 90,
+          "key_points": [
+            "Long Th\u00e0nh c\u00e1ch trung t\u00e2m TP.HCM kho\u1ea3ng 40 km, T\u00e2n S\u01a1n Nh\u1ea5t ch\u1ec9 8-10 km",
+            "Nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t m\u1edbi \u0111\u1ea1t kho\u1ea3ng 71% c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf 20 tri\u1ec7u h\u00e0nh kh\u00e1ch/n\u0103m, cho th\u1ea5y s\u00e2n bay c\u0169 \u0111\u00e3 v\u01b0\u1ee3t thi\u1ebft k\u1ebf",
+            "Long Th\u00e0nh giai \u0111o\u1ea1n 1 ph\u1ee5c v\u1ee5 25 tri\u1ec7u h\u00e0nh kh\u00e1ch v\u00e0 1,2 tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a m\u1ed7i n\u0103m",
+            "C\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf 100 tri\u1ec7u h\u00e0nh kh\u00e1ch l\u00e0 m\u1ed1c sau khi ho\u00e0n th\u00e0nh c\u1ea3 ba giai \u0111o\u1ea1n, kh\u00f4ng ph\u1ea3i giai \u0111o\u1ea1n 1",
+            "Quy ho\u1ea1ch c\u1ea7n kho\u1ea3ng 5.000 ha \u0111\u1ea5t, t\u00e1ch bi\u1ec7t khu d\u00e2n c\u01b0 v\u00e0 cho ph\u00e9p khai th\u00e1c 24/7"
+          ],
+          "core_message": "Kho\u1ea3ng c\u00e1ch 40 km l\u00e0 c\u00e1i gi\u00e1 c\u1ee7a m\u1ed9t s\u00e2n bay c\u00f3 c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf g\u1ea5p n\u0103m l\u1ea7n s\u00e2n bay c\u0169, m\u1edf \u0111\u01b0\u1ee3c 24/7 v\u00e0 gi\u1ea3m t\u1ea3i cho n\u1ed9i \u0111\u00f4.",
+          "cta": "Theo d\u00f5i \u0111\u1ec3 c\u00f3 b\u1ea3n c\u1eadp nh\u1eadt khi l\u1ed9 tr\u00ecnh khai th\u00e1c chuy\u1ec3n \u0111\u1ed5i b\u1eaft \u0111\u1ea7u t\u1eeb 1/12/2026",
+          "tone": "\u0110i\u1ec1u tra d\u00e2n s\u1ef1 hi\u1ec7n \u0111\u1ea1i, \u0111i\u1ec1m t\u0129nh, t\u00f4n tr\u1ecdng d\u1eef li\u1ec7u, kh\u00f4ng h\u00f9 d\u1ecdc",
+          "grounded_in": [
+            "40 km so v\u1edbi 8-10 km c\u1ee7a T\u00e2n S\u01a1n Nh\u1ea5t (l\u1eadp lu\u1eadn v\u1ecb tr\u00ed c\u1ee7a ACV qua B\u00e1o Ch\u00ednh ph\u1ee7)",
+            "Nh\u00e0 ga T3 \u0111\u1ea1t kho\u1ea3ng 71% c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf 20 tri\u1ec7u, chi\u1ebfm g\u1ea7n 54% s\u1ea3n l\u01b0\u1ee3ng n\u1ed9i \u0111\u1ecba",
+            "Giai \u0111o\u1ea1n 1 d\u1ef1 ki\u1ebfn 25 tri\u1ec7u l\u01b0\u1ee3t h\u00e0nh kh\u00e1ch v\u00e0 1,2 tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a m\u1ed7i n\u0103m",
+            "C\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf cu\u1ed1i c\u00f9ng 100 tri\u1ec7u h\u00e0nh kh\u00e1ch v\u00e0 5 tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a sau ba giai \u0111o\u1ea1n",
+            "Nhu c\u1ea7u s\u1eed d\u1ee5ng \u0111\u1ea5t kho\u1ea3ng 5.000 ha theo Quy\u1ebft \u0111\u1ecbnh 562/Q\u0110-BXD ng\u00e0y 09/05/2025",
+            "Khai th\u00e1c 24/7, t\u00e1ch bi\u1ec7t khu d\u00e2n c\u01b0, gi\u1ea3m \u00f4 nhi\u1ec5m ti\u1ebfng \u1ed3n n\u1ed9i \u0111\u00f4"
+          ],
+          "why_this_works": "Nghi\u00ean c\u1ee9u cho th\u1ea5y c\u00e2u h\u1ecfi 40 km \u0111\u00e3 xu\u1ea5t hi\u1ec7n trong ti\u00eau \u0111\u1ec1 v\u00e0 th\u1ea3o lu\u1eadn hi\u1ec7n c\u00f3, nh\u01b0ng c\u00e1c c\u00e2u tr\u1ea3 l\u1eddi d\u1eebng \u1edf tin quy ho\u1ea1ch ho\u1eb7c li\u1ec7t k\u00ea d\u1ef1 \u00e1n \u0111\u01b0\u1eddng, trong khi ng\u00e1ch n\u00e0y b\u1ecb b\u00e3o h\u00f2a b\u1edfi 141 video theo d\u00f5i ti\u1ebfn \u0111\u1ed9 c\u1ee7a m\u1ed9t k\u00eanh duy nh\u1ea5t. Kho\u1ea3ng tr\u1ed1ng kh\u1ea3 thi l\u00e0 m\u1ed9t video so s\u00e1nh \u0111\u1ecbnh l\u01b0\u1ee3ng. D\u1eef li\u1ec7u T3 \u1edf m\u1ee9c 71% c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf l\u00e0 b\u1eb1ng ch\u1ee9ng \u0111\u1ecbnh l\u01b0\u1ee3ng m\u1ea1nh nh\u1ea5t cho l\u1eadp lu\u1eadn r\u1eb1ng s\u00e2n bay c\u0169 \u0111\u00e3 kh\u00f4ng c\u00f2n \u0111\u1ee7 ch\u1ed7, bi\u1ebfn c\u00e2u h\u1ecfi 40 km t\u1eeb tranh lu\u1eadn c\u1ea3m t\u00ednh th\u00e0nh m\u1ed9t ph\u00e9p so s\u00e1nh c\u00f4ng su\u1ea5t."
+        },
+        {
+          "id": "c2",
+          "title": "Chuy\u1ebfn c\u1ee7a b\u1ea1n chuy\u1ec3n s\u00e2n bay theo 3 \u0111\u1ee3t, kh\u00f4ng ph\u1ea3i m\u1ed9t l\u1ea7n",
+          "hook": "M\u1edf c\u1eeda th\u00e1ng 12, nh\u01b0ng chuy\u1ebfn qu\u1ed1c t\u1ebf c\u1ee7a b\u1ea1n ch\u01b0a chuy\u1ec3n sang ngay. V\u00ec sao?",
+          "narrative_structure": "timeline",
+          "visual_approach": "M\u1ed9t d\u1ea3i th\u1eddi gian d\u1ecdc theo c\u00e1c m\u00f9a l\u1ecbch bay 2026-2028, m\u1ed7i b\u01b0\u1edbc l\u00e0 m\u1ed9t ch\u1eb7ng khai th\u00e1c, k\u00e8m bi\u1ec3u \u0111\u1ed3 chia t\u1ef7 l\u1ec7 chuy\u1ebfn bay qu\u1ed1c t\u1ebf gi\u1eefa hai s\u00e2n bay thay \u0111\u1ed5i d\u1ea7n theo t\u1eebng m\u1ed1c.",
+          "suggested_playbook": "custom-atelier",
+          "target_audience": "H\u00e0nh kh\u00e1ch s\u1eafp \u0111i chuy\u1ebfn qu\u1ed1c t\u1ebf t\u1eeb TP.HCM v\u00e0 ng\u01b0\u1eddi ph\u1ee5 tr\u00e1ch \u0111\u1eb7t v\u00e9",
+          "target_platform": "youtube",
+          "target_duration_seconds": 90,
+          "key_points": [
+            "L\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i 3 b\u01b0\u1edbc \u0111\u01b0\u1ee3c C\u1ee5c H\u00e0ng kh\u00f4ng th\u1ed1ng nh\u1ea5t, b\u1eaft \u0111\u1ea7u t\u1eeb 1/12/2026",
+            "M\u00f9a H\u00e8 2027 m\u1edbi chuy\u1ec3n to\u00e0n b\u1ed9 \u0111\u01b0\u1eddng bay qu\u1ed1c t\u1ebf d\u00e0i, m\u00f9a \u0110\u00f4ng 2027-2028 m\u1edbi chuy\u1ec3n c\u00e1c chuy\u1ebfn qu\u1ed1c t\u1ebf c\u00f2n l\u1ea1i",
+            "Ph\u01b0\u01a1ng \u00e1n khai th\u00e1c chia Long Th\u00e0nh kho\u1ea3ng 80% qu\u1ed1c t\u1ebf v\u00e0 10% n\u1ed9i \u0111\u1ecba, T\u00e2n S\u01a1n Nh\u1ea5t 20% qu\u1ed1c t\u1ebf v\u00e0 90% n\u1ed9i \u0111\u1ecba",
+            "H\u1ea1 t\u1ea7ng k\u1ebft n\u1ed1i g\u1ed3m 5 tuy\u1ebfn \u0111\u01b0\u1eddng b\u1ed9 v\u00e0 3 tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft \u0111\u01b0\u1ee3c quy ho\u1ea1ch"
+          ],
+          "core_message": "Chuy\u1ec3n \u0111\u1ed5i khai th\u00e1c chia theo m\u00f9a l\u1ecbch bay, n\u00ean chuy\u1ebfn c\u1ee7a b\u1ea1n kh\u00f4ng ph\u1ea3i l\u00fac n\u00e0o c\u0169ng \u0111\u1ed5i s\u00e2n bay c\u00f9ng ng\u00e0y v\u1edbi ng\u01b0\u1eddi kh\u00e1c.",
+          "cta": "L\u01b0u video \u0111\u1ec3 tra c\u1ee9u tr\u01b0\u1edbc khi \u0111\u1eb7t v\u00e9",
+          "tone": "Th\u1ef1c d\u1ee5ng, \u0111i\u1ec1u tra nh\u1eb9",
+          "grounded_in": [
+            "L\u1ed9 tr\u00ecnh chuy\u1ec3n \u0111\u1ed5i 3 b\u01b0\u1edbc theo m\u00f9a l\u1ecbch bay",
+            "Ph\u01b0\u01a1ng \u00e1n ph\u00e2n chia khai th\u00e1c 80/10 v\u00e0 20/90",
+            "Ng\u01b0\u1ee1ng 1.000 km cho c\u00e1c chuy\u1ebfn qu\u1ed1c t\u1ebf d\u00e0i",
+            "5 tuy\u1ebfn \u0111\u01b0\u1eddng b\u1ed9 v\u00e0 3 tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft"
+          ],
+          "why_this_works": "Sai l\u1ea7m ph\u1ed5 bi\u1ebfn nh\u1ea5t trong nghi\u00ean c\u1ee9u l\u00e0 t\u01b0\u1edfng to\u00e0n b\u1ed9 chuy\u1ebfn bay qu\u1ed1c t\u1ebf chuy\u1ec3n sang ngay khi s\u00e2n bay m\u1edf, v\u00e0 \u0111\u00e2y l\u00e0 c\u00e2u h\u1ecfi c\u00f3 gi\u00e1 tr\u1ecb h\u00e0nh \u0111\u1ed9ng cao nh\u1ea5t cho kh\u00e1n gi\u1ea3. Nh\u01b0ng ch\u1ee7 \u0111\u1ec1 n\u00e0y \u0111\u00e3 \u0111\u01b0\u1ee3c khai th\u00e1c r\u1ed9ng b\u1edfi nhi\u1ec1u n\u1ed9i dung theo d\u00f5i ti\u1ebfn \u0111\u1ed9."
+        },
+        {
+          "id": "c3",
+          "title": "5.000 ha \u0111\u1ea5t cho m\u1ed9t s\u00e2n bay",
+          "hook": "S\u00e2n bay Long Th\u00e0nh c\u1ea7n 5.000 ha \u0111\u1ea5t, v\u00e0 con s\u1ed1 \u0111\u00f3 v\u1eabn \u0111ang \u0111\u01b0\u1ee3c \u0111i\u1ec1u ch\u1ec9nh.",
+          "narrative_structure": "data_narrative",
+          "visual_approach": "M\u1edf \u0111\u1ea7u b\u1eb1ng kh\u1ed1i di\u1ec7n t\u00edch 5.000 ha \u0111\u01b0\u1ee3c chia th\u00e0nh ba kh\u1ed1i c\u00f3 nh\u00e3n 570 ha qu\u00e2n s\u1ef1, 480 ha d\u00f9ng chung v\u00e0 3.950 ha h\u00e0ng kh\u00f4ng d\u00e2n d\u1ee5ng, r\u1ed3i l\u1ea7n theo chu\u1ed7i v\u0103n b\u1ea3n ph\u00e1p l\u00fd d\u01b0\u1edbi d\u1ea1ng timeline quy\u1ebft \u0111\u1ecbnh, k\u1ebft th\u00fac b\u1eb1ng thay \u0111\u1ed5i thi\u1ebft k\u1ebf \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh t\u1eeb 60 m xu\u1ed1ng 45 m.",
+          "suggested_playbook": "custom-atelier",
+          "target_audience": "Ng\u01b0\u1eddi quan t\u00e2m quy ho\u1ea1ch, k\u1ef9 thu\u1eadt h\u00e0ng kh\u00f4ng v\u00e0 b\u1ea5t \u0111\u1ed9ng s\u1ea3n \u0110\u1ed3ng Nai",
+          "target_platform": "youtube",
+          "target_duration_seconds": 90,
+          "key_points": [
+            "Quy ho\u1ea1ch c\u1ea7n kho\u1ea3ng 5.000 ha: 570 ha qu\u00e2n s\u1ef1, 480 ha d\u00f9ng chung, 3.950 ha h\u00e0ng kh\u00f4ng d\u00e2n d\u1ee5ng",
+            "Chu\u1ed7i quy\u1ebft \u0111\u1ecbnh: 909/Q\u0110-TTg n\u0103m 2011, Ngh\u1ecb quy\u1ebft 94/2015/QH13, 1777/Q\u0110-TTg n\u0103m 2020, 692/Q\u0110-TTg n\u0103m 2025",
+            "Quy\u1ebft \u0111\u1ecbnh 562/Q\u0110-BXD ng\u00e0y 09/05/2025 ph\u00ea duy\u1ec7t \u0111i\u1ec1u ch\u1ec9nh c\u1ee5c b\u1ed9 quy ho\u1ea1ch",
+            "M\u1eb7t \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh s\u1ed1 2 \u0111\u01b0\u1ee3c gi\u1ea3m chi\u1ec1u r\u1ed9ng c\u00e1ch \u0111\u01b0\u1eddng s\u1ed1 1 t\u1eeb 60 m xu\u1ed1ng 45 m"
+          ],
+          "core_message": "5.000 ha v\u00e0 m\u1ed9t chu\u1ed7i quy\u1ebft \u0111\u1ecbnh k\u00e9o d\u00e0i 14 n\u0103m cho th\u1ea5y quy ho\u1ea1ch n\u00e0y v\u1eabn \u0111ang \u0111\u01b0\u1ee3c ch\u1ec9nh s\u1eeda, kh\u00f4ng ph\u1ea3i m\u1ed9t b\u1ea3n v\u1ebd \u0111\u00f3ng \u0111inh.",
+          "cta": "Theo d\u00f5i \u0111\u1ec3 \u0111\u1ecdc ti\u1ebfp c\u00e1c quy\u1ebft \u0111\u1ecbnh \u0111i\u1ec1u ch\u1ec9nh ti\u1ebfp theo",
+          "tone": "H\u1ed3 s\u01a1 k\u1ef9 thu\u1eadt, ch\u00ednh x\u00e1c, tr\u1ecdng t\u00e2m t\u00e0i li\u1ec7u g\u1ed1c",
+          "grounded_in": [
+            "Nhu c\u1ea7u s\u1eed d\u1ee5ng \u0111\u1ea5t kho\u1ea3ng 5.000 ha theo Quy\u1ebft \u0111\u1ecbnh 562/Q\u0110-BXD",
+            "Chu\u1ed7i v\u0103n b\u1ea3n ph\u00e1p l\u00fd \u0111\u1ecdc tr\u1ef1c ti\u1ebfp t\u1eeb PDF 562/Q\u0110-BXD",
+            "Gi\u1ea3m chi\u1ec1u r\u1ed9ng m\u1eb7t \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh s\u1ed1 2 t\u1eeb 60 m xu\u1ed1ng 45 m"
+          ],
+          "why_this_works": "Kh\u00e1c v\u1edbi hai concept c\u00f2n l\u1ea1i, concept n\u00e0y d\u1ef1a tr\u00ean v\u0103n b\u1ea3n g\u1ed1c \u0111\u00e3 \u0111\u1ecdc tr\u1ef1c ti\u1ebfp, cho n\u1ed9i dung m\u1edbi v\u00e0 kh\u00f3 b\u1ecb sao ch\u00e9p. Tuy nhi\u00ean kh\u00e1n gi\u1ea3 r\u1ed9ng h\u01a1n v\u00e0 kh\u00f3 ti\u1ebfp c\u1eadn h\u01a1n v\u1edbi nh\u1eefng ng\u01b0\u1eddi ch\u1ec9 quan t\u00e2m c\u00e2u h\u1ecfi kho\u1ea3ng c\u00e1ch."
+        }
+      ],
+      "selected_concept": {
+        "concept_id": "c1",
+        "rationale": "The user selected Concept A. It answers the exact question in the channel title with the strongest verified quantitative evidence in the research brief: T3 at 71% of design capacity versus 25M for Long Thanh phase 1 and 100M after three phases.",
+        "modifications": [
+          "Output format changed to YouTube landscape 16:9 (1920x1080) at the user's instruction, so maps and side-by-side capacity comparisons get the full width.",
+          "Composition is atelier with Remotion, so the stock cut.type catalog is not used and the visual language is authored for this subject.",
+          "Hook reframed to ask what the distance buys rather than to assert that the distance was a deliberate choice, because the original 2011 site-selection rationale is not established by the sources read so far."
+        ]
+      },
+      "production_plan": {
+        "pipeline": "animated-explainer",
+        "playbook": "custom-atelier",
+        "renderer_family": "explainer-data",
+        "render_runtime": "remotion",
+        "composition_mode": "atelier",
+        "art_direction": "projects/long-thanh-40km/art_direction.md \u2014 a bespoke infrastructure-documentary language built for this piece only: asphalt navy base (#10141F), runway amber (#F0A202) reserved for distance and emphasis, concrete off-white (#E8E6E1) for typography, and verified-fact teal (#2E8B87) used only to mark claims that come from a cited source. Type is IBM Plex Sans in an editorial weight range. Motion is slow and weighted, closer to survey drawing than to a slideshow. The signature device is the measuring line: a single amber line that draws itself to measure a distance and then, in the climax, measures a capacity instead. It appears only in those two beats.",
+        "taste_profile": {
+          "design_read": "National-infrastructure documentary: quiet authority, evidence first, no salesmanship. The viewer should feel they are being shown a document and a map, not sold a future.",
+          "visual_variance": 5,
+          "motion_intensity": 3,
+          "information_density": 4,
+          "palette_discipline": "One dark neutral base, one warm accent for emphasis, one cool accent reserved exclusively for verified facts. No gradients as decoration.",
+          "layout_variation": "Alternate map-led full-frame beats with data-forward split layouts; keep the measuring line and the map as recurring anchors so varied scenes still feel like one film.",
+          "reference_strategy": "No AI imagery. Every visual is either an authored vector map/diagram or typographic layout, so no reference stills are needed and no external photo rights enter the project.",
+          "anti_patterns": [
+            "Generic corporate-blue or AI-purple gradient backgrounds",
+            "Stock cut.type scene catalog reused from other explainers",
+            "AI-generated aerial airport photos presented as documentary evidence",
+            "Bouncy spring transitions on data beats",
+            "On-screen text that claims things the sources do not support"
+          ],
+          "quality_gates": [
+            "Every number on screen must be traceable to a cited source in the research brief or to the 562/QD-BXD text",
+            "Any statement attributed to ACV is visually marked as the operator's position, not as an established fact",
+            "No scene repeats the measuring line as filler"
+          ]
+        },
+        "stages": [
+          {
+            "stage": "research",
+            "tools": [],
+            "approach": "Already complete. research_brief.json is schema-valid with 13 sourced data points, 18 source URLs, 5 angles and 4 recorded misconceptions.",
+            "fallback_if_unavailable": "Not applicable."
+          },
+          {
+            "stage": "proposal",
+            "tools": [],
+            "approach": "Three concepts presented with grounding, costs and runtime options. Concept A selected by the user; runtime, composition mode, voice, format and budget ceiling approved explicitly.",
+            "fallback_if_unavailable": "Not applicable."
+          },
+          {
+            "stage": "script",
+            "tools": [],
+            "approach": "Write a Vietnamese narration script at roughly 195-225 words for 90 seconds, with a voice_performance plan, per-section delivery cues and enhancement cues at least every 8-10 seconds. Facts are taken only from the research brief.",
+            "fallback_if_unavailable": "Not applicable."
+          },
+          {
+            "stage": "scene_plan",
+            "tools": [],
+            "approach": "Map each script section to a distinct authored scene with its own primary visual subject, so no two consecutive scenes share a composition.",
+            "fallback_if_unavailable": "Not applicable."
+          },
+          {
+            "stage": "assets",
+            "tools": [
+              {
+                "tool_name": "vibi_tts",
+                "role": "Vietnamese narration with word-level alignment and native transcript export",
+                "provider": "vibi",
+                "available": true,
+                "estimated_cost_usd": 0.14,
+                "why_this_provider": "The configured Vietnamese voice in the voice pool is a native MiniMax Speech 2.8 HD voice, which produces the most natural Vietnamese delivery of the available options and exports alignment data for caption sync."
+              },
+              {
+                "tool_name": "transcriber",
+                "role": "WhisperX transcription of the narration for word-level caption timing",
+                "provider": "whisperx",
+                "available": true,
+                "estimated_cost_usd": 0.0,
+                "why_this_provider": "Runs locally at no cost and gives an independent check that the narration actually matches the intended script."
+              },
+              {
+                "tool_name": "pixabay_music",
+                "role": "Royalty-free ambient background bed",
+                "provider": "pixabay_music",
+                "available": true,
+                "estimated_cost_usd": 0.0,
+                "why_this_provider": "The only zero-cost music source available in preflight; no key required and safe for monetized YouTube use."
+              },
+              {
+                "tool_name": "pixabay_image",
+                "role": "Optional reference texture only, not a primary visual",
+                "provider": "pixabay",
+                "available": true,
+                "estimated_cost_usd": 0.0,
+                "why_this_provider": "Free licensed imagery if a subtle surface texture is wanted. Primary visuals are authored vectors, so this is a contingency rather than a planned dependency."
+              }
+            ],
+            "approach": "Generate narration section by section after a TTS sample is approved, transcribe for caption timing, and fetch a single ambient music bed. No paid image generation is planned.",
+            "fallback_if_unavailable": "If vibi_tts fails, fall back to openai_tts for the Vietnamese voice, and to piper_tts only if a Vietnamese Piper model is confirmed present."
+          },
+          {
+            "stage": "edit",
+            "tools": [],
+            "approach": "Build the timeline with narration, music under narration with ducking, and word-level captions styled to the art direction. Caption placement must avoid the map area of the 16:9 frame.",
+            "fallback_if_unavailable": "Not applicable."
+          },
+          {
+            "stage": "compose",
+            "tools": [
+              {
+                "tool_name": "video_compose",
+                "role": "Remotion render of the atelier composition at 1920x1080",
+                "provider": "remotion",
+                "available": true,
+                "estimated_cost_usd": 0.0,
+                "why_this_provider": "Renders the project-local React composition with native audio embedding and word-level captions in a single pass, at no API cost."
+              }
+            ],
+            "approach": "Render the project-local Remotion composition, embedding narration, music and captions, then validate duration within 5 percent of 90 seconds with ffprobe.",
+            "fallback_if_unavailable": "If Remotion rendering fails, escalate to the user with an FFmpeg fallback proposal rather than silently switching runtime."
+          },
+          {
+            "stage": "publish",
+            "tools": [
+              {
+                "tool_name": "export_bundle",
+                "role": "Package the final render with captions and attribution notes",
+                "provider": "local",
+                "available": true,
+                "estimated_cost_usd": 0.0,
+                "why_this_provider": "Local packaging keeps sources and attribution notes attached to the deliverable for the channel owner."
+              }
+            ],
+            "approach": "Export the MP4 and caption file, and list every source used so the channel owner can publish with proper attribution.",
+            "fallback_if_unavailable": "Not applicable."
+          }
+        ],
+        "quality_tradeoffs": [
+          {
+            "tradeoff": "Narration: Vibi MiniMax Speech 2.8 HD (~$0.14) vs Piper local ($0.00) vs OpenAI gpt-4o-mini-tts (~$0.01)",
+            "recommendation": "Vibi MiniMax with the configured Haitrieu voice",
+            "quality_impact": "Vietnamese delivery is markedly more natural than the local Piper default, which is an English model. The $0.13 difference buys the voice quality that a 90-second explainer depends on."
+          },
+          {
+            "tradeoff": "Render path: Remotion vs HyperFrames vs FFmpeg",
+            "recommendation": "Remotion",
+            "quality_impact": "Remotion supports word-level burned captions in the same pass as the composition. HyperFrames gives richer kinetic typography but not caption parity in this phase, and FFmpeg would reduce the piece to stills."
+          },
+          {
+            "tradeoff": "Composition mode: atelier vs templated",
+            "recommendation": "Atelier",
+            "quality_impact": "Atelier produces a visual language specific to airport geography and capacity data. Templated would be faster but would look like the other explainers in this workspace."
+          },
+          {
+            "tradeoff": "Visual assets: authored vectors ($0.00) vs AI-generated imagery (~$0.05-0.21 per image)",
+            "recommendation": "Authored vectors only",
+            "quality_impact": "Keeps every visual accurate and license-clean, and stays inside the $0.20 cap. AI-generated airport imagery would look more cinematic but could not be presented as evidence."
+          }
+        ],
+        "alternative_paths": [
+          {
+            "description": "Chosen path: atelier Remotion composition, Vibi Vietnamese narration, Pixabay music, authored vector visuals",
+            "total_cost_usd": 0.14,
+            "quality_level": "premium",
+            "what_changes": "Nothing; this is the approved plan."
+          },
+          {
+            "description": "Budget path: same composition with Piper local narration and no music bed",
+            "total_cost_usd": 0.0,
+            "quality_level": "budget",
+            "what_changes": "Narration sounds noticeably flatter and needs a Vietnamese Piper model to be usable; the video loses its music bed."
+          },
+          {
+            "description": "Draft path: templated Remotion scenes using the stock cut.type catalog",
+            "total_cost_usd": 0.14,
+            "quality_level": "standard",
+            "what_changes": "Faster to assemble, but the piece reuses a look already used by other explainers in this workspace."
+          }
+        ],
+        "delivery_promise": {
+          "promise_type": "data_explainer",
+          "motion_required": true,
+          "source_required": false,
+          "tone_mode": "educational",
+          "quality_floor": "presentable",
+          "approved_fallback": null
+        },
+        "music_source": {
+          "source_type": "bring_your_own",
+          "provider": "pixabay_music",
+          "mood_direction": "Restrained low ambient bed, slow pulse, no melody in the foreground, sitting well under narration. Freesound and AI music generation were unavailable, so Pixabay search is the working source; the channel owner may drop a preferred track into music_library/ before the assets stage.",
+          "estimated_cost_usd": 0.0
+        },
+        "voice_selection": {
+          "provider": "vibi",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "rationale": "Haitrieu, the configured Vietnamese MiniMax Speech 2.8 HD voice in the project voice pool. It handles Vietnamese natively and exports a transcript with word-level alignment, which the caption layer needs. Configured at speed 1.10x, pitch 0.",
+          "estimated_cost_usd": 0.14,
+          "delivery_style": "Measured documentary narrator: calm authority, clear Vietnamese consonants, no sales tone, numbers spoken with emphasis but no hype.",
+          "pacing_policy": "Conversational pace around 150 words per minute. Short pauses after each verified figure so the number lands, a longer pause before the closing payoff, and steady pace through the two capacity comparisons.",
+          "sample_approval_required": true
+        },
+        "decision_log_ref": "projects\\long-thanh-40km\\decision_log.json",
+        "provider_rankings": {
+          "tts": [
+            {
+              "tool_name": "vibi_tts",
+              "provider": "vibi",
+              "weighted_score": 0.9,
+              "task_fit": 0.95,
+              "output_quality": 0.9,
+              "explanation": "Configured Vietnamese MiniMax Speech 2.8 HD voice with word-level alignment and native transcript export. Approved by the user."
+            },
+            {
+              "tool_name": "openai_tts",
+              "provider": "openai",
+              "weighted_score": 0.62,
+              "task_fit": 0.7,
+              "output_quality": 0.6,
+              "explanation": "Cheapest cloud option and supports delivery instructions, but weaker Vietnamese delivery than the configured MiniMax voice."
+            },
+            {
+              "tool_name": "piper_tts",
+              "provider": "piper",
+              "weighted_score": 0.35,
+              "task_fit": 0.4,
+              "output_quality": 0.3,
+              "explanation": "Free and offline, but the configured default model is English and no Vietnamese Piper model is confirmed installed."
+            }
+          ],
+          "image": [
+            {
+              "tool_name": "authored_vectors",
+              "provider": "local",
+              "weighted_score": 0.92,
+              "task_fit": 0.95,
+              "output_quality": 0.9,
+              "explanation": "Authored SVG maps, measuring lines and typographic layouts are accurate, license-clean, free and match the documentary direction."
+            },
+            {
+              "tool_name": "pixabay_image",
+              "provider": "pixabay",
+              "weighted_score": 0.5,
+              "task_fit": 0.45,
+              "output_quality": 0.55,
+              "explanation": "Free licensed imagery, usable only as subtle texture and never as evidence."
+            },
+            {
+              "tool_name": "image_gen",
+              "provider": "multi",
+              "weighted_score": 0.3,
+              "task_fit": 0.35,
+              "output_quality": 0.4,
+              "explanation": "Would cost money and could not present an accurate, citable depiction of a specific planned airport."
+            }
+          ],
+          "music": [
+            {
+              "tool_name": "pixabay_music",
+              "provider": "pixabay_music",
+              "weighted_score": 0.75,
+              "task_fit": 0.8,
+              "output_quality": 0.7,
+              "explanation": "Only zero-cost music source available; royalty-free and safe for monetized channels."
+            },
+            {
+              "tool_name": "user_library",
+              "provider": "local",
+              "weighted_score": 0.5,
+              "task_fit": 0.7,
+              "output_quality": 0.7,
+              "explanation": "Free and intentional if the channel owner supplies a track, but no music_library directory exists yet."
+            }
+          ],
+          "video": [
+            {
+              "tool_name": "pixabay_video",
+              "provider": "pixabay",
+              "weighted_score": 0.35,
+              "task_fit": 0.3,
+              "output_quality": 0.4,
+              "explanation": "Free stock footage exists but generic aviation clips would undercut the evidence-led, authored approach."
+            }
+          ]
+        }
+      },
+      "cost_estimate": {
+        "total_estimated_usd": 0.14,
+        "line_items": [
+          {
+            "tool": "vibi_tts",
+            "operation": "Vietnamese narration for roughly 215 words across 6 sections plus one sample regeneration",
+            "quantity": 1,
+            "estimated_usd": 0.14,
+            "notes": "Haitrieu voice, MiniMax Speech 2.8 HD, speed 1.10x, pitch 0. Includes transcript export for caption alignment."
+          },
+          {
+            "tool": "transcriber",
+            "operation": "WhisperX transcription of the final narration for word-level caption timing",
+            "quantity": 1,
+            "estimated_usd": 0.0,
+            "notes": "Local, no API cost. Also acts as an independent check that the spoken narration matches the script."
+          },
+          {
+            "tool": "pixabay_music",
+            "operation": "Search and download one royalty-free ambient bed",
+            "quantity": 1,
+            "estimated_usd": 0.0,
+            "notes": "No key required."
+          },
+          {
+            "tool": "video_compose",
+            "operation": "Remotion atelier render at 1920x1080 with embedded narration, music and captions",
+            "quantity": 1,
+            "estimated_usd": 0.0,
+            "notes": "Local render, no API cost."
+          }
+        ],
+        "budget_cap_usd": 0.2,
+        "budget_verdict": "within_budget",
+        "savings_options": [
+          "Switch narration to piper_tts local voice and drop the music bed: saves about $0.14, at a clear cost to Vietnamese voice quality.",
+          "Switch narration to openai_tts: saves about $0.13, with weaker Vietnamese delivery."
+        ]
+      },
+      "approval": {
+        "status": "approved",
+        "user_notes": "Concept A. Landscape 16:9. Atelier + Remotion. Vibi MiniMax voice with a $0.20 ceiling.",
+        "approved_budget_usd": 0.2
+      },
+      "metadata": {
+        "project_id": "long-thanh-40km",
+        "pipeline": "animated-explainer",
+        "target_duration_seconds": 90,
+        "output_format": "youtube_landscape",
+        "resolution": "1920x1080",
+        "language": "vi",
+        "research_brief_ref": "projects/long-thanh-40km/artifacts/research_brief.json",
+        "decision_log_ref": "projects/long-thanh-40km/artifacts/decision_log.json",
+        "known_limitations": [
+          "vidIQ is unavailable, so keyword volume, competition and RPM remain unverified for this topic.",
+          "The 2011 master plan (909/QD-TTg) and the 2015 National Assembly resolution (94/2015/QH13) were confirmed only through the citation list inside 562/QD-BXD, so the original site-selection rationale is not established. The script must not present the original reason for choosing the location as a verified fact.",
+          "The original reason for choosing the Dong Nai location is not established, so the script frames the trade-off using ACV's stated position, marked as the operator's argument rather than as settled history."
+        ]
+      }
+    },
+    "decision_log": {
+      "version": "1.0",
+      "project_id": "long-thanh-40km",
+      "decisions": [
+        {
+          "decision_id": "d-001",
+          "stage": "proposal",
+          "category": "pipeline_selection",
+          "subject": "Pipeline for the 90-second Long Thanh explainer",
+          "options_considered": [
+            {
+              "option_id": "animated-explainer",
+              "label": "animated-explainer research-first explainer pipeline",
+              "score": 0.95,
+              "reason": "Fits a data-grounded explainer with narration, custom visuals and music. The project already has a schema-valid research_brief with 13 data points and 18 sources."
+            },
+            {
+              "option_id": "documentary-montage",
+              "label": "documentary-montage",
+              "score": 0.25,
+              "reason": "Would fit source footage but no user-provided airport footage exists.",
+              "rejected_because": "No primary source footage is available."
+            },
+            {
+              "option_id": "screen-demo",
+              "label": "screen-demo",
+              "score": 0.05,
+              "reason": "Not a software demonstration.",
+              "rejected_because": "Wrong medium."
+            }
+          ],
+          "selected": "animated-explainer",
+          "reason": "The topic is a verified-data explainer with narration and generated motion graphics; the research artifact already exists.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.95
+        },
+        {
+          "decision_id": "d-002",
+          "stage": "proposal",
+          "category": "concept_selection",
+          "subject": "Creative direction for the 90-second video",
+          "options_considered": [
+            {
+              "option_id": "c1",
+              "label": "A. 40 km, and why that's the point (comparison)",
+              "score": 0.9,
+              "reason": "Answers the title question with the distance contrast and verified capacity figures."
+            },
+            {
+              "option_id": "c2",
+              "label": "B. Your flight moves in 3 waves, not one (timeline)",
+              "score": 0.7,
+              "reason": "Practical audience question grounded in the official three-step transition timeline.",
+              "rejected_because": "Not selected by user; retain as a follow-up episode."
+            },
+            {
+              "option_id": "c3",
+              "label": "C. 5,000 hectares of runway (data narrative)",
+              "score": 0.75,
+              "reason": "A primary-document-led angle grounded in the 562/QD-BXD PDF.",
+              "rejected_because": "Not selected by user; retain as a follow-up episode."
+            }
+          ],
+          "selected": "c1",
+          "reason": "The user selected Concept A.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.9
+        },
+        {
+          "decision_id": "d-003",
+          "stage": "proposal",
+          "category": "render_runtime_selection",
+          "subject": "Render runtime for the explainer",
+          "options_considered": [
+            {
+              "option_id": "remotion",
+              "label": "Remotion",
+              "score": 0.9,
+              "reason": "Available; React composition supports custom maps/graphics and word-level caption integration, a strong fit for this 90-second Vietnamese explainer."
+            },
+            {
+              "option_id": "hyperframes",
+              "label": "HyperFrames",
+              "score": 0.65,
+              "reason": "Available; HTML/GSAP gives strong kinetic typography.",
+              "rejected_because": "Word-level caption parity is not available in this pipeline phase."
+            },
+            {
+              "option_id": "ffmpeg",
+              "label": "FFmpeg",
+              "score": 0.2,
+              "reason": "Available for basic assembly.",
+              "rejected_because": "Not suitable as the primary runtime for custom animated maps and comparison graphics."
+            }
+          ],
+          "selected": "remotion",
+          "reason": "The user approved Atelier + Remotion; captions and data-led custom motion fit the brief.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.9
+        },
+        {
+          "decision_id": "d-004",
+          "stage": "proposal",
+          "category": "composition_mode",
+          "subject": "Composition authoring mode",
+          "options_considered": [
+            {
+              "option_id": "atelier",
+              "label": "Atelier: hand-author a project-local composition",
+              "score": 0.85,
+              "reason": "A single hero explainer benefits from a bespoke visual language and scene compositions designed around this airport and its data."
+            },
+            {
+              "option_id": "templated",
+              "label": "Templated: assemble stock cut types",
+              "score": 0.45,
+              "reason": "Faster and less authoring effort.",
+              "rejected_because": "The user approved Atelier for a more distinctive final video."
+            }
+          ],
+          "selected": "atelier",
+          "reason": "The user approved Atelier + Remotion. Stock creative components will not be reused.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.85
+        },
+        {
+          "decision_id": "d-005",
+          "stage": "proposal",
+          "category": "renderer_family_selection",
+          "subject": "Creative grammar",
+          "options_considered": [
+            {
+              "option_id": "explainer-data",
+              "label": "Data-driven explainer",
+              "score": 0.9,
+              "reason": "The selected concept uses distance and airport-capacity comparisons."
+            },
+            {
+              "option_id": "explainer-teacher",
+              "label": "Teacher explainer",
+              "score": 0.6,
+              "reason": "Could explain the subject accessibly.",
+              "rejected_because": "Less suited to the selected comparison-led narrative."
+            },
+            {
+              "option_id": "documentary-montage",
+              "label": "Documentary montage",
+              "score": 0.2,
+              "reason": "Would rely on real footage.",
+              "rejected_because": "No source footage is available."
+            }
+          ],
+          "selected": "explainer-data",
+          "reason": "Concept A is a data-driven comparison that resolves the 40 km question.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.9
+        },
+        {
+          "decision_id": "d-006",
+          "stage": "proposal",
+          "category": "playbook_selection",
+          "subject": "Visual identity",
+          "options_considered": [
+            {
+              "option_id": "custom-atelier",
+              "label": "Custom infrastructure-documentary art direction",
+              "score": 0.9,
+              "reason": "Asphalt navy base, runway amber for distance and emphasis, concrete off-white typography, verified-fact teal used only for evidence markers; IBM Plex Sans."
+            },
+            {
+              "option_id": "minimalist-diagram",
+              "label": "Minimalist Diagram preset",
+              "score": 0.55,
+              "reason": "Precise and technical.",
+              "rejected_because": "Its whiteboard look is less appropriate than a purpose-built infrastructure documentary language."
+            },
+            {
+              "option_id": "clean-professional",
+              "label": "Clean Professional preset",
+              "score": 0.45,
+              "reason": "Restrained and legible.",
+              "rejected_because": "Reads too much like a corporate presentation."
+            },
+            {
+              "option_id": "flat-motion-graphics",
+              "label": "Flat Motion Graphics preset",
+              "score": 0.4,
+              "reason": "Supports animated graphics.",
+              "rejected_because": "A generic flat look is less suited to the documentary direction."
+            }
+          ],
+          "selected": "custom-atelier",
+          "reason": "The visual system is designed specifically around runway geography, distance and capacity; atelier requires a fresh art direction.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.85
+        },
+        {
+          "decision_id": "d-007",
+          "stage": "proposal",
+          "category": "voice_selection",
+          "subject": "TTS provider for narration",
+          "options_considered": [
+            {
+              "option_id": "vibi_minimax_haitrieu",
+              "label": "Vibi MiniMax Speech 2.8 HD, Vietnamese voice Haitrieu",
+              "score": 0.9,
+              "reason": "Configured Vietnamese voice in the voice pool. Estimated cost about $0.14; supports Vietnamese narration and transcript alignment."
+            },
+            {
+              "option_id": "openai_tts",
+              "label": "OpenAI gpt-4o-mini-tts",
+              "score": 0.6,
+              "reason": "Available low-cost cloud fallback.",
+              "rejected_because": "The configured Vietnamese MiniMax voice better fits the selected language and was explicitly approved."
+            },
+            {
+              "option_id": "piper_tts",
+              "label": "Piper local TTS",
+              "score": 0.35,
+              "reason": "Free and local.",
+              "rejected_because": "The configured default model is English; a Vietnamese Piper model has not been confirmed."
+            }
+          ],
+          "selected": "vibi_minimax_haitrieu",
+          "reason": "The user approved Vibi MiniMax with a $0.20 ceiling. Credential is present in .env and loads through the registry dotenv initialization.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.9
+        },
+        {
+          "decision_id": "d-008",
+          "stage": "proposal",
+          "category": "music_source",
+          "subject": "Background music source",
+          "options_considered": [
+            {
+              "option_id": "pixabay_music",
+              "label": "Pixabay royalty-free music search",
+              "score": 0.75,
+              "reason": "Available at zero cost; a restrained ambient documentary bed fits the voice and motion."
+            },
+            {
+              "option_id": "user_library",
+              "label": "User music library",
+              "score": 0.5,
+              "reason": "Could preserve a preferred sound.",
+              "rejected_because": "No music_library directory currently exists."
+            },
+            {
+              "option_id": "freesound_music",
+              "label": "Freesound",
+              "score": 0.4,
+              "reason": "Free licensed sound catalog.",
+              "rejected_because": "Tool unavailable in preflight."
+            },
+            {
+              "option_id": "ai_generated",
+              "label": "AI music generation",
+              "score": 0.3,
+              "reason": "Could tailor the bed to the composition.",
+              "rejected_because": "No music generation provider is available."
+            }
+          ],
+          "selected": "pixabay_music",
+          "reason": "It is the available zero-cost search source. Track selection will happen at the assets stage.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.75
+        },
+        {
+          "decision_id": "d-009",
+          "stage": "proposal",
+          "category": "approval_policy",
+          "subject": "Output format",
+          "options_considered": [
+            {
+              "option_id": "youtube_landscape",
+              "label": "YouTube landscape 16:9, 1920x1080",
+              "score": 0.95,
+              "reason": "The user explicitly changed the requested format to landscape 16:9, which suits wide maps and side-by-side airport comparisons."
+            },
+            {
+              "option_id": "youtube_shorts",
+              "label": "Vertical 9:16, 1080x1920",
+              "score": 0.5,
+              "reason": "Native to the Shorts feed.",
+              "rejected_because": "Superseded by the user's later explicit instruction: Landscape 16:9."
+            }
+          ],
+          "selected": "youtube_landscape",
+          "reason": "Explicit user instruction: Landscape 16:9.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.95
+        },
+        {
+          "decision_id": "d-010",
+          "stage": "proposal",
+          "category": "budget_tradeoff",
+          "subject": "Approved production spend ceiling",
+          "options_considered": [
+            {
+              "option_id": "cap_0_20",
+              "label": "Up to $0.20",
+              "score": 0.9,
+              "reason": "The user approved this cap; estimated Vibi narration is ~$0.14 and Pixabay music plus local rendering are $0.00."
+            },
+            {
+              "option_id": "cap_2_00",
+              "label": "Pipeline default $2.00",
+              "score": 0.4,
+              "reason": "Would allow additional paid assets.",
+              "rejected_because": "The user approved the lower $0.20 ceiling."
+            }
+          ],
+          "selected": "cap_0_20",
+          "reason": "Estimated spend is ~$0.14, leaving approximately $0.06 headroom; no paid image generation is planned.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.9
+        }
+      ]
+    }
+  },
+  "style_playbook": "minimalist-diagram",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "summary": {
+      "critical": 0,
+      "suggestions": 0,
+      "nitpicks": 0,
+      "success_criteria_met": "3 distinct concepts; selected concept approved by user; itemized cost; both runtimes presented and logged; taste_profile present for atelier work"
+    }
+  },
+  "cost_snapshot": {
+    "spent_usd": 0.0,
+    "approved_budget_usd": 0.2
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "project_id": "cang-lach-huyen-ban-dai",
+  "decisions": [
+    {
+      "decision_id": "d-001",
+      "stage": "proposal",
+      "category": "pipeline_selection",
+      "subject": "Chọn pipeline sản xuất cho tập dài hoàn chỉnh Lạch Huyện",
+      "options_considered": [
+        {
+          "option_id": "animated-explainer",
+          "label": "Animated Explainer Pipeline",
+          "score": 0.98,
+          "reason": "Tối ưu cho video giải mã địa lý kinh tế bằng bản đồ 3D và đồ họa dữ liệu."
+        },
+        {
+          "option_id": "documentary-montage",
+          "label": "Documentary Montage Pipeline",
+          "score": 0.3,
+          "reason": "Cần cảnh quay thực địa, trái quy tắc 100% đồ họa bản đồ code của kênh.",
+          "rejected_because": "Kênh đã khóa không tự quay footage thực địa."
+        }
+      ],
+      "selected": "animated-explainer",
+      "reason": "Khớp chuẩn quy trình 8 bước của kênh giải mã bản đồ.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-002",
+      "stage": "proposal",
+      "category": "concept_selection",
+      "subject": "Chọn cấu trúc và thời lượng bản Video Dài Lạch Huyện",
+      "options_considered": [
+        {
+          "option_id": "c1",
+          "label": "Bản chuẩn 10 phút (~19-20 cảnh 3D, 5 Chương trọn vẹn từ Bến Sáu Kho 1874 đến 6 bến 2026 & Đường sắt 1.435 mm)",
+          "score": 0.96,
+          "reason": "Đủ độ sâu 5 tầng nhân quả, bật được mid-roll >= 8 phút mà không bôi chữ câu giờ."
+        },
+        {
+          "option_id": "c2",
+          "label": "Bản mở rộng 12–13 phút (thêm chương đối đầu khu vực Cái Mép – Laem Chabang – Singapore)",
+          "score": 0.85,
+          "reason": "Mở rộng góc nhìn Đông Nam Á.",
+          "rejected_because": "Người dùng chọn phương án c1 (Bản chuẩn 10 phút 5 Chương trọn vẹn)."
+        },
+        {
+          "option_id": "c3",
+          "label": "Bản cô đọng 8 phút 15 giây (thuần giải phẫu kỹ thuật)",
+          "score": 0.78,
+          "reason": "Nhịp nhanh, thời gian render ngắn hơn.",
+          "rejected_because": "Người dùng chọn phương án c1 để có đầy đủ chiều sâu lịch sử 1874 và đường sắt tương lai."
+        }
+      ],
+      "selected": "c1",
+      "reason": "Người dùng trực tiếp phê duyệt Bản chuẩn 10 phút (5 Chương) kèm tiêu đề '150 năm kẹt ở sông Cấm: Hải Phòng vượt biển 48km thế nào?' và chữ bìa 'ĐÁY CẠN -7M!'.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-003",
+      "stage": "proposal",
+      "category": "render_runtime_selection",
+      "subject": "Chọn engine kết xuất kỹ thuật (Remotion vs HyperFrames vs FFmpeg)",
+      "options_considered": [
+        {
+          "option_id": "remotion",
+          "label": "Remotion (React + SVG + CSS 3D 4K Supersampling)",
+          "score": 0.97,
+          "reason": "Kế thừa trực tiếp bộ Tactical3DKit.tsx, vệ tinh EOX 2024 z14 (5376x3840) và phụ đề đứng yên KeywordCaptionBar đã nghiệm thu."
+        },
+        {
+          "option_id": "hyperframes",
+          "label": "HyperFrames (HTML/CSS + GSAP)",
+          "score": 0.68,
+          "reason": "Khả dụng trên máy, mạnh cho kinetic typography HTML/GSAP.",
+          "rejected_because": "Chưa hỗ trợ đồng bộ phụ đề từng từ như Remotion và phải viết lại toàn bộ hệ chiếu bản đồ 3D React; người dùng chọn Remotion."
+        },
+        {
+          "option_id": "ffmpeg",
+          "label": "FFmpeg concat/trim",
+          "score": 0.15,
+          "reason": "Chỉ cắt ghép clip tĩnh.",
+          "rejected_because": "Không thể dựng camera bản đồ 3D và lát cắt động."
+        }
+      ],
+      "selected": "remotion",
+      "reason": "Người dùng phê duyệt Remotion sau khi đối chiếu ưu/nhược điểm với HyperFrames.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-004",
+      "stage": "proposal",
+      "category": "composition_mode",
+      "subject": "Chọn chế độ tác quyền bố cục (Atelier vs Templated)",
+      "options_considered": [
+        {
+          "option_id": "atelier",
+          "label": "Atelier (Thiết kế thủ công từng cảnh riêng biệt trong project)",
+          "score": 0.98,
+          "reason": "Đảm bảo thẩm mỹ bản đồ chiến thuật 3D kiểu Johnny Harris / Vox độc bản, không lặp lại khung mẫu có sẵn."
+        },
+        {
+          "option_id": "templated",
+          "label": "Templated (Lắp ghép stock scene-types trong remotion-composer/src)",
+          "score": 0.3,
+          "reason": "Nhanh nhưng giao diện chung chung.",
+          "rejected_because": "Người dùng chọn chế độ Atelier kế thừa chuẩn đồ họa 3D v5."
+        }
+      ],
+      "selected": "atelier",
+      "reason": "Người dùng phê duyệt chế độ Atelier.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-005",
+      "stage": "proposal",
+      "category": "voice_selection",
+      "subject": "Chọn giọng đọc thuyết minh tiếng Việt",
+      "options_considered": [
+        {
+          "option_id": "vibi_haitrieu",
+          "label": "Vibi TTS — Haitrieu (MiniMax speech-2.8-hd, speed 1.1)",
+          "score": 0.96,
+          "reason": "Giọng nam đĩnh đạc, chuẩn nhịp phim tài liệu giải mã bản đồ, đã được người dùng xác nhận 'ổn rồi'."
+        },
+        {
+          "option_id": "piper_local",
+          "label": "Piper TTS Local",
+          "score": 0.45,
+          "reason": "Chạy offline miễn phí.",
+          "rejected_because": "Độ tự nhiên tiếng Việt thấp hơn hẳn Vibi Haitrieu."
+        }
+      ],
+      "selected": "vibi_haitrieu",
+      "reason": "Người dùng đã duyệt giữ giọng Vibi Haitrieu.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.97
+    }
+  ]
+}

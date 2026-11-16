@@ -1,0 +1,262 @@
+{
+  "version": "1.0",
+  "project_id": "demo-giai-ma-ban-do-90s",
+  "pipeline_type": "animated-explainer",
+  "stage": "edit",
+  "status": "completed",
+  "timestamp": "2026-11-16T13:17:28.442793+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": true,
+  "artifacts": {
+    "edit_decisions": {
+      "version": "1.0",
+      "renderer_family": "explainer-data",
+      "render_runtime": "remotion",
+      "composition_mode": "atelier",
+      "bespoke": {
+        "entry": "projects/demo-giai-ma-ban-do-90s/index.tsx",
+        "composition_id": "DemoGiaiMaBanDo90s",
+        "art_direction": "projects/demo-giai-ma-ban-do-90s/art-direction.md",
+        "props_path": "C:/Users/ACER/Desktop/Openmontage-Room/projects/demo-giai-ma-ban-do-90s/artifacts/props.json",
+        "public_dir": "projects/demo-giai-ma-ban-do-90s/public",
+        "crf": 14,
+        "concurrency": 4
+      },
+      "cuts": [
+        {
+          "id": "cut_01",
+          "source": "snapshots/scene_01.png",
+          "in_seconds": 0.0,
+          "out_seconds": 12.0,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_01 (establish_context): Xác lập bối cảnh địa lý quốc gia, bảo đảm chuẩn mực chủ quyền Hoàng Sa - Trường Sa ngay khung đầu tiên và mở ra nghịch lý cảng trăm tuổi miền Bắc."
+        },
+        {
+          "id": "cut_02",
+          "source": "snapshots/scene_02.png",
+          "in_seconds": 12.0,
+          "out_seconds": 22.0,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_02 (introduce_subject): Chuyển đổi không gian liền mạch từ cấp quốc gia xuống cấp địa hình cửa sông để khán giả thấy khoảng cách xa từ nội đô ra biển lớn."
+        },
+        {
+          "id": "cut_03",
+          "source": "snapshots/scene_03.png",
+          "in_seconds": 22.0,
+          "out_seconds": 28.5,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_03 (build_tension): Giải thích hệ quả kinh tế cụ thể của việc thiếu cảng nước sâu để khán giả hiểu vì sao bài toán này ảnh hưởng trực tiếp tới sức cạnh tranh hàng Việt Nam."
+        },
+        {
+          "id": "cut_04",
+          "source": "snapshots/scene_04.png",
+          "in_seconds": 28.5,
+          "out_seconds": 40.5,
+          "layer": "primary",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_04 (evidence): Trình diễn chuẩn xác cú máy pin-label trong safe zone 16:9 và chỉ mặt đặt tên 'thủ phạm' phù sa bằng số đo thực tế năm 2026."
+        },
+        {
+          "id": "cut_05",
+          "source": "snapshots/scene_05.png",
+          "in_seconds": 40.5,
+          "out_seconds": 49.6,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_05 (build_tension): Chặn trước câu hỏi phản biện lớn nhất của khán giả ('sao không nạo vét sông cũ?') và tạo nhịp nghỉ thị giác trước khi vẽ tuyến cầu vượt biển."
+        },
+        {
+          "id": "cut_06",
+          "source": "snapshots/scene_06.png",
+          "in_seconds": 49.6,
+          "out_seconds": 61.2,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_06 (deliver_payload): Trình diễn cú máy route tiến trình theo tỷ lệ frame chuẩn xác, cho thấy giải pháp 'nhảy qua vùng phù sa' bằng hạ tầng cầu vượt biển."
+        },
+        {
+          "id": "cut_07",
+          "source": "snapshots/scene_07.png",
+          "in_seconds": 61.2,
+          "out_seconds": 69.7,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_07 (comparison): Thực thi phần đo khoảng cách Haversine của cú máy comparison-measure, chứng minh lợi thế rút ngắn cự ly và nhân đôi bề rộng luồng."
+        },
+        {
+          "id": "cut_08",
+          "source": "snapshots/scene_08.png",
+          "in_seconds": 69.7,
+          "out_seconds": 78.2,
+          "layer": "primary",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_08 (deliver_payload): Đỉnh cao thị giác (Hero Moment) giải đáp dứt điểm câu hỏi tiêu đề video trong một khung hình duy nhất không cần lời giải thích rườm rà."
+        },
+        {
+          "id": "cut_09",
+          "source": "snapshots/scene_09.png",
+          "in_seconds": 78.2,
+          "out_seconds": 90.0,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#071320",
+          "reason": "scene_09 (call_to_action): Tuân thủ nghiêm ngặt nguyên tắc phân biệt công trình đang vận hành với quy hoạch tương lai (tài liệu 21 mục 5) và kích hoạt bình luận tự nhiên."
+        }
+      ],
+      "audio": {
+        "narration": {
+          "segments": [
+            {
+              "asset_id": "narration-s1",
+              "start_seconds": 0.1,
+              "end_seconds": 12.077
+            },
+            {
+              "asset_id": "narration-s2",
+              "start_seconds": 13.3,
+              "end_seconds": 28.197
+            },
+            {
+              "asset_id": "narration-s3",
+              "start_seconds": 29.2,
+              "end_seconds": 44.426
+            },
+            {
+              "asset_id": "narration-s4",
+              "start_seconds": 45.2,
+              "end_seconds": 61.863
+            },
+            {
+              "asset_id": "narration-s5",
+              "start_seconds": 62.6,
+              "end_seconds": 77.638
+            },
+            {
+              "asset_id": "narration-s6",
+              "start_seconds": 78.6,
+              "end_seconds": 89.564
+            }
+          ]
+        },
+        "sfx": [
+          {
+            "asset_id": "sfx-hydrographic-bed",
+            "start_seconds": 0.0,
+            "volume": 1.0
+          }
+        ]
+      },
+      "subtitles": {
+        "enabled": false,
+        "source": "assets/audio/narration_full.srt"
+      },
+      "slideshow_risk_score": {
+        "average": 0.08,
+        "verdict": "strong"
+      },
+      "metadata": {
+        "target_duration_seconds": 90.0,
+        "proposal_render_runtime": "remotion",
+        "style_playbook": "clean-professional",
+        "voice_synced_photo_zoom_windows": {
+          "scene_01": [
+            0.45,
+            3.65
+          ],
+          "scene_02": [
+            4.3,
+            7.25
+          ],
+          "scene_03": [
+            1.65,
+            4.3
+          ],
+          "scene_04": [
+            8.15,
+            11.45
+          ],
+          "scene_06": [
+            6.95,
+            10.25
+          ],
+          "scene_07": [
+            1.55,
+            4.35
+          ],
+          "scene_09": [
+            0.5,
+            4.65
+          ]
+        },
+        "music_policy": "none (Option A clean technical hydrographic soundscape per d-008)",
+        "viewer_engagement_upgrades_d012": [
+          "photo_and_map_spotlight_lassos",
+          "animated_maritime_vessels_with_wakes_and_shockwaves",
+          "word_synced_orthographic_keyword_caption_bar",
+          "motion_synced_hydrographic_micro_sfx"
+        ],
+        "competitive_upgrades_d013": [
+          "audience_story_chapter_pills_phan01_to_phan05",
+          "human_scale_4_story_building_and_football_pitch_silhouettes",
+          "2_5d_perspective_tilt_corridor_flyover_scene06",
+          "procedural_documentary_pulse_bed_with_sidechain_ducking",
+          "official_document_callouts_with_yellow_highlighter_sweep_qd1995_qd1579",
+          "counterweight_title_57chars_and_3word_mobile_thumbnail"
+        ],
+        "visual_edition": "v5-ultra-sharp-4k-supersampled-eox2024-z14"
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "passed": true,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "notes": [
+      "Preserved proposal_packet lock: renderer_family='explainer-data', render_runtime='remotion', composition_mode='atelier'.",
+      "9 bespoke Remotion scenes aligned to exact 90.0s narration grid (2700 frames @ 30fps) with 8-frame cross-dissolve SceneEnvelope.",
+      "7 voice-synced EvidencePhotoCard zoom windows locked to word-level timestamps in narration_transcript.json.",
+      "External SRT preserved at assets/audio/narration_full.srt for YouTube Studio CC without cluttering cartographic typography.",
+      "Applied d-012 viewer retention upgrades: animated spotlights on all 7 documentary photos & satellite landmarks, moving container/feeder ships, clean Vietnamese KeywordCaptionBar, and 4x concurrent Remotion rendering.",
+      "Applied all 6 vietnam-map-explainer v3 competitive differentiation rules across Scenes 01-09 (d-013).",
+      "Completed v4 Johnny Harris / Vox 52°-56° 3D tactical overhaul across all 9 scenes (Tactical3DKit.tsx, d-014) with verified zero text overlap.",
+      "Completed v4 Johnny Harris / Vox 52°-56° 3D tactical overhaul across all 9 scenes (Tactical3DKit.tsx, d-014) with verified zero text overlap.",
+      "Completed v4 Johnny Harris / Vox 52°-56° 3D tactical overhaul across all 9 scenes (Tactical3DKit.tsx, d-014) with verified zero text overlap."
+    ]
+  },
+  "cost_snapshot": {
+    "stage_cost_usd": 0.0,
+    "cumulative_cost_usd": 0.0,
+    "budget_usd": 2.0
+  }
+}

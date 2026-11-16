@@ -1,0 +1,12 @@
+1
+00:00:00,108 --> 00:00:01,999
+Quy hoạch cần khoảng năm nghìn hécta.
+
+2
+00:00:02,403 --> 00:00:08,836
+Quyết định năm 2025 chia thành ba nghìn chín trăm năm mươi hécta dân dụng, bốn trăm tám mươi hécta dùng chung,
+
+3
+00:00:09,127 --> 00:00:10,945
+và năm trăm bảy mươi hécta quân sự.
+

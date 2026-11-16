@@ -1,0 +1,19 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalDurationSeconds": 90.0,
+  "masterAudioFile": "audio/master_audio.mp3",
+  "scenes": [
+    { "id": "scene_01", "start_seconds": 0.0, "end_seconds": 12.0 },
+    { "id": "scene_02", "start_seconds": 12.0, "end_seconds": 22.0 },
+    { "id": "scene_03", "start_seconds": 22.0, "end_seconds": 28.5 },
+    { "id": "scene_04", "start_seconds": 28.5, "end_seconds": 40.5 },
+    { "id": "scene_05", "start_seconds": 40.5, "end_seconds": 49.6 },
+    { "id": "scene_06", "start_seconds": 49.6, "end_seconds": 61.2 },
+    { "id": "scene_07", "start_seconds": 61.2, "end_seconds": 69.7 },
+    { "id": "scene_08", "start_seconds": 69.7, "end_seconds": 78.2 },
+    { "id": "scene_09", "start_seconds": 78.2, "end_seconds": 90.0 }
+  ]
+}
+

@@ -303,11 +303,12 @@ const KPICardContent: React.FC<KPICardContentProps> = ({
       {/* Value */}
       <div
         style={{
-          fontSize: 56,
+          fontSize: 46,
           fontWeight: 800,
           color: accentColor,
           fontFamily,
-          lineHeight: 1.1,
+          lineHeight: 1.15,
+          textAlign: "center",
         }}
       >
         {metric.prefix || ""}
@@ -323,7 +324,8 @@ const KPICardContent: React.FC<KPICardContentProps> = ({
           color: textColor,
           fontFamily,
           marginTop: 8,
-          opacity: 0.8,
+          opacity: 0.85,
+          textAlign: "center",
         }}
       >
         {metric.label}

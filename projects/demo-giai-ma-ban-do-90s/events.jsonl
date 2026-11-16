@@ -1,0 +1,24 @@
+{"ts": "2026-11-15T18:54:07.194476+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4"}
+{"ts": "2026-11-15T19:46:08.089383+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4", "success": false, "cost_usd": 0.0, "duration_s": 3120.91}
+{"ts": "2026-11-15T19:47:32.936922+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-15T19:47:32.982661+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.05}
+{"ts": "2026-11-15T20:28:06.711289+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4"}
+{"ts": "2026-11-15T20:30:45.496907+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4", "success": true, "cost_usd": 0.0, "duration_s": 158.8}
+{"ts": "2026-11-15T20:31:28.315671+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-15T20:31:28.369746+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.06}
+{"ts": "2026-11-15T21:19:22.880543+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4"}
+{"ts": "2026-11-15T21:22:20.996211+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4", "success": true, "cost_usd": 0.0, "duration_s": 178.12}
+{"ts": "2026-11-15T21:22:40.473538+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-15T21:22:40.521884+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.05}
+{"ts": "2026-11-16T11:55:21.172221+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4"}
+{"ts": "2026-11-16T11:57:50.320847+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4", "success": true, "cost_usd": 0.0, "duration_s": 149.16}
+{"ts": "2026-11-16T11:57:52.073366+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-16T11:57:52.115476+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.05}
+{"ts": "2026-11-16T12:26:22.799516+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4"}
+{"ts": "2026-11-16T12:30:56.776344+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4", "success": true, "cost_usd": 0.0, "duration_s": 273.97}
+{"ts": "2026-11-16T12:30:59.194184+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-16T12:30:59.241244+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.05}
+{"ts": "2026-11-16T13:17:28.860258+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4"}
+{"ts": "2026-11-16T13:20:44.990532+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\renders\\final.mp4", "success": true, "cost_usd": 0.0, "duration_s": 196.14}
+{"ts": "2026-11-16T13:20:47.503626+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-16T13:20:47.861947+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.34}

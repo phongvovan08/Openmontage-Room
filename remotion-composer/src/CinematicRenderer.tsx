@@ -4,13 +4,13 @@ import {
   AbsoluteFill,
   Audio,
   CalculateMetadataFunction,
-  OffthreadVideo,
   Sequence,
   interpolate,
   spring,
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
+import { Video as OffthreadVideo } from "@remotion/media";
 
 import { CinematicRendererProps, CinematicTone, CinematicVideoScene } from "./cinematic/types";
 import { CaptionOverlay } from "./components/CaptionOverlay";

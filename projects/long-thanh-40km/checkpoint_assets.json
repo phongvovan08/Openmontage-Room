@@ -1,0 +1,417 @@
+{
+  "version": "1.0",
+  "project_id": "long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "assets",
+  "status": "in_progress",
+  "timestamp": "2026-11-15T16:23:38.770094+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": false,
+  "artifacts": {
+    "asset_manifest": {
+      "version": "1.0",
+      "assets": [
+        {
+          "id": "narration-s1",
+          "type": "narration",
+          "path": "assets/audio/s1.mp3",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-01-distance-map",
+          "duration_seconds": 7.443,
+          "cost_usd": 0.0137,
+          "format": "mp3_44100_128",
+          "provider": "vibi",
+          "model": "minimax speech-2.8-hd",
+          "subtype": "section_narration",
+          "generation_summary": "Vibi/MiniMax Speech 2.8 HD, voice Haitrieu, speed 1.10, pitch 0. Vietnamese narration for script section s1.",
+          "voice_performance": {
+            "source_section_id": "s1",
+            "delivery_cues_applied": true,
+            "provider_text_used": true,
+            "provider_settings": {
+              "provider": "vibi",
+              "engine": "minimax",
+              "model_id": "speech-2.8-hd",
+              "voice_name": "Haitrieu",
+              "speed": 1.1,
+              "pitch": 0,
+              "vol": 1.0,
+              "language_code": "Vietnamese"
+            },
+            "sample_approved": true,
+            "sample_path": "assets/audio/sample-s3.mp3",
+            "review_notes": "Word-level alignment exported to assets/audio/s1.mp3.alignment.json; section SRT at assets/audio/s1.srt. Duration measured from the rendered file, not estimated from word count."
+          }
+        },
+        {
+          "id": "caption-s1",
+          "type": "subtitle",
+          "path": "assets/audio/s1.srt",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-01-distance-map",
+          "duration_seconds": 7.443,
+          "cost_usd": 0.0,
+          "format": "srt",
+          "provider": "vibi",
+          "subtype": "section_caption",
+          "generation_summary": "Native SRT transcript exported with the s1 narration, used to drive Remotion caption timing."
+        },
+        {
+          "id": "alignment-s1",
+          "type": "subtitle",
+          "path": "assets/audio/s1.mp3.alignment.json",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-01-distance-map",
+          "cost_usd": 0.0,
+          "format": "json",
+          "provider": "vibi",
+          "subtype": "word_alignment",
+          "generation_summary": "Word-level timestamps for s1 narration, consumed by the caption overlay."
+        },
+        {
+          "id": "narration-s2",
+          "type": "narration",
+          "path": "assets/audio/s2.mp3",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-02-phase-one-capacity",
+          "duration_seconds": 11.025,
+          "cost_usd": 0.0229,
+          "format": "mp3_44100_128",
+          "provider": "vibi",
+          "model": "minimax speech-2.8-hd",
+          "subtype": "section_narration",
+          "generation_summary": "Vibi/MiniMax Speech 2.8 HD, voice Haitrieu, speed 1.10, pitch 0. Vietnamese narration for script section s2.",
+          "voice_performance": {
+            "source_section_id": "s2",
+            "delivery_cues_applied": true,
+            "provider_text_used": true,
+            "provider_settings": {
+              "provider": "vibi",
+              "engine": "minimax",
+              "model_id": "speech-2.8-hd",
+              "voice_name": "Haitrieu",
+              "speed": 1.1,
+              "pitch": 0,
+              "vol": 1.0,
+              "language_code": "Vietnamese"
+            },
+            "sample_approved": true,
+            "sample_path": "assets/audio/sample-s3.mp3",
+            "review_notes": "Word-level alignment exported to assets/audio/s2.mp3.alignment.json; section SRT at assets/audio/s2.srt. Duration measured from the rendered file, not estimated from word count."
+          }
+        },
+        {
+          "id": "caption-s2",
+          "type": "subtitle",
+          "path": "assets/audio/s2.srt",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-02-phase-one-capacity",
+          "duration_seconds": 11.025,
+          "cost_usd": 0.0,
+          "format": "srt",
+          "provider": "vibi",
+          "subtype": "section_caption",
+          "generation_summary": "Native SRT transcript exported with the s2 narration, used to drive Remotion caption timing."
+        },
+        {
+          "id": "alignment-s2",
+          "type": "subtitle",
+          "path": "assets/audio/s2.mp3.alignment.json",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-02-phase-one-capacity",
+          "cost_usd": 0.0,
+          "format": "json",
+          "provider": "vibi",
+          "subtype": "word_alignment",
+          "generation_summary": "Word-level timestamps for s2 narration, consumed by the caption overlay."
+        },
+        {
+          "id": "narration-s3",
+          "type": "narration",
+          "path": "assets/audio/s3.mp3",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-03-three-phase-capacity",
+          "duration_seconds": 13.851,
+          "cost_usd": 0.0266,
+          "format": "mp3_44100_128",
+          "provider": "vibi",
+          "model": "minimax speech-2.8-hd",
+          "subtype": "section_narration",
+          "generation_summary": "Vibi/MiniMax Speech 2.8 HD, voice Haitrieu, speed 1.10, pitch 0. Vietnamese narration for script section s3.",
+          "voice_performance": {
+            "source_section_id": "s3",
+            "delivery_cues_applied": true,
+            "provider_text_used": true,
+            "provider_settings": {
+              "provider": "vibi",
+              "engine": "minimax",
+              "model_id": "speech-2.8-hd",
+              "voice_name": "Haitrieu",
+              "speed": 1.1,
+              "pitch": 0,
+              "vol": 1.0,
+              "language_code": "Vietnamese"
+            },
+            "sample_approved": true,
+            "sample_path": "assets/audio/sample-s3.mp3",
+            "review_notes": "Word-level alignment exported to assets/audio/s3.mp3.alignment.json; section SRT at assets/audio/s3.srt. Duration measured from the rendered file, not estimated from word count."
+          }
+        },
+        {
+          "id": "caption-s3",
+          "type": "subtitle",
+          "path": "assets/audio/s3.srt",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-03-three-phase-capacity",
+          "duration_seconds": 13.851,
+          "cost_usd": 0.0,
+          "format": "srt",
+          "provider": "vibi",
+          "subtype": "section_caption",
+          "generation_summary": "Native SRT transcript exported with the s3 narration, used to drive Remotion caption timing."
+        },
+        {
+          "id": "alignment-s3",
+          "type": "subtitle",
+          "path": "assets/audio/s3.mp3.alignment.json",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-03-three-phase-capacity",
+          "cost_usd": 0.0,
+          "format": "json",
+          "provider": "vibi",
+          "subtype": "word_alignment",
+          "generation_summary": "Word-level timestamps for s3 narration, consumed by the caption overlay."
+        },
+        {
+          "id": "narration-s4",
+          "type": "narration",
+          "path": "assets/audio/s4.mp3",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-04-land-use-ledger",
+          "duration_seconds": 11.098,
+          "cost_usd": 0.0212,
+          "format": "mp3_44100_128",
+          "provider": "vibi",
+          "model": "minimax speech-2.8-hd",
+          "subtype": "section_narration",
+          "generation_summary": "Vibi/MiniMax Speech 2.8 HD, voice Haitrieu, speed 1.10, pitch 0. Vietnamese narration for script section s4.",
+          "voice_performance": {
+            "source_section_id": "s4",
+            "delivery_cues_applied": true,
+            "provider_text_used": true,
+            "provider_settings": {
+              "provider": "vibi",
+              "engine": "minimax",
+              "model_id": "speech-2.8-hd",
+              "voice_name": "Haitrieu",
+              "speed": 1.1,
+              "pitch": 0,
+              "vol": 1.0,
+              "language_code": "Vietnamese"
+            },
+            "sample_approved": true,
+            "sample_path": "assets/audio/sample-s3.mp3",
+            "review_notes": "Word-level alignment exported to assets/audio/s4.mp3.alignment.json; section SRT at assets/audio/s4.srt. Duration measured from the rendered file, not estimated from word count."
+          }
+        },
+        {
+          "id": "caption-s4",
+          "type": "subtitle",
+          "path": "assets/audio/s4.srt",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-04-land-use-ledger",
+          "duration_seconds": 11.098,
+          "cost_usd": 0.0,
+          "format": "srt",
+          "provider": "vibi",
+          "subtype": "section_caption",
+          "generation_summary": "Native SRT transcript exported with the s4 narration, used to drive Remotion caption timing."
+        },
+        {
+          "id": "alignment-s4",
+          "type": "subtitle",
+          "path": "assets/audio/s4.mp3.alignment.json",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-04-land-use-ledger",
+          "cost_usd": 0.0,
+          "format": "json",
+          "provider": "vibi",
+          "subtype": "word_alignment",
+          "generation_summary": "Word-level timestamps for s4 narration, consumed by the caption overlay."
+        },
+        {
+          "id": "narration-s5",
+          "type": "narration",
+          "path": "assets/audio/s5.mp3",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-05-operator-claims",
+          "duration_seconds": 12.479,
+          "cost_usd": 0.0239,
+          "format": "mp3_44100_128",
+          "provider": "vibi",
+          "model": "minimax speech-2.8-hd",
+          "subtype": "section_narration",
+          "generation_summary": "Vibi/MiniMax Speech 2.8 HD, voice Haitrieu, speed 1.10, pitch 0. Vietnamese narration for script section s5.",
+          "voice_performance": {
+            "source_section_id": "s5",
+            "delivery_cues_applied": true,
+            "provider_text_used": true,
+            "provider_settings": {
+              "provider": "vibi",
+              "engine": "minimax",
+              "model_id": "speech-2.8-hd",
+              "voice_name": "Haitrieu",
+              "speed": 1.1,
+              "pitch": 0,
+              "vol": 1.0,
+              "language_code": "Vietnamese"
+            },
+            "sample_approved": true,
+            "sample_path": "assets/audio/sample-s3.mp3",
+            "review_notes": "Word-level alignment exported to assets/audio/s5.mp3.alignment.json; section SRT at assets/audio/s5.srt. Duration measured from the rendered file, not estimated from word count."
+          }
+        },
+        {
+          "id": "caption-s5",
+          "type": "subtitle",
+          "path": "assets/audio/s5.srt",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-05-operator-claims",
+          "duration_seconds": 12.479,
+          "cost_usd": 0.0,
+          "format": "srt",
+          "provider": "vibi",
+          "subtype": "section_caption",
+          "generation_summary": "Native SRT transcript exported with the s5 narration, used to drive Remotion caption timing."
+        },
+        {
+          "id": "alignment-s5",
+          "type": "subtitle",
+          "path": "assets/audio/s5.mp3.alignment.json",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-05-operator-claims",
+          "cost_usd": 0.0,
+          "format": "json",
+          "provider": "vibi",
+          "subtype": "word_alignment",
+          "generation_summary": "Word-level timestamps for s5 narration, consumed by the caption overlay."
+        },
+        {
+          "id": "narration-s6",
+          "type": "narration",
+          "path": "assets/audio/s6.mp3",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-06-distance-tradeoff-close",
+          "duration_seconds": 13.997,
+          "cost_usd": 0.0268,
+          "format": "mp3_44100_128",
+          "provider": "vibi",
+          "model": "minimax speech-2.8-hd",
+          "subtype": "section_narration",
+          "generation_summary": "Vibi/MiniMax Speech 2.8 HD, voice Haitrieu, speed 1.10, pitch 0. Vietnamese narration for script section s6.",
+          "voice_performance": {
+            "source_section_id": "s6",
+            "delivery_cues_applied": true,
+            "provider_text_used": true,
+            "provider_settings": {
+              "provider": "vibi",
+              "engine": "minimax",
+              "model_id": "speech-2.8-hd",
+              "voice_name": "Haitrieu",
+              "speed": 1.1,
+              "pitch": 0,
+              "vol": 1.0,
+              "language_code": "Vietnamese"
+            },
+            "sample_approved": true,
+            "sample_path": "assets/audio/sample-s3.mp3",
+            "review_notes": "Word-level alignment exported to assets/audio/s6.mp3.alignment.json; section SRT at assets/audio/s6.srt. Duration measured from the rendered file, not estimated from word count."
+          }
+        },
+        {
+          "id": "caption-s6",
+          "type": "subtitle",
+          "path": "assets/audio/s6.srt",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-06-distance-tradeoff-close",
+          "duration_seconds": 13.997,
+          "cost_usd": 0.0,
+          "format": "srt",
+          "provider": "vibi",
+          "subtype": "section_caption",
+          "generation_summary": "Native SRT transcript exported with the s6 narration, used to drive Remotion caption timing."
+        },
+        {
+          "id": "alignment-s6",
+          "type": "subtitle",
+          "path": "assets/audio/s6.mp3.alignment.json",
+          "source_tool": "vibi_tts",
+          "scene_id": "scene-06-distance-tradeoff-close",
+          "cost_usd": 0.0,
+          "format": "json",
+          "provider": "vibi",
+          "subtype": "word_alignment",
+          "generation_summary": "Word-level timestamps for s6 narration, consumed by the caption overlay."
+        }
+      ],
+      "total_cost_usd": 0.1351,
+      "metadata": {
+        "project_id": "long-thanh-40km",
+        "narration": {
+          "sections": 6,
+          "total_duration_seconds": 69.893,
+          "planned_duration_seconds": 73.193,
+          "variance_seconds": 3.3,
+          "note": "User approved keeping Vibi Haitrieu at 1.10x and timing visuals to measured audio. Six narration files total 69.893s. The 73.193s timeline includes 1.7s across inter-section breathing holds plus a 1.6s closing hold. Scene boundaries are derived from each section duration; no narration is stretched or slowed.",
+          "runtime_seconds": 73.193
+        },
+        "music_status": "unavailable",
+        "music_unavailable_reason": "No licensed music source is reachable: pixabay_music search returns HTTP 403 (Pixabay blocks the scraper); music_gen, suno_music, fal_elevenlabs_music, elevenlabs_soundtrack and google_music are all UNAVAILABLE because no provider API key is configured; freesound_music is UNAVAILABLE; no local music_library/ folder exists in this workspace. No placeholder track was substituted.",
+        "music_mitigation_options": [
+          "Configure a music provider API key (ELEVENLABS_API_KEY or FAL_KEY) and re-run the music step.",
+          "Provide a licensed track in a music_library/ folder for the project.",
+          "Ship without a background bed; the narration and authored visuals carry the piece, which suits the documentary register."
+        ],
+        "image_status": "not_required",
+        "image_note": "pixabay_image is UNAVAILABLE (no PIXABAY_API_KEY) and would only have provided an optional surface texture. Per the art direction, every primary visual is an authored vector diagram or motion graphic rendered in Remotion, so no raster image generation is needed.",
+        "visual_assets_status": "pending_compose",
+        "visual_assets_note": "The six scene visuals are authored Remotion compositions built during the compose stage, not generated image files. Per-scene review stills are rendered to projects/long-thanh-40km/snapshots/ for this assets-gate review.",
+        "cost_breakdown": {
+          "vibi_tts_narration": 0.1351,
+          "pixabay_music": 0.0,
+          "pixabay_image": 0.0,
+          "music_gen": 0.0
+        },
+        "approved_budget_usd": 0.2,
+        "remaining_budget_usd": 0.0649,
+        "runtime_decision": "measured_natural_speed",
+        "user_approved_runtime": "~73 seconds, natural 1.10x narration"
+      }
+    }
+  },
+  "style_playbook": "minimalist-diagram",
+  "cost_snapshot": {
+    "spent_usd": 0.1351,
+    "approved_budget_usd": 0.2,
+    "remaining_usd": 0.0649
+  },
+  "metadata": {
+    "partial_progress": {
+      "completed_narration_sections": 6,
+      "narration_duration_seconds": 69.893,
+      "completed_scene_review_stills": [
+        "scene-01-distance-map",
+        "scene-02-phase-one-capacity",
+        "scene-03-three-phase-capacity",
+        "scene-04-land-use-ledger",
+        "scene-05-operator-claims",
+        "scene-06-distance-tradeoff-close"
+      ],
+      "music_status": "unavailable",
+      "music_unavailable_reason": "No licensed music source is reachable: pixabay_music search returns HTTP 403 (Pixabay blocks the scraper); music_gen, suno_music, fal_elevenlabs_music, elevenlabs_soundtrack and google_music are all UNAVAILABLE because no provider API key is configured; freesound_music is UNAVAILABLE; no local music_library/ folder exists in this workspace. No placeholder track was substituted.",
+      "visual_review_status": "pending_human_visual_inspection",
+      "note": "All six narration assets and six scene review stills exist. Still content strings and PNG validity were checked programmatically, but the images could not be viewed in this session; do not advance to compose until a human reviews the filmstrip."
+    }
+  }
+}

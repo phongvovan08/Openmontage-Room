@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "title": "40 km, và cái đổi lại",
+  "total_duration_seconds": 92,
+  "voice_performance": {
+    "performance_intent": "Người dẫn chuyện tài liệu đang lật từng trang hồ sơ cho khán giả. Không bán hàng, không hô hào. Đọc dữ kiện rõ ràng, điềm tĩnh; mỗi con số quan trọng có một nhịp nghỉ để người xem kịp tiếp nhận.",
+    "pacing_profile": "conversational",
+    "energy_curve": "Mở bằng một câu hỏi ngắn. Giữ nhịp điềm tĩnh qua các số liệu công suất và diện tích. Tăng nhẹ ở phần lợi ích vận hành được ACV nêu, rồi hạ giọng ở kết luận.",
+    "pause_policy": "Nghỉ khoảng 0.5 giây sau số liệu lớn; nghỉ 0.8 giây trước câu hỏi mở đầu và câu kết. Không ngắt vụn giữa các mệnh đề ngắn.",
+    "sample_section_id": "s3",
+    "provider_notes": {
+      "vibi": "Giọng Haitrieu, MiniMax Speech 2.8 HD, speed 1.10, pitch 0. Đọc các câu liền mạch, không diễn quá mức.",
+      "language": "Lời dẫn tiếng Việt tự nhiên; phát âm rõ Tân Sơn Nhất, Long Thành, Đồng Nai.",
+      "numbers": "Viết số trong lời đọc bằng chữ để TTS phát âm chính xác."
+    }
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "label": "Hook",
+      "text": "Long Thành cách trung tâm TP.HCM khoảng bốn mươi cây số. Tân Sơn Nhất chỉ tám đến mười. Khoảng cách ấy đổi lại điều gì?",
+      "start_seconds": 0,
+      "end_seconds": 8,
+      "speaker_directions": "Đặt hai khoảng cách ngang nhau, không vội giải thích. Câu cuối hạ giọng, như mở một câu hỏi cần trả lời.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "curious, restrained",
+        "emphasis_words": ["bốn mươi", "tám đến mười", "đổi lại"],
+        "pause_after_seconds": 0.6,
+        "delivery_note": "Tách hai khoảng cách bằng một nhịp ngắn; không làm giọng giật gân.",
+        "provider_text": "Long Thành cách trung tâm TP.HCM khoảng bốn mươi cây số. Tân Sơn Nhất chỉ tám đến mười. Khoảng cách ấy đổi lại điều gì?"
+      },
+      "enhancement_cues": [
+        { "type": "animation", "description": "Mở bằng bản đồ vùng giản lược, đặt trung tâm TP.HCM, Tân Sơn Nhất và Long Thành ở Đồng Nai. Vẽ hai đường đo có tỷ lệ tương đối đúng; không ám chỉ hai đường là cùng loại cự ly nếu chưa xác minh.", "timestamp_seconds": 0 },
+        { "type": "overlay", "description": "Nhãn khoảng cách '40 km' và '8–10 km', kèm chú thích nhỏ 'theo ACV / Báo Chính phủ'.", "timestamp_seconds": 3 }
+      ],
+      "source_ref": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm (ACV nêu khoảng cách Long Thành khoảng 40 km, Tân Sơn Nhất 8–10 km)"
+    },
+    {
+      "id": "s2",
+      "label": "Quy mô giai đoạn một",
+      "text": "Câu trả lời nằm ở quy mô. Giai đoạn một được thiết kế cho hai mươi lăm triệu lượt khách và một phẩy hai triệu tấn hàng hóa mỗi năm. Đây là công suất thiết kế, không phải lượng khách ngày khai trương.",
+      "start_seconds": 8,
+      "end_seconds": 24,
+      "speaker_directions": "Giọng chắc, đọc rõ hai thông số. Nhấn cụm 'công suất thiết kế' để phân biệt với sản lượng khai thác thực tế.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "factual",
+        "emphasis_words": ["hai mươi lăm triệu", "một phẩy hai triệu", "công suất thiết kế"],
+        "pause_after_seconds": 0.5,
+        "delivery_note": "Phân tách lượng hành khách và hàng hóa bằng một nhịp rõ; không gộp hai số thành một đại lượng.",
+        "provider_text": "Câu trả lời nằm ở quy mô. Giai đoạn một được thiết kế cho hai mươi lăm triệu lượt khách và một phẩy hai triệu tấn hàng hóa mỗi năm. Đây là công suất thiết kế, không phải lượng khách ngày khai trương."
+      },
+      "enhancement_cues": [
+        { "type": "stat_card", "description": "Mặt bằng sơ đồ nhà ga tối giản chuyển thành hai con số tách biệt: 25 triệu lượt khách/năm và 1,2 triệu tấn hàng hóa/năm. Nhãn 'thiết kế giai đoạn 1'.", "timestamp_seconds": 9 },
+        { "type": "overlay", "description": "Chú thích cố định 'công suất thiết kế, không phải sản lượng thực tế' trong suốt cảnh số liệu.", "timestamp_seconds": 18 }
+      ],
+      "source_ref": "https://baochinhphu.vn/thu-tuong-san-bay-long-thanh-phai-hoan-thanh-trong-nam-2025-khong-the-cham-hon-102241203111257112.htm (giai đoạn 1: 25 triệu lượt khách và 1,2 triệu tấn hàng hóa mỗi năm)"
+    },
+    {
+      "id": "s3",
+      "label": "Đích quy hoạch",
+      "text": "Một trăm triệu khách mỗi năm là công suất thiết kế sau cả ba giai đoạn, không phải giai đoạn một. T3 Tân Sơn Nhất được thiết kế cho hai mươi triệu. Nhưng một số là toàn sân bay, số kia là một nhà ga: không so như cùng phạm vi được.",
+      "start_seconds": 24,
+      "end_seconds": 43,
+      "speaker_directions": "Đọc 'sau khi hoàn thành cả ba giai đoạn' thật rõ. Hạ nhịp ở câu cuối để nói thẳng giới hạn của phép so sánh.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "precise, explanatory",
+        "emphasis_words": ["một trăm triệu", "cả ba giai đoạn", "một nhà ga", "không phải hai con số cùng phạm vi"],
+        "pause_after_seconds": 0.7,
+        "delivery_note": "Không đọc 'gấp năm lần'. Nêu phạm vi của mỗi con số để tránh so sánh sai giữa sân bay và nhà ga.",
+        "provider_text": "Một trăm triệu khách mỗi năm là công suất thiết kế sau cả ba giai đoạn, không phải giai đoạn một. T3 Tân Sơn Nhất được thiết kế cho hai mươi triệu. Nhưng một số là toàn sân bay, số kia là một nhà ga: không so như cùng phạm vi được."
+      },
+      "enhancement_cues": [
+        { "type": "animation", "description": "Ba khối giai đoạn hiện nối tiếp nhau, tổng cuối là 100 triệu/năm. Bên cạnh đó hiện riêng một khung 'T3: thiết kế 20 triệu/năm'. Đặt nhãn phạm vi 'toàn sân bay, sau 3 giai đoạn' và 'một nhà ga' ở cỡ chữ đọc được.", "timestamp_seconds": 25 },
+        { "type": "overlay", "description": "Cảnh báo so sánh nhỏ nhưng rõ: 'Khác phạm vi thống kê: Long Thành toàn sân bay / T3 một nhà ga'.", "timestamp_seconds": 36 }
+      ],
+      "source_ref": "https://en.baochinhphu.vn/long-thanh-intl-airport-set-for-commercial-launch-by-late-2026-111260330102151795.htm (100 triệu hành khách sau ba giai đoạn); https://baochinhphu.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-kiem-tra-tien-do-du-an-san-bay-long-thanh-va-cao-toc-tphcm-long-thanh-dau-giay-102260523190527671.htm (T3 thiết kế 20 triệu/năm)"
+    },
+    {
+      "id": "s4",
+      "label": "Diện tích quy hoạch",
+      "text": "Quy hoạch cần khoảng năm nghìn hécta. Quyết định năm 2025 chia thành ba nghìn chín trăm năm mươi hécta dân dụng, bốn trăm tám mươi hécta dùng chung, và năm trăm bảy mươi hécta quân sự.",
+      "start_seconds": 43,
+      "end_seconds": 59,
+      "speaker_directions": "Đọc như một trích dẫn hồ sơ. Nêu đủ ba phần để tổng thể không bị hiểu nhầm là toàn bộ đất dân dụng.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "documentary, neutral",
+        "emphasis_words": ["năm nghìn hécta", "dùng chung", "quân sự"],
+        "pause_after_seconds": 0.5,
+        "delivery_note": "Đọc ba phần cùng nhịp; tránh tạo cảm giác chỉ một đơn vị quản lý toàn bộ diện tích.",
+        "provider_text": "Quy hoạch cần khoảng năm nghìn hécta. Quyết định năm 2025 chia thành ba nghìn chín trăm năm mươi hécta dân dụng, bốn trăm tám mươi hécta dùng chung, và năm trăm bảy mươi hécta quân sự."
+      },
+      "enhancement_cues": [
+        { "type": "diagram", "description": "Một thanh diện tích chia đúng tỷ lệ thành ba phần 3.950 ha hàng không dân dụng, 480 ha dùng chung, 570 ha quân sự. Ghi tổng khoảng 5.000 ha; tránh bản đồ ranh giới nếu không có bản đồ quy hoạch gốc.", "timestamp_seconds": 45 },
+        { "type": "overlay", "description": "Ghi nguồn 'Quyết định 562/QĐ-BXD, 09/05/2025, Điều 1'.", "timestamp_seconds": 55 }
+      ],
+      "source_ref": "Quyết định 562/QĐ-BXD ngày 09/05/2025, Điều 1: tổng khoảng 5.000 ha, gồm 3.950 ha dân dụng, 480 ha dùng chung, 570 ha quân sự"
+    },
+    {
+      "id": "s5",
+      "label": "Lợi ích được viện dẫn",
+      "text": "Vậy điều gì bù cho quãng đường xa? Theo ACV, tách khu dân cư cho phép khai thác hai mươi bốn giờ, giảm hạn chế bay đêm và tiếng ồn nội đô. Đó là lợi ích chủ đầu tư nêu, không phải cam kết về thời gian đi lại.",
+      "start_seconds": 59,
+      "end_seconds": 79,
+      "speaker_directions": "Tăng nhẹ sự chú ý ở câu hỏi, sau đó phân biệt rõ các lợi ích là lập luận của ACV. Không khẳng định kết quả giao thông tương lai.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "curious, then qualified",
+        "emphasis_words": ["Theo lập luận của ACV", "hai mươi bốn giờ", "được chủ đầu tư viện dẫn"],
+        "pause_after_seconds": 0.5,
+        "delivery_note": "Đọc nhãn quy thuộc 'Theo lập luận của ACV' đủ rõ trước khi nêu lợi ích. Câu cuối trung tính, không phủ định cũng không bảo chứng.",
+        "provider_text": "Vậy điều gì bù cho quãng đường xa? Theo ACV, tách khu dân cư cho phép khai thác hai mươi bốn giờ, giảm hạn chế bay đêm và tiếng ồn nội đô. Đó là lợi ích chủ đầu tư nêu, không phải cam kết về thời gian đi lại."
+      },
+      "enhancement_cues": [
+        { "type": "animation", "description": "Một vòng đồng hồ 24 giờ mở ra thành sơ đồ đường bay ngày/đêm; nhãn 'khả năng khai thác theo ACV'. Tránh mô phỏng Tân Sơn Nhất bị cấm bay đêm tuyệt đối.", "timestamp_seconds": 61 },
+        { "type": "overlay", "description": "Lower-third 'Lập luận của ACV' giữ trên màn hình trong toàn bộ các lợi ích được nêu.", "timestamp_seconds": 68 }
+      ],
+      "source_ref": "https://baochinhphu.vn/de-xuat-chuyen-toan-bo-chuyen-bay-quoc-te-ve-san-bay-long-thanh-102250812144928916.htm (ACV nêu khả năng khai thác 24/7, tách khu dân cư, giảm tiếng ồn và kết nối vùng)"
+    },
+    {
+      "id": "s6",
+      "label": "Kết",
+      "text": "Bốn mươi cây số vẫn là bất tiện. Đổi lại là một sân bay được quy hoạch cho quy mô lớn hơn, khai thác được cả ngày đêm. Long Thành dự kiến khai thác thương mại trong năm 2026. Chuyến của bạn chuyển khi nào, đó là câu chuyện tiếp theo.",
+      "start_seconds": 79,
+      "end_seconds": 92,
+      "speaker_directions": "Lắng xuống ở câu đầu, không kết luận thay người xem. Mốc ngày đọc chính xác; câu cuối mở đường cho tập tiếp theo.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "quiet, conclusive",
+        "emphasis_words": ["bất tiện", "ngày đêm", "khai thác thương mại"],
+        "pause_before_seconds": 0.3,
+        "pause_after_seconds": 0.6,
+        "delivery_note": "Nêu khoảng cách như một đánh đổi chứ không gạt bỏ bất tiện. Giữ mốc ngày ở nhãn màn hình; lời đọc chỉ nêu năm 2026 để vừa thời lượng.",
+        "provider_text": "Bốn mươi cây số vẫn là bất tiện. Đổi lại là một sân bay được quy hoạch cho quy mô lớn hơn, khai thác được cả ngày đêm. Long Thành dự kiến khai thác thương mại trong năm 2026. Chuyến của bạn chuyển khi nào, đó là câu chuyện tiếp theo."
+      },
+      "enhancement_cues": [
+        { "type": "overlay", "description": "Mốc dự kiến '01/12/2026 — khai thác thương mại' hiện cùng chú thích nguồn chính thức.", "timestamp_seconds": 82 },
+        { "type": "animation", "description": "Ba mốc chuyển đổi khai thác hiện nhẹ ở cuối khung: 12/2026, Hè 2027, Đông 2027–2028; không giải thích chi tiết, làm nhịp cầu sang tập tiếp theo.", "timestamp_seconds": 87 }
+      ],
+      "source_ref": "https://baochinhphu.vn/lo-trinh-chuyen-doi-khai-thac-2-san-bay-long-thanh-va-tan-son-nhat-tu-1-12-2026-102260728153635254.htm (dự kiến khai thác thương mại từ 01/12/2026; chuyển đổi theo ba bước)"
+    }
+  ],
+  "metadata": {
+    "project_id": "long-thanh-40km",
+    "pipeline": "animated-explainer",
+    "language": "vi",
+    "output_format": "youtube_landscape",
+    "resolution": "1920x1080",
+    "concept_id": "c1",
+    "word_count": 257,
+    "narration_budget_note": "257 không gian-tách từ tiếng Việt trong 92 giây. Đây chỉ là chỉ số tham khảo; thời lượng thực tế cần đo từ file TTS và timeline phải căn theo audio, không suy ra trực tiếp từ số từ.",
+    "fact_audit": [
+      "40 km và 8–10 km được quy thuộc cho lập luận của ACV; không nói đây là lịch sử chọn địa điểm.",
+      "T3: 20 triệu/năm là công suất thiết kế của nhà ga T3; 71% là mức khai thác được báo cáo, không dùng để kết luận toàn sân bay đã đầy.",
+      "Long Thành giai đoạn một: 25 triệu lượt khách và 1,2 triệu tấn hàng hóa/năm.",
+      "100 triệu lượt khách/năm chỉ là công suất thiết kế sau ba giai đoạn.",
+      "Không so sánh 100 triệu của toàn sân bay với 20 triệu của một nhà ga như cùng phạm vi.",
+      "Diện tích khoảng 5.000 ha chia thành 3.950 ha dân dụng, 480 ha dùng chung và 570 ha quân sự.",
+      "Khai thác 24/7 và lợi ích tiếng ồn được trình bày như lập luận của ACV, không phải kết quả đã đo.",
+      "Mốc 01/12/2026 được gọi là dự kiến khai thác thương mại theo công bố, không khẳng định sân bay đã khai trương."
+    ],
+    "known_limitations": [
+      "Nguồn đã đọc chưa xác lập lý do lịch sử chọn vị trí Long Thành vào giai đoạn 2011–2015; kịch bản không khẳng định lý do đó.",
+      "Không có số liệu độc lập về thời gian và chi phí di chuyển thực tế từ TP.HCM đến Long Thành; không tuyên bố tuyến đường hiện đã bảo đảm thời gian cụ thể.",
+      "vidIQ không khả dụng trong phiên này; volume từ khóa và cạnh tranh chưa được kiểm tra."
+    ],
+    "caption_policy": "Phụ đề đầy đủ ở đáy khung; chữ số trên đồ họa chỉ xuất hiện khi chúng bổ sung ngữ cảnh, không chồng lặp câu dài."
+  }
+}

@@ -1,0 +1,12 @@
+1
+00:00:00,108 --> 00:00:01,636
+Câu trả lời nằm ở quy mô.
+
+2
+00:00:02,071 --> 00:00:07,454
+Giai đoạn một được thiết kế cho hai mươi lăm triệu lượt khách và một phẩy hai triệu tấn hàng hóa mỗi năm.
+
+3
+00:00:07,907 --> 00:00:10,872
+Đây là công suất thiết kế, không phải lượng khách ngày khai trương.
+

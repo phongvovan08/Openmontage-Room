@@ -1,0 +1,452 @@
+{
+  "version": "1.0",
+  "project_id": "demo-giai-ma-ban-do-90s",
+  "pipeline_type": "animated-explainer",
+  "stage": "scene_plan",
+  "status": "awaiting_human",
+  "timestamp": "2026-11-15T17:28:50.951075+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": false,
+  "artifacts": {
+    "scene_plan": {
+      "version": "1.0",
+      "style_playbook": "clean-professional",
+      "scenes": [
+        {
+          "id": "scene_01",
+          "type": "diagram",
+          "description": "C\u00fa m\u00e1y 1 (overview): B\u1ea3n \u0111\u1ed3 vector to\u00e0n c\u1ea3nh l\u00e3nh th\u1ed5 v\u00e0 v\u00f9ng bi\u1ec3n Vi\u1ec7t Nam tr\u00ean n\u1ec1n h\u1ea3i \u0111\u1ed3 ch\u00e0m s\u00e2u (#071320), hi\u1ec3n th\u1ecb \u0111\u1ea7y \u0111\u1ee7 Qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa v\u00e0 Qu\u1ea7n \u0111\u1ea3o Tr\u01b0\u1eddng Sa (#E2E8F0), \u0111i\u1ec3m s\u00e1ng \u0111\u1ecbnh v\u1ecb H\u1ea3i Ph\u00f2ng \u1edf mi\u1ec1n B\u1eafc v\u00e0 tuy\u1ebfn h\u1ea3i tr\u00ecnh xu\u1ea5t kh\u1ea9u \u0111i M\u1ef9 - \u00c2u b\u1ecb ch\u1eb7n l\u1ea1i ngo\u00e0i c\u1eeda v\u1ecbnh B\u1eafc B\u1ed9. [5-Aspect | Subject: B\u1ea3n \u0111\u1ed3 Vi\u1ec7t Nam + Ho\u00e0ng Sa & Tr\u01b0\u1eddng Sa + n\u00fat H\u1ea3i Ph\u00f2ng; Subject Motion: \u0110\u01b0\u1eddng b\u1edd bi\u1ec3n v\u1ebd s\u00e1ng tu\u1ea7n t\u1ef1, v\u00f2ng s\u00f3ng ping m\u1edf t\u1ea1i H\u1ea3i Ph\u00f2ng, \u0111\u01b0\u1eddng h\u1ea3i tr\u00ecnh n\u00e9t \u0111\u1ee9t d\u1eebng \u1edf c\u1eeda v\u1ecbnh; Scene: N\u1ec1n h\u1ea3i \u0111\u1ed3 #071320, \u0111\u1ea5t li\u1ec1n #16293D, vi\u1ec1n #38BDF8; Spatial Framing: Khung to\u00e0n c\u1ea3nh c\u00e2n \u0111\u1ed1i 16:9, Vi\u1ec7t Nam b\u00ean tr\u00e1i-gi\u1eefa, Bi\u1ec3n \u0110\u00f4ng v\u00e0 hai qu\u1ea7n \u0111\u1ea3o b\u00ean ph\u1ea3i; Camera: Dolly-in nh\u1eb9 1.00 -> 1.06 theo t\u00e2m v\u1ecbnh B\u1eafc B\u1ed9].",
+          "start_seconds": 0.0,
+          "end_seconds": 11.5,
+          "script_section_id": "s1",
+          "framing": "16:9 full-frame hydrographic map overview; Vi\u1ec7t Nam \u1edf tr\u1ee5c 1/3 tr\u00e1i, Bi\u1ec3n \u0110\u00f4ng c\u00f9ng Qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa v\u00e0 Tr\u01b0\u1eddng Sa tr\u1ecdn v\u1eb9n b\u00ean ph\u1ea3i trong v\u00f9ng an to\u00e0n",
+          "movement": "Slow orthographic dolly-in (scale 1.00 -> 1.06) k\u00e8m s\u00f3ng radar lan t\u1ecfa t\u1ea1i H\u1ea3i Ph\u00f2ng",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "overlay_notes": "G\u00f3c tr\u00ean tr\u00e1i (safe zone): Ti\u00eau \u0111\u1ec1 'V\u00cc SAO C\u1ea2NG H\u1ea2I PH\u00d2NG PH\u1ea2I V\u01af\u1ee2T BI\u1ec2N?'; Nh\u00e3n \u0111\u1ecba danh t\u00e1ch l\u1edbp: 'H\u1ea2I PH\u00d2NG', 'QU\u1ea6N \u0110\u1ea2O HO\u00c0NG SA', 'QU\u1ea6N \u0110\u1ea2O TR\u01af\u1edcNG SA', 'BI\u1ec2N \u0110\u00d4NG'.",
+          "shot_language": {
+            "shot_size": "establishing",
+            "camera_movement": "dolly_in",
+            "lens_mm": 24,
+            "lighting_key": "low_key",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "X\u00e1c l\u1eadp b\u1ed1i c\u1ea3nh \u0111\u1ecba l\u00fd qu\u1ed1c gia, b\u1ea3o \u0111\u1ea3m chu\u1ea9n m\u1ef1c ch\u1ee7 quy\u1ec1n Ho\u00e0ng Sa - Tr\u01b0\u1eddng Sa ngay khung \u0111\u1ea7u ti\u00ean v\u00e0 m\u1edf ra ngh\u1ecbch l\u00fd c\u1ea3ng tr\u0103m tu\u1ed5i mi\u1ec1n B\u1eafc.",
+          "narrative_role": "establish_context",
+          "information_role": "Ng\u01b0\u1eddi xem \u0111\u1ecbnh v\u1ecb \u0111\u01b0\u1ee3c H\u1ea3i Ph\u00f2ng n\u1eb1m s\u00e2u trong \u0111\u00e1y v\u1ecbnh B\u1eafc B\u1ed9 so v\u1edbi tr\u1ee5c h\u00e0ng h\u1ea3i qu\u1ed1c t\u1ebf tr\u00ean Bi\u1ec3n \u0110\u00f4ng.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "clean",
+            "nautical-grid",
+            "crisp-vector"
+          ],
+          "required_assets": [
+            {
+              "type": "geojson_map",
+              "description": "D\u1eef li\u1ec7u vector bi\u00ean gi\u1edbi, b\u1edd bi\u1ec3n Vi\u1ec7t Nam v\u00e0 t\u1ecda \u0111\u1ed9 Qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa, Tr\u01b0\u1eddng Sa tr\u00ean b\u1ea3ng m\u00e0u h\u1ea3i \u0111\u1ed3 #071320 / #38BDF8",
+              "source": "source"
+            },
+            {
+              "type": "audio_narration",
+              "description": "Gi\u1ecdng \u0111\u1ecdc Vibi TTS (Haitrieu) \u0111o\u1ea1n s1 ph\u1ea7n m\u1edf \u0111\u1ea7u",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene_02",
+          "type": "animation",
+          "description": "C\u00fa m\u00e1y 2 (zoom): Camera thu ph\u00f3ng m\u01b0\u1ee3t theo ph\u00e9p chi\u1ebfu Mercator 16:9 t\u1eeb to\u00e0n mi\u1ec1n B\u1eafc Vi\u1ec7t Nam lao v\u00e0o chi ti\u1ebft c\u1eeda s\u00f4ng B\u1ea1ch \u0110\u1eb1ng - S\u00f4ng C\u1ea5m - b\u00e1n \u0111\u1ea3o \u0110\u00ecnh V\u0169 v\u00e0 \u0111\u1ea3o C\u00e1t H\u1ea3i m\u00e0 kh\u00f4ng nh\u1ea3y t\u1ecda \u0111\u1ed9. [5-Aspect | Subject: Khung bao \u0111\u1ecba l\u00fd c\u1eeda bi\u1ec3n H\u1ea3i Ph\u00f2ng - C\u00e1t H\u1ea3i; Subject Motion: Khung camera n\u1ed9i suy m\u01b0\u1ee3t (smoothstep) t\u1eeb kinh v\u0129 \u0111\u1ed9 mi\u1ec1n B\u1eafc xu\u1ed1ng v\u00f9ng c\u1eeda s\u00f4ng H\u1ea3i Ph\u00f2ng, l\u00e0m l\u1ed9 r\u00f5 m\u1ea1ng l\u01b0\u1edbi s\u00f4ng C\u1ea5m u\u1ed1n kh\u00fac s\u00e2u trong \u0111\u1ea5t li\u1ec1n; Scene: H\u1ea3i \u0111\u1ed3 chi ti\u1ebft c\u1ea5p v\u00f9ng 10m v\u1edbi l\u01b0\u1edbi kinh v\u0129 \u0111\u1ed9 m\u1edd; Spatial Framing: C\u1ee5m c\u1ea3ng c\u0169 s\u00f4ng C\u1ea5m \u1edf g\u00f3c tr\u00ean tr\u00e1i, \u0111\u1ea3o C\u00e1t H\u1ea3i v\u00e0 c\u1eeda bi\u1ec3n \u1edf g\u00f3c d\u01b0\u1edbi ph\u1ea3i; Camera: Continuous zoom_in t\u1eeb t\u1ec9 l\u1ec7 v\u00f9ng xu\u1ed1ng t\u1ec9 l\u1ec7 c\u1ee5m c\u1ea3ng].",
+          "start_seconds": 11.5,
+          "end_seconds": 20.5,
+          "script_section_id": "s2",
+          "framing": "16:9 dynamic camera fly-in k\u1ebft th\u00fac \u1edf khung bao [106.62E..107.08E, 20.68N..20.92N]",
+          "movement": "Smooth Mercator bounding-box interpolation (zoom_in) kh\u00f4ng gi\u1eadt c\u1ee5c",
+          "transition_in": "dissolve",
+          "transition_out": "dissolve",
+          "overlay_notes": "Khung k\u00ednh ng\u1eafm h\u1ea3i \u0111\u1ed3 hi\u1ec3n th\u1ecb t\u1ecda \u0111\u1ed9 '20\u00b046'N \u2014 106\u00b055'E' v\u00e0 nh\u00e3n 'C\u1ee4M C\u1ea2NG N\u1ed8I \u0110\u00d4 S\u00d4NG C\u1ea4M' \u0111\u1ed1i di\u1ec7n '\u0110\u1ea2O C\u00c1T H\u1ea2I'.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "zoom_in",
+            "lens_mm": 35,
+            "lighting_key": "blue_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Chuy\u1ec3n \u0111\u1ed5i kh\u00f4ng gian li\u1ec1n m\u1ea1ch t\u1eeb c\u1ea5p qu\u1ed1c gia xu\u1ed1ng c\u1ea5p \u0111\u1ecba h\u00ecnh c\u1eeda s\u00f4ng \u0111\u1ec3 kh\u00e1n gi\u1ea3 th\u1ea5y kho\u1ea3ng c\u00e1ch xa t\u1eeb n\u1ed9i \u0111\u00f4 ra bi\u1ec3n l\u1edbn.",
+          "narrative_role": "introduce_subject",
+          "information_role": "Cho th\u1ea5y c\u1ea3ng H\u1ea3i Ph\u00f2ng truy\u1ec1n th\u1ed1ng th\u1ef1c ch\u1ea5t l\u00e0 c\u1ea3ng s\u00f4ng n\u1eb1m s\u00e2u trong n\u1ed9i \u0111\u1ecba ch\u1ee9 kh\u00f4ng n\u1eb1m s\u00e1t m\u00e9p bi\u1ec3n s\u00e2u.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "clean",
+            "cartographic-lines",
+            "precision-hud"
+          ],
+          "required_assets": [
+            {
+              "type": "geojson_map",
+              "description": "L\u1edbp vector chi ti\u1ebft b\u1edd bi\u1ec3n, s\u00f4ng C\u1ea5m, s\u00f4ng B\u1ea1ch \u0110\u1eb1ng, b\u00e1n \u0111\u1ea3o \u0110\u00ecnh V\u0169 v\u00e0 \u0111\u1ea3o C\u00e1t H\u1ea3i theo b\u1ea3ng m\u00e0u h\u1ea3i \u0111\u1ed3",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_03",
+          "type": "diagram",
+          "description": "S\u01a1 \u0111\u1ed3 tuy\u1ebfn gom h\u00e0ng trung chuy\u1ec3n c\u0169: Minh h\u1ecda con t\u00e0u nh\u1ecf (feeder) ph\u1ea3i ch\u1edf h\u00e0ng t\u1eeb s\u00f4ng C\u1ea5m \u0111i v\u00f2ng xu\u1ed1ng Singapore v\u00e0 H\u1ed3ng K\u00f4ng \u0111\u1ec3 gh\u00e9p l\u00ean si\u00eau t\u00e0u m\u1eb9 \u0111i M\u1ef9 - \u00c2u, k\u00e8m con s\u1ed1 48,0 km lu\u1ed3ng d\u1eabn n\u1ed9i \u0111\u1ecba. [5-Aspect | Subject: S\u01a1 \u0111\u1ed3 2 ch\u1eb7ng v\u1eadn t\u1ea3i feeder -> c\u1ea3ng trung chuy\u1ec3n qu\u1ed1c t\u1ebf; Subject Motion: \u0110\u01b0\u1eddng ch\u1ea5m h\u1ed5 ph\u00e1ch ch\u1ea1y t\u1eeb H\u1ea3i Ph\u00f2ng xu\u1ed1ng Singapore/H\u1ed3ng K\u00f4ng r\u1ed3i m\u1edbi \u0111\u1ed5i sang tuy\u1ebfn l\u1edbn; Scene: Khung chia t\u1ef7 l\u1ec7 60/40 tr\u00ean n\u1ec1n t\u1ed1i #0D2238; Spatial Framing: Tr\u00e1i l\u00e0 s\u01a1 \u0111\u1ed3 h\u1ea3i tr\u00ecnh \u0110\u00f4ng \u00c1, ph\u1ea3i l\u00e0 th\u1ebb \u0111\u1ed1i chi\u1ebfu chi ph\u00ed - th\u1eddi gian trung chuy\u1ec3n; Camera: Pan_right nh\u1eb9 theo h\u01b0\u1edbng lu\u1ed3ng h\u00e0ng].",
+          "start_seconds": 20.5,
+          "end_seconds": 29.0,
+          "script_section_id": "s2",
+          "framing": "B\u1ed1 c\u1ee5c 2 c\u1ed9t b\u1ea5t \u0111\u1ed1i x\u1ee9ng (60% s\u01a1 \u0111\u1ed3 tuy\u1ebfn trung chuy\u1ec3n \u0110\u00f4ng Nam \u00c1, 40% th\u1ebb th\u00f4ng s\u1ed1 h\u1ec7 qu\u1ea3)",
+          "movement": "Progressive dashed-line draw k\u00e8m pan_right nh\u1eb9",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "overlay_notes": "Th\u1ebb s\u1ed1 li\u1ec7u ph\u1ea3i: '48,0 km lu\u1ed3ng d\u1eabn t\u1eeb S\u00f4ng C\u1ea5m ra Phao s\u1ed1 0' v\u00e0 'H\u1ec7 qu\u1ea3 c\u0169: Ph\u1ea3i gom h\u00e0ng qua H\u1ed3ng K\u00f4ng / Singapore'.",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "pan_right",
+            "lens_mm": 50,
+            "lighting_key": "overcast_soft",
+            "depth_of_field": "deep",
+            "color_temperature": "neutral"
+          },
+          "shot_intent": "Gi\u1ea3i th\u00edch h\u1ec7 qu\u1ea3 kinh t\u1ebf c\u1ee5 th\u1ec3 c\u1ee7a vi\u1ec7c thi\u1ebfu c\u1ea3ng n\u01b0\u1edbc s\u00e2u \u0111\u1ec3 kh\u00e1n gi\u1ea3 hi\u1ec3u v\u00ec sao b\u00e0i to\u00e1n n\u00e0y \u1ea3nh h\u01b0\u1edfng tr\u1ef1c ti\u1ebfp t\u1edbi s\u1ee9c c\u1ea1nh tranh h\u00e0ng Vi\u1ec7t Nam.",
+          "narrative_role": "build_tension",
+          "information_role": "Li\u00ean k\u1ebft gi\u1edbi h\u1ea1n \u0111\u1ecba l\u00fd 48 km lu\u1ed3ng s\u00f4ng v\u1edbi n\u00fat th\u1eaft ph\u1ea3i trung chuy\u1ec3n h\u00e0ng h\u00f3a qua c\u1ea3ng n\u01b0\u1edbc ngo\u00e0i.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "clean",
+            "editorial-split",
+            "flat-diagram"
+          ],
+          "required_assets": [
+            {
+              "type": "remotion_scene",
+              "description": "S\u01a1 \u0111\u1ed3 tuy\u1ebfn trung chuy\u1ec3n H\u1ea3i Ph\u00f2ng -> H\u1ed3ng K\u00f4ng / Singapore b\u1eb1ng SVG vector trong b\u1ea3ng m\u00e0u #071320 / #D97706",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene_04",
+          "type": "animation",
+          "description": "C\u00fa m\u00e1y 3 (pin-label): C\u1eadn c\u1ea3nh th\u1ee7y h\u1ec7 c\u1eeda s\u00f4ng Th\u00e1i B\u00ecnh - B\u1ea1ch \u0110\u1eb1ng v\u1edbi d\u1ea3i ph\u00f9 sa m\u00e0u h\u1ed5 ph\u00e1ch (#D97706) lan ra c\u1eeda bi\u1ec3n v\u00e0 2 c\u1ee5m ch\u00e2n ghim t\u1ecda \u0111\u1ed9 (Pin) kh\u00f3a ch\u1eb7t trong v\u00f9ng an to\u00e0n 16:9. [5-Aspect | Subject: Hai c\u1ee5m Pin t\u1ecda \u0111\u1ed9 t\u1ea1i S\u00f4ng C\u1ea5m v\u00e0 C\u1eeda Nam Tri\u1ec7u tr\u00ean n\u1ec1n v\u00f9ng b\u1ed3i l\u1eafng ph\u00f9 sa; Subject Motion: M\u1ea3ng m\u00e0u ph\u00f9 sa loang nh\u1eb9 \u1edf c\u1eeda s\u00f4ng, ti\u1ebfp theo Pin 1 v\u00e0 Pin 2 b\u1eadt m\u1edf tu\u1ea7n t\u1ef1 theo gi\u1ecdng \u0111\u1ecdc; Scene: H\u1ea3i \u0111\u1ed3 c\u1eadn c\u1ea3nh c\u1eeda s\u00f4ng v\u1edbi s\u1eafc \u0111\u1ed9 \u1ea5m c\u1ea3nh b\u00e1o #D97706; Spatial Framing: Pin S\u00f4ng C\u1ea5m \u1edf g\u00f3c ph\u1ea7n t\u01b0 tr\u00ean-tr\u00e1i, Pin C\u1eeda Nam Tri\u1ec7u \u1edf g\u00f3c ph\u1ea7n t\u01b0 d\u01b0\u1edbi-gi\u1eefa, to\u00e0n b\u1ed9 h\u1ed9p ch\u1eef c\u00e1ch m\u00e9p >= 96px; Camera: Pan_left ch\u1eadm d\u1ecdc theo h\u01b0\u1edbng ph\u00f9 sa \u0111\u1ed5 ra c\u1eeda bi\u1ec3n].",
+          "start_seconds": 29.0,
+          "end_seconds": 38.5,
+          "script_section_id": "s3",
+          "framing": "C\u1eadn c\u1ea3nh c\u1eeda s\u00f4ng H\u1ea3i Ph\u00f2ng v\u1edbi b\u1ed9 k\u1eb9p v\u00f9ng an to\u00e0n nh\u00e3n (clampToSafe 1920x1080)",
+          "movement": "Animated silt plume reveal + sequential spring Pin pop-up + slow pan_left",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "overlay_notes": "Pin 1: 'LU\u1ed2NG S\u00d4NG C\u1ea4M \u2014 R\u1ed9ng 80 m | S\u00e2u -7,0 m'; Pin 2: 'C\u1eecA NAM TRI\u1ec6U \u2014 Ph\u00f9 sa b\u1ed3i c\u1ea1n -0,5 m \u0111\u1ebfn -3,7 m'; Ch\u00fa th\u00edch \u0111\u00e1y: 'Ngu\u1ed3n: C\u1ea3ng v\u1ee5 H\u00e0ng h\u1ea3i H\u1ea3i Ph\u00f2ng (29/08/2026)'.",
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "pan_left",
+            "lens_mm": 85,
+            "lighting_key": "tungsten_warm",
+            "depth_of_field": "medium",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Tr\u00ecnh di\u1ec5n chu\u1ea9n x\u00e1c c\u00fa m\u00e1y pin-label trong safe zone 16:9 v\u00e0 ch\u1ec9 m\u1eb7t \u0111\u1eb7t t\u00ean 'th\u1ee7 ph\u1ea1m' ph\u00f9 sa b\u1eb1ng s\u1ed1 \u0111o th\u1ef1c t\u1ebf n\u0103m 2026.",
+          "narrative_role": "evidence",
+          "information_role": "Cung c\u1ea5p 2 th\u00f4ng s\u1ed1 b\u1eb1ng ch\u1ee9ng c\u1ed1t l\u00f5i: s\u00f4ng C\u1ea5m ch\u1ec9 s\u00e2u -7,0 m (r\u1ed9ng 80 m) v\u00e0 c\u1eeda Nam Tri\u1ec7u b\u1ed3i c\u1ea1n t\u1edbi -0,5 m.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "amber-silt",
+            "clean",
+            "technical-callout"
+          ],
+          "required_assets": [
+            {
+              "type": "remotion_scene",
+              "description": "Component Pin & Safe-Zone Label 16:9 hi\u1ec3n th\u1ecb th\u00f4ng s\u1ed1 S\u00f4ng C\u1ea5m (-7,0 m) v\u00e0 C\u1eeda Nam Tri\u1ec7u (-0,5 m)",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene_05",
+          "type": "text_card",
+          "description": "S\u01a1 \u0111\u1ed3 m\u1eb7t c\u1eaft ngang l\u00f2ng s\u00f4ng C\u1ea5m n\u1ed9i \u0111\u00f4 (render d\u1ea1ng th\u1ebb k\u1ef9 thu\u1eadt k\u1ebft h\u1ee3p h\u00ecnh h\u1ecdc m\u1eb7t c\u1eaft ngang): Gi\u1ea3i th\u00edch v\u00ec sao kh\u00f4ng th\u1ec3 kho\u00e9t s\u00e2u l\u00f2ng s\u00f4ng 80 m gi\u1eefa hai b\u1edd ph\u1ed1 xu\u1ed1ng -14,0 m (nguy c\u01a1 tr\u01b0\u1ee3t l\u1edf b\u1edd \u0111\u00f4 th\u1ecb + b\u00f9n c\u00e1t b\u1ed3i l\u1ea5p l\u1ea1i h\u00e0ng n\u0103m). [5-Aspect | Subject: M\u1eb7t c\u1eaft ngang l\u00f2ng s\u00f4ng h\u1eb9p 80 m k\u1eb9p gi\u1eefa hai d\u00e3y c\u00f4ng tr\u00ecnh ven s\u00f4ng n\u1ed9i \u0111\u00f4; Subject Motion: \u0110\u01b0\u1eddng n\u1ea1o v\u00e9t gi\u1ea3 \u0111\u1ecbnh h\u1ea1 xu\u1ed1ng -14 m l\u00e0m xu\u1ea5t hi\u1ec7n m\u0169i t\u00ean c\u1ea3nh b\u00e1o tr\u01b0\u1ee3t l\u1edf hai b\u00ean b\u1edd v\u00e0 l\u1edbp b\u00f9n b\u1ed3i tr\u1edf l\u1ea1i; Scene: N\u1ec1n th\u1ebb k\u1ef9 thu\u1eadt t\u1ed1i #0B192C vi\u1ec1n c\u1ea3nh b\u00e1o \u0111\u1ecf san h\u00f4 #F43F5E; Spatial Framing: Ch\u00ednh gi\u1eefa khung h\u00ecnh v\u1edbi 2 c\u1ed9t th\u00f4ng s\u1ed1 c\u1ea3nh b\u00e1o hai b\u00ean; Camera: N/A \u2014 Remotion native static technical card].",
+          "start_seconds": 38.5,
+          "end_seconds": 48.0,
+          "script_section_id": "s4",
+          "framing": "Centered technical cross-section card v\u1edbi kho\u1ea3ng th\u1edf r\u1ed9ng hai b\u00ean",
+          "movement": "Static frame v\u1edbi ho\u1ea1t \u1ea3nh v\u1ea1ch \u0111\u00e0o s\u00e2u gi\u1ea3 \u0111\u1ecbnh v\u00e0 m\u0169i t\u00ean c\u1ea3nh b\u00e1o \u00e1p l\u1ef1c b\u1edd s\u00f4ng",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "overlay_notes": "Ti\u00eau \u0111\u1ec1 th\u1ebb: 'V\u00cc SAO KH\u00d4NG KHO\u00c9T S\u00c2U S\u00d4NG C\u1ea4M XU\u1ed0NG -14,0 M?'; Hai nh\u00e3n ng\u1eafn: '1. Lu\u1ed3ng h\u1eb9p 80 m s\u00e1t b\u1edd n\u1ed9i \u0111\u00f4 -> R\u1ee7i ro s\u1ea1t l\u1edf' | '2. Ph\u00f9 sa b\u1ed3i l\u1eafng l\u1eb7p l\u1ea1i m\u1ed7i m\u00f9a m\u01b0a b\u00e3o'.",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "static",
+            "lens_mm": 50,
+            "lighting_key": "low_key",
+            "depth_of_field": "deep",
+            "color_temperature": "mixed"
+          },
+          "shot_intent": "Ch\u1eb7n tr\u01b0\u1edbc c\u00e2u h\u1ecfi ph\u1ea3n bi\u1ec7n l\u1edbn nh\u1ea5t c\u1ee7a kh\u00e1n gi\u1ea3 ('sao kh\u00f4ng n\u1ea1o v\u00e9t s\u00f4ng c\u0169?') v\u00e0 t\u1ea1o nh\u1ecbp ngh\u1ec9 th\u1ecb gi\u00e1c tr\u01b0\u1edbc khi v\u1ebd tuy\u1ebfn c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n.",
+          "narrative_role": "build_tension",
+          "information_role": "L\u00e0m r\u00f5 gi\u1edbi h\u1ea1n \u0111\u1ecba ch\u1ea5t c\u00f4ng tr\u00ecnh v\u00e0 chi ph\u00ed duy tu khi\u1ebfn ph\u01b0\u01a1ng \u00e1n \u0111\u00e0o s\u00e2u c\u1ea3ng s\u00f4ng n\u1ed9i \u0111\u00f4 b\u1ea5t kh\u1ea3 thi.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "clean",
+            "blueprint-card",
+            "high-contrast"
+          ],
+          "required_assets": [
+            {
+              "type": "remotion_scene",
+              "description": "Th\u1ebb m\u1eb7t c\u1eaft ngang lu\u1ed3ng h\u1eb9p 80 m s\u00f4ng C\u1ea5m b\u1eb1ng SVG + typography Be Vietnam Pro",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene_06",
+          "type": "animation",
+          "description": "C\u00fa m\u00e1y 4 (route): V\u1ebd \u0111\u01b0\u1eddng ti\u1ebfn tr\u00ecnh (Route) m\u00e0u ng\u1ecdc lam (#2DD4BF) cho tuy\u1ebfn \u0111\u01b0\u1eddng - c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n T\u00e2n V\u0169 - L\u1ea1ch Huy\u1ec7n d\u00e0i 15,63 km (ph\u1ea7n c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n 5,44 km) ph\u00f3ng t\u1eeb b\u00e1n \u0111\u1ea3o \u0110\u00ecnh V\u0169 sang \u0111\u1ea3o C\u00e1t H\u1ea3i, n\u1ed1i ti\u1ebfp b\u1eb1ng tuy\u1ebfn lu\u1ed3ng L\u1ea1ch Huy\u1ec7n d\u00e0i 20,66 km v\u00e0 \u0111\u00ea ch\u1eafn c\u00e1t ngo\u00e0i kh\u01a1i. [5-Aspect | Subject: Tuy\u1ebfn c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n T\u00e2n V\u0169 - L\u1ea1ch Huy\u1ec7n v\u00e0 tr\u1ee5c lu\u1ed3ng h\u00e0ng h\u1ea3i L\u1ea1ch Huy\u1ec7n; Subject Motion: N\u00e9t v\u1ebd stroke-dashoffset ch\u1ea1y m\u01b0\u1ee3t t\u1eeb \u0110\u00ecnh V\u0169 qua k\u00eanh C\u00e1i Tr\u00e1p sang C\u00e1t H\u1ea3i, sau \u0111\u00f3 ti\u1ebfp t\u1ee5c v\u01b0\u01a1n t\u1eeb b\u1ebfn L\u1ea1ch Huy\u1ec7n ra Phao s\u1ed1 0 k\u00e8m t\u01b0\u1eddng \u0111\u00ea ch\u1eafn c\u00e1t; Scene: H\u1ea3i \u0111\u1ed3 khu v\u1ef1c \u0110\u00ecnh V\u0169 - C\u00e1t H\u1ea3i v\u1edbi hi\u1ec7u \u1ee9ng ph\u00e1t s\u00e1ng nh\u1eb9 d\u1ecdc tuy\u1ebfn m\u1edbi #2DD4BF; Spatial Framing: \u0110\u01b0\u1eddng ch\u00e9o n\u0103ng \u0111\u1ed9ng t\u1eeb g\u00f3c tr\u00ean-tr\u00e1i (\u0110\u00ecnh V\u0169) xu\u1ed1ng g\u00f3c d\u01b0\u1edbi-ph\u1ea3i (Phao s\u1ed1 0); Camera: Tracking_right b\u00e1m theo \u0111\u1ea7u m\u0169i tuy\u1ebfn \u0111\u01b0\u1eddng v\u01b0\u01a1n ra bi\u1ec3n].",
+          "start_seconds": 48.0,
+          "end_seconds": 59.5,
+          "script_section_id": "s4",
+          "framing": "16:9 diagonal route progression t\u1eeb \u0110\u00ecnh V\u0169 qua \u0111\u1ea3o C\u00e1t H\u1ea3i ra v\u1ecbnh B\u1eafc B\u1ed9",
+          "movement": "Progressive SVG path stroke reveal k\u1ebft h\u1ee3p camera tracking_right m\u01b0\u1ee3t theo t\u1ef7 l\u1ec7 th\u1eddi l\u01b0\u1ee3ng c\u1ea3nh",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "overlay_notes": "Nh\u00e3n d\u1ecdc tuy\u1ebfn 1: 'T\u00e2n V\u0169 \u2013 L\u1ea1ch Huy\u1ec7n: 15,63 km (C\u1ea7u v\u01b0\u1ee3t bi\u1ec3n: 5,44 km)'; Nh\u00e3n d\u1ecdc tuy\u1ebfn 2: 'Lu\u1ed3ng L\u1ea1ch Huy\u1ec7n: 20,66 km + \u0110\u00ea ch\u1eafn c\u00e1t b\u1ea3o v\u1ec7 lu\u1ed3ng'.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "tracking_right",
+            "lens_mm": 35,
+            "lighting_key": "rim_lit",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Tr\u00ecnh di\u1ec5n c\u00fa m\u00e1y route ti\u1ebfn tr\u00ecnh theo t\u1ef7 l\u1ec7 frame chu\u1ea9n x\u00e1c, cho th\u1ea5y gi\u1ea3i ph\u00e1p 'nh\u1ea3y qua v\u00f9ng ph\u00f9 sa' b\u1eb1ng h\u1ea1 t\u1ea7ng c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n.",
+          "narrative_role": "deliver_payload",
+          "information_role": "Ng\u01b0\u1eddi xem th\u1ea5y r\u00f5 c\u1ea5u tr\u00fac kh\u00f4ng gian k\u1ebft n\u1ed1i t\u1eeb \u0111\u1ea5t li\u1ec1n H\u1ea3i Ph\u00f2ng qua c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n 5,44 km t\u1edbi khu b\u1ebfn n\u01b0\u1edbc s\u00e2u ngo\u00e0i r\u00eca \u0111\u1ea3o C\u00e1t H\u1ea3i.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "teal-glow",
+            "clean",
+            "vector-route"
+          ],
+          "required_assets": [
+            {
+              "type": "remotion_scene",
+              "description": "Component Route ti\u1ebfn tr\u00ecnh v\u1edbi t\u1ecda \u0111\u1ed9 th\u1ef1c tuy\u1ebfn T\u00e2n V\u0169 - L\u1ea1ch Huy\u1ec7n v\u00e0 lu\u1ed3ng t\u00e0u ra Phao s\u1ed1 0",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene_07",
+          "type": "diagram",
+          "description": "C\u00fa m\u00e1y 5a (comparison-measure): Th\u01b0\u1edbc \u0111o kho\u1ea3ng c\u00e1ch Haversine (Measure / distanceKm) \u0111\u1eb7t tr\u1ef1c ti\u1ebfp tr\u00ean h\u1ea3i \u0111\u1ed3 \u0111\u1ec3 \u0111o v\u00e0 \u0111\u1ed1i chi\u1ebfu hai h\u00e0nh lang: t\u1eeb S\u00f4ng C\u1ea5m ra bi\u1ec3n (48,0 km lu\u1ed3ng d\u1eabn, r\u1ed9ng 80 m) so v\u1edbi t\u1eeb L\u1ea1ch Huy\u1ec7n ra Phao s\u1ed1 0 (20,66 km, r\u1ed9ng 160 m \u2014 r\u1ed9ng g\u1ea5p \u0111\u00f4i). [5-Aspect | Subject: Hai th\u01b0\u1edbc \u0111o kho\u1ea3ng c\u00e1ch Haversine v\u00e0 thanh \u0111\u1ed1i chi\u1ebfu b\u1ec1 r\u1ed9ng lu\u1ed3ng 80 m vs 160 m; Subject Motion: Hai \u0111\u01b0\u1eddng gi\u00f3ng th\u01b0\u1edbc \u0111o bung ra t\u1eeb \u0111i\u1ec3m \u0111\u1ea7u - \u0111i\u1ec3m cu\u1ed1i c\u00f9ng con s\u1ed1 nh\u1ea3y \u0111\u1ecbnh d\u1ea1ng ti\u1ebfng Vi\u1ec7t; Scene: H\u1ea3i \u0111\u1ed3 k\u1ef9 thu\u1eadt k\u00e8m l\u01b0\u1edbi t\u1ef7 l\u1ec7 x\u00edch; Spatial Framing: \u0110\u1ed1i s\u00e1nh song song tr\u00ean - d\u01b0\u1edbi r\u00f5 r\u00e0ng; Camera: Zoom_in nh\u1eb9 1.00 -> 1.04 v\u00e0o v\u00f9ng c\u1eeda L\u1ea1ch Huy\u1ec7n].",
+          "start_seconds": 59.5,
+          "end_seconds": 69.5,
+          "script_section_id": "s5",
+          "framing": "Dual Haversine caliper measurement diagram tr\u00ean n\u1ec1n h\u1ea3i \u0111\u1ed3 16:9",
+          "movement": "Animated caliper extension + proportional width bar comparison (80 m vs 160 m) + gentle zoom_in",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "overlay_notes": "Th\u01b0\u1edbc \u0111o A (h\u1ed5 ph\u00e1ch): 'L\u1ed9 tr\u00ecnh c\u0169 t\u1eeb S\u00f4ng C\u1ea5m: 48,0 km | R\u1ed9ng 80 m'; Th\u01b0\u1edbc \u0111o B (ng\u1ecdc lam): 'Lu\u1ed3ng L\u1ea1ch Huy\u1ec7n: 20,66 km | R\u1ed9ng 160 m (G\u1ea5p 2 l\u1ea7n)'.",
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "zoom_in",
+            "lens_mm": 50,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Th\u1ef1c thi ph\u1ea7n \u0111o kho\u1ea3ng c\u00e1ch Haversine c\u1ee7a c\u00fa m\u00e1y comparison-measure, ch\u1ee9ng minh l\u1ee3i th\u1ebf r\u00fat ng\u1eafn c\u1ef1 ly v\u00e0 nh\u00e2n \u0111\u00f4i b\u1ec1 r\u1ed9ng lu\u1ed3ng.",
+          "narrative_role": "comparison",
+          "information_role": "\u0110\u1ecbnh l\u01b0\u1ee3ng tr\u1ef1c quan s\u1ef1 kh\u00e1c bi\u1ec7t h\u00ecnh h\u1ecdc tr\u00ean m\u1eb7t b\u1eb1ng: 48,0 km / 80 m so v\u1edbi 20,66 km / 160 m.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "caliper-grid",
+            "clean",
+            "precision-metrics"
+          ],
+          "required_assets": [
+            {
+              "type": "remotion_scene",
+              "description": "Component Measure Haversine \u0111\u1ecbnh d\u1ea1ng s\u1ed1 ti\u1ebfng Vi\u1ec7t (48,0 km / 20,66 km) v\u00e0 thanh so s\u00e1nh b\u1ec1 r\u1ed9ng lu\u1ed3ng",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene_08",
+          "type": "animation",
+          "description": "C\u00fa m\u00e1y 5b + Signature Device (Hero Moment): M\u1eb7t c\u1eaft d\u1ecdc th\u1ee7y v\u0103n 48 km (48km Longitudinal Bathymetric Staircase) c\u1eaft d\u1ecdc \u0111\u00e1y bi\u1ec3n t\u1eeb S\u00f4ng C\u1ea5m (Km48, -7,0 m) qua K\u00eanh H\u00e0 Nam (Km28,5, -8,0 m) ra Lu\u1ed3ng L\u1ea1ch Huy\u1ec7n (Km20,6 \u0111\u1ebfn Km0, -12,9 m th\u1ef1c \u0111o / -14,0 m chu\u1ea9n t\u1eafc), \u0111\u1eb7t tr\u1ef1c ti\u1ebfp h\u00ecnh chi\u1ebfu m\u1edbn n\u01b0\u1edbc si\u00eau t\u00e0u 165.000 DWT l\u00ean m\u1eb7t c\u1eaft. [5-Aspect | Subject: \u0110\u1ed3 th\u1ecb m\u1eb7t c\u1eaft d\u1ecdc b\u1eadc thang \u0111\u1ed9 s\u00e2u 48 km v\u00e0 m\u1eb7t b\u00ean th\u00e2n si\u00eau t\u00e0u container 165.000 DWT; Subject Motion: \u0110\u01b0\u1eddng \u0111\u00e1y s\u00f4ng-bi\u1ec3n v\u1ebd t\u1eeb tr\u00e1i sang ph\u1ea3i qua 3 b\u1eadc s\u00e2u, h\u00ecnh chi\u1ebfu t\u00e0u m\u1eb9 tr\u01b0\u1ee3t th\u1eed v\u00e0o b\u1eadc -8,0 m / -7,0 m b\u1eadt c\u1ea3nh b\u00e1o \u0111\u1ecf 'Ch\u1ea1m \u0111\u00e1y' r\u1ed3i l\u00f9i ra \u0111\u1eadu an to\u00e0n tr\u00ean b\u1eadc -12,9 m / -14,0 m c\u1ee7a L\u1ea1ch Huy\u1ec7n; Scene: Giao di\u1ec7n h\u1ea3i \u0111\u1ed3 m\u1eb7t c\u1eaft \u0111\u1ed9 t\u01b0\u01a1ng ph\u1ea3n cao (#071320 / #2DD4BF / #F43F5E); Spatial Framing: C\u1eadn c\u1ea3nh to\u00e0n chi\u1ec1u ngang 1920px cho tr\u1ee5c 48 km \u0111\u1ec3 \u0111\u1ecdc r\u00f5 t\u1eebng m\u00e9t \u0111\u1ed9 s\u00e2u; Camera: Pan_right ngang theo tr\u1ee5c l\u00fd tr\u00ecnh Km48 -> Km0].",
+          "start_seconds": 69.5,
+          "end_seconds": 80.0,
+          "script_section_id": "s5",
+          "framing": "Full-width longitudinal bathymetric profile (tr\u1ee5c ngang Km48 -> Km0, tr\u1ee5c \u0111\u1ee9ng 0 m -> -16 m)",
+          "movement": " Bathymetric staircase progressive reveal + vessel draft clearance simulation + pan_right",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "overlay_notes": "Ba m\u1ed1c b\u1eadc thang: 'S\u00f4ng C\u1ea5m: -7,0 m (Ch\u1ea1m \u0111\u00e1y)' | 'K\u00eanh H\u00e0 Nam: -8,0 m (Ch\u1ea1m \u0111\u00e1y)' | 'Lu\u1ed3ng L\u1ea1ch Huy\u1ec7n: -12,9 m / Chu\u1ea9n t\u1eafc -14,0 m (\u0110\u00f3n t\u00e0u 165.000 DWT gi\u1ea3m t\u1ea3i)'.",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "pan_right",
+            "lens_mm": 85,
+            "lighting_key": "high_key",
+            "depth_of_field": "shallow",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "\u0110\u1ec9nh cao th\u1ecb gi\u00e1c (Hero Moment) gi\u1ea3i \u0111\u00e1p d\u1ee9t \u0111i\u1ec3m c\u00e2u h\u1ecfi ti\u00eau \u0111\u1ec1 video trong m\u1ed9t khung h\u00ecnh duy nh\u1ea5t kh\u00f4ng c\u1ea7n l\u1eddi gi\u1ea3i th\u00edch r\u01b0\u1eddm r\u00e0.",
+          "narrative_role": "deliver_payload",
+          "information_role": "Kh\u00e1n gi\u1ea3 nh\u00ecn th\u1ea5y t\u1eadn m\u1eaft b\u1eadc thang ch\u00eanh l\u1ec7ch g\u1ea7n 6-7 m\u00e9t \u0111\u1ed9 s\u00e2u d\u01b0\u1edbi \u0111\u00e1y n\u01b0\u1edbc quy\u1ebft \u0111\u1ecbnh s\u1ed1 ph\u1eadn c\u1ee7a t\u00e0u m\u1eb9 qu\u1ed1c t\u1ebf.",
+          "hero_moment": true,
+          "texture_keywords": [
+            "hydrographic-cross-section",
+            "crisp-vector",
+            "high-contrast"
+          ],
+          "required_assets": [
+            {
+              "type": "remotion_scene",
+              "description": "Signature Device: M\u1eb7t c\u1eaft d\u1ecdc th\u1ee7y v\u0103n 48 km t\u1eeb S\u00f4ng C\u1ea5m (-7,0 m) ra L\u1ea1ch Huy\u1ec7n (-12,9 m / -14,0 m) k\u00e8m m\u00f4 ph\u1ecfng m\u1edbn n\u01b0\u1edbc t\u00e0u 165.000 DWT",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene_09",
+          "type": "text_card",
+          "description": "S\u1ed5 c\u00e1i tr\u1ea1ng th\u00e1i h\u1ea1 t\u1ea7ng C\u00e1t H\u1ea3i & L\u1eddi k\u00eau g\u1ecdi b\u00ecnh lu\u1eadn (CTA): Ph\u00e2n t\u00e1ch minh b\u1ea1ch tr\u00ean b\u1ea3n \u0111\u1ed3 \u0111\u1ea3o C\u00e1t H\u1ea3i gi\u1eefa 6 b\u1ebfn container qu\u1ed1c t\u1ebf \u0111ang v\u1eadn h\u00e0nh th\u1ef1c t\u1ebf (B\u1ebfn 1-2 & B\u1ebfn 3-6, n\u00e9t li\u1ec1n m\u00e0u ng\u1ecdc lam) v\u1edbi ph\u00e2n khu quy ho\u1ea1ch m\u1edf r\u1ed9ng \u0111\u1ebfn n\u0103m 2030 theo Q\u0110 1579/Q\u0110-TTg (vi\u1ec1n n\u00e9t \u0111\u1ee9t), k\u00e8m c\u00e2u h\u1ecfi b\u00ecnh lu\u1eadn ch\u1ecdn ch\u1ee7 \u0111\u1ec1 t\u1eadp k\u1ebf ti\u1ebfp. [5-Aspect | Subject: S\u01a1 \u0111\u1ed3 ph\u00e2n v\u00f9ng B\u1ebfn 1-6 (\u0110ang v\u1eadn h\u00e0nh) vs Ph\u00e2n khu m\u1edf r\u1ed9ng 2030 (Quy ho\u1ea1ch) k\u00e8m th\u1ebb CTA nguy\u00ean v\u0103n; Subject Motion: Kh\u1ed1i 6 b\u1ebfn \u0111ang khai th\u00e1c s\u00e1ng l\u00ean tr\u01b0\u1edbc, kh\u1ed1i quy ho\u1ea1ch 2030 hi\u1ec7n vi\u1ec1n n\u00e9t \u0111\u1ee9t sau, cu\u1ed1i c\u00f9ng th\u1ebb c\u00e2u h\u1ecfi b\u00ecnh lu\u1eadn tr\u01b0\u1ee3t nh\u1eb9 l\u00ean \u1edf c\u1ea1nh d\u01b0\u1edbi; Scene: B\u1ed1 c\u1ee5c k\u1ebft th\u00fac \u0111\u0129nh \u0111\u1ea1c tr\u00ean n\u1ec1n #071320; Spatial Framing: Tr\u00ean l\u00e0 s\u01a1 \u0111\u1ed3 tr\u1ea1ng th\u00e1i b\u1ebfn c\u1ea3ng 2 c\u1ed9t r\u00f5 ch\u1eef, d\u01b0\u1edbi l\u00e0 d\u1ea3i c\u00e2u h\u1ecfi CTA c\u0103n gi\u1eefa; Camera: N/A \u2014 Remotion native static closing card b\u1ea3o \u0111\u1ea3m ch\u00ednh x\u00e1c 100% ch\u1eef ti\u1ebfng Vi\u1ec7t].",
+          "start_seconds": 80.0,
+          "end_seconds": 90.0,
+          "script_section_id": "s6",
+          "framing": "Split status ledger (\u0110ang v\u1eadn h\u00e0nh vs Quy ho\u1ea1ch 2030) + bottom verbatim CTA banner trong safe zone",
+          "movement": "Two-step badge reveal + calm 1.0s final hold",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "overlay_notes": "Nh\u00e3n tr\u1ea1ng th\u00e1i 1 (n\u00e9t li\u1ec1n #2DD4BF): '\u0110ANG KHAI TH\u00c1C (2025\u20132026): B\u1ebfn 1\u20136 | \u0110\u00f3n t\u00e0u \u0111\u1ebfn 165.000 DWT gi\u1ea3m t\u1ea3i'; Nh\u00e3n tr\u1ea1ng th\u00e1i 2 (n\u00e9t \u0111\u1ee9t #94A3B8): 'QUY HO\u1ea0CH \u0110\u1ebeN 2030 (Q\u0110 1579/Q\u0110-TTg): M\u1edf r\u1ed9ng ti\u1ebfp c\u00e1c b\u1ebfn ti\u1ebfp theo'; CTA: 'T\u1eadp b\u1ea3n \u0111\u1ed3 ti\u1ebfp theo: S\u00e2n bay Long Th\u00e0nh 40 km hay Cao t\u1ed1c mi\u1ec1n T\u00e2y?'.",
+          "shot_language": {
+            "shot_size": "establishing",
+            "camera_movement": "static",
+            "lens_mm": 35,
+            "lighting_key": "low_key",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Tu\u00e2n th\u1ee7 nghi\u00eam ng\u1eb7t nguy\u00ean t\u1eafc ph\u00e2n bi\u1ec7t c\u00f4ng tr\u00ecnh \u0111ang v\u1eadn h\u00e0nh v\u1edbi quy ho\u1ea1ch t\u01b0\u01a1ng lai (t\u00e0i li\u1ec7u 21 m\u1ee5c 5) v\u00e0 k\u00edch ho\u1ea1t b\u00ecnh lu\u1eadn t\u1ef1 nhi\u00ean.",
+          "narrative_role": "call_to_action",
+          "information_role": "T\u1ed5ng k\u1ebft hi\u1ec7n tr\u1ea1ng th\u1ef1c t\u1ebf 6 b\u1ebfn t\u1ea1i L\u1ea1ch Huy\u1ec7n v\u00e0 m\u1eddi kh\u00e1n gi\u1ea3 ch\u1ecdn c\u00e2u h\u1ecfi \u0111\u1ecba l\u00fd kinh t\u1ebf tu\u1ea7n t\u1edbi.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "clean",
+            "status-ledger",
+            "crisp-typography"
+          ],
+          "required_assets": [
+            {
+              "type": "remotion_scene",
+              "description": "Th\u1ebb t\u1ed5ng k\u1ebft tr\u1ea1ng th\u00e1i 6 b\u1ebfn \u0111ang v\u1eadn h\u00e0nh vs quy ho\u1ea1ch 2030 v\u00e0 banner CTA ti\u1ebfng Vi\u1ec7t ch\u00ednh x\u00e1c",
+              "source": "generate"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "fps": 30,
+        "composition_mode": "atelier",
+        "render_runtime": "remotion",
+        "signature_device_scene": "scene_08",
+        "scene_distinctness_inventory": [
+          {
+            "scene_id": "scene_01",
+            "primary_visual_subject": "B\u1ea3n \u0111\u1ed3 t\u1ed5ng th\u1ec3 Vi\u1ec7t Nam + Qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa & Tr\u01b0\u1eddng Sa + \u0111\u01b0\u1eddng h\u1ea3i tr\u00ecnh Bi\u1ec3n \u0110\u00f4ng"
+          },
+          {
+            "scene_id": "scene_02",
+            "primary_visual_subject": "Chuy\u1ec3n \u0111\u1ed9ng thu ph\u00f3ng Mercator li\u00ean t\u1ee5c t\u1eeb mi\u1ec1n B\u1eafc v\u00e0o c\u1eeda s\u00f4ng H\u1ea3i Ph\u00f2ng - C\u00e1t H\u1ea3i"
+          },
+          {
+            "scene_id": "scene_03",
+            "primary_visual_subject": "S\u01a1 \u0111\u1ed3 2 ch\u1eb7ng gom h\u00e0ng feeder v\u00f2ng qua Singapore / H\u1ed3ng K\u00f4ng"
+          },
+          {
+            "scene_id": "scene_04",
+            "primary_visual_subject": "C\u1eadn c\u1ea3nh v\u00f9ng ph\u00f9 sa h\u1ed5 ph\u00e1ch & 2 c\u1ee5m ch\u00e2n ghim Pin (S\u00f4ng C\u1ea5m -7,0 m / C\u1eeda Nam Tri\u1ec7u -0,5 m)"
+          },
+          {
+            "scene_id": "scene_05",
+            "primary_visual_subject": "M\u1eb7t c\u1eaft ngang l\u00f2ng s\u00f4ng h\u1eb9p 80 m k\u1eb9p gi\u1eefa b\u1edd \u0111\u00f4 th\u1ecb H\u1ea3i Ph\u00f2ng"
+          },
+          {
+            "scene_id": "scene_06",
+            "primary_visual_subject": "\u0110\u01b0\u1eddng v\u1ebd ti\u1ebfn tr\u00ecnh c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n T\u00e2n V\u0169 - L\u1ea1ch Huy\u1ec7n (5,44 km) & lu\u1ed3ng t\u00e0u (20,66 km)"
+          },
+          {
+            "scene_id": "scene_07",
+            "primary_visual_subject": "Th\u01b0\u1edbc \u0111o kho\u1ea3ng c\u00e1ch Haversine (48,0 km vs 20,66 km) & thanh b\u1ec1 r\u1ed9ng lu\u1ed3ng (80 m vs 160 m)"
+          },
+          {
+            "scene_id": "scene_08",
+            "primary_visual_subject": "Signature Device: M\u1eb7t c\u1eaft d\u1ecdc th\u1ee7y v\u0103n 48 km (3 b\u1eadc \u0111\u1ed9 s\u00e2u) + m\u00f4 ph\u1ecfng m\u1edbn n\u01b0\u1edbc si\u00eau t\u00e0u 165.000 DWT"
+          },
+          {
+            "scene_id": "scene_09",
+            "primary_visual_subject": "S\u01a1 \u0111\u1ed3 s\u1ed5 c\u00e1i t\u00e1ch b\u1ea1ch 6 b\u1ebfn \u0111ang v\u1eadn h\u00e0nh (n\u00e9t li\u1ec1n) vs quy ho\u1ea1ch 2030 (n\u00e9t \u0111\u1ee9t) + CTA"
+          }
+        ]
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "slideshow_risk": {
+      "average": 0.17,
+      "verdict": "strong",
+      "dimensions": {
+        "repetition": {
+          "score": 0.0,
+          "reason": "Good variety"
+        },
+        "decorative_visuals": {
+          "score": 0.0,
+          "reason": "Most scenes have clear communicative purpose"
+        },
+        "weak_motion": {
+          "score": 0.0,
+          "reason": "Camera movement appears purposeful"
+        },
+        "weak_shot_intent": {
+          "score": 0.0,
+          "reason": "Strong shot intent coverage"
+        },
+        "typography_overreliance": {
+          "score": 1.0,
+          "reason": "Balanced text and visual content"
+        },
+        "unsupported_cinematic_claims": {
+          "score": 0.0,
+          "reason": "Not claiming cinematic treatment"
+        }
+      },
+      "render_runtime": "remotion"
+    },
+    "variation_check": {
+      "score": 0.0,
+      "verdict": "strong",
+      "violations": [],
+      "suggestions": []
+    },
+    "summary": "9 scenes spanning 0.0-90.0s (8.5-11.5s each), slideshow_risk=0.17 (strong), variation=0.0 (strong)"
+  },
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0
+  }
+}

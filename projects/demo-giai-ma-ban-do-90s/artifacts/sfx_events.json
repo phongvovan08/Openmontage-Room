@@ -1,0 +1,38 @@
+{
+  "_comment": "Synchronized SFX & Documentary Pulse events for demo-giai-ma-ban-do-90s (v5 clean — zooms only on Scene 06 Sea Bridge & Scene 09 Megaport + 2 Dossiers)",
+  "whooshes": [
+    { "t": 32.10, "up": true },
+    { "t": 56.55, "up": true },
+    { "t": 59.35, "up": false },
+    { "t": 78.70, "up": true },
+    { "t": 82.35, "up": false },
+    { "t": 83.05, "up": true }
+  ],
+  "locks": [
+    30.80,
+    32.65,
+    52.20,
+    57.06,
+    79.21,
+    83.55
+  ],
+  "warnings": [
+    3.80,
+    71.15
+  ],
+  "clearances": [
+    55.40,
+    72.65
+  ],
+  "scene_ticks": [
+    0.04,
+    12.00,
+    22.00,
+    28.50,
+    40.50,
+    49.60,
+    61.20,
+    69.70,
+    78.20
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "section_id": "s5",
+  "provider": "vibi",
+  "vibi_provider": "minimax",
+  "model": "speech-2.8-hd",
+  "voice_name": "Haitrieu",
+  "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+  "voice_settings": {
+    "speed": 1.1,
+    "pitch": 0,
+    "vol": 1
+  },
+  "provider_text": "Nhìn lát cắt bốn mươi tám ki lô mét, câu trả lời lộ rõ. Trong sông Cấm âm bảy mét hay kênh Hà Nam âm tám mét, tàu mẹ đều chạm đáy. Nhưng ngoài rìa Cát Hải, luồng Lạch Huyện rộng một trăm sáu mươi mét sâu gần mười ba đến mười bốn mét, đủ đón tàu một trăm sáu mươi lăm nghìn tấn.",
+  "display_text": "Nhìn lát cắt 48 km, câu trả lời lộ rõ. Trong sông Cấm -7,0 m hay kênh Hà Nam -8,0 m, tàu mẹ đều chạm đáy. Nhưng ngoài rìa Cát Hải, luồng Lạch Huyện rộng 160 m sâu gần 13 đến 14 m, đủ đón tàu 165.000 DWT.",
+  "raw_duration_seconds": 16.321,
+  "duration_seconds": 16.022,
+  "lead_trimmed_seconds": 0.134,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 3.175,
+      "text": "Nhìn lát cắt bốn mươi tám ki lô mét, câu trả lời lộ rõ."
+    },
+    {
+      "start": 3.54,
+      "end": 7.975,
+      "text": "Trong sông Cấm âm bảy mét hay kênh Hà Nam âm tám mét, tàu mẹ đều chạm đáy."
+    },
+    {
+      "start": 8.498,
+      "end": 13.647,
+      "text": "Nhưng ngoài rìa Cát Hải, luồng Lạch Huyện rộng một trăm sáu mươi mét sâu gần mười ba đến mười bốn mét,"
+    },
+    {
+      "start": 13.937,
+      "end": 16.022,
+      "text": "đủ đón tàu một trăm sáu mươi lăm nghìn tấn."
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word": "Nhìn",
+      "start": 0.108,
+      "end": 0.337,
+      "startMs": 108,
+      "endMs": 337,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lát",
+      "start": 0.337,
+      "end": 0.565,
+      "startMs": 337,
+      "endMs": 565,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cắt",
+      "start": 0.565,
+      "end": 0.794,
+      "startMs": 565,
+      "endMs": 794,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bốn",
+      "start": 0.794,
+      "end": 1.023,
+      "startMs": 794,
+      "endMs": 1023,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mươi",
+      "start": 1.023,
+      "end": 1.251,
+      "startMs": 1023,
+      "endMs": 1251,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tám",
+      "start": 1.251,
+      "end": 1.48,
+      "startMs": 1251,
+      "endMs": 1480,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ki",
+      "start": 1.48,
+      "end": 1.709,
+      "startMs": 1480,
+      "endMs": 1709,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lô",
+      "start": 1.709,
+      "end": 1.937,
+      "startMs": 1709,
+      "endMs": 1937,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét,",
+      "start": 1.937,
+      "end": 2.166,
+      "startMs": 1937,
+      "endMs": 2166,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "câu",
+      "start": 2.166,
+      "end": 2.394,
+      "startMs": 2166,
+      "endMs": 2394,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trả",
+      "start": 2.394,
+      "end": 2.623,
+      "startMs": 2394,
+      "endMs": 2623,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lời",
+      "start": 2.623,
+      "end": 2.852,
+      "startMs": 2623,
+      "endMs": 2852,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lộ",
+      "start": 2.852,
+      "end": 3.08,
+      "startMs": 2852,
+      "endMs": 3080,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "rõ.",
+      "start": 3.08,
+      "end": 3.309,
+      "startMs": 3080,
+      "endMs": 3309,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Trong",
+      "start": 3.674,
+      "end": 3.92,
+      "startMs": 3674,
+      "endMs": 3920,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sông",
+      "start": 3.92,
+      "end": 4.167,
+      "startMs": 3920,
+      "endMs": 4167,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Cấm",
+      "start": 4.167,
+      "end": 4.413,
+      "startMs": 4167,
+      "endMs": 4413,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "âm",
+      "start": 4.413,
+      "end": 4.66,
+      "startMs": 4413,
+      "endMs": 4660,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bảy",
+      "start": 4.66,
+      "end": 4.906,
+      "startMs": 4660,
+      "endMs": 4906,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét",
+      "start": 4.906,
+      "end": 5.152,
+      "startMs": 4906,
+      "endMs": 5152,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hay",
+      "start": 5.152,
+      "end": 5.399,
+      "startMs": 5152,
+      "endMs": 5399,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kênh",
+      "start": 5.399,
+      "end": 5.645,
+      "startMs": 5399,
+      "endMs": 5645,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Hà",
+      "start": 5.645,
+      "end": 5.892,
+      "startMs": 5645,
+      "endMs": 5892,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Nam",
+      "start": 5.892,
+      "end": 6.138,
+      "startMs": 5892,
+      "endMs": 6138,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "âm",
+      "start": 6.138,
+      "end": 6.384,
+      "startMs": 6138,
+      "endMs": 6384,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tám",
+      "start": 6.384,
+      "end": 6.631,
+      "startMs": 6384,
+      "endMs": 6631,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét,",
+      "start": 6.631,
+      "end": 6.877,
+      "startMs": 6631,
+      "endMs": 6877,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tàu",
+      "start": 6.877,
+      "end": 7.123,
+      "startMs": 6877,
+      "endMs": 7123,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mẹ",
+      "start": 7.123,
+      "end": 7.37,
+      "startMs": 7123,
+      "endMs": 7370,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đều",
+      "start": 7.37,
+      "end": 7.616,
+      "startMs": 7370,
+      "endMs": 7616,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chạm",
+      "start": 7.616,
+      "end": 7.863,
+      "startMs": 7616,
+      "endMs": 7863,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đáy.",
+      "start": 7.863,
+      "end": 8.109,
+      "startMs": 7863,
+      "endMs": 8109,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Nhưng",
+      "start": 8.632,
+      "end": 8.866,
+      "startMs": 8632,
+      "endMs": 8866,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ngoài",
+      "start": 8.866,
+      "end": 9.1,
+      "startMs": 8866,
+      "endMs": 9100,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "rìa",
+      "start": 9.1,
+      "end": 9.334,
+      "startMs": 9100,
+      "endMs": 9334,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Cát",
+      "start": 9.334,
+      "end": 9.568,
+      "startMs": 9334,
+      "endMs": 9568,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Hải,",
+      "start": 9.568,
+      "end": 9.802,
+      "startMs": 9568,
+      "endMs": 9802,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "luồng",
+      "start": 9.802,
+      "end": 10.036,
+      "startMs": 9802,
+      "endMs": 10036,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Lạch",
+      "start": 10.036,
+      "end": 10.27,
+      "startMs": 10036,
+      "endMs": 10270,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Huyện",
+      "start": 10.27,
+      "end": 10.504,
+      "startMs": 10270,
+      "endMs": 10504,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "rộng",
+      "start": 10.504,
+      "end": 10.738,
+      "startMs": 10504,
+      "endMs": 10738,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "start": 10.738,
+      "end": 10.972,
+      "startMs": 10738,
+      "endMs": 10972,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trăm",
+      "start": 10.972,
+      "end": 11.207,
+      "startMs": 10972,
+      "endMs": 11207,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sáu",
+      "start": 11.207,
+      "end": 11.441,
+      "startMs": 11207,
+      "endMs": 11441,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mươi",
+      "start": 11.441,
+      "end": 11.675,
+      "startMs": 11441,
+      "endMs": 11675,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét",
+      "start": 11.675,
+      "end": 11.909,
+      "startMs": 11675,
+      "endMs": 11909,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sâu",
+      "start": 11.909,
+      "end": 12.143,
+      "startMs": 11909,
+      "endMs": 12143,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "gần",
+      "start": 12.143,
+      "end": 12.377,
+      "startMs": 12143,
+      "endMs": 12377,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mười",
+      "start": 12.377,
+      "end": 12.611,
+      "startMs": 12377,
+      "endMs": 12611,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ba",
+      "start": 12.611,
+      "end": 12.845,
+      "startMs": 12611,
+      "endMs": 12845,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đến",
+      "start": 12.845,
+      "end": 13.079,
+      "startMs": 12845,
+      "endMs": 13079,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mười",
+      "start": 13.079,
+      "end": 13.313,
+      "startMs": 13079,
+      "endMs": 13313,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bốn",
+      "start": 13.313,
+      "end": 13.547,
+      "startMs": 13313,
+      "endMs": 13547,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét,",
+      "start": 13.547,
+      "end": 13.781,
+      "startMs": 13547,
+      "endMs": 13781,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đủ",
+      "start": 14.071,
+      "end": 14.282,
+      "startMs": 14071,
+      "endMs": 14282,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đón",
+      "start": 14.282,
+      "end": 14.493,
+      "startMs": 14282,
+      "endMs": 14493,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tàu",
+      "start": 14.493,
+      "end": 14.704,
+      "startMs": 14493,
+      "endMs": 14704,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "start": 14.704,
+      "end": 14.915,
+      "startMs": 14704,
+      "endMs": 14915,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trăm",
+      "start": 14.915,
+      "end": 15.126,
+      "startMs": 14915,
+      "endMs": 15126,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sáu",
+      "start": 15.126,
+      "end": 15.337,
+      "startMs": 15126,
+      "endMs": 15337,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mươi",
+      "start": 15.337,
+      "end": 15.548,
+      "startMs": 15337,
+      "endMs": 15548,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lăm",
+      "start": 15.548,
+      "end": 15.759,
+      "startMs": 15548,
+      "endMs": 15759,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nghìn",
+      "start": 15.759,
+      "end": 15.97,
+      "startMs": 15759,
+      "endMs": 15970,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tấn.",
+      "start": 15.97,
+      "end": 16.181,
+      "startMs": 15970,
+      "endMs": 16181,
+      "pageBreakAfter": true
+    }
+  ]
+}

@@ -148,8 +148,8 @@ def main():
     # =========================================================================
     # TOPIC 1: TAM LY HOC TU DUY (Behavioral Psychology & Micro-Expressions)
     # =========================================================================
-    print("\n=== TOPIC 1: Tam-Ly-Hoc-Tu-Duy ===")
-    t1_dir = TOPICS_ROOT / "Tam-Ly-Hoc-Tu-Duy" / "assets"
+    print("\n=== TOPIC 1: Tam-Ly-Hanh-Vi-Giao-Tiep ===")
+    t1_dir = TOPICS_ROOT / "Tam-Ly-Hanh-Vi-Giao-Tiep" / "assets"
     t1_dir.mkdir(parents=True, exist_ok=True)
     fetch_mixkit_video(["conversation", "interview", "talking"], t1_dir / "raw_v1_conversation.mp4")
     fetch_mixkit_video(["shoes", "walking", "legs"], t1_dir / "raw_v2_feet_shoes.mp4")
@@ -161,8 +161,8 @@ def main():
     # TOPIC 2: BETTER VERSION TAM LY (Mental Healing & Book Insights)
     # Uses the mindfulness/burnout clips & AI healing art EXCLUSIVELY for Topic 2
     # =========================================================================
-    print("\n=== TOPIC 2: Better-Version-Tam-Ly ===")
-    t2_dir = TOPICS_ROOT / "Better-Version-Tam-Ly" / "assets"
+    print("\n=== TOPIC 2: Tam-Ly-Noi-Tam ===")
+    t2_dir = TOPICS_ROOT / "Tam-Ly-Noi-Tam" / "assets"
     t2_dir.mkdir(parents=True, exist_ok=True)
     c_dir = ROOT / "Demo-5-Phong-Cach" / "cinema_clips"
     v_dir = ROOT / "Demo-5-Phong-Cach" / "vfx_assets"

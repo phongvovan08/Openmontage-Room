@@ -1,0 +1,503 @@
+{
+ "vn_ha_tang_dia_ly": {
+  "top": [
+   {
+    "t": "5 SIÊU THÀNH PHỐ TRỰC THUỘC TRUNG ƯƠNG TIẾP THEO CỦA VIỆT NAM | Ghiền Địa Lý",
+    "v": 528033,
+    "d": 1857,
+    "l": 2485,
+    "c": 350,
+    "ch": "GHIỀN ĐỊA LÝ"
+   },
+   {
+    "t": "Vì Sao Phú Quốc Gần Campuchia Nhưng Vẫn Thuộc Việt Nam?",
+    "v": 501936,
+    "d": 879,
+    "l": 4444,
+    "c": 617,
+    "ch": "CD Media - Why?"
+   },
+   {
+    "t": "6 Weeks of Prep, 6 Hours of Pouring: Vietnam Railway Completes Unprecedented Feat!",
+    "v": 491155,
+    "d": 600,
+    "l": 1363,
+    "c": 199,
+    "ch": "Land Connect"
+   },
+   {
+    "t": "Giải thích kinh tế Đài Loan trong 10 phút",
+    "v": 399347,
+    "d": 795,
+    "l": 2141,
+    "c": 483,
+    "ch": "KIẾN THỨC THÚ VỊ Official"
+   },
+   {
+    "t": "Bypassing Singapore: Why Are the World's Megaships Choosing the Cai Mep – Thi Vai Port?",
+    "v": 387578,
+    "d": 915,
+    "l": 1449,
+    "c": 93,
+    "ch": "Tọa Độ Xưa"
+   },
+   {
+    "t": "37 SỰ THẬT ĐỊA LÝ KHÓ TIN VỀ ẤN ĐỘ: KỶ LỤC THIÊN NHIÊN  THẾ GIỚI | Ghiền Địa Lý",
+    "v": 333559,
+    "d": 2051,
+    "l": 1796,
+    "c": 101,
+    "ch": "GHIỀN ĐỊA LÝ"
+   },
+   {
+    "t": "The 2026 GDP Paradox and the Cash Crunch: Why Are Bank Interest Rates Rising Nonstop, and Who W",
+    "v": 274151,
+    "d": 1062,
+    "l": 717,
+    "c": 94,
+    "ch": "BCNN - BƯỚC CHUYỂN NGHỀ NGHIỆP"
+   },
+   {
+    "t": "Metro Line 2 to start tunneling 2 months early: 2 TBMs race beneath Saigon!",
+    "v": 272751,
+    "d": 602,
+    "l": 825,
+    "c": 149,
+    "ch": "Land Connect"
+   }
+  ],
+  "years": {
+   "2020": {
+    "n": 1,
+    "med": 832685,
+    "max": 832685
+   },
+   "2021": {
+    "n": 2,
+    "med": 2148180,
+    "max": 4180065
+   },
+   "2022": {
+    "n": 2,
+    "med": 1115552,
+    "max": 1726679
+   },
+   "2023": {
+    "n": 2,
+    "med": 831914,
+    "max": 1452216
+   },
+   "2024": {
+    "n": 5,
+    "med": 1168487,
+    "max": 3357921
+   },
+   "2025": {
+    "n": 11,
+    "med": 284630,
+    "max": 1104605
+   },
+   "2026": {
+    "n": 35,
+    "med": 35858,
+    "max": 528033
+   }
+  },
+  "eng": {
+   "like": 0.63,
+   "cmt": 0.085
+  }
+ },
+ "intl_megaproject": {
+  "top": [
+   {
+    "t": "CHINESE MEGASTRUCTURES | Engineering the Future",
+    "v": 12373316,
+    "d": 8215,
+    "l": 41333,
+    "c": 1700,
+    "ch": "Lifeder"
+   },
+   {
+    "t": "Inside the World’s Longest “UnderSea” Tunnel: How the $15B Impossible Channel Tunnel Was Built!",
+    "v": 4413121,
+    "d": 1056,
+    "l": 12391,
+    "c": 324,
+    "ch": "Capitol Insider"
+   },
+   {
+    "t": "Inside China’s $20B “Deep-Sea” Bridge: How They Built an Impossible Tunnel in the Ocean!",
+    "v": 3847548,
+    "d": 984,
+    "l": 10803,
+    "c": 671,
+    "ch": "Capitol Insider"
+   },
+   {
+    "t": "How Dubai Built a $1B Hotel on Open Water (Impossible Engineering)",
+    "v": 3730317,
+    "d": 580,
+    "l": 8598,
+    "c": 90,
+    "ch": "GyaanProcess"
+   },
+   {
+    "t": "The $100B Plan to Bypass the Strait of Hormuz",
+    "v": 3705334,
+    "d": 486,
+    "l": 27328,
+    "c": 4200,
+    "ch": "Unthinkable Build"
+   },
+   {
+    "t": "Japan Built a $20 Billion Airport on the Ocean — Now It’s Sinking",
+    "v": 2760448,
+    "d": 966,
+    "l": 5687,
+    "c": 156,
+    "ch": "FctryBuilt"
+   },
+   {
+    "t": "Norway is Building The World's Deepest Mega-Tunnel",
+    "v": 2632417,
+    "d": 1770,
+    "l": 44910,
+    "c": 2400,
+    "ch": "The B1M"
+   },
+   {
+    "t": "The Brooklyn Bridge Should Have Been Impossible in 1870",
+    "v": 2299137,
+    "d": 920,
+    "l": 21690,
+    "c": 1400,
+    "ch": "Engineering The Impossible"
+   }
+  ],
+  "years": {
+   "2015": {
+    "n": 2,
+    "med": 2275,
+    "max": 3932
+   },
+   "2016": {
+    "n": 3,
+    "med": 154129,
+    "max": 160424
+   },
+   "2017": {
+    "n": 1,
+    "med": 117028,
+    "max": 117028
+   },
+   "2018": {
+    "n": 1,
+    "med": 1195,
+    "max": 1195
+   },
+   "2019": {
+    "n": 1,
+    "med": 929,
+    "max": 929
+   },
+   "2020": {
+    "n": 1,
+    "med": 183594,
+    "max": 183594
+   },
+   "2023": {
+    "n": 5,
+    "med": 2898994,
+    "max": 14718781
+   },
+   "2024": {
+    "n": 6,
+    "med": 1327818,
+    "max": 2866817
+   },
+   "2025": {
+    "n": 6,
+    "med": 741527,
+    "max": 3770198
+   },
+   "2026": {
+    "n": 62,
+    "med": 12625,
+    "max": 12373316
+   }
+  },
+  "eng": {
+   "like": 0.74,
+   "cmt": 0.054
+  }
+ },
+ "intl_code_simulation": {
+  "top": [
+   {
+    "t": "I Trained an AI Until It Mastered Physics",
+    "v": 489697,
+    "d": 663,
+    "l": 3887,
+    "c": 408,
+    "ch": "CodeCraftedPhysics"
+   },
+   {
+    "t": "The Money Simulation - Currency Behaves Like Code",
+    "v": 114520,
+    "d": 1981,
+    "l": 4588,
+    "c": 330,
+    "ch": "Brian Scott"
+   },
+   {
+    "t": "Retro Rewind - Video Store Simulator: 10 Advanced Tips You NEED to Know",
+    "v": 25399,
+    "d": 992,
+    "l": 237,
+    "c": 73,
+    "ch": "Game Launch Central"
+   },
+   {
+    "t": "I Tested Qwen 3.8 in 4 Coding Harnesses—One Clear Winner",
+    "v": 9709,
+    "d": 2312,
+    "l": 190,
+    "c": 125,
+    "ch": "Otis's AI Lab"
+   },
+   {
+    "t": "How to Write Your First Physics Simulation in PyBullet? | Beginner Guide [ pt.1 ]",
+    "v": 1691,
+    "d": 473,
+    "l": 21,
+    "c": 6,
+    "ch": "DeepGradient"
+   },
+   {
+    "t": "Building Surrogate Models for Physics Simulation using a No-Code Approach",
+    "v": 357,
+    "d": 1065,
+    "l": 0,
+    "c": 0,
+    "ch": "CDFAM"
+   },
+   {
+    "t": "What If You Could Edit the Laws of Physics?",
+    "v": 64,
+    "d": 520,
+    "l": 0,
+    "c": 0,
+    "ch": "Physics Odds"
+   },
+   {
+    "t": "What If the Universe Is Actually a Running Computer?",
+    "v": 46,
+    "d": 428,
+    "l": 2,
+    "c": 0,
+    "ch": "Unpacked Intelligence"
+   }
+  ],
+  "years": {
+   "2012": {
+    "n": 1,
+    "med": 40422335,
+    "max": 40422335
+   },
+   "2013": {
+    "n": 1,
+    "med": 36036174,
+    "max": 36036174
+   },
+   "2014": {
+    "n": 1,
+    "med": 38732292,
+    "max": 38732292
+   },
+   "2015": {
+    "n": 1,
+    "med": 49160777,
+    "max": 49160777
+   },
+   "2017": {
+    "n": 3,
+    "med": 34195866,
+    "max": 90208200
+   },
+   "2019": {
+    "n": 1,
+    "med": 24998239,
+    "max": 24998239
+   },
+   "2020": {
+    "n": 2,
+    "med": 160449,
+    "max": 166899
+   },
+   "2021": {
+    "n": 2,
+    "med": 1011997,
+    "max": 1157258
+   },
+   "2022": {
+    "n": 5,
+    "med": 1588274,
+    "max": 9928677
+   },
+   "2023": {
+    "n": 10,
+    "med": 1495596,
+    "max": 27696733
+   },
+   "2024": {
+    "n": 5,
+    "med": 237987,
+    "max": 512632
+   },
+   "2025": {
+    "n": 11,
+    "med": 1185257,
+    "max": 20792651
+   },
+   "2026": {
+    "n": 11,
+    "med": 357,
+    "max": 489697
+   }
+  },
+  "eng": {
+   "like": 2.9,
+   "cmt": 0.127
+  }
+ },
+ "intl_geopolitics_map": {
+  "top": [
+   {
+    "t": "I Visited The World's Strangest Borders",
+    "v": 452040,
+    "d": 3289,
+    "l": 3369,
+    "c": 63,
+    "ch": "Drew Binsky Top Videos and Drew Bi"
+   },
+   {
+    "t": "The Geopolitics of One Piece",
+    "v": 190036,
+    "d": 1505,
+    "l": 2920,
+    "c": 173,
+    "ch": "Artur - The Library of Ohara"
+   },
+   {
+    "t": "The Borders That Shouldn't Exist",
+    "v": 92994,
+    "d": 618,
+    "l": 362,
+    "c": 21,
+    "ch": "GLK"
+   },
+   {
+    "t": "How to Think Like a Geopolitics Analyst",
+    "v": 74771,
+    "d": 3859,
+    "l": 4017,
+    "c": 384,
+    "ch": "Lines on Maps Extra"
+   },
+   {
+    "t": "Every Type of Border Explained",
+    "v": 26460,
+    "d": 1717,
+    "l": 1087,
+    "c": 119,
+    "ch": "ibx2cat"
+   },
+   {
+    "t": "Mapping Geopolitics with MapChart",
+    "v": 2823,
+    "d": 247,
+    "l": 8,
+    "c": 6,
+    "ch": "Interesting Times"
+   },
+   {
+    "t": "20 STRANGEST Borders in the World That Look Impossible! 🌍",
+    "v": 232,
+    "d": 487,
+    "l": 1,
+    "c": 0,
+    "ch": "Saur Facto"
+   },
+   {
+    "t": "Why Does the US Map Look So Weird? 8 Strange Borders Explained",
+    "v": 190,
+    "d": 531,
+    "l": 1,
+    "c": 0,
+    "ch": "HistoWhy"
+   }
+  ],
+  "years": {
+   "2013": {
+    "n": 8,
+    "med": 55,
+    "max": 37488823
+   },
+   "2016": {
+    "n": 2,
+    "med": 38082803,
+    "max": 50504274
+   },
+   "2017": {
+    "n": 4,
+    "med": 29535578,
+    "max": 48444071
+   },
+   "2019": {
+    "n": 3,
+    "med": 210441,
+    "max": 10759643
+   },
+   "2020": {
+    "n": 6,
+    "med": 1999605,
+    "max": 5740310
+   },
+   "2021": {
+    "n": 7,
+    "med": 1015849,
+    "max": 2326504
+   },
+   "2022": {
+    "n": 3,
+    "med": 369155,
+    "max": 3517367
+   },
+   "2023": {
+    "n": 6,
+    "med": 667323,
+    "max": 3376894
+   },
+   "2024": {
+    "n": 3,
+    "med": 1494099,
+    "max": 2234060
+   },
+   "2025": {
+    "n": 10,
+    "med": 53720,
+    "max": 949141
+   },
+   "2026": {
+    "n": 24,
+    "med": 63,
+    "max": 452040
+   }
+  },
+  "eng": {
+   "like": 1.98,
+   "cmt": 0.15
+  }
+ }
+}

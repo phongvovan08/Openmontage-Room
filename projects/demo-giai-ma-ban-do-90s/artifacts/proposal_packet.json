@@ -1,0 +1,321 @@
+{
+  "version": "1.0",
+  "concept_options": [
+    {
+      "id": "c1",
+      "title": "Vì sao miền Bắc phải ra tận Lạch Huyện mới làm được cảng nước sâu?",
+      "hook": "Hơn một thế kỷ làm thành phố cảng, vì sao Hải Phòng vẫn phải vượt biển tìm nước sâu?",
+      "narrative_structure": "problem_solution",
+      "visual_approach": "Mở bằng bản đồ toàn cảnh Việt Nam (có Hoàng Sa & Trường Sa), zoom mượt vào cửa sông Hải Phòng, ghim điểm nghẽn phù sa Sông Cấm - Nam Triệu, vẽ tuyến cầu vượt biển Tân Vũ - Lạch Huyện sang đảo Cát Hải, và chốt bằng mặt cắt dọc bậc thang độ sâu 48 km (-7,0 m -> -8,0 m -> -12,9 m / -14,0 m).",
+      "suggested_playbook": "clean-professional",
+      "target_audience": "Người xem Việt Nam 22-45 tuổi quan tâm địa lý kinh tế, quy hoạch hạ tầng, logistics và đầu tư",
+      "target_platform": "youtube",
+      "target_duration_seconds": 90,
+      "key_points": [
+        "Cụm cảng truyền thống trên sông Cấm nằm sâu tới 38-48 km trong nội địa, luồng chỉ rộng 80 m và sâu khoảng -7,0 m, trong khi cửa tự nhiên Nam Triệu bị phù sa bồi cạn còn -0,5 m đến -3,7 m.",
+        "Tuyến cầu - đường vượt biển Tân Vũ - Lạch Huyện dài 15,63 km (riêng cầu vượt biển 5,44 km) giúp nhảy qua vùng bồi lắng sang phía Đông Nam đảo Cát Hải.",
+        "Luồng Lạch Huyện rộng 160 m đạt độ sâu -12,9 m (chuẩn tắc thiết kế -14,0 m), giúp 6 bến đang vận hành đón tàu tới 165.000 DWT giảm tải đi thẳng Mỹ - Âu."
+      ],
+      "core_message": "Lạch Huyện không phải sự xa xỉ mà là cú nhảy địa lý bắt buộc để cảng biển miền Bắc thoát khỏi cái bẫy phù sa cửa sông.",
+      "cta": "Theo bạn, địa điểm hạ tầng nào của Việt Nam cần được giải mã bằng bản đồ tiếp theo: Sân bay Long Thành 40 km hay Cao tốc miền Tây?",
+      "tone": "Điềm tĩnh, sắc sảo, giàu chứng cứ kỹ thuật, dễ hiểu",
+      "grounded_in": [
+        "Thông số luồng Hải Phòng cập nhật 29/08/2026 của Cảng vụ Hàng hải Hải Phòng (QĐ 1995/QĐ-CHHĐTVN)",
+        "Quyết định 1579/QĐ-TTg về Quy hoạch tổng thể hệ thống cảng biển Việt Nam",
+        "Thông tin bến 3, 4 Lạch Huyện đón tàu 165.000 DWT từ Cổng thông tin Logistics Bộ Công Thương"
+      ],
+      "why_this_works": "Khớp 100% lời hứa 1 câu của kênh ('một địa điểm, một câu hỏi vì sao, trả lời bằng bản đồ') và trình diễn trọn vẹn 5 cú máy kỹ thuật bắt buộc của Giai đoạn 0 trong đúng 90 giây."
+    },
+    {
+      "id": "c2",
+      "title": "Sao không vét sâu thẳng sông Cấm cho rẻ mà phải bắc cầu vượt biển sang Cát Hải?",
+      "hook": "Sao không nạo vét thẳng sông Cấm ngay trong phố, mà phải bắc cầu vượt biển sang Cát Hải?",
+      "narrative_structure": "myth_busting",
+      "visual_approach": "Bắt đầu trực diện từ bình luận thắc mắc phổ biến nhất của khán giả, dùng phép đo khoảng cách (Measure) và bản đồ chiều rộng luồng 80 m xuyên nội đô Hải Phòng để bác bỏ giả định 'vét sông rẻ hơn', sau đó mở ra giải pháp đảo Cát Hải + đê chắn cát.",
+      "suggested_playbook": "minimalist-diagram",
+      "target_audience": "Khán giả thích tư duy phản biện kỹ thuật và bài toán chi phí - lợi ích trong đầu tư công",
+      "target_platform": "youtube",
+      "target_duration_seconds": 90,
+      "key_points": [
+        "Sông Cấm hẹp (luồng 80 m), uốn khúc xuyên lõi đô thị Hải Phòng và hứng lượng phù sa khổng lồ hàng năm từ hệ thống sông Thái Bình - Bạch Đằng.",
+        "Khoét sâu lòng sông nội đô từ -7,0 m xuống -14,0 m trên gần 40 km vừa đe dọa sạt lở bờ phố, vừa tốn chi phí nạo vét lặp lại vô tận.",
+        "Dời cảng container nước sâu ra Lạch Huyện theo QĐ 1579/QĐ-TTg vừa giải phóng không gian đô thị ven sông Cấm, vừa rút ngắn luồng tàu biển lớn còn 20,66 km."
+      ],
+      "core_message": "Trong địa lý cảng biển, chống lại dòng phù sa giữa lòng thành phố đắt hơn nhiều so với bắc một cây cầu vượt biển ra đón nước sâu.",
+      "cta": "Bạn muốn xem tiếp bài toán nền đất yếu khiến cao tốc miền Tây đắt đỏ hơn nơi khác không? Hãy để lại bình luận.",
+      "tone": "Phản biện logic, gãy gọn, giải thích kiểu kỹ sư bản đồ",
+      "grounded_in": [
+        "Câu hỏi thực tế của người xem dưới các video YouTube về cảng Hải Phòng",
+        "Độ sâu luồng Sông Cấm -7,0 m / rộng 80 m so với luồng Lạch Huyện -12,9 m / rộng 160 m",
+        "Định hướng di dời bến cảng trên sông Cấm trong quy hoạch cảng biển Hải Phòng"
+      ],
+      "why_this_works": "Đánh trúng hiểu lầm phổ biến nhất của người xem đại chúng ('tại sao không đào sâu cảng cũ'), tạo lực giữ chân cao ngay từ 5 giây đầu."
+    },
+    {
+      "id": "c3",
+      "title": "Hành trình 48 km: Siêu tàu 165.000 tấn sẽ mắc kẹt ở đâu nếu đi vào cảng cũ Hải Phòng?",
+      "hook": "Một siêu tàu cần mười bốn mét nước dưới bụng sẽ mắc kẹt ở đâu tại Hải Phòng?",
+      "narrative_structure": "journey",
+      "visual_approach": "Mô phỏng góc nhìn điều động hàng hải: con tàu container đi từ Biển Đông qua Phao số 0 vào bến Lạch Huyện an toàn, rồi chạy đường mô phỏng giả định tiến sâu qua kênh Hà Nam vào sông Cấm để thấy điểm chạm đáy trên mặt cắt.",
+      "suggested_playbook": "flat-motion-graphics",
+      "target_audience": "Người xem yêu thích mô phỏng hàng hải, chuỗi cung ứng toàn cầu và bản đồ chuyển động",
+      "target_platform": "youtube",
+      "target_duration_seconds": 90,
+      "key_points": [
+        "Trước khi có Lạch Huyện, hàng xuất khẩu miền Bắc đi Mỹ - Âu phải đi tàu nhỏ gom hàng sang trung chuyển ở Singapore hoặc Hồng Kông.",
+        "Từ Phao số 0 đến Km20+662 (vũng quay tàu Lạch Huyện), luồng rộng 160 m đủ đón siêu tàu giảm tải tới 165.000 DWT cập thẳng 6 bến quốc tế.",
+        "Nếu đi quá Km22+600 vào kênh Hà Nam (-8,0 m) hoặc Km38+100 vào Sông Cấm (-7,0 m), siêu tàu lập tức vượt quá giới hạn mớn nước."
+      ],
+      "core_message": "Chỉ 20 km luồng nước sâu ngoài rìa đảo Cát Hải đã nối thẳng nhà máy miền Bắc với các tuyến hàng hải xuyên đại dương.",
+      "cta": "Đăng ký kênh để xem tập bản đồ tuần tới về các nút thắt hạ tầng lớn nhất Việt Nam.",
+      "tone": "Kể chuyện hành trình trực quan, nhịp độ cuốn hút",
+      "grounded_in": [
+        "Chuỗi lý trình Km0+000 -> Km20+662 -> Km28+500 -> Km48+000 của Cảng vụ Hàng hải Hải Phòng",
+        "Thực tế kết nối tuyến biển xa không cần trung chuyển Singapore/Hồng Kông của cụm cảng Lạch Huyện"
+      ],
+      "why_this_works": "Cấu trúc hành trình tuyến tính từ ngoài khơi vào đất liền giúp người xem theo dõi cực dễ trên bản đồ động mà không bị ngợp thông số."
+    }
+  ],
+  "selected_concept": {
+    "concept_id": "c1",
+    "rationale": "Đề xuất chọn Concept c1 vì vừa bám sát câu hỏi ứng viên số 1 đã khóa trong Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md, vừa phô diễn tự nhiên và đầy đủ nhất cả 5 cú máy kỹ thuật bắt buộc (overview, zoom, pin-label, route, comparison-measure) kèm mặt cắt bậc thang độ sâu 48 km."
+  },
+  "production_plan": {
+    "pipeline": "animated-explainer",
+    "playbook": "clean-professional",
+    "stages": [
+      {
+        "stage": "script",
+        "tools": [],
+        "approach": "Viết lời bình tiếng Việt khoảng 185-205 từ (~90 giây ở tốc độ nói tự nhiên), bám sát 6 cảnh bản đồ, phân biệt rõ phần đang vận hành (bến 1-6) và quy hoạch, kèm bảng phát âm chuẩn cho các ký hiệu viết tắt (DWT, TEU, Km)."
+      },
+      {
+        "stage": "scene_plan",
+        "tools": [],
+        "approach": "Thiết kế 6 cảnh độc lập thị giác (overview Việt Nam có Hoàng Sa - Trường Sa, zoom cửa biển Hải Phòng, pin-label điểm nghẽn phù sa, route cầu vượt biển & luồng tàu, comparison-measure + mặt cắt dọc 48 km, bảng đối chiếu vận hành/quy hoạch) theo khung 16:9 (1920x1080)."
+      },
+      {
+        "stage": "assets",
+        "tools": [
+          {
+            "tool_name": "vibi_tts",
+            "role": "Tạo giọng đọc thuyết minh tiếng Việt kèm mốc thời gian SRT và word timestamps",
+            "provider": "vibi",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Quy chuẩn bắt buộc trong AGENTS.md cho tiếng Việt, giọng đọc tự nhiên (Haitrieu / Lacthien), xuất sẵn SRT + JSON đồng bộ khung hình."
+          }
+        ],
+        "approach": "Sinh audio thuyết minh bằng _tools/vibi_tts.py vào projects/demo-giai-ma-ban-do-90s/assets/audio/, trích xuất dữ liệu địa lý Natural Earth public-domain (kèm tọa độ Hoàng Sa, Trường Sa và luồng Hải Phòng) vào public/geo/, và chụp 6 ảnh tĩnh review (snapshots/<scene_id>.png) trình duyệt ở cổng assets.",
+        "fallback_if_unavailable": "Nếu Vibi API gián đoạn tạm thời, báo người dùng kiểm tra khóa/mạng thay vì tự ý chuyển sang giọng tiếng Anh không phù hợp tiếng Việt."
+      },
+      {
+        "stage": "edit",
+        "tools": [],
+        "approach": "Khóa thời lượng từng cảnh khớp chính xác với độ dài từng đoạn thoại Vibi TTS (sửa triệt để lỗi gán cứng số frame trong shorts-kit), kiểm tra vùng an toàn nhãn 16:9 và không lặp phụ đề đè lên tiêu đề."
+      },
+      {
+        "stage": "compose",
+        "tools": [
+          {
+            "tool_name": "video_compose",
+            "role": "Kết xuất video bản đồ vector + sơ đồ mặt cắt 1920x1080@30fps",
+            "provider": "remotion",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Remotion hỗ trợ trực tiếp d3-geo, topojson-client, phép chiếu Mercator động 16:9, font Be Vietnam Pro và kiểm soát mượt nội suy khung hình."
+          }
+        ],
+        "approach": "Dựng composition bespoke (atelier) trong projects/demo-giai-ma-ban-do-90s/, chạy kiểm tra TypeScript, xuất video MP4 vào projects/demo-giai-ma-ban-do-90s/renders/final.mp4 và tự kiểm tra kỹ thuật + thị giác 5 bước (final_review).",
+        "fallback_if_unavailable": "Nếu phát sinh lỗi trình duyệt headless của Remotion, dừng và báo cáo người dùng trước khi đổi thông số hoặc runtime."
+      },
+      {
+        "stage": "publish",
+        "tools": [
+          {
+            "tool_name": "export_bundle",
+            "role": "Đóng gói file MP4, phụ đề SRT, metadata YouTube tiếng Việt và sổ cái nguồn/license",
+            "provider": "local",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Đóng gói cục bộ để người dùng tự kiểm duyệt và đăng thủ công lên YouTube Studio theo đúng AGENTS.md."
+          }
+        ],
+        "approach": "Tạo gói bàn giao hoàn chỉnh kèm tiêu đề, mô tả gắn nguồn văn bản nhà nước, chapters và báo cáo trạng thái kiểm chứng fact."
+      }
+    ],
+    "quality_tradeoffs": [
+      {
+        "tradeoff": "Bản đồ Vector chuyên sâu (Natural Earth + hải đồ tự dựng, $0) so với Ảnh vệ tinh EOX Sentinel-2",
+        "recommendation": "Dùng 100% Bản đồ Vector + Mặt cắt kỹ thuật trong bản demo 90s",
+        "quality_impact": "Tránh hoàn toàn rủi ro bản quyền/ghi nguồn CC BY 4.0 hoặc hiểu nhầm ảnh vệ tinh cũ 2016 là hiện trạng 2026 (đúng khuyến nghị mục 4 tài liệu 21), đồng thời làm nổi bật rõ độ sâu dưới mặt nước mà ảnh vệ tinh không nhìn thấy được."
+      },
+      {
+        "tradeoff": "Remotion Atelier (React + d3-geo) so với HyperFrames (HTML/CSS/GSAP)",
+        "recommendation": "Chọn Remotion ở chế độ Atelier",
+        "quality_impact": "Tận dụng trực tiếp hệ hàm toán học bản đồ (Mercator, Haversine distanceKm, quần đảo Hoàng Sa - Trường Sa) đã kiểm chứng và nâng cấp lên khung 16:9 chuẩn xác."
+      }
+    ],
+    "alternative_paths": [
+      {
+        "description": "Lộ trình chuẩn đề xuất: Remotion Atelier 16:9 + Vibi TTS + Bản đồ Vector Natural Earth + Âm thanh kỹ thuật sạch (không nhạc nền ngoài)",
+        "total_cost_usd": 0.0,
+        "quality_level": "premium",
+        "what_changes": "Chi phí $0, sạch 100% bản quyền YouTube, kiểm soát tuyệt đối tọa độ và dấu tiếng Việt."
+      },
+      {
+        "description": "Lộ trình thay thế Runtime: HyperFrames Atelier (HTML/CSS/GSAP) + Vibi TTS",
+        "total_cost_usd": 0.0,
+        "quality_level": "standard",
+        "what_changes": "Mạnh về hiệu ứng chữ động GSAP nhưng phải viết lại từ đầu bộ chiếu tọa độ GIS và lớp quần đảo Việt Nam trong HTML/SVG thuần."
+      },
+      {
+        "description": "Lộ trình bổ sung nhạc nền miễn phí từ Pixabay Music",
+        "total_cost_usd": 0.0,
+        "quality_level": "premium",
+        "what_changes": "Thêm lớp nhạc nền documentary trầm nhẹ (-20 dB dưới giọng đọc), cần lưu kèm chứng từ Pixabay License trong gói xuất bản."
+      }
+    ],
+    "delivery_promise": {
+      "promise_type": "data_explainer",
+      "motion_required": true,
+      "source_required": false,
+      "tone_mode": "educational",
+      "quality_floor": "broadcast",
+      "approved_fallback": null
+    },
+    "renderer_family": "explainer-data",
+    "render_runtime": "remotion",
+    "composition_mode": "atelier",
+    "art_direction": "projects/demo-giai-ma-ban-do-90s/art-direction.md — Hải đồ kỹ thuật hàng hải hiện đại: nền biển chàm sâu (#071320), đất liền đá phiến (#16293D), phù sa bồi lắng hổ phách (#D97706), luồng nước sâu ngọc lam (#2DD4BF), font Be Vietnam Pro + JetBrains Mono, thiết bị thị giác đặc trưng 'Mặt cắt dọc thủy văn 48 km' xuất hiện duy nhất ở cảnh cao trào số 5.",
+    "taste_profile": {
+      "design_read": "Hải đồ kỹ thuật hàng hải Việt Nam hiện đại: điềm tĩnh, chuẩn xác như bản vẽ kỹ sư cảng biển, lấy độ tương phản giữa phù sa cạn và luồng sâu làm trục thị giác.",
+      "visual_variance": 6,
+      "motion_intensity": 4,
+      "information_density": 6,
+      "palette_discipline": "Nền hải đồ tối (#071320 / #16293D) với đúng 2 màu ngữ nghĩa chính: hổ phách (#D97706) cho vùng bồi lắng/cạn và ngọc lam (#2DD4BF) cho luồng nước sâu/hạ tầng mới; không dùng gradient tím AI.",
+      "layout_variation": "Luân phiên 6 bố cục khác nhau: bản đồ toàn quốc (Cảnh 1), camera bay thu phóng (Cảnh 2), cụm ghim vùng cửa sông (Cảnh 3), đường vẽ tiến trình cầu & luồng (Cảnh 4), lát cắt dọc độ sâu chia đôi màn hình (Cảnh 5), thẻ đối chiếu vận hành - quy hoạch (Cảnh 6).",
+      "reference_strategy": "Xuất 6 ảnh tĩnh snapshot đại diện cho từng cảnh (projects/demo-giai-ma-ban-do-90s/snapshots/scene_01..06.png) để duyệt bố cục, dấu tiếng Việt và vùng an toàn ở cổng assets trước khi render video.",
+      "anti_patterns": [
+        "Gradient tím/hồng kiểu AI chung chung",
+        "Thiếu Quần đảo Hoàng Sa và Trường Sa trên bản đồ tổng thể Việt Nam",
+        "Dùng chung một khung bản đồ tĩnh chỉ thay chữ qua cả 6 cảnh (hero-component spine)",
+        "Phụ đề tự động lặp lại y hệt dòng tiêu đề đang hiển thị trên màn hình",
+        "Định dạng số kiểu tiếng Anh (15.63 km, 165,000 DWT) thay vì chuẩn tiếng Việt (15,63 km, 165.000 DWT)"
+      ],
+      "quality_gates": [
+        "Bản đồ tổng thể Cảnh 1 hiển thị rõ nhãn Quần đảo Hoàng Sa và Quần đảo Trường Sa.",
+        "Đủ 5 cú máy kỹ thuật Giai đoạn 0: overview, zoom, route, pin-label, comparison-measure.",
+        "Mọi nhãn địa danh nằm gọn trong vùng an toàn 16:9 (1920x1080), không tràn mép hoặc đè nhau.",
+        "Phân biệt rõ trên hình giữa 6 bến đang khai thác và phần quy hoạch đến năm 2030."
+      ]
+    },
+    "music_source": {
+      "source_type": "none",
+      "mood_direction": "Mặc định ưu tiên âm thanh kỹ thuật sạch (giọng đọc Vibi TTS rõ nét + tiếng tick hải đồ/chuyển cảnh nhẹ tạo bằng FFmpeg) để triệt tiêu 100% rủi ro Content ID; có thể bật nhạc nền ambient từ Pixabay hoặc YouTube Audio Library nếu người duyệt chọn.",
+      "estimated_cost_usd": 0.0
+    },
+    "voice_selection": {
+      "provider": "vibi",
+      "voice_id": "Haitrieu",
+      "rationale": "Giọng nam thuyết minh tiếng Việt trầm rõ, tốc độ 1.1x mặc định đã cấu hình sẵn trong _tools/vibi_tts.py, rất hợp phong cách giải mã địa lý - hạ tầng.",
+      "estimated_cost_usd": 0.0,
+      "delivery_style": "Điềm tĩnh, chững chạc như biên tập viên bản đồ kinh tế, nhấn nhẹ vào các con số độ sâu (-7 m, -14 m) và khoảng cách (48 km, 5,44 km).",
+      "pacing_policy": "Khoảng 125-135 từ/phút (~195 từ cho 90 giây), nghỉ 0,4 giây giữa các cảnh để mắt người xem kịp đọc nhãn bản đồ.",
+      "sample_approval_required": false
+    },
+    "provider_rankings": {
+      "tts": [
+        {
+          "tool_name": "vibi_tts",
+          "provider": "vibi",
+          "weighted_score": 0.96,
+          "task_fit": 0.98,
+          "output_quality": 0.95,
+          "explanation": "Chuẩn tiếng Việt tự nhiên nhất trong workspace, hỗ trợ xuất thẳng SRT và word timestamps, có bộ nhớ đệm chống tốn credit."
+        },
+        {
+          "tool_name": "tts_generate",
+          "provider": "openai",
+          "weighted_score": 0.72,
+          "task_fit": 0.7,
+          "output_quality": 0.78,
+          "explanation": "Khả dụng nhưng phát âm địa danh Việt Nam (Lạch Huyện, Cát Hải, Nam Triệu) kém tự nhiên hơn Vibi và phát sinh phí API."
+        },
+        {
+          "tool_name": "tts_generate",
+          "provider": "piper",
+          "weighted_score": 0.45,
+          "task_fit": 0.4,
+          "output_quality": 0.45,
+          "explanation": "Miễn phí cục bộ nhưng chất lượng giọng tiếng Việt phẳng, không đạt chuẩn broadcast cho kênh mới."
+        }
+      ],
+      "music": [
+        {
+          "tool_name": "none_clean_sfx",
+          "provider": "ffmpeg",
+          "weighted_score": 0.9,
+          "task_fit": 0.92,
+          "output_quality": 0.85,
+          "explanation": "An toàn tuyệt đối về bản quyền YouTube, giữ giọng thuyết minh và thông số kỹ thuật tập trung tối đa."
+        },
+        {
+          "tool_name": "music_search",
+          "provider": "pixabay_music",
+          "weighted_score": 0.82,
+          "task_fit": 0.85,
+          "output_quality": 0.8,
+          "explanation": "Khả dụng miễn phí để tải nhạc nền documentary nhẹ nếu người dùng muốn có lớp nhạc nền liên tục."
+        }
+      ]
+    },
+    "decision_log_ref": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\decision_log.json"
+  },
+  "cost_estimate": {
+    "total_estimated_usd": 0.0,
+    "line_items": [
+      {
+        "tool": "vibi_tts",
+        "operation": "Tổng hợp ~195 từ tiếng Việt (6 đoạn thoại) kèm SRT & word timestamps",
+        "quantity": 6,
+        "estimated_usd": 0.0,
+        "notes": "Sử dụng hạ tầng Vibi TTS sẵn có của workspace kèm cache cục bộ _tools/.cache/vibi_pieces"
+      },
+      {
+        "tool": "natural_earth_geojson",
+        "operation": "Trích xuất dữ liệu biên giới, bờ biển, đảo Cát Hải, sông ngòi & quần đảo Hoàng Sa - Trường Sa",
+        "quantity": 1,
+        "estimated_usd": 0.0,
+        "notes": "Public Domain (Natural Earth 10m/50m) + tọa độ hải đồ công khai"
+      },
+      {
+        "tool": "video_compose (remotion atelier)",
+        "operation": "Render 6 ảnh tĩnh duyệt cảnh + 1 video MP4 1920x1080@30fps dài 90 giây",
+        "quantity": 1,
+        "estimated_usd": 0.0,
+        "notes": "Kết xuất cục bộ trên máy"
+      }
+    ],
+    "budget_verdict": "no_budget_set",
+    "savings_options": [
+      "Toàn bộ quy trình đề xuất đã ở mức chi phí $0.00 nhờ kết hợp Remotion cục bộ, dữ liệu Natural Earth Public Domain và Vibi TTS sẵn có."
+    ]
+  },
+  "approval": {
+    "status": "approved",
+    "user_notes": "c1 16:9 Remotion + Atelier Haitrieu (giữ mặc định âm thanh kỹ thuật sạch không nhạc ngoài)",
+    "approved_budget_usd": 0.0
+  },
+  "metadata": {
+    "aspect_ratio_recommended": "16:9 (1920x1080) — định dạng chính của kênh theo tài liệu 21; có thể đổi sang 9:16 (1080x1920) nếu bạn muốn bản demo dạng Shorts.",
+    "stage_0_five_shots_contract": [
+      "overview (Việt Nam + Hoàng Sa & Trường Sa)",
+      "zoom (thu phóng mượt vào cửa biển Hải Phòng - Cát Hải)",
+      "pin-label (nhãn Sông Cấm, Nam Triệu, Cát Hải trong safe zone)",
+      "route (đường tiến trình cầu Tân Vũ - Lạch Huyện 15,63 km & luồng tàu 20,66 km)",
+      "comparison-measure (đo khoảng cách Haversine + mặt cắt dọc độ sâu 48 km: -7,0 m vs -12,9 m / -14,0 m)"
+    ],
+    "candidate_facts_ledger": "projects/demo-giai-ma-ban-do-90s/artifacts/candidate_facts_sources.json"
+  }
+}

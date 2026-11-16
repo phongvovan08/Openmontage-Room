@@ -1,11 +1,13 @@
 import {
   AbsoluteFill,
-  OffthreadVideo,
+  Audio,
+  CalculateMetadataFunction,
   Sequence,
   interpolate,
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
+import { Video as OffthreadVideo } from "@remotion/media";
 import { CaptionOverlay, WordCaption } from "./components/CaptionOverlay";
 import { resolveAsset } from "./lib/resolveAsset";
 import { TextCard } from "./components/TextCard";
@@ -295,9 +297,30 @@ const PositionedOverlay: React.FC<{ overlay: TalkingHeadOverlay }> = ({
 // Main TalkingHead composition
 // ---------------------------------------------------------------------------
 
+export interface TalkingHeadClip {
+  src: string;
+  in_seconds: number;
+  out_seconds: number;
+  trimBeforeSeconds?: number;
+  label?: string;
+}
+
 export interface TalkingHeadProps {
   [key: string]: unknown;
+  durationSeconds?: number;
   videoSrc: string;
+  clips?: TalkingHeadClip[];
+  topBannerTitle?: string;
+  topBannerSubtitle?: string;
+  audio?: {
+    narration?: { src: string; volume?: number };
+    music?: {
+      src: string;
+      volume?: number;
+      fadeInSeconds?: number;
+      fadeOutSeconds?: number;
+    };
+  };
   captions: WordCaption[];
   overlays?: TalkingHeadOverlay[];
   wordsPerPage?: number;
@@ -310,8 +333,30 @@ export interface TalkingHeadProps {
   captionWordSeparator?: string;
 }
 
+export const calculateTalkingHeadMetadata: CalculateMetadataFunction<
+  TalkingHeadProps
+> = async ({ props }) => {
+  if (props.durationSeconds && props.durationSeconds > 0) {
+    return { durationInFrames: Math.ceil(props.durationSeconds * 30) };
+  }
+  const clipMax =
+    props.clips && props.clips.length > 0
+      ? Math.max(...props.clips.map((c) => c.out_seconds))
+      : 0;
+  const capMax =
+    props.captions && props.captions.length > 0
+      ? Math.max(...props.captions.map((w) => w.endMs / 1000))
+      : 0;
+  const dur = Math.max(clipMax, capMax, 30);
+  return { durationInFrames: Math.ceil((dur + 0.5) * 30) };
+};
+
 export const TalkingHead: React.FC<TalkingHeadProps> = ({
   videoSrc,
+  clips,
+  topBannerTitle,
+  topBannerSubtitle,
+  audio,
   captions,
   overlays,
   wordsPerPage = 4,
@@ -322,15 +367,133 @@ export const TalkingHead: React.FC<TalkingHeadProps> = ({
   captionFontFamily,
   captionWordSeparator,
 }) => {
+  const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const currentSec = frame / fps;
+  const activeClip = clips?.find(
+    (c) => currentSec >= c.in_seconds && currentSec < c.out_seconds
+  );
 
   return (
-    <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      {/* Layer 1: Video background */}
-      <OffthreadVideo
-        src={resolveAsset(videoSrc)}
-        style={{ width: "100%", height: "100%", objectFit: "cover" }}
-      />
+    <AbsoluteFill style={{ backgroundColor: "#050811" }}>
+      {/* Audio Tracks */}
+      {audio?.narration?.src && (
+        <Audio
+          src={resolveAsset(audio.narration.src)}
+          volume={audio.narration.volume ?? 1.0}
+        />
+      )}
+      {audio?.music?.src && (
+        <Audio
+          src={resolveAsset(audio.music.src)}
+          volume={audio.music.volume ?? 0.28}
+        />
+      )}
+
+      {/* Layer 1: Multi-clip 9:16 B-roll sequence or single videoSrc */}
+      {clips && clips.length > 0 ? (
+        clips.map((clip, idx) => {
+          const from = Math.round(clip.in_seconds * fps);
+          const dur = Math.max(
+            1,
+            Math.round((clip.out_seconds - clip.in_seconds) * fps)
+          );
+          const trimBefore = clip.trimBeforeSeconds
+            ? Math.round(clip.trimBeforeSeconds * fps)
+            : 0;
+          return (
+            <Sequence key={`clip-${idx}`} from={from} durationInFrames={dur}>
+              <AbsoluteFill>
+                <OffthreadVideo
+                  muted
+                  src={resolveAsset(clip.src)}
+                  trimBefore={trimBefore}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    filter: "contrast(1.06) saturate(0.95) brightness(0.86)",
+                  }}
+                />
+                <AbsoluteFill
+                  style={{
+                    background:
+                      "linear-gradient(180deg, rgba(5,8,17,0.72) 0%, rgba(5,8,17,0.12) 28%, rgba(5,8,17,0.18) 68%, rgba(5,8,17,0.88) 100%)",
+                  }}
+                />
+              </AbsoluteFill>
+            </Sequence>
+          );
+        })
+      ) : (
+        <OffthreadVideo
+          src={resolveAsset(videoSrc)}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        />
+      )}
+
+      {/* Top Vertical Header Pill (TikTok / Reels / Shorts Header) */}
+      {(topBannerTitle || activeClip?.label) && (
+        <div
+          style={{
+            position: "absolute",
+            top: 72,
+            left: 44,
+            right: 44,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            textAlign: "center",
+            pointerEvents: "none",
+          }}
+        >
+          {activeClip?.label && (
+            <div
+              style={{
+                background: "rgba(250, 204, 21, 0.16)",
+                border: "1.5px solid rgba(250, 204, 21, 0.65)",
+                color: "#FACC15",
+                padding: "8px 24px",
+                borderRadius: 999,
+                fontSize: 22,
+                fontWeight: 700,
+                letterSpacing: 2.2,
+                marginBottom: 14,
+                backdropFilter: "blur(8px)",
+              }}
+            >
+              {activeClip.label}
+            </div>
+          )}
+          {topBannerTitle && (
+            <div
+              style={{
+                fontSize: 34,
+                fontWeight: 800,
+                color: "#F8FAFC",
+                letterSpacing: 0.5,
+                textShadow: "0 4px 18px rgba(0,0,0,0.85)",
+              }}
+            >
+              {topBannerTitle}
+            </div>
+          )}
+          {topBannerSubtitle && (
+            <div
+              style={{
+                fontSize: 24,
+                fontWeight: 500,
+                color: "#CBD5E1",
+                marginTop: 6,
+                maxWidth: 920,
+                textShadow: "0 2px 12px rgba(0,0,0,0.8)",
+              }}
+            >
+              {topBannerSubtitle}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Layer 2: Overlays (charts, stats, callouts, etc.) */}
       {overlays?.map((overlay, i) => {

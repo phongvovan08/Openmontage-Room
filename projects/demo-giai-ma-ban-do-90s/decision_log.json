@@ -1,0 +1,438 @@
+{
+  "version": "1.0",
+  "project_id": "demo-giai-ma-ban-do-90s",
+  "decisions": [
+    {
+      "decision_id": "d-001",
+      "stage": "proposal",
+      "category": "pipeline_selection",
+      "subject": "Chọn pipeline sản xuất cho video demo bản đồ 90s",
+      "options_considered": [
+        {
+          "option_id": "animated-explainer",
+          "label": "Animated Explainer Pipeline",
+          "score": 0.95,
+          "reason": "Thiết kế chuyên cho video giải thích dữ liệu, bản đồ và đồ họa chuyển động không cần footage quay thực địa."
+        },
+        {
+          "option_id": "documentary-montage",
+          "label": "Documentary Montage Pipeline",
+          "score": 0.35,
+          "reason": "Phù hợp phim tài liệu ghép tư liệu quay thật, nhưng kênh đã khóa quy tắc không phụ thuộc footage ngoài đời ở Giai đoạn 0.",
+          "rejected_because": "Trái định hướng 100% bản đồ và sơ đồ tự dựng của Giai đoạn 0."
+        }
+      ],
+      "selected": "animated-explainer",
+      "reason": "Khớp hoàn toàn cấu trúc Research -> Proposal -> Script -> Scene Plan -> Assets -> Edit -> Compose -> Publish cho đồ họa bản đồ.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.95
+    },
+    {
+      "decision_id": "d-002",
+      "stage": "proposal",
+      "category": "concept_selection",
+      "subject": "Chọn góc kể chuyện cho bản demo 90s về Cảng nước sâu Lạch Huyện",
+      "options_considered": [
+        {
+          "option_id": "c1",
+          "label": "Concept 1 (Problem-Solution): Vì sao miền Bắc phải ra tận Lạch Huyện mới làm được cảng nước sâu?",
+          "score": 0.92,
+          "reason": "Đi thẳng vào câu hỏi 'vì sao' cốt lõi của kênh và lồng ghép tự nhiên đủ 5 cú máy kỹ thuật + mặt cắt 48 km."
+        },
+        {
+          "option_id": "c2",
+          "label": "Concept 2 (Myth-Busting): Sao không vét sâu thẳng sông Cấm cho rẻ?",
+          "score": 0.84,
+          "reason": "Góc phản biện sắc bén dựa trên thắc mắc thật của người xem YouTube.",
+          "rejected_because": "Giữ làm phương án 2 để người dùng chọn nếu thích mở đầu kiểu tranh luận chi phí."
+        },
+        {
+          "option_id": "c3",
+          "label": "Concept 3 (Journey): Hành trình 48 km của siêu tàu 165.000 tấn",
+          "score": 0.8,
+          "reason": "Dễ theo dõi theo tuyến tính từ biển vào sông.",
+          "rejected_because": "Phần giải thích nguyên nhân địa chất phù sa xuất hiện muộn hơn so với Concept 1."
+        }
+      ],
+      "selected": "c1",
+      "reason": "Khớp chính xác đề tài mở màn ứng viên số 1 trong Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md và tối ưu nhất để nghiệm thu 5 cú máy mẫu.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.88
+    },
+    {
+      "decision_id": "d-003",
+      "stage": "proposal",
+      "category": "renderer_family_selection",
+      "subject": "Chọn họ ngôn ngữ hình ảnh (renderer_family)",
+      "options_considered": [
+        {
+          "option_id": "explainer-data",
+          "label": "Explainer Data (Bản đồ & Dữ liệu kỹ thuật)",
+          "score": 0.94,
+          "reason": "Đặt bản đồ tọa độ thực, phép đo khoảng cách và mặt cắt số liệu làm trung tâm."
+        },
+        {
+          "option_id": "explainer-teacher",
+          "label": "Explainer Teacher (Giảng bài có nhân vật/minh họa)",
+          "score": 0.45,
+          "reason": "Thiên về nhân vật dẫn chuyện và ẩn dụ đời thường hơn là hải đồ chính xác.",
+          "rejected_because": "Kênh định vị giải mã bằng bản đồ và mặt cắt kỹ thuật, không dùng nhân vật hoạt hình."
+        }
+      ],
+      "selected": "explainer-data",
+      "reason": "Phản ánh đúng bản chất kênh giải mã địa lý kinh tế bằng dữ liệu không gian và mặt cắt độ sâu.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.93
+    },
+    {
+      "decision_id": "d-004",
+      "stage": "proposal",
+      "category": "render_runtime_selection",
+      "subject": "Chọn engine kết xuất kỹ thuật (Remotion so với HyperFrames)",
+      "options_considered": [
+        {
+          "option_id": "remotion",
+          "label": "Remotion (React + SVG + d3-geo)",
+          "score": 0.93,
+          "reason": "Đã cài sẵn d3-geo, topojson-client, hỗ trợ tính toán phép chiếu Mercator động 16:9, Haversine distanceKm, lớp quần đảo Hoàng Sa - Trường Sa, font Be Vietnam Pro và chụp still từng cảnh."
+        },
+        {
+          "option_id": "hyperframes",
+          "label": "HyperFrames (HTML/CSS + GSAP timeline)",
+          "score": 0.72,
+          "reason": "Khả dụng trên máy, rất mạnh cho kinetic typography, hiệu ứng chữ GSAP và beat-sync âm nhạc.",
+          "rejected_because": "Thiếu sẵn hệ thư viện chiếu bản đồ GIS/TopoJSON đã kiểm chứng trong React, sẽ tốn công dựng lại toán học bản đồ trong HTML/JS thuần."
+        },
+        {
+          "option_id": "ffmpeg",
+          "label": "FFmpeg (Ghép nối video cơ bản)",
+          "score": 0.2,
+          "reason": "Chỉ phù hợp cắt ghép các clip có sẵn.",
+          "rejected_because": "Không thể tự dựng chuyển động camera bản đồ vector và mặt cắt dữ liệu theo frame."
+        }
+      ],
+      "selected": "remotion",
+      "reason": "Remotion là runtime phù hợp nhất cho đồ họa bản đồ tọa độ thực kết hợp biểu đồ kỹ thuật React/SVG, đồng thời tương thích hoàn toàn với kiến trúc map primitives đã khảo sát.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.91
+    },
+    {
+      "decision_id": "d-005",
+      "stage": "proposal",
+      "category": "composition_mode",
+      "subject": "Chọn chế độ tác quyền bố cục (Atelier thiết kế riêng so với Templated dựng sẵn)",
+      "options_considered": [
+        {
+          "option_id": "atelier",
+          "label": "Atelier (Thiết kế riêng bespoke tại projects/<slug>/)",
+          "score": 0.94,
+          "reason": "Cho phép xây dựng trọn vẹn 5 cú máy bản đồ chuyên biệt (overview có Hoàng Sa - Trường Sa, zoom mượt 16:9, pin-label safe zone, route kép, mặt cắt thủy văn 48 km) mà bộ thẻ stock không hề có."
+        },
+        {
+          "option_id": "templated",
+          "label": "Templated (Lắp ghép các stock cut.type có sẵn trong Explainer.tsx)",
+          "score": 0.3,
+          "reason": "Nhanh hơn cho các video thẻ chữ/biểu đồ cột thông thường.",
+          "rejected_because": "Bộ stock của OpenMontage không có component bản đồ Việt Nam, không có phép chiếu Mercator thu phóng và mặt cắt độ sâu luồng hàng hải."
+        }
+      ],
+      "selected": "atelier",
+      "reason": "Mục tiêu cốt lõi của Giai đoạn 0 là rèn bộ khung 5 cú máy bản đồ mang bản sắc riêng của kênh, bắt buộc dùng chế độ Atelier.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.94
+    },
+    {
+      "decision_id": "d-006",
+      "stage": "proposal",
+      "category": "playbook_selection",
+      "subject": "Chọn style playbook nền kết hợp hồ sơ thẩm mỹ Hải đồ kỹ thuật",
+      "options_considered": [
+        {
+          "option_id": "clean-professional",
+          "label": "clean-professional + Bespoke Nautical Art Direction",
+          "score": 0.88,
+          "reason": "Giữ nhịp cắt điềm tĩnh, mật độ chữ kiểm soát chặt, kết hợp bảng màu Hải đồ tối chuyên biệt trong art-direction.md."
+        },
+        {
+          "option_id": "minimalist-diagram",
+          "label": "minimalist-diagram",
+          "score": 0.76,
+          "reason": "Gọn gàng cho sơ đồ phẳng tối giản.",
+          "rejected_because": "Hơi quá đơn sắc khi cần phân biệt rõ các tầng độ sâu hải đồ, đất liền, phù sa và luồng nước sâu."
+        }
+      ],
+      "selected": "clean-professional",
+      "reason": "Đảm bảo chuẩn nhịp độ chuyên gia kết hợp cùng taste_profile và art-direction.md riêng cho hải đồ Việt Nam.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.85
+    },
+    {
+      "decision_id": "d-007",
+      "stage": "proposal",
+      "category": "voice_selection",
+      "subject": "Chọn công cụ và giọng đọc thuyết minh tiếng Việt",
+      "options_considered": [
+        {
+          "option_id": "vibi_haitrieu",
+          "label": "Vibi TTS - Giọng Haitrieu (speech-2.8-hd, speed 1.1)",
+          "score": 0.96,
+          "reason": "Đúng quy tắc bắt buộc cho tiếng Việt trong AGENTS.md, phát âm địa danh chuẩn, hỗ trợ xuất SRT + word timestamps và cache miễn phí các câu không đổi."
+        },
+        {
+          "option_id": "vibi_lacthien",
+          "label": "Vibi TTS - Giọng Lacthien (speech-2.8-hd, speed 1.1)",
+          "score": 0.88,
+          "reason": "Giọng đọc tiếng Việt chất lượng cao khác có sẵn trong pool _tools/vibi_tts.py.",
+          "rejected_because": "Haitrieu đang là giọng mặc định (ENABLED) của workspace; người dùng có thể đổi sang Lacthien nếu muốn."
+        },
+        {
+          "option_id": "openai_tts",
+          "label": "OpenAI TTS",
+          "score": 0.6,
+          "reason": "Khả dụng trong registry.",
+          "rejected_because": "Không tối ưu dấu và địa danh tiếng Việt bằng Vibi TTS và tốn phí API."
+        }
+      ],
+      "selected": "vibi_haitrieu",
+      "reason": "Tuân thủ quy chuẩn AGENTS.md và tối ưu độ truyền cảm tiếng Việt cho nội dung giải mã hạ tầng.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.93
+    },
+    {
+      "decision_id": "d-008",
+      "stage": "proposal",
+      "category": "music_source",
+      "subject": "Chọn phương án âm nhạc nền cho bản demo 90s",
+      "options_considered": [
+        {
+          "option_id": "none",
+          "label": "Không dùng nhạc ngoài — chỉ giọng đọc Vibi TTS + hiệu ứng âm thanh hải đồ tổng hợp bằng FFmpeg",
+          "score": 0.89,
+          "reason": "Triệt tiêu 100% rủi ro bản quyền/Content ID trên YouTube theo tinh thần thận trọng của Giai đoạn 0, giúp người nghe tập trung hoàn toàn vào thông số."
+        },
+        {
+          "option_id": "pixabay_music",
+          "label": "Tải nhạc nền documentary nhẹ từ Pixabay Music (khả dụng trong registry)",
+          "score": 0.82,
+          "reason": "Miễn phí, tạo không khí phim tài liệu.",
+          "rejected_because": "Đôi khi một số bản nhạc miễn phí trên Pixabay vẫn bị hệ thống HAAWK/Content ID gắn cờ nhầm trên YouTube nếu không kiểm tra từng bài."
+        },
+        {
+          "option_id": "bring_your_own",
+          "label": "Người dùng cung cấp file nhạc từ YouTube Audio Library",
+          "score": 0.85,
+          "reason": "An toàn tuyệt đối với YouTube và có nhạc nền đầy đặn.",
+          "rejected_because": "Cần người dùng tải file đưa vào thư mục dự án nếu muốn dùng."
+        }
+      ],
+      "selected": "none",
+      "reason": "Mặc định chọn phương án sạch bản quyền tuyệt đối (giọng đọc + SFX kỹ thuật FFmpeg), đồng thời trình bày rõ 2 lựa chọn nhạc nền để người dùng quyết định ở cổng duyệt.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.8
+    },
+    {
+      "decision_id": "d-009",
+      "stage": "assets",
+      "category": "playbook_selection",
+      "subject": "Chọn style playbook nền kết hợp hồ sơ thẩm mỹ Hải đồ kỹ thuật",
+      "options_considered": [
+        {
+          "option_id": "clean-professional-satellite-hybrid",
+          "label": "Ảnh vệ tinh thật Sentinel-2 (EOX CC BY 4.0) + lớp đường nét GPS OpenStreetMap & nhãn tiếng Việt",
+          "score": 0.98,
+          "reason": "Người dùng yêu cầu 'bản đồ thật': ảnh vệ tinh Sentinel-2 10m/px cho thấy trực tiếp địa hình Việt Nam, núi đảo Cát Bà, dải phù sa cửa sông Nam Triệu và cầu Tân Vũ - Lạch Huyện từ không gian, đồng thời an toàn bản quyền thương mại YouTube (CC BY 4.0 + ODbL)."
+        },
+        {
+          "option_id": "clean-professional",
+          "label": "clean-professional + Bespoke Vector Nautical Map (không ảnh vệ tinh)",
+          "score": 0.65,
+          "reason": "Bản đồ vector tối giản trên nền xanh thẫm.",
+          "rejected_because": "Được thay thế theo yêu cầu trực tiếp của người dùng ('tôi muốn bản đồ thật') ở cổng duyệt assets."
+        },
+        {
+          "option_id": "osm-street-basemap",
+          "label": "Bản đồ giao thông hành chính OpenStreetMap thuần túy",
+          "score": 0.75,
+          "reason": "Có đường phố và địa danh hành chính.",
+          "rejected_because": "Người dùng đã chọn phương án Ảnh vệ tinh thật Sentinel-2 + lớp vector hải đồ tiếng Việt."
+        }
+      ],
+      "selected": "clean-professional-satellite-hybrid",
+      "reason": "Nâng cấp toàn bộ 7 cảnh bản đồ sang nền ảnh vệ tinh thực tế Sentinel-2 đa mức zoom (z6 -> z7 -> z9 -> z11 -> z13 10m/px) kết hợp tọa độ GPS thực tế từ OpenStreetMap, ghi rõ attribution EOX 2016 CC BY 4.0.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-010",
+      "stage": "assets",
+      "category": "provider_selection",
+      "subject": "Chọn nguồn ảnh chụp thực tế bổ sung vào video giải mã bản đồ",
+      "options_considered": [
+        {
+          "option_id": "wikimedia_commons_verified_haiphong",
+          "label": "Ảnh thật đúng địa danh Hải Phòng từ Wikimedia Commons (CC0 / Public Domain / CC BY / CC BY-SA)",
+          "score": 0.97,
+          "reason": "Đúng chính xác địa danh thật (Cảng Hải Phòng xưa, Chùa Vẽ, Tân Vũ, Sông Cấm, Cầu vượt biển Tân Vũ – Lạch Huyện, Cảng nước sâu Lạch Huyện), giấy phép mở thương mại rõ ràng và tự động ghi nguồn."
+        },
+        {
+          "option_id": "pexels_generic_container_stock",
+          "label": "Ảnh cảng container minh họa chung từ Pexels/Pixabay",
+          "score": 0.52,
+          "reason": "Độ phân giải cao nhưng không đúng địa danh thực tế Việt Nam.",
+          "rejected_because": "Người dùng chọn phương án ảnh thật đúng địa danh Hải Phòng từ Wikimedia Commons."
+        },
+        {
+          "option_id": "user_supplied_local_photos",
+          "label": "Người dùng tự cung cấp ảnh thực tế từ máy",
+          "score": 0.7,
+          "reason": "Chủ động nguồn ảnh riêng nếu có sẵn.",
+          "rejected_because": "Người dùng đã chọn tải và xác thực trực tiếp từ Wikimedia Commons."
+        }
+      ],
+      "selected": "wikimedia_commons_verified_haiphong",
+      "reason": "Đã tải và kiểm tra thủ công 100% pixel 7 bức ảnh thật đúng địa danh Hải Phòng – Lạch Huyện trên Wikimedia Commons (loại bỏ ngay ảnh có watermark báo chí), ghi nguồn tác giả và giấy phép ngay trên khung hình.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.97
+    },
+    {
+      "decision_id": "d-011",
+      "stage": "assets",
+      "category": "playbook_override",
+      "subject": "Bố cục lồng ghép ảnh thực tế với bản đồ vệ tinh Sentinel-2",
+      "options_considered": [
+        {
+          "option_id": "johnny_harris_vox_hybrid_photo_cards",
+          "label": "Kết hợp kiểu Johnny Harris / Vox: Khung ảnh tư liệu động nối thẳng vào tọa độ bản đồ + cận cảnh Ken Burns ở nhịp mở màn, cầu Tân Vũ & cảng Lạch Huyện",
+          "score": 0.96,
+          "reason": "Vừa tạo ấn tượng thị giác mạnh bằng ảnh thực địa cận cảnh (Ken Burns), vừa giữ trọn vẹn 5 cú máy bản đồ kỹ thuật không bị che khuất."
+        },
+        {
+          "option_id": "docked_inset_only",
+          "label": "Chỉ đặt khung ảnh nhỏ cố định ở góc an toàn",
+          "score": 0.74,
+          "reason": "Gọn gàng nhưng thiếu điểm nhấn thị giác ở nhịp mở đầu và cao trào.",
+          "rejected_because": "Người dùng chọn phương án kết hợp linh hoạt kiểu Johnny Harris / Vox."
+        },
+        {
+          "option_id": "fullscreen_broll_cutaways",
+          "label": "Cắt toàn màn hình sang ảnh thực tế xen kẽ bản đồ",
+          "score": 0.58,
+          "reason": "Giống phim tài liệu truyền thống.",
+          "rejected_because": "Làm đứt mạch định vị không gian liên tục trên bản đồ vệ tinh."
+        }
+      ],
+      "selected": "johnny_harris_vox_hybrid_photo_cards",
+      "reason": "Áp dụng cơ chế mở lớn Ken Burns đầu cảnh rồi thu mượt về khung tư liệu nối tọa độ (EvidencePhotoCard) ở các nhịp đinh, đảm bảo cả chuyển động video lẫn ảnh chụp nghiệm thu giữa cảnh đều sắc nét, không đè chữ.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.96
+    },
+    {
+      "decision_id": "d-012",
+      "stage": "edit",
+      "category": "playbook_override",
+      "subject": "Nâng cấp thu hút người xem: Khoanh vùng điểm nóng, Tàu chạy hải trình, Phụ đề từ khóa & Micro-SFX",
+      "options_considered": [
+        {
+          "option_id": "viewer_retention_pack_1_2_3_4",
+          "label": "Gói 4 nâng cấp đồng bộ: (1) Khoanh vùng điểm nóng ảnh & bản đồ, (2) Tàu thuyền chạy trên hải trình, (3) Phụ đề từ khóa chuẩn chính tả, (4) Micro-SFX đồng bộ chuyển động",
+          "score": 0.98,
+          "reason": "Người dùng yêu cầu phóng to xong khoanh vùng các điểm quan trọng và duyệt chọn 4 hạng mục (1, 2, 3, 4) để giữ chân người xem suốt 90 giây mà vẫn giữ chuẩn hải đồ chuyên nghiệp."
+        },
+        {
+          "option_id": "option_5_rolling_counters_voting_cards",
+          "label": "Hiệu ứng số đếm nhảy & Thẻ bình chọn A/B cuối video (Option 5)",
+          "score": 0.45,
+          "reason": "Tăng tương tác kiểu truyền hình giải trí.",
+          "rejected_because": "Người dùng chủ đích không chọn Option 5 trong bảng khảo sát để giữ nhịp điệu gọn gàng, tập trung vào 4 yếu tố cốt lõi."
+        }
+      ],
+      "selected": "viewer_retention_pack_1_2_3_4",
+      "reason": "Triển khai đầy đủ 4 nâng cấp đã duyệt: vòng vẽ sáng khoanh vùng trên cả 7 ảnh thực địa & bản đồ vệ tinh, tàu container/feeder chạy trên tuyến kèm sóng cảnh báo chạm đáy, thanh phụ đề từ khóa chuẩn chính tả tiếng Việt và hiệu ứng âm thanh chuyển động đồng bộ 15ms audio-lead.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-013",
+      "stage": "edit",
+      "category": "playbook_override",
+      "subject": "Tái tạo video v3 theo trọn bộ chuẩn vietnam-map-explainer (6 đòn bẩy vượt đối thủ)",
+      "options_considered": [
+        {
+          "option_id": "vietnam_map_explainer_v3_all_6_upgrades",
+          "label": "Áp dụng đồng bộ cả 6 đòn bẩy cạnh tranh trong vietnam-map-explainer/SKILL.md",
+          "score": 0.99,
+          "reason": "Người dùng yêu cầu tạo lại video theo skill vừa cập nhật sau khi phân tích đối thủ trong và ngoài nước."
+        },
+        {
+          "option_id": "keep_v2_without_competitive_upgrades",
+          "label": "Giữ nguyên bản v2 (còn nhãn CÚ MÁY kỹ thuật, góc nhìn phẳng, thiếu bóng quy mô đời thường & trích lục văn bản)",
+          "score": 0.62,
+          "reason": "Bản v2 đã đạt chuẩn kỹ thuật cơ bản.",
+          "rejected_because": "Được nâng cấp lên chuẩn v3 theo yêu cầu trực tiếp của người dùng ('Xong tạo lại video theo skill đã update')."
+        }
+      ],
+      "selected": "vietnam_map_explainer_v3_all_6_upgrades",
+      "reason": "Triển khai trọn vẹn 6 đòn bẩy: (1) Thanh chương kể chuyện PHẦN 01–05 thay nhãn kỹ thuật, (2) Hình bóng tòa nhà 4 tầng dưới đáy luồng -14m & quy chiếu sân bóng đá, (3) Góc nghiêng 2.5D rotateX(26°->18°) trên hành lang cầu vượt biển, (4) Âm nền Documentary Pulse sidechain ducking + Micro-SFX, (5) Thẻ trích lục văn bản gốc QĐ 1995 & QĐ 1579 tô dạ quang vàng, (6) Tiêu đề 57 ký tự có đối trọng Singapore + Thumbnail 3 từ BẪY PHÙ SA!.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.99
+    },
+    {
+      "decision_id": "d-014",
+      "stage": "edit",
+      "category": "playbook_override",
+      "subject": "Tái thiết toàn diện 9/9 cảnh v4 theo phong cách Bản đồ 3D nghiêng sâu 52°–56° kiểu Johnny Harris / Vox",
+      "options_considered": [
+        {
+          "option_id": "johnny_harris_vox_3d_tactical_overhaul_v4",
+          "label": "Dựng lại toàn bộ 9/9 cảnh với bộ chiếu 3D Tactical3DKit",
+          "score": 1.0,
+          "reason": "Người dùng chọn trực tiếp phương án bản đồ 3D nghiêng sâu kiểu Johnny Harris / Vox."
+        },
+        {
+          "option_id": "keep_v3_mild_22deg_tilt",
+          "label": "Giữ bản v3",
+          "score": 0.45,
+          "reason": "Thay đổi thị giác nhỏ.",
+          "rejected_because": "Người dùng yêu cầu làm lại mạnh tay toàn bộ 9 cảnh."
+        }
+      ],
+      "selected": "johnny_harris_vox_3d_tactical_overhaul_v4",
+      "reason": "Triển khai Tactical3DKit.tsx trên cả 9 cảnh.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-015",
+      "stage": "edit",
+      "category": "playbook_override",
+      "subject": "Tinh chỉnh 4 điểm UX sau khi xem bản MP4 v4: bỏ vòng khoanh Hoàng Sa/Trường Sa, bỏ nhãn nguồn vụn trên hình, khóa đứng yên subtitle, chỉ phóng to 2 ảnh đinh",
+      "options_considered": [
+        {
+          "option_id": "clean_broadcast_ux_v5",
+          "label": "Bỏ vòng nét đứt quanh Hoàng Sa/Trường Sa, ẩn toàn bộ credit/nguồn vụn trên khung hình (giữ trong description.txt), khóa cứng kích thước chữ KeywordCaptionBar 0px jitter, chỉ zoom 2 ảnh quan trọng nhất (Cảnh 6 Cầu Tân Vũ & Cảnh 9 Cảng HTIT)",
+          "score": 1.0,
+          "reason": "Thực hiện chính xác 4 góp ý trực tiếp của người dùng sau khi xem video MP4."
+        }
+      ],
+      "selected": "clean_broadcast_ux_v5",
+      "reason": "Giúp khung hình sạch chuẩn truyền hình, phụ đề đứng yên tuyệt đối không gây mỏi mắt và nhịp phóng ảnh có chọn lọc.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "section_id": "s6",
+  "provider": "vibi",
+  "vibi_provider": "minimax",
+  "model": "speech-2.8-hd",
+  "voice_name": "Haitrieu",
+  "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+  "voice_settings": {
+    "speed": 1.1,
+    "pitch": 0,
+    "vol": 1
+  },
+  "provider_text": "Hiện sáu bến tại Lạch Huyện đã khai thác, nối thẳng hàng miền Bắc tới Mỹ và châu Âu, tách biệt với phần mở rộng quy hoạch đến năm hai nghìn không trăm ba mươi. Tuần tới, giải mã Long Thành hay cao tốc miền Tây?",
+  "display_text": "Hiện 6 bến tại Lạch Huyện đã khai thác, nối thẳng hàng miền Bắc tới Mỹ và châu Âu, tách biệt với phần mở rộng quy hoạch đến năm 2030. Tuần tới, giải mã Long Thành hay cao tốc miền Tây?",
+  "raw_duration_seconds": 11.371,
+  "duration_seconds": 11.208,
+  "lead_trimmed_seconds": 0.022,
+  "cues": [
+    {
+      "start": 0.018,
+      "end": 7.941,
+      "text": "Hiện sáu bến tại Lạch Huyện đã khai thác, nối thẳng hàng miền Bắc tới Mỹ và châu Âu, tách biệt với phần mở rộng quy hoạch đến năm hai nghìn không trăm ba mươi."
+    },
+    {
+      "start": 8.378,
+      "end": 11.208,
+      "text": "Tuần tới, giải mã Long Thành hay cao tốc miền Tây?"
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word": "Hiện",
+      "start": 0.04,
+      "end": 0.266,
+      "startMs": 40,
+      "endMs": 266,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sáu",
+      "start": 0.266,
+      "end": 0.493,
+      "startMs": 266,
+      "endMs": 493,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bến",
+      "start": 0.493,
+      "end": 0.719,
+      "startMs": 493,
+      "endMs": 719,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tại",
+      "start": 0.719,
+      "end": 0.945,
+      "startMs": 719,
+      "endMs": 945,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Lạch",
+      "start": 0.945,
+      "end": 1.172,
+      "startMs": 945,
+      "endMs": 1172,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Huyện",
+      "start": 1.172,
+      "end": 1.398,
+      "startMs": 1172,
+      "endMs": 1398,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đã",
+      "start": 1.398,
+      "end": 1.625,
+      "startMs": 1398,
+      "endMs": 1625,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khai",
+      "start": 1.625,
+      "end": 1.851,
+      "startMs": 1625,
+      "endMs": 1851,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thác,",
+      "start": 1.851,
+      "end": 2.077,
+      "startMs": 1851,
+      "endMs": 2077,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nối",
+      "start": 2.077,
+      "end": 2.304,
+      "startMs": 2077,
+      "endMs": 2304,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thẳng",
+      "start": 2.304,
+      "end": 2.53,
+      "startMs": 2304,
+      "endMs": 2530,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hàng",
+      "start": 2.53,
+      "end": 2.756,
+      "startMs": 2530,
+      "endMs": 2756,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "miền",
+      "start": 2.756,
+      "end": 2.983,
+      "startMs": 2756,
+      "endMs": 2983,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Bắc",
+      "start": 2.983,
+      "end": 3.209,
+      "startMs": 2983,
+      "endMs": 3209,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tới",
+      "start": 3.209,
+      "end": 3.436,
+      "startMs": 3209,
+      "endMs": 3436,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Mỹ",
+      "start": 3.436,
+      "end": 3.662,
+      "startMs": 3436,
+      "endMs": 3662,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "và",
+      "start": 3.662,
+      "end": 3.888,
+      "startMs": 3662,
+      "endMs": 3888,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "châu",
+      "start": 3.888,
+      "end": 4.115,
+      "startMs": 3888,
+      "endMs": 4115,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Âu,",
+      "start": 4.115,
+      "end": 4.341,
+      "startMs": 4115,
+      "endMs": 4341,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tách",
+      "start": 4.341,
+      "end": 4.567,
+      "startMs": 4341,
+      "endMs": 4567,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "biệt",
+      "start": 4.567,
+      "end": 4.794,
+      "startMs": 4567,
+      "endMs": 4794,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "với",
+      "start": 4.794,
+      "end": 5.02,
+      "startMs": 4794,
+      "endMs": 5020,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phần",
+      "start": 5.02,
+      "end": 5.247,
+      "startMs": 5020,
+      "endMs": 5247,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mở",
+      "start": 5.247,
+      "end": 5.473,
+      "startMs": 5247,
+      "endMs": 5473,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "rộng",
+      "start": 5.473,
+      "end": 5.699,
+      "startMs": 5473,
+      "endMs": 5699,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "quy",
+      "start": 5.699,
+      "end": 5.926,
+      "startMs": 5699,
+      "endMs": 5926,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hoạch",
+      "start": 5.926,
+      "end": 6.152,
+      "startMs": 5926,
+      "endMs": 6152,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đến",
+      "start": 6.152,
+      "end": 6.378,
+      "startMs": 6152,
+      "endMs": 6378,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "năm",
+      "start": 6.378,
+      "end": 6.605,
+      "startMs": 6378,
+      "endMs": 6605,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hai",
+      "start": 6.605,
+      "end": 6.831,
+      "startMs": 6605,
+      "endMs": 6831,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nghìn",
+      "start": 6.831,
+      "end": 7.058,
+      "startMs": 6831,
+      "endMs": 7058,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "không",
+      "start": 7.058,
+      "end": 7.284,
+      "startMs": 7058,
+      "endMs": 7284,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trăm",
+      "start": 7.284,
+      "end": 7.51,
+      "startMs": 7284,
+      "endMs": 7510,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ba",
+      "start": 7.51,
+      "end": 7.737,
+      "startMs": 7510,
+      "endMs": 7737,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mươi.",
+      "start": 7.737,
+      "end": 7.963,
+      "startMs": 7737,
+      "endMs": 7963,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Tuần",
+      "start": 8.4,
+      "end": 8.658,
+      "startMs": 8400,
+      "endMs": 8658,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tới,",
+      "start": 8.658,
+      "end": 8.916,
+      "startMs": 8658,
+      "endMs": 8916,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "giải",
+      "start": 8.916,
+      "end": 9.173,
+      "startMs": 8916,
+      "endMs": 9173,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mã",
+      "start": 9.173,
+      "end": 9.431,
+      "startMs": 9173,
+      "endMs": 9431,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Long",
+      "start": 9.431,
+      "end": 9.689,
+      "startMs": 9431,
+      "endMs": 9689,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Thành",
+      "start": 9.689,
+      "end": 9.947,
+      "startMs": 9689,
+      "endMs": 9947,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hay",
+      "start": 9.947,
+      "end": 10.205,
+      "startMs": 9947,
+      "endMs": 10205,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cao",
+      "start": 10.205,
+      "end": 10.463,
+      "startMs": 10205,
+      "endMs": 10463,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tốc",
+      "start": 10.463,
+      "end": 10.72,
+      "startMs": 10463,
+      "endMs": 10720,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "miền",
+      "start": 10.72,
+      "end": 10.978,
+      "startMs": 10720,
+      "endMs": 10978,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Tây?",
+      "start": 10.978,
+      "end": 11.236,
+      "startMs": 10978,
+      "endMs": 11236,
+      "pageBreakAfter": true
+    }
+  ]
+}

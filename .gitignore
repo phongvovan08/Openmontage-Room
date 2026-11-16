@@ -21,12 +21,8 @@ htmlcov/
 .vscode/
 
 # Pipeline outputs (regenerable — never commit large media)
-output/
 pipeline/
 tests/qa/output/
-
-# Project workspaces (generated assets, renders — all regenerable)
-projects/
 
 # Corpus directories (downloaded stock clips, thumbnails, embeddings —
 # regenerable from source APIs via corpus_builder). Explicit rule even
@@ -107,3 +103,26 @@ venv/
 
 # Vibi TTS secret key
 .vibi_api_key
+
+
+# Local caches, headless browser binaries, crash dumps & external reference clones
+.cache/
+_tools/.cache/
+.remotion/
+.tmp_opus/
+*.stackdump
+_tools/report_shot.png
+remotion-composer/public-audio-only/
+remotion-composer/test_still_*.png
+awesome-opus5-5-videos/
+
+# Heavy regenerable media & intermediate outputs inside project workspaces
+projects/**/renders/
+projects/**/exports/video/*.mp4
+projects/**/snapshots/
+projects/**/assets/audio/*.wav
+projects/**/assets/audio/*.mp3
+projects/**/assets/audio/segments/
+projects/**/public/audio/*.mp3
+projects/**/assets/images/sat/
+projects/**/public/sat/*.jpg

@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "outputs": [
+    {
+      "path": "projects/demo-giai-ma-ban-do-90s/renders/final.mp4",
+      "format": "mp4",
+      "codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 30.0,
+      "duration_seconds": 90.05,
+      "file_size_bytes": 327965390,
+      "platform_target": "youtube_landscape"
+    }
+  ],
+  "render_time_seconds": 196.25,
+  "warnings": [],
+  "verification_notes": [
+    "Rendered 2700 frames at 1920x1080 @ 30.0fps (90.05s, 327965390 bytes).",
+    "Atelier doctrine check passed: stock_reuse_detected=False, art_direction_declared=True.",
+    "Runtime governance check: ok — proposal and edit agree (proposal_packet.production_plan.render_runtime).",
+    "Transcript accuracy vs spoken script: word_accuracy=1.0, transcript_matches_script=True.",
+    "Audio spotcheck verified narration present, zero clipping, and clean hydrographic SFX mix."
+  ],
+  "render_grammar": "explainer-data",
+  "slideshow_risk_score": {
+    "average": 0.08,
+    "verdict": "strong"
+  },
+  "decision_log_ref": "projects/demo-giai-ma-ban-do-90s/decision_log.json",
+  "final_review_ref": "projects/demo-giai-ma-ban-do-90s/artifacts/final_review.json",
+  "metadata": {
+    "composition_mode": "atelier",
+    "composition_id": "DemoGiaiMaBanDo90s",
+    "crf": 18,
+    "concurrency": 4
+  }
+}

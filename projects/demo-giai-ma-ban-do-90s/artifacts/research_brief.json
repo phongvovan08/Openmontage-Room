@@ -1,0 +1,243 @@
+{
+  "version": "1.0",
+  "topic": "Vì sao miền Bắc phải ra tận Lạch Huyện mới làm được cảng nước sâu? (Video demo 90s giải mã địa lý kinh tế bằng bản đồ)",
+  "research_date": "2026-11-16",
+  "landscape": {
+    "existing_content": [
+      {
+        "title": "Cảng Lạch Huyện Hải Phòng || Hành trình mở rộng cảng nước sâu lớn nhất miền Bắc",
+        "url": "https://www.youtube.com/watch?v=tpx8EdimIR0",
+        "source": "youtube",
+        "angle": "Tổng hợp tiến độ thi công và flycam toàn cảnh mở rộng các bến cảng tại đảo Cát Hải",
+        "what_it_covers": "Quay flycam thực địa khu bến Lạch Huyện, điểm danh các bến số 1-2 và tiến độ mở rộng bến 3-6.",
+        "what_it_misses": "Không có sơ đồ mặt cắt độ sâu luồng 48 km từ Sông Cấm ra Phao số 0 và không giải thích cơ chế sa bồi cửa sông Nam Triệu khiến cảng nội đô bị khóa mớn nước.",
+        "engagement_signal": "Định dạng flycam tiến độ phổ biến trong nhóm video hạ tầng Hải Phòng"
+      },
+      {
+        "title": "Cảng Hải Phòng | Đưa Hải Phòng trở thành cảng trung chuyển quốc tế và trung tâm logistics",
+        "url": "https://www.youtube.com/watch?v=atL0J05AtJQ",
+        "source": "youtube",
+        "angle": "Phóng sự định hướng chiến lược kinh tế và tầm nhìn logistics",
+        "what_it_covers": "Vai trò kinh tế vĩ mô của cảng Hải Phòng, mục tiêu đón tàu mẹ đi thẳng Mỹ - Âu và phát triển hậu cần.",
+        "what_it_misses": "Nặng ngôn ngữ báo cáo chính luận, thiếu bản đồ đo khoảng cách thực tế, thiếu đối chiếu thông số kỹ thuật độ sâu luồng (-7,0 m so với -12,9 m / -14,0 m).",
+        "engagement_signal": "Phóng sự truyền hình chính thống, thiếu đồ họa bản đồ trực quan"
+      },
+      {
+        "title": "Cảng Hải Phòng tăng lực cạnh tranh với 2 bến quốc tế mới ở Lạch Huyện",
+        "url": "https://theleader.vn/cang-hai-phong-tang-luc-canh-tranh-voi-2-ben-quoc-te-moi-o-lach-huyen-d40127.html",
+        "source": "blog",
+        "angle": "Phân tích kinh doanh cảng biển và cạnh tranh thị phần container miền Bắc",
+        "what_it_covers": "Sự dịch chuyển nguồn hàng từ các cảng sông trong nội đô (Chùa Vẽ, Tân Vũ) ra cụm bến nước sâu Lạch Huyện khi bến 3, 4, 5, 6 đi vào khai thác.",
+        "what_it_misses": "Dạng bài viết chữ thuần túy, người đọc phổ thông khó hình dung vị trí địa lý kênh Hà Nam, cầu vượt biển Tân Vũ - Lạch Huyện và đê chắn cát ngoài khơi.",
+        "engagement_signal": "Bài phân tích chuyên sâu khối kinh tế - đầu tư"
+      }
+    ],
+    "saturated_angles": [
+      "Video flycam quay cảnh cần cẩu container kèm nhạc hùng tráng và lời bình ca ngợi chung chung 'công trình thế kỷ'",
+      "Đọc lại thông cáo báo chí về tổng mức đầu tư nghìn tỷ mà không chỉ ra bài toán vật lý - địa lý dưới mặt nước"
+    ],
+    "underserved_gaps": [
+      "Giải mã trực quan 'bậc thang độ sâu 48 km' từ cảng sông Cấm (-7,0 m) qua Bạch Đằng - kênh Hà Nam (-8,0 m) ra luồng Lạch Huyện (-12,9 m đến -14,0 m) bằng bản đồ vector + mặt cắt kỹ thuật",
+      "Chỉ rõ nghịch lý địa lý trên bản đồ: cửa sông tự nhiên Nam Triệu bị phù sa bồi cạn chỉ còn -0,5 m đến -3,7 m, buộc tàu phải đi vòng qua kênh đào Hà Nam và buộc cảng nước sâu phải vượt biển 5,44 km sang tận phía Đông Nam đảo Cát Hải",
+      "Phân tách minh bạch giữa phần đang vận hành thực tế (bến 1-6 đón tàu đến 165.000 - 200.000 DWT giảm tải) với tầm nhìn quy hoạch đến 2030 (14-16 bến theo QĐ 756/QĐ-BXD)"
+    ]
+  },
+  "trending": {
+    "recent_developments": [
+      {
+        "headline": "Cảng vụ Hàng hải Hải Phòng cập nhật thông số độ sâu luồng Hải Phòng ngày 29/08/2026 (QĐ 1995/QĐ-CHHĐTVN)",
+        "url": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/",
+        "date": "2026-08-29",
+        "relevance": "Cung cấp số đo thực tế mới nhất năm 2026 cho từng đoạn luồng từ Km0+000 đến Km48+000 để vẽ mặt cắt kỹ thuật chính xác."
+      },
+      {
+        "headline": "Bến số 3, 4 và bến 5, 6 tại khu cảng Lạch Huyện chính thức khai thác năm 2025, được phép đón tàu tới 165.000 DWT giảm tải",
+        "url": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt",
+        "date": "2025-05",
+        "relevance": "Xác nhận Lạch Huyện không còn là dự án trên giấy mà đã mở rộng từ 2 bến lên 6 bến container quốc tế đang vận hành."
+      },
+      {
+        "headline": "Triển khai nạo vét duy tu luồng hàng hải Lạch Huyện năm 2026 để chống sa bồi mùa mưa bão",
+        "url": "https://baohaiphong.vn/nao-vet-luong-hang-hai-lach-huyen-dat-hon-50-ke-hoach-556802.html",
+        "date": "2026",
+        "relevance": "Chứng minh ngay cả khi đã vươn ra ngoài đảo Cát Hải, cuộc chiến với phù sa đồng bằng Bắc Bộ vẫn đòi hỏi đê chắn cát và nạo vét định kỳ."
+      }
+    ],
+    "active_discussions": [
+      {
+        "platform": "youtube",
+        "topic_or_url": "https://www.youtube.com/watch?v=tpx8EdimIR0",
+        "sentiment": "Người xem tự hào về quy mô cảng nhưng thường thắc mắc vì sao không nạo vét thẳng sông Cấm cho rẻ hơn xây cầu vượt biển sang đảo Cát Hải.",
+        "key_quotes": [
+          "Sao không vét sâu sông Cấm luôn mà phải làm cầu vượt biển ra tận Cát Hải?",
+          "Lạch Huyện so với Cái Mép - Thị Vải trong Nam thì bên nào sâu hơn?"
+        ]
+      }
+    ],
+    "timeliness_window": "evergreen"
+  },
+  "data_points": [
+    {
+      "claim": "Theo bảng thông báo độ sâu luồng cập nhật ngày 29/08/2026 của Cảng vụ Hàng hải Hải Phòng (QĐ 1995/QĐ-CHHĐTVN ngày 07/08/2026), đoạn luồng Lạch Huyện (Km0+000 đến Km20+662, dài 20,662 km, rộng 160 m) đạt độ sâu -12,9 m (dải cạn -12,8 m đến -11,2 m; thiết kế chuẩn tắc nạo vét -14,0 m).",
+      "source_url": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/",
+      "source_name": "Cảng vụ Hàng hải Hải Phòng - Thông tin luồng cập nhật 29/08/2026",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Cùng trên tuyến luồng Hải Phòng dài 48 km, khi đi sâu vào nội địa qua kênh Hà Nam (Km22+600 đến Km28+500, rộng 80 m) độ sâu tụt xuống -8,0 m, và vào tới đoạn Sông Cấm (Km38+100 đến Km48+000, rộng 80 m) chỉ còn -7,0 m (dải cạn -6,9 m đến -6,7 m).",
+      "source_url": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/",
+      "source_name": "Cảng vụ Hàng hải Hải Phòng - Thông tin luồng cập nhật 29/08/2026",
+      "credibility": "primary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "hook"
+    },
+    {
+      "claim": "Cửa sông tự nhiên Nam Triệu bị phù sa hệ thống sông Thái Bình - Bạch Đằng bồi lấp nghiêm trọng, độ sâu đo đạc nhiều đoạn chỉ còn từ -0,5 m đến -3,7 m, không thể cho tàu biển trọng tải lớn đi thẳng mà phải mở kênh đào Hà Nam và đẩy cảng nước sâu ra phía ngoài đảo Cát Hải.",
+      "source_url": "https://cangvuhaiphong.gov.vn/luong-nam-trieu/",
+      "source_name": "Cảng vụ Hàng hải Hải Phòng - Thông tin độ sâu luồng Nam Triệu",
+      "credibility": "primary_source",
+      "surprise_factor": "counterintuitive",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Quyết định 1579/QĐ-TTg ngày 22/09/2021 của Thủ tướng Chính phủ xếp cảng biển Hải Phòng là cảng biển đặc biệt (Nhóm 1), trong đó khu bến Lạch Huyện giữ vai trò cửa ngõ quốc tế tiếp nhận tàu container tuyến biển xa thay vì phải gom hàng trung chuyển qua Singapore hoặc Hồng Kông.",
+      "source_url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165",
+      "source_name": "Quyết định 1579/QĐ-TTg - Cổng Thông tin điện tử Chính phủ",
+      "credibility": "primary_source",
+      "surprise_factor": "expected",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Tính đến năm 2025-2026, khu bến Lạch Huyện đã vận hành 6 bến container quốc tế (bến 1-2 từ 2018; bến 3-4 và bến 5-6 khai thác trong năm 2025), trong đó bến 3-4 được chấp thuận đón tàu tới 165.000 DWT giảm tải.",
+      "source_url": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt",
+      "source_name": "Cổng thông tin Logistics Việt Nam (Bộ Công Thương)",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "closing_punch"
+    },
+    {
+      "claim": "Để nối đất liền Hải Phòng (bán đảo Đình Vũ) vượt biển sang cụm cảng trên đảo Cát Hải, tuyến đường ô tô Tân Vũ - Lạch Huyện dài 15,63 km (riêng phần cầu vượt biển dài 5,44 km) đã được xây dựng đồng bộ với tuyến đê chắn sóng - chắn cát ngoài khơi.",
+      "source_url": "https://tapchicongthuong.vn/hai-phong--khanh-thanh-ben-cang-container-quoc-te-so-3-va-4-khu-ben-cang-lach-huyen-140409.htm",
+      "source_name": "Tạp chí Công Thương & Hồ sơ hạ tầng kết nối Lạch Huyện",
+      "credibility": "secondary_source",
+      "surprise_factor": "notable",
+      "usable_as": "script_anchor"
+    }
+  ],
+  "audience_insights": {
+    "common_questions": [
+      "Hải Phòng vốn đã là thành phố cảng hơn 100 năm nay, vì sao tàu lớn vẫn không vào được mà phải xây cảng mới ngoài đảo Cát Hải?",
+      "Tại sao không nạo vét thẳng sông Cấm từ -7 m xuống -14 m cho gần khu công nghiệp mà phải bắc cầu vượt biển hơn 5 km?",
+      "Ra tới Lạch Huyện rồi tàu container đi Mỹ, đi Âu có đi thẳng được thật không hay vẫn phải ghé Singapore?"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Cảng Hải Phòng lâu đời trong sông Cấm vốn là cảng biển nước sâu, chỉ cần mở rộng bến bãi là đón được siêu tàu quốc tế.",
+        "reality": "Cảng truyền thống trên sông Cấm thực chất là cảng cửa sông nằm cách cửa biển gần 40-48 km luồng dẫn, độ sâu chỉ khoảng -7,0 m và luồng rộng 80 m, lại hứng hàng triệu mét khối phù sa bồi lắng mỗi năm; nếu nạo vét tới -14 m sẽ gây rủi ro sạt lở bờ sông nội đô và chi phí duy tu khổng lồ.",
+        "source": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/"
+      }
+    ],
+    "knowledge_level": "Khán giả phổ thông biết Hải Phòng là cảng lớn nhất miền Bắc và từng nghe tên cầu Tân Vũ - Lạch Huyện / Cát Hải, nhưng chưa từng nhìn thấy mặt cắt độ sâu luồng 48 km và cái bẫy phù sa cửa sông Thái Bình - Bạch Đằng trên bản đồ.",
+    "pain_points": [
+      "Các video giải thích hạ tầng hiện có hoặc chỉ bay flycam khen ngợi chung chung, hoặc đọc văn bản quy hoạch khô khan không có bản đồ tỉ lệ thật.",
+      "Khó phân biệt đâu là các bến đã chạy thật (bến 1-6) và đâu là phần quy hoạch tương lai đến 2030."
+    ]
+  },
+  "angles_discovered": [
+    {
+      "name": "Cái bẫy phù sa 48 km & Cú nhảy vượt biển",
+      "hook": "Mang tiếng thành phố cảng hơn một thế kỷ, nhưng suốt hàng chục năm Hải Phòng không đón nổi một siêu tàu đi thẳng sang Mỹ — chỉ vì cái bẫy ẩn dưới đáy sông này.",
+      "type": "data_driven",
+      "why_now": "Số liệu đo đạc luồng tháng 08/2026 của Cảng vụ Hải Phòng cho phép vẽ chính xác bậc thang độ sâu -7,0 m -> -8,0 m -> -12,9 m / -14,0 m ngay trên bản đồ 90 giây.",
+      "grounded_in": [
+        "Độ sâu luồng Sông Cấm -7,0 m so với luồng Lạch Huyện -12,9 m / -14,0 m",
+        "Cửa Nam Triệu bồi lắng cạn còn -0,5 m đến -3,7 m",
+        "6 bến Lạch Huyện đã khai thác đón tàu tới 165.000 DWT"
+      ]
+    },
+    {
+      "name": "Cuộc rượt đuổi mớn nước của siêu tàu 165.000 tấn",
+      "hook": "Một siêu tàu container cần tới gần 14 mét nước dưới bụng — thứ mà toàn bộ bờ biển đồng bằng Bắc Bộ gần như không tự nhiên trao cho chúng ta.",
+      "type": "narrative",
+      "why_now": "Khi các bến 3, 4, 5, 6 vừa đồng loạt khai thác (2025-2026), câu chuyện hành trình con tàu từ Biển Đông vượt qua đê chắn cát vào Cát Hải cực kỳ trực quan cho cú máy route + zoom.",
+      "grounded_in": [
+        "Mớn nước tàu mẹ 165.000 DWT cần luồng sâu -14 m",
+        "Tuyến kết nối cầu vượt biển Tân Vũ - Lạch Huyện 5,44 km nối thẳng cao tốc Hà Nội - Hải Phòng"
+      ]
+    },
+    {
+      "name": "Giải mã lời đồn 'Sao không vét sâu sông Cấm?'",
+      "hook": "Nhiều người hỏi: sao không vét sâu thẳng sông Cấm ngay trong lòng Hải Phòng, mà phải tốn hàng chục nghìn tỷ bắc cầu vượt biển ra đảo Cát Hải?",
+      "type": "contrarian",
+      "why_now": "Trả lời thẳng câu hỏi thực tế nhất của người xem YouTube bằng phép đo khoảng cách (Measure) và phép so sánh mặt cắt kỹ thuật (Comparison).",
+      "grounded_in": [
+        "Chiều rộng luồng sông Cấm chỉ 80 m và đi xuyên nội đô 48 km",
+        "Quy hoạch QĐ 1579/QĐ-TTg di dời cảng sông Cấm, dồn lực ra cửa ngõ Lạch Huyện"
+      ]
+    }
+  ],
+  "visual_references": [
+    {
+      "description": "Bản đồ vector toàn cảnh Việt Nam (kèm Quần đảo Hoàng Sa & Trường Sa) zoom mượt vào cửa sông Bạch Đằng - đảo Cát Hải, nối tiếp bằng biểu đồ mặt cắt dọc 48 km độ sâu luồng.",
+      "url": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/",
+      "what_works": "Biến bảng số liệu hải đồ khô khan thành hình học không gian 2 chiều (bản đồ mặt bằng + mặt cắt độ sâu) hiểu ngay trong 5 giây."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165",
+      "title": "Quyết định số 1579/QĐ-TTg ngày 22/09/2021 phê duyệt Quy hoạch tổng thể phát triển hệ thống cảng biển Việt Nam thời kỳ 2021-2030, tầm nhìn đến năm 2050",
+      "used_for": "Xác định phân loại cảng biển đặc biệt Hải Phòng và vai trò cửa ngõ quốc tế của khu bến Lạch Huyện",
+      "reliability": "primary"
+    },
+    {
+      "url": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/",
+      "title": "Thông tin Luồng Hải Phòng - Luồng Lạch Huyện (Cập nhật ngày 29/08/2026 theo QĐ 1995/QĐ-CHHĐTVN)",
+      "used_for": "Số liệu chiều dài, chiều rộng và độ sâu thực tế các đoạn luồng Lạch Huyện, Hà Nam, Bạch Đằng, Sông Cấm",
+      "reliability": "primary"
+    },
+    {
+      "url": "https://cangvuhaiphong.gov.vn/luong-nam-trieu/",
+      "title": "Thông tin độ sâu Luồng Nam Triệu - Cảng vụ Hàng hải Hải Phòng",
+      "used_for": "Chứng minh tình trạng bồi lắng cạn (-0,5 m đến -3,7 m) ở cửa sông Nam Triệu tự nhiên",
+      "reliability": "primary"
+    },
+    {
+      "url": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt",
+      "title": "Bến 3, 4 tại khu cảng Lạch Huyện được tiếp nhận tàu lên đến 165.000 DWT - Cổng thông tin Logistics Việt Nam",
+      "used_for": "Thông số trọng tải tàu tiếp nhận và trạng thái vận hành thực tế của các bến mở rộng năm 2025",
+      "reliability": "primary"
+    },
+    {
+      "url": "https://sotc.haiphong.gov.vn/tin-tuc/phe-duyet-quy-hoach-tong-the-phat-trien-he-thong-cang-bien-viet-nam",
+      "title": "Phê duyệt Quy hoạch tổng thể phát triển hệ thống cảng biển Việt Nam - Sở Tài chính TP. Hải Phòng",
+      "used_for": "Đối chiếu định hướng di dời cảng trên sông Cấm và phát triển khu bến cửa ngõ Lạch Huyện",
+      "reliability": "primary"
+    },
+    {
+      "url": "https://baohaiphong.vn/nao-vet-luong-hang-hai-lach-huyen-dat-hon-50-ke-hoach-556802.html",
+      "title": "Nạo vét luồng hàng hải Lạch Huyện đạt hơn 50% kế hoạch - Báo Hải Phòng",
+      "used_for": "Bối cảnh sa bồi hàng năm và công tác duy tu chuẩn tắc độ sâu luồng Lạch Huyện",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://tapchicongthuong.vn/hai-phong--khanh-thanh-ben-cang-container-quoc-te-so-3-va-4-khu-ben-cang-lach-huyen-140409.htm",
+      "title": "Hải Phòng: Khánh thành Bến cảng container quốc tế số 3 và 4 - Khu bến cảng Lạch Huyện - Tạp chí Công Thương",
+      "used_for": "Mốc thời gian đưa bến 3, 4 vào khai thác (tháng 05/2025) và hạ tầng kết nối sau cảng",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tpx8EdimIR0",
+      "title": "Cảng Lạch Huyện Hải Phòng || Hành trình mở rộng cảng nước sâu lớn nhất miền Bắc",
+      "used_for": "Khảo sát nội dung hiện có trên YouTube và câu hỏi thường gặp của khán giả",
+      "reliability": "secondary"
+    }
+  ],
+  "research_summary": "Miền Bắc phải đẩy cảng nước sâu ra tận Lạch Huyện (phía Đông Nam đảo Cát Hải) vì toàn bộ cụm cảng truyền thống của Hải Phòng nằm sâu tới 38–48 km trong sông Cấm, nơi luồng chỉ rộng 80 m, sâu khoảng -7,0 m và cửa sông tự nhiên Nam Triệu bị phù sa bồi cạn tới mức -0,5 m đến -3,7 m. Thay vì vét sâu lòng sông nội đô vừa tốn kém vừa có nguy cơ sạt lở bờ phố, Việt Nam chọn bắc tuyến đường - cầu vượt biển Tân Vũ - Lạch Huyện dài 15,63 km (phần cầu 5,44 km) sang đảo Cát Hải để vươn thẳng ra mép vịnh Bắc Bộ, nơi luồng Lạch Huyện rộng 160 m đạt độ sâu -12,9 m đến -14,0 m, cho phép 6 bến container đang vận hành đón siêu tàu tới 165.000 DWT đi thẳng Mỹ và châu Âu.",
+  "metadata": {
+    "source_audit_note": "Ghi chú kiểm tra chéo với Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md: Số hiệu 'Quyết định 1069/QĐ-TTg ngày 22/6/2023' nêu trong tài liệu nháp không phải văn bản quy hoạch cảng biển Hải Phòng (ngày 22/6/2023 là Nghị quyết 93/2023/QH15 và QĐ 743/QĐ-TTg). Bộ nguồn pháp lý - kỹ thuật chính xác đã được thay thế bằng Quyết định 1579/QĐ-TTg (22/09/2021), bảng Thông tin luồng Cảng vụ Hàng hải Hải Phòng cập nhật 29/08/2026 (theo QĐ 1995/QĐ-CHHĐTVN ngày 07/08/2026) và Cổng thông tin Logistics Bộ Công Thương. Toàn bộ fact ứng viên giữ trạng thái 'unverified' trong candidate_facts_sources.json chờ người thật mở nguồn xác nhận."
+  }
+}
+

@@ -1,0 +1,605 @@
+{
+  "version": "1.0",
+  "project_id": "cang-lach-huyen-ban-dai",
+  "pipeline_type": "animated-explainer",
+  "stage": "script",
+  "status": "completed",
+  "timestamp": "2026-11-16T14:11:40.255189+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "script": {
+      "version": "1.0",
+      "title": "150 năm kẹt ở sông Cấm: Hải Phòng vượt biển 48km thế nào?",
+      "total_duration_seconds": 590.44,
+      "voice_performance": {
+        "performance_intent": "Biên tập viên phim tài liệu địa lý kinh tế Việt Nam (phong cách Johnny Harris / Vox): điềm tĩnh, sắc sảo, dẫn dắt 5 chương lịch sử – thủy văn – địa chất – công trình – tương lai mạch lạc.",
+        "pacing_profile": "conversational",
+        "energy_curve": "Mở đầu nghịch lý 150 năm đầy tò mò (Chương 1) -> Trầm và nặng sức ép kinh tế/phù sa (Chương 2–3) -> Mở bừng khí thế vượt biển ở Cầu Tân Vũ & mặt cắt -16 m (Chương 4) -> Vững chãi, tầm nhìn chiến lược ở 6 bến 2026 & đường sắt 1.435 mm (Chương 5).",
+        "pause_policy": "Nghỉ tự nhiên sau dấu chấm câu và chừa 0,5–0,65s khoảng thở giữa 19 cảnh để người xem thưởng thức chuyển động bản đồ 3D.",
+        "sample_section_id": "s14",
+        "provider_notes": {
+          "vibi": "Dùng giọng Haitrieu (model speech-2.8-hd, speed 1.1). Trường provider_text đã phiên âm hoàn toàn số năm, số thập phân, số âm và thuật ngữ quốc tế (côn ten nơ, phít đơ, ti i u, Xin ga po, Ha tê cô) sang chữ tiếng Việt thuần túy để đạt độ chính xác phát âm 100%."
+        }
+      },
+      "sections": [
+        {
+          "id": "s01",
+          "label": "Chương 1.1 — Hook: Nghịch lý 150 năm của thành phố cảng lớn nhất miền Bắc",
+          "text": "Suốt một trăm năm mươi năm mang danh thành phố cảng lớn nhất miền Bắc, Hải Phòng lại không thể đón nổi một siêu tàu container đi thẳng sang Mỹ hay châu Âu. Giữa lúc các tuyến hàng hải khổng lồ tấp nập lướt qua ngoài khơi Biển Đông, mọi con tàu mẹ tiến về vịnh Bắc Bộ đều phải dừng bước cách bờ hàng chục cây số. Điều gì đã khóa chặt cửa biển miền Bắc suốt hơn một thế kỷ, và Hải Phòng đã vượt biển bốn mươi tám ki lô mét để phá vòng vây đó như thế nào?",
+          "start_seconds": 0.0,
+          "end_seconds": 25.6,
+          "speaker_directions": "Nhịp measured, năng lượng curious_authoritative; nhấn rõ một trăm năm mươi năm, không thể đón nổi, bốn mươi tám ki lô mét và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "curious_authoritative",
+            "emphasis_words": [
+              "một trăm năm mươi năm",
+              "không thể đón nổi",
+              "bốn mươi tám ki lô mét"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 1.1 — Hook: Nghịch lý 150 năm của thành phố cảng lớn nhất miền Bắc.",
+            "provider_text": "Suốt một trăm năm mươi năm mang danh thành phố cảng lớn nhất miền Bắc, Hải Phòng lại không thể đón nổi một siêu tàu côn ten nơ đi thẳng sang Mỹ hay châu Âu. Giữa lúc các tuyến hàng hải khổng lồ tấp nập lướt qua ngoài khơi Biển Đông, mọi con tàu mẹ tiến về vịnh Bắc Bộ đều phải dừng bước cách bờ hàng chục cây số. Điều gì đã khóa chặt cửa biển miền Bắc suốt hơn một thế kỷ, và Hải Phòng đã vượt biển bốn mươi tám ki lô mét để phá vòng vây đó như thế nào?"
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "Không ảnh 3D Biển Đông & Vịnh Bắc Bộ (53°, Hoàng Sa & Trường Sa tự nhiên), trục siêu tàu quốc tế đi Mỹ – Âu lướt ngoài khơi, nhánh đỏ rẽ vào Hải Phòng bị chặn lại.",
+              "timestamp_seconds": 1.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165"
+        },
+        {
+          "id": "s02",
+          "label": "Chương 1.2 — Năm 1874: Vì sao người Pháp đặt Bến Sáu Kho sâu 48 km trong sông Cấm?",
+          "text": "Để hiểu vì sao cảng Hải Phòng nằm sâu trong đất liền, hãy quay ngược bản đồ về năm 1874. Khi người Pháp khảo sát vùng cửa sông Bắc Kỳ để mở đường thông thương lên Hà Nội và vùng Vân Nam, những con tàu hơi nước đương thời chỉ có trọng tải vài nghìn tấn với mớn nước vỏn vẹn bốn đến sáu mét. Khúc sông Cấm cách biển bốn mươi tám ki lô mét khi ấy là một vị trí vàng: vừa kín gió trước những cơn bão dữ vịnh Bắc Bộ, vừa nối trực tiếp lên tuyến đường sắt Hải Phòng – Hà Nội – Vân Nam hoàn thành năm 1902. Từ sáu nhà kho đầu tiên mang tên Bến Sáu Kho, thương cảng lớn bậc nhất Đông Dương đã ra đời như thế.",
+          "start_seconds": 25.6,
+          "end_seconds": 62.79,
+          "speaker_directions": "Nhịp conversational, năng lượng historical_storytelling; nhấn rõ một nghìn tám trăm bảy mươi tư, vị trí vàng, Bến Sáu Kho và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "historical_storytelling",
+            "emphasis_words": [
+              "một nghìn tám trăm bảy mươi tư",
+              "vị trí vàng",
+              "Bến Sáu Kho"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 1.2 — Năm 1874: Vì sao người Pháp đặt Bến Sáu Kho sâu 48 km trong sông Cấm?.",
+            "provider_text": "Để hiểu vì sao cảng Hải Phòng nằm sâu trong đất liền, hãy quay ngược bản đồ về năm một nghìn tám trăm bảy mươi tư. Khi người Pháp khảo sát vùng cửa sông Bắc Kỳ để mở đường thông thương lên Hà Nội và vùng Vân Nam, những con tàu hơi nước đương thời chỉ có trọng tải vài nghìn tấn với mớn nước vỏn vẹn bốn đến sáu mét. Khúc sông Cấm cách biển bốn mươi tám ki lô mét khi ấy là một vị trí vàng: vừa kín gió trước những cơn bão dữ vịnh Bắc Bộ, vừa nối trực tiếp lên tuyến đường sắt Hải Phòng, Hà Nội, Vân Nam hoàn thành năm một nghìn chín trăm linh hai. Từ sáu nhà kho đầu tiên mang tên Bến Sáu Kho, thương cảng lớn bậc nhất Đông Dương đã ra đời như thế."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Bản đồ 3D miền Bắc & hành lang đường sắt Đông Dương 1902 nối Bến Sáu Kho (Sông Cấm) qua Hà Nội lên Lào Cai – Vân Nam, kèm ảnh tư liệu cảng Hải Phòng đầu thế kỷ XX.",
+              "timestamp_seconds": 29.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://haiphongport.com.vn/"
+        },
+        {
+          "id": "s03",
+          "label": "Chương 1.3 — Cú nhảy vọt kích cỡ tàu thế kỷ XXI biến dòng sông thành chiếc lồng",
+          "text": "Thế nhưng, lợi thế của thế kỷ mười chín lại trở thành tử huyệt của thế kỷ hai mươi mốt. Cuộc cách mạng container hóa toàn cầu đã đẩy kích thước tàu biển tăng vọt gấp hai mươi lần. Những con tàu hơi nước vài nghìn tấn năm xưa nay nhường chỗ cho thế hệ siêu tàu mẹ trọng tải từ một trăm sáu mươi lăm nghìn đến hai trăm nghìn tấn, dài gần bốn trăm mét, tức ngang gần bốn sân bóng đá nối liền, và cần độ sâu mớn nước từ mười ba phẩy năm đến mười sáu mét. Con sông từng nuôi lớn Hải Phòng bỗng chốc trở nên quá chật và quá nông.",
+          "start_seconds": 62.79,
+          "end_seconds": 93.35,
+          "speaker_directions": "Nhịp measured, năng lượng analytical_build; nhấn rõ tăng vọt gấp hai mươi lần, bốn sân bóng đá, quá chật và quá nông và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "analytical_build",
+            "emphasis_words": [
+              "tăng vọt gấp hai mươi lần",
+              "bốn sân bóng đá",
+              "quá chật và quá nông"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 1.3 — Cú nhảy vọt kích cỡ tàu thế kỷ XXI biến dòng sông thành chiếc lồng.",
+            "provider_text": "Thế nhưng, lợi thế của thế kỷ mười chín lại trở thành tử huyệt của thế kỷ hai mươi mốt. Cuộc cách mạng côn ten nơ hóa toàn cầu đã đẩy kích thước tàu biển tăng vọt gấp hai mươi lần. Những con tàu hơi nước vài nghìn tấn năm xưa nay nhường chỗ cho thế hệ siêu tàu mẹ trọng tải từ một trăm sáu mươi lăm nghìn đến hai trăm nghìn tấn, dài gần bốn trăm mét, tức ngang gần bốn sân bóng đá nối liền, và cần độ sâu mớn nước từ mười ba phẩy năm đến mười sáu mét. Con sông từng nuôi lớn Hải Phòng bỗng chốc trở nên quá chật và quá nông."
+          },
+          "enhancement_cues": [
+            {
+              "type": "stat_card",
+              "description": "Sơ đồ so sánh tỷ lệ 1:1 ba thế hệ tàu: Tàu hơi nước 1874 (mớn 5 m) -> Tàu feeder 30.000 DWT -> Siêu tàu mẹ 200.000 DWT dài ~400 m đặt cạnh 4 sân bóng đá.",
+              "timestamp_seconds": 61.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt"
+        },
+        {
+          "id": "s04",
+          "label": "Chương 1.4 — Cú bổ nhào 3D dọc hành lang 48,0 km từ Phao số 0 vào nội đô",
+          "text": "Khi phóng to bản đồ vệ tinh từ ngoài khơi vịnh Bắc Bộ vào đất liền, toàn bộ thế kẹt không gian hiện ra rõ mồn một. Từ điểm đón tàu ngoài biển là Phao số không, một con tàu muốn vào tới cụm cảng truyền thống Hoàng Diệu hay Chùa Vẽ phải luồn lách suốt bốn mươi tám ki lô mét qua cửa biển, kênh đào và lòng sông Cấm quanh co. Quãng đường dẫn luồng dài gấp đôi các cảng biển hiện đại khiến mọi chuyến tàu lớn đều bị chặn lại từ vòng ngoài.",
+          "start_seconds": 93.35,
+          "end_seconds": 118.4,
+          "speaker_directions": "Nhịp conversational, năng lượng focused; nhấn rõ Phao số không, bốn mươi tám ki lô mét, chặn lại từ vòng ngoài và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "focused",
+            "emphasis_words": [
+              "Phao số không",
+              "bốn mươi tám ki lô mét",
+              "chặn lại từ vòng ngoài"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 1.4 — Cú bổ nhào 3D dọc hành lang 48,0 km từ Phao số 0 vào nội đô.",
+            "provider_text": "Khi phóng to bản đồ vệ tinh từ ngoài khơi vịnh Bắc Bộ vào đất liền, toàn bộ thế kẹt không gian hiện ra rõ mồn một. Từ điểm đón tàu ngoài biển là Phao số không, một con tàu muốn vào tới cụm cảng truyền thống Hoàng Diệu hay Chùa Vẽ phải luồn lách suốt bốn mươi tám ki lô mét qua cửa biển, kênh đào và lòng sông Cấm quanh co. Quãng đường dẫn luồng dài gấp đôi các cảng biển hiện đại khiến mọi chuyến tàu lớn đều bị chặn lại từ vòng ngoài."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Camera 3D góc 56° bổ nhào dọc hành lang 48,0 km từ Phao số 0 vào Chùa Vẽ – Sông Cấm với đồng hồ đếm lớn 48,0 km và ảnh thực địa bến Chùa Vẽ.",
+              "timestamp_seconds": 91.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/"
+        },
+        {
+          "id": "s05",
+          "label": "Chương 2.1 — Cái giá của việc đi tàu gom hàng vòng qua Singapore & Hồng Kông",
+          "text": "Hệ quả kinh tế của bốn mươi tám ki lô mét luồng cạn ấy đè nặng lên toàn bộ chuỗi cung ứng miền Bắc. Suốt nhiều thập kỷ, hàng điện tử, dệt may, máy móc từ Bắc Ninh, Thái Nguyên, Hải Dương đưa ra Hải Phòng không thể lên thẳng tàu mẹ. Doanh nghiệp buộc phải xếp hàng lên đội tàu gom cỡ nhỏ gọi là tàu feeder, chạy vòng hàng nghìn hải lý xuống Singapore cách đó hai nghìn sáu trăm ki lô mét hoặc ghé Hồng Kông, dỡ hàng xuống bãi rồi mới xếp lại lên siêu tàu đi Mỹ và châu Âu. Hai lần bốc dỡ trung gian làm đội chi phí và kéo dài hành trình thêm từ năm đến bảy ngày.",
+          "start_seconds": 118.4,
+          "end_seconds": 152.32,
+          "speaker_directions": "Nhịp measured, năng lượng serious_stakes; nhấn rõ tàu phít đơ, hai nghìn sáu trăm ki lô mét, năm đến bảy ngày và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "serious_stakes",
+            "emphasis_words": [
+              "tàu phít đơ",
+              "hai nghìn sáu trăm ki lô mét",
+              "năm đến bảy ngày"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 2.1 — Cái giá của việc đi tàu gom hàng vòng qua Singapore & Hồng Kông.",
+            "provider_text": "Hệ quả kinh tế của bốn mươi tám ki lô mét luồng cạn ấy đè nặng lên toàn bộ chuỗi cung ứng miền Bắc. Suốt nhiều thập kỷ, hàng điện tử, dệt may, máy móc từ Bắc Ninh, Thái Nguyên, Hải Dương đưa ra Hải Phòng không thể lên thẳng tàu mẹ. Doanh nghiệp buộc phải xếp hàng lên đội tàu gom cỡ nhỏ gọi là tàu phít đơ, chạy vòng hàng nghìn hải lý xuống Xin ga po cách đó hai nghìn sáu trăm ki lô mét hoặc ghé Hồng Kông, dỡ hàng xuống bãi rồi mới xếp lại lên siêu tàu đi Mỹ và châu Âu. Hai lần bốc dỡ trung gian làm đội chi phí và kéo dài hành trình thêm từ năm đến bảy ngày."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "Bản đồ 3D Đông Nam Á (52°) với 4 vòng cung 3D nối Hải Phòng vòng xuống Singapore & Hồng Kông, bảng thiệt hại 2 CHẶNG BỐC DỠ và +5–7 NGÀY chờ nối chuyến.",
+              "timestamp_seconds": 121.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://logistics.gov.vn/"
+        },
+        {
+          "id": "s06",
+          "label": "Chương 2.2 — Hồ sơ thủy văn QĐ 1995: Thủ phạm phù sa dưới mặt nước (-7,0 m)",
+          "text": "Thủ phạm thực sự nằm ngay dưới mặt nước đục ngầu phù sa của vùng cửa sông miền Bắc. Hải Phòng nằm đúng nơi hợp lưu của hệ thống sông Thái Bình và sông Bạch Đằng, mang theo hàng triệu tấn bùn cát đổ ra biển mỗi mùa mưa lũ. Theo số liệu thông báo hàng hải tại Quyết định 1995 của Cảng vụ Hàng hải Hải Phòng, đoạn luồng sông Cấm nội đô chỉ rộng tám mươi mét và đạt độ sâu âm bảy mét, trong khi vùng cửa tự nhiên Nam Triệu nhiều dải bồi cạn chỉ còn từ âm không phẩy năm đến âm ba phẩy bảy mét.",
+          "start_seconds": 152.32,
+          "end_seconds": 180.34,
+          "speaker_directions": "Nhịp measured, năng lượng investigative; nhấn rõ hàng triệu tấn bùn cát, âm bảy mét, âm không phẩy năm và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "investigative",
+            "emphasis_words": [
+              "hàng triệu tấn bùn cát",
+              "âm bảy mét",
+              "âm không phẩy năm"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 2.2 — Hồ sơ thủy văn QĐ 1995: Thủ phạm phù sa dưới mặt nước (-7,0 m).",
+            "provider_text": "Thủ phạm thực sự nằm ngay dưới mặt nước đục ngầu phù sa của vùng cửa sông miền Bắc. Hải Phòng nằm đúng nơi hợp lưu của hệ thống sông Thái Bình và sông Bạch Đằng, mang theo hàng triệu tấn bùn cát đổ ra biển mỗi mùa mưa lũ. Theo số liệu thông báo hàng hải tại Quyết định một nghìn chín trăm chín mươi lăm của Cảng vụ Hàng hải Hải Phòng, đoạn luồng sông Cấm nội đô chỉ rộng tám mươi mét và đạt độ sâu âm bảy mét, trong khi vùng cửa tự nhiên Nam Triệu nhiều dải bồi cạn chỉ còn từ âm không phẩy năm đến âm ba phẩy bảy mét."
+          },
+          "enhancement_cues": [
+            {
+              "type": "overlay",
+              "description": "Bản đồ 3D vùng bùn phù sa cửa Nam Triệu + Tờ hồ sơ giấy kem QĐ 1995/QĐ-CHHĐTVN phóng lớn giữa màn hình quét bút dạ vàng lên thông số rộng 80 m, sâu -7,0 m.",
+              "timestamp_seconds": 155.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://cangvuhaiphong.gov.vn/luong-nam-trieu/"
+        },
+        {
+          "id": "s07",
+          "label": "Chương 2.3 — Hơn một thế kỷ vá lỗi: Từ nạo vét 1904 đến kênh đào Hà Nam (-8,5 m)",
+          "text": "Thực ra, con người đã chiến đấu với dải phù sa này suốt hơn một trăm hai mươi năm. Ngay từ năm 1904, người Pháp đã phải mở các đợt nạo vét quy mô lớn ở lạch Nam Triệu. Sang thời hiện đại, Việt Nam tiếp tục thực hiện một công trình táo bạo: xẻ ngang bán đảo Đình Vũ để mở tuyến kênh đào Hà Nam và hạ chuẩn tắc luồng xuống mức âm tám phẩy năm mét. Nhờ kênh Hà Nam, tàu khoảng bốn mươi tám nghìn tấn giảm tải có thể tiến vào cụm cảng Đình Vũ, nhưng trước siêu tàu một trăm sáu mươi lăm nghìn tấn cần độ sâu mười bốn mét, kênh đào này vẫn hoàn toàn bất lực.",
+          "start_seconds": 180.34,
+          "end_seconds": 212.82,
+          "speaker_directions": "Nhịp conversational, năng lượng analytical; nhấn rõ một nghìn chín trăm linh tư, kênh đào Hà Nam, âm tám phẩy năm mét và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "analytical",
+            "emphasis_words": [
+              "một nghìn chín trăm linh tư",
+              "kênh đào Hà Nam",
+              "âm tám phẩy năm mét"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 2.3 — Hơn một thế kỷ vá lỗi: Từ nạo vét 1904 đến kênh đào Hà Nam (-8,5 m).",
+            "provider_text": "Thực ra, con người đã chiến đấu với dải phù sa này suốt hơn một trăm hai mươi năm. Ngay từ năm một nghìn chín trăm linh tư, người Pháp đã phải mở các đợt nạo vét quy mô lớn ở lạch Nam Triệu. Sang thời hiện đại, Việt Nam tiếp tục thực hiện một công trình táo bạo: xẻ ngang bán đảo Đình Vũ để mở tuyến kênh đào Hà Nam và hạ chuẩn tắc luồng xuống mức âm tám phẩy năm mét. Nhờ kênh Hà Nam, tàu khoảng bốn mươi tám nghìn tấn giảm tải có thể tiến vào cụm cảng Đình Vũ, nhưng trước siêu tàu một trăm sáu mươi lăm nghìn tấn cần độ sâu mười bốn mét, kênh đào này vẫn hoàn toàn bất lực."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Bản đồ 3D cận cảnh bán đảo Đình Vũ & Kênh đào Hà Nam (z14 cực nét): tô sáng rãnh cắt xuyên bán đảo, thẻ thông số -8,5 m / đón tàu ~48.000 DWT vs ngưỡng cần -14,0 m.",
+              "timestamp_seconds": 189.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/"
+        },
+        {
+          "id": "s08",
+          "label": "Chương 2.4 — Nút thắt trên không & hai bờ: Tĩnh không cầu nội đô và di dời cảng cũ",
+          "text": "Không chỉ bị khóa từ dưới đáy sông, cụm cảng nội đô Hải Phòng còn chạm trần ở cả phía trên mặt nước lẫn hai bên bờ. Dọc dòng sông Cấm ngày nay là lõi đô thị sầm uất với hàng loạt cây cầu huyết mạch nối sang Thủy Nguyên như cầu Bính, cầu Hoàng Văn Thụ và cầu Nguyễn Trãi. Giới hạn tĩnh không thông thuyền của các cây cầu cùng khẩu độ luồng quay trở chật hẹp khiến những con tàu dài bốn trăm mét, cao hàng chục mét không thể xoay xở giữa lòng thành phố. Vì vậy, khu bến Hoàng Diệu trăm tuổi đang từng bước lùi lại để nhường bờ sông cho không gian đô thị hiện đại.",
+          "start_seconds": 212.82,
+          "end_seconds": 244.09,
+          "speaker_directions": "Nhịp measured, năng lượng thoughtful; nhấn rõ tĩnh không thông thuyền, cầu Bính, nhường bờ sông và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "thoughtful",
+            "emphasis_words": [
+              "tĩnh không thông thuyền",
+              "cầu Bính",
+              "nhường bờ sông"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 2.4 — Nút thắt trên không & hai bờ: Tĩnh không cầu nội đô và di dời cảng cũ.",
+            "provider_text": "Không chỉ bị khóa từ dưới đáy sông, cụm cảng nội đô Hải Phòng còn chạm trần ở cả phía trên mặt nước lẫn hai bên bờ. Dọc dòng sông Cấm ngày nay là lõi đô thị sầm uất với hàng loạt cây cầu huyết mạch nối sang Thủy Nguyên như cầu Bính, cầu Hoàng Văn Thụ và cầu Nguyễn Trãi. Giới hạn tĩnh không thông thuyền của các cây cầu cùng khẩu độ luồng quay trở chật hẹp khiến những con tàu dài bốn trăm mét, cao hàng chục mét không thể xoay xở giữa lòng thành phố. Vì vậy, khu bến Hoàng Diệu trăm tuổi đang từng bước lùi lại để nhường bờ sông cho không gian đô thị hiện đại."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "Sơ đồ mặt đứng 3D sông Cấm nội đô: tĩnh không cầu đường bộ bắc qua sông Cấm chặn tháp lái siêu tàu container + hai bờ đô thị Hải Phòng – Thủy Nguyên.",
+              "timestamp_seconds": 221.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://haiphongport.com.vn/"
+        },
+        {
+          "id": "s09",
+          "label": "Chương 3.1 — Sa bàn địa chất 3D: Đào sâu 14 m bằng tòa nhà 4 tầng sẽ làm sập hai bờ phố",
+          "text": "Đến đây, nhiều người vẫn đặt câu hỏi: tại sao không dồn tiền đào thẳng đoạn hạ lưu sông Cấm sâu xuống âm mười bốn mét cho đỡ phải ra đảo xa? Câu trả lời nằm ở bài toán cơ học đất. Hãy hình dung độ sâu mười bốn mét dưới mặt nước tương đương chiều cao của cả một tòa nhà bốn tầng dựng thẳng đứng dưới đáy sông. Trong hành lang luồng chỉ rộng tám mươi mét chạy sát khu dân cư và chân kè bến cảng, muốn khoét sâu gấp đôi hiện trạng thì bắt buộc phải mở mái dốc taluy rất thoải sang hai bên, ăn lẹm thẳng vào nền móng công trình và gây nguy cơ sạt trượt cả hai bờ phố.",
+          "start_seconds": 244.09,
+          "end_seconds": 275.15,
+          "speaker_directions": "Nhịp measured, năng lượng dramatic_explanation; nhấn rõ cơ học đất, tòa nhà bốn tầng, sạt trượt cả hai bờ phố và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "dramatic_explanation",
+            "emphasis_words": [
+              "cơ học đất",
+              "tòa nhà bốn tầng",
+              "sạt trượt cả hai bờ phố"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 3.1 — Sa bàn địa chất 3D: Đào sâu 14 m bằng tòa nhà 4 tầng sẽ làm sập hai bờ phố.",
+            "provider_text": "Đến đây, nhiều người vẫn đặt câu hỏi: tại sao không dồn tiền đào thẳng đoạn hạ lưu sông Cấm sâu xuống âm mười bốn mét cho đỡ phải ra đảo xa? Câu trả lời nằm ở bài toán cơ học đất. Hãy hình dung độ sâu mười bốn mét dưới mặt nước tương đương chiều cao của cả một tòa nhà bốn tầng dựng thẳng đứng dưới đáy sông. Trong hành lang luồng chỉ rộng tám mươi mét chạy sát khu dân cư và chân kè bến cảng, muốn khoét sâu gấp đôi hiện trạng thì bắt buộc phải mở mái dốc ta luy rất thoải sang hai bên, ăn lẹm thẳng vào nền móng công trình và gây nguy cơ sạt trượt cả hai bờ phố."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "Sa bàn 3D Isometric cắt dọc lòng sông Cấm 80 m: tòa nhà 4 tầng màu vàng đứng trong hố đào -14,0 m, mái dốc taluy đỏ ăn sâu vào chân kè gây vết nứt sạt trượt hai bờ đô thị.",
+              "timestamp_seconds": 253.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://cangvuhaiphong.gov.vn/luong-nam-trieu/"
+        },
+        {
+          "id": "s10",
+          "label": "Chương 3.2 — Cái phễu hứng bùn vô đáy mỗi mùa mưa lũ & Quyết định bước ngoặt",
+          "text": "Ngay cả khi chấp nhận chi phí gia cố bờ kè khổng lồ, quy luật thủy văn vẫn sẽ biến rãnh sâu ấy thành một cái bẫy tài chính không đáy. Một rãnh nhân tạo sâu mười bốn mét cắt ngang cửa sông giàu phù sa chẳng khác nào chiếc phễu khổng lồ nằm chờ dòng chảy chậm lại để lắng bùn. Đào xong năm trước, chỉ sau một mùa lũ miền Bắc năm sau, hàng triệu mét khối bùn cát từ thượng nguồn lại tràn về san phẳng đáy luồng, tiêu tốn hàng trăm tỷ đồng nạo vét duy tu triền miên. Bài toán địa lý chỉ còn một lời giải duy nhất: không thể cố đào sâu dòng sông cũ, Hải Phòng buộc phải nhảy vọt qua vùng cửa sông để vươn thẳng ra biển hở.",
+          "start_seconds": 275.15,
+          "end_seconds": 311.67,
+          "speaker_directions": "Nhịp measured, năng lượng pivotal_turn; nhấn rõ cái bẫy tài chính không đáy, chiếc phễu khổng lồ, nhảy vọt qua vùng cửa sông và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "pivotal_turn",
+            "emphasis_words": [
+              "cái bẫy tài chính không đáy",
+              "chiếc phễu khổng lồ",
+              "nhảy vọt qua vùng cửa sông"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 3.2 — Cái phễu hứng bùn vô đáy mỗi mùa mưa lũ & Quyết định bước ngoặt.",
+            "provider_text": "Ngay cả khi chấp nhận chi phí gia cố bờ kè khổng lồ, quy luật thủy văn vẫn sẽ biến rãnh sâu ấy thành một cái bẫy tài chính không đáy. Một rãnh nhân tạo sâu mười bốn mét cắt ngang cửa sông giàu phù sa chẳng khác nào chiếc phễu khổng lồ nằm chờ dòng chảy chậm lại để lắng bùn. Đào xong năm trước, chỉ sau một mùa lũ miền Bắc năm sau, hàng triệu mét khối bùn cát từ thượng nguồn lại tràn về san phẳng đáy luồng, tiêu tốn hàng trăm tỷ đồng nạo vét duy tu triền miên. Bài toán địa lý chỉ còn một lời giải duy nhất: không thể cố đào sâu dòng sông cũ, Hải Phòng buộc phải nhảy vọt qua vùng cửa sông để vươn thẳng ra biển hở."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Mô phỏng chu kỳ bồi lắng 4 mùa & biểu đồ chi phí duy tu vô tận trên rãnh sâu cửa sông -> chuyển thành mũi tên chiến lược phóng vọt qua cửa Nam Triệu ra đảo Cát Hải.",
+              "timestamp_seconds": 295.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165"
+        },
+        {
+          "id": "s11",
+          "label": "Chương 4.1 — Flycam 3D Cầu vượt biển Tân Vũ – Lạch Huyện 5,44 km sang đảo Cát Hải",
+          "text": "Lời giải mang tính lịch sử ấy được hiện thực hóa bằng tuyến đường ô tô và cầu vượt biển Tân Vũ – Lạch Huyện thông xe năm 2017. Xuất phát từ nút giao Tân Vũ nơi cuối cao tốc Hà Nội – Hải Phòng, toàn tuyến dài mười lăm phẩy sáu mươi ba ki lô mét, trong đó có năm phẩy bốn mươi tư ki lô mét cầu bê tông dự ứng lực băng thẳng qua mặt biển cửa Nam Triệu để đặt chân lên đảo tiền tiêu Cát Hải. Thay vì bắt tàu mẹ chui vào đất liền, Hải Phòng đã kéo hạ tầng đường bộ vượt biển ra đón tàu.",
+          "start_seconds": 311.67,
+          "end_seconds": 340.81,
+          "speaker_directions": "Nhịp conversational, năng lượng triumphant_clear; nhấn rõ hai nghìn không trăm mười bảy, năm phẩy bốn mươi tư ki lô mét, kéo hạ tầng đường bộ vượt biển và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "triumphant_clear",
+            "emphasis_words": [
+              "hai nghìn không trăm mười bảy",
+              "năm phẩy bốn mươi tư ki lô mét",
+              "kéo hạ tầng đường bộ vượt biển"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 4.1 — Flycam 3D Cầu vượt biển Tân Vũ – Lạch Huyện 5,44 km sang đảo Cát Hải.",
+            "provider_text": "Lời giải mang tính lịch sử ấy được hiện thực hóa bằng tuyến đường ô tô và cầu vượt biển Tân Vũ, Lạch Huyện thông xe năm hai nghìn không trăm mười bảy. Xuất phát từ nút giao Tân Vũ nơi cuối cao tốc Hà Nội, Hải Phòng, toàn tuyến dài mười lăm phẩy sáu mươi ba ki lô mét, trong đó có năm phẩy bốn mươi tư ki lô mét cầu bê tông dự ứng lực băng thẳng qua mặt biển cửa Nam Triệu để đặt chân lên đảo tiền tiêu Cát Hải. Thay vì bắt tàu mẹ chui vào đất liền, Hải Phòng đã kéo hạ tầng đường bộ vượt biển ra đón tàu."
+          },
+          "enhancement_cues": [
+            {
+              "type": "broll",
+              "description": "Flycam 3D góc 56° dọc cầu nổi 18 trụ bê tông đổ bóng xuống cửa Nam Triệu sang đảo Cát Hải + Phóng to Ảnh Đinh #1 (Cầu vượt biển Tân Vũ – Lạch Huyện thực tế).",
+              "timestamp_seconds": 336.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://mt.gov.vn/"
+        },
+        {
+          "id": "s12",
+          "label": "Chương 4.2 — Vũ khí bí mật ngoài khơi: Đê chắn cát Tây Nam & Đê chắn sóng Đông Bắc",
+          "text": "Nhưng nếu nhìn kỹ trên ảnh vệ tinh độ phân giải cao năm 2024, bạn sẽ thấy cầu vượt biển mới chỉ là một nửa kỳ tích kỹ thuật. Nửa còn lại nằm ở hai dải công trình vươn dài hàng ki lô mét ngoài mặt biển quanh luồng Lạch Huyện. Ở phía Tây Nam giáp cửa Nam Triệu, các kỹ sư dựng lên một tuyến đê chắn cát kiên cố như bức tường ngầm ngăn không cho dòng phù sa từ sông Bạch Đằng tràn ngang vào rãnh luồng. Còn ở phía Đông Bắc hướng ra vịnh Bắc Bộ, tuyến đê chắn sóng che chắn gió mùa và sóng lớn, tạo ra vùng nước lặng sóng ngay rìa biển sâu.",
+          "start_seconds": 340.81,
+          "end_seconds": 373.02,
+          "speaker_directions": "Nhịp measured, năng lượng engineering_insight; nhấn rõ đê chắn cát, bức tường ngầm, đê chắn sóng và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "engineering_insight",
+            "emphasis_words": [
+              "đê chắn cát",
+              "bức tường ngầm",
+              "đê chắn sóng"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 4.2 — Vũ khí bí mật ngoài khơi: Đê chắn cát Tây Nam & Đê chắn sóng Đông Bắc.",
+            "provider_text": "Nhưng nếu nhìn kỹ trên ảnh vệ tinh độ phân giải cao năm hai nghìn không trăm hai mươi tư, bạn sẽ thấy cầu vượt biển mới chỉ là một nửa kỳ tích kỹ thuật. Nửa còn lại nằm ở hai dải công trình vươn dài hàng ki lô mét ngoài mặt biển quanh luồng Lạch Huyện. Ở phía Tây Nam giáp cửa Nam Triệu, các kỹ sư dựng lên một tuyến đê chắn cát kiên cố như bức tường ngầm ngăn không cho dòng phù sa từ sông Bạch Đằng tràn ngang vào rãnh luồng. Còn ở phía Đông Bắc hướng ra vịnh Bắc Bộ, tuyến đê chắn sóng che chắn gió mùa và sóng lớn, tạo ra vùng nước lặng sóng ngay rìa biển sâu."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "Bản đồ 3D cận cảnh mũi Nam đảo Cát Hải (vệ tinh EOX 2024 z14): mô phỏng mũi tên bùn vàng cửa Nam Triệu bị tuyến Đê chắn cát chặn đứng và sóng biển bị Đê chắn sóng cản lại.",
+              "timestamp_seconds": 373.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/"
+        },
+        {
+          "id": "s13",
+          "label": "Chương 4.3 — Trường đua tách đôi 1:1: Luồng cũ 48 km / 80 m đối đầu Luồng mới 20,66 km / 160 m",
+          "text": "Đặt hai lộ trình lên bàn cân trực diện theo đúng tỷ lệ một một, sự khác biệt về năng lực thông qua hiện lên cực kỳ ấn tượng. Ở làn phía trên, lộ trình sông Cấm cũ dài tới bốn mươi tám ki lô mét nhưng bề rộng luồng chỉ vỏn vẹn tám mươi mét, khiến tàu nhỏ phải bò chậm và chờ thủy triều từng giờ. Ở làn phía dưới, trục luồng Lạch Huyện phóng thẳng từ đảo Cát Hải ra Phao số không chỉ dài hai mươi phẩy sáu mươi sáu ki lô mét, tức cắt ngắn năm mươi bảy phần trăm quãng đường, đồng thời mở rộng bề mặt luồng lên gấp đôi đạt một trăm sáu mươi mét, xếp vừa hơn hai sân bóng đá nằm ngang.",
+          "start_seconds": 373.02,
+          "end_seconds": 404.97,
+          "speaker_directions": "Nhịp brisk, năng lượng energetic_contrast; nhấn rõ tỷ lệ một một, cắt ngắn năm mươi bảy phần trăm, một trăm sáu mươi mét và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "brisk",
+            "energy": "energetic_contrast",
+            "emphasis_words": [
+              "tỷ lệ một một",
+              "cắt ngắn năm mươi bảy phần trăm",
+              "một trăm sáu mươi mét"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 4.3 — Trường đua tách đôi 1:1: Luồng cũ 48 km / 80 m đối đầu Luồng mới 20,66 km / 160 m.",
+            "provider_text": "Đặt hai lộ trình lên bàn cân trực diện theo đúng tỷ lệ một một, sự khác biệt về năng lực thông qua hiện lên cực kỳ ấn tượng. Ở làn phía trên, lộ trình sông Cấm cũ dài tới bốn mươi tám ki lô mét nhưng bề rộng luồng chỉ vỏn vẹn tám mươi mét, khiến tàu nhỏ phải bò chậm và chờ thủy triều từng giờ. Ở làn phía dưới, trục luồng Lạch Huyện phóng thẳng từ đảo Cát Hải ra Phao số không chỉ dài hai mươi phẩy sáu mươi sáu ki lô mét, tức cắt ngắn năm mươi bảy phần trăm quãng đường, đồng thời mở rộng bề mặt luồng lên gấp đôi đạt một trăm sáu mươi mét, xếp vừa hơn hai sân bóng đá nằm ngang."
+          },
+          "enhancement_cues": [
+            {
+              "type": "stat_card",
+              "description": "Màn hình tách đôi tỷ lệ 1:1: Làn trên luồng bùn 80 m tàu nhỏ bò chậm 48,0 km vs Làn dưới đại lộ biển 160 m (xếp 2,3 sân bóng đá) cho siêu tàu phóng thẳng 20,66 km.",
+              "timestamp_seconds": 407.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/"
+        },
+        {
+          "id": "s14",
+          "label": "Chương 4.4 — Hero Moment Mặt cắt đáy biển: Mắc cạn ở -7,0 m vs Tòa nhà 4 tầng ở -14,0 m / -16,0 m",
+          "text": "Và đây chính là lát cắt quyết định số phận của những siêu tàu vượt đại dương. Ở phía trái mặt cắt, trong lòng sông Cấm âm bảy mét hay ngay cả kênh Hà Nam âm tám phẩy năm mét, một con tàu lớn có mớn nước mười ba mét sẽ đâm sầm mũi vào thềm bùn và mắc cạn ngay lập tức. Nhưng khi dịch chuyển ra khu bến nước sâu Lạch Huyện ở phía phải, độ sâu luồng đạt tới âm mười bốn mét và vùng nước đậu tàu trước các bến mới sâu tới âm mười sáu mét, tương đương chiều cao tòa nhà bốn đến năm tầng dưới mặt biển. Khoảng nước sâu thẳm ấy cho phép siêu tàu dài ba trăm sáu mươi sáu mét nổi an toàn tuyệt đối.",
+          "start_seconds": 404.97,
+          "end_seconds": 437.85,
+          "speaker_directions": "Nhịp measured, năng lượng climax_reveal; nhấn rõ lát cắt quyết định, đâm sầm mũi vào thềm bùn, âm mười sáu mét và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "climax_reveal",
+            "emphasis_words": [
+              "lát cắt quyết định",
+              "đâm sầm mũi vào thềm bùn",
+              "âm mười sáu mét"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 4.4 — Hero Moment Mặt cắt đáy biển: Mắc cạn ở -7,0 m vs Tòa nhà 4 tầng ở -14,0 m / -16,0 m.",
+            "provider_text": "Và đây chính là lát cắt quyết định số phận của những siêu tàu vượt đại dương. Ở phía trái mặt cắt, trong lòng sông Cấm âm bảy mét hay ngay cả kênh Hà Nam âm tám phẩy năm mét, một con tàu lớn có mớn nước mười ba mét sẽ đâm sầm mũi vào thềm bùn và mắc cạn ngay lập tức. Nhưng khi dịch chuyển ra khu bến nước sâu Lạch Huyện ở phía phải, độ sâu luồng đạt tới âm mười bốn mét và vùng nước đậu tàu trước các bến mới sâu tới âm mười sáu mét, tương đương chiều cao tòa nhà bốn đến năm tầng dưới mặt biển. Khoảng nước sâu thẳm ấy cho phép siêu tàu dài ba trăm sáu mươi sáu mét nổi an toàn tuyệt đối."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "Hero Moment mặt cắt thủy văn: Tàu lớn nghiêng mũi đâm chạm đáy -7,0 m phát sóng xung kích đỏ vs Siêu tàu 165.000 DWT dài ~366 m (3,5 sân bóng) nổi cạnh tòa nhà 4 tầng sáng đèn ở đáy -14,0 m / -16,0 m.",
+              "timestamp_seconds": 443.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt"
+        },
+        {
+          "id": "s15",
+          "label": "Chương 5.1 — Cú bứt tốc 2018–2026: 6 bến liên hoàn dài 2,4 km đạt 4,7 triệu TEU/năm",
+          "text": "Từ nền tảng luồng nước sâu đó, một quần thể siêu cảng hiện đại đã trỗi dậy thần tốc dọc bờ đảo Cát Hải. Sau hai bến mở đường số một và số hai đi vào vận hành năm 2018, tháng tư năm 2025 đánh dấu bước ngoặt lớn khi cả bến số ba, số bốn của Cảng Hải Phòng lẫn bến số năm, số sáu của Tập đoàn Hateco đồng loạt khai thác thương mại. Sáu bến cảng nối liền thành dải cầu tàu dài hai phẩy bốn ki lô mét với tổng công suất thiết kế khoảng bốn phẩy bảy triệu TEU mỗi năm, liên tục đón các siêu tàu container từ một trăm sáu mươi lăm nghìn đến hai trăm nghìn tấn giảm tải.",
+          "start_seconds": 437.85,
+          "end_seconds": 472.99,
+          "speaker_directions": "Nhịp conversational, năng lượng proud_momentum; nhấn rõ tháng tư năm hai nghìn không trăm hai mươi lăm, hai phẩy bốn ki lô mét, bốn phẩy bảy triệu ti i u và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "proud_momentum",
+            "emphasis_words": [
+              "tháng tư năm hai nghìn không trăm hai mươi lăm",
+              "hai phẩy bốn ki lô mét",
+              "bốn phẩy bảy triệu ti i u"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 5.1 — Cú bứt tốc 2018–2026: 6 bến liên hoàn dài 2,4 km đạt 4,7 triệu TEU/năm.",
+            "provider_text": "Từ nền tảng luồng nước sâu đó, một quần thể siêu cảng hiện đại đã trỗi dậy thần tốc dọc bờ đảo Cát Hải. Sau hai bến mở đường số một và số hai đi vào vận hành năm hai nghìn không trăm mười tám, tháng tư năm hai nghìn không trăm hai mươi lăm đánh dấu bước ngoặt lớn khi cả bến số ba, số bốn của Cảng Hải Phòng lẫn bến số năm, số sáu của Tập đoàn Ha tê cô đồng loạt khai thác thương mại. Sáu bến cảng nối liền thành dải cầu tàu dài hai phẩy bốn ki lô mét với tổng công suất thiết kế khoảng bốn phẩy bảy triệu ti i u mỗi năm, liên tục đón các siêu tàu côn ten nơ từ một trăm sáu mươi lăm nghìn đến hai trăm nghìn tấn giảm tải."
+          },
+          "enhancement_cues": [
+            {
+              "type": "broll",
+              "description": "Bản đồ 3D Cát Hải bật sáng tuần tự 3 khối cảng nổi 3D: Bến 1–2 (HICT) -> Bến 3–4 (HTIT 750 m) -> Bến 5–6 (Hateco HHIT), tổng công suất 4,7 triệu TEU + Phóng to Ảnh Đinh #2 (Siêu tàu MSC cập bến Lạch Huyện).",
+              "timestamp_seconds": 481.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt"
+        },
+        {
+          "id": "s16",
+          "label": "Chương 5.2 — Tuyến hàng hải đi thẳng Mỹ & châu Âu: Bỏ qua khâu trung chuyển Singapore",
+          "text": "Sự xuất hiện của sáu bến nước sâu Lạch Huyện đã vẽ lại bản đồ vận tải biển của cả miền Bắc. Giờ đây, container hàng công nghệ cao từ các khu công nghiệp Bắc Ninh, Hải Phòng, Quảng Ninh có thể xếp thẳng lên boong tàu mẹ ngay tại Cát Hải để vượt Thái Bình Dương sang bờ Tây, bờ Đông nước Mỹ hoặc xuyên qua kênh đào đi thẳng tới châu Âu. Việc cắt bỏ chặng ghép tàu qua Singapore giúp doanh nghiệp rút ngắn hàng tuần giao hàng và giữ lại giá trị dịch vụ cảng biển ngay trên đất Việt Nam.",
+          "start_seconds": 472.99,
+          "end_seconds": 500.85,
+          "speaker_directions": "Nhịp conversational, năng lượng expansive; nhấn rõ xếp thẳng lên boong tàu mẹ, bờ Tây, bờ Đông nước Mỹ, cắt bỏ chặng ghép tàu và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "expansive",
+            "emphasis_words": [
+              "xếp thẳng lên boong tàu mẹ",
+              "bờ Tây, bờ Đông nước Mỹ",
+              "cắt bỏ chặng ghép tàu"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 5.2 — Tuyến hàng hải đi thẳng Mỹ & châu Âu: Bỏ qua khâu trung chuyển Singapore.",
+            "provider_text": "Sự xuất hiện của sáu bến nước sâu Lạch Huyện đã vẽ lại bản đồ vận tải biển của cả miền Bắc. Giờ đây, côn ten nơ hàng công nghệ cao từ các khu công nghiệp Bắc Ninh, Hải Phòng, Quảng Ninh có thể xếp thẳng lên boong tàu mẹ ngay tại Cát Hải để vượt Thái Bình Dương sang bờ Tây, bờ Đông nước Mỹ hoặc xuyên qua kênh đào đi thẳng tới châu Âu. Việc cắt bỏ chặng ghép tàu qua Xin ga po giúp doanh nghiệp rút ngắn hàng tuần giao hàng và giữ lại giá trị dịch vụ cảng biển ngay trên đất Việt Nam."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "Bản đồ 3D liên lục địa: các cung hàng hải xanh ngọc phóng thẳng một mạch từ Lạch Huyện sang bờ Tây/Đông Mỹ & châu Âu, gạch mờ tuyến vòng Singapore cũ.",
+              "timestamp_seconds": 513.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://logistics.gov.vn/"
+        },
+        {
+          "id": "s17",
+          "label": "Chương 5.3 — Tầm nhìn QĐ 1579/QĐ-TTg: Mở tiếp Bến 7–8 và cực tăng trưởng mới Nam Đồ Sơn",
+          "text": "Và cuộc vươn ra biển lớn vẫn chưa dừng lại ở bến số sáu. Theo Quyết định 1579 của Thủ tướng Chính phủ về quy hoạch tổng thể hệ thống cảng biển Việt Nam đến năm 2030, tầm nhìn 2050, dải cảng Lạch Huyện đang tiếp tục chuẩn bị triển khai bến số bảy, số tám dài chín trăm mét với công suất gần hai triệu TEU mỗi năm, vươn dài thêm về phía Nam đảo Cát Hải. Xa hơn nữa, Hải Phòng còn quy hoạch thêm khu bến chiến lược Nam Đồ Sơn để đón đầu làn sóng thương mại hàng hải trong nhiều thập kỷ tới.",
+          "start_seconds": 500.85,
+          "end_seconds": 532.4,
+          "speaker_directions": "Nhịp measured, năng lượng forward_looking; nhấn rõ Quyết định một nghìn năm trăm bảy mươi chín, bến số bảy, số tám, Nam Đồ Sơn và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "forward_looking",
+            "emphasis_words": [
+              "Quyết định một nghìn năm trăm bảy mươi chín",
+              "bến số bảy, số tám",
+              "Nam Đồ Sơn"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 5.3 — Tầm nhìn QĐ 1579/QĐ-TTg: Mở tiếp Bến 7–8 và cực tăng trưởng mới Nam Đồ Sơn.",
+            "provider_text": "Và cuộc vươn ra biển lớn vẫn chưa dừng lại ở bến số sáu. Theo Quyết định một nghìn năm trăm bảy mươi chín của Thủ tướng Chính phủ về quy hoạch tổng thể hệ thống cảng biển Việt Nam đến năm hai nghìn không trăm ba mươi, tầm nhìn hai nghìn không trăm năm mươi, dải cảng Lạch Huyện đang tiếp tục chuẩn bị triển khai bến số bảy, số tám dài chín trăm mét với công suất gần hai triệu ti i u mỗi năm, vươn dài thêm về phía Nam đảo Cát Hải. Xa hơn nữa, Hải Phòng còn quy hoạch thêm khu bến chiến lược Nam Đồ Sơn để đón đầu làn sóng thương mại hàng hải trong nhiều thập kỷ tới."
+          },
+          "enhancement_cues": [
+            {
+              "type": "overlay",
+              "description": "Bản đồ 3D toàn dải ven biển Hải Phòng (Cát Hải + Nam Đồ Sơn) với khối nét đứt vàng Bến 7–8 & Nam Đồ Sơn + Tờ hồ sơ giấy kem QĐ 1579/QĐ-TTg quét bút dạ vàng.",
+              "timestamp_seconds": 539.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165"
+        },
+        {
+          "id": "s18",
+          "label": "Chương 5.4 — Mảnh ghép sống còn cuối cùng: Đường sắt khổ 1.435 mm Lào Cai – Hà Nội – Hải Phòng",
+          "text": "Tuy nhiên, để Lạch Huyện thực sự trở thành trung tâm trung chuyển tầm cỡ khu vực, một mảnh ghép sống còn cuối cùng đang được gấp rút chuẩn bị trên đất liền. Hiện nay phần lớn hàng ra đảo Cát Hải vẫn phụ thuộc vào xe đầu kéo đường bộ. Đó là lý do dự án tuyến đường sắt điện khí hóa khổ tiêu chuẩn một nghìn bốn trăm ba mươi lăm mi li mét Lào Cai – Hà Nội – Hải Phòng được thiết kế các tuyến nhánh vươn thẳng tới tận khu bến Lạch Huyện và Nam Đồ Sơn, khép kín mạch máu sắt thép từ chân cầu cảng biển sâu lên tận vùng công nghiệp nội địa.",
+          "start_seconds": 532.4,
+          "end_seconds": 562.13,
+          "speaker_directions": "Nhịp measured, năng lượng strategic_synthesis; nhấn rõ mảnh ghép sống còn, một nghìn bốn trăm ba mươi lăm mi li mét, khép kín mạch máu sắt thép và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "strategic_synthesis",
+            "emphasis_words": [
+              "mảnh ghép sống còn",
+              "một nghìn bốn trăm ba mươi lăm mi li mét",
+              "khép kín mạch máu sắt thép"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 5.4 — Mảnh ghép sống còn cuối cùng: Đường sắt khổ 1.435 mm Lào Cai – Hà Nội – Hải Phòng.",
+            "provider_text": "Tuy nhiên, để Lạch Huyện thực sự trở thành trung tâm trung chuyển tầm cỡ khu vực, một mảnh ghép sống còn cuối cùng đang được gấp rút chuẩn bị trên đất liền. Hiện nay phần lớn hàng ra đảo Cát Hải vẫn phụ thuộc vào xe đầu kéo đường bộ. Đó là lý do dự án tuyến đường sắt điện khí hóa khổ tiêu chuẩn một nghìn bốn trăm ba mươi lăm mi li mét Lào Cai, Hà Nội, Hải Phòng được thiết kế các tuyến nhánh vươn thẳng tới tận khu bến Lạch Huyện và Nam Đồ Sơn, khép kín mạch máu sắt thép từ chân cầu cảng biển sâu lên tận vùng công nghiệp nội địa."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Bản đồ 3D hành lang kinh tế miền Bắc: tuyến đường sắt khổ 1.435 mm điện khí hóa (160 km/h) chạy từ Lào Cai – Hà Nội về ga Nam Hải Phòng và tách 2 nhánh nối thẳng Lạch Huyện & Nam Đồ Sơn.",
+              "timestamp_seconds": 563.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://haiphong.gov.vn/"
+        },
+        {
+          "id": "s19",
+          "label": "Chương 5.5 — Kết luận 150 năm & Bình chọn tập giải mã bản đồ tiếp theo",
+          "text": "Nhìn lại chặng đường một trăm năm mươi năm từ sáu nhà kho bên bờ sông Cấm năm 1874 tới dải bến nước sâu vươn ra rìa đảo Cát Hải hôm nay, câu chuyện Hải Phòng cho thấy hạ tầng vĩ đại không nằm ở chỗ chống lại tự nhiên, mà là thấu hiểu địa lý để chọn đúng điểm tựa vươn ra biển lớn. Tập tiếp theo, bạn muốn chúng mình giải mã bản đồ Sân bay Long Thành cách Thành phố Hồ Chí Minh bốn mươi ki lô mét, hay bài toán túi bùn yếu của cao tốc miền Tây? Hãy để lại lựa chọn dưới phần bình luận.",
+          "start_seconds": 562.13,
+          "end_seconds": 590.44,
+          "speaker_directions": "Nhịp measured, năng lượng inspiring_close; nhấn rõ một trăm năm mươi năm, thấu hiểu địa lý, Sân bay Long Thành và nghỉ thoáng cuối đoạn.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "inspiring_close",
+            "emphasis_words": [
+              "một trăm năm mươi năm",
+              "thấu hiểu địa lý",
+              "Sân bay Long Thành"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Giữ phong thái điềm tĩnh, truyền cảm hứng điều tra bản đồ cho Chương 5.5 — Kết luận 150 năm & Bình chọn tập giải mã bản đồ tiếp theo.",
+            "provider_text": "Nhìn lại chặng đường một trăm năm mươi năm từ sáu nhà kho bên bờ sông Cấm năm một nghìn tám trăm bảy mươi tư tới dải bến nước sâu vươn ra rìa đảo Cát Hải hôm nay, câu chuyện Hải Phòng cho thấy hạ tầng vĩ đại không nằm ở chỗ chống lại tự nhiên, mà là thấu hiểu địa lý để chọn đúng điểm tựa vươn ra biển lớn. Tập tiếp theo, bạn muốn chúng mình giải mã bản đồ Sân bay Long Thành cách Thành phố Hồ Chí Minh bốn mươi ki lô mét, hay bài toán túi bùn yếu của cao tốc miền Tây? Hãy để lại lựa chọn dưới phần bình luận."
+          },
+          "enhancement_cues": [
+            {
+              "type": "overlay",
+              "description": "Không ảnh 3D toàn cảnh Hải Phòng vươn ra Biển Đông (hiển thị trang trọng Quần đảo Hoàng Sa & Trường Sa Việt Nam) + Thanh bình chọn tập tiếp theo: [1] Sân bay Long Thành 40 km vs [2] Cao tốc miền Tây.",
+              "timestamp_seconds": 585.0
+            }
+          ],
+          "pronunciation_guides": [],
+          "source_ref": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165"
+        }
+      ]
+    }
+  },
+  "review": {
+    "notes": [
+      "User approved full 19-section (~10m15s) script ('ok')."
+    ]
+  }
+}

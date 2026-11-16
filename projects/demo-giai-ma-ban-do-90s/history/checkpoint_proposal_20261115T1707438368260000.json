@@ -1,0 +1,587 @@
+{
+  "version": "1.0",
+  "project_id": "demo-giai-ma-ban-do-90s",
+  "pipeline_type": "animated-explainer",
+  "stage": "proposal",
+  "status": "awaiting_human",
+  "timestamp": "2026-11-15T17:07:43.836826+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": false,
+  "artifacts": {
+    "proposal_packet": {
+      "version": "1.0",
+      "concept_options": [
+        {
+          "id": "c1",
+          "title": "V\u00ec sao mi\u1ec1n B\u1eafc ph\u1ea3i ra t\u1eadn L\u1ea1ch Huy\u1ec7n m\u1edbi l\u00e0m \u0111\u01b0\u1ee3c c\u1ea3ng n\u01b0\u1edbc s\u00e2u?",
+          "hook": "H\u01a1n m\u1ed9t th\u1ebf k\u1ef7 l\u00e0m th\u00e0nh ph\u1ed1 c\u1ea3ng, v\u00ec sao H\u1ea3i Ph\u00f2ng v\u1eabn ph\u1ea3i v\u01b0\u1ee3t bi\u1ec3n t\u00ecm n\u01b0\u1edbc s\u00e2u?",
+          "narrative_structure": "problem_solution",
+          "visual_approach": "M\u1edf b\u1eb1ng b\u1ea3n \u0111\u1ed3 to\u00e0n c\u1ea3nh Vi\u1ec7t Nam (c\u00f3 Ho\u00e0ng Sa & Tr\u01b0\u1eddng Sa), zoom m\u01b0\u1ee3t v\u00e0o c\u1eeda s\u00f4ng H\u1ea3i Ph\u00f2ng, ghim \u0111i\u1ec3m ngh\u1ebdn ph\u00f9 sa S\u00f4ng C\u1ea5m - Nam Tri\u1ec7u, v\u1ebd tuy\u1ebfn c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n T\u00e2n V\u0169 - L\u1ea1ch Huy\u1ec7n sang \u0111\u1ea3o C\u00e1t H\u1ea3i, v\u00e0 ch\u1ed1t b\u1eb1ng m\u1eb7t c\u1eaft d\u1ecdc b\u1eadc thang \u0111\u1ed9 s\u00e2u 48 km (-7,0 m -> -8,0 m -> -12,9 m / -14,0 m).",
+          "suggested_playbook": "clean-professional",
+          "target_audience": "Ng\u01b0\u1eddi xem Vi\u1ec7t Nam 22-45 tu\u1ed5i quan t\u00e2m \u0111\u1ecba l\u00fd kinh t\u1ebf, quy ho\u1ea1ch h\u1ea1 t\u1ea7ng, logistics v\u00e0 \u0111\u1ea7u t\u01b0",
+          "target_platform": "youtube",
+          "target_duration_seconds": 90,
+          "key_points": [
+            "C\u1ee5m c\u1ea3ng truy\u1ec1n th\u1ed1ng tr\u00ean s\u00f4ng C\u1ea5m n\u1eb1m s\u00e2u t\u1edbi 38-48 km trong n\u1ed9i \u0111\u1ecba, lu\u1ed3ng ch\u1ec9 r\u1ed9ng 80 m v\u00e0 s\u00e2u kho\u1ea3ng -7,0 m, trong khi c\u1eeda t\u1ef1 nhi\u00ean Nam Tri\u1ec7u b\u1ecb ph\u00f9 sa b\u1ed3i c\u1ea1n c\u00f2n -0,5 m \u0111\u1ebfn -3,7 m.",
+            "Tuy\u1ebfn c\u1ea7u - \u0111\u01b0\u1eddng v\u01b0\u1ee3t bi\u1ec3n T\u00e2n V\u0169 - L\u1ea1ch Huy\u1ec7n d\u00e0i 15,63 km (ri\u00eang c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n 5,44 km) gi\u00fap nh\u1ea3y qua v\u00f9ng b\u1ed3i l\u1eafng sang ph\u00eda \u0110\u00f4ng Nam \u0111\u1ea3o C\u00e1t H\u1ea3i.",
+            "Lu\u1ed3ng L\u1ea1ch Huy\u1ec7n r\u1ed9ng 160 m \u0111\u1ea1t \u0111\u1ed9 s\u00e2u -12,9 m (chu\u1ea9n t\u1eafc thi\u1ebft k\u1ebf -14,0 m), gi\u00fap 6 b\u1ebfn \u0111ang v\u1eadn h\u00e0nh \u0111\u00f3n t\u00e0u t\u1edbi 165.000 DWT gi\u1ea3m t\u1ea3i \u0111i th\u1eb3ng M\u1ef9 - \u00c2u."
+          ],
+          "core_message": "L\u1ea1ch Huy\u1ec7n kh\u00f4ng ph\u1ea3i s\u1ef1 xa x\u1ec9 m\u00e0 l\u00e0 c\u00fa nh\u1ea3y \u0111\u1ecba l\u00fd b\u1eaft bu\u1ed9c \u0111\u1ec3 c\u1ea3ng bi\u1ec3n mi\u1ec1n B\u1eafc tho\u00e1t kh\u1ecfi c\u00e1i b\u1eaby ph\u00f9 sa c\u1eeda s\u00f4ng.",
+          "cta": "Theo b\u1ea1n, \u0111\u1ecba \u0111i\u1ec3m h\u1ea1 t\u1ea7ng n\u00e0o c\u1ee7a Vi\u1ec7t Nam c\u1ea7n \u0111\u01b0\u1ee3c gi\u1ea3i m\u00e3 b\u1eb1ng b\u1ea3n \u0111\u1ed3 ti\u1ebfp theo: S\u00e2n bay Long Th\u00e0nh 40 km hay Cao t\u1ed1c mi\u1ec1n T\u00e2y?",
+          "tone": "\u0110i\u1ec1m t\u0129nh, s\u1eafc s\u1ea3o, gi\u00e0u ch\u1ee9ng c\u1ee9 k\u1ef9 thu\u1eadt, d\u1ec5 hi\u1ec3u",
+          "grounded_in": [
+            "Th\u00f4ng s\u1ed1 lu\u1ed3ng H\u1ea3i Ph\u00f2ng c\u1eadp nh\u1eadt 29/08/2026 c\u1ee7a C\u1ea3ng v\u1ee5 H\u00e0ng h\u1ea3i H\u1ea3i Ph\u00f2ng (Q\u0110 1995/Q\u0110-CHH\u0110TVN)",
+            "Quy\u1ebft \u0111\u1ecbnh 1579/Q\u0110-TTg v\u1ec1 Quy ho\u1ea1ch t\u1ed5ng th\u1ec3 h\u1ec7 th\u1ed1ng c\u1ea3ng bi\u1ec3n Vi\u1ec7t Nam",
+            "Th\u00f4ng tin b\u1ebfn 3, 4 L\u1ea1ch Huy\u1ec7n \u0111\u00f3n t\u00e0u 165.000 DWT t\u1eeb C\u1ed5ng th\u00f4ng tin Logistics B\u1ed9 C\u00f4ng Th\u01b0\u01a1ng"
+          ],
+          "why_this_works": "Kh\u1edbp 100% l\u1eddi h\u1ee9a 1 c\u00e2u c\u1ee7a k\u00eanh ('m\u1ed9t \u0111\u1ecba \u0111i\u1ec3m, m\u1ed9t c\u00e2u h\u1ecfi v\u00ec sao, tr\u1ea3 l\u1eddi b\u1eb1ng b\u1ea3n \u0111\u1ed3') v\u00e0 tr\u00ecnh di\u1ec5n tr\u1ecdn v\u1eb9n 5 c\u00fa m\u00e1y k\u1ef9 thu\u1eadt b\u1eaft bu\u1ed9c c\u1ee7a Giai \u0111o\u1ea1n 0 trong \u0111\u00fang 90 gi\u00e2y."
+        },
+        {
+          "id": "c2",
+          "title": "Sao kh\u00f4ng v\u00e9t s\u00e2u th\u1eb3ng s\u00f4ng C\u1ea5m cho r\u1ebb m\u00e0 ph\u1ea3i b\u1eafc c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n sang C\u00e1t H\u1ea3i?",
+          "hook": "Sao kh\u00f4ng n\u1ea1o v\u00e9t th\u1eb3ng s\u00f4ng C\u1ea5m ngay trong ph\u1ed1, m\u00e0 ph\u1ea3i b\u1eafc c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n sang C\u00e1t H\u1ea3i?",
+          "narrative_structure": "myth_busting",
+          "visual_approach": "B\u1eaft \u0111\u1ea7u tr\u1ef1c di\u1ec7n t\u1eeb b\u00ecnh lu\u1eadn th\u1eafc m\u1eafc ph\u1ed5 bi\u1ebfn nh\u1ea5t c\u1ee7a kh\u00e1n gi\u1ea3, d\u00f9ng ph\u00e9p \u0111o kho\u1ea3ng c\u00e1ch (Measure) v\u00e0 b\u1ea3n \u0111\u1ed3 chi\u1ec1u r\u1ed9ng lu\u1ed3ng 80 m xuy\u00ean n\u1ed9i \u0111\u00f4 H\u1ea3i Ph\u00f2ng \u0111\u1ec3 b\u00e1c b\u1ecf gi\u1ea3 \u0111\u1ecbnh 'v\u00e9t s\u00f4ng r\u1ebb h\u01a1n', sau \u0111\u00f3 m\u1edf ra gi\u1ea3i ph\u00e1p \u0111\u1ea3o C\u00e1t H\u1ea3i + \u0111\u00ea ch\u1eafn c\u00e1t.",
+          "suggested_playbook": "minimalist-diagram",
+          "target_audience": "Kh\u00e1n gi\u1ea3 th\u00edch t\u01b0 duy ph\u1ea3n bi\u1ec7n k\u1ef9 thu\u1eadt v\u00e0 b\u00e0i to\u00e1n chi ph\u00ed - l\u1ee3i \u00edch trong \u0111\u1ea7u t\u01b0 c\u00f4ng",
+          "target_platform": "youtube",
+          "target_duration_seconds": 90,
+          "key_points": [
+            "S\u00f4ng C\u1ea5m h\u1eb9p (lu\u1ed3ng 80 m), u\u1ed1n kh\u00fac xuy\u00ean l\u00f5i \u0111\u00f4 th\u1ecb H\u1ea3i Ph\u00f2ng v\u00e0 h\u1ee9ng l\u01b0\u1ee3ng ph\u00f9 sa kh\u1ed5ng l\u1ed3 h\u00e0ng n\u0103m t\u1eeb h\u1ec7 th\u1ed1ng s\u00f4ng Th\u00e1i B\u00ecnh - B\u1ea1ch \u0110\u1eb1ng.",
+            "Kho\u00e9t s\u00e2u l\u00f2ng s\u00f4ng n\u1ed9i \u0111\u00f4 t\u1eeb -7,0 m xu\u1ed1ng -14,0 m tr\u00ean g\u1ea7n 40 km v\u1eeba \u0111e d\u1ecda s\u1ea1t l\u1edf b\u1edd ph\u1ed1, v\u1eeba t\u1ed1n chi ph\u00ed n\u1ea1o v\u00e9t l\u1eb7p l\u1ea1i v\u00f4 t\u1eadn.",
+            "D\u1eddi c\u1ea3ng container n\u01b0\u1edbc s\u00e2u ra L\u1ea1ch Huy\u1ec7n theo Q\u0110 1579/Q\u0110-TTg v\u1eeba gi\u1ea3i ph\u00f3ng kh\u00f4ng gian \u0111\u00f4 th\u1ecb ven s\u00f4ng C\u1ea5m, v\u1eeba r\u00fat ng\u1eafn lu\u1ed3ng t\u00e0u bi\u1ec3n l\u1edbn c\u00f2n 20,66 km."
+          ],
+          "core_message": "Trong \u0111\u1ecba l\u00fd c\u1ea3ng bi\u1ec3n, ch\u1ed1ng l\u1ea1i d\u00f2ng ph\u00f9 sa gi\u1eefa l\u00f2ng th\u00e0nh ph\u1ed1 \u0111\u1eaft h\u01a1n nhi\u1ec1u so v\u1edbi b\u1eafc m\u1ed9t c\u00e2y c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n ra \u0111\u00f3n n\u01b0\u1edbc s\u00e2u.",
+          "cta": "B\u1ea1n mu\u1ed1n xem ti\u1ebfp b\u00e0i to\u00e1n n\u1ec1n \u0111\u1ea5t y\u1ebfu khi\u1ebfn cao t\u1ed1c mi\u1ec1n T\u00e2y \u0111\u1eaft \u0111\u1ecf h\u01a1n n\u01a1i kh\u00e1c kh\u00f4ng? H\u00e3y \u0111\u1ec3 l\u1ea1i b\u00ecnh lu\u1eadn.",
+          "tone": "Ph\u1ea3n bi\u1ec7n logic, g\u00e3y g\u1ecdn, gi\u1ea3i th\u00edch ki\u1ec3u k\u1ef9 s\u01b0 b\u1ea3n \u0111\u1ed3",
+          "grounded_in": [
+            "C\u00e2u h\u1ecfi th\u1ef1c t\u1ebf c\u1ee7a ng\u01b0\u1eddi xem d\u01b0\u1edbi c\u00e1c video YouTube v\u1ec1 c\u1ea3ng H\u1ea3i Ph\u00f2ng",
+            "\u0110\u1ed9 s\u00e2u lu\u1ed3ng S\u00f4ng C\u1ea5m -7,0 m / r\u1ed9ng 80 m so v\u1edbi lu\u1ed3ng L\u1ea1ch Huy\u1ec7n -12,9 m / r\u1ed9ng 160 m",
+            "\u0110\u1ecbnh h\u01b0\u1edbng di d\u1eddi b\u1ebfn c\u1ea3ng tr\u00ean s\u00f4ng C\u1ea5m trong quy ho\u1ea1ch c\u1ea3ng bi\u1ec3n H\u1ea3i Ph\u00f2ng"
+          ],
+          "why_this_works": "\u0110\u00e1nh tr\u00fang hi\u1ec3u l\u1ea7m ph\u1ed5 bi\u1ebfn nh\u1ea5t c\u1ee7a ng\u01b0\u1eddi xem \u0111\u1ea1i ch\u00fang ('t\u1ea1i sao kh\u00f4ng \u0111\u00e0o s\u00e2u c\u1ea3ng c\u0169'), t\u1ea1o l\u1ef1c gi\u1eef ch\u00e2n cao ngay t\u1eeb 5 gi\u00e2y \u0111\u1ea7u."
+        },
+        {
+          "id": "c3",
+          "title": "H\u00e0nh tr\u00ecnh 48 km: Si\u00eau t\u00e0u 165.000 t\u1ea5n s\u1ebd m\u1eafc k\u1eb9t \u1edf \u0111\u00e2u n\u1ebfu \u0111i v\u00e0o c\u1ea3ng c\u0169 H\u1ea3i Ph\u00f2ng?",
+          "hook": "M\u1ed9t si\u00eau t\u00e0u c\u1ea7n m\u01b0\u1eddi b\u1ed1n m\u00e9t n\u01b0\u1edbc d\u01b0\u1edbi b\u1ee5ng s\u1ebd m\u1eafc k\u1eb9t \u1edf \u0111\u00e2u t\u1ea1i H\u1ea3i Ph\u00f2ng?",
+          "narrative_structure": "journey",
+          "visual_approach": "M\u00f4 ph\u1ecfng g\u00f3c nh\u00ecn \u0111i\u1ec1u \u0111\u1ed9ng h\u00e0ng h\u1ea3i: con t\u00e0u container \u0111i t\u1eeb Bi\u1ec3n \u0110\u00f4ng qua Phao s\u1ed1 0 v\u00e0o b\u1ebfn L\u1ea1ch Huy\u1ec7n an to\u00e0n, r\u1ed3i ch\u1ea1y \u0111\u01b0\u1eddng m\u00f4 ph\u1ecfng gi\u1ea3 \u0111\u1ecbnh ti\u1ebfn s\u00e2u qua k\u00eanh H\u00e0 Nam v\u00e0o s\u00f4ng C\u1ea5m \u0111\u1ec3 th\u1ea5y \u0111i\u1ec3m ch\u1ea1m \u0111\u00e1y tr\u00ean m\u1eb7t c\u1eaft.",
+          "suggested_playbook": "flat-motion-graphics",
+          "target_audience": "Ng\u01b0\u1eddi xem y\u00eau th\u00edch m\u00f4 ph\u1ecfng h\u00e0ng h\u1ea3i, chu\u1ed7i cung \u1ee9ng to\u00e0n c\u1ea7u v\u00e0 b\u1ea3n \u0111\u1ed3 chuy\u1ec3n \u0111\u1ed9ng",
+          "target_platform": "youtube",
+          "target_duration_seconds": 90,
+          "key_points": [
+            "Tr\u01b0\u1edbc khi c\u00f3 L\u1ea1ch Huy\u1ec7n, h\u00e0ng xu\u1ea5t kh\u1ea9u mi\u1ec1n B\u1eafc \u0111i M\u1ef9 - \u00c2u ph\u1ea3i \u0111i t\u00e0u nh\u1ecf gom h\u00e0ng sang trung chuy\u1ec3n \u1edf Singapore ho\u1eb7c H\u1ed3ng K\u00f4ng.",
+            "T\u1eeb Phao s\u1ed1 0 \u0111\u1ebfn Km20+662 (v\u0169ng quay t\u00e0u L\u1ea1ch Huy\u1ec7n), lu\u1ed3ng r\u1ed9ng 160 m \u0111\u1ee7 \u0111\u00f3n si\u00eau t\u00e0u gi\u1ea3m t\u1ea3i t\u1edbi 165.000 DWT c\u1eadp th\u1eb3ng 6 b\u1ebfn qu\u1ed1c t\u1ebf.",
+            "N\u1ebfu \u0111i qu\u00e1 Km22+600 v\u00e0o k\u00eanh H\u00e0 Nam (-8,0 m) ho\u1eb7c Km38+100 v\u00e0o S\u00f4ng C\u1ea5m (-7,0 m), si\u00eau t\u00e0u l\u1eadp t\u1ee9c v\u01b0\u1ee3t qu\u00e1 gi\u1edbi h\u1ea1n m\u1edbn n\u01b0\u1edbc."
+          ],
+          "core_message": "Ch\u1ec9 20 km lu\u1ed3ng n\u01b0\u1edbc s\u00e2u ngo\u00e0i r\u00eca \u0111\u1ea3o C\u00e1t H\u1ea3i \u0111\u00e3 n\u1ed1i th\u1eb3ng nh\u00e0 m\u00e1y mi\u1ec1n B\u1eafc v\u1edbi c\u00e1c tuy\u1ebfn h\u00e0ng h\u1ea3i xuy\u00ean \u0111\u1ea1i d\u01b0\u01a1ng.",
+          "cta": "\u0110\u0103ng k\u00fd k\u00eanh \u0111\u1ec3 xem t\u1eadp b\u1ea3n \u0111\u1ed3 tu\u1ea7n t\u1edbi v\u1ec1 c\u00e1c n\u00fat th\u1eaft h\u1ea1 t\u1ea7ng l\u1edbn nh\u1ea5t Vi\u1ec7t Nam.",
+          "tone": "K\u1ec3 chuy\u1ec7n h\u00e0nh tr\u00ecnh tr\u1ef1c quan, nh\u1ecbp \u0111\u1ed9 cu\u1ed1n h\u00fat",
+          "grounded_in": [
+            "Chu\u1ed7i l\u00fd tr\u00ecnh Km0+000 -> Km20+662 -> Km28+500 -> Km48+000 c\u1ee7a C\u1ea3ng v\u1ee5 H\u00e0ng h\u1ea3i H\u1ea3i Ph\u00f2ng",
+            "Th\u1ef1c t\u1ebf k\u1ebft n\u1ed1i tuy\u1ebfn bi\u1ec3n xa kh\u00f4ng c\u1ea7n trung chuy\u1ec3n Singapore/H\u1ed3ng K\u00f4ng c\u1ee7a c\u1ee5m c\u1ea3ng L\u1ea1ch Huy\u1ec7n"
+          ],
+          "why_this_works": "C\u1ea5u tr\u00fac h\u00e0nh tr\u00ecnh tuy\u1ebfn t\u00ednh t\u1eeb ngo\u00e0i kh\u01a1i v\u00e0o \u0111\u1ea5t li\u1ec1n gi\u00fap ng\u01b0\u1eddi xem theo d\u00f5i c\u1ef1c d\u1ec5 tr\u00ean b\u1ea3n \u0111\u1ed3 \u0111\u1ed9ng m\u00e0 kh\u00f4ng b\u1ecb ng\u1ee3p th\u00f4ng s\u1ed1."
+        }
+      ],
+      "selected_concept": {
+        "concept_id": "c1",
+        "rationale": "\u0110\u1ec1 xu\u1ea5t ch\u1ecdn Concept c1 v\u00ec v\u1eeba b\u00e1m s\u00e1t c\u00e2u h\u1ecfi \u1ee9ng vi\u00ean s\u1ed1 1 \u0111\u00e3 kh\u00f3a trong Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md, v\u1eeba ph\u00f4 di\u1ec5n t\u1ef1 nhi\u00ean v\u00e0 \u0111\u1ea7y \u0111\u1ee7 nh\u1ea5t c\u1ea3 5 c\u00fa m\u00e1y k\u1ef9 thu\u1eadt b\u1eaft bu\u1ed9c (overview, zoom, pin-label, route, comparison-measure) k\u00e8m m\u1eb7t c\u1eaft b\u1eadc thang \u0111\u1ed9 s\u00e2u 48 km."
+      },
+      "production_plan": {
+        "pipeline": "animated-explainer",
+        "playbook": "clean-professional",
+        "stages": [
+          {
+            "stage": "script",
+            "tools": [],
+            "approach": "Vi\u1ebft l\u1eddi b\u00ecnh ti\u1ebfng Vi\u1ec7t kho\u1ea3ng 185-205 t\u1eeb (~90 gi\u00e2y \u1edf t\u1ed1c \u0111\u1ed9 n\u00f3i t\u1ef1 nhi\u00ean), b\u00e1m s\u00e1t 6 c\u1ea3nh b\u1ea3n \u0111\u1ed3, ph\u00e2n bi\u1ec7t r\u00f5 ph\u1ea7n \u0111ang v\u1eadn h\u00e0nh (b\u1ebfn 1-6) v\u00e0 quy ho\u1ea1ch, k\u00e8m b\u1ea3ng ph\u00e1t \u00e2m chu\u1ea9n cho c\u00e1c k\u00fd hi\u1ec7u vi\u1ebft t\u1eaft (DWT, TEU, Km)."
+          },
+          {
+            "stage": "scene_plan",
+            "tools": [],
+            "approach": "Thi\u1ebft k\u1ebf 6 c\u1ea3nh \u0111\u1ed9c l\u1eadp th\u1ecb gi\u00e1c (overview Vi\u1ec7t Nam c\u00f3 Ho\u00e0ng Sa - Tr\u01b0\u1eddng Sa, zoom c\u1eeda bi\u1ec3n H\u1ea3i Ph\u00f2ng, pin-label \u0111i\u1ec3m ngh\u1ebdn ph\u00f9 sa, route c\u1ea7u v\u01b0\u1ee3t bi\u1ec3n & lu\u1ed3ng t\u00e0u, comparison-measure + m\u1eb7t c\u1eaft d\u1ecdc 48 km, b\u1ea3ng \u0111\u1ed1i chi\u1ebfu v\u1eadn h\u00e0nh/quy ho\u1ea1ch) theo khung 16:9 (1920x1080)."
+          },
+          {
+            "stage": "assets",
+            "tools": [
+              {
+                "tool_name": "vibi_tts",
+                "role": "T\u1ea1o gi\u1ecdng \u0111\u1ecdc thuy\u1ebft minh ti\u1ebfng Vi\u1ec7t k\u00e8m m\u1ed1c th\u1eddi gian SRT v\u00e0 word timestamps",
+                "provider": "vibi",
+                "available": true,
+                "estimated_cost_usd": 0.0,
+                "why_this_provider": "Quy chu\u1ea9n b\u1eaft bu\u1ed9c trong AGENTS.md cho ti\u1ebfng Vi\u1ec7t, gi\u1ecdng \u0111\u1ecdc t\u1ef1 nhi\u00ean (Haitrieu / Lacthien), xu\u1ea5t s\u1eb5n SRT + JSON \u0111\u1ed3ng b\u1ed9 khung h\u00ecnh."
+              }
+            ],
+            "approach": "Sinh audio thuy\u1ebft minh b\u1eb1ng _tools/vibi_tts.py v\u00e0o projects/demo-giai-ma-ban-do-90s/assets/audio/, tr\u00edch xu\u1ea5t d\u1eef li\u1ec7u \u0111\u1ecba l\u00fd Natural Earth public-domain (k\u00e8m t\u1ecda \u0111\u1ed9 Ho\u00e0ng Sa, Tr\u01b0\u1eddng Sa v\u00e0 lu\u1ed3ng H\u1ea3i Ph\u00f2ng) v\u00e0o public/geo/, v\u00e0 ch\u1ee5p 6 \u1ea3nh t\u0129nh review (snapshots/<scene_id>.png) tr\u00ecnh duy\u1ec7t \u1edf c\u1ed5ng assets.",
+            "fallback_if_unavailable": "N\u1ebfu Vibi API gi\u00e1n \u0111o\u1ea1n t\u1ea1m th\u1eddi, b\u00e1o ng\u01b0\u1eddi d\u00f9ng ki\u1ec3m tra kh\u00f3a/m\u1ea1ng thay v\u00ec t\u1ef1 \u00fd chuy\u1ec3n sang gi\u1ecdng ti\u1ebfng Anh kh\u00f4ng ph\u00f9 h\u1ee3p ti\u1ebfng Vi\u1ec7t."
+          },
+          {
+            "stage": "edit",
+            "tools": [],
+            "approach": "Kh\u00f3a th\u1eddi l\u01b0\u1ee3ng t\u1eebng c\u1ea3nh kh\u1edbp ch\u00ednh x\u00e1c v\u1edbi \u0111\u1ed9 d\u00e0i t\u1eebng \u0111o\u1ea1n tho\u1ea1i Vibi TTS (s\u1eeda tri\u1ec7t \u0111\u1ec3 l\u1ed7i g\u00e1n c\u1ee9ng s\u1ed1 frame trong shorts-kit), ki\u1ec3m tra v\u00f9ng an to\u00e0n nh\u00e3n 16:9 v\u00e0 kh\u00f4ng l\u1eb7p ph\u1ee5 \u0111\u1ec1 \u0111\u00e8 l\u00ean ti\u00eau \u0111\u1ec1."
+          },
+          {
+            "stage": "compose",
+            "tools": [
+              {
+                "tool_name": "video_compose",
+                "role": "K\u1ebft xu\u1ea5t video b\u1ea3n \u0111\u1ed3 vector + s\u01a1 \u0111\u1ed3 m\u1eb7t c\u1eaft 1920x1080@30fps",
+                "provider": "remotion",
+                "available": true,
+                "estimated_cost_usd": 0.0,
+                "why_this_provider": "Remotion h\u1ed7 tr\u1ee3 tr\u1ef1c ti\u1ebfp d3-geo, topojson-client, ph\u00e9p chi\u1ebfu Mercator \u0111\u1ed9ng 16:9, font Be Vietnam Pro v\u00e0 ki\u1ec3m so\u00e1t m\u01b0\u1ee3t n\u1ed9i suy khung h\u00ecnh."
+              }
+            ],
+            "approach": "D\u1ef1ng composition bespoke (atelier) trong projects/demo-giai-ma-ban-do-90s/, ch\u1ea1y ki\u1ec3m tra TypeScript, xu\u1ea5t video MP4 v\u00e0o projects/demo-giai-ma-ban-do-90s/renders/final.mp4 v\u00e0 t\u1ef1 ki\u1ec3m tra k\u1ef9 thu\u1eadt + th\u1ecb gi\u00e1c 5 b\u01b0\u1edbc (final_review).",
+            "fallback_if_unavailable": "N\u1ebfu ph\u00e1t sinh l\u1ed7i tr\u00ecnh duy\u1ec7t headless c\u1ee7a Remotion, d\u1eebng v\u00e0 b\u00e1o c\u00e1o ng\u01b0\u1eddi d\u00f9ng tr\u01b0\u1edbc khi \u0111\u1ed5i th\u00f4ng s\u1ed1 ho\u1eb7c runtime."
+          },
+          {
+            "stage": "publish",
+            "tools": [
+              {
+                "tool_name": "export_bundle",
+                "role": "\u0110\u00f3ng g\u00f3i file MP4, ph\u1ee5 \u0111\u1ec1 SRT, metadata YouTube ti\u1ebfng Vi\u1ec7t v\u00e0 s\u1ed5 c\u00e1i ngu\u1ed3n/license",
+                "provider": "local",
+                "available": true,
+                "estimated_cost_usd": 0.0,
+                "why_this_provider": "\u0110\u00f3ng g\u00f3i c\u1ee5c b\u1ed9 \u0111\u1ec3 ng\u01b0\u1eddi d\u00f9ng t\u1ef1 ki\u1ec3m duy\u1ec7t v\u00e0 \u0111\u0103ng th\u1ee7 c\u00f4ng l\u00ean YouTube Studio theo \u0111\u00fang AGENTS.md."
+              }
+            ],
+            "approach": "T\u1ea1o g\u00f3i b\u00e0n giao ho\u00e0n ch\u1ec9nh k\u00e8m ti\u00eau \u0111\u1ec1, m\u00f4 t\u1ea3 g\u1eafn ngu\u1ed3n v\u0103n b\u1ea3n nh\u00e0 n\u01b0\u1edbc, chapters v\u00e0 b\u00e1o c\u00e1o tr\u1ea1ng th\u00e1i ki\u1ec3m ch\u1ee9ng fact."
+          }
+        ],
+        "quality_tradeoffs": [
+          {
+            "tradeoff": "B\u1ea3n \u0111\u1ed3 Vector chuy\u00ean s\u00e2u (Natural Earth + h\u1ea3i \u0111\u1ed3 t\u1ef1 d\u1ef1ng, $0) so v\u1edbi \u1ea2nh v\u1ec7 tinh EOX Sentinel-2",
+            "recommendation": "D\u00f9ng 100% B\u1ea3n \u0111\u1ed3 Vector + M\u1eb7t c\u1eaft k\u1ef9 thu\u1eadt trong b\u1ea3n demo 90s",
+            "quality_impact": "Tr\u00e1nh ho\u00e0n to\u00e0n r\u1ee7i ro b\u1ea3n quy\u1ec1n/ghi ngu\u1ed3n CC BY 4.0 ho\u1eb7c hi\u1ec3u nh\u1ea7m \u1ea3nh v\u1ec7 tinh c\u0169 2016 l\u00e0 hi\u1ec7n tr\u1ea1ng 2026 (\u0111\u00fang khuy\u1ebfn ngh\u1ecb m\u1ee5c 4 t\u00e0i li\u1ec7u 21), \u0111\u1ed3ng th\u1eddi l\u00e0m n\u1ed5i b\u1eadt r\u00f5 \u0111\u1ed9 s\u00e2u d\u01b0\u1edbi m\u1eb7t n\u01b0\u1edbc m\u00e0 \u1ea3nh v\u1ec7 tinh kh\u00f4ng nh\u00ecn th\u1ea5y \u0111\u01b0\u1ee3c."
+          },
+          {
+            "tradeoff": "Remotion Atelier (React + d3-geo) so v\u1edbi HyperFrames (HTML/CSS/GSAP)",
+            "recommendation": "Ch\u1ecdn Remotion \u1edf ch\u1ebf \u0111\u1ed9 Atelier",
+            "quality_impact": "T\u1eadn d\u1ee5ng tr\u1ef1c ti\u1ebfp h\u1ec7 h\u00e0m to\u00e1n h\u1ecdc b\u1ea3n \u0111\u1ed3 (Mercator, Haversine distanceKm, qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa - Tr\u01b0\u1eddng Sa) \u0111\u00e3 ki\u1ec3m ch\u1ee9ng v\u00e0 n\u00e2ng c\u1ea5p l\u00ean khung 16:9 chu\u1ea9n x\u00e1c."
+          }
+        ],
+        "alternative_paths": [
+          {
+            "description": "L\u1ed9 tr\u00ecnh chu\u1ea9n \u0111\u1ec1 xu\u1ea5t: Remotion Atelier 16:9 + Vibi TTS + B\u1ea3n \u0111\u1ed3 Vector Natural Earth + \u00c2m thanh k\u1ef9 thu\u1eadt s\u1ea1ch (kh\u00f4ng nh\u1ea1c n\u1ec1n ngo\u00e0i)",
+            "total_cost_usd": 0.0,
+            "quality_level": "premium",
+            "what_changes": "Chi ph\u00ed $0, s\u1ea1ch 100% b\u1ea3n quy\u1ec1n YouTube, ki\u1ec3m so\u00e1t tuy\u1ec7t \u0111\u1ed1i t\u1ecda \u0111\u1ed9 v\u00e0 d\u1ea5u ti\u1ebfng Vi\u1ec7t."
+          },
+          {
+            "description": "L\u1ed9 tr\u00ecnh thay th\u1ebf Runtime: HyperFrames Atelier (HTML/CSS/GSAP) + Vibi TTS",
+            "total_cost_usd": 0.0,
+            "quality_level": "standard",
+            "what_changes": "M\u1ea1nh v\u1ec1 hi\u1ec7u \u1ee9ng ch\u1eef \u0111\u1ed9ng GSAP nh\u01b0ng ph\u1ea3i vi\u1ebft l\u1ea1i t\u1eeb \u0111\u1ea7u b\u1ed9 chi\u1ebfu t\u1ecda \u0111\u1ed9 GIS v\u00e0 l\u1edbp qu\u1ea7n \u0111\u1ea3o Vi\u1ec7t Nam trong HTML/SVG thu\u1ea7n."
+          },
+          {
+            "description": "L\u1ed9 tr\u00ecnh b\u1ed5 sung nh\u1ea1c n\u1ec1n mi\u1ec5n ph\u00ed t\u1eeb Pixabay Music",
+            "total_cost_usd": 0.0,
+            "quality_level": "premium",
+            "what_changes": "Th\u00eam l\u1edbp nh\u1ea1c n\u1ec1n documentary tr\u1ea7m nh\u1eb9 (-20 dB d\u01b0\u1edbi gi\u1ecdng \u0111\u1ecdc), c\u1ea7n l\u01b0u k\u00e8m ch\u1ee9ng t\u1eeb Pixabay License trong g\u00f3i xu\u1ea5t b\u1ea3n."
+          }
+        ],
+        "delivery_promise": {
+          "promise_type": "data_explainer",
+          "motion_required": true,
+          "source_required": false,
+          "tone_mode": "educational",
+          "quality_floor": "broadcast",
+          "approved_fallback": null
+        },
+        "renderer_family": "explainer-data",
+        "render_runtime": "remotion",
+        "composition_mode": "atelier",
+        "art_direction": "projects/demo-giai-ma-ban-do-90s/art-direction.md \u2014 H\u1ea3i \u0111\u1ed3 k\u1ef9 thu\u1eadt h\u00e0ng h\u1ea3i hi\u1ec7n \u0111\u1ea1i: n\u1ec1n bi\u1ec3n ch\u00e0m s\u00e2u (#071320), \u0111\u1ea5t li\u1ec1n \u0111\u00e1 phi\u1ebfn (#16293D), ph\u00f9 sa b\u1ed3i l\u1eafng h\u1ed5 ph\u00e1ch (#D97706), lu\u1ed3ng n\u01b0\u1edbc s\u00e2u ng\u1ecdc lam (#2DD4BF), font Be Vietnam Pro + JetBrains Mono, thi\u1ebft b\u1ecb th\u1ecb gi\u00e1c \u0111\u1eb7c tr\u01b0ng 'M\u1eb7t c\u1eaft d\u1ecdc th\u1ee7y v\u0103n 48 km' xu\u1ea5t hi\u1ec7n duy nh\u1ea5t \u1edf c\u1ea3nh cao tr\u00e0o s\u1ed1 5.",
+        "taste_profile": {
+          "design_read": "H\u1ea3i \u0111\u1ed3 k\u1ef9 thu\u1eadt h\u00e0ng h\u1ea3i Vi\u1ec7t Nam hi\u1ec7n \u0111\u1ea1i: \u0111i\u1ec1m t\u0129nh, chu\u1ea9n x\u00e1c nh\u01b0 b\u1ea3n v\u1ebd k\u1ef9 s\u01b0 c\u1ea3ng bi\u1ec3n, l\u1ea5y \u0111\u1ed9 t\u01b0\u01a1ng ph\u1ea3n gi\u1eefa ph\u00f9 sa c\u1ea1n v\u00e0 lu\u1ed3ng s\u00e2u l\u00e0m tr\u1ee5c th\u1ecb gi\u00e1c.",
+          "visual_variance": 6,
+          "motion_intensity": 4,
+          "information_density": 6,
+          "palette_discipline": "N\u1ec1n h\u1ea3i \u0111\u1ed3 t\u1ed1i (#071320 / #16293D) v\u1edbi \u0111\u00fang 2 m\u00e0u ng\u1eef ngh\u0129a ch\u00ednh: h\u1ed5 ph\u00e1ch (#D97706) cho v\u00f9ng b\u1ed3i l\u1eafng/c\u1ea1n v\u00e0 ng\u1ecdc lam (#2DD4BF) cho lu\u1ed3ng n\u01b0\u1edbc s\u00e2u/h\u1ea1 t\u1ea7ng m\u1edbi; kh\u00f4ng d\u00f9ng gradient t\u00edm AI.",
+          "layout_variation": "Lu\u00e2n phi\u00ean 6 b\u1ed1 c\u1ee5c kh\u00e1c nhau: b\u1ea3n \u0111\u1ed3 to\u00e0n qu\u1ed1c (C\u1ea3nh 1), camera bay thu ph\u00f3ng (C\u1ea3nh 2), c\u1ee5m ghim v\u00f9ng c\u1eeda s\u00f4ng (C\u1ea3nh 3), \u0111\u01b0\u1eddng v\u1ebd ti\u1ebfn tr\u00ecnh c\u1ea7u & lu\u1ed3ng (C\u1ea3nh 4), l\u00e1t c\u1eaft d\u1ecdc \u0111\u1ed9 s\u00e2u chia \u0111\u00f4i m\u00e0n h\u00ecnh (C\u1ea3nh 5), th\u1ebb \u0111\u1ed1i chi\u1ebfu v\u1eadn h\u00e0nh - quy ho\u1ea1ch (C\u1ea3nh 6).",
+          "reference_strategy": "Xu\u1ea5t 6 \u1ea3nh t\u0129nh snapshot \u0111\u1ea1i di\u1ec7n cho t\u1eebng c\u1ea3nh (projects/demo-giai-ma-ban-do-90s/snapshots/scene_01..06.png) \u0111\u1ec3 duy\u1ec7t b\u1ed1 c\u1ee5c, d\u1ea5u ti\u1ebfng Vi\u1ec7t v\u00e0 v\u00f9ng an to\u00e0n \u1edf c\u1ed5ng assets tr\u01b0\u1edbc khi render video.",
+          "anti_patterns": [
+            "Gradient t\u00edm/h\u1ed3ng ki\u1ec3u AI chung chung",
+            "Thi\u1ebfu Qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa v\u00e0 Tr\u01b0\u1eddng Sa tr\u00ean b\u1ea3n \u0111\u1ed3 t\u1ed5ng th\u1ec3 Vi\u1ec7t Nam",
+            "D\u00f9ng chung m\u1ed9t khung b\u1ea3n \u0111\u1ed3 t\u0129nh ch\u1ec9 thay ch\u1eef qua c\u1ea3 6 c\u1ea3nh (hero-component spine)",
+            "Ph\u1ee5 \u0111\u1ec1 t\u1ef1 \u0111\u1ed9ng l\u1eb7p l\u1ea1i y h\u1ec7t d\u00f2ng ti\u00eau \u0111\u1ec1 \u0111ang hi\u1ec3n th\u1ecb tr\u00ean m\u00e0n h\u00ecnh",
+            "\u0110\u1ecbnh d\u1ea1ng s\u1ed1 ki\u1ec3u ti\u1ebfng Anh (15.63 km, 165,000 DWT) thay v\u00ec chu\u1ea9n ti\u1ebfng Vi\u1ec7t (15,63 km, 165.000 DWT)"
+          ],
+          "quality_gates": [
+            "B\u1ea3n \u0111\u1ed3 t\u1ed5ng th\u1ec3 C\u1ea3nh 1 hi\u1ec3n th\u1ecb r\u00f5 nh\u00e3n Qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa v\u00e0 Qu\u1ea7n \u0111\u1ea3o Tr\u01b0\u1eddng Sa.",
+            "\u0110\u1ee7 5 c\u00fa m\u00e1y k\u1ef9 thu\u1eadt Giai \u0111o\u1ea1n 0: overview, zoom, route, pin-label, comparison-measure.",
+            "M\u1ecdi nh\u00e3n \u0111\u1ecba danh n\u1eb1m g\u1ecdn trong v\u00f9ng an to\u00e0n 16:9 (1920x1080), kh\u00f4ng tr\u00e0n m\u00e9p ho\u1eb7c \u0111\u00e8 nhau.",
+            "Ph\u00e2n bi\u1ec7t r\u00f5 tr\u00ean h\u00ecnh gi\u1eefa 6 b\u1ebfn \u0111ang khai th\u00e1c v\u00e0 ph\u1ea7n quy ho\u1ea1ch \u0111\u1ebfn n\u0103m 2030."
+          ]
+        },
+        "music_source": {
+          "source_type": "none",
+          "mood_direction": "M\u1eb7c \u0111\u1ecbnh \u01b0u ti\u00ean \u00e2m thanh k\u1ef9 thu\u1eadt s\u1ea1ch (gi\u1ecdng \u0111\u1ecdc Vibi TTS r\u00f5 n\u00e9t + ti\u1ebfng tick h\u1ea3i \u0111\u1ed3/chuy\u1ec3n c\u1ea3nh nh\u1eb9 t\u1ea1o b\u1eb1ng FFmpeg) \u0111\u1ec3 tri\u1ec7t ti\u00eau 100% r\u1ee7i ro Content ID; c\u00f3 th\u1ec3 b\u1eadt nh\u1ea1c n\u1ec1n ambient t\u1eeb Pixabay ho\u1eb7c YouTube Audio Library n\u1ebfu ng\u01b0\u1eddi duy\u1ec7t ch\u1ecdn.",
+          "estimated_cost_usd": 0.0
+        },
+        "voice_selection": {
+          "provider": "vibi",
+          "voice_id": "Haitrieu",
+          "rationale": "Gi\u1ecdng nam thuy\u1ebft minh ti\u1ebfng Vi\u1ec7t tr\u1ea7m r\u00f5, t\u1ed1c \u0111\u1ed9 1.1x m\u1eb7c \u0111\u1ecbnh \u0111\u00e3 c\u1ea5u h\u00ecnh s\u1eb5n trong _tools/vibi_tts.py, r\u1ea5t h\u1ee3p phong c\u00e1ch gi\u1ea3i m\u00e3 \u0111\u1ecba l\u00fd - h\u1ea1 t\u1ea7ng.",
+          "estimated_cost_usd": 0.0,
+          "delivery_style": "\u0110i\u1ec1m t\u0129nh, ch\u1eefng ch\u1ea1c nh\u01b0 bi\u00ean t\u1eadp vi\u00ean b\u1ea3n \u0111\u1ed3 kinh t\u1ebf, nh\u1ea5n nh\u1eb9 v\u00e0o c\u00e1c con s\u1ed1 \u0111\u1ed9 s\u00e2u (-7 m, -14 m) v\u00e0 kho\u1ea3ng c\u00e1ch (48 km, 5,44 km).",
+          "pacing_policy": "Kho\u1ea3ng 125-135 t\u1eeb/ph\u00fat (~195 t\u1eeb cho 90 gi\u00e2y), ngh\u1ec9 0,4 gi\u00e2y gi\u1eefa c\u00e1c c\u1ea3nh \u0111\u1ec3 m\u1eaft ng\u01b0\u1eddi xem k\u1ecbp \u0111\u1ecdc nh\u00e3n b\u1ea3n \u0111\u1ed3.",
+          "sample_approval_required": false
+        },
+        "provider_rankings": {
+          "tts": [
+            {
+              "tool_name": "vibi_tts",
+              "provider": "vibi",
+              "weighted_score": 0.96,
+              "task_fit": 0.98,
+              "output_quality": 0.95,
+              "explanation": "Chu\u1ea9n ti\u1ebfng Vi\u1ec7t t\u1ef1 nhi\u00ean nh\u1ea5t trong workspace, h\u1ed7 tr\u1ee3 xu\u1ea5t th\u1eb3ng SRT v\u00e0 word timestamps, c\u00f3 b\u1ed9 nh\u1edb \u0111\u1ec7m ch\u1ed1ng t\u1ed1n credit."
+            },
+            {
+              "tool_name": "tts_generate",
+              "provider": "openai",
+              "weighted_score": 0.72,
+              "task_fit": 0.7,
+              "output_quality": 0.78,
+              "explanation": "Kh\u1ea3 d\u1ee5ng nh\u01b0ng ph\u00e1t \u00e2m \u0111\u1ecba danh Vi\u1ec7t Nam (L\u1ea1ch Huy\u1ec7n, C\u00e1t H\u1ea3i, Nam Tri\u1ec7u) k\u00e9m t\u1ef1 nhi\u00ean h\u01a1n Vibi v\u00e0 ph\u00e1t sinh ph\u00ed API."
+            },
+            {
+              "tool_name": "tts_generate",
+              "provider": "piper",
+              "weighted_score": 0.45,
+              "task_fit": 0.4,
+              "output_quality": 0.45,
+              "explanation": "Mi\u1ec5n ph\u00ed c\u1ee5c b\u1ed9 nh\u01b0ng ch\u1ea5t l\u01b0\u1ee3ng gi\u1ecdng ti\u1ebfng Vi\u1ec7t ph\u1eb3ng, kh\u00f4ng \u0111\u1ea1t chu\u1ea9n broadcast cho k\u00eanh m\u1edbi."
+            }
+          ],
+          "music": [
+            {
+              "tool_name": "none_clean_sfx",
+              "provider": "ffmpeg",
+              "weighted_score": 0.9,
+              "task_fit": 0.92,
+              "output_quality": 0.85,
+              "explanation": "An to\u00e0n tuy\u1ec7t \u0111\u1ed1i v\u1ec1 b\u1ea3n quy\u1ec1n YouTube, gi\u1eef gi\u1ecdng thuy\u1ebft minh v\u00e0 th\u00f4ng s\u1ed1 k\u1ef9 thu\u1eadt t\u1eadp trung t\u1ed1i \u0111a."
+            },
+            {
+              "tool_name": "music_search",
+              "provider": "pixabay_music",
+              "weighted_score": 0.82,
+              "task_fit": 0.85,
+              "output_quality": 0.8,
+              "explanation": "Kh\u1ea3 d\u1ee5ng mi\u1ec5n ph\u00ed \u0111\u1ec3 t\u1ea3i nh\u1ea1c n\u1ec1n documentary nh\u1eb9 n\u1ebfu ng\u01b0\u1eddi d\u00f9ng mu\u1ed1n c\u00f3 l\u1edbp nh\u1ea1c n\u1ec1n li\u00ean t\u1ee5c."
+            }
+          ]
+        },
+        "decision_log_ref": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\demo-giai-ma-ban-do-90s\\decision_log.json"
+      },
+      "cost_estimate": {
+        "total_estimated_usd": 0.0,
+        "line_items": [
+          {
+            "tool": "vibi_tts",
+            "operation": "T\u1ed5ng h\u1ee3p ~195 t\u1eeb ti\u1ebfng Vi\u1ec7t (6 \u0111o\u1ea1n tho\u1ea1i) k\u00e8m SRT & word timestamps",
+            "quantity": 6,
+            "estimated_usd": 0.0,
+            "notes": "S\u1eed d\u1ee5ng h\u1ea1 t\u1ea7ng Vibi TTS s\u1eb5n c\u00f3 c\u1ee7a workspace k\u00e8m cache c\u1ee5c b\u1ed9 _tools/.cache/vibi_pieces"
+          },
+          {
+            "tool": "natural_earth_geojson",
+            "operation": "Tr\u00edch xu\u1ea5t d\u1eef li\u1ec7u bi\u00ean gi\u1edbi, b\u1edd bi\u1ec3n, \u0111\u1ea3o C\u00e1t H\u1ea3i, s\u00f4ng ng\u00f2i & qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa - Tr\u01b0\u1eddng Sa",
+            "quantity": 1,
+            "estimated_usd": 0.0,
+            "notes": "Public Domain (Natural Earth 10m/50m) + t\u1ecda \u0111\u1ed9 h\u1ea3i \u0111\u1ed3 c\u00f4ng khai"
+          },
+          {
+            "tool": "video_compose (remotion atelier)",
+            "operation": "Render 6 \u1ea3nh t\u0129nh duy\u1ec7t c\u1ea3nh + 1 video MP4 1920x1080@30fps d\u00e0i 90 gi\u00e2y",
+            "quantity": 1,
+            "estimated_usd": 0.0,
+            "notes": "K\u1ebft xu\u1ea5t c\u1ee5c b\u1ed9 tr\u00ean m\u00e1y"
+          }
+        ],
+        "budget_verdict": "no_budget_set",
+        "savings_options": [
+          "To\u00e0n b\u1ed9 quy tr\u00ecnh \u0111\u1ec1 xu\u1ea5t \u0111\u00e3 \u1edf m\u1ee9c chi ph\u00ed $0.00 nh\u1edd k\u1ebft h\u1ee3p Remotion c\u1ee5c b\u1ed9, d\u1eef li\u1ec7u Natural Earth Public Domain v\u00e0 Vibi TTS s\u1eb5n c\u00f3."
+        ]
+      },
+      "approval": {
+        "status": "pending",
+        "user_notes": "\u0110ang ch\u1edd ng\u01b0\u1eddi d\u00f9ng ch\u1ecdn Concept (c1/c2/c3 ho\u1eb7c \u0111\u1ed5i sang \u0111\u1ec1 t\u00e0i Long Th\u00e0nh / Cao t\u1ed1c mi\u1ec1n T\u00e2y), x\u00e1c nh\u1eadn khung h\u00ecnh (16:9 hay 9:16), Runtime (Remotion hay HyperFrames), Ch\u1ebf \u0111\u1ed9 d\u1ef1ng (Atelier hay Templated), gi\u1ecdng \u0111\u1ecdc v\u00e0 ph\u01b0\u01a1ng \u00e1n nh\u1ea1c n\u1ec1n."
+      },
+      "metadata": {
+        "aspect_ratio_recommended": "16:9 (1920x1080) \u2014 \u0111\u1ecbnh d\u1ea1ng ch\u00ednh c\u1ee7a k\u00eanh theo t\u00e0i li\u1ec7u 21; c\u00f3 th\u1ec3 \u0111\u1ed5i sang 9:16 (1080x1920) n\u1ebfu b\u1ea1n mu\u1ed1n b\u1ea3n demo d\u1ea1ng Shorts.",
+        "stage_0_five_shots_contract": [
+          "overview (Vi\u1ec7t Nam + Ho\u00e0ng Sa & Tr\u01b0\u1eddng Sa)",
+          "zoom (thu ph\u00f3ng m\u01b0\u1ee3t v\u00e0o c\u1eeda bi\u1ec3n H\u1ea3i Ph\u00f2ng - C\u00e1t H\u1ea3i)",
+          "pin-label (nh\u00e3n S\u00f4ng C\u1ea5m, Nam Tri\u1ec7u, C\u00e1t H\u1ea3i trong safe zone)",
+          "route (\u0111\u01b0\u1eddng ti\u1ebfn tr\u00ecnh c\u1ea7u T\u00e2n V\u0169 - L\u1ea1ch Huy\u1ec7n 15,63 km & lu\u1ed3ng t\u00e0u 20,66 km)",
+          "comparison-measure (\u0111o kho\u1ea3ng c\u00e1ch Haversine + m\u1eb7t c\u1eaft d\u1ecdc \u0111\u1ed9 s\u00e2u 48 km: -7,0 m vs -12,9 m / -14,0 m)"
+        ],
+        "candidate_facts_ledger": "projects/demo-giai-ma-ban-do-90s/artifacts/candidate_facts_sources.json"
+      }
+    },
+    "decision_log": {
+      "version": "1.0",
+      "project_id": "demo-giai-ma-ban-do-90s",
+      "decisions": [
+        {
+          "decision_id": "d-001",
+          "stage": "proposal",
+          "category": "pipeline_selection",
+          "subject": "Ch\u1ecdn pipeline s\u1ea3n xu\u1ea5t cho video demo b\u1ea3n \u0111\u1ed3 90s",
+          "options_considered": [
+            {
+              "option_id": "animated-explainer",
+              "label": "Animated Explainer Pipeline",
+              "score": 0.95,
+              "reason": "Thi\u1ebft k\u1ebf chuy\u00ean cho video gi\u1ea3i th\u00edch d\u1eef li\u1ec7u, b\u1ea3n \u0111\u1ed3 v\u00e0 \u0111\u1ed3 h\u1ecda chuy\u1ec3n \u0111\u1ed9ng kh\u00f4ng c\u1ea7n footage quay th\u1ef1c \u0111\u1ecba."
+            },
+            {
+              "option_id": "documentary-montage",
+              "label": "Documentary Montage Pipeline",
+              "score": 0.35,
+              "reason": "Ph\u00f9 h\u1ee3p phim t\u00e0i li\u1ec7u gh\u00e9p t\u01b0 li\u1ec7u quay th\u1eadt, nh\u01b0ng k\u00eanh \u0111\u00e3 kh\u00f3a quy t\u1eafc kh\u00f4ng ph\u1ee5 thu\u1ed9c footage ngo\u00e0i \u0111\u1eddi \u1edf Giai \u0111o\u1ea1n 0.",
+              "rejected_because": "Tr\u00e1i \u0111\u1ecbnh h\u01b0\u1edbng 100% b\u1ea3n \u0111\u1ed3 v\u00e0 s\u01a1 \u0111\u1ed3 t\u1ef1 d\u1ef1ng c\u1ee7a Giai \u0111o\u1ea1n 0."
+            }
+          ],
+          "selected": "animated-explainer",
+          "reason": "Kh\u1edbp ho\u00e0n to\u00e0n c\u1ea5u tr\u00fac Research -> Proposal -> Script -> Scene Plan -> Assets -> Edit -> Compose -> Publish cho \u0111\u1ed3 h\u1ecda b\u1ea3n \u0111\u1ed3.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.95
+        },
+        {
+          "decision_id": "d-002",
+          "stage": "proposal",
+          "category": "concept_selection",
+          "subject": "Ch\u1ecdn g\u00f3c k\u1ec3 chuy\u1ec7n cho b\u1ea3n demo 90s v\u1ec1 C\u1ea3ng n\u01b0\u1edbc s\u00e2u L\u1ea1ch Huy\u1ec7n",
+          "options_considered": [
+            {
+              "option_id": "c1",
+              "label": "Concept 1 (Problem-Solution): V\u00ec sao mi\u1ec1n B\u1eafc ph\u1ea3i ra t\u1eadn L\u1ea1ch Huy\u1ec7n m\u1edbi l\u00e0m \u0111\u01b0\u1ee3c c\u1ea3ng n\u01b0\u1edbc s\u00e2u?",
+              "score": 0.92,
+              "reason": "\u0110i th\u1eb3ng v\u00e0o c\u00e2u h\u1ecfi 'v\u00ec sao' c\u1ed1t l\u00f5i c\u1ee7a k\u00eanh v\u00e0 l\u1ed3ng gh\u00e9p t\u1ef1 nhi\u00ean \u0111\u1ee7 5 c\u00fa m\u00e1y k\u1ef9 thu\u1eadt + m\u1eb7t c\u1eaft 48 km."
+            },
+            {
+              "option_id": "c2",
+              "label": "Concept 2 (Myth-Busting): Sao kh\u00f4ng v\u00e9t s\u00e2u th\u1eb3ng s\u00f4ng C\u1ea5m cho r\u1ebb?",
+              "score": 0.84,
+              "reason": "G\u00f3c ph\u1ea3n bi\u1ec7n s\u1eafc b\u00e9n d\u1ef1a tr\u00ean th\u1eafc m\u1eafc th\u1eadt c\u1ee7a ng\u01b0\u1eddi xem YouTube.",
+              "rejected_because": "Gi\u1eef l\u00e0m ph\u01b0\u01a1ng \u00e1n 2 \u0111\u1ec3 ng\u01b0\u1eddi d\u00f9ng ch\u1ecdn n\u1ebfu th\u00edch m\u1edf \u0111\u1ea7u ki\u1ec3u tranh lu\u1eadn chi ph\u00ed."
+            },
+            {
+              "option_id": "c3",
+              "label": "Concept 3 (Journey): H\u00e0nh tr\u00ecnh 48 km c\u1ee7a si\u00eau t\u00e0u 165.000 t\u1ea5n",
+              "score": 0.8,
+              "reason": "D\u1ec5 theo d\u00f5i theo tuy\u1ebfn t\u00ednh t\u1eeb bi\u1ec3n v\u00e0o s\u00f4ng.",
+              "rejected_because": "Ph\u1ea7n gi\u1ea3i th\u00edch nguy\u00ean nh\u00e2n \u0111\u1ecba ch\u1ea5t ph\u00f9 sa xu\u1ea5t hi\u1ec7n mu\u1ed9n h\u01a1n so v\u1edbi Concept 1."
+            }
+          ],
+          "selected": "c1",
+          "reason": "Kh\u1edbp ch\u00ednh x\u00e1c \u0111\u1ec1 t\u00e0i m\u1edf m\u00e0n \u1ee9ng vi\u00ean s\u1ed1 1 trong Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md v\u00e0 t\u1ed1i \u01b0u nh\u1ea5t \u0111\u1ec3 nghi\u1ec7m thu 5 c\u00fa m\u00e1y m\u1eabu.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.88
+        },
+        {
+          "decision_id": "d-003",
+          "stage": "proposal",
+          "category": "renderer_family_selection",
+          "subject": "Ch\u1ecdn h\u1ecd ng\u00f4n ng\u1eef h\u00ecnh \u1ea3nh (renderer_family)",
+          "options_considered": [
+            {
+              "option_id": "explainer-data",
+              "label": "Explainer Data (B\u1ea3n \u0111\u1ed3 & D\u1eef li\u1ec7u k\u1ef9 thu\u1eadt)",
+              "score": 0.94,
+              "reason": "\u0110\u1eb7t b\u1ea3n \u0111\u1ed3 t\u1ecda \u0111\u1ed9 th\u1ef1c, ph\u00e9p \u0111o kho\u1ea3ng c\u00e1ch v\u00e0 m\u1eb7t c\u1eaft s\u1ed1 li\u1ec7u l\u00e0m trung t\u00e2m."
+            },
+            {
+              "option_id": "explainer-teacher",
+              "label": "Explainer Teacher (Gi\u1ea3ng b\u00e0i c\u00f3 nh\u00e2n v\u1eadt/minh h\u1ecda)",
+              "score": 0.45,
+              "reason": "Thi\u00ean v\u1ec1 nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n v\u00e0 \u1ea9n d\u1ee5 \u0111\u1eddi th\u01b0\u1eddng h\u01a1n l\u00e0 h\u1ea3i \u0111\u1ed3 ch\u00ednh x\u00e1c.",
+              "rejected_because": "K\u00eanh \u0111\u1ecbnh v\u1ecb gi\u1ea3i m\u00e3 b\u1eb1ng b\u1ea3n \u0111\u1ed3 v\u00e0 m\u1eb7t c\u1eaft k\u1ef9 thu\u1eadt, kh\u00f4ng d\u00f9ng nh\u00e2n v\u1eadt ho\u1ea1t h\u00ecnh."
+            }
+          ],
+          "selected": "explainer-data",
+          "reason": "Ph\u1ea3n \u00e1nh \u0111\u00fang b\u1ea3n ch\u1ea5t k\u00eanh gi\u1ea3i m\u00e3 \u0111\u1ecba l\u00fd kinh t\u1ebf b\u1eb1ng d\u1eef li\u1ec7u kh\u00f4ng gian v\u00e0 m\u1eb7t c\u1eaft \u0111\u1ed9 s\u00e2u.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.93
+        },
+        {
+          "decision_id": "d-004",
+          "stage": "proposal",
+          "category": "render_runtime_selection",
+          "subject": "Ch\u1ecdn engine k\u1ebft xu\u1ea5t k\u1ef9 thu\u1eadt (Remotion so v\u1edbi HyperFrames)",
+          "options_considered": [
+            {
+              "option_id": "remotion",
+              "label": "Remotion (React + SVG + d3-geo)",
+              "score": 0.93,
+              "reason": "\u0110\u00e3 c\u00e0i s\u1eb5n d3-geo, topojson-client, h\u1ed7 tr\u1ee3 t\u00ednh to\u00e1n ph\u00e9p chi\u1ebfu Mercator \u0111\u1ed9ng 16:9, Haversine distanceKm, l\u1edbp qu\u1ea7n \u0111\u1ea3o Ho\u00e0ng Sa - Tr\u01b0\u1eddng Sa, font Be Vietnam Pro v\u00e0 ch\u1ee5p still t\u1eebng c\u1ea3nh."
+            },
+            {
+              "option_id": "hyperframes",
+              "label": "HyperFrames (HTML/CSS + GSAP timeline)",
+              "score": 0.72,
+              "reason": "Kh\u1ea3 d\u1ee5ng tr\u00ean m\u00e1y, r\u1ea5t m\u1ea1nh cho kinetic typography, hi\u1ec7u \u1ee9ng ch\u1eef GSAP v\u00e0 beat-sync \u00e2m nh\u1ea1c.",
+              "rejected_because": "Thi\u1ebfu s\u1eb5n h\u1ec7 th\u01b0 vi\u1ec7n chi\u1ebfu b\u1ea3n \u0111\u1ed3 GIS/TopoJSON \u0111\u00e3 ki\u1ec3m ch\u1ee9ng trong React, s\u1ebd t\u1ed1n c\u00f4ng d\u1ef1ng l\u1ea1i to\u00e1n h\u1ecdc b\u1ea3n \u0111\u1ed3 trong HTML/JS thu\u1ea7n."
+            },
+            {
+              "option_id": "ffmpeg",
+              "label": "FFmpeg (Gh\u00e9p n\u1ed1i video c\u01a1 b\u1ea3n)",
+              "score": 0.2,
+              "reason": "Ch\u1ec9 ph\u00f9 h\u1ee3p c\u1eaft gh\u00e9p c\u00e1c clip c\u00f3 s\u1eb5n.",
+              "rejected_because": "Kh\u00f4ng th\u1ec3 t\u1ef1 d\u1ef1ng chuy\u1ec3n \u0111\u1ed9ng camera b\u1ea3n \u0111\u1ed3 vector v\u00e0 m\u1eb7t c\u1eaft d\u1eef li\u1ec7u theo frame."
+            }
+          ],
+          "selected": "remotion",
+          "reason": "Remotion l\u00e0 runtime ph\u00f9 h\u1ee3p nh\u1ea5t cho \u0111\u1ed3 h\u1ecda b\u1ea3n \u0111\u1ed3 t\u1ecda \u0111\u1ed9 th\u1ef1c k\u1ebft h\u1ee3p bi\u1ec3u \u0111\u1ed3 k\u1ef9 thu\u1eadt React/SVG, \u0111\u1ed3ng th\u1eddi t\u01b0\u01a1ng th\u00edch ho\u00e0n to\u00e0n v\u1edbi ki\u1ebfn tr\u00fac map primitives \u0111\u00e3 kh\u1ea3o s\u00e1t.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.91
+        },
+        {
+          "decision_id": "d-005",
+          "stage": "proposal",
+          "category": "composition_mode",
+          "subject": "Ch\u1ecdn ch\u1ebf \u0111\u1ed9 t\u00e1c quy\u1ec1n b\u1ed1 c\u1ee5c (Atelier thi\u1ebft k\u1ebf ri\u00eang so v\u1edbi Templated d\u1ef1ng s\u1eb5n)",
+          "options_considered": [
+            {
+              "option_id": "atelier",
+              "label": "Atelier (Thi\u1ebft k\u1ebf ri\u00eang bespoke t\u1ea1i projects/<slug>/)",
+              "score": 0.94,
+              "reason": "Cho ph\u00e9p x\u00e2y d\u1ef1ng tr\u1ecdn v\u1eb9n 5 c\u00fa m\u00e1y b\u1ea3n \u0111\u1ed3 chuy\u00ean bi\u1ec7t (overview c\u00f3 Ho\u00e0ng Sa - Tr\u01b0\u1eddng Sa, zoom m\u01b0\u1ee3t 16:9, pin-label safe zone, route k\u00e9p, m\u1eb7t c\u1eaft th\u1ee7y v\u0103n 48 km) m\u00e0 b\u1ed9 th\u1ebb stock kh\u00f4ng h\u1ec1 c\u00f3."
+            },
+            {
+              "option_id": "templated",
+              "label": "Templated (L\u1eafp gh\u00e9p c\u00e1c stock cut.type c\u00f3 s\u1eb5n trong Explainer.tsx)",
+              "score": 0.3,
+              "reason": "Nhanh h\u01a1n cho c\u00e1c video th\u1ebb ch\u1eef/bi\u1ec3u \u0111\u1ed3 c\u1ed9t th\u00f4ng th\u01b0\u1eddng.",
+              "rejected_because": "B\u1ed9 stock c\u1ee7a OpenMontage kh\u00f4ng c\u00f3 component b\u1ea3n \u0111\u1ed3 Vi\u1ec7t Nam, kh\u00f4ng c\u00f3 ph\u00e9p chi\u1ebfu Mercator thu ph\u00f3ng v\u00e0 m\u1eb7t c\u1eaft \u0111\u1ed9 s\u00e2u lu\u1ed3ng h\u00e0ng h\u1ea3i."
+            }
+          ],
+          "selected": "atelier",
+          "reason": "M\u1ee5c ti\u00eau c\u1ed1t l\u00f5i c\u1ee7a Giai \u0111o\u1ea1n 0 l\u00e0 r\u00e8n b\u1ed9 khung 5 c\u00fa m\u00e1y b\u1ea3n \u0111\u1ed3 mang b\u1ea3n s\u1eafc ri\u00eang c\u1ee7a k\u00eanh, b\u1eaft bu\u1ed9c d\u00f9ng ch\u1ebf \u0111\u1ed9 Atelier.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.94
+        },
+        {
+          "decision_id": "d-006",
+          "stage": "proposal",
+          "category": "playbook_selection",
+          "subject": "Ch\u1ecdn style playbook n\u1ec1n k\u1ebft h\u1ee3p h\u1ed3 s\u01a1 th\u1ea9m m\u1ef9 H\u1ea3i \u0111\u1ed3 k\u1ef9 thu\u1eadt",
+          "options_considered": [
+            {
+              "option_id": "clean-professional",
+              "label": "clean-professional + Bespoke Nautical Art Direction",
+              "score": 0.88,
+              "reason": "Gi\u1eef nh\u1ecbp c\u1eaft \u0111i\u1ec1m t\u0129nh, m\u1eadt \u0111\u1ed9 ch\u1eef ki\u1ec3m so\u00e1t ch\u1eb7t, k\u1ebft h\u1ee3p b\u1ea3ng m\u00e0u H\u1ea3i \u0111\u1ed3 t\u1ed1i chuy\u00ean bi\u1ec7t trong art-direction.md."
+            },
+            {
+              "option_id": "minimalist-diagram",
+              "label": "minimalist-diagram",
+              "score": 0.76,
+              "reason": "G\u1ecdn g\u00e0ng cho s\u01a1 \u0111\u1ed3 ph\u1eb3ng t\u1ed1i gi\u1ea3n.",
+              "rejected_because": "H\u01a1i qu\u00e1 \u0111\u01a1n s\u1eafc khi c\u1ea7n ph\u00e2n bi\u1ec7t r\u00f5 c\u00e1c t\u1ea7ng \u0111\u1ed9 s\u00e2u h\u1ea3i \u0111\u1ed3, \u0111\u1ea5t li\u1ec1n, ph\u00f9 sa v\u00e0 lu\u1ed3ng n\u01b0\u1edbc s\u00e2u."
+            }
+          ],
+          "selected": "clean-professional",
+          "reason": "\u0110\u1ea3m b\u1ea3o chu\u1ea9n nh\u1ecbp \u0111\u1ed9 chuy\u00ean gia k\u1ebft h\u1ee3p c\u00f9ng taste_profile v\u00e0 art-direction.md ri\u00eang cho h\u1ea3i \u0111\u1ed3 Vi\u1ec7t Nam.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.85
+        },
+        {
+          "decision_id": "d-007",
+          "stage": "proposal",
+          "category": "voice_selection",
+          "subject": "Ch\u1ecdn c\u00f4ng c\u1ee5 v\u00e0 gi\u1ecdng \u0111\u1ecdc thuy\u1ebft minh ti\u1ebfng Vi\u1ec7t",
+          "options_considered": [
+            {
+              "option_id": "vibi_haitrieu",
+              "label": "Vibi TTS - Gi\u1ecdng Haitrieu (speech-2.8-hd, speed 1.1)",
+              "score": 0.96,
+              "reason": "\u0110\u00fang quy t\u1eafc b\u1eaft bu\u1ed9c cho ti\u1ebfng Vi\u1ec7t trong AGENTS.md, ph\u00e1t \u00e2m \u0111\u1ecba danh chu\u1ea9n, h\u1ed7 tr\u1ee3 xu\u1ea5t SRT + word timestamps v\u00e0 cache mi\u1ec5n ph\u00ed c\u00e1c c\u00e2u kh\u00f4ng \u0111\u1ed5i."
+            },
+            {
+              "option_id": "vibi_lacthien",
+              "label": "Vibi TTS - Gi\u1ecdng Lacthien (speech-2.8-hd, speed 1.1)",
+              "score": 0.88,
+              "reason": "Gi\u1ecdng \u0111\u1ecdc ti\u1ebfng Vi\u1ec7t ch\u1ea5t l\u01b0\u1ee3ng cao kh\u00e1c c\u00f3 s\u1eb5n trong pool _tools/vibi_tts.py.",
+              "rejected_because": "Haitrieu \u0111ang l\u00e0 gi\u1ecdng m\u1eb7c \u0111\u1ecbnh (ENABLED) c\u1ee7a workspace; ng\u01b0\u1eddi d\u00f9ng c\u00f3 th\u1ec3 \u0111\u1ed5i sang Lacthien n\u1ebfu mu\u1ed1n."
+            },
+            {
+              "option_id": "openai_tts",
+              "label": "OpenAI TTS",
+              "score": 0.6,
+              "reason": "Kh\u1ea3 d\u1ee5ng trong registry.",
+              "rejected_because": "Kh\u00f4ng t\u1ed1i \u01b0u d\u1ea5u v\u00e0 \u0111\u1ecba danh ti\u1ebfng Vi\u1ec7t b\u1eb1ng Vibi TTS v\u00e0 t\u1ed1n ph\u00ed API."
+            }
+          ],
+          "selected": "vibi_haitrieu",
+          "reason": "Tu\u00e2n th\u1ee7 quy chu\u1ea9n AGENTS.md v\u00e0 t\u1ed1i \u01b0u \u0111\u1ed9 truy\u1ec1n c\u1ea3m ti\u1ebfng Vi\u1ec7t cho n\u1ed9i dung gi\u1ea3i m\u00e3 h\u1ea1 t\u1ea7ng.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.93
+        },
+        {
+          "decision_id": "d-008",
+          "stage": "proposal",
+          "category": "music_source",
+          "subject": "Ch\u1ecdn ph\u01b0\u01a1ng \u00e1n \u00e2m nh\u1ea1c n\u1ec1n cho b\u1ea3n demo 90s",
+          "options_considered": [
+            {
+              "option_id": "none",
+              "label": "Kh\u00f4ng d\u00f9ng nh\u1ea1c ngo\u00e0i \u2014 ch\u1ec9 gi\u1ecdng \u0111\u1ecdc Vibi TTS + hi\u1ec7u \u1ee9ng \u00e2m thanh h\u1ea3i \u0111\u1ed3 t\u1ed5ng h\u1ee3p b\u1eb1ng FFmpeg",
+              "score": 0.89,
+              "reason": "Tri\u1ec7t ti\u00eau 100% r\u1ee7i ro b\u1ea3n quy\u1ec1n/Content ID tr\u00ean YouTube theo tinh th\u1ea7n th\u1eadn tr\u1ecdng c\u1ee7a Giai \u0111o\u1ea1n 0, gi\u00fap ng\u01b0\u1eddi nghe t\u1eadp trung ho\u00e0n to\u00e0n v\u00e0o th\u00f4ng s\u1ed1."
+            },
+            {
+              "option_id": "pixabay_music",
+              "label": "T\u1ea3i nh\u1ea1c n\u1ec1n documentary nh\u1eb9 t\u1eeb Pixabay Music (kh\u1ea3 d\u1ee5ng trong registry)",
+              "score": 0.82,
+              "reason": "Mi\u1ec5n ph\u00ed, t\u1ea1o kh\u00f4ng kh\u00ed phim t\u00e0i li\u1ec7u.",
+              "rejected_because": "\u0110\u00f4i khi m\u1ed9t s\u1ed1 b\u1ea3n nh\u1ea1c mi\u1ec5n ph\u00ed tr\u00ean Pixabay v\u1eabn b\u1ecb h\u1ec7 th\u1ed1ng HAAWK/Content ID g\u1eafn c\u1edd nh\u1ea7m tr\u00ean YouTube n\u1ebfu kh\u00f4ng ki\u1ec3m tra t\u1eebng b\u00e0i."
+            },
+            {
+              "option_id": "bring_your_own",
+              "label": "Ng\u01b0\u1eddi d\u00f9ng cung c\u1ea5p file nh\u1ea1c t\u1eeb YouTube Audio Library",
+              "score": 0.85,
+              "reason": "An to\u00e0n tuy\u1ec7t \u0111\u1ed1i v\u1edbi YouTube v\u00e0 c\u00f3 nh\u1ea1c n\u1ec1n \u0111\u1ea7y \u0111\u1eb7n.",
+              "rejected_because": "C\u1ea7n ng\u01b0\u1eddi d\u00f9ng t\u1ea3i file \u0111\u01b0a v\u00e0o th\u01b0 m\u1ee5c d\u1ef1 \u00e1n n\u1ebfu mu\u1ed1n d\u00f9ng."
+            }
+          ],
+          "selected": "none",
+          "reason": "M\u1eb7c \u0111\u1ecbnh ch\u1ecdn ph\u01b0\u01a1ng \u00e1n s\u1ea1ch b\u1ea3n quy\u1ec1n tuy\u1ec7t \u0111\u1ed1i (gi\u1ecdng \u0111\u1ecdc + SFX k\u1ef9 thu\u1eadt FFmpeg), \u0111\u1ed3ng th\u1eddi tr\u00ecnh b\u00e0y r\u00f5 2 l\u1ef1a ch\u1ecdn nh\u1ea1c n\u1ec1n \u0111\u1ec3 ng\u01b0\u1eddi d\u00f9ng quy\u1ebft \u0111\u1ecbnh \u1edf c\u1ed5ng duy\u1ec7t.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.8
+        }
+      ]
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "summary": "3 distinct 90s concepts, both Remotion & HyperFrames runtimes presented and logged, both Atelier & Templated modes presented and logged, bespoke nautical art_direction + taste_profile committed, Vibi TTS + clean music options + .00 itemized cost verified."
+  },
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "outputs": [
+    {
+      "path": "projects/cang-lach-huyen-ban-dai/renders/final.mp4",
+      "format": "mp4",
+      "codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 30.0,
+      "duration_seconds": 590.49,
+      "file_size_bytes": 2040410625,
+      "platform_target": "youtube_landscape"
+    }
+  ],
+  "render_time_seconds": 1448.54,
+  "warnings": [],
+  "verification_notes": [
+    "Rendered 590.49s @ 30.0fps (2,040,410,625 bytes, CRF 14).",
+    "Atelier check: stock_reuse_detected=False, art_direction_declared=True.",
+    "Transcript accuracy: word_accuracy=1.0, transcript_matches_script=True."
+  ],
+  "render_grammar": "explainer-data",
+  "slideshow_risk_score": {
+    "average": 0.06,
+    "verdict": "strong"
+  }
+}

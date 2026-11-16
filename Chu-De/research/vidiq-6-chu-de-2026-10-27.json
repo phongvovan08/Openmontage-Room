@@ -1,0 +1,1307 @@
+{
+  "retrievedDateLocal": "2026-10-27",
+  "timezone": "Asia/Saigon",
+  "scope": "Six independent user topics. VN keyword research; English-language references kept distinct from Vietnamese content.",
+  "notes": [
+    "Retrieval date is not an upstream freshness timestamp.",
+    "estimatedMonthlySearch and countryVolume are separate provider fields; do not infer VN volumes from null countryVolume.",
+    "Research calls requested limit 12; provider returned 20 related rows. Actual returned rows preserved.",
+    "Growth field has no complete baseline/window/freshness metadata; no verified growth-rate or urgency claim.",
+    "No private analytics, media generation or account changes. Transcripts paraphrased as observations, not saved in full."
+  ],
+  "results": [
+    {
+      "key": "english-sleep",
+      "args": {
+        "mode": "research",
+        "keyword": "tiếng anh khi ngủ",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| tiếng anh khi ngủ | 0 | 50 | 20 | <750 | null | null | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| luyện nghe tiếng anh cơ bản | 58 | 56 | 53 | 8110 | -28.3% | null | none |\n| luyện nghe tiếng anh | 75 | 52 | 64 | 110905 | +16.1% | 110905 | VN 100% |\n| tiếng anh thụ động | 53 | 45 | 54 | 3304 | null | null | none |\n| học tiếng anh cho người mới bắt đầu | 71 | 45 | 65 | 58735 | +10.5% | 58735 | VN 100% |\n| học tiếng anh | 78 | 44 | 69 | 164453 | -7.9% | 159061 | VN 97%, US 2%, DE 2% |\n| tiếng anh giao tiếp hàng ngày | 58 | 31 | 63 | 7900 | +1.3% | null | none |\n| tự học tiếng anh | 60 | 47 | 57 | 11049 | -37.3% | null | none |\n| tiếng anh cơ bản | 61 | 23 | 67 | 12411 | -1.5% | null | none |\n| tiếng anh cho người mới bắt đầu | 62 | 47 | 58 | 13486 | +29.6% | null | none |\n| tiếng anh | 76 | 45 | 68 | 123422 | +9% | 123422 | VN 100% |\n| luyện nghe tiếng anh giao tiếp hàng ngày | 55 | 39 | 57 | 4823 | null | null | none |\n| tiếng anh giao tiếp | 68 | 33 | 67 | 34505 | +37.4% | 34505 | VN 100% |\n| luyện nghe tiếng anh thụ động | 62 | 44 | 60 | 13818 | +87.6% | null | none |\n| luyện nói tiếng anh | 65 | 30 | 67 | 24275 | +15.6% | null | none |\n| nghe tiếng anh | 71 | 53 | 61 | 54913 | +73.5% | 54913 | VN 100% |\n| nghe tiếng anh thụ động | 59 | 59 | 52 | 8946 | -58.9% | null | none |\n| giao tiếp tiếng anh | 59 | 26 | 65 | 9428 | null | null | none |\n| tiếng anh chậm | 62 | 19 | 69 | 13359 | +5.9% | null | none |\n| tiếng anh giao tiếp cơ bản | 61 | 40 | 60 | 11598 | -45.9% | null | none |\n| 100 câu tiếng anh thông dụng | 68 | 23 | 71 | 34222 | +161.7% | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "sleep-stories",
+      "args": {
+        "mode": "research",
+        "keyword": "truyện khi ngủ",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| truyện khi ngủ | 0 | 37 | 25 | <750 | null | null | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| truyện ngủ | 59 | 36 | 61 | 9064 | +80.3% | null | none |\n| kể chuyện cho bé ngủ | 60 | 36 | 62 | 11070 | +162.5% | null | none |\n| kể chuyện đêm khuya | 79 | 39 | 72 | 199297 | +26.8% | 196675 | VN 98%, TH 2% |\n| truyện cổ tích việt nam | 75 | 62 | 60 | 98873 | +37.2% | 87241 | VN 91%, KR 3%, JP 3% |\n| truyện cổ tích | 76 | 71 | 57 | 124095 | +9.6% | 118454 | VN 95%, AU 2%, PL 2% |\n| kể chuyện bé nghe | 63 | 48 | 59 | 16686 | null | null | none |\n| chuyện cổ tích | 60 | 62 | 51 | 9948 | -61.5% | null | none |\n| truyện thiếu nhi | 54 | 39 | 57 | 4194 | null | null | none |\n| ke chuyen cho be nghe truoc khi ngu | 53 | 27 | 61 | 3820 | null | null | none |\n| đọc truyện đêm khuya | 71 | 54 | 61 | 61138 | +58.1% | 61138 | VN 100% |\n| phim hoạt hình | 80 | 58 | 65 | 232685 | +13.9% | 230100 | VN 99%, US 1% |\n| chuyện kể đêm khuya | 58 | 38 | 60 | 7901 | -33.2% | null | none |\n| câu chuyện cổ tích | 69 | 52 | 60 | 40331 | -34.3% | 36298 | VN 90%, PL 10% |\n| kể chuyện cho bé | 64 | 47 | 60 | 17956 | null | null | none |\n| truyen co tich | 62 | 45 | 59 | 14081 | -43.1% | null | none |\n| câu chuyện giáng sinh | 54 | 25 | 62 | 4110 | null | null | none |\n| kể chuyện | 77 | 43 | 69 | 135297 | -21.1% | 135297 | VN 100% |\n| chuyện dễ ngủ | 63 | 39 | 62 | 16902 | +238.5% | null | none |\n| giấc ngủ ngon | 55 | 41 | 57 | 4628 | null | null | none |\n| đọc truyện đêm khuya đài tiếng nói việt nam | 53 | 69 | 44 | 3710 | null | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "late-night-confessions",
+      "args": {
+        "mode": "research",
+        "keyword": "tâm sự đêm khuya",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| tâm sự đêm khuya | 67 | 53 | 59 | 33225 | +39.7% | null | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| tâm sự cùng văn sâm | 75 | 39 | 70 | 107779 | +9.9% | 104943 | VN 97%, FR 3% |\n| tâm sự cuộc sống | 64 | 29 | 67 | 20530 | +65.6% | null | none |\n| kể chuyện đêm khuya | 79 | 39 | 72 | 199297 | +26.8% | 196675 | VN 98%, TH 2% |\n| tâm sự đêm khuya pewpew | 59 | 69 | 48 | 9526 | +78.1% | null | none |\n| đọc truyện đêm khuya | 71 | 54 | 61 | 61138 | +58.1% | 61138 | VN 100% |\n| tâm sự cùng sâm | 69 | 38 | 66 | 41368 | -7.9% | 41368 | VN 100% |\n| chuyện đêm khuya | 70 | 41 | 66 | 50696 | -4.6% | 50696 | VN 100% |\n| kể truyện đêm khuya | 70 | 43 | 65 | 45820 | +86.6% | 45820 | VN 100% |\n| truyện đêm khuya | 75 | 45 | 67 | 107195 | +74.7% | 104298 | VN 97%, PL 3% |\n| tâm sự tuổi già | 75 | 35 | 71 | 105962 | -20.3% | 103098 | VN 97%, JP 3% |\n| pewpew tâm sự | 56 | 52 | 53 | 5604 | -60.2% | null | none |\n| đọc truyện tâm sự | 55 | 34 | 59 | 4602 | null | null | none |\n| nghe truyện đêm khuya | 65 | 46 | 61 | 22632 | +203.9% | null | none |\n| drama gia đình | 66 | 37 | 65 | 25802 | +23.6% | 25802 | VN 100% |\n| chuyện đời thật | 55 | 43 | 56 | 4751 | null | null | none |\n| kể chuyện đời | 63 | 40 | 62 | 16800 | -46.4% | null | none |\n| bi kịch gia đình | 55 | 47 | 55 | 5130 | null | null | none |\n| mẹ chồng nàng dâu | 78 | 66 | 61 | 181341 | +4.3% | 173341 | VN 96%, JP 4% |\n| bài học cuộc sống | 77 | 39 | 71 | 144986 | -0.1% | 139515 | VN 96%, US 2%, PL 2% |\n| truyện ngắn hay | 65 | 53 | 58 | 22172 | +31.6% | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "multicast-stories",
+      "args": {
+        "mode": "research",
+        "keyword": "truyện nhiều người",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| truyện nhiều người | 0 | null | null | <750 | null | null | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| truyện audio | 90 | 41 | 77 | 1083123 | +10.7% | 1072628 | VN 99%, JP 0%, NL 0% |\n| truyện ma | 87 | 40 | 77 | 705552 | +12.3% | 681223 | VN 96%, US 2%, AU 0% |\n| truyện ngôn tình | 77 | 46 | 67 | 137414 | -9.8% | 131917 | VN 96%, NL 2%, PL 2% |\n| truyện ma có thật | 67 | 73 | 51 | 29995 | +35.6% | 26996 | VN 90%, PL 10% |\n| truyện ma nguyễn huy | 77 | 78 | 55 | 152579 | +16.9% | 147130 | VN 96%, PH 4% |\n| nghe truyện ma | 61 | 54 | 55 | 12093 | -61.1% | null | none |\n| đất đồng radio | 79 | 59 | 64 | 184619 | +3.4% | 181982 | VN 98%, US 2% |\n| kể chuyện đêm khuya | 79 | 39 | 72 | 199297 | +26.8% | 196675 | VN 98%, TH 2% |\n| truyện ma làng quê | 63 | 70 | 50 | 16676 | -16.8% | null | none |\n| truyện kinh dị | 70 | 51 | 62 | 52248 | -6.5% | 52248 | VN 100% |\n| truyện ma duy thuận | 61 | 55 | 55 | 12938 | +233.5% | null | none |\n| đọc truyện đêm khuya | 71 | 54 | 61 | 61138 | +58.1% | 61138 | VN 100% |\n| truyện nhân quả | 76 | 45 | 68 | 123564 | +59.7% | 123564 | VN 100% |\n| tuổi xế chiều | 75 | 32 | 72 | 114003 | -25.2% | 114003 | VN 100% |\n| chuyện đêm khuya | 70 | 41 | 66 | 50696 | -4.6% | 50696 | VN 100% |\n| truyện ngôn tình hay | 63 | 55 | 56 | 16517 | +82.3% | null | none |\n| truyện đêm khuya | 75 | 45 | 67 | 107195 | +74.7% | 104298 | VN 97%, PL 3% |\n| chuyện ma có thật | 64 | 55 | 57 | 19983 | +83.9% | null | none |\n| truyen ma nguyen huy | 72 | 74 | 54 | 63937 | +77.2% | 63937 | VN 100% |\n| truyện ma mới nhất | 60 | 38 | 60 | 9934 | +175.6% | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "narrator-led-stories",
+      "args": {
+        "mode": "research",
+        "keyword": "người dẫn truyện",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| người dẫn truyện | 0 | 36 | 26 | <750 | null | null | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| người dẫn đường cõi âm | 67 | 53 | 59 | 32972 | +12.4% | null | none |\n| truyện ma làng quê | 63 | 70 | 50 | 16676 | -16.8% | null | none |\n| truyện ma duy thuận | 61 | 55 | 55 | 12938 | +233.5% | null | none |\n| truyện ma | 87 | 40 | 77 | 705552 | +12.3% | 681223 | VN 96%, US 2%, AU 0% |\n| truyen ma | 75 | 57 | 62 | 103137 | -25.2% | 100272 | VN 97%, US 3% |\n| nghe truyện ma | 61 | 54 | 55 | 12093 | -61.1% | null | none |\n| truyện ma mới nhất | 60 | 38 | 60 | 9934 | +175.6% | null | none |\n| truyện ma có thật | 67 | 73 | 51 | 29995 | +35.6% | 26996 | VN 90%, PL 10% |\n| truyện ma hay nhất | 59 | 53 | 54 | 9240 | +91.7% | null | none |\n| truyện ma ngắn | 65 | 47 | 60 | 22156 | -1.1% | null | none |\n| truyện ma nhân quả | 56 | 45 | 56 | 5461 | null | null | none |\n| truyện ma pháp sư | 52 | 53 | 50 | 3164 | null | null | none |\n| audio truyện ma | 65 | 34 | 66 | 22948 | +585.4% | null | none |\n| truyện ma kinh dị | 67 | 62 | 56 | 32961 | +61.6% | 30214 | VN 92%, PL 8% |\n| truyện ma dân gian | 62 | 55 | 55 | 13261 | -23% | null | none |\n| truyện ma bùa ngải | 60 | 55 | 54 | 9714 | +44.3% | null | none |\n| truyen ma co that | 53 | 50 | 52 | 3730 | null | null | none |\n| chuyện lạ có thật | 53 | 43 | 54 | 3327 | null | null | none |\n| truyện đêm khuya | 75 | 45 | 67 | 107195 | +74.7% | 104298 | VN 97%, PL 3% |\n| truyện ma nguyễn huy | 77 | 78 | 55 | 152579 | +16.9% | 147130 | VN 96%, PH 4% |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "english-through-trending-clips",
+      "args": {
+        "mode": "research",
+        "keyword": "học tiếng anh qua video",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| học tiếng anh qua video | 0 | 23 | 31 | <750 | null | null | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| học tiếng anh | 78 | 44 | 69 | 164453 | -7.9% | 159061 | VN 97%, US 2%, DE 2% |\n| tự học tiếng anh | 60 | 47 | 57 | 11049 | -37.3% | null | none |\n| tiếng anh giao tiếp | 68 | 33 | 67 | 34505 | +37.4% | 34505 | VN 100% |\n| tiếng anh | 76 | 45 | 68 | 123422 | +9% | 123422 | VN 100% |\n| học tiếng anh giao tiếp | 66 | 36 | 65 | 27071 | +13.3% | null | none |\n| học từ vựng tiếng anh mỗi ngày | 52 | 25 | 62 | 3258 | null | null | none |\n| học từ vựng tiếng anh hiệu quả | 53 | 34 | 58 | 3710 | null | null | none |\n| học phát âm tiếng anh | 63 | 30 | 66 | 17629 | +39.4% | null | none |\n| tiếng anh giao tiếp cơ bản | 61 | 40 | 60 | 11598 | -45.9% | null | none |\n| luyện nghe tiếng anh | 75 | 52 | 64 | 110905 | +16.1% | 110905 | VN 100% |\n| tiếng anh cho bé | 72 | 54 | 61 | 61770 | -11% | 61770 | VN 100% |\n| học tiếng anh cho bé | 73 | 51 | 63 | 72236 | -22.3% | 72236 | VN 100% |\n| tiếng anh cho người mất gốc | 55 | 39 | 58 | 4883 | null | null | none |\n| tiếng anh trẻ em | 58 | 29 | 64 | 8203 | -30.5% | null | none |\n| tiếng anh cơ bản | 61 | 23 | 67 | 12411 | -1.5% | null | none |\n| từ vựng tiếng anh | 68 | 39 | 65 | 33484 | +50.4% | null | none |\n| tiếng anh giao tiếp hàng ngày | 58 | 31 | 63 | 7900 | +1.3% | null | none |\n| học từ vựng tiếng anh | 61 | 32 | 64 | 12353 | -37.5% | null | none |\n| luyện nói tiếng anh | 65 | 30 | 67 | 24275 | +15.6% | null | none |\n| học tiếng anh mỗi ngày | 54 | 25 | 63 | 4471 | null | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "english-sleep-phrase-check",
+      "args": {
+        "mode": "research",
+        "keyword": "học tiếng anh khi ngủ",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| học tiếng anh khi ngủ | 0 | 46 | 22 | <750 | null | null | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| học tiếng anh | 78 | 44 | 69 | 164453 | -7.9% | 159061 | VN 97%, US 2%, DE 2% |\n| luyện nghe tiếng anh cơ bản | 58 | 56 | 53 | 8110 | -28.3% | null | none |\n| luyện nghe tiếng anh | 75 | 52 | 64 | 110905 | +16.1% | 110905 | VN 100% |\n| tiếng anh cơ bản | 61 | 23 | 67 | 12411 | -1.5% | null | none |\n| tiếng anh giao tiếp hàng ngày | 58 | 31 | 63 | 7900 | +1.3% | null | none |\n| tự học tiếng anh | 60 | 47 | 57 | 11049 | -37.3% | null | none |\n| tiếng anh cho người mới bắt đầu | 62 | 47 | 58 | 13486 | +29.6% | null | none |\n| tiếng anh giao tiếp | 68 | 33 | 67 | 34505 | +37.4% | 34505 | VN 100% |\n| luyện nghe tiếng anh giao tiếp hàng ngày | 55 | 39 | 57 | 4823 | null | null | none |\n| tiếng anh thụ động | 53 | 45 | 54 | 3304 | null | null | none |\n| tiếng anh | 76 | 45 | 68 | 123422 | +9% | 123422 | VN 100% |\n| học tiếng anh cho người mới bắt đầu | 71 | 45 | 65 | 58735 | +10.5% | 58735 | VN 100% |\n| học tiếng anh giao tiếp | 66 | 36 | 65 | 27071 | +13.3% | null | none |\n| tiếng anh cho người mất gốc | 55 | 39 | 58 | 4883 | null | null | none |\n| luyện nghe tiếng anh thụ động | 62 | 44 | 60 | 13818 | +87.6% | null | none |\n| nghe tiếng anh thụ động | 59 | 59 | 52 | 8946 | -58.9% | null | none |\n| học tiếng anh giao tiếp cơ bản cho người mới bắt đầu | 63 | 21 | 69 | 15883 | +29.7% | null | none |\n| học tiếng anh theo chủ đề | 56 | 14 | 68 | 5226 | -61.6% | null | none |\n| 100 câu tiếng anh | 55 | 37 | 59 | 5086 | null | null | none |\n| tiếng anh du lịch | 59 | 31 | 63 | 9495 | -53.3% | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "multicast-alternate-phrase",
+      "args": {
+        "mode": "research",
+        "keyword": "truyện nhiều giọng",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| truyện nhiều giọng | 0 | null | null | <750 | null | null | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| truyện audio | 90 | 41 | 77 | 1083123 | +10.7% | 1072628 | VN 99%, JP 0%, NL 0% |\n| truyện ngôn tình | 77 | 46 | 67 | 137414 | -9.8% | 131917 | VN 96%, NL 2%, PL 2% |\n| truyện full | 60 | 33 | 63 | 10392 | -45.9% | null | none |\n| truyện hay | 69 | 71 | 53 | 44421 | -11.8% | 41248 | VN 92%, PL 8% |\n| truyện ngắn | 62 | 51 | 57 | 14882 | -78.6% | null | none |\n| truyện đêm khuya | 75 | 45 | 67 | 107195 | +74.7% | 104298 | VN 97%, PL 3% |\n| đọc truyện đêm khuya | 71 | 54 | 61 | 61138 | +58.1% | 61138 | VN 100% |\n| review truyện | 78 | 50 | 67 | 163635 | +1% | 152905 | VN 93%, SG 2%, AO 2% |\n| audio truyện | 83 | 24 | 80 | 372756 | +3% | 363136 | VN 98%, CA 1%, US 1% |\n| truyện ngắn hay | 65 | 53 | 58 | 22172 | +31.6% | null | none |\n| kể chuyện đêm khuya | 79 | 39 | 72 | 199297 | +26.8% | 196675 | VN 98%, TH 2% |\n| dịt dàng audio | 60 | 47 | 57 | 10092 | -54.5% | null | none |\n| sách nói | 80 | 33 | 74 | 219677 | +12.7% | 206755 | VN 95%, KR 2%, DE 1% |\n| truyện review | 64 | 34 | 65 | 18424 | +4.2% | null | none |\n| truyện tâm lý xã hội | 58 | 52 | 54 | 7753 | +87.8% | null | none |\n| truyện đời thực | 66 | 61 | 55 | 28390 | +7.8% | null | VN 100% |\n| bts | 98 | 73 | 70 | 3734024 | +16.4% | 206052 | KR 14%, US 7%, BR 7% |\n| truyen audio | 74 | 42 | 68 | 95457 | +23.4% | 92564 | VN 97%, JP 3% |\n| vov đọc truyện | 59 | 59 | 52 | 8813 | null | null | none |\n| truyện đêm khuya hay nhất | 68 | 36 | 67 | 38171 | +22.9% | 30537 | VN 80%, US 20% |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "english-clips-film-proxy",
+      "args": {
+        "mode": "research",
+        "keyword": "học tiếng anh qua phim",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| học tiếng anh qua phim | 68 | 42 | 64 | 37222 | +41.6% | null | none |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| luyện nghe tiếng anh | 75 | 52 | 64 | 110905 | +16.1% | 110905 | VN 100% |\n| học tiếng anh | 78 | 44 | 69 | 164453 | -7.9% | 159061 | VN 97%, US 2%, DE 2% |\n| tiếng anh giao tiếp | 68 | 33 | 67 | 34505 | +37.4% | 34505 | VN 100% |\n| học tiếng anh qua phim hoạt hình | 53 | 29 | 61 | 3779 | null | null | none |\n| học tiếng anh giao tiếp | 66 | 36 | 65 | 27071 | +13.3% | null | none |\n| tự học tiếng anh | 60 | 47 | 57 | 11049 | -37.3% | null | none |\n| tiếng anh cho người mới bắt đầu | 62 | 47 | 58 | 13486 | +29.6% | null | none |\n| tiếng anh | 76 | 45 | 68 | 123422 | +9% | 123422 | VN 100% |\n| học tiếng anh song ngữ | 53 | 23 | 63 | 3557 | null | null | none |\n| phim tiếng anh | 70 | 30 | 70 | 45390 | +32.5% | 45390 | VN 100% |\n| phương pháp học tiếng anh | 53 | 40 | 56 | 3402 | null | null | none |\n| học tiếng anh cơ bản | 55 | 31 | 61 | 5011 | -0.4% | null | none |\n| luyện nói tiếng anh | 65 | 30 | 67 | 24275 | +15.6% | null | none |\n| cách học tiếng anh hiệu quả | 64 | 40 | 63 | 18992 | +123.9% | null | none |\n| luyen nghe tieng anh | 56 | 59 | 50 | 5819 | null | null | none |\n| learn english | 89 | 66 | 67 | 893177 | -9.1% | 105970 | IN 12%, VN 12%, PK 10% |\n| hoc tieng anh | 68 | 45 | 63 | 34985 | -37.4% | 34985 | VN 100% |\n| phim hoạt hình | 80 | 58 | 65 | 232685 | +13.9% | 230100 | VN 99%, US 1% |\n| đồn như lời | 76 | 50 | 66 | 117194 | -10.2% | 106033 | VN 93%, JP 5%, US 2% |\n| hoc tieng anh giao tiep | 57 | 31 | 62 | 7055 | null | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "english-sleep-global-phrase",
+      "args": {
+        "mode": "research",
+        "keyword": "learn english while you sleep",
+        "country": "VN",
+        "limit": 12,
+        "includeRelated": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "## Keyword research — mode: research · country: VN\n\n### seedKeyword (1)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| learn english while you sleep | 72 | 58 | 60 | 64029 | +251.1% | 30490 | VN 42%, BR 21%, PK 16% |\n\n### relatedKeywords (20)\n| keyword | volume | competition | overall | estimatedMonthlySearch | searchDemandGrowthPct | countryVolume | topMarkets (top 3) |\n|---|---|---|---|---|---|---|---|\n| learn english | 89 | 66 | 67 | 893177 | -9.1% | 105970 | IN 12%, VN 12%, PK 10% |\n| learn english while sleeping | 74 | 56 | 62 | 91248 | +63.3% | 26491 | VN 27%, PK 20%, NP 13% |\n| sleep learning english | 59 | 45 | 57 | 8345 | null | null | none |\n| learn english with jessica | 68 | 48 | 62 | 36087 | +27.5% | 18044 | VN 50%, ID 25%, BD 8% |\n| learn english sleeping | 53 | 42 | 55 | 3429 | null | null | none |\n| learn english fast | 65 | 50 | 59 | 21732 | -59.1% | null | none |\n| learn english conversation | 67 | 61 | 56 | 32901 | -10.1% | null | none |\n| english sleep learning | 58 | 45 | 57 | 7382 | -30.6% | null | none |\n| learn english with podcast | 71 | 63 | 57 | 58316 | +39.4% | 12277 | VN 22%, IN 11%, TR 11% |\n| learn english easy | 60 | 57 | 53 | 11032 | -41.8% | null | none |\n| how to learn english | 75 | 53 | 64 | 113958 | -29.7% | 8547 | PK 15%, IN 13%, BD 10% |\n| sleep english | 67 | 44 | 62 | 28746 | +197.9% | null | none |\n| learn english podcast | 77 | 67 | 59 | 137277 | +16.1% | 30201 | VN 21%, MA 15%, PK 13% |\n| english listening practice | 81 | 65 | 62 | 253025 | -5.6% | 30670 | BD 20%, PK 19%, IN 18% |\n| english speaking practice | 87 | 68 | 65 | 681853 | -21.2% | 35769 | IN 34%, BD 22%, PK 14% |\n| english for beginners | 76 | 49 | 66 | 122861 | -5.9% | 36300 | VN 30%, PK 16%, BD 9% |\n| english conversation | 83 | 69 | 62 | 387851 | -6.1% | 81401 | VN 20%, BD 11%, BR 11% |\n| sleep learning | 61 | 32 | 64 | 11383 | -38.8% | null | none |\n| english conversation practice | 76 | 54 | 64 | 124888 | -18.1% | 19427 | IN 18%, VN 16%, BD 13% |\n| improve listening skills english | 59 | 44 | 58 | 9359 | null | null | none |\n\nNote: Null or missing values are unknown, not 0: report those rows separately and keep real zeros and negative changes.\nNote: topMarkets shows at most the top three countries by search share: an absent country is unknown, not 0%."
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "key": "trend-english-sleep",
+      "args": {
+        "titleQuery": "learn english while you sleep",
+        "videoFormat": "long",
+        "videoTitleLanguage": "en",
+        "sortBy": "vph",
+        "limit": 6,
+        "videoPublishedAfter": "2026-09-27",
+        "videoPublishedBefore": "2026-10-28",
+        "requireAllTitleTerms": false
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"videos\":[{\"videoId\":\"g4ZmyjG6mNE\",\"videoTitle\":\"Learn English While You Sleep | How to learn English effectively: A Trip to Oxford (A2)\",\"videoTitleLanguage\":\"en\",\"videoPublishedAt\":\"2026-10-26T13:00:15.000Z\",\"videoDuration\":5938,\"channelId\":\"UCjHzMdtn9LTWLOjIo_e1-Zw\",\"channelTitle\":\"Tiếng Anh Suki\",\"channelCountry\":\"US\",\"subscriberCount\":44400,\"viewCount\":10607,\"likeCount\":82,\"commentCount\":10,\"engagementRate\":0.009,\"vph\":541.1734693877551,\"videoTags\":[\"learn english while you sleep\",\"english sleep learning\",\"learn english fast\",\"english listening practice\",\"english conversation\",\"beginner english\",\"intermediate english\",\"daily english phrases\",\"english immersion\",\"learn english naturally\",\"spoken english\",\"english vocabulary\",\"english pronunciation\",\"everyday english\",\"real life english\",\"english practice daily\",\"learn english effortlessly\",\"english for beginners\",\"english for travel\",\"english speaking practice\",\"yt:cc=on\"]},{\"videoId\":\"8uSFcZhAseY\",\"videoTitle\":\"Learn English While You Sleep | How to learn English effectively: First Job in England (A2)\",\"videoTitleLanguage\":\"en\",\"videoPublishedAt\":\"2026-10-20T13:00:25.000Z\",\"videoDuration\":5522,\"channelId\":\"UCjHzMdtn9LTWLOjIo_e1-Zw\",\"channelTitle\":\"Tiếng Anh Suki\",\"channelCountry\":\"US\",\"subscriberCount\":37200,\"viewCount\":25948,\"likeCount\":185,\"commentCount\":12,\"engagementRate\":0.008,\"vph\":250.90733279613215,\"videoTags\":[\"learn english while you sleep\",\"english sleep learning\",\"learn english fast\",\"english listening practice\",\"english conversation\",\"beginner english\",\"intermediate english\",\"daily english phrases\",\"english immersion\",\"learn english naturally\",\"spoken english\",\"english vocabulary\",\"english pronunciation\",\"everyday english\",\"real life english\",\"english practice daily\",\"learn english effortlessly\",\"english for beginners\",\"english for travel\",\"english speaking practice\",\"yt:cc=on\"]},{\"videoId\":\"aH_W_DO-OVU\",\"videoTitle\":\"Learn English While You Sleep | How to learn English effectively: The Missing Suitcase (A2–B1)\",\"videoTitleLanguage\":\"en\",\"videoPublishedAt\":\"2026-10-22T13:00:31.000Z\",\"videoDuration\":6873,\"channelId\":\"UCjHzMdtn9LTWLOjIo_e1-Zw\",\"channelTitle\":\"Tiếng Anh Suki\",\"channelCountry\":\"US\",\"subscriberCount\":39300,\"viewCount\":615,\"likeCount\":11,\"commentCount\":3,\"engagementRate\":0.023,\"vph\":110.1492537313433,\"videoTags\":[\"learn english while you sleep\",\"english sleep learning\",\"learn english fast\",\"english listening practice\",\"english conversation\",\"beginner english\",\"intermediate english\",\"daily english phrases\",\"english immersion\",\"learn english naturally\",\"spoken english\",\"english vocabulary\",\"english pronunciation\",\"everyday english\",\"real life english\",\"english practice daily\",\"learn english effortlessly\",\"english for beginners\",\"english for travel\",\"english speaking practice\",\"yt:cc=on\"]},{\"videoId\":\"vRiWv7uPc-o\",\"videoTitle\":\"Learn English While You Sleep | Easy Night Shift Vocabulary for Real Life (A2)\",\"videoTitleLanguage\":\"en\",\"videoPublishedAt\":\"2026-10-22T12:00:14.000Z\",\"videoDuration\":7555,\"channelId\":\"UCA4lmw97VvHWdsstTiRH4fg\",\"channelTitle\":\"English Suki Stories\",\"channelCountry\":\"US\",\"subscriberCount\":101,\"viewCount\":12556,\"likeCount\":73,\"commentCount\":1,\"engagementRate\":0.006,\"vph\":109.62747380675204,\"videoTags\":[\"learn english while you sleep\",\"english sleep learning\",\"learn english fast\",\"english listening practice\",\"english conversation\",\"beginner english\",\"intermediate english\",\"daily english phrases\",\"english immersion\",\"learn english naturally\",\"spoken english\",\"english vocabulary\",\"english pronunciation\",\"everyday english\",\"real life english\",\"english practice daily\",\"learn english effortlessly\",\"english for beginners\",\"english for travel\",\"english speaking practice\",\"yt:cc=on\"]}],\"_credits\":{\"used\":5}}"
+          }
+        ],
+        "structuredContent": {
+          "videos": [
+            {
+              "videoId": "g4ZmyjG6mNE",
+              "videoTitle": "Learn English While You Sleep | How to learn English effectively: A Trip to Oxford (A2)",
+              "videoTitleLanguage": "en",
+              "videoPublishedAt": "2026-10-26T13:00:15.000Z",
+              "videoDuration": 5938,
+              "channelId": "UCjHzMdtn9LTWLOjIo_e1-Zw",
+              "channelTitle": "Tiếng Anh Suki",
+              "channelCountry": "US",
+              "subscriberCount": 44400,
+              "viewCount": 10607,
+              "likeCount": 82,
+              "commentCount": 10,
+              "engagementRate": 0.009,
+              "vph": 541.1734693877551,
+              "videoTags": [
+                "learn english while you sleep",
+                "english sleep learning",
+                "learn english fast",
+                "english listening practice",
+                "english conversation",
+                "beginner english",
+                "intermediate english",
+                "daily english phrases",
+                "english immersion",
+                "learn english naturally",
+                "spoken english",
+                "english vocabulary",
+                "english pronunciation",
+                "everyday english",
+                "real life english",
+                "english practice daily",
+                "learn english effortlessly",
+                "english for beginners",
+                "english for travel",
+                "english speaking practice",
+                "yt:cc=on"
+              ]
+            },
+            {
+              "videoId": "8uSFcZhAseY",
+              "videoTitle": "Learn English While You Sleep | How to learn English effectively: First Job in England (A2)",
+              "videoTitleLanguage": "en",
+              "videoPublishedAt": "2026-10-20T13:00:25.000Z",
+              "videoDuration": 5522,
+              "channelId": "UCjHzMdtn9LTWLOjIo_e1-Zw",
+              "channelTitle": "Tiếng Anh Suki",
+              "channelCountry": "US",
+              "subscriberCount": 37200,
+              "viewCount": 25948,
+              "likeCount": 185,
+              "commentCount": 12,
+              "engagementRate": 0.008,
+              "vph": 250.90733279613215,
+              "videoTags": [
+                "learn english while you sleep",
+                "english sleep learning",
+                "learn english fast",
+                "english listening practice",
+                "english conversation",
+                "beginner english",
+                "intermediate english",
+                "daily english phrases",
+                "english immersion",
+                "learn english naturally",
+                "spoken english",
+                "english vocabulary",
+                "english pronunciation",
+                "everyday english",
+                "real life english",
+                "english practice daily",
+                "learn english effortlessly",
+                "english for beginners",
+                "english for travel",
+                "english speaking practice",
+                "yt:cc=on"
+              ]
+            },
+            {
+              "videoId": "aH_W_DO-OVU",
+              "videoTitle": "Learn English While You Sleep | How to learn English effectively: The Missing Suitcase (A2–B1)",
+              "videoTitleLanguage": "en",
+              "videoPublishedAt": "2026-10-22T13:00:31.000Z",
+              "videoDuration": 6873,
+              "channelId": "UCjHzMdtn9LTWLOjIo_e1-Zw",
+              "channelTitle": "Tiếng Anh Suki",
+              "channelCountry": "US",
+              "subscriberCount": 39300,
+              "viewCount": 615,
+              "likeCount": 11,
+              "commentCount": 3,
+              "engagementRate": 0.023,
+              "vph": 110.1492537313433,
+              "videoTags": [
+                "learn english while you sleep",
+                "english sleep learning",
+                "learn english fast",
+                "english listening practice",
+                "english conversation",
+                "beginner english",
+                "intermediate english",
+                "daily english phrases",
+                "english immersion",
+                "learn english naturally",
+                "spoken english",
+                "english vocabulary",
+                "english pronunciation",
+                "everyday english",
+                "real life english",
+                "english practice daily",
+                "learn english effortlessly",
+                "english for beginners",
+                "english for travel",
+                "english speaking practice",
+                "yt:cc=on"
+              ]
+            },
+            {
+              "videoId": "vRiWv7uPc-o",
+              "videoTitle": "Learn English While You Sleep | Easy Night Shift Vocabulary for Real Life (A2)",
+              "videoTitleLanguage": "en",
+              "videoPublishedAt": "2026-10-22T12:00:14.000Z",
+              "videoDuration": 7555,
+              "channelId": "UCA4lmw97VvHWdsstTiRH4fg",
+              "channelTitle": "English Suki Stories",
+              "channelCountry": "US",
+              "subscriberCount": 101,
+              "viewCount": 12556,
+              "likeCount": 73,
+              "commentCount": 1,
+              "engagementRate": 0.006,
+              "vph": 109.62747380675204,
+              "videoTags": [
+                "learn english while you sleep",
+                "english sleep learning",
+                "learn english fast",
+                "english listening practice",
+                "english conversation",
+                "beginner english",
+                "intermediate english",
+                "daily english phrases",
+                "english immersion",
+                "learn english naturally",
+                "spoken english",
+                "english vocabulary",
+                "english pronunciation",
+                "everyday english",
+                "real life english",
+                "english practice daily",
+                "learn english effortlessly",
+                "english for beginners",
+                "english for travel",
+                "english speaking practice",
+                "yt:cc=on"
+              ]
+            }
+          ],
+          "_credits": {
+            "used": 5
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "key": "trend-sleep-stories",
+      "args": {
+        "titleQuery": "truyện dễ ngủ",
+        "videoFormat": "long",
+        "videoTitleLanguage": "vi",
+        "sortBy": "vph",
+        "limit": 6,
+        "videoPublishedAfter": "2026-09-27",
+        "videoPublishedBefore": "2026-10-28",
+        "requireAllTitleTerms": false
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"videos\":[{\"videoId\":\"lPUAQgq0QIM\",\"videoTitle\":\"Hay Thấu Trời - Cả xóm nghe mê mẩn: BÓC BÁNH TRẢ TIỀN - Đọc truyện đêm khuya ngủ ngon\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-27T04:07:49.000Z\",\"videoDuration\":8309,\"channelId\":\"UC6fLxGEmGuDp-FgiVymVqnA\",\"channelTitle\":\"Radio Truyện đêm khuya\",\"channelCountry\":\"VN\",\"subscriberCount\":63900,\"viewCount\":6032,\"likeCount\":25,\"commentCount\":4,\"engagementRate\":0.005,\"vph\":828.1922196796339,\"videoTags\":[]},{\"videoId\":\"1JZGSJo913E\",\"videoTitle\":\"Hay nhất việt nam! Cả xóm nghe mê mẩn: ĐÀN BÀ U50 LẠC LỖI - Đọc truyện đêm khuya ngủ ngon\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-26T12:46:35.000Z\",\"videoDuration\":12698,\"channelId\":\"UC6fLxGEmGuDp-FgiVymVqnA\",\"channelTitle\":\"Radio Truyện đêm khuya\",\"channelCountry\":\"VN\",\"subscriberCount\":63900,\"viewCount\":10675,\"likeCount\":59,\"commentCount\":6,\"engagementRate\":0.006,\"vph\":539.1414141414141,\"videoTags\":[]},{\"videoId\":\"ixi6C5cTtDA\",\"videoTitle\":\"Truyện Đời Thực Nghe Thấm Lắm: CÁI DẠI ĐỂ ĐỜI - Tập 1 - Đọc Truyện Đêm Khuya Ngủ Ngon #mcthuhue\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-26T12:30:16.000Z\",\"videoDuration\":3864,\"channelId\":\"UCzNM2qdcBKVyBOPxu5AqLTQ\",\"channelTitle\":\"Mc Thu Huệ Official\",\"channelCountry\":\"VN\",\"subscriberCount\":904000,\"viewCount\":8138,\"likeCount\":107,\"commentCount\":8,\"engagementRate\":0.014,\"vph\":450.0276497695853,\"videoTags\":[\"truyện full trọn bộ\",\"truyện thực tế\",\"mc thu huệ\",\"thu huệ đọc truyện\",\"mc thu hue\",\"mc thu huệ official\"]},{\"videoId\":\"AXTIn1ueecc\",\"videoTitle\":\"Truyện đời thực nghe là RẠO RỰC: NHẤT BUỔI TRƯA NHÌ TRỜI MƯA - Đọc truyện đêm khuya ngủ ngon\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-23T04:00:11.000Z\",\"videoDuration\":7267,\"channelId\":\"UCtxEHLUCGTV0jCl4YIOFeNg\",\"channelTitle\":\"Tuổi Già Kể Chuyện\",\"channelCountry\":\"US\",\"subscriberCount\":17600,\"viewCount\":37966,\"likeCount\":600,\"commentCount\":23,\"engagementRate\":0.016,\"vph\":445.4360578803285,\"videoTags\":[\"Tuổi Già Kể Chuyện\",\"chuyện tuổi già\",\"chuyện đêm khuya\",\"chuyện gia đình\",\"sự trả thù của người già\",\"truyện đêm khuya\",\"đọc truyện đêm khuya\",\"kể chuyện đêm khuya\",\"nghe đọc truyện\",\"truyện đêm khuya dễ ngủ\",\"chuyện vợ chồng\",\"câu chuyện tuổi già\",\"truyện cho người già\",\"câu chuyện tuổi xế chiều\",\"tuổi xế chiều\",\"tuổi già\",\"truyện hay đêm khuya\",\"nghe truyện đêm khuya\",\"truyện đời thường\",\"chuyện thầm kín\",\"truyện đời hay\",\"truyện tình cảm\",\"tuổi già cô đơn\",\"chuyện nhân quả\"]},{\"videoId\":\"15ISmaTfCd0\",\"videoTitle\":\"Cảm xúc dâng trào! Nghe là mê mẩn: ĐÀN BÀ U70 LẠC LỐI - Đọc truyện đêm khuya ngủ ngon\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-27T04:00:32.000Z\",\"videoDuration\":8075,\"channelId\":\"UCtxEHLUCGTV0jCl4YIOFeNg\",\"channelTitle\":\"Tuổi Già Kể Chuyện\",\"channelCountry\":\"US\",\"subscriberCount\":17800,\"viewCount\":2369,\"likeCount\":102,\"commentCount\":2,\"engagementRate\":0.044,\"vph\":429.42598187311177,\"videoTags\":[\"Tuổi Già Kể Chuyện\",\"chuyện tuổi già\",\"chuyện đêm khuya\",\"chuyện gia đình\",\"sự trả thù của người già\",\"truyện đêm khuya\",\"đọc truyện đêm khuya\",\"kể chuyện đêm khuya\",\"câu chuyện tuổi già\",\"truyện cho người già\",\"câu chuyện tuổi xế chiều\",\"tuổi xế chiều\",\"tuổi già\",\"truyện hay đêm khuya\",\"nghe truyện đêm khuya\",\"truyện tuổi già\",\"tâm sự tuổi xế chiều\",\"truyện đời thường\",\"truyện đời hay\",\"truyện tình cảm\",\"bài học cuộc sống\",\"chuyện thầm kín\",\"chuyện kể tuổi xế chiều\",\"kể chuyện tuổi già\"]},{\"videoId\":\"ZRtvWTe82CA\",\"videoTitle\":\"Truyện Đêm Khuya Đặc Sắc Nhất 2026 | Đọc Truyện Đêm Khuya Dành Cho Người Khó Ngủ\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-25T12:00:02.000Z\",\"videoDuration\":3722,\"channelId\":\"UCcaZ9tkszVh-HIxbrsrQRxQ\",\"channelTitle\":\"Chuyện Gia Đình Việt\",\"channelCountry\":\"VN\",\"subscriberCount\":733,\"viewCount\":14183,\"likeCount\":156,\"commentCount\":19,\"engagementRate\":0.012,\"vph\":344.94527766518036,\"videoTags\":[\"Chuyện Gia Đình Việt\",\"truyện hay mỗi ngày\",\"chuyện làng quê\",\"truyện đêm khuya\",\"câu chuyện tuổi già\",\"người cao tuổi\",\"chuyện gia đình\",\"mẹ chồng nàng dâu\",\"me chong nang dau\",\"tuổi trung niên\",\"cuộc sống người già\",\"bài học cuộc sống\",\"triết lý cuộc sống\",\"hôn nhân và cuộc sống\",\"truyện ngắn thực tế\",\"truyện đời thực\",\"truyện hay\",\"câu chuyện làng quê\",\"đêm khuya nghe chuyện\",\"đọc truyện đêm khuya\",\"chuyen gia dinh viet\",\"truyện đêm khuya đặc sắc\",\"hôn nhân sắp đặt\",\"ZRtvWTe82CA\"]}],\"_credits\":{\"used\":5}}"
+          }
+        ],
+        "structuredContent": {
+          "videos": [
+            {
+              "videoId": "lPUAQgq0QIM",
+              "videoTitle": "Hay Thấu Trời - Cả xóm nghe mê mẩn: BÓC BÁNH TRẢ TIỀN - Đọc truyện đêm khuya ngủ ngon",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-27T04:07:49.000Z",
+              "videoDuration": 8309,
+              "channelId": "UC6fLxGEmGuDp-FgiVymVqnA",
+              "channelTitle": "Radio Truyện đêm khuya",
+              "channelCountry": "VN",
+              "subscriberCount": 63900,
+              "viewCount": 6032,
+              "likeCount": 25,
+              "commentCount": 4,
+              "engagementRate": 0.005,
+              "vph": 828.1922196796339,
+              "videoTags": []
+            },
+            {
+              "videoId": "1JZGSJo913E",
+              "videoTitle": "Hay nhất việt nam! Cả xóm nghe mê mẩn: ĐÀN BÀ U50 LẠC LỖI - Đọc truyện đêm khuya ngủ ngon",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-26T12:46:35.000Z",
+              "videoDuration": 12698,
+              "channelId": "UC6fLxGEmGuDp-FgiVymVqnA",
+              "channelTitle": "Radio Truyện đêm khuya",
+              "channelCountry": "VN",
+              "subscriberCount": 63900,
+              "viewCount": 10675,
+              "likeCount": 59,
+              "commentCount": 6,
+              "engagementRate": 0.006,
+              "vph": 539.1414141414141,
+              "videoTags": []
+            },
+            {
+              "videoId": "ixi6C5cTtDA",
+              "videoTitle": "Truyện Đời Thực Nghe Thấm Lắm: CÁI DẠI ĐỂ ĐỜI - Tập 1 - Đọc Truyện Đêm Khuya Ngủ Ngon #mcthuhue",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-26T12:30:16.000Z",
+              "videoDuration": 3864,
+              "channelId": "UCzNM2qdcBKVyBOPxu5AqLTQ",
+              "channelTitle": "Mc Thu Huệ Official",
+              "channelCountry": "VN",
+              "subscriberCount": 904000,
+              "viewCount": 8138,
+              "likeCount": 107,
+              "commentCount": 8,
+              "engagementRate": 0.014,
+              "vph": 450.0276497695853,
+              "videoTags": [
+                "truyện full trọn bộ",
+                "truyện thực tế",
+                "mc thu huệ",
+                "thu huệ đọc truyện",
+                "mc thu hue",
+                "mc thu huệ official"
+              ]
+            },
+            {
+              "videoId": "AXTIn1ueecc",
+              "videoTitle": "Truyện đời thực nghe là RẠO RỰC: NHẤT BUỔI TRƯA NHÌ TRỜI MƯA - Đọc truyện đêm khuya ngủ ngon",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-23T04:00:11.000Z",
+              "videoDuration": 7267,
+              "channelId": "UCtxEHLUCGTV0jCl4YIOFeNg",
+              "channelTitle": "Tuổi Già Kể Chuyện",
+              "channelCountry": "US",
+              "subscriberCount": 17600,
+              "viewCount": 37966,
+              "likeCount": 600,
+              "commentCount": 23,
+              "engagementRate": 0.016,
+              "vph": 445.4360578803285,
+              "videoTags": [
+                "Tuổi Già Kể Chuyện",
+                "chuyện tuổi già",
+                "chuyện đêm khuya",
+                "chuyện gia đình",
+                "sự trả thù của người già",
+                "truyện đêm khuya",
+                "đọc truyện đêm khuya",
+                "kể chuyện đêm khuya",
+                "nghe đọc truyện",
+                "truyện đêm khuya dễ ngủ",
+                "chuyện vợ chồng",
+                "câu chuyện tuổi già",
+                "truyện cho người già",
+                "câu chuyện tuổi xế chiều",
+                "tuổi xế chiều",
+                "tuổi già",
+                "truyện hay đêm khuya",
+                "nghe truyện đêm khuya",
+                "truyện đời thường",
+                "chuyện thầm kín",
+                "truyện đời hay",
+                "truyện tình cảm",
+                "tuổi già cô đơn",
+                "chuyện nhân quả"
+              ]
+            },
+            {
+              "videoId": "15ISmaTfCd0",
+              "videoTitle": "Cảm xúc dâng trào! Nghe là mê mẩn: ĐÀN BÀ U70 LẠC LỐI - Đọc truyện đêm khuya ngủ ngon",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-27T04:00:32.000Z",
+              "videoDuration": 8075,
+              "channelId": "UCtxEHLUCGTV0jCl4YIOFeNg",
+              "channelTitle": "Tuổi Già Kể Chuyện",
+              "channelCountry": "US",
+              "subscriberCount": 17800,
+              "viewCount": 2369,
+              "likeCount": 102,
+              "commentCount": 2,
+              "engagementRate": 0.044,
+              "vph": 429.42598187311177,
+              "videoTags": [
+                "Tuổi Già Kể Chuyện",
+                "chuyện tuổi già",
+                "chuyện đêm khuya",
+                "chuyện gia đình",
+                "sự trả thù của người già",
+                "truyện đêm khuya",
+                "đọc truyện đêm khuya",
+                "kể chuyện đêm khuya",
+                "câu chuyện tuổi già",
+                "truyện cho người già",
+                "câu chuyện tuổi xế chiều",
+                "tuổi xế chiều",
+                "tuổi già",
+                "truyện hay đêm khuya",
+                "nghe truyện đêm khuya",
+                "truyện tuổi già",
+                "tâm sự tuổi xế chiều",
+                "truyện đời thường",
+                "truyện đời hay",
+                "truyện tình cảm",
+                "bài học cuộc sống",
+                "chuyện thầm kín",
+                "chuyện kể tuổi xế chiều",
+                "kể chuyện tuổi già"
+              ]
+            },
+            {
+              "videoId": "ZRtvWTe82CA",
+              "videoTitle": "Truyện Đêm Khuya Đặc Sắc Nhất 2026 | Đọc Truyện Đêm Khuya Dành Cho Người Khó Ngủ",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-25T12:00:02.000Z",
+              "videoDuration": 3722,
+              "channelId": "UCcaZ9tkszVh-HIxbrsrQRxQ",
+              "channelTitle": "Chuyện Gia Đình Việt",
+              "channelCountry": "VN",
+              "subscriberCount": 733,
+              "viewCount": 14183,
+              "likeCount": 156,
+              "commentCount": 19,
+              "engagementRate": 0.012,
+              "vph": 344.94527766518036,
+              "videoTags": [
+                "Chuyện Gia Đình Việt",
+                "truyện hay mỗi ngày",
+                "chuyện làng quê",
+                "truyện đêm khuya",
+                "câu chuyện tuổi già",
+                "người cao tuổi",
+                "chuyện gia đình",
+                "mẹ chồng nàng dâu",
+                "me chong nang dau",
+                "tuổi trung niên",
+                "cuộc sống người già",
+                "bài học cuộc sống",
+                "triết lý cuộc sống",
+                "hôn nhân và cuộc sống",
+                "truyện ngắn thực tế",
+                "truyện đời thực",
+                "truyện hay",
+                "câu chuyện làng quê",
+                "đêm khuya nghe chuyện",
+                "đọc truyện đêm khuya",
+                "chuyen gia dinh viet",
+                "truyện đêm khuya đặc sắc",
+                "hôn nhân sắp đặt",
+                "ZRtvWTe82CA"
+              ]
+            }
+          ],
+          "_credits": {
+            "used": 5
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "key": "trend-late-night-confessions",
+      "args": {
+        "titleQuery": "tâm sự đêm khuya",
+        "videoFormat": "long",
+        "videoTitleLanguage": "vi",
+        "sortBy": "vph",
+        "limit": 6,
+        "videoPublishedAfter": "2026-09-27",
+        "videoPublishedBefore": "2026-10-28",
+        "requireAllTitleTerms": false
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"videos\":[{\"videoId\":\"jyL0GOLXn6Q\",\"videoTitle\":\"CHÀNG BẢO VỆ SI TÌNH VÀ NGƯỜI NUÔI BỆNH GÓA BỤA - Kể Truyện Đêm Khuya Đặc Sắc\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-26T16:34:00.000Z\",\"videoDuration\":3421,\"channelId\":\"UCilEtm9LRa0-LOW5_ROr_5w\",\"channelTitle\":\"DaiTrang 2pfv3yj5gi\",\"channelCountry\":null,\"subscriberCount\":4630,\"viewCount\":40564,\"likeCount\":984,\"commentCount\":4,\"engagementRate\":0.024,\"vph\":2393.156342182891,\"videoTags\":[]},{\"videoId\":\"-SwagkV_o2k\",\"videoTitle\":\"| TÂM SỰ ĐÊM KHUYA | Bạn giàu sang tôi sống cơ hàn, 10 hãng xe ô tô PewPew sẽ bán!\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-21T04:00:15.000Z\",\"videoDuration\":3722,\"channelId\":\"UCsaMa3VD1I9G952DDlOX7aw\",\"channelTitle\":\"PEWPEW\",\"channelCountry\":\"VN\",\"subscriberCount\":3740000,\"viewCount\":273876,\"likeCount\":1216,\"commentCount\":26,\"engagementRate\":0.005,\"vph\":1843.2484576556365,\"videoTags\":[\"PEWPEW\",\"pewpew\",\"pewpewvn\",\"pewpewtalkshow\",\"talkshowpewpew\",\"pew\",\"tạp hóa pewpew\",\"tiệm tạp hóa pewpew\",\"tạp hóa\",\"tạp hóa pew pew\",\"pewpew bán giấy\",\"pewpew live bán hàng\",\"pewpew mỏ hỗn\",\"pewpew live bán giấy\",\"pewpew livestream bán hàng\",\"pewpew bán hàng trên tiktok\",\"pewpew hay nhất\",\"streamer pewpew\",\"pewpew tâm sự\",\"pewpew nấu ăn\",\"pewpew funny\",\"pewpew stream\",\"tiktok bán hàng\",\"pew bán hàng tiktok\",\"tâm sự đêm khuya\",\"tâm sự đêm khuya pewpew\",\"pewpew định hướng\",\"định hướng giới trẻ\"]},{\"videoId\":\"lPUAQgq0QIM\",\"videoTitle\":\"Hay Thấu Trời - Cả xóm nghe mê mẩn: BÓC BÁNH TRẢ TIỀN - Đọc truyện đêm khuya ngủ ngon\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-27T04:07:49.000Z\",\"videoDuration\":8309,\"channelId\":\"UC6fLxGEmGuDp-FgiVymVqnA\",\"channelTitle\":\"Radio Truyện đêm khuya\",\"channelCountry\":\"VN\",\"subscriberCount\":63900,\"viewCount\":6032,\"likeCount\":25,\"commentCount\":4,\"engagementRate\":0.005,\"vph\":828.1922196796339,\"videoTags\":[]},{\"videoId\":\"cuo_9UjyxxQ\",\"videoTitle\":\"Nghe thôi cũng hứng thú: MỘT ĐÊM TRÓT DẠI - Đọc Truyện Đêm Khuya Hay Nhất #mcthuhue kể cuốn\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-26T11:30:33.000Z\",\"videoDuration\":18579,\"channelId\":\"UCLsq1vVFdVJfns0xdCHXYHQ\",\"channelTitle\":\"Radio Đêm Official\",\"channelCountry\":\"VN\",\"subscriberCount\":53200,\"viewCount\":3572,\"likeCount\":41,\"commentCount\":1,\"engagementRate\":0.012,\"vph\":663.5294117647059,\"videoTags\":[\"Radio Đêm\",\"Chuyện đêm khuya\",\"kể chuyện đêm khuya\",\"truyện thực tế\",\"truyện hôn nhân và cuộc sống\",\"đọc truyện đêm khuya\",\"đọc truyện đêm khuya ngủ ngon\",\"mc thu huệ\",\"truyện full thu huệ\"]},{\"videoId\":\"quBSyABwg-E\",\"videoTitle\":\"Siêu Phẩm Truyện Đêm Khuya: ÔNG TRỜI SE DUYÊN - Tập 1 - Đọc Truyện Đêm Khuya Hay Nhất #mcthuhue\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-21T12:00:12.000Z\",\"videoDuration\":3644,\"channelId\":\"UCzNM2qdcBKVyBOPxu5AqLTQ\",\"channelTitle\":\"Mc Thu Huệ Official\",\"channelCountry\":\"VN\",\"subscriberCount\":904000,\"viewCount\":74063,\"likeCount\":435,\"commentCount\":21,\"engagementRate\":0.006,\"vph\":546.6576454668472,\"videoTags\":[\"truyện full trọn bộ\",\"truyện thực tế\",\"mc thu huệ\",\"thu huệ đọc truyện\",\"mc thu hue\",\"mc thu huệ official\"]},{\"videoId\":\"9PIveOcNuBw\",\"videoTitle\":\"Vừa nghe đã rực người! Cả xóm rủ nhau nghe: CỦA LẠ NGẬP NƯỚC | Đọc Truyện đêm đêm khuya\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-26T04:00:13.000Z\",\"videoDuration\":3888,\"channelId\":\"UCLZl-rzZxDZHLFGoB_tjEfg\",\"channelTitle\":\"Chuyện Tuổi Xế Chiều\",\"channelCountry\":\"VN\",\"subscriberCount\":4990,\"viewCount\":9937,\"likeCount\":150,\"commentCount\":9,\"engagementRate\":0.016,\"vph\":440.0147601476015,\"videoTags\":[\"Chuyện Tuổi Xế Chiều\",\"chuyen tuoi xe chieu\",\"chuyện tuổi già\",\"chuyện đêm khuya\",\"chuyện gia đình\",\"tuổi xế chiều\",\"truyện đêm khuya\",\"tâm sự tuổi già\",\"chuyện cuộc sống\",\"kể chuyện hay\",\"truyện cảm động\",\"người cao tuổi\",\"câu chuyện cuộc sống\",\"đọc truyện đêm khuya\",\"truyện tuổi già\",\"chuyện người cao tuổi\",\"truyện hay mỗi ngày\",\"tâm sự tuổi xế chiều\",\"Vừa nghe đã rực người! Cả xóm rủ nhau nghe: CỦA LẠ NGẬP NƯỚC | Đọc Truyện đêm đêm khuya\",\"u70 phải lòng gái bán hoa\",\"9PIveOcNuBw\"]}],\"_credits\":{\"used\":5}}"
+          }
+        ],
+        "structuredContent": {
+          "videos": [
+            {
+              "videoId": "jyL0GOLXn6Q",
+              "videoTitle": "CHÀNG BẢO VỆ SI TÌNH VÀ NGƯỜI NUÔI BỆNH GÓA BỤA - Kể Truyện Đêm Khuya Đặc Sắc",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-26T16:34:00.000Z",
+              "videoDuration": 3421,
+              "channelId": "UCilEtm9LRa0-LOW5_ROr_5w",
+              "channelTitle": "DaiTrang 2pfv3yj5gi",
+              "channelCountry": null,
+              "subscriberCount": 4630,
+              "viewCount": 40564,
+              "likeCount": 984,
+              "commentCount": 4,
+              "engagementRate": 0.024,
+              "vph": 2393.156342182891,
+              "videoTags": []
+            },
+            {
+              "videoId": "-SwagkV_o2k",
+              "videoTitle": "| TÂM SỰ ĐÊM KHUYA | Bạn giàu sang tôi sống cơ hàn, 10 hãng xe ô tô PewPew sẽ bán!",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-21T04:00:15.000Z",
+              "videoDuration": 3722,
+              "channelId": "UCsaMa3VD1I9G952DDlOX7aw",
+              "channelTitle": "PEWPEW",
+              "channelCountry": "VN",
+              "subscriberCount": 3740000,
+              "viewCount": 273876,
+              "likeCount": 1216,
+              "commentCount": 26,
+              "engagementRate": 0.005,
+              "vph": 1843.2484576556365,
+              "videoTags": [
+                "PEWPEW",
+                "pewpew",
+                "pewpewvn",
+                "pewpewtalkshow",
+                "talkshowpewpew",
+                "pew",
+                "tạp hóa pewpew",
+                "tiệm tạp hóa pewpew",
+                "tạp hóa",
+                "tạp hóa pew pew",
+                "pewpew bán giấy",
+                "pewpew live bán hàng",
+                "pewpew mỏ hỗn",
+                "pewpew live bán giấy",
+                "pewpew livestream bán hàng",
+                "pewpew bán hàng trên tiktok",
+                "pewpew hay nhất",
+                "streamer pewpew",
+                "pewpew tâm sự",
+                "pewpew nấu ăn",
+                "pewpew funny",
+                "pewpew stream",
+                "tiktok bán hàng",
+                "pew bán hàng tiktok",
+                "tâm sự đêm khuya",
+                "tâm sự đêm khuya pewpew",
+                "pewpew định hướng",
+                "định hướng giới trẻ"
+              ]
+            },
+            {
+              "videoId": "lPUAQgq0QIM",
+              "videoTitle": "Hay Thấu Trời - Cả xóm nghe mê mẩn: BÓC BÁNH TRẢ TIỀN - Đọc truyện đêm khuya ngủ ngon",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-27T04:07:49.000Z",
+              "videoDuration": 8309,
+              "channelId": "UC6fLxGEmGuDp-FgiVymVqnA",
+              "channelTitle": "Radio Truyện đêm khuya",
+              "channelCountry": "VN",
+              "subscriberCount": 63900,
+              "viewCount": 6032,
+              "likeCount": 25,
+              "commentCount": 4,
+              "engagementRate": 0.005,
+              "vph": 828.1922196796339,
+              "videoTags": []
+            },
+            {
+              "videoId": "cuo_9UjyxxQ",
+              "videoTitle": "Nghe thôi cũng hứng thú: MỘT ĐÊM TRÓT DẠI - Đọc Truyện Đêm Khuya Hay Nhất #mcthuhue kể cuốn",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-26T11:30:33.000Z",
+              "videoDuration": 18579,
+              "channelId": "UCLsq1vVFdVJfns0xdCHXYHQ",
+              "channelTitle": "Radio Đêm Official",
+              "channelCountry": "VN",
+              "subscriberCount": 53200,
+              "viewCount": 3572,
+              "likeCount": 41,
+              "commentCount": 1,
+              "engagementRate": 0.012,
+              "vph": 663.5294117647059,
+              "videoTags": [
+                "Radio Đêm",
+                "Chuyện đêm khuya",
+                "kể chuyện đêm khuya",
+                "truyện thực tế",
+                "truyện hôn nhân và cuộc sống",
+                "đọc truyện đêm khuya",
+                "đọc truyện đêm khuya ngủ ngon",
+                "mc thu huệ",
+                "truyện full thu huệ"
+              ]
+            },
+            {
+              "videoId": "quBSyABwg-E",
+              "videoTitle": "Siêu Phẩm Truyện Đêm Khuya: ÔNG TRỜI SE DUYÊN - Tập 1 - Đọc Truyện Đêm Khuya Hay Nhất #mcthuhue",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-21T12:00:12.000Z",
+              "videoDuration": 3644,
+              "channelId": "UCzNM2qdcBKVyBOPxu5AqLTQ",
+              "channelTitle": "Mc Thu Huệ Official",
+              "channelCountry": "VN",
+              "subscriberCount": 904000,
+              "viewCount": 74063,
+              "likeCount": 435,
+              "commentCount": 21,
+              "engagementRate": 0.006,
+              "vph": 546.6576454668472,
+              "videoTags": [
+                "truyện full trọn bộ",
+                "truyện thực tế",
+                "mc thu huệ",
+                "thu huệ đọc truyện",
+                "mc thu hue",
+                "mc thu huệ official"
+              ]
+            },
+            {
+              "videoId": "9PIveOcNuBw",
+              "videoTitle": "Vừa nghe đã rực người! Cả xóm rủ nhau nghe: CỦA LẠ NGẬP NƯỚC | Đọc Truyện đêm đêm khuya",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-26T04:00:13.000Z",
+              "videoDuration": 3888,
+              "channelId": "UCLZl-rzZxDZHLFGoB_tjEfg",
+              "channelTitle": "Chuyện Tuổi Xế Chiều",
+              "channelCountry": "VN",
+              "subscriberCount": 4990,
+              "viewCount": 9937,
+              "likeCount": 150,
+              "commentCount": 9,
+              "engagementRate": 0.016,
+              "vph": 440.0147601476015,
+              "videoTags": [
+                "Chuyện Tuổi Xế Chiều",
+                "chuyen tuoi xe chieu",
+                "chuyện tuổi già",
+                "chuyện đêm khuya",
+                "chuyện gia đình",
+                "tuổi xế chiều",
+                "truyện đêm khuya",
+                "tâm sự tuổi già",
+                "chuyện cuộc sống",
+                "kể chuyện hay",
+                "truyện cảm động",
+                "người cao tuổi",
+                "câu chuyện cuộc sống",
+                "đọc truyện đêm khuya",
+                "truyện tuổi già",
+                "chuyện người cao tuổi",
+                "truyện hay mỗi ngày",
+                "tâm sự tuổi xế chiều",
+                "Vừa nghe đã rực người! Cả xóm rủ nhau nghe: CỦA LẠ NGẬP NƯỚC | Đọc Truyện đêm đêm khuya",
+                "u70 phải lòng gái bán hoa",
+                "9PIveOcNuBw"
+              ]
+            }
+          ],
+          "_credits": {
+            "used": 5
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "key": "trend-multicast-stories",
+      "args": {
+        "titleQuery": "truyện nhiều giọng",
+        "videoFormat": "long",
+        "videoTitleLanguage": "vi",
+        "sortBy": "vph",
+        "limit": 6,
+        "videoPublishedAfter": "2026-09-27",
+        "videoPublishedBefore": "2026-10-28",
+        "requireAllTitleTerms": false
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"videos\":[],\"_credits\":{\"used\":0}}"
+          }
+        ],
+        "structuredContent": {
+          "videos": [],
+          "_credits": {
+            "used": 0
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "key": "trend-narrator-led-stories",
+      "args": {
+        "titleQuery": "kể chuyện có người dẫn",
+        "videoFormat": "long",
+        "videoTitleLanguage": "vi",
+        "sortBy": "vph",
+        "limit": 6,
+        "videoPublishedAfter": "2026-09-27",
+        "videoPublishedBefore": "2026-10-28",
+        "requireAllTitleTerms": false
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"videos\":[{\"videoId\":\"jyL0GOLXn6Q\",\"videoTitle\":\"CHÀNG BẢO VỆ SI TÌNH VÀ NGƯỜI NUÔI BỆNH GÓA BỤA - Kể Truyện Đêm Khuya Đặc Sắc\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-26T16:34:00.000Z\",\"videoDuration\":3421,\"channelId\":\"UCilEtm9LRa0-LOW5_ROr_5w\",\"channelTitle\":\"DaiTrang 2pfv3yj5gi\",\"channelCountry\":null,\"subscriberCount\":4630,\"viewCount\":40564,\"likeCount\":984,\"commentCount\":4,\"engagementRate\":0.024,\"vph\":2393.156342182891,\"videoTags\":[]},{\"videoId\":\"lFkVbR2Ukg0\",\"videoTitle\":\"Từ Mỹ Về- Tôi C.hết .Lặng Khi Thấy Bố Mẹ Bị Dân Làng Trói Vào Cây, Nhà Bị Đốt Sạch |Sâm Kể Chuyện\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-26T03:00:19.000Z\",\"videoDuration\":11659,\"channelId\":\"UCsj8JIkNaOuaFj7aat-pvNA\",\"channelTitle\":\"Sâm kể chuyện\",\"channelCountry\":null,\"subscriberCount\":63300,\"viewCount\":61804,\"likeCount\":330,\"commentCount\":26,\"engagementRate\":0.006,\"vph\":1946.5826771653544,\"videoTags\":[]},{\"videoId\":\"OVU4gJe1h_U\",\"videoTitle\":\"[TẬP 2874] Chuyện Ma Có Thật : MA BÒ\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-26T16:00:36.000Z\",\"videoDuration\":5555,\"channelId\":\"UC9cTTLH7G6YVpjvDdb0O6Sg\",\"channelTitle\":\"Chuyện Ma Vũ Mập\",\"channelCountry\":\"VN\",\"subscriberCount\":675000,\"viewCount\":21048,\"likeCount\":419,\"commentCount\":110,\"engagementRate\":0.025,\"vph\":1269.2261306532664,\"videoTags\":[\"chuyện ma vũ mập\",\"chuyện ma\",\"chuyen ma\",\"vu map\",\"vu map vlog\",\"vũ mập chuyện ma\",\"chuyen ma vu map\",\"chuyện ma có thật\",\"chuyen ma co that\",\"chuyen ma nhu nhu\",\"vũ mập\"]},{\"videoId\":\"81S4xkTwyX4\",\"videoTitle\":\"OÁN NGHIỆT NHÀ CHỒNG  |  NAM KỂ CHUYỆN MA  | #898\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-26T05:15:15.000Z\",\"videoDuration\":1837,\"channelId\":\"UC6jt82q8H5ottcWhFlQA_PA\",\"channelTitle\":\"Nam Kể Chuyện Ma\",\"channelCountry\":\"VN\",\"subscriberCount\":126000,\"viewCount\":13925,\"likeCount\":368,\"commentCount\":43,\"engagementRate\":0.03,\"vph\":719.6382428940568,\"videoTags\":[\"namkểchuyệnma\",\"chuyenma\",\"chuyenmacothat\",\"namkechuyenma\",\"chuyện tâm linh\",\"tâm linh huyền bí\",\"tâm linh\",\"truyện ma\",\"truyện ma có thật\",\"Chết\",\"hãi hùng\",\"ma\",\"tai nạn\",\"người chết\",\"chuyện ma\",\"chuyện ma có thật\",\"quả báo\"]},{\"videoId\":\"hgXGeG7lp8E\",\"videoTitle\":\"Con Gái M.ất 2 Ngày Báo Mộng, Cha T.Tướng Lập Tức Đào Mộ- Khiến Nhà Thông Gia Cầu Xin |Sâm Kể Chuyện\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-25T11:00:46.000Z\",\"videoDuration\":11412,\"channelId\":\"UCsj8JIkNaOuaFj7aat-pvNA\",\"channelTitle\":\"Sâm kể chuyện\",\"channelCountry\":null,\"subscriberCount\":63300,\"viewCount\":28593,\"likeCount\":143,\"commentCount\":22,\"engagementRate\":0.006,\"vph\":643.7448405253284,\"videoTags\":[]},{\"videoId\":\"aTBfIVtPIgs\",\"videoTitle\":\"[TẬP 2872] Chuyện Ma Có Thật : BẢO VỆ CA ĐÊM\",\"videoTitleLanguage\":\"vi\",\"videoPublishedAt\":\"2026-10-23T16:00:03.000Z\",\"videoDuration\":6209,\"channelId\":\"UC9cTTLH7G6YVpjvDdb0O6Sg\",\"channelTitle\":\"Chuyện Ma Vũ Mập\",\"channelCountry\":\"VN\",\"subscriberCount\":675000,\"viewCount\":46240,\"likeCount\":534,\"commentCount\":54,\"engagementRate\":0.013,\"vph\":548.300395256917,\"videoTags\":[\"chuyện ma vũ mập\",\"chuyện ma\",\"chuyen ma\",\"vu map\",\"vu map vlog\",\"vũ mập chuyện ma\",\"chuyen ma vu map\",\"chuyện ma có thật\",\"chuyen ma co that\",\"chuyen ma nhu nhu\",\"vũ mập\"]}],\"_credits\":{\"used\":5}}"
+          }
+        ],
+        "structuredContent": {
+          "videos": [
+            {
+              "videoId": "jyL0GOLXn6Q",
+              "videoTitle": "CHÀNG BẢO VỆ SI TÌNH VÀ NGƯỜI NUÔI BỆNH GÓA BỤA - Kể Truyện Đêm Khuya Đặc Sắc",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-26T16:34:00.000Z",
+              "videoDuration": 3421,
+              "channelId": "UCilEtm9LRa0-LOW5_ROr_5w",
+              "channelTitle": "DaiTrang 2pfv3yj5gi",
+              "channelCountry": null,
+              "subscriberCount": 4630,
+              "viewCount": 40564,
+              "likeCount": 984,
+              "commentCount": 4,
+              "engagementRate": 0.024,
+              "vph": 2393.156342182891,
+              "videoTags": []
+            },
+            {
+              "videoId": "lFkVbR2Ukg0",
+              "videoTitle": "Từ Mỹ Về- Tôi C.hết .Lặng Khi Thấy Bố Mẹ Bị Dân Làng Trói Vào Cây, Nhà Bị Đốt Sạch |Sâm Kể Chuyện",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-26T03:00:19.000Z",
+              "videoDuration": 11659,
+              "channelId": "UCsj8JIkNaOuaFj7aat-pvNA",
+              "channelTitle": "Sâm kể chuyện",
+              "channelCountry": null,
+              "subscriberCount": 63300,
+              "viewCount": 61804,
+              "likeCount": 330,
+              "commentCount": 26,
+              "engagementRate": 0.006,
+              "vph": 1946.5826771653544,
+              "videoTags": []
+            },
+            {
+              "videoId": "OVU4gJe1h_U",
+              "videoTitle": "[TẬP 2874] Chuyện Ma Có Thật : MA BÒ",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-26T16:00:36.000Z",
+              "videoDuration": 5555,
+              "channelId": "UC9cTTLH7G6YVpjvDdb0O6Sg",
+              "channelTitle": "Chuyện Ma Vũ Mập",
+              "channelCountry": "VN",
+              "subscriberCount": 675000,
+              "viewCount": 21048,
+              "likeCount": 419,
+              "commentCount": 110,
+              "engagementRate": 0.025,
+              "vph": 1269.2261306532664,
+              "videoTags": [
+                "chuyện ma vũ mập",
+                "chuyện ma",
+                "chuyen ma",
+                "vu map",
+                "vu map vlog",
+                "vũ mập chuyện ma",
+                "chuyen ma vu map",
+                "chuyện ma có thật",
+                "chuyen ma co that",
+                "chuyen ma nhu nhu",
+                "vũ mập"
+              ]
+            },
+            {
+              "videoId": "81S4xkTwyX4",
+              "videoTitle": "OÁN NGHIỆT NHÀ CHỒNG  |  NAM KỂ CHUYỆN MA  | #898",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-26T05:15:15.000Z",
+              "videoDuration": 1837,
+              "channelId": "UC6jt82q8H5ottcWhFlQA_PA",
+              "channelTitle": "Nam Kể Chuyện Ma",
+              "channelCountry": "VN",
+              "subscriberCount": 126000,
+              "viewCount": 13925,
+              "likeCount": 368,
+              "commentCount": 43,
+              "engagementRate": 0.03,
+              "vph": 719.6382428940568,
+              "videoTags": [
+                "namkểchuyệnma",
+                "chuyenma",
+                "chuyenmacothat",
+                "namkechuyenma",
+                "chuyện tâm linh",
+                "tâm linh huyền bí",
+                "tâm linh",
+                "truyện ma",
+                "truyện ma có thật",
+                "Chết",
+                "hãi hùng",
+                "ma",
+                "tai nạn",
+                "người chết",
+                "chuyện ma",
+                "chuyện ma có thật",
+                "quả báo"
+              ]
+            },
+            {
+              "videoId": "hgXGeG7lp8E",
+              "videoTitle": "Con Gái M.ất 2 Ngày Báo Mộng, Cha T.Tướng Lập Tức Đào Mộ- Khiến Nhà Thông Gia Cầu Xin |Sâm Kể Chuyện",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-25T11:00:46.000Z",
+              "videoDuration": 11412,
+              "channelId": "UCsj8JIkNaOuaFj7aat-pvNA",
+              "channelTitle": "Sâm kể chuyện",
+              "channelCountry": null,
+              "subscriberCount": 63300,
+              "viewCount": 28593,
+              "likeCount": 143,
+              "commentCount": 22,
+              "engagementRate": 0.006,
+              "vph": 643.7448405253284,
+              "videoTags": []
+            },
+            {
+              "videoId": "aTBfIVtPIgs",
+              "videoTitle": "[TẬP 2872] Chuyện Ma Có Thật : BẢO VỆ CA ĐÊM",
+              "videoTitleLanguage": "vi",
+              "videoPublishedAt": "2026-10-23T16:00:03.000Z",
+              "videoDuration": 6209,
+              "channelId": "UC9cTTLH7G6YVpjvDdb0O6Sg",
+              "channelTitle": "Chuyện Ma Vũ Mập",
+              "channelCountry": "VN",
+              "subscriberCount": 675000,
+              "viewCount": 46240,
+              "likeCount": 534,
+              "commentCount": 54,
+              "engagementRate": 0.013,
+              "vph": 548.300395256917,
+              "videoTags": [
+                "chuyện ma vũ mập",
+                "chuyện ma",
+                "chuyen ma",
+                "vu map",
+                "vu map vlog",
+                "vũ mập chuyện ma",
+                "chuyen ma vu map",
+                "chuyện ma có thật",
+                "chuyen ma co that",
+                "chuyen ma nhu nhu",
+                "vũ mập"
+              ]
+            }
+          ],
+          "_credits": {
+            "used": 5
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "key": "trend-english-clip-analysis",
+      "args": {
+        "titleQuery": "học tiếng anh qua phim",
+        "videoFormat": "long",
+        "videoTitleLanguage": "vi",
+        "sortBy": "vph",
+        "limit": 6,
+        "videoPublishedAfter": "2026-09-27",
+        "videoPublishedBefore": "2026-10-28",
+        "requireAllTitleTerms": false
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"videos\":[],\"_credits\":{\"used\":0}}"
+          }
+        ],
+        "structuredContent": {
+          "videos": [],
+          "_credits": {
+            "used": 0
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "key": "outliers-english-clip-format",
+      "args": {
+        "keyword": "learn English with movies and interviews",
+        "language": "en",
+        "contentType": "long",
+        "publishedWithin": "thisMonth",
+        "sort": "score",
+        "limit": 6,
+        "requireAllTitleTerms": false
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Found 5 breakout long-form videos for \"learn English with movies and interviews\", sorted by overall score.\n\n### 1. Thinking in English Questions & Answers for Beginners | 90000 Think in English & Speak English\n- **Channel:** Nero June Daily English Conversation · 347K subscribers · TH · channelId `UChtz0osWIf53suu8StvcCoA`\n- **Performance:** 223.7K views · 40x breakout · 312.6 views/hour · 2.3% engagement\n- **Details:** published 2026-10-04 (3 weeks ago) · 8:15:37\n- **Video:** videoId `JefIuaeIY5M` · thumbnail https://i.ytimg.com/vi/JefIuaeIY5M/maxresdefault.jpg\n- **Trend categories:** beginners_guide\n\n### 2. GOOD BRO vs BAD BRO at the Movie Theater! 🍿 | Easy English Listening Story (A2)\n- **Channel:** Good Bro Bad Bro · 2.2K subscribers · US · channelId `UCHp3n41_tw5NMoakjXcdnyA`\n- **Performance:** 126.4K views · 1011x breakout · 19.5 views/hour · 0.3% engagement\n- **Details:** published 2026-10-08 (2 weeks ago) · 8:28 · AI-labeled\n- **Video:** videoId `wZ21jCIJr_w` · thumbnail https://i.ytimg.com/vi/wZ21jCIJr_w/maxresdefault.jpg\n\n### 3. Learn English with Beauty and the Beast — Shadowing Practice Ep.20 🌹🏰✨\n- **Channel:** English Speak Academy · 9.6K subscribers · US · channelId `UCiEZb7BB9AKLAF1yq7kTXcg`\n- **Performance:** 53.4K views · 25x breakout · 27.3 views/hour · 2.5% engagement\n- **Details:** published 2026-10-05 (3 weeks ago) · 15:40\n- **Video:** videoId `VoKwig4lLg4` · thumbnail https://i.ytimg.com/vi/VoKwig4lLg4/maxresdefault.jpg\n\n### 4. 1600 Daily English Sentences | Listen, Repeat & Speak English Fluently | English Listening Podcast\n- **Channel:** English In Velora · 1.1K subscribers · US · channelId `UCCyVwe0WxLyiiYkYYwXTaGw`\n- **Performance:** 35.6K views · 162x breakout · 4.7 views/hour · 1.4% engagement\n- **Details:** published 2026-10-09 (2 weeks ago) · 2:55:04\n- **Video:** videoId `ZZ5Xw2QecaI` · thumbnail https://i.ytimg.com/vi/ZZ5Xw2QecaI/maxresdefault.jpg\n\n### 5. How I Do Shadowing Practice ll Best Technique For Shadowing Practice l Shadowing Practice l Best Tip\n- **Channel:** Learn with lucky · 5.3K subscribers · IN · channelId `UCJM2YW8Za9WxxDBaiDxg6hw`\n- **Performance:** 632.3K views · 74x breakout · 32.1 views/hour · 0.4% engagement\n- **Details:** published 2026-10-10 (2 weeks ago) · 5:28\n- **Video:** videoId `OirO7UgOIM0` · thumbnail https://i.ytimg.com/vi/OirO7UgOIM0/maxresdefault.jpg"
+          }
+        ],
+        "structuredContent": {
+          "answer": "Found 5 breakout long-form videos for \"learn English with movies and interviews\", sorted by overall score.\n\n### 1. Thinking in English Questions & Answers for Beginners | 90000 Think in English & Speak English\n- **Channel:** Nero June Daily English Conversation · 347K subscribers · TH · channelId `UChtz0osWIf53suu8StvcCoA`\n- **Performance:** 223.7K views · 40x breakout · 312.6 views/hour · 2.3% engagement\n- **Details:** published 2026-10-04 (3 weeks ago) · 8:15:37\n- **Video:** videoId `JefIuaeIY5M` · thumbnail https://i.ytimg.com/vi/JefIuaeIY5M/maxresdefault.jpg\n- **Trend categories:** beginners_guide\n\n### 2. GOOD BRO vs BAD BRO at the Movie Theater! 🍿 | Easy English Listening Story (A2)\n- **Channel:** Good Bro Bad Bro · 2.2K subscribers · US · channelId `UCHp3n41_tw5NMoakjXcdnyA`\n- **Performance:** 126.4K views · 1011x breakout · 19.5 views/hour · 0.3% engagement\n- **Details:** published 2026-10-08 (2 weeks ago) · 8:28 · AI-labeled\n- **Video:** videoId `wZ21jCIJr_w` · thumbnail https://i.ytimg.com/vi/wZ21jCIJr_w/maxresdefault.jpg\n\n### 3. Learn English with Beauty and the Beast — Shadowing Practice Ep.20 🌹🏰✨\n- **Channel:** English Speak Academy · 9.6K subscribers · US · channelId `UCiEZb7BB9AKLAF1yq7kTXcg`\n- **Performance:** 53.4K views · 25x breakout · 27.3 views/hour · 2.5% engagement\n- **Details:** published 2026-10-05 (3 weeks ago) · 15:40\n- **Video:** videoId `VoKwig4lLg4` · thumbnail https://i.ytimg.com/vi/VoKwig4lLg4/maxresdefault.jpg\n\n### 4. 1600 Daily English Sentences | Listen, Repeat & Speak English Fluently | English Listening Podcast\n- **Channel:** English In Velora · 1.1K subscribers · US · channelId `UCCyVwe0WxLyiiYkYYwXTaGw`\n- **Performance:** 35.6K views · 162x breakout · 4.7 views/hour · 1.4% engagement\n- **Details:** published 2026-10-09 (2 weeks ago) · 2:55:04\n- **Video:** videoId `ZZ5Xw2QecaI` · thumbnail https://i.ytimg.com/vi/ZZ5Xw2QecaI/maxresdefault.jpg\n\n### 5. How I Do Shadowing Practice ll Best Technique For Shadowing Practice l Shadowing Practice l Best Tip\n- **Channel:** Learn with lucky · 5.3K subscribers · IN · channelId `UCJM2YW8Za9WxxDBaiDxg6hw`\n- **Performance:** 632.3K views · 74x breakout · 32.1 views/hour · 0.4% engagement\n- **Details:** published 2026-10-10 (2 weeks ago) · 5:28\n- **Video:** videoId `OirO7UgOIM0` · thumbnail https://i.ytimg.com/vi/OirO7UgOIM0/maxresdefault.jpg",
+          "_credits": {
+            "used": 5
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "key": "search-multicast-format",
+      "args": {
+        "query": "\"truyện\" \"nhiều giọng\"",
+        "type": [
+          "video"
+        ],
+        "regionCode": "VN",
+        "order": "relevance",
+        "limit": 6
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"results\":[{\"kind\":\"video\",\"id\":\"qlydkev0jK4\",\"title\":\"Truyện Động Trời: MỢ TRÀ HỒI XUÂN\",\"description\":\"✨ Audio Động Trời\\nNhững tâm sự lúc 2 giờ sáng, khi con tim trỗi dậy mạnh mẽ nhất. Ở đây, bạn sẽ nghe những cuộc gọi lặng lẽ, những tin nhắn không bao giờ gửi đi và những cuộc tình mãi mãi trong bóng tối. Kênh kể chuyện bằng giọng nói thủ thỉ, dẫn bạn vào mê cung của xúc cảm không lối ra.\\n\\nTình yêu này sẽ trao cho những anh ... hãy đăng ký kênh em để em có động lực ra những video hấp dẫn khác nhé! 🎉\",\"channelId\":\"UCX4H7WveLwJMgmdlBK-Jopw\",\"channelTitle\":\"Audio Động Trời\",\"publishedAt\":\"2025-09-15T19:45:03Z\",\"thumbnail\":\"https://i.ytimg.com/vi/qlydkev0jK4/maxresdefault.jpg\",\"viewCount\":822982,\"videoCount\":null,\"duration\":\"PT53M1S\",\"likeCount\":2421,\"commentCount\":67,\"subscriberCount\":21700,\"vph\":123.93632958801498,\"outlierScore\":null},{\"kind\":\"video\",\"id\":\"4zS8fCyB7Tk\",\"title\":\"Đọc Truyện Đêm Khuya: THÍM VÂN HỒI XUÂN... TRONG NGƯỜI LÚC NÀO CŨNG HỪNG HỰC\",\"description\":\"Đọc Truyện Đêm Khuya: THÍM VÂN HỒI XUÂN... TRONG NGƯỜI LÚC NÀO CŨNG HỪNG HỰC\\n**********\\n🔔 ĐĂNG KÝ KÊNH NGAY để không bỏ lỡ những truyện đêm khuya audio hay nhất\\n🌙 Kênh chuyên kể chuyện đêm khuya – đọc truyện đêm khuya Việt Nam với giọng đọc trầm ấm,\\n😴 giúp dễ ngủ – thư giãn – giải tỏa căng thẳng sau một ngày dài.\\n\\n📖 Nội dung bao gồm:\\n• Truyện ngôn tình Việt Nam\\n• Truyện ngắn hay – truyện dài nghe đi ngủ\\n• Truyện thầm kín – truyện đời sống làng quê\\n• Tiểu thuyết hiện thực xã hội Việt Nam\\n• Truyện thực tế – chuyện đêm muộn sâu lắng\\n\\n🎧 Phù hợp để nghe truyện trước khi ngủ, nghe lúc đêm khuya, thư giãn tinh thần, giảm stress.\\n**********\\n\\n🔎 TỪ KHÓA:\\n truyện ngôn tình audio, truyện thầm kín đêm khuya, truyện làng quê việt nam, tiểu thuyết hiện thực việt nam, truyện thực tế xã hội, truyện đêm muộn, truyện dài nghe đi ngủ, truyện ngắn hay, truyện đêm khuya mới nhất 2025, truyện đêm khuya audio, nghe truyện đêm khuya, đọc truyện đêm khuya việt nam, kể chuyện đêm khuya, truyện dễ ngủ, truyện audio việt nam, tiểu thuyết hiện thực việt nam 2025.\\nKênh dùng giọng AI kể các câu chuyện đời thường, hư cấu hoặc tổng hợp nhằm chia sẻ và giải trí. Hình ảnh, video và thumbnail chỉ mang tính minh họa, không đại diện cho cá nhân hay sự kiện có thật. 🎧\\n**********\\n\\n🏷️ HASHTAG:\\n#nghetruyendemkhuya #doctruyendemkhuya #truyenngontinh #truyedengu#truyendemkhuya #truyenaudio\",\"channelId\":\"UCh5FWTBzN1WLzGnWVCmWiRw\",\"channelTitle\":\"Mẩy Linh - Thủ Thỉ Truyện Đêm\",\"publishedAt\":\"2026-02-24T14:00:06Z\",\"thumbnail\":\"https://i.ytimg.com/vi/4zS8fCyB7Tk/maxresdefault.jpg\",\"viewCount\":1480133,\"videoCount\":null,\"duration\":\"PT1H22M29S\",\"likeCount\":3003,\"commentCount\":154,\"subscriberCount\":7180,\"vph\":51.47899159663866,\"outlierScore\":null},{\"kind\":\"video\",\"id\":\"15xIZfOp4co\",\"title\":\"[Truyện Audio] | Cả Nhà Tôi Là Tổ Nghề Diệt Trà Xanh | Phụng Miên Audio #audio  #truyenaudio\",\"description\":\"#truyenhay #truyenngontinh #audio    \\n  \\nTruyện Audio: Cả Nhà Tôi Là Tổ Nghề Diệt Trà Xanh \\n\\nGia tộc ba đời chuyên diệt \\\"trà xanh\\\" ra tay! Nữ chính Thẩm Nguyệt xử lý \\\"bạch liên hoa\\\" lại vô tình lọt vào mắt xanh của Lục Khôi - con cáo già đội lốt nam thần. Khi hai kẻ săn mồi quyết định hợp tác, thế giới này sắp có kịch hay để xem! Diễn biến tiếp theo sẽ như thế nào? ...\\n\\n📌 Các bạn ủng hộ mình xin 1 Like và 1 Sub để kênh có động lực ra nhiều video hơn nhé! 🥰🥰🥰\\n\\nVideo do Phụng Miên Audio sản xuất, Không reup dưới mọi hình thức!!\\n\\nTôi Không Sở Hữu Tất Cả Các Tư Liệu Trong Video Mà Tuân Thủ Luật Bản Quyền Và Sử Dụng Hợp Lý Luật Fair - Use (https://www.youtube.com/yt/copyright/)\\n\\n#truyenhay #truyenngontinh #audio\",\"channelId\":\"UCtkAbVE39qM3sbWvWEKQZZw\",\"channelTitle\":\"Phụng Miên Audio\",\"publishedAt\":\"2025-09-29T11:00:06Z\",\"thumbnail\":\"https://i.ytimg.com/vi/15xIZfOp4co/maxresdefault.jpg\",\"viewCount\":2219335,\"videoCount\":null,\"duration\":\"PT59M4S\",\"likeCount\":18961,\"commentCount\":836,\"subscriberCount\":51300,\"vph\":306.625,\"outlierScore\":101.32081351117056},{\"kind\":\"video\",\"id\":\"e15rCbHdc6s\",\"title\":\"Kể Truyện Đêm Khuya Hay Nhất 2025 - Nên nghe 1 lần | Đọc truyện đêm khuya ngủ ngon\",\"description\":\"Kể Truyện Đêm Khuya Hay Nhất 2025 - Nên nghe 1 lần | Đọc truyện đêm khuya ngủ ngon\\n--- NƠI CHIA SẼ...Những Câu Chuyện Đời Thường Cảm Hứng, Đặc Sắc Và Ý Nghĩa\",\"channelId\":\"UCf_yEyi1rtl8YXZOupvyhSg\",\"channelTitle\":\"Mc Thanh Thuỷ Official\",\"publishedAt\":\"2025-06-13T03:50:00Z\",\"thumbnail\":\"https://i.ytimg.com/vi/e15rCbHdc6s/maxresdefault.jpg\",\"viewCount\":575964,\"videoCount\":null,\"duration\":\"PT1H19M33S\",\"likeCount\":1926,\"commentCount\":196,\"subscriberCount\":84800,\"vph\":37.80113636363637,\"outlierScore\":10.698923559716457},{\"kind\":\"video\",\"id\":\"njEVyKOWGNI\",\"title\":\"[Truyện Audio] | Cưới Em Trước Cưng Chiều Em Sau | DuDu Audio\",\"description\":\"[Truyện Audio] | Cưới Em Trước Cưng Chiều Em Sau | DuDu Audio\\n\\n🎥 CẢM ƠN BẠN ĐÃ XEM VIDEO CỦA DU! 🎥\\n❤️ Hãy NHẤN ĐĂNG KÝ KÊNH và BẬT CHUÔNG THÔNG BÁO để không bỏ lỡ những câu chuyện hay và mới nhất nhé!\\n\\nHashtags: #truyenaudio #truyenngontinh #truyenngan #truyệnngôntìnhsủng #DuDuAudio\\n💕 Sự ủng hộ của bạn là động lực để Du phát triển! 💕\\n\\n✨ Vui lòng KHÔNG sao chép, tái sử dụng, chỉnh sửa hay đăng tải lại dưới bất kỳ hình thức nào.\",\"channelId\":\"UCuiachq1dmQ6SVOCGd4GiGg\",\"channelTitle\":\"DUDU AUDIO\",\"publishedAt\":\"2025-10-15T11:01:39Z\",\"thumbnail\":\"https://i.ytimg.com/vi/njEVyKOWGNI/maxresdefault.jpg\",\"viewCount\":1896963,\"videoCount\":null,\"duration\":\"PT1H41M19S\",\"likeCount\":11927,\"commentCount\":485,\"subscriberCount\":95800,\"vph\":92.41379310344827,\"outlierScore\":135.10402108603958},{\"kind\":\"video\",\"id\":\"ZBRubaR8c7o\",\"title\":\"[Truyện Audio] | Trùng Sinh, Tôi Quyết Nghe Theo Bố Mẹ | Túi Mù Audio #audio  #truyenaudio\",\"description\":\"#audio  #truyenaudio  #truyenhay \\n🎧 Túi Mù Audio - Mở Túi Mù, Nghe Truyện Hay. 🎧\\n\\n[Truyện Audio] | Túi Mù Số 13 - Trùng Sinh, Tôi Quyết Nghe Theo Bố Mẹ\\n\\nBị bạn trai và đứa em gái nuôi phản bội đến chết, cô trùng sinh trở về quyết tâm lật ngược ván cờ. Màn \\\"combat\\\" vạch mặt tra nam, \\\"xé nát\\\" kịch bản của trà xanh tại lễ đính hôn thế kỷ mới chỉ bắt đầu. Liệu cô có thay đổi được số phận và tìm thấy hạnh phúc bên vị hôn phu bá đạo? ...\\n\\n🔔 Ủng hộ mình 1 Like và Subscribe để mình có động lực ra nhiều \\\"Túi Mù\\\" hơn nhoa!\\n\\n📌Nội dung do Túi Mù Audio tự sản xuất. Không reup dưới mọi hình thức!!\\n\\n📑 Mọi vấn đề vi phạm chính sách, luật bản quyền... xin liên hệ trực tiếp qua email: maiphuongdream@gmail.com\\n#audio  #truyenaudio  #truyenngan\",\"channelId\":\"UCfvFDwM1INxxS9HWwlJcnNw\",\"channelTitle\":\"Túi Mù Audio\",\"publishedAt\":\"2025-09-14T15:23:59Z\",\"thumbnail\":\"https://i.ytimg.com/vi/ZBRubaR8c7o/maxresdefault.jpg\",\"viewCount\":1043717,\"videoCount\":null,\"duration\":\"PT48M13S\",\"likeCount\":4171,\"commentCount\":217,\"subscriberCount\":15700,\"vph\":176.74285714285713,\"outlierScore\":220.73351192781155}],\"_credits\":{\"used\":5}}"
+          }
+        ],
+        "structuredContent": {
+          "results": [
+            {
+              "kind": "video",
+              "id": "qlydkev0jK4",
+              "title": "Truyện Động Trời: MỢ TRÀ HỒI XUÂN",
+              "description": "✨ Audio Động Trời\nNhững tâm sự lúc 2 giờ sáng, khi con tim trỗi dậy mạnh mẽ nhất. Ở đây, bạn sẽ nghe những cuộc gọi lặng lẽ, những tin nhắn không bao giờ gửi đi và những cuộc tình mãi mãi trong bóng tối. Kênh kể chuyện bằng giọng nói thủ thỉ, dẫn bạn vào mê cung của xúc cảm không lối ra.\n\nTình yêu này sẽ trao cho những anh ... hãy đăng ký kênh em để em có động lực ra những video hấp dẫn khác nhé! 🎉",
+              "channelId": "UCX4H7WveLwJMgmdlBK-Jopw",
+              "channelTitle": "Audio Động Trời",
+              "publishedAt": "2025-09-15T19:45:03Z",
+              "thumbnail": "https://i.ytimg.com/vi/qlydkev0jK4/maxresdefault.jpg",
+              "viewCount": 822982,
+              "videoCount": null,
+              "duration": "PT53M1S",
+              "likeCount": 2421,
+              "commentCount": 67,
+              "subscriberCount": 21700,
+              "vph": 123.93632958801498,
+              "outlierScore": null
+            },
+            {
+              "kind": "video",
+              "id": "4zS8fCyB7Tk",
+              "title": "Đọc Truyện Đêm Khuya: THÍM VÂN HỒI XUÂN... TRONG NGƯỜI LÚC NÀO CŨNG HỪNG HỰC",
+              "description": "Đọc Truyện Đêm Khuya: THÍM VÂN HỒI XUÂN... TRONG NGƯỜI LÚC NÀO CŨNG HỪNG HỰC\n**********\n🔔 ĐĂNG KÝ KÊNH NGAY để không bỏ lỡ những truyện đêm khuya audio hay nhất\n🌙 Kênh chuyên kể chuyện đêm khuya – đọc truyện đêm khuya Việt Nam với giọng đọc trầm ấm,\n😴 giúp dễ ngủ – thư giãn – giải tỏa căng thẳng sau một ngày dài.\n\n📖 Nội dung bao gồm:\n• Truyện ngôn tình Việt Nam\n• Truyện ngắn hay – truyện dài nghe đi ngủ\n• Truyện thầm kín – truyện đời sống làng quê\n• Tiểu thuyết hiện thực xã hội Việt Nam\n• Truyện thực tế – chuyện đêm muộn sâu lắng\n\n🎧 Phù hợp để nghe truyện trước khi ngủ, nghe lúc đêm khuya, thư giãn tinh thần, giảm stress.\n**********\n\n🔎 TỪ KHÓA:\n truyện ngôn tình audio, truyện thầm kín đêm khuya, truyện làng quê việt nam, tiểu thuyết hiện thực việt nam, truyện thực tế xã hội, truyện đêm muộn, truyện dài nghe đi ngủ, truyện ngắn hay, truyện đêm khuya mới nhất 2025, truyện đêm khuya audio, nghe truyện đêm khuya, đọc truyện đêm khuya việt nam, kể chuyện đêm khuya, truyện dễ ngủ, truyện audio việt nam, tiểu thuyết hiện thực việt nam 2025.\nKênh dùng giọng AI kể các câu chuyện đời thường, hư cấu hoặc tổng hợp nhằm chia sẻ và giải trí. Hình ảnh, video và thumbnail chỉ mang tính minh họa, không đại diện cho cá nhân hay sự kiện có thật. 🎧\n**********\n\n🏷️ HASHTAG:\n#nghetruyendemkhuya #doctruyendemkhuya #truyenngontinh #truyedengu#truyendemkhuya #truyenaudio",
+              "channelId": "UCh5FWTBzN1WLzGnWVCmWiRw",
+              "channelTitle": "Mẩy Linh - Thủ Thỉ Truyện Đêm",
+              "publishedAt": "2026-02-24T14:00:06Z",
+              "thumbnail": "https://i.ytimg.com/vi/4zS8fCyB7Tk/maxresdefault.jpg",
+              "viewCount": 1480133,
+              "videoCount": null,
+              "duration": "PT1H22M29S",
+              "likeCount": 3003,
+              "commentCount": 154,
+              "subscriberCount": 7180,
+              "vph": 51.47899159663866,
+              "outlierScore": null
+            },
+            {
+              "kind": "video",
+              "id": "15xIZfOp4co",
+              "title": "[Truyện Audio] | Cả Nhà Tôi Là Tổ Nghề Diệt Trà Xanh | Phụng Miên Audio #audio  #truyenaudio",
+              "description": "#truyenhay #truyenngontinh #audio    \n  \nTruyện Audio: Cả Nhà Tôi Là Tổ Nghề Diệt Trà Xanh \n\nGia tộc ba đời chuyên diệt \"trà xanh\" ra tay! Nữ chính Thẩm Nguyệt xử lý \"bạch liên hoa\" lại vô tình lọt vào mắt xanh của Lục Khôi - con cáo già đội lốt nam thần. Khi hai kẻ săn mồi quyết định hợp tác, thế giới này sắp có kịch hay để xem! Diễn biến tiếp theo sẽ như thế nào? ...\n\n📌 Các bạn ủng hộ mình xin 1 Like và 1 Sub để kênh có động lực ra nhiều video hơn nhé! 🥰🥰🥰\n\nVideo do Phụng Miên Audio sản xuất, Không reup dưới mọi hình thức!!\n\nTôi Không Sở Hữu Tất Cả Các Tư Liệu Trong Video Mà Tuân Thủ Luật Bản Quyền Và Sử Dụng Hợp Lý Luật Fair - Use (https://www.youtube.com/yt/copyright/)\n\n#truyenhay #truyenngontinh #audio",
+              "channelId": "UCtkAbVE39qM3sbWvWEKQZZw",
+              "channelTitle": "Phụng Miên Audio",
+              "publishedAt": "2025-09-29T11:00:06Z",
+              "thumbnail": "https://i.ytimg.com/vi/15xIZfOp4co/maxresdefault.jpg",
+              "viewCount": 2219335,
+              "videoCount": null,
+              "duration": "PT59M4S",
+              "likeCount": 18961,
+              "commentCount": 836,
+              "subscriberCount": 51300,
+              "vph": 306.625,
+              "outlierScore": 101.32081351117056
+            },
+            {
+              "kind": "video",
+              "id": "e15rCbHdc6s",
+              "title": "Kể Truyện Đêm Khuya Hay Nhất 2025 - Nên nghe 1 lần | Đọc truyện đêm khuya ngủ ngon",
+              "description": "Kể Truyện Đêm Khuya Hay Nhất 2025 - Nên nghe 1 lần | Đọc truyện đêm khuya ngủ ngon\n--- NƠI CHIA SẼ...Những Câu Chuyện Đời Thường Cảm Hứng, Đặc Sắc Và Ý Nghĩa",
+              "channelId": "UCf_yEyi1rtl8YXZOupvyhSg",
+              "channelTitle": "Mc Thanh Thuỷ Official",
+              "publishedAt": "2025-06-13T03:50:00Z",
+              "thumbnail": "https://i.ytimg.com/vi/e15rCbHdc6s/maxresdefault.jpg",
+              "viewCount": 575964,
+              "videoCount": null,
+              "duration": "PT1H19M33S",
+              "likeCount": 1926,
+              "commentCount": 196,
+              "subscriberCount": 84800,
+              "vph": 37.80113636363637,
+              "outlierScore": 10.698923559716457
+            },
+            {
+              "kind": "video",
+              "id": "njEVyKOWGNI",
+              "title": "[Truyện Audio] | Cưới Em Trước Cưng Chiều Em Sau | DuDu Audio",
+              "description": "[Truyện Audio] | Cưới Em Trước Cưng Chiều Em Sau | DuDu Audio\n\n🎥 CẢM ƠN BẠN ĐÃ XEM VIDEO CỦA DU! 🎥\n❤️ Hãy NHẤN ĐĂNG KÝ KÊNH và BẬT CHUÔNG THÔNG BÁO để không bỏ lỡ những câu chuyện hay và mới nhất nhé!\n\nHashtags: #truyenaudio #truyenngontinh #truyenngan #truyệnngôntìnhsủng #DuDuAudio\n💕 Sự ủng hộ của bạn là động lực để Du phát triển! 💕\n\n✨ Vui lòng KHÔNG sao chép, tái sử dụng, chỉnh sửa hay đăng tải lại dưới bất kỳ hình thức nào.",
+              "channelId": "UCuiachq1dmQ6SVOCGd4GiGg",
+              "channelTitle": "DUDU AUDIO",
+              "publishedAt": "2025-10-15T11:01:39Z",
+              "thumbnail": "https://i.ytimg.com/vi/njEVyKOWGNI/maxresdefault.jpg",
+              "viewCount": 1896963,
+              "videoCount": null,
+              "duration": "PT1H41M19S",
+              "likeCount": 11927,
+              "commentCount": 485,
+              "subscriberCount": 95800,
+              "vph": 92.41379310344827,
+              "outlierScore": 135.10402108603958
+            },
+            {
+              "kind": "video",
+              "id": "ZBRubaR8c7o",
+              "title": "[Truyện Audio] | Trùng Sinh, Tôi Quyết Nghe Theo Bố Mẹ | Túi Mù Audio #audio  #truyenaudio",
+              "description": "#audio  #truyenaudio  #truyenhay \n🎧 Túi Mù Audio - Mở Túi Mù, Nghe Truyện Hay. 🎧\n\n[Truyện Audio] | Túi Mù Số 13 - Trùng Sinh, Tôi Quyết Nghe Theo Bố Mẹ\n\nBị bạn trai và đứa em gái nuôi phản bội đến chết, cô trùng sinh trở về quyết tâm lật ngược ván cờ. Màn \"combat\" vạch mặt tra nam, \"xé nát\" kịch bản của trà xanh tại lễ đính hôn thế kỷ mới chỉ bắt đầu. Liệu cô có thay đổi được số phận và tìm thấy hạnh phúc bên vị hôn phu bá đạo? ...\n\n🔔 Ủng hộ mình 1 Like và Subscribe để mình có động lực ra nhiều \"Túi Mù\" hơn nhoa!\n\n📌Nội dung do Túi Mù Audio tự sản xuất. Không reup dưới mọi hình thức!!\n\n📑 Mọi vấn đề vi phạm chính sách, luật bản quyền... xin liên hệ trực tiếp qua email: maiphuongdream@gmail.com\n#audio  #truyenaudio  #truyenngan",
+              "channelId": "UCfvFDwM1INxxS9HWwlJcnNw",
+              "channelTitle": "Túi Mù Audio",
+              "publishedAt": "2025-09-14T15:23:59Z",
+              "thumbnail": "https://i.ytimg.com/vi/ZBRubaR8c7o/maxresdefault.jpg",
+              "viewCount": 1043717,
+              "videoCount": null,
+              "duration": "PT48M13S",
+              "likeCount": 4171,
+              "commentCount": 217,
+              "subscriberCount": 15700,
+              "vph": 176.74285714285713,
+              "outlierScore": 220.73351192781155
+            }
+          ],
+          "_credits": {
+            "used": 5
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "key": "outliers-english-clip-reference-check",
+      "args": {
+        "keyword": "learn English",
+        "language": "en",
+        "contentType": "long",
+        "channelIds": [
+          "UCKgpamMlm872zkGDcBJHYDg",
+          "UCiEZb7BB9AKLAF1yq7kTXcg"
+        ],
+        "publishedWithin": "threeMonths",
+        "sort": "score",
+        "limit": 6,
+        "requireAllTitleTerms": false
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "No breakout long-form videos found for \"learn English\"."
+          }
+        ],
+        "structuredContent": {
+          "answer": "No breakout long-form videos found for \"learn English\".",
+          "_credits": {
+            "used": 0
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "key": "transcript-review-english-clips",
+      "args": {
+        "videoId": "C999VNQ3K8M"
+      },
+      "result": {
+        "summary": {
+          "source": "vidIQ.video_transcript",
+          "videoId": "C999VNQ3K8M",
+          "url": "https://www.youtube.com/watch?v=C999VNQ3K8M",
+          "method": "Transcript reading only; no image, video or perceptual audio inspection.",
+          "observations": [
+            {
+              "at": "00:00–00:52",
+              "finding": "Opens with story dialogue, then identifies the lesson."
+            },
+            {
+              "at": "02:39–04:04",
+              "finding": "Explains expressions in context, asks a multiple-choice question and gives other usage examples."
+            },
+            {
+              "at": "09:56–10:53",
+              "finding": "Discusses a pronunciation feature and invites repetition."
+            },
+            {
+              "at": "15:06–15:43",
+              "finding": "Breaks connected speech into parts."
+            },
+            {
+              "at": "16:34",
+              "finding": "Introduces a knowledge test."
+            }
+          ],
+          "caution": "Automatic transcript contains repetitions and possible word-recognition errors; no phonetic claim was independently verified."
+        },
+        "_credits": {
+          "used": 5
+        }
+      }
+    },
+    {
+      "key": "transcript-review-english-sleep",
+      "args": {
+        "videoId": "g4ZmyjG6mNE",
+        "language": "en"
+      },
+      "result": {
+        "summary": {
+          "source": "vidIQ.video_transcript",
+          "videoId": "g4ZmyjG6mNE",
+          "url": "https://www.youtube.com/watch?v=g4ZmyjG6mNE",
+          "method": "Opening 0:00–11:05 transcript inspected; remainder not analyzed in detail. No visual or perceptual audio inspection.",
+          "observations": [
+            {
+              "at": "00:00–02:32",
+              "finding": "Introduces rest, travel and simple situational language."
+            },
+            {
+              "at": "02:48–08:31",
+              "finding": "A fictional traveler buys a ticket and meets people on a train; dialogue is embedded in a story."
+            },
+            {
+              "at": "08:48–11:05",
+              "finding": "Story moves into asking for accommodation."
+            }
+          ],
+          "caution": "The script's promises about learning and sleep are marketing statements, not scientific evidence."
+        },
+        "_credits": {
+          "used": 5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{"ts": "2026-11-15T15:52:55.608899+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects\\long-thanh-40km\\assets\\audio\\sample-s3.mp3"}
+{"ts": "2026-11-15T15:53:07.456751+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects\\long-thanh-40km\\assets\\audio\\sample-s3.mp3", "success": true, "cost_usd": 0.0266, "duration_s": 11.84}
+{"ts": "2026-11-15T15:58:10.924800+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects\\long-thanh-40km\\assets\\audio\\speedtest-s3-095.mp3"}
+{"ts": "2026-11-15T15:58:24.298398+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects\\long-thanh-40km\\assets\\audio\\speedtest-s3-095.mp3", "success": true, "cost_usd": 0.0266, "duration_s": 13.38}
+{"ts": "2026-11-15T15:59:26.071915+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects/long-thanh-40km/assets/audio/speedtest-s3-075.mp3"}
+{"ts": "2026-11-15T16:00:39.250509+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects/long-thanh-40km/assets/audio/speedtest-s3-075.mp3", "success": true, "cost_usd": 0.0266, "duration_s": 73.17}
+{"ts": "2026-11-15T16:00:51.425646+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects/long-thanh-40km/assets/audio/speedtest-s3-080.mp3"}
+{"ts": "2026-11-15T16:01:01.366877+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects/long-thanh-40km/assets/audio/speedtest-s3-080.mp3", "success": true, "cost_usd": 0.0266, "duration_s": 9.94}
+{"ts": "2026-11-15T16:02:51.088665+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s1.mp3"}
+{"ts": "2026-11-15T16:02:58.264462+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s1.mp3", "success": true, "cost_usd": 0.0137, "duration_s": 7.17}
+{"ts": "2026-11-15T16:02:58.267974+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s2.mp3"}
+{"ts": "2026-11-15T16:03:08.513591+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s2.mp3", "success": true, "cost_usd": 0.0229, "duration_s": 10.23}
+{"ts": "2026-11-15T16:03:08.516587+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s3.mp3"}
+{"ts": "2026-11-15T16:03:19.147924+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s3.mp3", "success": true, "cost_usd": 0.0266, "duration_s": 10.64}
+{"ts": "2026-11-15T16:03:19.151979+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s4.mp3"}
+{"ts": "2026-11-15T16:03:27.790710+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s4.mp3", "success": true, "cost_usd": 0.0212, "duration_s": 8.64}
+{"ts": "2026-11-15T16:03:27.793706+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s5.mp3"}
+{"ts": "2026-11-15T16:03:37.765123+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s5.mp3", "success": true, "cost_usd": 0.0239, "duration_s": 9.97}
+{"ts": "2026-11-15T16:03:37.770655+00:00", "tool": "vibi_tts", "event": "start", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s6.mp3"}
+{"ts": "2026-11-15T16:03:48.003343+00:00", "tool": "vibi_tts", "event": "finish", "output_path": "projects\\long-thanh-40km\\assets\\audio\\s6.mp3", "success": true, "cost_usd": 0.0268, "duration_s": 10.23}

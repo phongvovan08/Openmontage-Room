@@ -1,0 +1,104 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalDurationSeconds": 590.44,
+  "masterAudioFile": "audio/master_audio.mp3",
+  "scenes": [
+    {
+      "id": "scene_01",
+      "start_seconds": 0.0,
+      "end_seconds": 25.6
+    },
+    {
+      "id": "scene_02",
+      "start_seconds": 25.6,
+      "end_seconds": 62.79
+    },
+    {
+      "id": "scene_03",
+      "start_seconds": 62.79,
+      "end_seconds": 93.35
+    },
+    {
+      "id": "scene_04",
+      "start_seconds": 93.35,
+      "end_seconds": 118.4
+    },
+    {
+      "id": "scene_05",
+      "start_seconds": 118.4,
+      "end_seconds": 152.32
+    },
+    {
+      "id": "scene_06",
+      "start_seconds": 152.32,
+      "end_seconds": 180.34
+    },
+    {
+      "id": "scene_07",
+      "start_seconds": 180.34,
+      "end_seconds": 212.82
+    },
+    {
+      "id": "scene_08",
+      "start_seconds": 212.82,
+      "end_seconds": 244.09
+    },
+    {
+      "id": "scene_09",
+      "start_seconds": 244.09,
+      "end_seconds": 275.15
+    },
+    {
+      "id": "scene_10",
+      "start_seconds": 275.15,
+      "end_seconds": 311.67
+    },
+    {
+      "id": "scene_11",
+      "start_seconds": 311.67,
+      "end_seconds": 340.81
+    },
+    {
+      "id": "scene_12",
+      "start_seconds": 340.81,
+      "end_seconds": 373.02
+    },
+    {
+      "id": "scene_13",
+      "start_seconds": 373.02,
+      "end_seconds": 404.97
+    },
+    {
+      "id": "scene_14",
+      "start_seconds": 404.97,
+      "end_seconds": 437.85
+    },
+    {
+      "id": "scene_15",
+      "start_seconds": 437.85,
+      "end_seconds": 472.99
+    },
+    {
+      "id": "scene_16",
+      "start_seconds": 472.99,
+      "end_seconds": 500.85
+    },
+    {
+      "id": "scene_17",
+      "start_seconds": 500.85,
+      "end_seconds": 532.4
+    },
+    {
+      "id": "scene_18",
+      "start_seconds": 532.4,
+      "end_seconds": 562.13
+    },
+    {
+      "id": "scene_19",
+      "start_seconds": 562.13,
+      "end_seconds": 590.44
+    }
+  ]
+}

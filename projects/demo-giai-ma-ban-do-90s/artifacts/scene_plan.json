@@ -1,0 +1,390 @@
+{
+  "version": "1.0",
+  "style_playbook": "clean-professional",
+  "scenes": [
+    {
+      "id": "scene_01",
+      "type": "diagram",
+      "description": "Cú máy 1 (overview): Bản đồ vector toàn cảnh lãnh thổ và vùng biển Việt Nam trên nền hải đồ chàm sâu (#071320), hiển thị đầy đủ Quần đảo Hoàng Sa và Quần đảo Trường Sa (#E2E8F0), điểm sáng định vị Hải Phòng ở miền Bắc và tuyến hải trình xuất khẩu đi Mỹ - Âu bị chặn lại ngoài cửa vịnh Bắc Bộ. [5-Aspect | Subject: Bản đồ Việt Nam + Hoàng Sa & Trường Sa + nút Hải Phòng; Subject Motion: Đường bờ biển vẽ sáng tuần tự, vòng sóng ping mở tại Hải Phòng, đường hải trình nét đứt dừng ở cửa vịnh; Scene: Nền hải đồ #071320, đất liền #16293D, viền #38BDF8; Spatial Framing: Khung toàn cảnh cân đối 16:9, Việt Nam bên trái-giữa, Biển Đông và hai quần đảo bên phải; Camera: Dolly-in nhẹ 1.00 -> 1.06 theo tâm vịnh Bắc Bộ].",
+      "start_seconds": 0.0,
+      "end_seconds": 12.0,
+      "script_section_id": "s1",
+      "framing": "16:9 full-frame hydrographic map overview; Việt Nam ở trục 1/3 trái, Biển Đông cùng Quần đảo Hoàng Sa và Trường Sa trọn vẹn bên phải trong vùng an toàn",
+      "movement": "Slow orthographic dolly-in (scale 1.00 -> 1.06) kèm sóng radar lan tỏa tại Hải Phòng",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "overlay_notes": "Góc trên trái (safe zone): Tiêu đề 'VÌ SAO CẢNG HẢI PHÒNG PHẢI VƯỢT BIỂN?'; Nhãn địa danh tách lớp: 'HẢI PHÒNG', 'QUẦN ĐẢO HOÀNG SA', 'QUẦN ĐẢO TRƯỜNG SA', 'BIỂN ĐÔNG'.",
+      "shot_language": {
+        "shot_size": "establishing",
+        "camera_movement": "dolly_in",
+        "lens_mm": 24,
+        "lighting_key": "low_key",
+        "depth_of_field": "deep",
+        "color_temperature": "cool"
+      },
+      "shot_intent": "Xác lập bối cảnh địa lý quốc gia, bảo đảm chuẩn mực chủ quyền Hoàng Sa - Trường Sa ngay khung đầu tiên và mở ra nghịch lý cảng trăm tuổi miền Bắc.",
+      "narrative_role": "establish_context",
+      "information_role": "Người xem định vị được Hải Phòng nằm sâu trong đáy vịnh Bắc Bộ so với trục hàng hải quốc tế trên Biển Đông.",
+      "hero_moment": false,
+      "texture_keywords": [
+        "clean",
+        "nautical-grid",
+        "crisp-vector"
+      ],
+      "required_assets": [
+        {
+          "type": "geojson_map",
+          "description": "Dữ liệu vector biên giới, bờ biển Việt Nam và tọa độ Quần đảo Hoàng Sa, Trường Sa trên bảng màu hải đồ #071320 / #38BDF8",
+          "source": "source"
+        },
+        {
+          "type": "audio_narration",
+          "description": "Giọng đọc Vibi TTS (Haitrieu) đoạn s1 phần mở đầu",
+          "source": "generate"
+        }
+      ]
+    },
+    {
+      "id": "scene_02",
+      "type": "animation",
+      "description": "Cú máy 2 (zoom): Camera thu phóng mượt theo phép chiếu Mercator 16:9 từ toàn miền Bắc Việt Nam lao vào chi tiết cửa sông Bạch Đằng - Sông Cấm - bán đảo Đình Vũ và đảo Cát Hải mà không nhảy tọa độ. [5-Aspect | Subject: Khung bao địa lý cửa biển Hải Phòng - Cát Hải; Subject Motion: Khung camera nội suy mượt (smoothstep) từ kinh vĩ độ miền Bắc xuống vùng cửa sông Hải Phòng, làm lộ rõ mạng lưới sông Cấm uốn khúc sâu trong đất liền; Scene: Hải đồ chi tiết cấp vùng 10m với lưới kinh vĩ độ mờ; Spatial Framing: Cụm cảng cũ sông Cấm ở góc trên trái, đảo Cát Hải và cửa biển ở góc dưới phải; Camera: Continuous zoom_in từ tỉ lệ vùng xuống tỉ lệ cụm cảng].",
+      "start_seconds": 12.0,
+      "end_seconds": 22.0,
+      "script_section_id": "s2",
+      "framing": "16:9 dynamic camera fly-in kết thúc ở khung bao [106.62E..107.08E, 20.68N..20.92N]",
+      "movement": "Smooth Mercator bounding-box interpolation (zoom_in) không giật cục",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "overlay_notes": "Khung kính ngắm hải đồ hiển thị tọa độ '20°46'N — 106°55'E' và nhãn 'CỤM CẢNG NỘI ĐÔ SÔNG CẤM' đối diện 'ĐẢO CÁT HẢI'.",
+      "shot_language": {
+        "shot_size": "wide",
+        "camera_movement": "zoom_in",
+        "lens_mm": 35,
+        "lighting_key": "blue_hour",
+        "depth_of_field": "deep",
+        "color_temperature": "cool"
+      },
+      "shot_intent": "Chuyển đổi không gian liền mạch từ cấp quốc gia xuống cấp địa hình cửa sông để khán giả thấy khoảng cách xa từ nội đô ra biển lớn.",
+      "narrative_role": "introduce_subject",
+      "information_role": "Cho thấy cảng Hải Phòng truyền thống thực chất là cảng sông nằm sâu trong nội địa chứ không nằm sát mép biển sâu.",
+      "hero_moment": false,
+      "texture_keywords": [
+        "clean",
+        "cartographic-lines",
+        "precision-hud"
+      ],
+      "required_assets": [
+        {
+          "type": "geojson_map",
+          "description": "Lớp vector chi tiết bờ biển, sông Cấm, sông Bạch Đằng, bán đảo Đình Vũ và đảo Cát Hải theo bảng màu hải đồ",
+          "source": "source"
+        }
+      ]
+    },
+    {
+      "id": "scene_03",
+      "type": "diagram",
+      "description": "Sơ đồ tuyến gom hàng trung chuyển cũ: Minh họa con tàu nhỏ (feeder) phải chở hàng từ sông Cấm đi vòng xuống Singapore và Hồng Kông để ghép lên siêu tàu mẹ đi Mỹ - Âu, kèm con số 48,0 km luồng dẫn nội địa. [5-Aspect | Subject: Sơ đồ 2 chặng vận tải feeder -> cảng trung chuyển quốc tế; Subject Motion: Đường chấm hổ phách chạy từ Hải Phòng xuống Singapore/Hồng Kông rồi mới đổi sang tuyến lớn; Scene: Khung chia tỷ lệ 60/40 trên nền tối #0D2238; Spatial Framing: Trái là sơ đồ hải trình Đông Á, phải là thẻ đối chiếu chi phí - thời gian trung chuyển; Camera: Pan_right nhẹ theo hướng luồng hàng].",
+      "start_seconds": 22.0,
+      "end_seconds": 28.5,
+      "script_section_id": "s2",
+      "framing": "Bố cục 2 cột bất đối xứng (60% sơ đồ tuyến trung chuyển Đông Nam Á, 40% thẻ thông số hệ quả)",
+      "movement": "Progressive dashed-line draw kèm pan_right nhẹ",
+      "transition_in": "dissolve",
+      "transition_out": "slide-left",
+      "overlay_notes": "Thẻ số liệu phải: '48,0 km luồng dẫn từ Sông Cấm ra Phao số 0' và 'Hệ quả cũ: Phải gom hàng qua Hồng Kông / Singapore'.",
+      "shot_language": {
+        "shot_size": "medium_wide",
+        "camera_movement": "pan_right",
+        "lens_mm": 50,
+        "lighting_key": "overcast_soft",
+        "depth_of_field": "deep",
+        "color_temperature": "neutral"
+      },
+      "shot_intent": "Giải thích hệ quả kinh tế cụ thể của việc thiếu cảng nước sâu để khán giả hiểu vì sao bài toán này ảnh hưởng trực tiếp tới sức cạnh tranh hàng Việt Nam.",
+      "narrative_role": "build_tension",
+      "information_role": "Liên kết giới hạn địa lý 48 km luồng sông với nút thắt phải trung chuyển hàng hóa qua cảng nước ngoài.",
+      "hero_moment": false,
+      "texture_keywords": [
+        "clean",
+        "editorial-split",
+        "flat-diagram"
+      ],
+      "required_assets": [
+        {
+          "type": "remotion_scene",
+          "description": "Sơ đồ tuyến trung chuyển Hải Phòng -> Hồng Kông / Singapore bằng SVG vector trong bảng màu #071320 / #D97706",
+          "source": "generate"
+        }
+      ]
+    },
+    {
+      "id": "scene_04",
+      "type": "animation",
+      "description": "Cú máy 3 (pin-label): Cận cảnh thủy hệ cửa sông Thái Bình - Bạch Đằng với dải phù sa màu hổ phách (#D97706) lan ra cửa biển và 2 cụm chân ghim tọa độ (Pin) khóa chặt trong vùng an toàn 16:9. [5-Aspect | Subject: Hai cụm Pin tọa độ tại Sông Cấm và Cửa Nam Triệu trên nền vùng bồi lắng phù sa; Subject Motion: Mảng màu phù sa loang nhẹ ở cửa sông, tiếp theo Pin 1 và Pin 2 bật mở tuần tự theo giọng đọc; Scene: Hải đồ cận cảnh cửa sông với sắc độ ấm cảnh báo #D97706; Spatial Framing: Pin Sông Cấm ở góc phần tư trên-trái, Pin Cửa Nam Triệu ở góc phần tư dưới-giữa, toàn bộ hộp chữ cách mép >= 96px; Camera: Pan_left chậm dọc theo hướng phù sa đổ ra cửa biển].",
+      "start_seconds": 28.5,
+      "end_seconds": 40.5,
+      "script_section_id": "s3",
+      "framing": "Cận cảnh cửa sông Hải Phòng với bộ kẹp vùng an toàn nhãn (clampToSafe 1920x1080)",
+      "movement": "Animated silt plume reveal + sequential spring Pin pop-up + slow pan_left",
+      "transition_in": "slide-left",
+      "transition_out": "dissolve",
+      "overlay_notes": "Pin 1: 'LUỒNG SÔNG CẤM — Rộng 80 m | Sâu -7,0 m'; Pin 2: 'CỬA NAM TRIỆU — Phù sa bồi cạn -0,5 m đến -3,7 m'; Chú thích đáy: 'Nguồn: Cảng vụ Hàng hải Hải Phòng (29/08/2026)'.",
+      "shot_language": {
+        "shot_size": "medium_close",
+        "camera_movement": "pan_left",
+        "lens_mm": 85,
+        "lighting_key": "tungsten_warm",
+        "depth_of_field": "medium",
+        "color_temperature": "warm"
+      },
+      "shot_intent": "Trình diễn chuẩn xác cú máy pin-label trong safe zone 16:9 và chỉ mặt đặt tên 'thủ phạm' phù sa bằng số đo thực tế năm 2026.",
+      "narrative_role": "evidence",
+      "information_role": "Cung cấp 2 thông số bằng chứng cốt lõi: sông Cấm chỉ sâu -7,0 m (rộng 80 m) và cửa Nam Triệu bồi cạn tới -0,5 m.",
+      "hero_moment": false,
+      "texture_keywords": [
+        "amber-silt",
+        "clean",
+        "technical-callout"
+      ],
+      "required_assets": [
+        {
+          "type": "remotion_scene",
+          "description": "Component Pin & Safe-Zone Label 16:9 hiển thị thông số Sông Cấm (-7,0 m) và Cửa Nam Triệu (-0,5 m)",
+          "source": "generate"
+        }
+      ]
+    },
+    {
+      "id": "scene_05",
+      "type": "text_card",
+      "description": "Sơ đồ mặt cắt ngang lòng sông Cấm nội đô (render dạng thẻ kỹ thuật kết hợp hình học mặt cắt ngang): Giải thích vì sao không thể khoét sâu lòng sông 80 m giữa hai bờ phố xuống -14,0 m (nguy cơ trượt lở bờ đô thị + bùn cát bồi lấp lại hàng năm). [5-Aspect | Subject: Mặt cắt ngang lòng sông hẹp 80 m kẹp giữa hai dãy công trình ven sông nội đô; Subject Motion: Đường nạo vét giả định hạ xuống -14 m làm xuất hiện mũi tên cảnh báo trượt lở hai bên bờ và lớp bùn bồi trở lại; Scene: Nền thẻ kỹ thuật tối #0B192C viền cảnh báo đỏ san hô #F43F5E; Spatial Framing: Chính giữa khung hình với 2 cột thông số cảnh báo hai bên; Camera: N/A — Remotion native static technical card].",
+      "start_seconds": 40.5,
+      "end_seconds": 49.6,
+      "script_section_id": "s4",
+      "framing": "Centered technical cross-section card với khoảng thở rộng hai bên",
+      "movement": "Static frame với hoạt ảnh vạch đào sâu giả định và mũi tên cảnh báo áp lực bờ sông",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "overlay_notes": "Tiêu đề thẻ: 'VÌ SAO KHÔNG KHOÉT SÂU SÔNG CẤM XUỐNG -14,0 M?'; Hai nhãn ngắn: '1. Luồng hẹp 80 m sát bờ nội đô -> Rủi ro sạt lở' | '2. Phù sa bồi lắng lặp lại mỗi mùa mưa bão'.",
+      "shot_language": {
+        "shot_size": "medium",
+        "camera_movement": "static",
+        "lens_mm": 50,
+        "lighting_key": "low_key",
+        "depth_of_field": "deep",
+        "color_temperature": "mixed"
+      },
+      "shot_intent": "Chặn trước câu hỏi phản biện lớn nhất của khán giả ('sao không nạo vét sông cũ?') và tạo nhịp nghỉ thị giác trước khi vẽ tuyến cầu vượt biển.",
+      "narrative_role": "build_tension",
+      "information_role": "Làm rõ giới hạn địa chất công trình và chi phí duy tu khiến phương án đào sâu cảng sông nội đô bất khả thi.",
+      "hero_moment": false,
+      "texture_keywords": [
+        "clean",
+        "blueprint-card",
+        "high-contrast"
+      ],
+      "required_assets": [
+        {
+          "type": "remotion_scene",
+          "description": "Thẻ mặt cắt ngang luồng hẹp 80 m sông Cấm bằng SVG + typography Be Vietnam Pro",
+          "source": "generate"
+        }
+      ]
+    },
+    {
+      "id": "scene_06",
+      "type": "animation",
+      "description": "Cú máy 4 (route): Vẽ đường tiến trình (Route) màu ngọc lam (#2DD4BF) cho tuyến đường - cầu vượt biển Tân Vũ - Lạch Huyện dài 15,63 km (phần cầu vượt biển 5,44 km) phóng từ bán đảo Đình Vũ sang đảo Cát Hải, nối tiếp bằng tuyến luồng Lạch Huyện dài 20,66 km và đê chắn cát ngoài khơi. [5-Aspect | Subject: Tuyến cầu vượt biển Tân Vũ - Lạch Huyện và trục luồng hàng hải Lạch Huyện; Subject Motion: Nét vẽ stroke-dashoffset chạy mượt từ Đình Vũ qua kênh Cái Tráp sang Cát Hải, sau đó tiếp tục vươn từ bến Lạch Huyện ra Phao số 0 kèm tường đê chắn cát; Scene: Hải đồ khu vực Đình Vũ - Cát Hải với hiệu ứng phát sáng nhẹ dọc tuyến mới #2DD4BF; Spatial Framing: Đường chéo năng động từ góc trên-trái (Đình Vũ) xuống góc dưới-phải (Phao số 0); Camera: Tracking_right bám theo đầu mũi tuyến đường vươn ra biển].",
+      "start_seconds": 49.6,
+      "end_seconds": 61.2,
+      "script_section_id": "s4",
+      "framing": "16:9 diagonal route progression từ Đình Vũ qua đảo Cát Hải ra vịnh Bắc Bộ",
+      "movement": "Progressive SVG path stroke reveal kết hợp camera tracking_right mượt theo tỷ lệ thời lượng cảnh",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "overlay_notes": "Nhãn dọc tuyến 1: 'Tân Vũ – Lạch Huyện: 15,63 km (Cầu vượt biển: 5,44 km)'; Nhãn dọc tuyến 2: 'Luồng Lạch Huyện: 20,66 km + Đê chắn cát bảo vệ luồng'.",
+      "shot_language": {
+        "shot_size": "wide",
+        "camera_movement": "tracking_right",
+        "lens_mm": 35,
+        "lighting_key": "rim_lit",
+        "depth_of_field": "deep",
+        "color_temperature": "cool"
+      },
+      "shot_intent": "Trình diễn cú máy route tiến trình theo tỷ lệ frame chuẩn xác, cho thấy giải pháp 'nhảy qua vùng phù sa' bằng hạ tầng cầu vượt biển.",
+      "narrative_role": "deliver_payload",
+      "information_role": "Người xem thấy rõ cấu trúc không gian kết nối từ đất liền Hải Phòng qua cầu vượt biển 5,44 km tới khu bến nước sâu ngoài rìa đảo Cát Hải.",
+      "hero_moment": false,
+      "texture_keywords": [
+        "teal-glow",
+        "clean",
+        "vector-route"
+      ],
+      "required_assets": [
+        {
+          "type": "remotion_scene",
+          "description": "Component Route tiến trình với tọa độ thực tuyến Tân Vũ - Lạch Huyện và luồng tàu ra Phao số 0",
+          "source": "generate"
+        }
+      ]
+    },
+    {
+      "id": "scene_07",
+      "type": "diagram",
+      "description": "Cú máy 5a (comparison-measure): Thước đo khoảng cách Haversine (Measure / distanceKm) đặt trực tiếp trên hải đồ để đo và đối chiếu hai hành lang: từ Sông Cấm ra biển (48,0 km luồng dẫn, rộng 80 m) so với từ Lạch Huyện ra Phao số 0 (20,66 km, rộng 160 m — rộng gấp đôi). [5-Aspect | Subject: Hai thước đo khoảng cách Haversine và thanh đối chiếu bề rộng luồng 80 m vs 160 m; Subject Motion: Hai đường gióng thước đo bung ra từ điểm đầu - điểm cuối cùng con số nhảy định dạng tiếng Việt; Scene: Hải đồ kỹ thuật kèm lưới tỷ lệ xích; Spatial Framing: Đối sánh song song trên - dưới rõ ràng; Camera: Zoom_in nhẹ 1.00 -> 1.04 vào vùng cửa Lạch Huyện].",
+      "start_seconds": 61.2,
+      "end_seconds": 69.7,
+      "script_section_id": "s5",
+      "framing": "Dual Haversine caliper measurement diagram trên nền hải đồ 16:9",
+      "movement": "Animated caliper extension + proportional width bar comparison (80 m vs 160 m) + gentle zoom_in",
+      "transition_in": "dissolve",
+      "transition_out": "slide-left",
+      "overlay_notes": "Thước đo A (hổ phách): 'Lộ trình cũ từ Sông Cấm: 48,0 km | Rộng 80 m'; Thước đo B (ngọc lam): 'Luồng Lạch Huyện: 20,66 km | Rộng 160 m (Gấp 2 lần)'.",
+      "shot_language": {
+        "shot_size": "medium_close",
+        "camera_movement": "zoom_in",
+        "lens_mm": 50,
+        "lighting_key": "natural",
+        "depth_of_field": "deep",
+        "color_temperature": "cool"
+      },
+      "shot_intent": "Thực thi phần đo khoảng cách Haversine của cú máy comparison-measure, chứng minh lợi thế rút ngắn cự ly và nhân đôi bề rộng luồng.",
+      "narrative_role": "comparison",
+      "information_role": "Định lượng trực quan sự khác biệt hình học trên mặt bằng: 48,0 km / 80 m so với 20,66 km / 160 m.",
+      "hero_moment": false,
+      "texture_keywords": [
+        "caliper-grid",
+        "clean",
+        "precision-metrics"
+      ],
+      "required_assets": [
+        {
+          "type": "remotion_scene",
+          "description": "Component Measure Haversine định dạng số tiếng Việt (48,0 km / 20,66 km) và thanh so sánh bề rộng luồng",
+          "source": "generate"
+        }
+      ]
+    },
+    {
+      "id": "scene_08",
+      "type": "animation",
+      "description": "Cú máy 5b + Signature Device (Hero Moment): Mặt cắt dọc thủy văn 48 km (48km Longitudinal Bathymetric Staircase) cắt dọc đáy biển từ Sông Cấm (Km48, -7,0 m) qua Kênh Hà Nam (Km28,5, -8,0 m) ra Luồng Lạch Huyện (Km20,6 đến Km0, -12,9 m thực đo / -14,0 m chuẩn tắc), đặt trực tiếp hình chiếu mớn nước siêu tàu 165.000 DWT lên mặt cắt. [5-Aspect | Subject: Đồ thị mặt cắt dọc bậc thang độ sâu 48 km và mặt bên thân siêu tàu container 165.000 DWT; Subject Motion: Đường đáy sông-biển vẽ từ trái sang phải qua 3 bậc sâu, hình chiếu tàu mẹ trượt thử vào bậc -8,0 m / -7,0 m bật cảnh báo đỏ 'Chạm đáy' rồi lùi ra đậu an toàn trên bậc -12,9 m / -14,0 m của Lạch Huyện; Scene: Giao diện hải đồ mặt cắt độ tương phản cao (#071320 / #2DD4BF / #F43F5E); Spatial Framing: Cận cảnh toàn chiều ngang 1920px cho trục 48 km để đọc rõ từng mét độ sâu; Camera: Pan_right ngang theo trục lý trình Km48 -> Km0].",
+      "start_seconds": 69.7,
+      "end_seconds": 78.2,
+      "script_section_id": "s5",
+      "framing": "Full-width longitudinal bathymetric profile (trục ngang Km48 -> Km0, trục đứng 0 m -> -16 m)",
+      "movement": " Bathymetric staircase progressive reveal + vessel draft clearance simulation + pan_right",
+      "transition_in": "slide-left",
+      "transition_out": "dissolve",
+      "overlay_notes": "Ba mốc bậc thang: 'Sông Cấm: -7,0 m (Chạm đáy)' | 'Kênh Hà Nam: -8,0 m (Chạm đáy)' | 'Luồng Lạch Huyện: -12,9 m / Chuẩn tắc -14,0 m (Đón tàu 165.000 DWT giảm tải)'.",
+      "shot_language": {
+        "shot_size": "close_up",
+        "camera_movement": "pan_right",
+        "lens_mm": 85,
+        "lighting_key": "high_key",
+        "depth_of_field": "shallow",
+        "color_temperature": "cool"
+      },
+      "shot_intent": "Đỉnh cao thị giác (Hero Moment) giải đáp dứt điểm câu hỏi tiêu đề video trong một khung hình duy nhất không cần lời giải thích rườm rà.",
+      "narrative_role": "deliver_payload",
+      "information_role": "Khán giả nhìn thấy tận mắt bậc thang chênh lệch gần 6-7 mét độ sâu dưới đáy nước quyết định số phận của tàu mẹ quốc tế.",
+      "hero_moment": true,
+      "texture_keywords": [
+        "hydrographic-cross-section",
+        "crisp-vector",
+        "high-contrast"
+      ],
+      "required_assets": [
+        {
+          "type": "remotion_scene",
+          "description": "Signature Device: Mặt cắt dọc thủy văn 48 km từ Sông Cấm (-7,0 m) ra Lạch Huyện (-12,9 m / -14,0 m) kèm mô phỏng mớn nước tàu 165.000 DWT",
+          "source": "generate"
+        }
+      ]
+    },
+    {
+      "id": "scene_09",
+      "type": "text_card",
+      "description": "Sổ cái trạng thái hạ tầng Cát Hải & Lời kêu gọi bình luận (CTA): Phân tách minh bạch trên bản đồ đảo Cát Hải giữa 6 bến container quốc tế đang vận hành thực tế (Bến 1-2 & Bến 3-6, nét liền màu ngọc lam) với phân khu quy hoạch mở rộng đến năm 2030 theo QĐ 1579/QĐ-TTg (viền nét đứt), kèm câu hỏi bình luận chọn chủ đề tập kế tiếp. [5-Aspect | Subject: Sơ đồ phân vùng Bến 1-6 (Đang vận hành) vs Phân khu mở rộng 2030 (Quy hoạch) kèm thẻ CTA nguyên văn; Subject Motion: Khối 6 bến đang khai thác sáng lên trước, khối quy hoạch 2030 hiện viền nét đứt sau, cuối cùng thẻ câu hỏi bình luận trượt nhẹ lên ở cạnh dưới; Scene: Bố cục kết thúc đĩnh đạc trên nền #071320; Spatial Framing: Trên là sơ đồ trạng thái bến cảng 2 cột rõ chữ, dưới là dải câu hỏi CTA căn giữa; Camera: N/A — Remotion native static closing card bảo đảm chính xác 100% chữ tiếng Việt].",
+      "start_seconds": 78.2,
+      "end_seconds": 90.0,
+      "script_section_id": "s6",
+      "framing": "Split status ledger (Đang vận hành vs Quy hoạch 2030) + bottom verbatim CTA banner trong safe zone",
+      "movement": "Two-step badge reveal + calm 1.0s final hold",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "overlay_notes": "Nhãn trạng thái 1 (nét liền #2DD4BF): 'ĐANG KHAI THÁC (2025–2026): Bến 1–6 | Đón tàu đến 165.000 DWT giảm tải'; Nhãn trạng thái 2 (nét đứt #94A3B8): 'QUY HOẠCH ĐẾN 2030 (QĐ 1579/QĐ-TTg): Mở rộng tiếp các bến tiếp theo'; CTA: 'Tập bản đồ tiếp theo: Sân bay Long Thành 40 km hay Cao tốc miền Tây?'.",
+      "shot_language": {
+        "shot_size": "establishing",
+        "camera_movement": "static",
+        "lens_mm": 35,
+        "lighting_key": "low_key",
+        "depth_of_field": "deep",
+        "color_temperature": "cool"
+      },
+      "shot_intent": "Tuân thủ nghiêm ngặt nguyên tắc phân biệt công trình đang vận hành với quy hoạch tương lai (tài liệu 21 mục 5) và kích hoạt bình luận tự nhiên.",
+      "narrative_role": "call_to_action",
+      "information_role": "Tổng kết hiện trạng thực tế 6 bến tại Lạch Huyện và mời khán giả chọn câu hỏi địa lý kinh tế tuần tới.",
+      "hero_moment": false,
+      "texture_keywords": [
+        "clean",
+        "status-ledger",
+        "crisp-typography"
+      ],
+      "required_assets": [
+        {
+          "type": "remotion_scene",
+          "description": "Thẻ tổng kết trạng thái 6 bến đang vận hành vs quy hoạch 2030 và banner CTA tiếng Việt chính xác",
+          "source": "generate"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "composition_mode": "atelier",
+    "render_runtime": "remotion",
+    "signature_device_scene": "scene_08",
+    "scene_distinctness_inventory": [
+      {
+        "scene_id": "scene_01",
+        "primary_visual_subject": "Bản đồ tổng thể Việt Nam + Quần đảo Hoàng Sa & Trường Sa + đường hải trình Biển Đông"
+      },
+      {
+        "scene_id": "scene_02",
+        "primary_visual_subject": "Chuyển động thu phóng Mercator liên tục từ miền Bắc vào cửa sông Hải Phòng - Cát Hải"
+      },
+      {
+        "scene_id": "scene_03",
+        "primary_visual_subject": "Sơ đồ 2 chặng gom hàng feeder vòng qua Singapore / Hồng Kông"
+      },
+      {
+        "scene_id": "scene_04",
+        "primary_visual_subject": "Cận cảnh vùng phù sa hổ phách & 2 cụm chân ghim Pin (Sông Cấm -7,0 m / Cửa Nam Triệu -0,5 m)"
+      },
+      {
+        "scene_id": "scene_05",
+        "primary_visual_subject": "Mặt cắt ngang lòng sông hẹp 80 m kẹp giữa bờ đô thị Hải Phòng"
+      },
+      {
+        "scene_id": "scene_06",
+        "primary_visual_subject": "Đường vẽ tiến trình cầu vượt biển Tân Vũ - Lạch Huyện (5,44 km) & luồng tàu (20,66 km)"
+      },
+      {
+        "scene_id": "scene_07",
+        "primary_visual_subject": "Thước đo khoảng cách Haversine (48,0 km vs 20,66 km) & thanh bề rộng luồng (80 m vs 160 m)"
+      },
+      {
+        "scene_id": "scene_08",
+        "primary_visual_subject": "Signature Device: Mặt cắt dọc thủy văn 48 km (3 bậc độ sâu) + mô phỏng mớn nước siêu tàu 165.000 DWT"
+      },
+      {
+        "scene_id": "scene_09",
+        "primary_visual_subject": "Sơ đồ sổ cái tách bạch 6 bến đang vận hành (nét liền) vs quy hoạch 2030 (nét đứt) + CTA"
+      }
+    ]
+  }
+}

@@ -75,8 +75,8 @@ def parse_srt_to_word_captions(srt_path: Path) -> list[dict]:
 def stage_topic_assets() -> None:
     """Copy each topic's exclusive assets into `remotion-composer/public/topics/<tkey>/`."""
     topics = [
-        ("t1", ROOT / "Chu-De" / "Tam-Ly-Hoc-Tu-Duy", ROOT / "Chu-De" / "Tam-Ly-Hoc-Tu-Duy" / "tts_tap1.mp3", ROOT / "Chu-De" / "Tam-Ly-Hoc-Tu-Duy" / "sfx_behavior_pro.wav"),
-        ("t2", ROOT / "Chu-De" / "Better-Version-Tam-Ly", ROOT / "Chu-De" / "Better-Version-Tam-Ly" / "tts_tap1.mp3", ROOT / "Chu-De" / "Better-Version-Tam-Ly" / "sfx_healing_pro.wav"),
+        ("t1", ROOT / "Chu-De" / "Tam-Ly-Hanh-Vi-Giao-Tiep", ROOT / "Chu-De" / "Tam-Ly-Hanh-Vi-Giao-Tiep" / "tts_tap1.mp3", ROOT / "Chu-De" / "Tam-Ly-Hanh-Vi-Giao-Tiep" / "sfx_behavior_pro.wav"),
+        ("t2", ROOT / "Chu-De" / "Tam-Ly-Noi-Tam", ROOT / "Chu-De" / "Tam-Ly-Noi-Tam" / "tts_tap1.mp3", ROOT / "Chu-De" / "Tam-Ly-Noi-Tam" / "sfx_healing_pro.wav"),
         ("t3", ROOT / "Chu-De" / "Ke-Chuyen-Dem-Khuya", ROOT / "Chu-De" / "Ke-Chuyen-Dem-Khuya" / "tts_tap1.mp3", ROOT / "Chu-De" / "Ke-Chuyen-Dem-Khuya" / "sfx_night_rain_pro.wav"),
         ("t4", ROOT / "Chu-De" / "Bi-An-Lich-Su", ROOT / "Chu-De" / "Bi-An-Lich-Su" / "tts_tap1.mp3", ROOT / "Chu-De" / "Bi-An-Lich-Su" / "sfx_history_pro.wav"),
         ("t5", ROOT / "Chu-De" / "The-Gioi-Dong-Vat", ROOT / "Chu-De" / "The-Gioi-Dong-Vat" / "tts_tap1.mp3", ROOT / "Chu-De" / "The-Gioi-Dong-Vat" / "sfx_wildlife_pro.wav"),
@@ -119,8 +119,8 @@ def build_openmontage_props() -> list[tuple[str, Path, Path]]:
         # 1. TAM LY HOC TU DUY
         (
             "om_t1_behavior",
-            ROOT / "Chu-De" / "Tam-Ly-Hoc-Tu-Duy" / "openmontage_remotion.mp4",
-            ROOT / "Chu-De" / "Tam-Ly-Hoc-Tu-Duy" / "tts_tap1.srt",
+            ROOT / "Chu-De" / "Tam-Ly-Hanh-Vi-Giao-Tiep" / "openmontage_remotion.mp4",
+            ROOT / "Chu-De" / "Tam-Ly-Hanh-Vi-Giao-Tiep" / "tts_tap1.srt",
             {
                 "theme": "flat-motion-graphics",
                 "themeConfig": {
@@ -230,8 +230,8 @@ def build_openmontage_props() -> list[tuple[str, Path, Path]]:
         # 2. BETTER VERSION TAM LY
         (
             "om_t2_healing",
-            ROOT / "Chu-De" / "Better-Version-Tam-Ly" / "openmontage_remotion.mp4",
-            ROOT / "Chu-De" / "Better-Version-Tam-Ly" / "tts_tap1.srt",
+            ROOT / "Chu-De" / "Tam-Ly-Noi-Tam" / "openmontage_remotion.mp4",
+            ROOT / "Chu-De" / "Tam-Ly-Noi-Tam" / "tts_tap1.srt",
             {
                 "theme": "anime-ghibli",
                 "themeConfig": {

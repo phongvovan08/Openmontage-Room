@@ -1,57 +1,45 @@
-# Kho Lưu Trữ Thông Tin Dự Án & 6 Chủ Đề Kênh YouTube (`Chu-De/`)
+# Chủ đề đang triển khai
 
-Thư mục này tập trung toàn bộ **Tài liệu nghiên cứu, Hồ sơ định vị, Hướng dẫn tùy biến OpenMontage, Danh sách Skills** và **6 thư mục Chủ đề sản xuất video** vào một nơi duy nhất để tách biệt gọn gàng với mã nguồn hệ thống của `OpenMontage`.
+## Ngách pilot
 
----
+**Giải mã địa lý kinh tế và hạ tầng dân dụng Việt Nam bằng bản đồ.**
 
-## 1. Tài Liệu Thông Tin & Kế Hoạch Tổng Thể
+Mỗi video trả lời một câu hỏi cụ thể về một cảng, sân bay, tuyến đường sắt, cao tốc, hệ thống điện hoặc nút logistics:
 
-| STT | Tài liệu | Nội dung chính |
-|:---:|---|---|
-| 1 | [`NGHIEN_CUU_CHU_DE.md`](./NGHIEN_CUU_CHU_DE.md) | Phân tích từ khóa vidIQ, dung lượng tìm kiếm, độ cạnh tranh và dữ liệu NexLev cho các ngách YouTube. |
-| 2 | [`brand-profile.md`](./brand-profile.md) | Hồ sơ định vị thương hiệu tổng, chân dung khán giả mục tiêu (ICP) và quy chuẩn hình ảnh chung. |
-| 3 | [`TONG_HOP_KICH_BAN_VA_VIDEO_DEMO_6_CHU_DE.md`](./TONG_HOP_KICH_BAN_VA_VIDEO_DEMO_6_CHU_DE.md) | Tổng hợp kịch bản 2 cột (AV Script), kho 36 tư liệu đa nguồn và cấu hình kết xuất 6 chủ đề. |
-| 4 | [`TIM_HIEU_OPENMONTAGE.md`](./TIM_HIEU_OPENMONTAGE.md) • [`HUONG_DAN_CUSTOM_OPENMONTAGE.md`](./HUONG_DAN_CUSTOM_OPENMONTAGE.md) | Toàn tập tìm hiểu OpenMontage là gì, tính năng 14+ Cut Types, bản đồ từng thư mục và 5 cấp độ Custom từ JSON đến React/Remotion. |
-| 5 | [`DANH_SACH_28_SKILLS_LAM_VIDEO.md`](./DANH_SACH_28_SKILLS_LAM_VIDEO.md) | Danh sách 28 Skills tốt nhất chia theo 6 tầng sản xuất video và công thức phối hợp cho từng chủ đề. |
-| 6 | [`TONG_HOP_REPO_SKILLS.md`](./TONG_HOP_REPO_SKILLS.md) | Tổng hợp các Repository AI Video & YouTube Agent Skills mã nguồn mở đã tích hợp. |
-| 7 | [`CAU_HINH_ENV_VA_API_KEYS.md`](./CAU_HINH_ENV_VA_API_KEYS.md) | Giải thích chi tiết các biến trong `.env.example`, `.vibi_api_key` và bộ API Keys tối ưu chất lượng video. |
+> Vì sao công trình hoặc tuyến này nằm ở đó, và nó giải quyết bài toán gì?
 
----
+## Kênh và thị trường
 
-## 2. Danh Sách 6 Thư Mục Chủ Đề Riêng Biệt
+- Thị trường đầu tiên: Việt Nam.
+- Ngôn ngữ: tiếng Việt.
+- Định dạng chính: video dài 10 đến 16 phút.
+- Nội dung hỗ trợ: 1 đến 2 Shorts độc lập cho mỗi video dài.
+- Nhịp pilot phù hợp quỹ thời gian hiện tại: 1 video dài và 2 Shorts mỗi tuần, khoảng 8 đến 10 giờ.
+- Chưa mở kênh tiếng Anh trong Giai đoạn 0.
 
-Mỗi thư mục chủ đề chứa **Kịch bản & Phân cảnh (`KICH_BAN_VA_PHAN_CANH_DEMO.md`)**, **Phụ đề khớp mili-giây (`tts_tap1.srt`)**, **Hồ sơ kênh (`brand-profile.md`, `voice.md`)** và **Kho tư liệu độc lập (`assets/`)**:
+## Tài liệu điều hành
 
-1. **Tâm Lý Học Hành Vi & Đọc Vị (`Tam-Ly-Hoc-Tu-Duy`)**
-   - Thư mục: [`./Tam-Ly-Hoc-Tu-Duy/`](./Tam-Ly-Hoc-Tu-Duy/)
-   - Kịch bản 2 cột: [`Tam-Ly-Hoc-Tu-Duy/KICH_BAN_VA_PHAN_CANH_DEMO.md`](./Tam-Ly-Hoc-Tu-Duy/KICH_BAN_VA_PHAN_CANH_DEMO.md)
-   - Hồ sơ & giọng văn: [`brand-profile.md`](./Tam-Ly-Hoc-Tu-Duy/brand-profile.md) • [`voice.md`](./Tam-Ly-Hoc-Tu-Duy/voice.md)
-   - Props Remotion: [`om_t1_behavior.json`](../remotion-composer/public/demo-props/om_t1_behavior.json)
+- [Quyết định ngách và checklist Giai đoạn 0](./21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md) — file hiện hành: đã chốt, chưa chốt, việc theo ngày và cổng duyệt.
+- [Phân tích GitHub, thị trường, chính sách và kế hoạch ngách](./16_PHAN_TICH_DOC_LAP_GITHUB_THI_TRUONG_NGACH_2026-11-14.md) — tài liệu nghiên cứu, giữ nguyên làm tư liệu tham khảo.
+- [Đánh giá 19 repository GitHub](./14_DANH_GIA_19_REPO_GITHUB.md) — chi tiết workflow, license, chi phí từng repo.
+- [Quét ngách YouTube ngày 14/11/2026](./17_QUET_NGACH_YOUTUBE_2026-11-14.md) — 4.585 video công khai trên 22 nhóm ngách.
+- [Kho dữ liệu nghiên cứu](./research/) — snapshot vidIQ và dữ liệu từ 26/10 đến 27/10/2026.
 
-2. **Tâm Lý Chữa Lành & Đúc Kết Sách (`Better-Version-Tam-Ly`)**
-   - Thư mục: [`./Better-Version-Tam-Ly/`](./Better-Version-Tam-Ly/)
-   - Kịch bản 2 cột: [`Better-Version-Tam-Ly/KICH_BAN_VA_PHAN_CANH_DEMO.md`](./Better-Version-Tam-Ly/KICH_BAN_VA_PHAN_CANH_DEMO.md)
-   - Hồ sơ & giọng văn: [`brand-profile.md`](./Better-Version-Tam-Ly/brand-profile.md) • [`voice.md`](./Better-Version-Tam-Ly/voice.md)
-   - Props Remotion: [`om_t2_healing.json`](../remotion-composer/public/demo-props/om_t2_healing.json)
+## Nguyên tắc làm nội dung
 
-3. **Kể Chuyện Đêm Khuya (`Ke-Chuyen-Dem-Khuya`)**
-   - Thư mục: [`./Ke-Chuyen-Dem-Khuya/`](./Ke-Chuyen-Dem-Khuya/)
-   - Kịch bản 2 cột: [`Ke-Chuyen-Dem-Khuya/KICH_BAN_VA_PHAN_CANH_DEMO.md`](./Ke-Chuyen-Dem-Khuya/KICH_BAN_VA_PHAN_CANH_DEMO.md)
-   - Hồ sơ & giọng văn: [`brand-profile.md`](./Ke-Chuyen-Dem-Khuya/brand-profile.md) • [`voice.md`](./Ke-Chuyen-Dem-Khuya/voice.md)
-   - Props Remotion: [`om_t3_night_story.json`](../remotion-composer/public/demo-props/om_t3_night_story.json)
+1. Mỗi con số hoặc nhận định quan trọng phải có nguồn trong fact ledger trước khi vào lời dẫn.
+2. Ưu tiên bản đồ vector, sơ đồ tự dựng, dữ liệu tọa độ và footage có quyền sử dụng.
+3. Không đọc lại bài báo, không dùng lại footage của kênh khác và không sản xuất hàng loạt theo một khuôn rỗng.
+4. Phân biệt rõ quy hoạch, đề xuất, đang xây dựng và đã vận hành.
+5. Người dùng duyệt kịch bản, nguồn, thumbnail, license và bản xuất cuối trước khi đăng.
 
-4. **Bí Ẩn Lịch Sử & Văn Minh Cổ Đại (`Bi-An-Lich-Su`)**
-   - Thư mục: [`./Bi-An-Lich-Su/`](./Bi-An-Lich-Su/)
-   - Kịch bản 2 cột: [`Bi-An-Lich-Su/KICH_BAN_VA_PHAN_CANH_DEMO.md`](./Bi-An-Lich-Su/KICH_BAN_VA_PHAN_CANH_DEMO.md)
-   - Props Remotion: [`om_t4_history.json`](../remotion-composer/public/demo-props/om_t4_history.json)
+## Trạng thái
 
-5. **Thế Giới Động Vật & Thiên Nhiên Kỳ Thú (`The-Gioi-Dong-Vat`)**
-   - Thư mục: [`./The-Gioi-Dong-Vat/`](./The-Gioi-Dong-Vat/)
-   - Kịch bản 2 cột: [`The-Gioi-Dong-Vat/KICH_BAN_VA_PHAN_CANH_DEMO.md`](./The-Gioi-Dong-Vat/KICH_BAN_VA_PHAN_CANH_DEMO.md)
-   - Props Remotion: [`om_t5_wildlife.json`](../remotion-composer/public/demo-props/om_t5_wildlife.json)
-
-6. **Mẹo Vặt Khoa Học Đời Thường (`Meo-Vat-Cuoc-Song`)**
-   - Thư mục: [`./Meo-Vat-Cuoc-Song/`](./Meo-Vat-Cuoc-Song/)
-   - Kịch bản 2 cột: [`Meo-Vat-Cuoc-Song/KICH_BAN_VA_PHAN_CANH_DEMO.md`](./Meo-Vat-Cuoc-Song/KICH_BAN_VA_PHAN_CANH_DEMO.md)
-   - Props Remotion: [`om_t6_lifehack.json`](../remotion-composer/public/demo-props/om_t6_lifehack.json)
-
+- Ngách: đã chọn.
+- Thị trường đầu tiên: đã chọn.
+- Quỹ thời gian pilot: đã chọn.
+- Tên kênh và handle: chưa chốt.
+- Giọng đọc: Vibi TTS.
+- Quay cảnh thật: không; visual dùng bản đồ, sơ đồ và đồ họa dựng bằng code.
+- Ba đề tài đầu: cần lập fact ledger và duyệt trước khi viết kịch bản.
+- Giai đoạn hiện tại: [Giai đoạn 0: Nền móng](./21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md#4-giai-đoạn-0-nền-móng-1511-đến-22112026).

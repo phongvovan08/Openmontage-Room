@@ -1,0 +1,119 @@
+{
+  "schema_note": "Sổ cái fact & nguồn ứng viên theo Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md mục 4-5. Mọi fact do AI tra cứu bắt buộc giữ status='unverified' cho đến khi người thật mở văn bản gốc xác nhận.",
+  "audit_finding_on_doc_21": {
+    "original_reference_in_doc_21": "Quyết định 1069/QĐ-TTg ngày 22/6/2023",
+    "finding": "Không khớp văn bản quy hoạch cảng biển Hải Phòng. Quy hoạch tổng thể cảng biển là Quyết định 1579/QĐ-TTg ngày 22/09/2021 (sửa đổi bởi 442/QĐ-TTg ngày 22/05/2024), quy hoạch chi tiết nhóm cảng là Quyết định 140/QĐ-TTg ngày 16/01/2025 và Quyết định 756/QĐ-BXD ngày 05/06/2025; thông số độ sâu luồng thực tế do Cảng vụ Hàng hải Hải Phòng công bố theo QĐ 1995/QĐ-CHHĐTVN ngày 07/08/2026.",
+    "action_required": "Người duyệt mở 4 URL nguồn chính dưới đây để xác nhận trước khi nâng status sang 'verified'."
+  },
+  "sources": [
+    {
+      "id": "src-qd-1579-ttg",
+      "title": "Quyết định số 1579/QĐ-TTg phê duyệt Quy hoạch tổng thể phát triển hệ thống cảng biển Việt Nam thời kỳ 2021-2030, tầm nhìn đến năm 2050",
+      "publisher": "Thủ tướng Chính phủ - Cổng Thông tin điện tử Chính phủ",
+      "document_number": "1579/QĐ-TTg",
+      "issued_date": "2021-09-22",
+      "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165",
+      "accessed_at": "2026-11-16",
+      "license_note": "Văn bản quy phạm/hành chính công khai của cơ quan nhà nước; trích dẫn thông tin số liệu, không sao chép nguyên văn đồ họa có bản quyền."
+    },
+    {
+      "id": "src-cvhhhp-lach-huyen-2026",
+      "title": "Thông tin Luồng Hải Phòng - Luồng Lạch Huyện (cập nhật ngày 29/08/2026 theo QĐ 1995/QĐ-CHHĐTVN ngày 07/08/2026)",
+      "publisher": "Cảng vụ Hàng hải Hải Phòng (Cục Hàng hải và Đường thủy Việt Nam)",
+      "document_number": "1995/QĐ-CHHĐTVN",
+      "issued_date": "2026-08-29",
+      "url": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/",
+      "accessed_at": "2026-11-16",
+      "license_note": "Dữ liệu thông báo hàng hải công khai phục vụ an toàn hàng hải."
+    },
+    {
+      "id": "src-cvhhhp-nam-trieu",
+      "title": "Thông tin độ sâu Luồng Nam Triệu Hải Phòng",
+      "publisher": "Cảng vụ Hàng hải Hải Phòng",
+      "document_number": "TBHH-NamTrieu",
+      "issued_date": "2020-07-27",
+      "url": "https://cangvuhaiphong.gov.vn/luong-nam-trieu/",
+      "accessed_at": "2026-11-16",
+      "license_note": "Dữ liệu thông báo hàng hải công khai."
+    },
+    {
+      "id": "src-logistics-gov-ben34",
+      "title": "Bến 3, 4 tại khu cảng Lạch Huyện được tiếp nhận tàu lên đến 165.000 DWT",
+      "publisher": "Cổng thông tin Logistics Việt Nam - Bộ Công Thương",
+      "document_number": null,
+      "issued_date": "2025",
+      "url": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt",
+      "accessed_at": "2026-11-16",
+      "license_note": "Thông tin cổng điện tử chuyên ngành Bộ Công Thương."
+    },
+    {
+      "id": "src-eox-s2cloudless-2016",
+      "title": "EOxCloudless Sentinel-2 cloudless global mosaic (2016) — EPSG:3857 WMTS",
+      "publisher": "EOX IT Services GmbH (Copernicus Sentinel data 2016)",
+      "document_number": null,
+      "issued_date": "2016",
+      "url": "https://cloudless.eox.at",
+      "accessed_at": "2026-11-16",
+      "license_note": "Creative Commons Attribution 4.0 International (CC BY 4.0) — cho phép sử dụng thương mại trên YouTube khi ghi nhận nguồn."
+    },
+    {
+      "id": "src-osm-odbl",
+      "title": "Dữ liệu tọa độ GPS đường bờ biển đảo Cát Hải, đảo Cát Bà, Sông Cấm và Cầu vượt biển Tân Vũ – Lạch Huyện",
+      "publisher": "OpenStreetMap Contributors",
+      "document_number": "way/1084154665, relation/3769311",
+      "issued_date": "2026",
+      "url": "https://www.openstreetmap.org/copyright",
+      "accessed_at": "2026-11-16",
+      "license_note": "Open Data Commons Open Database License (ODbL) — cho phép sử dụng thương mại với ghi chú © OpenStreetMap contributors."
+    },
+    {
+      "id": "src-wikimedia-haiphong-photos",
+      "title": "Bộ 7 ảnh tư liệu thực địa Hải Phòng & Lạch Huyện trên Wikimedia Commons (Cảng Hải Phòng xưa, Cảng Chùa Vẽ, Cảng Tân Vũ, Sông Cấm 2023, Cầu vượt biển Tân Vũ – Lạch Huyện, Bến 3–4 HTIT Lạch Huyện, Cẩu STS Lạch Huyện)",
+      "publisher": "Wikimedia Commons Contributors (TUNMCHP, Phó Nháy, HP1992, Thu Hà Nội, Marc Mongenet)",
+      "document_number": "File:Cang_Hai_Phong.jpg; File:Chùa_Vẽ_Terminal,_Port_of_Hải_Phòng.JPG; File:CANG_TAN_VU.jpg; File:Sông_Cấm_Hải_Phòng_tháng_12_năm_2023f.jpg; File:Dinh_Vu_-_Cat_Hai_Bridge.jpg; File:CANG_HTIT.jpg; File:Lach_Huyen_Port_from_Cai_Vieng_Port.jpg",
+      "issued_date": "1920s–2025",
+      "url": "https://commons.wikimedia.org/wiki/Category:Port_of_Hai_Phong",
+      "accessed_at": "2026-11-16",
+      "license_note": "CC0 1.0 Universal, Public Domain, CC BY 3.0 và CC BY-SA 4.0 — đã kiểm tra pixel không có watermark báo chí, cho phép sử dụng thương mại trên YouTube khi ghi nhận tác giả & giấy phép."
+    }
+  ],
+  "facts": [
+    {
+      "id": "lh-channel-depth-2026",
+      "claim": "Đoạn luồng Lạch Huyện từ Km0+000 đến Km20+662 (dài 20,662 km, rộng 160 m) có độ sâu thông báo -12,9 m (dải cạn -12,8 m đến -11,2 m) theo kỳ đo ngày 29/08/2026; chuẩn tắc thiết kế nạo vét là -14,0 m.",
+      "value": -12.9,
+      "unit": "m (hệ hải đồ)",
+      "infrastructure_state": "operating",
+      "source_ids": ["src-cvhhhp-lach-huyen-2026"],
+      "status": "unverified"
+    },
+    {
+      "id": "song-cam-channel-depth-2026",
+      "claim": "Đoạn luồng Sông Cấm từ Km38+100 đến Km48+000 (dài 9,9 km, rộng 80 m) dẫn vào cụm cảng nội đô Hải Phòng chỉ có độ sâu thông báo -7,0 m (dải cạn -6,9 m đến -6,7 m), còn đoạn kênh Hà Nam (Km22+600 đến Km28+500, rộng 80 m) sâu -8,0 m.",
+      "value": -7.0,
+      "unit": "m (hệ hải đồ)",
+      "infrastructure_state": "operating",
+      "source_ids": ["src-cvhhhp-lach-huyen-2026"],
+      "status": "unverified"
+    },
+    {
+      "id": "nam-trieu-siltation",
+      "claim": "Cửa sông Nam Triệu tự nhiên có chiều rộng 80-100 m nhưng nhiều đoạn bị bồi lắng chỉ còn sâu -0,5 m đến -3,7 m.",
+      "value": -0.5,
+      "unit": "m (hệ hải đồ)",
+      "infrastructure_state": "operating",
+      "source_ids": ["src-cvhhhp-nam-trieu"],
+      "status": "unverified"
+    },
+    {
+      "id": "lh-operating-berths-2025",
+      "claim": "Cảng biển Hải Phòng thuộc nhóm cảng đặc biệt quốc gia; tại khu bến cửa ngõ Lạch Huyện đã đưa vào vận hành các bến container quốc tế số 1-2 (từ 2018) và số 3-4, 5-6 (năm 2025), đón được tàu container đến 165.000 DWT giảm tải.",
+      "value": 165000,
+      "unit": "DWT (giảm tải)",
+      "infrastructure_state": "operating",
+      "source_ids": ["src-qd-1579-ttg", "src-logistics-gov-ben34"],
+      "status": "unverified"
+    }
+  ]
+}
+

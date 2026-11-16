@@ -1,0 +1,22 @@
+{
+  "voice_name": "Haitrieu",
+  "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+  "provider": "minimax",
+  "model_id": "speech-2.8-hd",
+  "language_code": "Vietnamese",
+  "voice_settings": {
+    "speed": 1.1,
+    "pitch": 0,
+    "vol": 1
+  },
+  "english": {
+    "language_code": "English",
+    "voice_settings": {
+      "speed": 1.1,
+      "pitch": 0,
+      "vol": 1
+    },
+    "pitch_shift": 0
+  },
+  "_selection": "explicit_override"
+}

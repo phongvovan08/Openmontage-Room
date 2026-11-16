@@ -45,6 +45,12 @@ export interface AnimeSceneProps {
   lightingFrom?: string;
   /** Ending gradient color for animated lighting shift */
   lightingTo?: string;
+  /** Optional poetic title displayed in Ink Theater / Healing style */
+  title?: string;
+  /** Optional poetic subtitle or reflection line */
+  subtitle?: string;
+  /** Accent color for poetic title badge & rule */
+  accentColor?: string;
   /**
    * Actual scene duration in seconds.
    * CRITICAL: useVideoConfig().durationInFrames returns the FULL composition
@@ -141,6 +147,9 @@ export const AnimeScene: React.FC<AnimeSceneProps> = ({
   vignette = true,
   lightingFrom,
   lightingTo,
+  title,
+  subtitle,
+  accentColor = "#FCD34D",
   sceneDurationSeconds,
 }) => {
   const frame = useCurrentFrame();
@@ -281,6 +290,72 @@ export const AnimeScene: React.FC<AnimeSceneProps> = ({
           color={particleColor}
           intensity={particleIntensity}
         />
+      )}
+
+      {/* Layer 5: Ink Theater / Healing Poetic Typography Overlay */}
+      {(title || subtitle) && (
+        <AbsoluteFill
+          style={{
+            padding: "88px 110px 210px",
+            justifyContent: "space-between",
+            pointerEvents: "none",
+          }}
+        >
+          <div
+            style={{
+              opacity: interpolate(
+                frame,
+                [8, 26, Math.max(27, effectiveDuration - 16), effectiveDuration],
+                [0, 1, 1, 0],
+                { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
+              ),
+              transform: `translateY(${interpolate(
+                frame,
+                [8, 28],
+                [18, 0],
+                { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
+              )}px)`,
+              maxWidth: 1180,
+              background: "linear-gradient(135deg, rgba(8, 12, 24, 0.72), rgba(15, 23, 42, 0.42))",
+              backdropFilter: "blur(10px)",
+              borderLeft: `4px solid ${accentColor}`,
+              borderRadius: "4px 18px 18px 4px",
+              padding: "24px 36px 26px",
+              boxShadow: "0 20px 55px rgba(0, 0, 0, 0.48)",
+            }}
+          >
+            {title && (
+              <div
+                style={{
+                  fontSize: 22,
+                  fontWeight: 700,
+                  letterSpacing: 3.2,
+                  textTransform: "uppercase",
+                  color: accentColor,
+                  marginBottom: subtitle ? 10 : 0,
+                  textShadow: "0 2px 12px rgba(0,0,0,0.65)",
+                }}
+              >
+                {title}
+              </div>
+            )}
+            {subtitle && (
+              <div
+                style={{
+                  fontSize: 42,
+                  fontWeight: 600,
+                  lineHeight: 1.32,
+                  color: "#F8FAFC",
+                  letterSpacing: -0.4,
+                  textShadow: "0 4px 18px rgba(0,0,0,0.75)",
+                  whiteSpace: "pre-line",
+                }}
+              >
+                {subtitle}
+              </div>
+            )}
+          </div>
+        </AbsoluteFill>
       )}
     </AbsoluteFill>
   );

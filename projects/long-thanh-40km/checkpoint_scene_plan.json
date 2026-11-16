@@ -1,0 +1,257 @@
+{
+  "version": "1.0",
+  "project_id": "long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "scene_plan",
+  "status": "completed",
+  "timestamp": "2026-11-15T15:52:29.175930+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "scene_plan": {
+      "version": "1.0",
+      "style_playbook": "minimalist-diagram",
+      "scenes": [
+        {
+          "id": "scene-01-distance-map",
+          "type": "animation",
+          "description": "Opening wide geographic schematic, authored as a clean vector map rather than a survey-grade cartographic claim: TP.HCM urban center at left, Tan Son Nhat close to it, Long Thanh in Dong Nai farther southeast. A fine amber measuring line draws from the city center to each airport, and the two measures are labeled as the cited approximate distances rather than depicted as comparable road routes. There is no separate title card; the question is carried by the map and the two distance labels.",
+          "start_seconds": 0,
+          "end_seconds": 8,
+          "script_section_id": "s1",
+          "framing": "16:9 full-frame schematic map; city center anchored on the left third, both airports visible; distance labels aligned to their measurement lines; captions confined to the bottom safe area.",
+          "movement": "Slow map reveal outward from the city center, then draw the 40 km and 8-10 km measurement lines at clearly different scales; hold both labels long enough to read.",
+          "transition_in": "measured line-draw from black",
+          "transition_out": "map geometry straightens into a horizontal capacity axis",
+          "overlay_notes": "Mark distances as 'theo ACV / B\u00e1o Ch\u00ednh ph\u1ee7'. Do not imply road travel time or an exact route. No pin or boundary should suggest survey-grade cartography.",
+          "shot_intent": "Make the distance question instantly legible and establish the airport geography without inventing a historical site-selection reason.",
+          "narrative_role": "establish_context",
+          "information_role": "Long Thanh is substantially farther from the city center than Tan Son Nhat, according to the cited approximate distances.",
+          "hero_moment": true,
+          "texture_keywords": [
+            "technical drawing",
+            "quiet documentary",
+            "fine survey lines"
+          ],
+          "required_assets": [
+            {
+              "type": "authored_vector_map",
+              "description": "Project-local schematic map locating central Ho Chi Minh City, Tan Son Nhat and Long Thanh in Dong Nai, with no unsupported precise boundaries; source annotations for the approximate distances.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene-02-phase-one-capacity",
+          "type": "diagram",
+          "description": "Cut away from the map to an abstract airport terminal cross-section, not a depiction of the actual terminal. Two independent data tracks assemble: passenger capacity at 25 million per year and cargo capacity at 1.2 million tonnes per year. A small source line identifies this as Long Thanh phase-one design capacity. The two measures never share a unit or axis.",
+          "start_seconds": 8,
+          "end_seconds": 24,
+          "script_section_id": "s2",
+          "framing": "Centered architectural cross-section in the upper half; two horizontal data tracks in the lower half; generous empty margins; source note bottom right above the caption band.",
+          "movement": "Terminal outline traces once, then passenger and cargo values resolve separately from left to right; a final label clarifies 'design capacity, not opening-day traffic'.",
+          "transition_in": "map line becomes the terminal roofline",
+          "transition_out": "terminal outline folds into three phase blocks",
+          "overlay_notes": "Show 25 million passenger journeys per year and 1.2 million tonnes of cargo per year as separate quantities. Keep 'phase 1 design capacity' visible.",
+          "shot_intent": "Deliver the first concrete payoff: phase one is already designed for substantial annual passenger and cargo throughput.",
+          "narrative_role": "deliver_payload",
+          "information_role": "Long Thanh phase one design capacity is 25 million passenger journeys and 1.2 million tonnes of cargo annually; that is not actual traffic on opening day.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "blueprint linework",
+            "precise typography",
+            "no photorealism"
+          ],
+          "required_assets": [
+            {
+              "type": "authored_capacity_diagram",
+              "description": "Vector terminal outline and two non-comparable-unit tracks, labeled exactly 25 million passenger journeys per year and 1.2 million tonnes cargo per year, marked phase-one design capacity; source text included.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene-03-three-phase-capacity",
+          "type": "animation",
+          "description": "Depth is suggested only through three rising phase slabs labeled Phase 1, 2 and 3; the final 100 million passenger per year figure appears only after the third slab. A separate, smaller panel shows 'Tan Son Nhat T3 terminal: 20 million per year design capacity'. The frame then splits under a visible bracket labeled 'different scope: whole airport vs one terminal', explicitly preventing a false five-times comparison.",
+          "start_seconds": 24,
+          "end_seconds": 43,
+          "script_section_id": "s3",
+          "framing": "Wide asymmetrical composition: phase progression in the left two-thirds; the T3 terminal metric on the right; the scope warning spans lower center without overlapping captions.",
+          "movement": "Build three phase slabs sequentially; reveal 100 million only at the end of phase three; cut to the T3 panel, then draw a bracket between labels to expose the scope mismatch.",
+          "transition_in": "terminal roofline unfolds into phase slabs",
+          "transition_out": "slabs flatten into a land-use ledger",
+          "overlay_notes": "Mandatory persistent labels: 'Long Thanh: ultimate whole-airport design after 3 phases' and 'Tan Son Nhat T3: one terminal'. Do not show a ratio or '5x'. Cite both sources.",
+          "shot_intent": "Show future capacity without misrepresenting phase one or comparing different statistical scopes as equivalent.",
+          "narrative_role": "comparison",
+          "information_role": "The 100 million figure belongs to the completed three-phase airport; the 20 million figure is T3's terminal capacity, so these are not like-for-like measures.",
+          "hero_moment": true,
+          "texture_keywords": [
+            "architectural massing",
+            "clean data labels",
+            "documentary restraint"
+          ],
+          "required_assets": [
+            {
+              "type": "authored_phase_capacity_diagram",
+              "description": "Three-step airport capacity build ending at 100 million per year only after all phases, with a separately framed T3 20 million per year and an explicit scope-mismatch label; no ratio graphic.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene-04-land-use-ledger",
+          "type": "diagram",
+          "description": "The camera leaves the phase slabs for a top-down land ledger: one 5,000-hectare bar subdivides in exact proportion into 3,950 hectares civil aviation, 480 shared, and 570 military. The shared slice uses a hatch rather than a third color family. A document-margin-like strip carries the decision number and date, without imitating an official government seal or document layout.",
+          "start_seconds": 43,
+          "end_seconds": 59,
+          "script_section_id": "s4",
+          "framing": "Top-down wide landscape; a proportional horizontal bar across the center; three labels positioned above or below their segments with leader lines where the small segments need room.",
+          "movement": "Begin with an empty measurement baseline, grow the total bar, then subdivide it into the three legally described management categories; resolve the source citation last.",
+          "transition_in": "phase slabs flatten into a measured land bar",
+          "transition_out": "the 5,000 ha outline becomes a 24-hour clock ring",
+          "overlay_notes": "Use 'kho\u1ea3ng 5.000 ha'. Categories: 3.950 ha d\u00e2n d\u1ee5ng; 480 ha d\u00f9ng chung; 570 ha qu\u00e2n s\u1ef1. Source: Quy\u1ebft \u0111\u1ecbnh 562/Q\u0110-BXD, 09/05/2025, \u0110i\u1ec1u 1. Do not render parcel boundaries or imply public/private ownership.",
+          "shot_intent": "Translate the project's land footprint and its three management categories into an accurate proportional graphic.",
+          "narrative_role": "evidence",
+          "information_role": "The plan covers approximately 5,000 hectares, divided among civil aviation, shared and military management categories.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "land survey ledger",
+            "hatched shared area",
+            "archival paper edge"
+          ],
+          "required_assets": [
+            {
+              "type": "authored_proportional_land_diagram",
+              "description": "Accurate horizontal proportional bar from the three areas 3,950 / 480 / 570 ha totaling approximately 5,000 ha, exact category labels, source line; no invented map boundaries.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene-05-operator-claims",
+          "type": "animation",
+          "description": "A circular 24-hour clock is divided into day and night arcs. Rather than showing Tan Son Nhat as forbidden at night, the visual presents Long Thanh's claimed operational flexibility as an open full-day ring, with a persistent 'the operator's stated rationale' attribution. A muted city sound contour at the frame edge appears only as a conceptual illustration of the noise argument, never as measured noise data. The scene ends on the attribution integrated into the diagram.",
+          "start_seconds": 59,
+          "end_seconds": 79,
+          "script_section_id": "s5",
+          "framing": "Off-center circular clock on the left; three concise claims on the right, each introduced by a fine leader line; the attribution tag fixed above the title-safe caption band.",
+          "movement": "Clock hand traverses one full cycle; day and night arcs illuminate; claims appear one at a time. The city contour fades gently, with no decibel numbers or comparative bars.",
+          "transition_in": "circular land-bar boundary opens into a clock",
+          "transition_out": "clock ring contracts to a small amber point beside the closing distance label",
+          "overlay_notes": "Persistent attribution: 'L\u1eadp lu\u1eadn c\u1ee7a ACV'. Phrase as capability and rationale, not an independently measured outcome. Do not claim Tan Son Nhat is categorically banned from night operations.",
+          "shot_intent": "Present the operator's reasons for a farther site while keeping claims attributed and separate from verified outcome measurements.",
+          "narrative_role": "build_tension",
+          "information_role": "ACV cites round-the-clock capability, fewer night restrictions, noise separation and regional connectivity as benefits; these are the operator's stated rationale, not a promise of easier access.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "instrument dial",
+            "soft acoustic contour",
+            "restrained amber"
+          ],
+          "required_assets": [
+            {
+              "type": "authored_operating-hours_diagram",
+              "description": "A 24-hour day/night clock and schematic noise contour with fixed ACV attribution and no unverified decibel or Tan Son Nhat restriction claims.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "scene-06-distance-tradeoff-close",
+          "type": "text_card",
+          "description": "Return to the original regional map, now simplified to two city-airport distance lines and a single balanced sentence: '40 km v\u1eabn l\u00e0 b\u1ea5t ti\u1ec7n.' The counterpart 'quy m\u00f4 l\u1edbn h\u01a1n, khai th\u00e1c ng\u00e0y \u0111\u00eam' appears below, followed by the expected commercial-operation date 01/12/2026 with a citation. The final three-step transfer timeline appears as a quiet teaser with no detailed claims; the frame ends on the 40 km line rather than on a promotional airport rendering.",
+          "start_seconds": 79,
+          "end_seconds": 92,
+          "script_section_id": "s6",
+          "framing": "Return map occupies the left half; the short closing statement and date sit on the right half; source and caption zones remain separate; 16:9 with safe margins.",
+          "movement": "Reprise the measuring line from the opening, hold the inconvenience statement, reveal the dated marker, then let the transfer timeline emerge softly and fade back to the distance line.",
+          "transition_in": "clock contracts into the map's Long Thanh marker",
+          "transition_out": "slow fade to black",
+          "overlay_notes": "Label 01/12/2026 as expected commercial operation according to the published plan, not a completed fact. Timeline labels: 12/2026, H\u00e8 2027, \u0110\u00f4ng 2027-28; teaser only, with small but readable source attribution.",
+          "shot_intent": "Resolve the opening question as an explicit trade-off, preserve the real access downside, and create a factual bridge to a follow-up about flight transfers.",
+          "narrative_role": "resolution",
+          "information_role": "Distance remains a genuine inconvenience; Long Thanh is planned for larger capacity and day/night flexibility, and the exact flight-transfer schedule is a separate practical question.",
+          "hero_moment": true,
+          "texture_keywords": [
+            "quiet map reprise",
+            "measured typography",
+            "no celebratory imagery"
+          ],
+          "required_assets": [
+            {
+              "type": "authored_closing_map_and_timeline",
+              "description": "Reused project-local vector map from scene 1 with an expected 01/12/2026 commercial-operation marker, a sourced three-step transition teaser, and the exact closing text rendered by Remotion.",
+              "source": "generate"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "project_id": "long-thanh-40km",
+        "renderer_family": "explainer-data",
+        "render_runtime": "remotion",
+        "composition_mode": "atelier",
+        "composition_authoring_note": "This scene plan is a creative blueprint only. The Remotion composition must be hand-authored under projects/long-thanh-40km/; do not import or imitate stock cut.type scene components.",
+        "duration_seconds": 92,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "scene_distinctness": [
+          {
+            "scene_id": "scene-01-distance-map",
+            "primary_visual_subject": "Regional airport distance schematic",
+            "first_frame": "Dark map grid with city center and two unlabelled airport points"
+          },
+          {
+            "scene_id": "scene-02-phase-one-capacity",
+            "primary_visual_subject": "Abstract airport terminal with two capacity tracks",
+            "first_frame": "Blueprint terminal outline being traced; no map"
+          },
+          {
+            "scene_id": "scene-03-three-phase-capacity",
+            "primary_visual_subject": "Three rising phase slabs with a separately scoped T3 panel",
+            "first_frame": "Three empty architectural volumes, lateral perspective"
+          },
+          {
+            "scene_id": "scene-04-land-use-ledger",
+            "primary_visual_subject": "Proportional 5,000-ha land-use bar",
+            "first_frame": "Survey baseline with a total-area measurement tick"
+          },
+          {
+            "scene_id": "scene-05-operator-claims",
+            "primary_visual_subject": "24-hour instrument clock and attributed operational claims",
+            "first_frame": "A single clock ring, no map and no capacity blocks"
+          },
+          {
+            "scene_id": "scene-06-distance-tradeoff-close",
+            "primary_visual_subject": "Reprise map resolving into a balanced trade-off",
+            "first_frame": "Simplified outline re-enters from the opening map"
+          }
+        ],
+        "visual_integrity": [
+          "No imagery is presented as an actual photograph of Long Thanh airport.",
+          "No invented survey boundaries, travel times, road routes or measured noise values.",
+          "The 100M whole-airport design after three phases is never ratio-compared to T3's 20M single-terminal design capacity.",
+          "ACV operational and noise statements remain attributed to ACV."
+        ]
+      }
+    }
+  },
+  "style_playbook": "minimalist-diagram",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "summary": {
+      "critical": 0,
+      "suggestions": 2,
+      "nitpicks": 0,
+      "success_criteria_met": "6 scenes cover all 92s; 3 scene types; schema valid; slideshow risk 0.5 strong"
+    }
+  },
+  "cost_snapshot": {
+    "spent_usd": 0.0,
+    "approved_budget_usd": 0.2,
+    "remaining_usd": 0.2
+  }
+}

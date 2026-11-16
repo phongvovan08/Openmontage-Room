@@ -1,0 +1,434 @@
+{
+  "version": "1.0",
+  "concept_options": [
+    {
+      "id": "c1",
+      "title": "40 km, và cái đổi lại",
+      "hook": "Sân bay mới cách trung tâm gấp bốn sân bay cũ. Đổi lại bằng gì?",
+      "narrative_structure": "comparison",
+      "visual_approach": "Một bản đồ vùng duy nhất làm trục: Tân Sơn Nhất nằm trong lõi nội đô, Long Thành nằm ở Đồng Nai, và một đường đo khoảng cách 40 km chạy giữa hai điểm trong khi đường 8-10 km của sân bay cũ nằm gọn trong khung hình. Sau đó hai cột số liệu công suất đối chiếu: 20 triệu thiết kế và 71% sử dụng ở Tân Sơn Nhất, 25 triệu giai đoạn 1 và 100 triệu cuối cùng ở Long Thành. Kết bằng một mặt bằng 5.000 ha thu gọn thành khối diện tích có nhãn, và màn hình kết đưa về khoảng cách 40 km như một đánh đổi có chủ ý.",
+      "suggested_playbook": "custom-atelier",
+      "target_audience": "Người dùng TP.HCM và người đi công tác nước ngoài muốn hiểu vì sao sân bay mới lại xa, đang chuẩn bị đi từ tháng 12/2026",
+      "target_platform": "youtube",
+      "target_duration_seconds": 90,
+      "key_points": [
+        "Long Thành cách trung tâm TP.HCM khoảng 40 km, Tân Sơn Nhất chỉ 8-10 km",
+        "Nhà ga T3 Tân Sơn Nhất mới đạt khoảng 71% công suất thiết kế 20 triệu hành khách/năm, cho thấy sân bay cũ đã vượt thiết kế",
+        "Long Thành giai đoạn 1 phục vụ 25 triệu hành khách và 1,2 triệu tấn hàng hóa mỗi năm",
+        "Công suất thiết kế 100 triệu hành khách là mốc sau khi hoàn thành cả ba giai đoạn, không phải giai đoạn 1",
+        "Quy hoạch cần khoảng 5.000 ha đất, tách biệt khu dân cư và cho phép khai thác 24/7"
+      ],
+      "core_message": "Khoảng cách 40 km là cái giá của một sân bay có công suất thiết kế gấp năm lần sân bay cũ, mở được 24/7 và giảm tải cho nội đô.",
+      "cta": "Theo dõi để có bản cập nhật khi lộ trình khai thác chuyển đổi bắt đầu từ 1/12/2026",
+      "tone": "Điều tra dân sự hiện đại, điềm tĩnh, tôn trọng dữ liệu, không hù dọc",
+      "grounded_in": [
+        "40 km so với 8-10 km của Tân Sơn Nhất (lập luận vị trí của ACV qua Báo Chính phủ)",
+        "Nhà ga T3 đạt khoảng 71% công suất thiết kế 20 triệu, chiếm gần 54% sản lượng nội địa",
+        "Giai đoạn 1 dự kiến 25 triệu lượt hành khách và 1,2 triệu tấn hàng hóa mỗi năm",
+        "Công suất thiết kế cuối cùng 100 triệu hành khách và 5 triệu tấn hàng hóa sau ba giai đoạn",
+        "Nhu cầu sử dụng đất khoảng 5.000 ha theo Quyết định 562/QĐ-BXD ngày 09/05/2025",
+        "Khai thác 24/7, tách biệt khu dân cư, giảm ô nhiễm tiếng ồn nội đô"
+      ],
+      "why_this_works": "Nghiên cứu cho thấy câu hỏi 40 km đã xuất hiện trong tiêu đề và thảo luận hiện có, nhưng các câu trả lời dừng ở tin quy hoạch hoặc liệt kê dự án đường, trong khi ngách này bị bão hòa bởi 141 video theo dõi tiến độ của một kênh duy nhất. Khoảng trống khả thi là một video so sánh định lượng. Dữ liệu T3 ở mức 71% công suất thiết kế là bằng chứng định lượng mạnh nhất cho lập luận rằng sân bay cũ đã không còn đủ chỗ, biến câu hỏi 40 km từ tranh luận cảm tính thành một phép so sánh công suất."
+    },
+    {
+      "id": "c2",
+      "title": "Chuyến của bạn chuyển sân bay theo 3 đợt, không phải một lần",
+      "hook": "Mở cửa tháng 12, nhưng chuyến quốc tế của bạn chưa chuyển sang ngay. Vì sao?",
+      "narrative_structure": "timeline",
+      "visual_approach": "Một dải thời gian dọc theo các mùa lịch bay 2026-2028, mỗi bước là một chặng khai thác, kèm biểu đồ chia tỷ lệ chuyến bay quốc tế giữa hai sân bay thay đổi dần theo từng mốc.",
+      "suggested_playbook": "custom-atelier",
+      "target_audience": "Hành khách sắp đi chuyến quốc tế từ TP.HCM và người phụ trách đặt vé",
+      "target_platform": "youtube",
+      "target_duration_seconds": 90,
+      "key_points": [
+        "Lộ trình chuyển đổi 3 bước được Cục Hàng không thống nhất, bắt đầu từ 1/12/2026",
+        "Mùa Hè 2027 mới chuyển toàn bộ đường bay quốc tế dài, mùa Đông 2027-2028 mới chuyển các chuyến quốc tế còn lại",
+        "Phương án khai thác chia Long Thành khoảng 80% quốc tế và 10% nội địa, Tân Sơn Nhất 20% quốc tế và 90% nội địa",
+        "Hạ tầng kết nối gồm 5 tuyến đường bộ và 3 tuyến đường sắt được quy hoạch"
+      ],
+      "core_message": "Chuyển đổi khai thác chia theo mùa lịch bay, nên chuyến của bạn không phải lúc nào cũng đổi sân bay cùng ngày với người khác.",
+      "cta": "Lưu video để tra cứu trước khi đặt vé",
+      "tone": "Thực dụng, điều tra nhẹ",
+      "grounded_in": [
+        "Lộ trình chuyển đổi 3 bước theo mùa lịch bay",
+        "Phương án phân chia khai thác 80/10 và 20/90",
+        "Ngưỡng 1.000 km cho các chuyến quốc tế dài",
+        "5 tuyến đường bộ và 3 tuyến đường sắt"
+      ],
+      "why_this_works": "Sai lầm phổ biến nhất trong nghiên cứu là tưởng toàn bộ chuyến bay quốc tế chuyển sang ngay khi sân bay mở, và đây là câu hỏi có giá trị hành động cao nhất cho khán giả. Nhưng chủ đề này đã được khai thác rộng bởi nhiều nội dung theo dõi tiến độ."
+    },
+    {
+      "id": "c3",
+      "title": "5.000 ha đất cho một sân bay",
+      "hook": "Sân bay Long Thành cần 5.000 ha đất, và con số đó vẫn đang được điều chỉnh.",
+      "narrative_structure": "data_narrative",
+      "visual_approach": "Mở đầu bằng khối diện tích 5.000 ha được chia thành ba khối có nhãn 570 ha quân sự, 480 ha dùng chung và 3.950 ha hàng không dân dụng, rồi lần theo chuỗi văn bản pháp lý dưới dạng timeline quyết định, kết thúc bằng thay đổi thiết kế đường cất hạ cánh từ 60 m xuống 45 m.",
+      "suggested_playbook": "custom-atelier",
+      "target_audience": "Người quan tâm quy hoạch, kỹ thuật hàng không và bất động sản Đồng Nai",
+      "target_platform": "youtube",
+      "target_duration_seconds": 90,
+      "key_points": [
+        "Quy hoạch cần khoảng 5.000 ha: 570 ha quân sự, 480 ha dùng chung, 3.950 ha hàng không dân dụng",
+        "Chuỗi quyết định: 909/QĐ-TTg năm 2011, Nghị quyết 94/2015/QH13, 1777/QĐ-TTg năm 2020, 692/QĐ-TTg năm 2025",
+        "Quyết định 562/QĐ-BXD ngày 09/05/2025 phê duyệt điều chỉnh cục bộ quy hoạch",
+        "Mặt đường cất hạ cánh số 2 được giảm chiều rộng cách đường số 1 từ 60 m xuống 45 m"
+      ],
+      "core_message": "5.000 ha và một chuỗi quyết định kéo dài 14 năm cho thấy quy hoạch này vẫn đang được chỉnh sửa, không phải một bản vẽ đóng đinh.",
+      "cta": "Theo dõi để đọc tiếp các quyết định điều chỉnh tiếp theo",
+      "tone": "Hồ sơ kỹ thuật, chính xác, trọng tâm tài liệu gốc",
+      "grounded_in": [
+        "Nhu cầu sử dụng đất khoảng 5.000 ha theo Quyết định 562/QĐ-BXD",
+        "Chuỗi văn bản pháp lý đọc trực tiếp từ PDF 562/QĐ-BXD",
+        "Giảm chiều rộng mặt đường cất hạ cánh số 2 từ 60 m xuống 45 m"
+      ],
+      "why_this_works": "Khác với hai concept còn lại, concept này dựa trên văn bản gốc đã đọc trực tiếp, cho nội dung mới và khó bị sao chép. Tuy nhiên khán giả rộng hơn và khó tiếp cận hơn với những người chỉ quan tâm câu hỏi khoảng cách."
+    }
+  ],
+  "selected_concept": {
+    "concept_id": "c1",
+    "rationale": "The user selected Concept A. It answers the exact question in the channel title with the strongest verified quantitative evidence in the research brief: T3 at 71% of design capacity versus 25M for Long Thanh phase 1 and 100M after three phases.",
+    "modifications": [
+      "Output format changed to YouTube landscape 16:9 (1920x1080) at the user's instruction, so maps and side-by-side capacity comparisons get the full width.",
+      "Composition is atelier with Remotion, so the stock cut.type catalog is not used and the visual language is authored for this subject.",
+      "Hook reframed to ask what the distance buys rather than to assert that the distance was a deliberate choice, because the original 2011 site-selection rationale is not established by the sources read so far."
+    ]
+  },
+  "production_plan": {
+    "pipeline": "animated-explainer",
+    "playbook": "custom-atelier",
+    "renderer_family": "explainer-data",
+    "render_runtime": "remotion",
+    "composition_mode": "atelier",
+    "art_direction": "projects/long-thanh-40km/art_direction.md — a bespoke infrastructure-documentary language built for this piece only: asphalt navy base (#10141F), runway amber (#F0A202) reserved for distance and emphasis, concrete off-white (#E8E6E1) for typography, and verified-fact teal (#2E8B87) used only to mark claims that come from a cited source. Type is IBM Plex Sans in an editorial weight range. Motion is slow and weighted, closer to survey drawing than to a slideshow. The signature device is the measuring line: a single amber line that draws itself to measure a distance and then, in the climax, measures a capacity instead. It appears only in those two beats.",
+    "taste_profile": {
+      "design_read": "National-infrastructure documentary: quiet authority, evidence first, no salesmanship. The viewer should feel they are being shown a document and a map, not sold a future.",
+      "visual_variance": 5,
+      "motion_intensity": 3,
+      "information_density": 4,
+      "palette_discipline": "One dark neutral base, one warm accent for emphasis, one cool accent reserved exclusively for verified facts. No gradients as decoration.",
+      "layout_variation": "Alternate map-led full-frame beats with data-forward split layouts; keep the measuring line and the map as recurring anchors so varied scenes still feel like one film.",
+      "reference_strategy": "No AI imagery. Every visual is either an authored vector map/diagram or typographic layout, so no reference stills are needed and no external photo rights enter the project.",
+      "anti_patterns": [
+        "Generic corporate-blue or AI-purple gradient backgrounds",
+        "Stock cut.type scene catalog reused from other explainers",
+        "AI-generated aerial airport photos presented as documentary evidence",
+        "Bouncy spring transitions on data beats",
+        "On-screen text that claims things the sources do not support"
+      ],
+      "quality_gates": [
+        "Every number on screen must be traceable to a cited source in the research brief or to the 562/QD-BXD text",
+        "Any statement attributed to ACV is visually marked as the operator's position, not as an established fact",
+        "No scene repeats the measuring line as filler"
+      ]
+    },
+    "stages": [
+      {
+        "stage": "research",
+        "tools": [],
+        "approach": "Already complete. research_brief.json is schema-valid with 13 sourced data points, 18 source URLs, 5 angles and 4 recorded misconceptions.",
+        "fallback_if_unavailable": "Not applicable."
+      },
+      {
+        "stage": "proposal",
+        "tools": [],
+        "approach": "Three concepts presented with grounding, costs and runtime options. Concept A selected by the user; runtime, composition mode, voice, format and budget ceiling approved explicitly.",
+        "fallback_if_unavailable": "Not applicable."
+      },
+      {
+        "stage": "script",
+        "tools": [],
+        "approach": "Write a Vietnamese narration script at roughly 195-225 words for 90 seconds, with a voice_performance plan, per-section delivery cues and enhancement cues at least every 8-10 seconds. Facts are taken only from the research brief.",
+        "fallback_if_unavailable": "Not applicable."
+      },
+      {
+        "stage": "scene_plan",
+        "tools": [],
+        "approach": "Map each script section to a distinct authored scene with its own primary visual subject, so no two consecutive scenes share a composition.",
+        "fallback_if_unavailable": "Not applicable."
+      },
+      {
+        "stage": "assets",
+        "tools": [
+          {
+            "tool_name": "vibi_tts",
+            "role": "Vietnamese narration with word-level alignment and native transcript export",
+            "provider": "vibi",
+            "available": true,
+            "estimated_cost_usd": 0.14,
+            "why_this_provider": "The configured Vietnamese voice in the voice pool is a native MiniMax Speech 2.8 HD voice, which produces the most natural Vietnamese delivery of the available options and exports alignment data for caption sync."
+          },
+          {
+            "tool_name": "transcriber",
+            "role": "WhisperX transcription of the narration for word-level caption timing",
+            "provider": "whisperx",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Runs locally at no cost and gives an independent check that the narration actually matches the intended script."
+          },
+          {
+            "tool_name": "pixabay_music",
+            "role": "Royalty-free ambient background bed",
+            "provider": "pixabay_music",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "The only zero-cost music source available in preflight; no key required and safe for monetized YouTube use."
+          },
+          {
+            "tool_name": "pixabay_image",
+            "role": "Optional reference texture only, not a primary visual",
+            "provider": "pixabay",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Free licensed imagery if a subtle surface texture is wanted. Primary visuals are authored vectors, so this is a contingency rather than a planned dependency."
+          }
+        ],
+        "approach": "Generate narration section by section after a TTS sample is approved, transcribe for caption timing, and fetch a single ambient music bed. No paid image generation is planned.",
+        "fallback_if_unavailable": "If vibi_tts fails, fall back to openai_tts for the Vietnamese voice, and to piper_tts only if a Vietnamese Piper model is confirmed present."
+      },
+      {
+        "stage": "edit",
+        "tools": [],
+        "approach": "Build the timeline with narration, music under narration with ducking, and word-level captions styled to the art direction. Caption placement must avoid the map area of the 16:9 frame.",
+        "fallback_if_unavailable": "Not applicable."
+      },
+      {
+        "stage": "compose",
+        "tools": [
+          {
+            "tool_name": "video_compose",
+            "role": "Remotion render of the atelier composition at 1920x1080",
+            "provider": "remotion",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Renders the project-local React composition with native audio embedding and word-level captions in a single pass, at no API cost."
+          }
+        ],
+        "approach": "Render the project-local Remotion composition, embedding narration, music and captions, then validate duration within 5 percent of 90 seconds with ffprobe.",
+        "fallback_if_unavailable": "If Remotion rendering fails, escalate to the user with an FFmpeg fallback proposal rather than silently switching runtime."
+      },
+      {
+        "stage": "publish",
+        "tools": [
+          {
+            "tool_name": "export_bundle",
+            "role": "Package the final render with captions and attribution notes",
+            "provider": "local",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Local packaging keeps sources and attribution notes attached to the deliverable for the channel owner."
+          }
+        ],
+        "approach": "Export the MP4 and caption file, and list every source used so the channel owner can publish with proper attribution.",
+        "fallback_if_unavailable": "Not applicable."
+      }
+    ],
+    "quality_tradeoffs": [
+      {
+        "tradeoff": "Narration: Vibi MiniMax Speech 2.8 HD (~$0.14) vs Piper local ($0.00) vs OpenAI gpt-4o-mini-tts (~$0.01)",
+        "recommendation": "Vibi MiniMax with the configured Haitrieu voice",
+        "quality_impact": "Vietnamese delivery is markedly more natural than the local Piper default, which is an English model. The $0.13 difference buys the voice quality that a 90-second explainer depends on."
+      },
+      {
+        "tradeoff": "Render path: Remotion vs HyperFrames vs FFmpeg",
+        "recommendation": "Remotion",
+        "quality_impact": "Remotion supports word-level burned captions in the same pass as the composition. HyperFrames gives richer kinetic typography but not caption parity in this phase, and FFmpeg would reduce the piece to stills."
+      },
+      {
+        "tradeoff": "Composition mode: atelier vs templated",
+        "recommendation": "Atelier",
+        "quality_impact": "Atelier produces a visual language specific to airport geography and capacity data. Templated would be faster but would look like the other explainers in this workspace."
+      },
+      {
+        "tradeoff": "Visual assets: authored vectors ($0.00) vs AI-generated imagery (~$0.05-0.21 per image)",
+        "recommendation": "Authored vectors only",
+        "quality_impact": "Keeps every visual accurate and license-clean, and stays inside the $0.20 cap. AI-generated airport imagery would look more cinematic but could not be presented as evidence."
+      }
+    ],
+    "alternative_paths": [
+      {
+        "description": "Chosen path: atelier Remotion composition, Vibi Vietnamese narration, Pixabay music, authored vector visuals",
+        "total_cost_usd": 0.14,
+        "quality_level": "premium",
+        "what_changes": "Nothing; this is the approved plan."
+      },
+      {
+        "description": "Budget path: same composition with Piper local narration and no music bed",
+        "total_cost_usd": 0.0,
+        "quality_level": "budget",
+        "what_changes": "Narration sounds noticeably flatter and needs a Vietnamese Piper model to be usable; the video loses its music bed."
+      },
+      {
+        "description": "Draft path: templated Remotion scenes using the stock cut.type catalog",
+        "total_cost_usd": 0.14,
+        "quality_level": "standard",
+        "what_changes": "Faster to assemble, but the piece reuses a look already used by other explainers in this workspace."
+      }
+    ],
+    "delivery_promise": {
+      "promise_type": "data_explainer",
+      "motion_required": true,
+      "source_required": false,
+      "tone_mode": "educational",
+      "quality_floor": "presentable",
+      "approved_fallback": null
+    },
+    "music_source": {
+      "source_type": "bring_your_own",
+      "provider": "pixabay_music",
+      "mood_direction": "Restrained low ambient bed, slow pulse, no melody in the foreground, sitting well under narration. Freesound and AI music generation were unavailable, so Pixabay search is the working source; the channel owner may drop a preferred track into music_library/ before the assets stage.",
+      "estimated_cost_usd": 0.0
+    },
+    "voice_selection": {
+      "provider": "vibi",
+      "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+      "rationale": "Haitrieu, the configured Vietnamese MiniMax Speech 2.8 HD voice in the project voice pool. It handles Vietnamese natively and exports a transcript with word-level alignment, which the caption layer needs. Configured at speed 1.10x, pitch 0.",
+      "estimated_cost_usd": 0.14,
+      "delivery_style": "Measured documentary narrator: calm authority, clear Vietnamese consonants, no sales tone, numbers spoken with emphasis but no hype.",
+      "pacing_policy": "Conversational pace around 150 words per minute. Short pauses after each verified figure so the number lands, a longer pause before the closing payoff, and steady pace through the two capacity comparisons.",
+      "sample_approval_required": true
+    },
+    "decision_log_ref": "projects/long-thanh-40km/artifacts/decision_log.json",
+    "provider_rankings": {
+      "tts": [
+        {
+          "tool_name": "vibi_tts",
+          "provider": "vibi",
+          "weighted_score": 0.9,
+          "task_fit": 0.95,
+          "output_quality": 0.9,
+          "explanation": "Configured Vietnamese MiniMax Speech 2.8 HD voice with word-level alignment and native transcript export. Approved by the user."
+        },
+        {
+          "tool_name": "openai_tts",
+          "provider": "openai",
+          "weighted_score": 0.62,
+          "task_fit": 0.7,
+          "output_quality": 0.6,
+          "explanation": "Cheapest cloud option and supports delivery instructions, but weaker Vietnamese delivery than the configured MiniMax voice."
+        },
+        {
+          "tool_name": "piper_tts",
+          "provider": "piper",
+          "weighted_score": 0.35,
+          "task_fit": 0.4,
+          "output_quality": 0.3,
+          "explanation": "Free and offline, but the configured default model is English and no Vietnamese Piper model is confirmed installed."
+        }
+      ],
+      "image": [
+        {
+          "tool_name": "authored_vectors",
+          "provider": "local",
+          "weighted_score": 0.92,
+          "task_fit": 0.95,
+          "output_quality": 0.9,
+          "explanation": "Authored SVG maps, measuring lines and typographic layouts are accurate, license-clean, free and match the documentary direction."
+        },
+        {
+          "tool_name": "pixabay_image",
+          "provider": "pixabay",
+          "weighted_score": 0.5,
+          "task_fit": 0.45,
+          "output_quality": 0.55,
+          "explanation": "Free licensed imagery, usable only as subtle texture and never as evidence."
+        },
+        {
+          "tool_name": "image_gen",
+          "provider": "multi",
+          "weighted_score": 0.3,
+          "task_fit": 0.35,
+          "output_quality": 0.4,
+          "explanation": "Would cost money and could not present an accurate, citable depiction of a specific planned airport."
+        }
+      ],
+      "music": [
+        {
+          "tool_name": "pixabay_music",
+          "provider": "pixabay_music",
+          "weighted_score": 0.75,
+          "task_fit": 0.8,
+          "output_quality": 0.7,
+          "explanation": "Only zero-cost music source available; royalty-free and safe for monetized channels."
+        },
+        {
+          "tool_name": "user_library",
+          "provider": "local",
+          "weighted_score": 0.5,
+          "task_fit": 0.7,
+          "output_quality": 0.7,
+          "explanation": "Free and intentional if the channel owner supplies a track, but no music_library directory exists yet."
+        }
+      ],
+      "video": [
+        {
+          "tool_name": "pixabay_video",
+          "provider": "pixabay",
+          "weighted_score": 0.35,
+          "task_fit": 0.3,
+          "output_quality": 0.4,
+          "explanation": "Free stock footage exists but generic aviation clips would undercut the evidence-led, authored approach."
+        }
+      ]
+    }
+  },
+  "cost_estimate": {
+    "total_estimated_usd": 0.14,
+    "line_items": [
+      {
+        "tool": "vibi_tts",
+        "operation": "Vietnamese narration for roughly 215 words across 6 sections plus one sample regeneration",
+        "quantity": 1,
+        "estimated_usd": 0.14,
+        "notes": "Haitrieu voice, MiniMax Speech 2.8 HD, speed 1.10x, pitch 0. Includes transcript export for caption alignment."
+      },
+      {
+        "tool": "transcriber",
+        "operation": "WhisperX transcription of the final narration for word-level caption timing",
+        "quantity": 1,
+        "estimated_usd": 0.0,
+        "notes": "Local, no API cost. Also acts as an independent check that the spoken narration matches the script."
+      },
+      {
+        "tool": "pixabay_music",
+        "operation": "Search and download one royalty-free ambient bed",
+        "quantity": 1,
+        "estimated_usd": 0.0,
+        "notes": "No key required."
+      },
+      {
+        "tool": "video_compose",
+        "operation": "Remotion atelier render at 1920x1080 with embedded narration, music and captions",
+        "quantity": 1,
+        "estimated_usd": 0.0,
+        "notes": "Local render, no API cost."
+      }
+    ],
+    "budget_cap_usd": 0.2,
+    "budget_verdict": "within_budget",
+    "savings_options": [
+      "Switch narration to piper_tts local voice and drop the music bed: saves about $0.14, at a clear cost to Vietnamese voice quality.",
+      "Switch narration to openai_tts: saves about $0.13, with weaker Vietnamese delivery."
+    ]
+  },
+  "approval": {
+    "status": "approved",
+    "user_notes": "Concept A. Landscape 16:9. Atelier + Remotion. Vibi MiniMax voice with a $0.20 ceiling.",
+    "approved_budget_usd": 0.2
+  },
+  "metadata": {
+    "project_id": "long-thanh-40km",
+    "pipeline": "animated-explainer",
+    "target_duration_seconds": 90,
+    "output_format": "youtube_landscape",
+    "resolution": "1920x1080",
+    "language": "vi",
+    "research_brief_ref": "projects/long-thanh-40km/artifacts/research_brief.json",
+    "decision_log_ref": "projects/long-thanh-40km/artifacts/decision_log.json",
+    "known_limitations": [
+      "vidIQ is unavailable, so keyword volume, competition and RPM remain unverified for this topic.",
+      "The 2011 master plan (909/QD-TTg) and the 2015 National Assembly resolution (94/2015/QH13) were confirmed only through the citation list inside 562/QD-BXD, so the original site-selection rationale is not established. The script must not present the original reason for choosing the location as a verified fact.",
+      "The original reason for choosing the Dong Nai location is not established, so the script frames the trade-off using ACV's stated position, marked as the operator's argument rather than as settled history."
+    ]
+  }
+}

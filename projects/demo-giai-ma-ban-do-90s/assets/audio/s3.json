@@ -1,0 +1,554 @@
+{
+  "section_id": "s3",
+  "provider": "vibi",
+  "vibi_provider": "minimax",
+  "model": "speech-2.8-hd",
+  "voice_name": "Haitrieu",
+  "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+  "voice_settings": {
+    "speed": 1.1,
+    "pitch": 0,
+    "vol": 1
+  },
+  "provider_text": "Thủ phạm nằm dưới mặt nước: phù sa hệ thống sông Thái Bình và Bạch Đằng đổ ra mỗi năm. Theo số liệu luồng hàng hải năm hai nghìn không trăm hai mươi sáu, đoạn sông Cấm chỉ rộng tám mươi mét và sâu âm bảy mét, còn cửa tự nhiên Nam Triệu nhiều đoạn bồi cạn chỉ còn âm không phẩy năm mét.",
+  "display_text": "Thủ phạm nằm dưới mặt nước: phù sa hệ thống sông Thái Bình và Bạch Đằng đổ ra mỗi năm. Theo số liệu luồng hàng hải năm 2026, đoạn sông Cấm chỉ rộng 80 m và sâu -7,0 m, còn cửa tự nhiên Nam Triệu nhiều đoạn bồi cạn chỉ còn -0,5 m.",
+  "raw_duration_seconds": 15.621,
+  "duration_seconds": 15.226,
+  "lead_trimmed_seconds": 0.112,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 1.451,
+      "text": "Thủ phạm nằm dưới mặt nước:"
+    },
+    {
+      "start": 1.735,
+      "end": 4.869,
+      "text": "phù sa hệ thống sông Thái Bình và Bạch Đằng đổ ra mỗi năm."
+    },
+    {
+      "start": 5.448,
+      "end": 11.197,
+      "text": "Theo số liệu luồng hàng hải năm hai nghìn không trăm hai mươi sáu, đoạn sông Cấm chỉ rộng tám mươi mét và sâu âm bảy mét,"
+    },
+    {
+      "start": 11.513,
+      "end": 15.226,
+      "text": "còn cửa tự nhiên Nam Triệu nhiều đoạn bồi cạn chỉ còn âm không phẩy năm mét."
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word": "Thủ",
+      "start": 0.108,
+      "end": 0.35,
+      "startMs": 108,
+      "endMs": 350,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phạm",
+      "start": 0.35,
+      "end": 0.593,
+      "startMs": 350,
+      "endMs": 593,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nằm",
+      "start": 0.593,
+      "end": 0.835,
+      "startMs": 593,
+      "endMs": 835,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "dưới",
+      "start": 0.835,
+      "end": 1.078,
+      "startMs": 835,
+      "endMs": 1078,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mặt",
+      "start": 1.078,
+      "end": 1.321,
+      "startMs": 1078,
+      "endMs": 1321,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nước:",
+      "start": 1.321,
+      "end": 1.563,
+      "startMs": 1321,
+      "endMs": 1563,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "phù",
+      "start": 1.847,
+      "end": 2.071,
+      "startMs": 1847,
+      "endMs": 2071,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sa",
+      "start": 2.071,
+      "end": 2.295,
+      "startMs": 2071,
+      "endMs": 2295,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hệ",
+      "start": 2.295,
+      "end": 2.519,
+      "startMs": 2295,
+      "endMs": 2519,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thống",
+      "start": 2.519,
+      "end": 2.742,
+      "startMs": 2519,
+      "endMs": 2742,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sông",
+      "start": 2.742,
+      "end": 2.966,
+      "startMs": 2742,
+      "endMs": 2966,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Thái",
+      "start": 2.966,
+      "end": 3.19,
+      "startMs": 2966,
+      "endMs": 3190,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Bình",
+      "start": 3.19,
+      "end": 3.414,
+      "startMs": 3190,
+      "endMs": 3414,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "và",
+      "start": 3.414,
+      "end": 3.638,
+      "startMs": 3414,
+      "endMs": 3638,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Bạch",
+      "start": 3.638,
+      "end": 3.862,
+      "startMs": 3638,
+      "endMs": 3862,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Đằng",
+      "start": 3.862,
+      "end": 4.086,
+      "startMs": 3862,
+      "endMs": 4086,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đổ",
+      "start": 4.086,
+      "end": 4.309,
+      "startMs": 4086,
+      "endMs": 4309,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ra",
+      "start": 4.309,
+      "end": 4.533,
+      "startMs": 4309,
+      "endMs": 4533,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mỗi",
+      "start": 4.533,
+      "end": 4.757,
+      "startMs": 4533,
+      "endMs": 4757,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "năm.",
+      "start": 4.757,
+      "end": 4.981,
+      "startMs": 4757,
+      "endMs": 4981,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Theo",
+      "start": 5.56,
+      "end": 5.773,
+      "startMs": 5560,
+      "endMs": 5773,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "số",
+      "start": 5.773,
+      "end": 5.986,
+      "startMs": 5773,
+      "endMs": 5986,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "liệu",
+      "start": 5.986,
+      "end": 6.199,
+      "startMs": 5986,
+      "endMs": 6199,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "luồng",
+      "start": 6.199,
+      "end": 6.412,
+      "startMs": 6199,
+      "endMs": 6412,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hàng",
+      "start": 6.412,
+      "end": 6.625,
+      "startMs": 6412,
+      "endMs": 6625,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hải",
+      "start": 6.625,
+      "end": 6.838,
+      "startMs": 6625,
+      "endMs": 6838,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "năm",
+      "start": 6.838,
+      "end": 7.05,
+      "startMs": 6838,
+      "endMs": 7050,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hai",
+      "start": 7.05,
+      "end": 7.263,
+      "startMs": 7050,
+      "endMs": 7263,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nghìn",
+      "start": 7.263,
+      "end": 7.476,
+      "startMs": 7263,
+      "endMs": 7476,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "không",
+      "start": 7.476,
+      "end": 7.689,
+      "startMs": 7476,
+      "endMs": 7689,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trăm",
+      "start": 7.689,
+      "end": 7.902,
+      "startMs": 7689,
+      "endMs": 7902,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hai",
+      "start": 7.902,
+      "end": 8.115,
+      "startMs": 7902,
+      "endMs": 8115,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mươi",
+      "start": 8.115,
+      "end": 8.328,
+      "startMs": 8115,
+      "endMs": 8328,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sáu,",
+      "start": 8.328,
+      "end": 8.541,
+      "startMs": 8328,
+      "endMs": 8541,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đoạn",
+      "start": 8.541,
+      "end": 8.754,
+      "startMs": 8541,
+      "endMs": 8754,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sông",
+      "start": 8.754,
+      "end": 8.967,
+      "startMs": 8754,
+      "endMs": 8967,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Cấm",
+      "start": 8.967,
+      "end": 9.18,
+      "startMs": 8967,
+      "endMs": 9180,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chỉ",
+      "start": 9.18,
+      "end": 9.393,
+      "startMs": 9180,
+      "endMs": 9393,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "rộng",
+      "start": 9.393,
+      "end": 9.606,
+      "startMs": 9393,
+      "endMs": 9606,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tám",
+      "start": 9.606,
+      "end": 9.819,
+      "startMs": 9606,
+      "endMs": 9819,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mươi",
+      "start": 9.819,
+      "end": 10.031,
+      "startMs": 9819,
+      "endMs": 10031,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét",
+      "start": 10.031,
+      "end": 10.244,
+      "startMs": 10031,
+      "endMs": 10244,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "và",
+      "start": 10.244,
+      "end": 10.457,
+      "startMs": 10244,
+      "endMs": 10457,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sâu",
+      "start": 10.457,
+      "end": 10.67,
+      "startMs": 10457,
+      "endMs": 10670,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "âm",
+      "start": 10.67,
+      "end": 10.883,
+      "startMs": 10670,
+      "endMs": 10883,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bảy",
+      "start": 10.883,
+      "end": 11.096,
+      "startMs": 10883,
+      "endMs": 11096,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét,",
+      "start": 11.096,
+      "end": 11.309,
+      "startMs": 11096,
+      "endMs": 11309,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "còn",
+      "start": 11.625,
+      "end": 11.85,
+      "startMs": 11625,
+      "endMs": 11850,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cửa",
+      "start": 11.85,
+      "end": 12.075,
+      "startMs": 11850,
+      "endMs": 12075,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tự",
+      "start": 12.075,
+      "end": 12.301,
+      "startMs": 12075,
+      "endMs": 12301,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhiên",
+      "start": 12.301,
+      "end": 12.526,
+      "startMs": 12301,
+      "endMs": 12526,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Nam",
+      "start": 12.526,
+      "end": 12.751,
+      "startMs": 12526,
+      "endMs": 12751,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Triệu",
+      "start": 12.751,
+      "end": 12.976,
+      "startMs": 12751,
+      "endMs": 12976,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhiều",
+      "start": 12.976,
+      "end": 13.202,
+      "startMs": 12976,
+      "endMs": 13202,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đoạn",
+      "start": 13.202,
+      "end": 13.427,
+      "startMs": 13202,
+      "endMs": 13427,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "bồi",
+      "start": 13.427,
+      "end": 13.652,
+      "startMs": 13427,
+      "endMs": 13652,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cạn",
+      "start": 13.652,
+      "end": 13.877,
+      "startMs": 13652,
+      "endMs": 13877,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chỉ",
+      "start": 13.877,
+      "end": 14.103,
+      "startMs": 13877,
+      "endMs": 14103,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "còn",
+      "start": 14.103,
+      "end": 14.328,
+      "startMs": 14103,
+      "endMs": 14328,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "âm",
+      "start": 14.328,
+      "end": 14.553,
+      "startMs": 14328,
+      "endMs": 14553,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "không",
+      "start": 14.553,
+      "end": 14.778,
+      "startMs": 14553,
+      "endMs": 14778,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phẩy",
+      "start": 14.778,
+      "end": 15.004,
+      "startMs": 14778,
+      "endMs": 15004,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "năm",
+      "start": 15.004,
+      "end": 15.229,
+      "startMs": 15004,
+      "endMs": 15229,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mét.",
+      "start": 15.229,
+      "end": 15.454,
+      "startMs": 15229,
+      "endMs": 15454,
+      "pageBreakAfter": true
+    }
+  ]
+}

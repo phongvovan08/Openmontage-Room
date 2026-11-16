@@ -1,0 +1,440 @@
+{
+  "section_id": "s1",
+  "provider": "vibi",
+  "vibi_provider": "minimax",
+  "model": "speech-2.8-hd",
+  "voice_name": "Haitrieu",
+  "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+  "voice_settings": {
+    "speed": 1.1,
+    "pitch": 0,
+    "vol": 1
+  },
+  "provider_text": "Hơn một thế kỷ mang danh thành phố cảng lớn nhất miền Bắc, nhưng suốt hàng chục năm, Hải Phòng không thể đón nổi một siêu tàu công ten nơ đi thẳng sang Mỹ hay châu Âu. Vì sao cảng biển lại phải chạy trốn khỏi dòng sông sinh ra nó?",
+  "display_text": "Hơn một thế kỷ mang danh thành phố cảng lớn nhất miền Bắc, nhưng suốt hàng chục năm, Hải Phòng không thể đón nổi một siêu tàu container đi thẳng sang Mỹ hay châu Âu. Vì sao cảng biển lại phải chạy trốn khỏi dòng sông sinh ra nó?",
+  "raw_duration_seconds": 12.336,
+  "duration_seconds": 11.977,
+  "lead_trimmed_seconds": 0.151,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 8.612,
+      "text": "Hơn một thế kỷ mang danh thành phố cảng lớn nhất miền Bắc, nhưng suốt hàng chục năm, Hải Phòng không thể đón nổi một siêu tàu công ten nơ đi thẳng sang Mỹ hay châu Âu."
+    },
+    {
+      "start": 9.121,
+      "end": 11.977,
+      "text": "Vì sao cảng biển lại phải chạy trốn khỏi dòng sông sinh ra nó?"
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word": "Hơn",
+      "start": 0.108,
+      "end": 0.342,
+      "startMs": 108,
+      "endMs": 342,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "start": 0.342,
+      "end": 0.576,
+      "startMs": 342,
+      "endMs": 576,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thế",
+      "start": 0.576,
+      "end": 0.81,
+      "startMs": 576,
+      "endMs": 810,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "kỷ",
+      "start": 0.81,
+      "end": 1.044,
+      "startMs": 810,
+      "endMs": 1044,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "mang",
+      "start": 1.044,
+      "end": 1.278,
+      "startMs": 1044,
+      "endMs": 1278,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "danh",
+      "start": 1.278,
+      "end": 1.512,
+      "startMs": 1278,
+      "endMs": 1512,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thành",
+      "start": 1.512,
+      "end": 1.745,
+      "startMs": 1512,
+      "endMs": 1745,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phố",
+      "start": 1.745,
+      "end": 1.979,
+      "startMs": 1745,
+      "endMs": 1979,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cảng",
+      "start": 1.979,
+      "end": 2.213,
+      "startMs": 1979,
+      "endMs": 2213,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lớn",
+      "start": 2.213,
+      "end": 2.447,
+      "startMs": 2213,
+      "endMs": 2447,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhất",
+      "start": 2.447,
+      "end": 2.681,
+      "startMs": 2447,
+      "endMs": 2681,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "miền",
+      "start": 2.681,
+      "end": 2.915,
+      "startMs": 2681,
+      "endMs": 2915,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Bắc,",
+      "start": 2.915,
+      "end": 3.149,
+      "startMs": 2915,
+      "endMs": 3149,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nhưng",
+      "start": 3.149,
+      "end": 3.383,
+      "startMs": 3149,
+      "endMs": 3383,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "suốt",
+      "start": 3.383,
+      "end": 3.617,
+      "startMs": 3383,
+      "endMs": 3617,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hàng",
+      "start": 3.617,
+      "end": 3.851,
+      "startMs": 3617,
+      "endMs": 3851,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chục",
+      "start": 3.851,
+      "end": 4.085,
+      "startMs": 3851,
+      "endMs": 4085,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "năm,",
+      "start": 4.085,
+      "end": 4.319,
+      "startMs": 4085,
+      "endMs": 4319,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Hải",
+      "start": 4.319,
+      "end": 4.552,
+      "startMs": 4319,
+      "endMs": 4552,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Phòng",
+      "start": 4.552,
+      "end": 4.786,
+      "startMs": 4552,
+      "endMs": 4786,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "không",
+      "start": 4.786,
+      "end": 5.02,
+      "startMs": 4786,
+      "endMs": 5020,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thể",
+      "start": 5.02,
+      "end": 5.254,
+      "startMs": 5020,
+      "endMs": 5254,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đón",
+      "start": 5.254,
+      "end": 5.488,
+      "startMs": 5254,
+      "endMs": 5488,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nổi",
+      "start": 5.488,
+      "end": 5.722,
+      "startMs": 5488,
+      "endMs": 5722,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "một",
+      "start": 5.722,
+      "end": 5.956,
+      "startMs": 5722,
+      "endMs": 5956,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "siêu",
+      "start": 5.956,
+      "end": 6.19,
+      "startMs": 5956,
+      "endMs": 6190,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "tàu",
+      "start": 6.19,
+      "end": 6.424,
+      "startMs": 6190,
+      "endMs": 6424,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "công",
+      "start": 6.424,
+      "end": 6.658,
+      "startMs": 6424,
+      "endMs": 6658,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ten",
+      "start": 6.658,
+      "end": 6.892,
+      "startMs": 6658,
+      "endMs": 6892,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nơ",
+      "start": 6.892,
+      "end": 7.126,
+      "startMs": 6892,
+      "endMs": 7126,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "đi",
+      "start": 7.126,
+      "end": 7.359,
+      "startMs": 7126,
+      "endMs": 7359,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "thẳng",
+      "start": 7.359,
+      "end": 7.593,
+      "startMs": 7359,
+      "endMs": 7593,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sang",
+      "start": 7.593,
+      "end": 7.827,
+      "startMs": 7593,
+      "endMs": 7827,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Mỹ",
+      "start": 7.827,
+      "end": 8.061,
+      "startMs": 7827,
+      "endMs": 8061,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "hay",
+      "start": 8.061,
+      "end": 8.295,
+      "startMs": 8061,
+      "endMs": 8295,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "châu",
+      "start": 8.295,
+      "end": 8.529,
+      "startMs": 8295,
+      "endMs": 8529,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "Âu.",
+      "start": 8.529,
+      "end": 8.763,
+      "startMs": 8529,
+      "endMs": 8763,
+      "pageBreakAfter": true
+    },
+    {
+      "word": "Vì",
+      "start": 9.272,
+      "end": 9.48,
+      "startMs": 9272,
+      "endMs": 9480,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sao",
+      "start": 9.48,
+      "end": 9.688,
+      "startMs": 9480,
+      "endMs": 9688,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "cảng",
+      "start": 9.688,
+      "end": 9.895,
+      "startMs": 9688,
+      "endMs": 9895,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "biển",
+      "start": 9.895,
+      "end": 10.103,
+      "startMs": 9895,
+      "endMs": 10103,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "lại",
+      "start": 10.103,
+      "end": 10.311,
+      "startMs": 10103,
+      "endMs": 10311,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "phải",
+      "start": 10.311,
+      "end": 10.519,
+      "startMs": 10311,
+      "endMs": 10519,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "chạy",
+      "start": 10.519,
+      "end": 10.726,
+      "startMs": 10519,
+      "endMs": 10726,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "trốn",
+      "start": 10.726,
+      "end": 10.934,
+      "startMs": 10726,
+      "endMs": 10934,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "khỏi",
+      "start": 10.934,
+      "end": 11.142,
+      "startMs": 10934,
+      "endMs": 11142,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "dòng",
+      "start": 11.142,
+      "end": 11.35,
+      "startMs": 11142,
+      "endMs": 11350,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sông",
+      "start": 11.35,
+      "end": 11.558,
+      "startMs": 11350,
+      "endMs": 11558,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "sinh",
+      "start": 11.558,
+      "end": 11.765,
+      "startMs": 11558,
+      "endMs": 11765,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "ra",
+      "start": 11.765,
+      "end": 11.973,
+      "startMs": 11765,
+      "endMs": 11973,
+      "pageBreakAfter": false
+    },
+    {
+      "word": "nó?",
+      "start": 11.973,
+      "end": 12.181,
+      "startMs": 11973,
+      "endMs": 12181,
+      "pageBreakAfter": true
+    }
+  ]
+}

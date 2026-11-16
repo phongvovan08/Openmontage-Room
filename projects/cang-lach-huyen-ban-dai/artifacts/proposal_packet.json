@@ -1,0 +1,206 @@
+{
+  "version": "1.0",
+  "concept_options": [
+    {
+      "id": "c1",
+      "title": "150 năm kẹt ở sông Cấm: Hải Phòng vượt biển 48km thế nào?",
+      "hook": "Cảng lớn nhất miền Bắc suốt 150 năm nhưng không đón nổi một siêu tàu đi Mỹ — vì sao?",
+      "narrative_structure": "journey",
+      "visual_approach": "Bản đồ chiến thuật 3D nghiêng sâu 52°–56° (4K supersampling, vệ tinh EOX 2024 z14) đan xen sa bàn địa chất 3D Isometric, hồ sơ Quyết định giấy kem quét bút dạ vàng, trường đua tách đôi 1:1 và mặt cắt đáy biển -7m vs -16m.",
+      "suggested_playbook": "clean-professional",
+      "target_audience": "Khán giả Việt Nam yêu thích địa lý kinh tế, quy hoạch hạ tầng, lịch sử đô thị và logistics",
+      "target_platform": "youtube",
+      "target_duration_seconds": 600,
+      "key_points": [
+        "Năm 1874 người Pháp chọn sông Cấm (cách biển 48 km) vì tàu hơi nước nhỏ cần kín bão và nối đường sắt Hải Phòng – Hà Nội – Vân Nam (1902).",
+        "Thế kỷ XXI siêu tàu tăng lên 165.000–200.000 DWT (mớn nước 13,5–16 m), trong khi sông Cấm chỉ sâu -7,0 m (QĐ 1995) khiến hàng miền Bắc phải đi feeder qua Singapore mất thêm 5–7 ngày.",
+        "Các giải pháp nạo vét Nam Triệu (từ 1904) và đào kênh Hà Nam (-8,5 m) chỉ đón được tàu ~48.000 DWT; đào sâu -14 m trong nội đô sẽ gây sạt bờ phố, vướng tĩnh không cầu và bị phù sa bồi lấp lại.",
+        "Cầu vượt biển Tân Vũ – Lạch Huyện (15,63 km / 5,44 km cầu biển) kết hợp đê chắn cát & đê chắn sóng mở ra luồng 160 m sâu -14 m/-16 m.",
+        "Giai đoạn 2025–2026 vận hành đồng bộ 6 bến (2,4 km, 4,7 triệu TEU/năm) đi thẳng Mỹ – Âu, tiến tới Bến 7–8, Nam Đồ Sơn và đường sắt khổ 1.435 mm nối thẳng vào cảng."
+      ],
+      "core_message": "Hạ tầng vĩ đại không nằm ở việc chống lại dòng sông phù sa bằng mọi giá, mà là thấu hiểu địa lý để bước qua cửa sông ra biển lớn.",
+      "cta": "Bình luận chọn tập tiếp theo: [1] Sân bay Long Thành cách TP.HCM 40 km hay [2] Cao tốc miền Tây & túi bùn yếu.",
+      "tone": "Điềm tĩnh, sắc sảo, giàu chiều sâu lịch sử và dữ liệu thực chứng kiểu Johnny Harris / Vox",
+      "grounded_in": [
+        "Lịch sử Bến Sáu Kho 1874 & đường sắt 1902",
+        "QĐ 1995/QĐ-CHHĐTVN & thông số kênh Hà Nam -8,5 m",
+        "6 bến Lạch Huyện 4,7 triệu TEU, QĐ 1579/QĐ-TTg & đường sắt 1.435 mm"
+      ],
+      "why_this_works": "Xâu chuỗi trọn vẹn 5 tầng nhân quả trong 10 phút không một giây thừa, giải đáp toàn bộ thắc mắc thực tế của người xem và bật được mid-roll chuẩn YouTube Long-form."
+    },
+    {
+      "id": "c2",
+      "title": "Vì sao Hải Phòng vượt biển 48km thoát ghép tàu Singapore?",
+      "hook": "Mỗi chuyến hàng miền Bắc từng mất thêm 7 ngày vòng qua Singapore ghép tàu — cho tới cú nhảy 5,44 km này.",
+      "narrative_structure": "comparison",
+      "visual_approach": "Bản đồ 3D liên vùng đặt Lạch Huyện đối đầu trực diện Cái Mép – Thị Vải, Laem Chabang và Singapore.",
+      "suggested_playbook": "clean-professional",
+      "target_platform": "youtube",
+      "target_duration_seconds": 750,
+      "key_points": [
+        "Đối chiếu điều kiện tự nhiên Lạch Huyện vs Cái Mép – Thị Vải.",
+        "So sánh năng lực cạnh tranh cảng cửa ngõ Đông Nam Á."
+      ],
+      "why_this_works": "Mở rộng quy mô so sánh quốc tế cho khán giả quan tâm kinh tế vĩ mô."
+    },
+    {
+      "id": "c3",
+      "title": "Vì sao siêu tàu né sông Cấm, buộc Hải Phòng ra Lạch Huyện?",
+      "hook": "Đào sông Cấm sâu bằng tòa nhà 4 tầng có thể làm sạt cả hai bờ phố — đây là cách kỹ sư giải bài toán đó.",
+      "narrative_structure": "myth_busting",
+      "visual_approach": "Tập trung giải phẫu cơ học đất, thủy văn phù sa và mặt cắt luồng tàu.",
+      "suggested_playbook": "clean-professional",
+      "target_platform": "youtube",
+      "target_duration_seconds": 495,
+      "key_points": [
+        "Phản biện giả thuyết nạo vét sông Cấm xuống -14 m.",
+        "Cơ chế đê chắn cát bảo vệ luồng Lạch Huyện."
+      ],
+      "why_this_works": "Cô đọng thuần kỹ thuật công trình cho người xem thích nhịp nhanh."
+    }
+  ],
+  "selected_concept": {
+    "concept_id": "c1",
+    "rationale": "Người dùng chọn Bản chuẩn 10 phút (5 Chương trọn vẹn) kết hợp tiêu đề '150 năm kẹt ở sông Cấm: Hải Phòng vượt biển 48km thế nào?' và chữ bìa 'ĐÁY CẠN -7M!'.",
+    "modifications": [
+      "Áp dụng trọn bộ chuẩn vietnam-map-explainer v5: không khoanh tròn Hoàng Sa/Trường Sa, không để nguồn vụn trên hình, khóa đứng yên subtitle 0px jitter, chỉ phóng to 2 ảnh đinh, mặt đất 4K supersampling + EOX 2024 z14 + CRF 14."
+    ]
+  },
+  "production_plan": {
+    "pipeline": "animated-explainer",
+    "playbook": "clean-professional",
+    "renderer_family": "explainer-data",
+    "render_runtime": "remotion",
+    "composition_mode": "atelier",
+    "art_direction": "projects/cang-lach-huyen-ban-dai/art-direction.md",
+    "taste_profile": {
+      "design_read": "Phim tài liệu bản đồ chiến thuật 3D kiểu Johnny Harris / Vox: địa hình vệ tinh 2024 sắc nét trong vắt dưới vòm trời sao, cột ghim 3D dựng đứng, hồ sơ giấy kem học thuật và mặt cắt kỹ thuật quy chiếu tòa nhà 4 tầng / sân bóng đá.",
+      "visual_variance": 8,
+      "motion_intensity": 6,
+      "information_density": 7,
+      "palette_discipline": "Nền biển sâu #030914, xanh ngọc giải pháp #2DD4BF, vàng hổ phách phù sa/lịch sử #F59E0B, đỏ san hô cảnh báo #F43F5E.",
+      "layout_variation": "Luân phiên 5 họ cảnh: Không ảnh 3D nghiêng 52–56°, Hồ sơ pháp lý giấy kem giữa màn hình, Sa bàn 3D Isometric địa chất, Tách đôi màn hình đua 1:1 và Mặt cắt thủy văn động.",
+      "reference_strategy": "Kế thừa bộ mẫu đã kiểm chứng từ projects/demo-giai-ma-ban-do-90s và kiểm tra PNG still 100% cảnh mới trước khi render MP4.",
+      "anti_patterns": [
+        "Không vẽ vòng nét đứt quanh Hoàng Sa & Trường Sa",
+        "Không đặt maskImage lên thẻ CSS 3D gây mờ bitmap 1080p",
+        "Không để chữ nguồn/tìm kiếm vụn trên khung hình",
+        "Không thay đổi padding/fontWeight trên từ đang đọc của phụ đề"
+      ],
+      "quality_gates": [
+        "0% đè chữ trên toàn bộ 19 cảnh",
+        "Quần đảo Hoàng Sa & Trường Sa hiển thị tự nhiên, rõ nét trên mọi cảnh biển rộng",
+        "Độ nét 4K supersampling + EOX 2024 z14 + CRF 14"
+      ]
+    },
+    "music_source": {
+      "source_type": "bring_your_own",
+      "track_path": "projects/cang-lach-huyen-ban-dai/assets/audio/sfx_hydrographic.mp3",
+      "mood_direction": "Procedural Documentary Sub-Bass Pulse (55Hz/56BPM) tự động sidechain-ducking dưới lời bình + Micro-SFX sạch 100% bản quyền Content ID.",
+      "estimated_cost_usd": 0.0
+    },
+    "voice_selection": {
+      "provider": "vibi",
+      "voice_id": "Haitrieu (1ad2682d-1c78-4bb2-8061-b7cc216362c9)",
+      "rationale": "Giọng nam tiếng Việt đĩnh đạc, chuẩn nhịp giải mã bản đồ qua _tools/vibi_tts.py (MiniMax speech-2.8-hd, speed 1.1).",
+      "estimated_cost_usd": 0.0,
+      "delivery_style": "Biên tập viên điều tra địa lý kinh tế — điềm tĩnh, rõ số liệu, giàu sức gợi",
+      "pacing_policy": "Speed 1.1, chuẩn hóa -16 LUFS, nghỉ 0,45–0,65s giữa các cảnh để khán giả kịp đọc số liệu trên bản đồ 3D.",
+      "sample_approval_required": false
+    },
+    "decision_log_ref": "projects/cang-lach-huyen-ban-dai/decision_log.json",
+    "stages": [
+      {
+        "stage": "assets",
+        "tools": [
+          {
+            "tool_name": "vibi_tts",
+            "role": "Tổng hợp thuyết minh tiếng Việt 19 đoạn (~10 phút) kèm word timestamps",
+            "provider": "vibi",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Chuẩn giọng Haitrieu của kênh theo AGENTS.md"
+          }
+        ],
+        "approach": "Tổng hợp Vibi TTS cho 19 đoạn kịch bản, kế thừa bộ vệ tinh EOX 2024 z6–z14 đã lọc nét UnsharpMask + ảnh Wikimedia Commons sạch watermark + tự tổng hợp Documentary Pulse dài ~10 phút."
+      },
+      {
+        "stage": "compose",
+        "tools": [
+          {
+            "tool_name": "video_compose",
+            "role": "Kết xuất Remotion Atelier 1920x1080 @ 30fps (CRF 14, concurrency 4) và chạy hậu kiểm tự động",
+            "provider": "remotion",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Hỗ trợ hoàn hảo React 3D Tactical3DKit 4K supersampling và phụ đề đồng bộ từng từ."
+          }
+        ],
+        "approach": "Chụp PNG still kiểm tra đủ 19 cảnh bằng read_file đảm bảo 0% lỗi bố cục rồi chạy VideoCompose xuất final.mp4."
+      },
+      {
+        "stage": "publish",
+        "tools": [
+          {
+            "tool_name": "export_bundle",
+            "role": "Đóng gói thư mục YouTube Studio cục bộ (video, SRT chuẩn chính tả, thumbnail ĐÁY CẠN -7M!, chapters, SEO metadata)",
+            "provider": "local",
+            "available": true,
+            "estimated_cost_usd": 0.0,
+            "why_this_provider": "Đúng quy tắc xuất bản thủ công có người duyệt của AGENTS.md."
+          }
+        ],
+        "approach": "Đóng gói đầy đủ vào projects/cang-lach-huyen-ban-dai/exports/."
+      }
+    ],
+    "quality_tradeoffs": [
+      {
+        "tradeoff": "Supersampling 4K + CRF 14 (~20–25 phút render) vs 1080p thường + CRF 23 (~6 phút render)",
+        "recommendation": "Chọn 4K Supersampling + CRF 14 như người dùng đã duyệt",
+        "quality_impact": "Giữ độ trong vắt tuyệt đối cho từng mái nhà, bến cảng trên địa hình nghiêng 3D."
+      }
+    ],
+    "alternative_paths": [
+      {
+        "description": "Render nháp nhanh (scale 0.5, CRF 23) trước khi xuất bản gốc CRF 14",
+        "total_cost_usd": 0.0,
+        "quality_level": "standard",
+        "what_changes": "Dùng để kiểm tra nhanh nếu cần, nhưng chúng ta kiểm tra trực tiếp bằng PNG still 1080p sắc nét trong 20 giây."
+      }
+    ],
+    "delivery_promise": {
+      "promise_type": "data_explainer",
+      "motion_required": true,
+      "source_required": false,
+      "tone_mode": "cinematic",
+      "quality_floor": "broadcast",
+      "approved_fallback": null
+    }
+  },
+  "cost_estimate": {
+    "total_estimated_usd": 0.0,
+    "budget_cap_usd": 2.0,
+    "budget_verdict": "within_budget",
+    "line_items": [
+      {
+        "tool": "vibi_tts",
+        "operation": "Tổng hợp 19 đoạn thuyết minh tiếng Việt (~2.200 âm tiết) giọng Haitrieu",
+        "quantity": 19,
+        "estimated_usd": 0.0,
+        "notes": "Sử dụng hạn mức Vibi API sẵn có của workspace + cache cục bộ"
+      },
+      {
+        "tool": "video_compose",
+        "operation": "Kết xuất Remotion Atelier 1920x1080 @ 30fps (~18.000 frames, CRF 14)",
+        "quantity": 1,
+        "estimated_usd": 0.0,
+        "notes": "Chạy 100% trên CPU/GPU cục bộ"
+      }
+    ]
+  },
+  "approval": {
+    "status": "approved",
+    "user_notes": "Người dùng đã chọn A1 (Bản chuẩn 10 phút 5 Chương), A2 (Remotion + Atelier, Vibi Haitrieu), A3 (Tiêu đề '150 năm kẹt ở sông Cấm: Hải Phòng vượt biển 48km thế nào?' + Thumbnail 'ĐÁY CẠN -7M!').",
+    "approved_budget_usd": 2.0
+  }
+}

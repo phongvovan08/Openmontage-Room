@@ -1,0 +1,1663 @@
+{
+ "bangtutorial/bang-motion": {
+  "repo": "bangtutorial/bang-motion",
+  "full_name": "bangtutorial/bang-motion",
+  "description": "Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography, and five explainer styles that move like video, not slides. Single index.html output. Works with Claude Code, Codex, Gemini CLI, Cursor.",
+  "homepage": null,
+  "language": "HTML",
+  "topics": [],
+  "stars": 2139,
+  "forks": 250,
+  "open_issues": 4,
+  "size_kb": 1925,
+  "created_at": "2026-09-05T21:07:55Z",
+  "updated_at": "2026-11-14T08:29:24Z",
+  "pushed_at": "2026-09-15T04:45:32Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "User",
+  "root_files": [
+   {
+    "name": ".claude-plugin",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "CHANGELOG.md",
+    "type": "file",
+    "size": 2544
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1070
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 19806
+   },
+   {
+    "name": "SKILL.md",
+    "type": "file",
+    "size": 39343
+   },
+   {
+    "name": "assets",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "icon.png",
+    "type": "file",
+    "size": 178102
+   },
+   {
+    "name": "icon.svg",
+    "type": "file",
+    "size": 2015
+   },
+   {
+    "name": "references",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "scripts",
+    "type": "dir",
+    "size": 0
+   }
+  ],
+  "languages": {
+   "HTML": 145442,
+   "Python": 18550,
+   "JavaScript": 6837
+  },
+  "readme": "<div align=\"center\">\n\n<img src=\"icon.svg\" width=\"112\" alt=\"Bang Motion icon\">\n\n# Bang Motion\n\n**An agent skill that turns your AI coding agent into a motion designer.**<br>\nOpeners, promos, product demos, kinetic typography, and explainers — built as a single `index.html` that plays like video, not like slides.\n\n[![Version](https://img.shields.io/badge/version-1.19.0-2f6fd6?style=flat-square)](CHANGELOG.md)\n[![License: MIT](https://img.shields.io/badge/license-MIT-3fa34d?style=flat-square)](LICENSE)\n[![Agent Skills](https://img.shields.io/badge/format-Agent%20Skills-1c2a4a?style=flat-square)](#install)\n[![Works with](https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Gemini%20CLI%20%C2%B7%20Cursor-7a5af5?style=flat-square)](#install)\n\n<img src=\"docs/gallery/hero.jpg\" alt=\"A grid of styles Bang Motion can build: grainy gradient opener, SaaS product tour, flat pop promo with photos, visual journalism explainer, continuous action explainer, cartoon collage explainer\" width=\"100%\">\n\n[What you can make](#what-you-can-make) · [Style gallery](#style-gallery) · [Workflow](#recommended-workflow) · [Example prompts](#example-prompts) · [Install](#install) · [FAQ](#faq)\n\n</div>\n\n---\n\n## Why\n\nAsk an AI agent for \"a video\" and you usually get **slides**: one section per idea, a title, a photo, a fade between them. Bang Motion encodes what a working motion designer insists on — one continuous world, a camera that actually moves, a subject that persists, text that lives inside the scene — as **rules an agent can check in its own code**, plus starters that make the right architecture the easy path.\n\nIt also stops every project from looking the same. The look is **derived from your brand** through a required style brief, the structure is **chosen from a menu of concepts**, and nothing is inherited from the starter or copied from a reference.\n\n## What you can make\n\n| | Output | Typical length |\n|---|---|---|\n| 🎬 **Openers & promos** | product launches, app promos, campaign spots, teasers | 15–40 s |\n| 🖥️ **Product & SaaS demos** | UI assembled and used on screen, camera following the clicks | 20–60 s |\n| 🔤 **Kinetic typography** | lyric-style statements, event announcements, manifestos | 10–30 s |\n| 📺 **Bumpers, idents, channel intros** | short brand moments that loop | 3–10 s |\n| 🧭 **Explainers** | six explainer styles, optional voice-over sync, 16:9 or 9:16 | 30–120 s |\n| 🎥 **Video layers** | your own or generated clips placed like footage — inside devices, frames, and masks, locked to the timeline | — |\n| 🎞️ **After Effects builds** | cartoon explainers built directly inside AE through the Higgsfield MCP bridge | — |\n\nEvery deliverable is one `index.html`: double-click to play, autoplay + loop, `?debug=1` for a scrub bar, and an optional frame-by-frame export to MP4.\n\n## Style gallery\n\n> Each frame below is a **single static scene** built for this README with **fictional brands and data**. The portrait, product photos, port photo, engraving, and cartoon cutouts were generated with GPT Image 2.5; everything else is HTML, CSS, and SVG. Real projects take their palette, type, and imagery from your brand.\n\n<table>\n<tr>\n<td width=\"50%\"><img src=\"docs/gallery/01-grainy-gradient.jpg\" alt=\"Grainy gradient opener\"><br><b>Grainy gradient</b> · opener<br><sub>Glowing layered shapes, soft grain, a camera that travels through them. Tech, AI, music, premium launches.</sub></td>\n<td width=\"50%\"><img src=\"docs/gallery/02-kinetic-colorblock.jpg\" alt=\"Kinetic typography in poster color-block\"><br><b>Poster color-block</b> · kinetic typography<br><sub>Huge cropped words, solid color fields that slam in on the beat. Events, music, launches.</sub></td>\n</tr>\n<tr>\n<td><img src=\"docs/gallery/03-saas-ui-tour.jpg\" alt=\"SaaS product tour\"><br><b>Product tour with claims</b> · SaaS demo<br><sub>Real UI lifted out of the dashboard, the camera zooms into what gets clicked. SaaS, dashboards, B2B.</sub></td>\n<td><img src=\"docs/gallery/04-flat-vector.jpg\" alt=\"Flat vector illustration promo\"><br><b>Flat vector illustration</b> · promo<br><sub>Solid fills, stylized hands, UI drawn flat, shapes with gentle overshoot. Fintech, consumer apps.</sub></td>\n</tr>\n<tr>\n<td><img src=\"docs/gallery/07-flat-pop-photo.jpg\" alt=\"Flat pop with photos promo\"><br><b>Flat pop with photos</b> · promo<br><sub>Photo cutouts popping in, stickers, brand color fields that change with a visible trigger. Consumer apps, campaigns.</sub></td>\n<td><img src=\"docs/gallery/05-continuous-action.jpg\" alt=\"Continuous action explainer\"><br><b>Continuous action</b> · explainer<br><sub>One subject that never stops, numbers and maps living inside the world. Speed, routes, processes.</sub></td>\n</tr>\n<tr>\n<td><img src=\"docs/gallery/09-visual-journalism.jpg\" alt=\"Visual journalism explainer\"><br><b>Visual journalism</b> · explainer<br><sub>Black ground, real photos with source tags, highlighter, dashed annotations. News, current issues.</sub></td>\n<td><img src=\"docs/gallery/08-white-catalog.jpg\" alt=\"White catalog explainer\"><br><b>White catalog</b> · explainer<br><sub>White grid, product cutouts, mixed script and heavy sans. Products, brands.</sub></td>\n</tr>\n<tr>\n<td><img src=\"docs/gallery/10-vintage-sketch.jpg\" alt=\"Vintage sketch explainer\"><br><b>Vintage sketch</b> · explainer<br><sub>Sepia paper, engraving art, classic serifs, rust notes. History, biography.</sub></td>\n<td><img src=\"docs/gallery/11-cartoon-collage.jpg\" alt=\"Cartoon collage explainer\"><br><b>Cartoon collage</b> · explainer<br><sub>Cream paper, flat illustration cutouts, color pills, handwriting. Science, education.</sub></td>\n</tr>\n<tr>\n<td><img src=\"docs/gallery/06-cartoon-stage.jpg\" alt=\"Cartoon stage explainer\"><br><b>Cartoon stage</b> · explainer<br><sub>One living stage per scene, jointed characters, no captions. Education with characters.</sub></td>\n<td><img src=\"docs/gallery/12-more-combinations.jpg\" alt=\"Style brief with three concept candidates and one recommend"
+ },
+ "kaomei/stickman-video-director": {
+  "repo": "kaomei/stickman-video-director",
+  "full_name": "kaomei/stickman-video-director",
+  "description": "Turn any script into viral, multi-style animated stickman videos for Faceless YouTube Channels. Automate visuals, voiceover, captions & SFX. 100% Free & Open-Source.",
+  "homepage": "",
+  "language": "JavaScript",
+  "topics": [
+   "agent-skills-manager",
+   "ai-animation-generator",
+   "ai-video-production",
+   "automated-video",
+   "codex-skills",
+   "content-creation",
+   "creator-tools",
+   "faceless-youtube",
+   "gemini",
+   "generative-ai",
+   "llm",
+   "open-source",
+   "stickman",
+   "stickman-characters",
+   "storyboarding",
+   "storytelling",
+   "text-to-video",
+   "video-generation",
+   "youtube-automation"
+  ],
+  "stars": 6176,
+  "forks": 1051,
+  "open_issues": 7,
+  "size_kb": 590544,
+  "created_at": "2026-08-03T07:44:33Z",
+  "updated_at": "2026-11-14T08:26:18Z",
+  "pushed_at": "2026-11-14T08:14:08Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "User",
+  "root_files": [
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 87
+   },
+   {
+    "name": "CHANGELOG.zh-CN.md",
+    "type": "file",
+    "size": 8156
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1093
+   },
+   {
+    "name": "README.en.md",
+    "type": "file",
+    "size": 47296
+   },
+   {
+    "name": "README.fr.md",
+    "type": "file",
+    "size": 52165
+   },
+   {
+    "name": "README.id.md",
+    "type": "file",
+    "size": 48170
+   },
+   {
+    "name": "README.ja.md",
+    "type": "file",
+    "size": 54038
+   },
+   {
+    "name": "README.ko.md",
+    "type": "file",
+    "size": 52313
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 47296
+   },
+   {
+    "name": "README.pt-BR.md",
+    "type": "file",
+    "size": 49819
+   },
+   {
+    "name": "README.tr.md",
+    "type": "file",
+    "size": 50936
+   },
+   {
+    "name": "README.zh-CN.md",
+    "type": "file",
+    "size": 44635
+   },
+   {
+    "name": "assets",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "scripts",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "skills",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "tests",
+    "type": "dir",
+    "size": 0
+   }
+  ],
+  "languages": {
+   "JavaScript": 1084971,
+   "Python": 662995,
+   "Shell": 4882
+  },
+  "readme": "<div align=\"center\">\n\n[**🇺🇸 EN**](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [🇮🇩 ID](README.id.md)\n\n# 🎬 Stickman Video Director\n\n**Turn any script into viral, multi-style animated stickman videos for Faceless YouTube Channels.**\n\n[![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)\n![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)\n\nStart with a topic, an article, or a script. Automatically orchestrate visuals, voiceovers, captions, and sound effects into a production-ready stickman video.\n\n**⚡ 100% Free & Open-Source. No camera, no $50/mo subscriptions, and ready in minutes, not days.**\n\nContinually updated visual styles for **science explainers, dark psychology, tech parables, viral lore, and storytelling channels.**\n\n</div>\n\n<table width=\"100%\">\n<tr>\n<td width=\"50%\" align=\"center\">\n<strong>Classic Black & White</strong><br>\n<a href=\"#a1\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif\" alt=\"Classic black-and-white stickman animation: white lines on black for dynamic explainers\" width=\"90%\"></a>\n</td>\n<td width=\"50%\" align=\"center\">\n<strong>Modern Pop</strong><br>\n<a href=\"#a2\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif\" alt=\"Modern pop stickman animation: red-beanie character with tech lighting\" width=\"90%\"></a>\n</td>\n</tr>\n<tr>\n<td width=\"50%\" align=\"center\">\n<strong>Prehistoric Cave</strong><br>\n<a href=\"#a3\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif\" alt=\"Prehistoric cave stickman animation: short cave stories with a twist\" width=\"90%\"></a>\n</td>\n<td width=\"50%\" align=\"center\">\n<strong>Cozy Storytelling</strong><br>\n<a href=\"#a4\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif\" alt=\"Cozy stickman storytelling: colorful everyday scenes and relatable moments\" width=\"90%\"></a>\n</td>\n</tr>\n<tr>\n<td width=\"50%\" align=\"center\">\n<strong>Historical Cartoon</strong><br>\n<a href=\"#style-5\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif\" alt=\"Historical stickman cartoon: a samurai story in Edo Japan\" width=\"90%\"></a>\n</td>\n<td width=\"50%\" align=\"center\">\n<strong>Minimal Line Art</strong><br>\n<a href=\"#b1\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif\" alt=\"Minimal hand-drawn stickman video: expressive characters, key text, and subtle animation\" width=\"90%\"></a>\n</td>\n</tr>\n<tr>\n<td width=\"50%\" align=\"center\">\n<strong>Amber Noir</strong><br>\n<a href=\"#a6\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif\" alt=\"Amber Noir stickman animation: an orange-hoodie character in a warm-lit city with deep shadows\" width=\"90%\"></a>\n</td>\n<td width=\"50%\" align=\"center\">\n<strong>Colorful Hand-Drawn</strong><br>\n<a href=\"#b2\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif\" alt=\"Colorful hand-drawn stickman video: a quiet bedroom and a thought drifting along a river\" width=\"90%\"></a>\n</td>\n</tr>\n<!-- b3:hero:start -->\n<tr>\n<td width=\"50%\" align=\"center\">\n<strong>Retro TV</strong><br>\n<a href=\"#b3\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif\" alt=\"retro TV-style fictional 3 AM television mystery with rounded white characters\" width=\"90%\"></a>\n</td>\n<td width=\"50%\" align=\"center\">\n<strong>Survival Thriller</strong><br>\n<a href=\"#b4\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif\" alt=\"B4 · Survival Thriller\" width=\"90%\"></a>\n</td>\n</tr>\n<!-- b3:hero:end -->\n<!-- b5:hero:start -->\n<tr>\n<td width=\"50%\" align=\"center\">\n<strong>Character Explainer</strong><br>\n<a href=\"#b5\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif\" alt=\"B5 explainer about asking for help, with a distinctive presenter and expressive stickmen\" width=\"90%\"></a>\n</td>\n<!-- b6:hero:start -->\n<td width=\"50%\" align=\"center\">\n<strong>Dynamic Meme Animation</strong><br>\n<a href=\"#b6\"><img src=\"https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif\" alt=\"B6 · Dynamic Meme Animation\" width=\"90%\"></a>\n</td>\n<!-- b6:hero:end -->\n</tr>\n<!-- b5:hero:end -->\n</table>\n\n<div align=\"center\">\n\n**12 visual styles · Tested examples · Free and open source**\n\n⭐ **Star the project to catch the next style drop and feature unlocks.**\n\n[Get started](#quick-start) · [Styles & Demos](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Community](#community)\n\n</div>\n\n<a id=\"creation-modes\"></a>\n\n## 🎬 Two ways to make your video\n\n**Want control over every shot? Choose A · Director Mode. Want a finished video without assembling scenes yourself? Choose B · Autopilot Mode.** One project, two workflows.\n\n|  | <div align=\"center\">A · Director Mode</div> | <div align=\"center\">B · Autopilot Mode</div> |\n|:---:"
+ },
+ "CopilotKit/openbot": {
+  "repo": "CopilotKit/openbot",
+  "full_name": "CopilotKit/OpenBot",
+  "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+  "homepage": "open.bot",
+  "language": "TypeScript",
+  "topics": [
+   "ag-ui",
+   "agent-governance",
+   "ai-agents",
+   "browser-automation",
+   "copilotkit",
+   "generative-ui",
+   "mcp"
+  ],
+  "stars": 12166,
+  "forks": 1496,
+  "open_issues": 108,
+  "size_kb": 51834,
+  "created_at": "2026-08-17T00:44:59Z",
+  "updated_at": "2026-11-14T08:29:09Z",
+  "pushed_at": "2026-11-14T08:15:36Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "Organization",
+  "root_files": [
+   {
+    "name": ".claude",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".dockerignore",
+    "type": "file",
+    "size": 301
+   },
+   {
+    "name": ".env.example",
+    "type": "file",
+    "size": 39082
+   },
+   {
+    "name": ".env.personal.example",
+    "type": "file",
+    "size": 478
+   },
+   {
+    "name": ".gitattributes",
+    "type": "file",
+    "size": 216
+   },
+   {
+    "name": ".github",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 2360
+   },
+   {
+    "name": "CHANGELOG.md",
+    "type": "file",
+    "size": 617626
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1067
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 46790
+   },
+   {
+    "name": "Tauri-signing-SKILL.md",
+    "type": "file",
+    "size": 13065
+   },
+   {
+    "name": "agent-adk",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-ag2",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-agno",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-antigravity",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-claude-sdk",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-crewai",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-langgraph-agui",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-langroid",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-llamaindex",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-mastra",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-microsoft",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-pydantic-ai",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "agent-strands",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "api",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "app",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "assets",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "backend-images.env",
+    "type": "file",
+    "size": 1211
+   },
+   {
+    "name": "biome.json",
+    "type": "file",
+    "size": 2710
+   },
+   {
+    "name": "bun.lock",
+    "type": "file",
+    "size": 372738
+   },
+   {
+    "name": "bunfig.toml",
+    "type": "file",
+    "size": 709
+   },
+   {
+    "name": "desktop",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "docker-compose.yml",
+    "type": "file",
+    "size": 32627
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "examples",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "extension",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "mobile",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "package.json",
+    "type": "file",
+    "size": 1552
+   },
+   {
+    "name": "prompt.txt",
+    "type": "file",
+    "size": 23128
+   },
+   {
+    "name": "redocly.yaml",
+    "type": "file",
+    "size": 1654
+   },
+   {
+    "name": "release-policy.json",
+    "type": "file",
+    "size": 759
+   },
+   {
+    "name": "renovate.json",
+    "type": "file",
+    "size": 145
+   },
+   {
+    "name": "scripts",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "shared",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "tests",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "tsconfig.base.json",
+    "type": "file",
+    "size": 179
+   }
+  ],
+  "languages": {
+   "TypeScript": 14307980,
+   "Rust": 4662156,
+   "Python": 794423,
+   "Shell": 146645,
+   "CSS": 111606,
+   "NSIS": 59706,
+   "PowerShell": 47073,
+   "JavaScript": 16772,
+   "Dockerfile": 12194,
+   "HTML": 2797
+  },
+  "readme": "<div align=\"center\">\n\n<img src=\"app/src/assets/openbot-logo.png\" alt=\"\" width=\"72\">\n\n# OpenBot\n\n### AI coworkers. Ready for the enterprise.\n\nA modular, self-hostable workspace for AI coworkers.<br>\nChoose your models. Bring your agents. Own your infrastructure.\n\n[open.bot](https://open.bot) · [Docs](docs/README.md) · [Deploy on Kubernetes](#deploy-on-kubernetes) · [Run from source](#run-from-source)\n\n[![GitHub Trending: #3 Repository Of The Day](https://trendshift.io/api/badge/repositories/175080)](https://trendshift.io/repositories/175080)\n[![Trendshift: #3 Repository Of The Day](https://trendshift.io/api/badge/trendshift/repositories/175080/daily)](https://trendshift.io/repositories/175080)\n\n<br>\n\n[![Download for Mac (Apple silicon)](https://img.shields.io/github/v/release/CopilotKit/OpenBot?style=for-the-badge&labelColor=3A3466&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTExIDNoMnYxMC4ybDMuNi0zLjZMMTggMTFsLTYgNi02LTYgMS40LTEuNCAzLjYgMy42ek01IDE5aDE0djJINXoiLz48L3N2Zz4%3D&label=Download%20for%20Mac%20%28Apple%20silicon%29&color=6E6AE0)](https://downloads.copilotkit.ai/latest/OpenBot-mac-arm64.dmg)\n[![Download for Mac (Intel)](https://img.shields.io/github/v/release/CopilotKit/OpenBot?style=for-the-badge&labelColor=3A3466&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTExIDNoMnYxMC4ybDMuNi0zLjZMMTggMTFsLTYgNi02LTYgMS40LTEuNCAzLjYgMy42ek01IDE5aDE0djJINXoiLz48L3N2Zz4%3D&label=Download%20for%20Mac%20%28Intel%29&color=4A7CC8)](https://downloads.copilotkit.ai/latest/OpenBot-mac-x64.dmg)\n[![Download for Windows](https://img.shields.io/github/v/release/CopilotKit/OpenBot?style=for-the-badge&labelColor=3A3466&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTExIDNoMnYxMC4ybDMuNi0zLjZMMTggMTFsLTYgNi02LTYgMS40LTEuNCAzLjYgMy42ek01IDE5aDE0djJINXoiLz48L3N2Zz4%3D&label=Download%20for%20Windows&color=9A5CC6)](https://downloads.copilotkit.ai/latest/OpenBot-windows-x64-setup.exe)\n\n<sub>Notarized .dmg for Apple silicon and Intel Macs · signed installer for Windows x64 · no terminal or developer tools needed · [Release notes](https://github.com/CopilotKit/OpenBot/releases/latest)</sub>\n\n<br>\n\n[![OpenBot for Business: get early access](https://img.shields.io/badge/OpenBot_for_Business-Get_early_access_%E2%86%92-D14B9C?style=for-the-badge&labelColor=3A3466)](https://dashboard.operations.copilotkit.ai/early-access/openbot?platform=business&ref=github&utm_source=github&utm_medium=readme&utm_campaign=openbot-early-access)\n\n<sub>From [CopilotKit](https://www.copilotkit.ai), creators of [AG-UI](https://github.com/ag-ui-protocol/ag-ui).</sub>\n\n</div>\n\nhttps://github.com/user-attachments/assets/c60f07da-8b6d-46eb-a573-17fc1e65a644\n\n<p align=\"center\"><sub>Watch a Bot use its browser and tools, answer with interactive results, and wait for your approval before it sends. Take over when it needs you, and connect the agents you already run.</sub></p>\n\n## Getting started\n\n### On your laptop\n\nThe easiest way to get started is with the fully self-contained app that runs on your laptop, combining the OpenBot frontend and Docker-based backend in one application.\n\n[Mac / Apple silicon](https://downloads.copilotkit.ai/latest/OpenBot-mac-arm64.dmg) · [Mac / Intel](https://downloads.copilotkit.ai/latest/OpenBot-mac-x64.dmg) · [Windows](https://downloads.copilotkit.ai/latest/OpenBot-windows-x64-setup.exe)\n\n[Run from source](#run-from-source)\n\n### For your team\n\n**OpenBot for Business** brings your agents into one workspace with company sign-in, tool permissions, approvals, and audit. Deploy on your infrastructure or work with our engineers on hosting and customization.\n\n[**Get early access to OpenBot for Business →**](https://dashboard.operations.copilotkit.ai/early-access/openbot?platform=business&ref=github&utm_source=github&utm_medium=readme&utm_campaign=openbot-early-access) · [**Talk to an engineer**](https://open.bot/business) · [**Kubernetes setup**](#deploy-on-kubernetes)\n\n<a id=\"early-access-platforms\"></a>\n\n### Web, mobile, and chat\n\n[Web](https://dashboard.operations.copilotkit.ai/early-access/openbot?platform=web&ref=github&utm_source=github&utm_medium=readme&utm_campaign=openbot-early-access) · [iOS](https://dashboard.operations.copilotkit.ai/early-access/openbot?platform=ios&ref=github&utm_source=github&utm_medium=readme&utm_campaign=openbot-early-access) · [Android](https://dashboard.operations.copilotkit.ai/early-access/openbot?platform=android&ref=github&utm_source=github&utm_medium=readme&utm_campaign=openbot-early-access) · [Slack](https://dashboard.operations.copilotkit.ai/early-access/openbot?platform=slack&ref=github&utm_source=github&utm_medium=readme&utm_campaign=openbot-early-access) · [Teams](https://dashboard.operations.copilotkit.ai/early-access/openbot?platform=teams&ref=github&utm_source=github&utm_medium=readme&utm_campaign=openbot-early-access)\n\n## Your workspace. Your stack.\n\n<div align=\"center\">\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/openbot-stack-dark.svg\">\n  <img src=\"docs/assets/openbot-stack-light.svg\" alt=\"OpenBot's modular stack: an enterprise workspace over built-in or AG-UI agents, your models, MCP tools, configurable infrastructure, and deployment on your laptop or Kubernetes.\" width=\"90%\">\n</picture>\n</div>\n\n- **Choose your models.** Use OpenAI, Claude, Gemini, or open models through an OpenAI-compatible endpoint, hosted by a provider or on your own infrastructure. Keep your provider relationships and change models as your needs change.\n- **Bring your agents.** Run built-in Bots in the OpenBot server, or connect your existing agents through AG-UI from any agent execution platform. Agents built with different stacks can work in the same wo"
+ },
+ "filippocalippo/StykAnimate-App": {
+  "repo": "filippocalippo/StykAnimate-App",
+  "full_name": "filippocalippo/StykAnimate-App",
+  "description": "Free, open-source stick figure animation app for Windows, Linux and the browser. Opens Pivot and Stick Nodes projects.",
+  "homepage": "https://stykanimate.com",
+  "language": "JavaScript",
+  "topics": [
+   "2d-animation",
+   "animation",
+   "animation-software",
+   "electron",
+   "pivot-animator",
+   "stick-figure",
+   "stickman",
+   "webgpu"
+  ],
+  "stars": 1578,
+  "forks": 252,
+  "open_issues": 24,
+  "size_kb": 58297,
+  "created_at": "2026-09-09T04:43:47Z",
+  "updated_at": "2026-11-14T08:15:08Z",
+  "pushed_at": "2026-11-13T23:42:48Z",
+  "license": "GPL-3.0",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "User",
+  "root_files": [
+   {
+    "name": ".git-blame-ignore-revs",
+    "type": "file",
+    "size": 162
+   },
+   {
+    "name": ".gitattributes",
+    "type": "file",
+    "size": 857
+   },
+   {
+    "name": ".github",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 740
+   },
+   {
+    "name": "AGENTS.md",
+    "type": "file",
+    "size": 18434
+   },
+   {
+    "name": "CHANGELOG.md",
+    "type": "file",
+    "size": 19931
+   },
+   {
+    "name": "CODE_OF_CONDUCT.md",
+    "type": "file",
+    "size": 5567
+   },
+   {
+    "name": "CONTRIBUTING.md",
+    "type": "file",
+    "size": 4432
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 35150
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 7644
+   },
+   {
+    "name": "SECURITY.md",
+    "type": "file",
+    "size": 1381
+   },
+   {
+    "name": "THIRD_PARTY_NOTICES.md",
+    "type": "file",
+    "size": 2838
+   },
+   {
+    "name": "assets",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "backend",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "codecs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "desktop",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "engine",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "eslint.config.mjs",
+    "type": "file",
+    "size": 3690
+   },
+   {
+    "name": "experiments",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "index.html",
+    "type": "file",
+    "size": 35897
+   },
+   {
+    "name": "labs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "mark.svg",
+    "type": "file",
+    "size": 1124
+   },
+   {
+    "name": "native",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "package-lock.json",
+    "type": "file",
+    "size": 192530
+   },
+   {
+    "name": "package.json",
+    "type": "file",
+    "size": 10291
+   },
+   {
+    "name": "perf",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "release-notes.md",
+    "type": "file",
+    "size": 3122
+   },
+   {
+    "name": "rust-toolchain.toml",
+    "type": "file",
+    "size": 410
+   },
+   {
+    "name": "scripts",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "src",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "symbol.svg",
+    "type": "file",
+    "size": 1021
+   },
+   {
+    "name": "tests",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "vendor",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "web",
+    "type": "dir",
+    "size": 0
+   }
+  ],
+  "languages": {
+   "JavaScript": 26619395,
+   "Rust": 9759679,
+   "Python": 781044,
+   "CSS": 740663,
+   "WGSL": 87249,
+   "HTML": 41253,
+   "C++": 30047,
+   "Shell": 1540,
+   "NSIS": 346
+  },
+  "readme": "<p align=\"center\">\n  <img src=\"assets/brand/svg/stykanimate-horizontal-primary.svg\" alt=\"StykAnimate\" width=\"420\">\n</p>\n\n<p align=\"center\">\n  A free, open-source stick figure animation app for Windows, Linux and the browser.<br>\n  Opens Pivot (<code>.piv</code>, <code>.stk</code>) and Stick Nodes projects, and keeps your work on your device.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://stykanimate.com\">Website</a> ·\n  <a href=\"https://app.stykanimate.com\">Open in the browser</a> ·\n  <a href=\"https://github.com/filippocalippo/styk-animate-releases/releases/latest\">Download</a> ·\n  <a href=\"https://discord.gg/WTssQKBaJp\">Discord</a> ·\n  <a href=\"https://www.youtube.com/channel/UCZg7hZc23PNufzxnX8mCaCw\">YouTube</a>\n</p>\n\n## Features\n\n- **Pose stick figures** with fixed-length joints, IK for arms and legs, stretchy nodes and 3D figures with depth.\n- **Build your own figures** from lines, circles, polygons, text and images, with a shared rig and per-part styles.\n- **Two timelines:** a Simple, Pivot-style frame strip and an Advanced timeline with layers, folders, keys and easing.\n- **Motion paths, onion skins and camera moves,** including camera follow.\n- **Particle effects** (explosions, auras, beams, smoke) and brushes for drawing.\n- **Community library:** insert figures and movieclips shared by other animators.\n- **Export** MP4, WebM (with transparency), GIF, APNG, PNG/JPEG/SVG frames, and editable `.piv`/`.stk`.\n- **27 interface languages**, light and dark themes, a touch interface for phones and tablets.\n\nEverything (decoding, editing, saving and rendering) runs locally.\n\n## Get StykAnimate\n\n- **Windows and Linux:** download Setup, Portable or the AppImage from the [releases page](https://github.com/filippocalippo/styk-animate-releases/releases/latest). Installed apps update themselves.\n- **Browser:** open [app.stykanimate.com](https://app.stykanimate.com). It works offline once loaded.\n\n## Privacy\n\nYour animations stay on your computer. The desktop app sends anonymous statistics about speed and crashes and which features are used, with no account, no identifier and nothing from your animations. Home says so in one line at first start, and Preferences › Privacy turns them off and shows exactly what was last sent. [docs/STATISTICS.md](docs/STATISTICS.md) lists everything that is sent and why.\n\n## Build from source\n\nRequirements: Node.js 22+ (CI uses 24.11), the Rust toolchain below, and, for development only, Python 3.11+ (CI uses 3.12): it stages the offline video encoder and builds the Windows codec helpers when packaging, and runs the tests of the Python Pivot codec kept as an oracle. The app, desktop and web, contains and needs no Python. Windows and Linux are tested on every change; macOS has an untested build target.\n\n```sh\nnpm ci\nnpm run engine:build # the Rust engine and Pivot codec, into src/engine/pkg/\nnpm start            # desktop app (Electron)\nnpm run serve        # or the editor in your browser at http://127.0.0.1:47831\n```\n\n`npm run engine:build` needs `rustup` with the pinned nightly and its source (`rustup toolchain install nightly-2026-09-15 --component rust-src --target wasm32-unknown-unknown`), the stable Rust that `rust-toolchain.toml` names with the same target (rustup installs it on first use), `wasm-bindgen-cli` 0.2.129 (`cargo install wasm-bindgen-cli --version 0.2.129 --locked`) and clang for the WebAssembly target. Python runs only the codec's development test oracle (`backend/`, `codecs/`) and the packaging scripts; set `STYK_PYTHON` to choose an interpreter.\n\nPackaging, on the matching operating system:\n\n```sh\npython -m pip install -r scripts/requirements-build.txt\nnpm run engine:build\nnpm run build:video-encoder\nnpm run pack && npm run verify:package\nnpm run dist:win     # or dist:linux, dist:mac\n```\n\nThe browser build: `npm run web:build`, then `npm run web:preview`. See [Web build](docs/WEB.md), [Linux](docs/LINUX.md) and [Touch interface](docs/TOUCH.md).\n\n## Tests\n\n```sh\nnpm run check        # syntax, stylesheet lint, locales, engine inventory\nnpm test             # unit tests\npython -m unittest discover -s backend -p \"test_*.py\"   # the Python codec oracle (development only)\n```\n\nBrowser tests (`tests/*.browser.mjs`) run against `npm run serve` with Chrome or Playwright Chromium, for example `node tests/timeline.browser.mjs`. `npm run test:browser` starts the server and runs them all, or those whose names contain the words you give it (`npm run test:browser -- timeline hotkeys`), and lists which pass, skip or fail. Some tests read a local corpus of Pivot projects that is not distributed; without it they skip and name the missing file (`STYK_REQUIRE_FIXTURES=1` makes them fail instead). Desktop tests and scripts (`tests/*.desktop.mjs`, `scripts/smoke-*.mjs`) open the app in a window; set `STYK_BACKGROUND_WINDOW=1` to open it off-screen without taking focus (packaged builds too). [`.github/workflows/ci.yml`](.github/workflows/ci.yml) shows what runs on every pull request.\n\n## How the code is organized\n\n| Location | Responsibility |\n| --- | --- |\n| `src/editor*.mjs`, `src/pivot/` | Document model, commands, undo/redo, rigs, native evaluation and validation |\n| `src/engine/engine-stage.mjs`, `src/engine/engine-playback.mjs` | The scene canvas drawn by the engine, playback tickets |\n| `src/document-transport.mjs` | Bounded document snapshots |\n| `engine/` | The Rust engine: document store, Pivot and Stick Nodes codecs, evaluation, rendering, editing (`docs/RUST-ENGINE-PORT.md`) |\n| `src/engine/` | How the app reaches the engine (stage, playback, export, editing) |\n| `src/import-*.mjs`, `backend/`, `codecs/`, `native/` | Import into the editor, the Python codec kept as a test oracle, native helpers |\n| `src/document-export*.mjs`, `src/image-*.mjs`, `src/video-export.mjs` | Saving, recovery and image/video export |\n| `src/app.mjs`, `src/shell/`, `src/ui/`, `src/styles/` | Interface, workspaces, timelines and styles |\n| `src/locales/`, `src/localization*.mjs` | Tr"
+ },
+ "krillinai/OpenCreator": {
+  "repo": "krillinai/OpenCreator",
+  "full_name": "krillinai/OpenCreator",
+  "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.",
+  "homepage": "https://www.open-creator.ai",
+  "language": "TypeScript",
+  "topics": [
+   "agent-skills",
+   "codex-cli",
+   "deskop-app",
+   "dubbing",
+   "image-generation",
+   "localization",
+   "skills",
+   "tts",
+   "video-editing",
+   "video-generation",
+   "video-transcription",
+   "video-translation"
+  ],
+  "stars": 14345,
+  "forks": 1603,
+  "open_issues": 48,
+  "size_kb": 403245,
+  "created_at": "2024-12-17T01:59:22Z",
+  "updated_at": "2026-11-14T07:14:13Z",
+  "pushed_at": "2026-11-10T06:14:02Z",
+  "license": "Apache-2.0",
+  "default_branch": "master",
+  "archived": false,
+  "owner_type": "User",
+  "root_files": [
+   {
+    "name": ".env.example",
+    "type": "file",
+    "size": 312
+   },
+   {
+    "name": ".gitattributes",
+    "type": "file",
+    "size": 187
+   },
+   {
+    "name": ".github",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 476
+   },
+   {
+    "name": "AGENTS.md",
+    "type": "file",
+    "size": 17032
+   },
+   {
+    "name": "CODE_OF_CONDUCT.md",
+    "type": "file",
+    "size": 2453
+   },
+   {
+    "name": "CONTRIBUTING.md",
+    "type": "file",
+    "size": 4941
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 11358
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 49547
+   },
+   {
+    "name": "apps",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "assets",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "package.json",
+    "type": "file",
+    "size": 3114
+   },
+   {
+    "name": "packages",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "patches",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "playwright.config.ts",
+    "type": "file",
+    "size": 862
+   },
+   {
+    "name": "pnpm-lock.yaml",
+    "type": "file",
+    "size": 273662
+   },
+   {
+    "name": "pnpm-workspace.yaml",
+    "type": "file",
+    "size": 40
+   },
+   {
+    "name": "resources",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "runtime",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "scripts",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "skills",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "template",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "tsconfig.base.json",
+    "type": "file",
+    "size": 354
+   }
+  ],
+  "languages": {
+   "TypeScript": 12951091,
+   "Go": 1581927,
+   "CSS": 759055,
+   "JavaScript": 487073,
+   "HTML": 94244,
+   "Python": 16612,
+   "Shell": 1036
+  },
+  "readme": "<div align=\"center\">\n\n<h1>\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"./docs/images/OpenCreator_logo_vector_dark.svg\" />\n    <img src=\"./docs/images/OpenCreator_logo_vector.svg\" alt=\"OpenCreator\" width=\"380\" />\n  </picture>\n  <br />\n  The open-source AI workspace & Skills for creators\n</h1>\n\n<p>Bring visual settings, reusable Skills, and Agents together for scripts, video, images, voice, translation, and editing—all in one workspace.</p>\n\n<p><strong>OpenCreator was formerly known as KrillinAI.</strong></p>\n\n<a href=\"https://trendshift.io/repositories/13360\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/13360\" alt=\"OpenCreator, formerly KrillinAI: #1 Repository of the Day on Trendshift\" width=\"250\" height=\"55\" /></a>\n\n**English** | [简体中文](./docs/zh/README.md) | [日本語](./docs/ja/README.md) | [한국어](./docs/ko/README.md) | [Bahasa Indonesia](./docs/id/README.md) | [Español](./docs/es/README.md) | [Français](./docs/fr/README.md) | [Deutsch](./docs/de/README.md) | [Português](./docs/pt/README.md) | [Русский](./docs/ru/README.md) | [العربية](./docs/ar/README.md) | [ภาษาไทย](./docs/th/README.md) | [Türkçe](./docs/tr/README.md) | [हिन्दी](./docs/hi/README.md) | [বাংলা](./docs/bn/README.md) | [اردو](./docs/ur/README.md) | [Tiếng Việt](./docs/vi/README.md) | [Filipino](./docs/fil/README.md)\n\n[![GitHub Stars](https://badgen.net/github/stars/krillinai/OpenCreator?icon=github&label=Stars&color=EAB308)](https://github.com/krillinai/OpenCreator/stargazers)\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)\n[![Bilibili](https://img.shields.io/badge/dynamic/json?label=Bilibili&query=%24.data.follower&suffix=%E7%B2%89%E4%B8%9D&url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D242124650&logo=bilibili&color=00A1D6&labelColor=FE7398&logoColor=FFFFFF)](https://space.bilibili.com/242124650)\n[![AtomGit G-Star](https://img.shields.io/badge/AtomGit-G--Star-DA203E?style=flat)](https://atomgit.com/krillinai/OpenCreator)\n[![X](https://img.shields.io/badge/X-Follow-000000?logo=x&logoColor=white)](https://x.com/KrillinAIJunxi)\n\n[Highlights](#project-highlights) · [Creator Tools](#creator-tools) · [Skills](#skills) · [Examples](#examples) · [Quick Start](#quick-start) · [Desktop](#desktop) · [Docs](#documentation) · [Community](#community)\n\n</div>\n\n![OpenCreator Agent workspace](./docs/images/opencreator-home-en.png)\n\n## Project Overview\n\nOpenCreator is built for individuals and teams who want to keep creative and development work running locally. Instead of reimplementing an Agent loop, it uses Codex CLI as the execution engine and adds a stable local Runtime, a visual workspace, and a Desktop host around it.\n\nOpenCreator offers two connected ways to work:\n\n- **Content workspace**: use visual tools and creation templates for video translation and downloading, image and video generation, voiceovers, article and social post writing, short-video scripting, and stick figure animation.\n- **Agent conversation**: start and guide creative or development tasks in natural language, organize conversations by project, keep Runs working in the background, and manage approvals, attachments, files, Skills, MCP, schedules, notifications, memory, and diagnostics from one place.\n\nWeb is the single frontend implementation. Desktop loads the same Web build and adds only capabilities that require the operating system, such as directory selection, window lifecycle, tray behavior, and native notifications. With the same data and content viewport, both platforms share the same general UI and Runtime behavior.\n\n## Project Highlights\n\n- 🤖 **Codex Native**: Reuse the Codex Agent loop, models, reasoning, tool calls, conversations, Skills, and MCP without maintaining a second execution engine.\n\n- 🚀 **Ready-to-Use Desktop App**: Launch OpenCreator directly from the desktop app with Codex CLI included; the local Runtime starts on demand and prepares a default project automatically.\n\n- ⚙️ **Desktop Setup That Reuses Codex**: On first launch, scan your local Codex configuration and offer to reuse a working ChatGPT sign-in or API key setup. A guided form is available for other model providers.\n\n- 🔄 **Managed Runtime Components**: Inspect bundled, active, and latest yt-dlp versions, check for updates periodically, and update manually while keeping the current working version available if an update fails.\n\n- 🎨 **Multimodal Creation**: Create and manage video, images, audio, subtitles, and documents through one connected workflow.\n\n- 🧩 **Creation Templates**: Start creating images and videos from reusable templates without setting up prompts and settings from scratch.\n\n- 🔗 **Dual-Mode Workflow**: Work through either the visual workspace or Agent conversation while one shared state machine keeps steps, progress, and results synchronized.\n\n- 🕘 **Versioning**: Every revision creates a new version while preserving earlier settings and outputs for review and comparison.\n\n- 🧩 **Reusable Skills**: Use video workflow Skills, extend the Agent with your own Skills, and manage MCP through Codex-native configuration.\n\n- 🧠 **Memory**: Keep global, project, and thread memory with summaries and reproducible Run input snapshots.\n\n- 🔐 **Local Security**: Keep data, attachments, and logs local by default, with approvals and redacted diagnostics.\n\n- 🌐 **Localized Interface**: Use Web and Desktop in 43 interface languages, with automatic system-language detection, manual selection, and right-to-left layouts for Arabic, Persian, Urdu, and Hebrew.\n\n## Creator Tools\n\nThe current release includes ten creator tools. Available models and services depend on your local Codex environment and AI service settings.\n\nOpen the Dashboard to write articles, Xiaohongshu posts, or short-video scripts; create stick figure animations; translate or download videos; generate thumbnails, images, or videos; and create voiceovers with Text to Speech.\n\n![OpenCreator Crea"
+ },
+ "mromidev/claude-animated-shorts": {
+  "repo": "mromidev/claude-animated-shorts",
+  "full_name": "mromidev/claude-animated-shorts",
+  "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+  "homepage": null,
+  "language": "TypeScript",
+  "topics": [],
+  "stars": 3304,
+  "forks": 708,
+  "open_issues": 16,
+  "size_kb": 17948,
+  "created_at": "2026-11-01T05:50:38Z",
+  "updated_at": "2026-11-14T08:29:40Z",
+  "pushed_at": "2026-11-01T05:57:14Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "User",
+  "root_files": [
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1063
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 2275
+   },
+   {
+    "name": "SKILL.md",
+    "type": "file",
+    "size": 15131
+   },
+   {
+    "name": "references",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "templates",
+    "type": "dir",
+    "size": 0
+   }
+  ],
+  "languages": {
+   "TypeScript": 297337,
+   "Python": 120387,
+   "JavaScript": 1694
+  },
+  "readme": "# Claude Animated Shorts\n\nThe free Claude skill from the video **\"How to Make Viral Animated Shorts Using Claude (Full Workflow)\"**.\n\nIt makes 55-70 s vertical animated story shorts: 2D characters in a colourful 3D world, with ink outlines, a painted town, lens blur, gliding cameras, a march score and sound effects. Everything is rendered with three.js inside Remotion on your own PC, with no AI video generator.\n\nProven on **The Bridge That Fell for a Song**, a 67 s short about the 1831 Broughton bridge.\n\n## What's inside\n| Path | What it is |\n|---|---|\n| `SKILL.md` | The skill: the full pipeline, every rule, every fix, and the final look values |\n| `templates/bridge/` | The full source of the bridge short: world, characters, ink, lens blur, grade, story/camera |\n| `templates/audio/` | The synthesized sound: SFX, march music, the mix with ducking and loudness |\n| `templates/scripts/` | Stills, side-by-side sheets, shot merge and frame-by-frame QA helpers |\n| `references/STYLE_BIBLE.md` | The script and visual formula measured from 20 reference shorts |\n| `references/reports/` | Seven measured reports: motion, depth, textures, characters, lighting, outlines, grade |\n| `references/frames/` | 38 full-size reference frames (540x960) to compare your frames against |\n| `references/sheets/` | 20 contact sheets, one per reference short, 60 frames each (1,200 frames) |\n\n## Install\n1. Copy this folder to `~/.claude/skills/cartoon-3d-short/` (clone it there, or download the ZIP).\n2. You need [Remotion](https://www.remotion.dev/) with `@remotion/three`, plus Node, Python 3 and ffmpeg.\n3. In Claude Code, say: *\"Use the cartoon short skill and make a short about …\"*.\n\nClaude then follows `SKILL.md`: topic and facts, then script, then voice, then the shot plan in `story.ts`, then stills, then renders. Agents check your frames against the reports and the frames, and you get the final 2K render and sound mix.\n\n## Notes\n- Set `REMOTION_TMP` to a folder on a big drive. Every Remotion bundle copies `public/` (~1.3 GB) into the temp folder.\n- Story, characters and voice should always be your own. Use the references for the look, not the content.\n\n## License\nThe code and docs are MIT (see `LICENSE`). The reference frames are included for style study only.\n"
+ },
+ "howznguyen/shorts-kit": {
+  "repo": "howznguyen/shorts-kit",
+  "full_name": "howznguyen/shorts-kit",
+  "description": "Make narrated vertical shorts (TikTok, YouTube Shorts, Reels) with a coding agent and Remotion. 9+ agent skills, 20+ story flows, fact ledger, CC0 SFX.",
+  "homepage": "https://howznguyen.dev/projects/shorts-kit",
+  "language": "TypeScript",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "claude-code",
+   "remotion",
+   "shorts",
+   "tiktok",
+   "video-automation",
+   "youtube-shorts"
+  ],
+  "stars": 141,
+  "forks": 58,
+  "open_issues": 0,
+  "size_kb": 10853,
+  "created_at": "2026-11-04T19:41:42Z",
+  "updated_at": "2026-11-12T08:16:30Z",
+  "pushed_at": "2026-11-09T01:37:49Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "User",
+  "root_files": [
+   {
+    "name": ".agents",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".claude",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".env.example",
+    "type": "file",
+    "size": 167
+   },
+   {
+    "name": ".github",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 545
+   },
+   {
+    "name": ".mcp.json",
+    "type": "file",
+    "size": 198
+   },
+   {
+    "name": "AGENTS.md",
+    "type": "file",
+    "size": 3611
+   },
+   {
+    "name": "CHANGELOG.md",
+    "type": "file",
+    "size": 3219
+   },
+   {
+    "name": "CLAUDE.md",
+    "type": "file",
+    "size": 3611
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1067
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 16912
+   },
+   {
+    "name": "SOUL.md",
+    "type": "file",
+    "size": 11350
+   },
+   {
+    "name": "briefs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "bun.lock",
+    "type": "file",
+    "size": 87167
+   },
+   {
+    "name": "components.json",
+    "type": "file",
+    "size": 638
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "package.json",
+    "type": "file",
+    "size": 2135
+   },
+   {
+    "name": "public",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "remotion.config.ts",
+    "type": "file",
+    "size": 403
+   },
+   {
+    "name": "scripts",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "src",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "tsconfig.json",
+    "type": "file",
+    "size": 532
+   }
+  ],
+  "languages": {
+   "TypeScript": 4073288,
+   "Python": 15311,
+   "CSS": 7730,
+   "HTML": 560
+  },
+  "readme": "<p align=\"center\">\n  <img src=\"docs/assets/logo.png\" alt=\"shorts-kit logo\" width=\"128\">\n</p>\n\n# shorts-kit\n\n[![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.knowns.dev)\n[![Facebook group](https://img.shields.io/badge/Facebook-Agentic%20Coding%20Vietnam-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/groups/agentic.coding.vietnam)\n[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)\n\n![shorts-kit: narrated shorts and product promos, vertical or landscape, made with your coding agent](docs/assets/cover.webp)\n\nMake narrated vertical shorts (TikTok, YouTube Shorts, Reels), and product promos in 9:16 or 16:9, with a coding\nagent and [Remotion](https://www.remotion.dev).\n\nYou talk to your agent (\"make a video about why the sky is blue\"). The agent follows\nthe kit's skills step by step: facts first, a storytelling flow, the script, the voice,\nthe scenes, stills to check, the render, the cover and the caption. You review, then you\nupload the file yourself. The kit never posts anything.\n\nThe rules and skills come from a private pipeline that took a new knowledge channel from\nzero to about 120k views on its best video in two months. Every rule keeps the reason it\nexists, because most of them were written after a published video broke it. They are\ndefaults: change them for your own channel.\n\n## Results\n\nThe channel these rules came from, two months in. The best videos and the flops sit side\nby side on purpose: topics close to the audience carried it (tens of thousands of views),\ntopics that drifted from the channel's niche got a few hundred. The kit cannot pick your\ntopic for you.\n\n![A TikTok profile grid: 122.1K, 63.3K, 48.4K, 31.7K and 11.8K views next to 3,692, 768, 349 and 232](docs/assets/tiktok-results.jpg)\n\nWhat a finished run reports, from the original private pipeline (it also copied files to\na NAS and applied that channel's own swearing rule; neither is part of this kit):\n\n![An agent's end-of-run report: narration, TTS, scenes, render, loudness and encode, cover, caption, hand-off, and the fact checks it caught](docs/assets/agent-run.jpg)\n\n## What is in the box\n\n- **10 agent skills** (`.claude/skills/sk-*`), started by `sk-pipeline` (shorts) or `sk-promo` (ads and launch films). They work in\n  Claude Code, and in any agent that reads `AGENTS.md` (Codex, OpenCode, ...).\n- **SOUL.md**: your channel's rulebook. Voice, sentence style, writing for a\n  text-to-speech voice, safe zones, captions, audio, facts, covers, hand-off. Each rule\n  is tagged `[measured]`, `[default]`, `[craft]` or `[hard]` so you know how freely to\n  change it.\n- **20 storytelling flows** (`docs/flows/`): Three reasons, Trace back, Explain it,\n  Reading a graph, Empty world with a late reveal, and more. Each has beats, when to use\n  it and its traps.\n- **A fact ledger** (`docs/facts/`). No sentence goes into a script before its claim\n  has a verified record, and the linter enforces it.\n- **A Remotion library** (`src/shared/`): word-timed captions, kinetic type, safe-zone\n  overlay, music bed and SFX, camera moves, and an illustrated world (sky, sea, sun,\n  moon, stars, clouds, rain, birds, people, fish).\n- **Maps and a globe** (`src/shared/map/`): satellite imagery with a camera that flies\n  from country to street and stays sharp, coastlines, borders and rivers from Natural\n  Earth, routes that draw on, pins, measured distances, filled regions, a ready Vietnam map\n  with the Hoàng Sa and Trường Sa archipelagos, a 3D globe with great-circle lines, and a\n  pull-out from any scene to the globe.\n- **Shared graphics** for any video: strike-and-replace, slot word, word slam, typewriter,\n  hand-drawn circles, arrows, underlines, cross-outs and stamps, and charts that stay true to\n  scale (compare bars, progress ring, unit grid, odometer). Browse them with `bun run dev gallery`.\n- **Your own voice or footage instead of TTS** (`bun run ingest`, `bun run cut`): Whisper\n  transcribes the recording, fillers, retakes and long silences are proposed as cuts, and\n  the cut voice drives the video like a TTS voice would. Film yourself (`talking-head`, the\n  take is the background and effects stay off your face) or bring a voice recording only.\n  The words stay what was said: every claim in them still needs a verified fact. See\n  [docs/visuals/talking-head.md](docs/visuals/talking-head.md).\n- **Product promos** (`sk-promo`, `docs/promo/`): the gates an agency would run, in order: objective and\n  placement, the user's pain first, concept routes, a confirmed treatment, a timed animatic with the real music\n  on a measured beat grid (`bun run beats`) and a scratch voice (`bun run voice`), a shot-by-shot storyboard,\n  then the build, cutdowns (15 s, 6 s) and a stranger comprehension test. Vertical feed ads and 16:9 launch films.\n- **A shot library** (`docs/shots/`): 160+ named motion recipes (camera, typography, UI entrances, rhythm,\n  transitions, effects, outros, isometric piles, real typed search), each with parameters in frames, and sound\n  cards for the SFX pack. Storyboard shots name their card.\n\n  ![Twelve shot cards' demos playing at once: kinetic type, card flips, a 3D camera, transitions, a neon frame, a 3D carousel, a card stack, gauges, type assembly, a slam entrance, element moves and a beat cut](docs/assets/shots.webp)\n- **Real interface components** in films (`docs/promo/real-ui.md`): Knowns UI by default, or a product's own\n  components copied from its repo, driven frame by frame, deterministic (a render twice gives the same file);\n  `bun run capture` for real pages (`--type` to type into the page's own search, `--hide` for overlays).\n- **3D**: a Three.js scene kit (`src/shared/three/`: shots, camera rigs, callouts glued to a model) and procedural\n  models built headless with Blender (`bun run model`), plus CSS-3D isometric piles and turns\n  (`src/shared/motion/iso.tsx`).\n- **8 CC0 sound effects** generated by the kit (`public/sfx/`)"
+ },
+ "sonlovinbot-team/Muse-animated-short-film": {
+  "repo": "sonlovinbot-team/Muse-animated-short-film",
+  "full_name": "sonlovinbot-team/Muse-animated-short-film",
+  "description": "Skill làm phim hoạt hình ngắn trên Muse AI — từ ý tưởng đến MP4: nhân vật, kịch bản, keyframes, mega prompt, video, thuyết minh, dựng phim. Phim mẫu: The Last Lantern.",
+  "homepage": "https://studio.danghuuson.com/Muse-animated-short-film/",
+  "language": null,
+  "topics": [
+   "ai-video",
+   "animated-short-film",
+   "animation",
+   "claude-skill",
+   "muse-ai",
+   "storyboard",
+   "text-to-video",
+   "vietnamese"
+  ],
+  "stars": 69,
+  "forks": 30,
+  "open_issues": 0,
+  "size_kb": 2522,
+  "created_at": "2026-10-03T02:38:57Z",
+  "updated_at": "2026-11-14T02:42:14Z",
+  "pushed_at": "2026-10-31T05:45:38Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "Organization",
+  "root_files": [
+   {
+    "name": ".github",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 43
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1089
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 5403
+   },
+   {
+    "name": "SKILL.md",
+    "type": "file",
+    "size": 7885
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "examples",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "references",
+    "type": "dir",
+    "size": 0
+   }
+  ],
+  "languages": {},
+  "readme": "# 🎬 Muse Animated Short Film\n\n[![GitHub stars](https://img.shields.io/github/stars/sonlovinbot/Muse-animated-short-film?style=social)](https://github.com/sonlovinbot/Muse-animated-short-film/stargazers)\n&nbsp;🌐 **Trang giới thiệu: https://app.danghuuson.com/Muse-animated-short-film/**\n\n![The Last Lantern — phim mẫu làm bằng skill này](docs/assets/poster.jpg)\n\n**Tác giả:** Đặng Hữu Sơn ([sonlovinbot](https://github.com/sonlovinbot)) — CEO & Co-Founder LovinBot AI\n\nSkill dựng phim hoạt hình ngắn **từ đầu đến cuối trên Muse AI** — từ một ý tưởng thô thành file MP4 hoàn chỉnh: nhân vật, kịch bản, hình ảnh, video, thuyết minh và dựng phim.\n\n*An end-to-end skill for producing animated short films on Muse AI — from a raw idea to a finished MP4.*\n\n> [!TIP]\n> Thấy skill có ích? Bấm **⭐ Star** ở góc trên repo — giúp nhiều người làm phim tìm thấy skill này hơn.\n\n## 🎥 Video giới thiệu\n\n[![Video giới thiệu Muse AI](docs/assets/video-thumbnail.jpg)](https://youtu.be/kysOeBo5Qtw)\n\nMuse AI — tạo ảnh, video, audio — có cảnh từ phim mẫu \"The Last Lantern\". Xem trên YouTube: https://youtu.be/kysOeBo5Qtw\n\n## Skill này làm gì?\n\n![Quy trình 8 bước](docs/assets/pipeline.svg)\n\nPipeline đã kiểm chứng qua dự án thật \"The Last Lantern\" (8 cảnh, 2D Disney/Pixar):\n\n| # | Giai đoạn | Kết quả |\n|---|-----------|---------|\n| 0 | Thu thập đầu vào | Thời lượng → số cảnh, ngôn ngữ, tỷ lệ 16:9/9:16 |\n| 1 | Character sheets | Khóa nhân vật (nhiều góc + biểu cảm) |\n| 2 | Story bible | Chốt kịch bản: logline, character lock, từng cảnh |\n| 3 | Keyframes | K1..K(N+1), luật match-cut |\n| 4 | Mega prompt | 1 prompt copy-paste cho mỗi cảnh |\n| 5 | Generate video | Từng clip first-frame → last-frame |\n| 6 | Làm VO | Kịch bản thuyết minh kiểu kể chuyện |\n| 7 | Dựng phim | ffmpeg: normalize, nối, mix VO |\n\nKèm theo: **luật realism** (hành động vật lý phải đúng thực tế), **STRICT ASPECT RATIO LOCK** (ref đầu vào phải cùng tỷ lệ với output), và **10+ bài học xương máu**.\n\n## 🏮 Tác phẩm mẫu: \"The Last Lantern\"\n\nBộ file thật của dự án — mở ra là thấy mỗi giai đoạn trông như thế nào: [`examples/the-last-lantern/`](examples/the-last-lantern/)\n\n| Milo | Lyra | Ember |\n|---|---|---|\n| ![Milo](docs/assets/characters/milo-sheet.jpg) | ![Lyra](docs/assets/characters/lyra-sheet.jpg) | ![Ember](docs/assets/characters/ember-sheet.jpg) |\n\n| K1 · mở đầu | K2 | K3 | K7 |\n|---|---|---|---|\n| ![K1](docs/assets/keyframes/k1-city-dusk.jpg) | ![K2](docs/assets/keyframes/k2-spark-falls.jpg) | ![K3](docs/assets/keyframes/k3-ember-sneeze.jpg) | ![K7](docs/assets/keyframes/k7-door-light.jpg) |\n\n| File | Nội dung |\n|---|---|\n| [`STORY.md`](examples/the-last-lantern/STORY.md) | Story bible: logline, thế giới, character lock, 8 nhịp cảnh, mô-típ nhạc |\n| [`MEGA_PROMPTS.md`](examples/the-last-lantern/MEGA_PROMPTS.md) | 8 mega prompt copy-paste + thứ tự nạp ref + ghi chú dựng |\n| [`VO_SCRIPT.md`](examples/the-last-lantern/VO_SCRIPT.md) | Thuyết minh Anh – Việt, mốc thời gian |\n| [`FLOW.md`](examples/the-last-lantern/FLOW.md) | Dự án đi qua 8 giai đoạn: việc làm, file ra, điểm chốt, chuỗi keyframe |\n\n## Cách dùng (cho người mới)\n\n1. **Cài skill:** copy cả folder này vào thư mục skills của Muse AI, VD: `~/workspace/skills/animated-short-film/`\n   - Hoặc: dán link repo này vào chat Muse, Muse sẽ tự cài.\n2. **Mở chat và nói:** \"Tôi muốn làm phim hoạt hình ngắn.\"\n3. **Trả lời 3 câu hỏi đầu tiên:** phim dài bao lâu? ngôn ngữ nào? tỷ lệ 16:9 hay 9:16?\n4. **Duyệt ở các điểm chốt:** mô tả nhân vật → story bible → keyframes → từng video → VO → phim cuối. Bạn chỉ việc xem và nói \"ok\" hoặc \"sửa chỗ này\".\n\nBạn không cần đọc các file reference — Muse tự đọc khi cần. Mọi prompt kỹ thuật, câu lệnh generate và dựng phim đã nằm trong skill.\n\n## Cấu trúc\n\n```\n├── SKILL.md                  # Quy trình + luật vận hành (Muse đọc)\n├── README.md                 # File này (người đọc)\n├── references/               # Hướng dẫn chi tiết từng giai đoạn\n│   ├── 01-character-sheets.md\n│   ├── 02-story-and-script.md\n│   ├── 03-keyframes.md\n│   ├── 04-mega-prompts.md\n│   ├── 05-video-generation.md\n│   ├── 06-vo-production.md\n│   ├── 07-assembly.md\n│   └── 08-lessons.md\n├── examples/\n│   └── the-last-lantern/     # Tác phẩm mẫu: STORY, MEGA_PROMPTS, VO_SCRIPT, FLOW\n└── docs/                     # Trang giới thiệu (GitHub Pages) + ảnh minh hoạ\n    └── assets/\n```\n\n## ⭐ Ủng hộ\n\nNếu skill giúp bạn làm được bộ phim đầu tiên, hãy **[star repo](https://github.com/sonlovinbot/Muse-animated-short-film)** và chia sẻ phim của bạn. Các phần mềm, game 3D và tài liệu AI miễn phí khác: **[app.danghuuson.com](https://app.danghuuson.com)**\n\n## Giấy phép\n\nMIT — dùng tự do, ghi credit tác giả khi chia sẻ lại. Xem [LICENSE](LICENSE).\n"
+ },
+ "useapi/muse-api": {
+  "repo": "useapi/muse-api",
+  "full_name": "useapi/muse-api",
+  "description": "Meta Muse API examples (muse.ai) and a hosted MCP server with 37 tools for Claude Code, Cursor and VS Code. Images and 10-second videos with sound on your Muse subscription, free plan included. Chat with the Muse agent, restore old photos, make a photo talk, swap a person in a video. Node.js, Python, n8n, agent skill. By useapi.net, third-party.",
+  "homepage": "https://useapi.net/docs/api-muse-v1?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api",
+  "language": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-image-generation",
+   "ai-video-api",
+   "ai-video-generation",
+   "claude-code",
+   "face-swap-video",
+   "gemini-cli-extension",
+   "image-to-video",
+   "mcp",
+   "mcp-server",
+   "meta-ai",
+   "meta-muse",
+   "muse-ai",
+   "muse-api",
+   "n8n",
+   "photo-restoration",
+   "talking-photo",
+   "text-to-video",
+   "useapi",
+   "video-generation-api"
+  ],
+  "stars": 26,
+  "forks": 5,
+  "open_issues": 0,
+  "size_kb": 4975,
+  "created_at": "2026-10-12T06:01:38Z",
+  "updated_at": "2026-11-14T02:31:41Z",
+  "pushed_at": "2026-11-12T01:34:56Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "User",
+  "root_files": [
+   {
+    "name": ".claude-plugin",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 195
+   },
+   {
+    "name": "GEMINI.md",
+    "type": "file",
+    "size": 1333
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1067
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 28450
+   },
+   {
+    "name": "demo",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "gemini-extension.json",
+    "type": "file",
+    "size": 817
+   },
+   {
+    "name": "images-videos",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "n8n",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "narrated-short",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "package.json",
+    "type": "file",
+    "size": 356
+   },
+   {
+    "name": "skills",
+    "type": "dir",
+    "size": 0
+   }
+  ],
+  "languages": {
+   "Python": 50834,
+   "JavaScript": 48646,
+   "Shell": 16455
+  },
+  "readme": "# Meta Muse API examples (useapi.net): AI video, images and agent chat on muse.ai\n\nEnglish · [中文](#中文说明) · [日本語](#日本語の説明) · [Português](#sobre-este-repositório) · [Tiếng Việt](#về-repo-này) · [Bahasa Indonesia](#tentang-repo-ini) · [ไทย](#เกี่ยวกับ-repo-นี้)\n\nRunnable examples for the [Muse API](https://useapi.net/docs/api-muse-v1?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api): make images and 10-second videos with sound using Muse (muse.ai), Meta's AI agent, through a REST API that runs on your [Muse subscription](https://www.meta.com/help/subscriptions/1021145227643680/): Free, Power $20 or Maximum $100 a month (as of October 2026). Combine up to 9 photos into one picture, restore and colorize old photos, animate a still with spoken dialogue, and replace a person in a video. Every file Muse makes is an asset id the next job takes as an input, so edits chain with no downloads or re-uploads.\n\nDemo on YouTube: [Meta Muse API Demo: Images, Talking Photos, Video with Sound, Chat & MCP (third-party, useapi.net)](https://www.youtube.com/watch?v=OMUGbfRIO5E)\n\n| Example | What it does | Tutorial | Tutorial date |\n|---|---|---|---|\n| [`images-videos/`](./images-videos) | Three photos become one picture of a rider on a vintage motorcycle in the surf, the picture becomes a 10-second video in which she shouts a line, and a woman from a fourth photo replaces her in that video. Also two images from text, and a hundred-year-old portrait restored, colorized and brought to life. Node.js and Python | [How to Generate AI Videos and Images with the Meta Muse API](https://useapi.net/docs/articles/muse-images-videos?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api) | October 12, 2026 |\n| [`narrated-short/`](./narrated-short) | Narrated 30-second Short from a topic: a chat writes the script as JSON, three 9:16 video jobs run at once with the same off-screen narrator speaking each line, and a last chat joins the clips with ffmpeg into one MP4. About 2 to 3 minutes per Short. Optional fixed voice through Muse text to speech. Node.js and Python | [Make a 30-second narrated Short](https://useapi.net/docs/articles/muse-images-videos?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api#make-a-30-second-narrated-short-script-three-scenes-one-join) | October 18, 2026 |\n| [`demo/`](./demo) | **Live chat app**: one self-contained HTML page that chats with the Muse agent through the API, with answers streamed live, files and cards, approvals, several live chats at once, workspace files and the agent's permissions. Open the [live demo](https://useapi.net/demos/muse/?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api) or open `demo/index.html` locally. Vanilla JS, no build | [Chat Streaming Guide](https://useapi.net/docs/api-muse-v1/chat-streaming-guide?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api) | October 12, 2026 |\n| [`skills/muse-video/`](./skills/muse-video) | **Agent skill** for Claude Code, Codex and other coding agents: ask for an image or a clip and the agent makes it with Muse (text to image, photo compositing, old-photo restoration, talking photos, person swap in a video) and downloads the `.webp` or `.mp4`, never paying twice for a request. Install: `npx skills add useapi/muse-api --skill muse-video`. Bash, curl, jq | [SKILL.md](./skills/muse-video/SKILL.md) | October 12, 2026 |\n| [`n8n/`](./n8n) | **n8n app**: upload an old photo, Muse restores and colorizes it, you pick or redo, then the person in it says your line in a 10-second video with sound. 1 or 2 takes, the real share of the week used on the result page, optional Google Drive save, and a Google Sheet batch mode. Core n8n nodes, no community nodes. Plus **narrated faceless Shorts** from a topic: a script page, one narrated 9:16 scene per part, joined and saved to Google Drive | [n8n template #20989](https://n8n.io/workflows/20989), [#21207](https://n8n.io/workflows/21207) | October 19, 2026 |\n| [MCP server](#mcp-server) | **Hosted MCP server**: connect Claude Code, Cursor, VS Code or Windsurf to `https://api.useapi.net/v1/muse/mcp` and the assistant gets 37 tools for Muse images, videos, chat, files and permissions. Nothing to install or host | [MCP Server](https://useapi.net/docs/api-muse-v1/mcp?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api) | October 13, 2026 |\n\n## Quick start\n\nYou need [Node.js](https://nodejs.org) v21 or newer **or** [Python](https://www.python.org) 3.x (no dependencies to install), a useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api), and a Muse account (free or paid) added with the [Muse setup](https://useapi.net/docs/start-here/setup-muse?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api).\n\n```bash\ngit clone https://github.com/useapi/muse-api.git\ncd muse-api/images-videos\nnode ./images-videos.mjs <API_TOKEN> <EMAIL>\n# or, equivalently, with Python:\npython3 ./images-videos.py <API_TOKEN> <EMAIL>\n# just one image and one video (restore an old photo, then make it talk):\nnode ./images-videos.mjs <API_TOKEN> <EMAIL> --steps portrait-video\n```\n\nEach example's README lists its options. Every endpoint is documented in the [Muse API reference](https://useapi.net/docs/api-muse-v1?utm_source=github.com&utm_medium=referral&utm_campaign=muse-api).\n\n## MCP server\n\nuseapi.net also runs a hosted [Model Context Protocol](https://modelcontextprotocol.io) server for Muse, so an AI assistant such as Claude Code, Cursor or VS Code Copilot can use Muse on your Muse subscription. It has 37 tools: generate images and videos, chat with the Muse agent, answer its permission requests, open a live view of its web browser, manage the account's Library and files, and reset the account. Each tool calls the Muse API, so the same rules, limits and allowance apply. Nothin"
+ },
+ "CopilotKit/openmuse": {
+  "repo": "CopilotKit/openmuse",
+  "full_name": "CopilotKit/openfuse",
+  "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
+  "homepage": "",
+  "language": "TypeScript",
+  "topics": [],
+  "stars": 6471,
+  "forks": 950,
+  "open_issues": 62,
+  "size_kb": 50932,
+  "created_at": "2026-09-15T16:05:44Z",
+  "updated_at": "2026-11-14T07:02:51Z",
+  "pushed_at": "2026-11-14T06:37:30Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "Organization",
+  "root_files": [
+   {
+    "name": ".env.example",
+    "type": "file",
+    "size": 4714
+   },
+   {
+    "name": ".gitattributes",
+    "type": "file",
+    "size": 58
+   },
+   {
+    "name": ".github",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 213
+   },
+   {
+    "name": ".npmrc",
+    "type": "file",
+    "size": 56
+   },
+   {
+    "name": "CHANGELOG.md",
+    "type": "file",
+    "size": 818
+   },
+   {
+    "name": "CONTRIBUTING.md",
+    "type": "file",
+    "size": 3037
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1078
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 18802
+   },
+   {
+    "name": "ROADMAP.md",
+    "type": "file",
+    "size": 2572
+   },
+   {
+    "name": "SECURITY.md",
+    "type": "file",
+    "size": 6013
+   },
+   {
+    "name": "apps",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "assets",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "biome.json",
+    "type": "file",
+    "size": 723
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "infra",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "package.json",
+    "type": "file",
+    "size": 2172
+   },
+   {
+    "name": "packages",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "patches",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "pnpm-lock.yaml",
+    "type": "file",
+    "size": 516017
+   },
+   {
+    "name": "pnpm-workspace.yaml",
+    "type": "file",
+    "size": 457
+   },
+   {
+    "name": "render.yaml",
+    "type": "file",
+    "size": 3168
+   },
+   {
+    "name": "renovate.json",
+    "type": "file",
+    "size": 106
+   },
+   {
+    "name": "tests",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "tsconfig.build.json",
+    "type": "file",
+    "size": 321
+   },
+   {
+    "name": "tsconfig.json",
+    "type": "file",
+    "size": 471
+   }
+  ],
+  "languages": {
+   "TypeScript": 1430941,
+   "Python": 4799,
+   "JavaScript": 3089,
+   "Dockerfile": 927
+  },
+  "readme": "  <div align=\"center\">\n\n# OpenFuse\n\n**A personal agent with a browser, terminal, files, and work that keeps going. Compatible with any agent harness.**\n\nAsk for an outcome. Follow the plan, review actions, and come back to the result.\nBuilt with CopilotKit React Native for iOS, Android, and web.\n\n[Quick start](#quick-start) · [Demo](#demo) · [Features](#features) · [Architecture](#architecture) · [Docs](docs/README.md) · [Contributing](CONTRIBUTING.md)\n\n[![CI](https://github.com/CopilotKit/OpenFuse/actions/workflows/ci.yml/badge.svg)](https://github.com/CopilotKit/OpenFuse/actions/workflows/ci.yml)\n[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n<a href=\"https://trendshift.io/repositories/254992?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-254992\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/trendshift/repositories/254992/daily?language=TypeScript\" alt=\"CopilotKit%2Fopenfuse | Trendshift\" width=\"250\" height=\"55\"/></a>\n\n[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/CopilotKit/OpenFuse)\n\nClone this template and customize it however you want.\n\n**[Building on OpenFuse? Meet with the CopilotKit team →](https://www.copilotkit.ai/talk-to-an-engineer?ref=openfuse_hero)**\n\n</div>\n\n> **Alpha, for self-hosting and building on.** Open-ended reasoning, live Google accounts, and CopilotKit Rich Threads require their own configuration. See [what is verified](docs/VERIFICATION.md) and the [roadmap](ROADMAP.md).\n\n## Demo\n\nOn iPhone, ask OpenFuse to find interesting stories on Hacker News and summarize CopilotKit. On desktop, ask it to check the school-trip email, open the message, and research exhibits at Monterey Bay Aquarium. The agent shows email and browser results inline. **Take control** opens that same browser session when you need it.\n\nThe send arrow becomes a stop square inside the input pill while the agent replies, then switches back. Stopping keeps your draft intact. See the [recording notes](docs/DEMO.md) for the model setup and reproduction steps.\n\n[Recording details and reproduction](docs/DEMO.md)\n\nThe [Jev aquarium-trip demo](docs/demos/jev-generative-ui.md) walks through a fictional school email, clarification choices, sourced exhibit cards, hands-on preference refinement, and a confirmed selection.\n\n## What it is\n\nOpenFuse is a personal-agent application with an agent computer, visible work, and rich results. It runs its own server, task worker, and browser worker. You can inspect and change the source under the MIT license.\n\nThe computer combines **persistent Chromium and an optional Linux workspace**. The agent can browse public pages, run commands in its own container, work with files, and move PDFs between the computer and the app. You can open its browser or terminal and continue the work. Graphical desktops and autonomous checkout remain future work.\n\n## Features\n\n| Surface | What runs in this alpha |\n| --- | --- |\n| **Chat** | CopilotKit headless chat with streamed AG-UI events, mailbox search and reading, send/stop in one input pill, a visible follow-up queue, retained drafts, delegated tasks, and inline email, browser, PDF, plan, and finance cards. |\n| **Agent computer** | Persistent browser profiles and takeover console; optional isolated Linux terminal, saved command receipts, editable workspace files, and PDF transfer. |\n| **Activity** | Durable task plans, progress, input requests, pause/resume/cancel/retry, approvals, and saved receipts. SQL leases recover interrupted work. |\n| **Ideas** | Suggestions with source evidence; edit, accept, or dismiss. Sent replies and completed matching work are excluded. |\n| **Goals & Tracking** | Goals and milestones; recurring public-page checks for changes, text availability, or USD price thresholds, with deduplicated alerts and failure backoff. |\n| **Documents** | Email attachment → PDF → requested form values → filled copy → reviewed reply → receipt. Native/web PDF viewing, paging, zoom, supported fields, and sharing. |\n| **Finance** | Import transaction CSV to create a spending summary with categories, transactions, and a savings-goal action. |\n| **Gmail & Calendar** | Google OAuth adapters, complete mail threads, drafts/attachments, calendar discovery, and reviewed event creation/update/deletion. Live credentials required. |\n| **Personal context** | Editable name, tone, avatar, and memories. Background-update preferences and durable in-app notifications. |\n| **Rich Threads** | CopilotKit Intelligence persistence in every mode, with a stable main conversation, side chats, renaming, archiving, restoring, and replay. A server-only project key is required. |\n\nThe [feature inventory](docs/FEATURES.md) describes implemented capabilities and planned extensions. Health/bank/social connectors, device push, voice, generated executable tools, and automatic reservations/payments are on the [roadmap](ROADMAP.md).\n\n## Quick start\n\n**Requirements:** Node 24 LTS, pnpm 11.19.0, and a CopilotKit Intelligence project key. The local sample app needs no model, Google account, or Docker.\n\n```sh\ngit clone https://github.com/CopilotKit/OpenMuse.git openfuse\ncd openfuse\npnpm install --frozen-lockfile\ncp .env.example .env\nnpx copilotkit@latest login\nnpx copilotkit@latest project select\n# Set CPK_INTELLIGENCE_API_KEY in .env to the generated server-only project key.\n# Keep the CLI-generated CPK_TELEMETRY_ID too, including in deployed server environments.\npnpm dev\n```\n\nIn another terminal:\n\n```sh\npnpm dev:web\n```\n\nOpen [localhost:8081](http://localhost:8081). The API runs at [localhost:8787/api/health](http://localhost:8787/api/health).\n\n### Try it\n\n1. In Chat, send **“Complete the permission slip”**. Open the task, supply fictional form values, inspect the saved PDF, and review the prepared reply. This writes only to the local mailbox.\n2. In **Goals → Track**, create a built-i"
+ },
+ "d4ncboz/museai": {
+  "repo": "d4ncboz/museai",
+  "full_name": "d4ncboz/museai",
+  "description": "High-performance OpenAI-compatible API gateway and bridge for muse.ai personal AI agents, ready for 9Router multi-model integration.",
+  "homepage": null,
+  "language": "Python",
+  "topics": [],
+  "stars": 177,
+  "forks": 14,
+  "open_issues": 0,
+  "size_kb": 66,
+  "created_at": "2026-09-29T18:59:57Z",
+  "updated_at": "2026-11-14T02:08:39Z",
+  "pushed_at": "2026-09-29T19:12:14Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "User",
+  "root_files": [
+   {
+    "name": ".env.example",
+    "type": "file",
+    "size": 1183
+   },
+   {
+    "name": ".github",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 494
+   },
+   {
+    "name": "AGENTS.md",
+    "type": "file",
+    "size": 6593
+   },
+   {
+    "name": "CONTRIBUTING.md",
+    "type": "file",
+    "size": 1715
+   },
+   {
+    "name": "Dockerfile",
+    "type": "file",
+    "size": 503
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1064
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 7217
+   },
+   {
+    "name": "TODO.md",
+    "type": "file",
+    "size": 10725
+   },
+   {
+    "name": "docker-compose.yml",
+    "type": "file",
+    "size": 234
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "pyproject.toml",
+    "type": "file",
+    "size": 1002
+   },
+   {
+    "name": "scripts",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "src",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "tests",
+    "type": "dir",
+    "size": 0
+   }
+  ],
+  "languages": {
+   "Python": 122531,
+   "Dockerfile": 503
+  },
+  "readme": "<h1 align=\"center\">Muse AI</h1>\n\n<p align=\"center\">\n  <b>OpenAI-compatible API gateway for <a href=\"https://muse.ai\">muse.ai</a> personal workspaces, featuring native 9Router integration.</b>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/Python-3.10%2B-blue?logo=python\" alt=\"Python\" />\n  <img src=\"https://img.shields.io/badge/FastAPI-async-009688?logo=fastapi\" alt=\"FastAPI\" />\n  <img src=\"https://img.shields.io/badge/API-OpenAI%20Compatible-green\" alt=\"OpenAI Compatible\" />\n  <img src=\"https://img.shields.io/badge/9Router-Ready-purple\" alt=\"9Router Ready\" />\n  <img src=\"https://img.shields.io/badge/License-MIT-lightgrey\" alt=\"License\" />\n</p>\n\n---\n\n## Architecture\n\n```text\nOpenAI SDK / 9Router / Web Client\n              │\n              ▼ HTTP (Bearer Token)\n       ┌──────────────┐\n       │   Muse AI    │ FastAPI Proxy (Port 18610)\n       └──────┬───────┘\n              │ Chrome DevTools Protocol (CDP over WebSocket)\n              ▼\n       ┌──────────────┐\n       │   Chromium   │ Headless Browser (Isolated Context per Account)\n       └──────┬───────┘\n              │ HTTPS / WSS (hatch_sess + hatch_gw + datr)\n              ▼\n          muse.ai\n```\n\n---\n\n## Technical Highlights\n\n- **OpenAI Wire Compatibility**: Direct drop-in for OpenAI SDKs, LangChain, LobeChat, NextChat, Cherry Studio, and autonomous coding agents.\n- **Native 9Router Provider**: Ships with `scripts/connect_9router.py` to auto-register model routes directly into 9Router's SQLite database (`~/.9router/db/data.sqlite`).\n- **Resilient Cookie Injection**: Automatically URL-decodes percent-encoded cookie tokens (`%3A` -> `:`) and registers sessions across dual-domain scopes (`.muse.ai` and `muse.ai`) via CDP.\n- **Meta Edge Proxy Compliance**: Supports `datr` cookie passing to prevent device-integrity redirects on Meta infrastructure.\n- **Account Pooling & Failover**: Multi-account scheduling (`affinity`, `lru`, `round_robin`), concurrency limits, automatic error cooldown, and transparent retries.\n- **Deterministic Offline Testing**: 100% offline test suite powered by `MockDriver` (23 passed in < 0.5s).\n\n---\n\n## Quickstart\n\n### 1. Installation\n\nRequires Python 3.10+ and a local Chromium or Google Chrome binary.\n\n```bash\ngit clone https://github.com/d4ncboz/museai.git\ncd museai\n\npython3 -m venv .venv\nsource .venv/bin/activate\npip install -e '.[dev]'\n```\n\n### 2. Configuration\n\nCopy the example environment configuration:\n\n```bash\ncp .env.example .env\n```\n\nDefault settings in `.env`:\n\n```ini\nMUSEAI_DRIVER=browser\nMUSEAI_HOST=127.0.0.1\nMUSEAI_PORT=18610\nMUSEAI_API_KEY=sk-museai-local-key\nMUSEAI_ADMIN_KEY=sk-museai-admin-key\nMUSEAI_POOL_STRATEGY=affinity\nMUSEAI_KEEPALIVE_ENABLED=true\n```\n\n*(Note: Chrome executable is auto-detected on macOS `/Applications/Google Chrome.app` and Linux `/usr/bin/chromium`. Set `MUSEAI_CHROMIUM_PATH` if using a custom path).*\n\n### 3. Run the Service\n\n```bash\npython -m museai\n```\n\nThe server binds to `http://127.0.0.1:18610`.\n\n---\n\n## Authentication & Account Setup\n\n### 1. Account Registration\n\nAn active [muse.ai](https://muse.ai) account is required. If you do not have an account yet, follow the step-by-step registration guide here:\n- **Registration Guide**: [Telegram @bozdrop/8447](https://t.me/bozdrop/8447)\n\n### 2. Export Session Cookies\n\nExport your session cookies from an active [muse.ai](https://muse.ai) browser session (DevTools `F12` ──> `Application` ──> `Cookies` ──> `https://muse.ai`):\n\n- `hatch_sess`: Session authentication token\n- `hatch_gw`: Gateway routing cookie\n- `hatch_native_auth_device`: Registered device UUID\n- `hatch_vml`: Workspace lease token *(optional/dynamic)*\n- `datr`: Meta device verification cookie *(recommended)*\n\n### Import via Admin API\n\n```bash\ncurl -X POST http://127.0.0.1:18610/admin/accounts \\\n  -H \"Authorization: Bearer sk-museai-admin-key\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"label\": \"primary-account\",\n    \"cookies\": {\n      \"hatch_sess\": \"...\",\n      \"hatch_gw\": \"...\",\n      \"hatch_native_auth_device\": \"...\",\n      \"hatch_vml\": \"...\",\n      \"datr\": \"...\"\n    }\n  }'\n```\n\nAlternatively, use the helper script to convert raw Netscape / DevTools JSON exports:\n\n```bash\npython scripts/extract_cookies.py exported_cookies.txt --label primary-account --out account.json\ncurl -X POST http://127.0.0.1:18610/admin/accounts \\\n  -H \"Authorization: Bearer sk-museai-admin-key\" \\\n  -H \"Content-Type: application/json\" \\\n  -d @account.json\n```\n\n---\n\n## 9Router Multi-Model Gateway Hook\n\nTo register `museai` into a local [9Router](https://github.com/9router/9router) instance:\n\n```bash\npython scripts/connect_9router.py --port 18610 --api-key sk-museai-local-key --prefix muse\n```\n\nCall the model through 9Router immediately:\n\n```bash\ncurl -s -X POST http://127.0.0.1:20128/v1/chat/completions \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"model\": \"muse/muse-chat\",\n    \"messages\": [{\"role\": \"user\", \"content\": \"ping\"}]\n  }'\n```\n\nAvailable model IDs routed by 9Router:\n- `muse/muse-chat`: Primary personal agent conversational model\n- `muse/gpt-4o`: OpenAI tooling alias\n- `muse/gpt-5`: High-reasoning alias\n- `muse/claude-sonnet-4`: Sonnet alias\n- `muse/muse-video`: Text / first-frame image-to-video\n\n---\n\n## API Usage\n\n### Streaming Chat Completion (`curl`)\n\n```bash\ncurl -N -X POST http://127.0.0.1:18610/v1/chat/completions \\\n  -H \"Authorization: Bearer sk-museai-local-key\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"model\": \"muse-chat\",\n    \"messages\": [\n      {\"role\": \"system\", \"content\": \"You are a concise engineering assistant.\"},\n      {\"role\": \"user\", \"content\": \"Explain raft consensus in two sentences.\"}\n    ],\n    \"stream\": true\n  }'\n```\n\n### Python SDK (`openai`)\n\n```python\nfrom openai import OpenAI\n\nclient = OpenAI(\n    base_url=\"http://127.0.0.1:18610/v1\",\n    api_key=\"sk-museai-local-key\"\n)\n\nresponse = client.chat.completions.create(\n    model=\"muse-chat\",\n    messages=[{\"role\": \"user\", \"content\": \"Write a thread-safe singleton in Py"
+ },
+ "sarpstar/cinecode": {
+  "repo": "sarpstar/cinecode",
+  "full_name": "sarpstar/cinecode",
+  "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+  "homepage": "https://x.com/sarpstar",
+  "language": "Python",
+  "topics": [],
+  "stars": 2450,
+  "forks": 422,
+  "open_issues": 11,
+  "size_kb": 13639,
+  "created_at": "2026-11-03T10:08:16Z",
+  "updated_at": "2026-11-14T08:09:06Z",
+  "pushed_at": "2026-11-12T21:40:34Z",
+  "license": "MIT",
+  "default_branch": "main",
+  "archived": false,
+  "owner_type": "User",
+  "root_files": [
+   {
+    "name": ".github",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": ".gitignore",
+    "type": "file",
+    "size": 276
+   },
+   {
+    "name": "AGENTS.md",
+    "type": "file",
+    "size": 1004
+   },
+   {
+    "name": "LICENSE",
+    "type": "file",
+    "size": 1082
+   },
+   {
+    "name": "README.en.md",
+    "type": "file",
+    "size": 41932
+   },
+   {
+    "name": "README.ja.md",
+    "type": "file",
+    "size": 60550
+   },
+   {
+    "name": "README.md",
+    "type": "file",
+    "size": 45015
+   },
+   {
+    "name": "README.zh-CN.md",
+    "type": "file",
+    "size": 44267
+   },
+   {
+    "name": "SKILL.md",
+    "type": "file",
+    "size": 32786
+   },
+   {
+    "name": "docs",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "references",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "scripts",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "starter",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "styles",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "templates",
+    "type": "dir",
+    "size": 0
+   },
+   {
+    "name": "tests",
+    "type": "dir",
+    "size": 0
+   }
+  ],
+  "languages": {
+   "Python": 1013465,
+   "HTML": 150017,
+   "JavaScript": 75184
+  },
+  "readme": "<p align=\"center\">\n  <img src=\"docs/media/lockup.png\" alt=\"cinecode\" width=\"560\">\n</p>\n\n<p align=\"center\">\n  <b>Kodla yazılmış filmler.</b><br>\n  Kısa filmler, uzun YouTube videoları, reklamlar, açıklayıcılar ve müzik videoları. Fikri ve zevki sen getirirsin; bir yapay zekâ kodlama ajanı senaryoyu yazar, her kareyi kodla kurar, sesi tasarlar ve sana bitmiş bir MP4 verir.\n</p>\n\n<p align=\"center\">\n  <a href=\"README.en.md\">English</a> ·\n  <a href=\"README.zh-CN.md\">简体中文</a> ·\n  <a href=\"README.ja.md\">日本語</a> ·\n  <a href=\"#kurulum\">Kurulum</a> ·\n  <a href=\"#hızlı-başlangıç\">Hızlı başlangıç</a> ·\n  <a href=\"#sss\">SSS</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/sarpstar/cinecode/actions/workflows/tests.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/sarpstar/cinecode/tests.yml?branch=main&label=tests&style=flat-square\" alt=\"tests\"></a>\n  <img src=\"https://img.shields.io/badge/license-MIT-C37232?style=flat-square\" alt=\"license: MIT\">\n  <img src=\"https://img.shields.io/badge/agents-Claude%20Code%20%C2%B7%20Cursor%20%C2%B7%20Codex%20%C2%B7%20Antigravity-1a1a1a?style=flat-square\" alt=\"agents: Claude Code, Cursor, Codex, Antigravity\">\n  <img src=\"https://img.shields.io/badge/render-three.js%20%C2%B7%20ffmpeg-1a1a1a?style=flat-square\" alt=\"render: three.js, ffmpeg\">\n  <a href=\"https://x.com/sarpstar\"><img src=\"https://img.shields.io/badge/X-%40sarpstar-1a1a1a?style=flat-square&logo=x&logoColor=white\" alt=\"X: @sarpstar\"></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"docs/media/reel.gif\" alt=\"cinecode ile yapılmış filmlerden 30 saniye: gün doğumunda taş kemerler, karda linol baskı bir posta treni, oyulmuş bir saat mekanizması, çölde 3B bir tavşan, yağan kodun altında minyatür bir şehir, su altında pop-art bir balina, turuncu kapılardan geçen bir yol, üç dikey açıklayıcı, buğday tarlasında raylı bir film kamerası, altın ışık sütunları altında köpekler, bir kibrit, bir fırın ve bir caz afişi, fenerli bir çocuğun orman masalı, gece ufukta bir gemi\" width=\"100%\">\n</p>\n<p align=\"center\"><sub>cinecode ile yapılmış filmlerden 30 saniye. Her kare başsız Chrome'da koddan üretildi.</sub></p>\n\nKendi bilgisayarında çalışır: en iyi **Claude Code**'da (masaüstü uygulaması, VS Code eklentisi, terminal), ayrıca **Cursor**'da; kullanıcılar Codex ve Antigravity gibi başka ajanlarda da çalıştırdı. Ücretli bir servis gerekmez; dış ses, yalnızca istersen, kendi Gemini anahtarını (ücretsiz kotası var), ElevenLabs'i ya da ücretsiz bir Türkçe sesi kullanır.\n\n## Neler yapabilirsin\n\n### Kodla yapılmış kısa filmler\n\nAklındakini tek cümleyle yaz; gerisini birlikte kurarsınız.\n\n- **Sıradan fikirde kalmaz.** Ajan fikrini, dünyadan rastgele çekilen gerçek bir şeyle buluşturur: bir müze eseri, bir hayvan, uzaydan bir fotoğraf, eski bir icat, tarihî bir yer, bir zanaat. Böylece sana herkesin aklına ilk gelen filmi değil, fikrinin senin bile düşünmediğin yorumlarını getirir.\n- **Kendini tekrar etmez.** Her öneri senin daha önce yaptığın filmlerle karşılaştırılır; aynı filmi sana ikinci kez önermez.\n- **Son söz hep senin.** Filmin neyden yapılacağını sen seçersin: gerçek ışıklı 3B, 2B animasyon, boya, mürekkep, kâğıt, kil, hareketli grafik ya da piksel. Görünümü gerçek filmlerden karelerle kurulmuş bir panodan seçersin; film bütünüyle kurulmadan önce ilk iki sahneyi görüp onaylarsın.\n\n### Uzun YouTube videoları\n\nOn dakikayı aşan belgeseller, açıklayıcılar ve video denemeleri; Film modunda perdeler ve bölümler hâlinde kurulur:\n\n- gerçek bir kişi ya da olay hakkındaki her iddianın kaynağıyla yazıldığı, araştırılmış bir metin;\n- ilk dakikada kurulan açık bir soru ve izleyiciyi sona kadar tutan bir merak haritası;\n- senin dilinde bir anlatıcı (Türkçe ve İngilizce sesler, ücretsiz Türkçe sesler dahil), çiğ motor sesiyle değil, filme ait bir ses işlemesiyle;\n- açık arşivlerden fotoğraflar, haritalar, belgeler ve görüntüler; resmi olmayan yerde kod: kendini çizen haritalar, sayaçlar, şemalar, yeniden kurulan mekânlar;\n- biçim isterse bölüm kartları, her perde için kulakla seçilen müzik, −14 LUFS mastering ve video açıklaman için bir künye dosyası.\n\n### Reklam ve ürün filmleri\n\nÜrünün, renklerin, fontların, logon ve çağrı cümlen. Ürün ayrıntısıyla kurulur ve stüdyo çekimi gibi aydınlatılır; yazılım için arayüz kahraman planları; özgüllük testi filmin başka bir markaya uymasını önler; 9:16, 1:1 ve 16:9 sürümleri güvenli alanlarıyla gelir.\n\n### Sosyal medya için açıklayıcılar\n\n30–60 saniyelik dikey filmler: ilk saniyede bir soru, açık lisanslı ve Türkçesi denenmiş bir font eşleşmesiyle kinetik yazı, çizgi çizgi kurulan şemalar, telefonda okunan sözcükler.\n\n### Müzik videoları\n\nŞarkını getir: vuruş ızgarası ölçülür, kesmeler ölçülere, vurgular vuruşlara oturur, her söz satırına bir görüntü.\n\n### Ve dahası\n\n- **Sevdiğin bir video gibi ama farklı:** biçimi ölçülür (kesmeler, tempo, ışık, renk), film o biçimle yeniden yapılır, onun karelerinden asla.\n- **Kendi çekimlerinin kurgusu:** konuşan kafa ya da ekran kaydı, kelime zamanlı bir dökümden kesilir; duraklamalar kırpılır, grafikler sözcüklere oturur.\n- **Tek formatta seri:** bir filmin formatını kaydedip sonraki bölümü o formatta yaparsın.\n\n15 saniyelik bir klipten on dakikayı aşan filmlere kadar. Hızlı mod yaklaşık 3 dakikaya kadar bir filmi tek oturumda yapar; Film modu daha uzun filmleri onaylı adımlarla götürür. Film uzadıkça daha çok zaman ve kullanım ister.\n\n## cinecode ile yapılanlar\n\n<table>\n  <tr>\n    <td width=\"33%\"><img src=\"docs/media/stills/motor.jpg\" alt=\"Motor: gün batımında kırılırken donmuş bir dalga\"><br><sub><b>Motor</b> · donmuş anlar · 90 sn</sub></td>\n    <td width=\"33%\"><img src=\"docs/media/stills/tren.jpg\" alt=\"The Mail Train: linol baskı bir kar manzarasında kırmızı posta vagonu\"><br><sub><b>The Mail Train</b> · linol baskı bir yolculuk · 25 sn</sub></td>\n    <td width=\"33%\"><img src=\"docs/media/stills/ilktik.jpg\" alt=\"İlk Tik: altın bir saat mekanizmasına oyulmuş şehir silueti\"><br><sub><b>İlk Tik</b> · bir saat reklamı · 50 sn</sub></td>\n  <"
+ },
+ "OpenMontageInc/OpenMontage": {
+  "repo": "OpenMontageInc/OpenMontage",
+  "error": {
+   "__http_error__": 403,
+   "__url__": "https://api.github.com/repos/OpenMontageInc/OpenMontage"
+  }
+ },
+ "d4vinci/Scrapling": {
+  "repo": "d4vinci/Scrapling",
+  "error": {
+   "__http_error__": 403,
+   "__url__": "https://api.github.com/repos/d4vinci/Scrapling"
+  }
+ },
+ "jakeschincariol/youtube-agent-skill": {
+  "repo": "jakeschincariol/youtube-agent-skill",
+  "error": {
+   "__http_error__": 403,
+   "__url__": "https://api.github.com/repos/jakeschincariol/youtube-agent-skill"
+  }
+ },
+ "harry0703/MoneyPrinterTurbo": {
+  "repo": "harry0703/MoneyPrinterTurbo",
+  "error": {
+   "__http_error__": 403,
+   "__url__": "https://api.github.com/repos/harry0703/MoneyPrinterTurbo"
+  }
+ },
+ "Cuongyd196/cit-voice-studio": {
+  "repo": "Cuongyd196/cit-voice-studio",
+  "error": {
+   "__http_error__": 403,
+   "__url__": "https://api.github.com/repos/Cuongyd196/cit-voice-studio"
+  }
+ },
+ "morluto/rea": {
+  "repo": "morluto/rea",
+  "error": {
+   "__http_error__": 403,
+   "__url__": "https://api.github.com/repos/morluto/rea"
+  }
+ },
+ "JuneYaooo/rea-video": {
+  "repo": "JuneYaooo/rea-video",
+  "error": {
+   "__http_error__": 403,
+   "__url__": "https://api.github.com/repos/JuneYaooo/rea-video"
+  }
+ }
+}

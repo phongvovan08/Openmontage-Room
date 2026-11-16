@@ -1,0 +1,145 @@
+[
+  {
+    "label": "vn_ha_tang_dia_ly",
+    "channels": [
+      {"url": "https://www.youtube.com/@toadoxua/videos"},
+      {"url": "https://www.youtube.com/@nutheodukhu/videos"},
+      {"url": "https://www.youtube.com/@vietnamgo/videos"},
+      {"url": "https://www.youtube.com/@landketnoi/videos"}
+    ],
+    "queries": [
+      {"q": "vì sao địa lý Việt Nam hạ tầng giải thích", "lang": "vi", "n": 30},
+      {"q": "giải mã địa lý Việt Nam bản đồ", "lang": "vi", "n": 30}
+    ]
+  },
+  {
+    "label": "vn_vi_sao_hang_khong",
+    "channels": [
+      {"url": "https://www.youtube.com/@suthatdangsaucuachan/videos"},
+      {"url": "https://www.youtube.com/@chip.sieunang/videos"},
+      {"url": "https://www.youtube.com/@vankhievideos/videos"}
+    ],
+    "queries": [
+      {"q": "tại sao máy bay cấm hút thuốc bí mật", "lang": "vi", "n": 25},
+      {"q": "vì sao không như bạn nghĩ giải thích", "lang": "vi", "n": 25}
+    ]
+  },
+  {
+    "label": "vn_lich_su_tu_lieu",
+    "channels": [
+      {"url": "https://www.youtube.com/@Vankhoivi/videos"},
+      {"url": "https://www.youtube.com/@trangsuVietNam/videos"}
+    ],
+    "queries": [
+      {"q": "lịch sử Việt Nam hồ sơ tài liệu gốc kể chuyện", "lang": "vi", "n": 25},
+      {"q": "trận đánh lịch sử Việt Nam giải thích", "lang": "vi", "n": 25}
+    ]
+  },
+  {
+    "label": "vn_thieu_nhi_hoa_anh",
+    "channels": [
+      {"url": "https://www.youtube.com/@RoomEnglishOfficial/videos"}
+    ],
+    "queries": [
+      {"q": "học tiếng Anh qua phim giải thích tiếng Việt", "lang": "vi", "n": 25},
+      {"q": "luyện nghe tiếng Anh slow english", "lang": "vi", "n": 25}
+    ]
+  },
+  {
+    "label": "vn_truyen_audio",
+    "channels": [],
+    "queries": [
+      {"q": "truyện audio đêm khuya", "lang": "vi", "n": 25},
+      {"q": "truyện ma đọc bằng giọng AI", "lang": "vi", "n": 25}
+    ]
+  },
+  {
+    "label": "intl_megaproject",
+    "channels": [
+      {"url": "https://www.youtube.com/@UnthinkableBuild/videos"},
+      {"url": "https://www.youtube.com/@fctrybuilt/videos"},
+      {"url": "https://www.youtube.com/@OverengineeredYT/videos"},
+      {"url": "https://www.youtube.com/@megabuilds-us/videos"},
+      {"url": "https://www.youtube.com/@gyaanprocess/videos"}
+    ],
+    "queries": [
+      {"q": "megaproject engineering explained", "lang": "en", "n": 30},
+      {"q": "how they built impossible tunnel bridge", "lang": "en", "n": 30}
+    ]
+  },
+  {
+    "label": "intl_geopolitics_map",
+    "channels": [
+      {"url": "https://www.youtube.com/@reallifelore/videos"},
+      {"url": "https://www.youtube.com/@GeoLex/videos"},
+      {"url": "https://www.youtube.com/@countryballsexplained/videos"}
+    ],
+    "queries": [
+      {"q": "geopolitics explained map history", "lang": "en", "n": 30},
+      {"q": "why borders look strange explained", "lang": "en", "n": 30}
+    ]
+  },
+  {
+    "label": "intl_code_simulation",
+    "channels": [
+      {"url": "https://www.youtube.com/@nuclearphosphorus/videos"},
+      {"url": "https://www.youtube.com/@Vsauce/videos"}
+    ],
+    "queries": [
+      {"q": "simulate strategy game coded explained", "lang": "en", "n": 25},
+      {"q": "what if physics simulation explained code", "lang": "en", "n": 25}
+    ]
+  },
+  {
+    "label": "intl_psychology_philosophy",
+    "channels": [],
+    "queries": [
+      {"q": "psychology explained documentary", "lang": "en", "n": 25},
+      {"q": "philosophy explained animation", "lang": "en", "n": 25},
+      {"q": "self improvement explained documentary", "lang": "en", "n": 25}
+    ]
+  },
+  {
+    "label": "intl_finance_history",
+    "channels": [],
+    "queries": [
+      {"q": "history of money explained", "lang": "en", "n": 25},
+      {"q": "how economy works animation explained", "lang": "en", "n": 25}
+    ]
+  },
+  {
+    "label": "intl_documentary_4k",
+    "channels": [
+      {"url": "https://www.youtube.com/@vagariousTravel/videos"},
+      {"url": "https://www.youtube.com/@UnseenEarth/videos"}
+    ],
+    "queries": [
+      {"q": "4k documentary nature landscape relaxing", "lang": "en", "n": 25},
+      {"q": "abandoned megastructure documentary", "lang": "en", "n": 25}
+    ]
+  },
+  {
+    "label": "intl_health_science",
+    "channels": [],
+    "queries": [
+      {"q": "human body science explained animation", "lang": "en", "n": 25},
+      {"q": "sleep science explained doctor", "lang": "en", "n": 25}
+    ]
+  },
+  {
+    "label": "intl_ai_tools",
+    "channels": [],
+    "queries": [
+      {"q": "ai tools workflow tutorial 2026", "lang": "en", "n": 25},
+      {"q": "build ai agent tutorial", "lang": "en", "n": 25}
+    ]
+  },
+  {
+    "label": "intl_football_reaction",
+    "channels": [],
+    "queries": [
+      {"q": "football tactical analysis explained", "lang": "en", "n": 25},
+      {"q": "sports breakdown animation explained", "lang": "en", "n": 25}
+    ]
+  }
+]

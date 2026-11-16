@@ -1,0 +1,68 @@
+[
+  {
+    "label": "vn_vi_sao_chi_tiet",
+    "channels": [
+      {"url": "https://www.youtube.com/@SutThatDangSauCuaChan/videos"}
+    ],
+    "queries": [
+      {"q": "\"Vì sao\" \"mà không như bạn nghĩ\"", "lang": "vi", "n": 40},
+      {"q": "giải thích hiện tượng đời thường tại sao", "lang": "vi", "n": 40}
+    ]
+  },
+  {
+    "label": "vn_science_thu_gian",
+    "channels": [],
+    "queries": [
+      {"q": "khoa học đời thường giải thích vlog", "lang": "vi", "n": 35},
+      {"q": "thí nghiệm khoa học giải thích tiếng Việt", "lang": "vi", "n": 35}
+    ]
+  },
+  {
+    "label": "vn_tai_chinh_chung_khoan",
+    "channels": [],
+    "queries": [
+      {"q": "chứng khoán cơ bản cho người mới bắt đầu", "lang": "vi", "n": 35},
+      {"q": "kinh tế vĩ mơ Việt Nam giải thích", "lang": "vi", "n": 35}
+    ]
+  },
+  {
+    "label": "vn_suc_khoe_dinh_duong",
+    "channels": [],
+    "queries": [
+      {"q": "sức khỏe dinh dưỡng giải thích bác sĩ", "lang": "vi", "n": 35},
+      {"q": "exercise science explained tiếng Việt", "lang": "vi", "n": 30}
+    ]
+  },
+  {
+    "label": "vn_cau_chuyen_bep_ky_thuat",
+    "channels": [],
+    "queries": [
+      {"q": "kỹ thuật nấu ăn giải thích khoa học", "lang": "vi", "n": 30},
+      {"q": "món ăn Việt Nam cách làm chi tiết", "lang": "vi", "n": 30}
+    ]
+  },
+  {
+    "label": "intl_how_i_made",
+    "channels": [],
+    "queries": [
+      {"q": "how I made this animation explained", "lang": "en", "n": 30},
+      {"q": "engineering breakdown animation remotion", "lang": "en", "n": 30}
+    ]
+  },
+  {
+    "label": "intl_space_science",
+    "channels": [],
+    "queries": [
+      {"q": "space explained animation documentary", "lang": "en", "n": 30},
+      {"q": "astronomy explained visual documentary", "lang": "en", "n": 30}
+    ]
+  },
+  {
+    "label": "intl_military_tech",
+    "channels": [],
+    "queries": [
+      {"q": "military technology explained documentary", "lang": "en", "n": 30},
+      {"q": "warship aviation explained animation", "lang": "en", "n": 30}
+    ]
+  }
+]

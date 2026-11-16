@@ -691,6 +691,7 @@ const SceneRenderer: React.FC<{ cut: Cut; theme: ThemeConfig }> = ({ cut, theme 
         metrics={cut.chartData} title={cut.title} columns={cut.columns}
         colors={cut.chartColors || theme.chartColors} animationStyle={(cut.chartAnimation as any) || "count-up"}
         backgroundColor={bgColor}
+        cardBackgroundColor={cut.cardBackgroundColor || theme.surfaceColor}
         textColor={textColor}
       />
     );
@@ -736,6 +737,9 @@ const SceneRenderer: React.FC<{ cut: Cut; theme: ThemeConfig }> = ({ cut, theme 
         vignette={cut.vignette ?? true}
         lightingFrom={cut.lightingFrom}
         lightingTo={cut.lightingTo}
+        title={cut.title}
+        subtitle={cut.subtitle || cut.text}
+        accentColor={accent}
         sceneDurationSeconds={cut.out_seconds - cut.in_seconds}
       />
     );

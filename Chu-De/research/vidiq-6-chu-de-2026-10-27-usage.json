@@ -1,0 +1,19 @@
+{
+  "total_research_calls": 21,
+  "keyword_rows": 210,
+  "reported_credit_usage_sum": 40,
+  "calls_without_credit_usage": [
+    "english-sleep",
+    "sleep-stories",
+    "late-night-confessions",
+    "multicast-stories",
+    "narrator-led-stories",
+    "english-through-trending-clips",
+    "english-sleep-phrase-check",
+    "multicast-alternate-phrase",
+    "english-clips-film-proxy",
+    "english-sleep-global-phrase"
+  ],
+  "total_actual_usage": null,
+  "note": "Only _credits.used is summed once per call; list prices or account balance differences are not treated as actual call charges."
+}

@@ -1,0 +1,298 @@
+{
+  "version": "1.0",
+  "title": "Vì sao miền Bắc phải ra tận Lạch Huyện mới làm được cảng nước sâu?",
+  "total_duration_seconds": 90,
+  "voice_performance": {
+    "performance_intent": "Biên tập viên giải mã bản đồ kinh tế - hạ tầng Việt Nam: điềm tĩnh, đĩnh đạc, giàu sức nặng dữ liệu nhưng gọn gàng, dễ nghe.",
+    "pacing_profile": "technical",
+    "energy_curve": "Mở đầu gợi tò mò bằng nghịch lý lịch sử (s1), trầm và rõ khi chỉ ra điểm nghẽn phù sa (s2-s3), dứt khoát khi phóng tuyến cầu vượt biển (s4), sắc nét ở cao trào mặt cắt 48 km (s5), và kết mở gọn gàng (s6).",
+    "pause_policy": "Nghỉ khoảng 0,35s sau dấu chấm câu theo bộ lọc tự động của _tools/vibi_tts.py và chừa khoảng thở 0,4s-0,5s giữa 6 cảnh để người xem đọc thông số hải đồ trên màn hình.",
+    "sample_section_id": "s5",
+    "provider_notes": {
+      "vibi": "Dùng giọng Haitrieu (model speech-2.8-hd, speed 1.1). Truyền trường delivery_cues.provider_text đã viết thành chữ tiếng Việt đầy đủ cho số âm, số thập phân và đơn vị (ví dụ 'âm bảy mét', 'một trăm sáu mươi lăm nghìn tấn') để tránh đọc nhầm dấu trừ hoặc chữ viết tắt DWT; tuyệt đối không chèn thẻ XML SSML vào chuỗi gửi MiniMax."
+    }
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "label": "Hook — Nghịch lý thành phố cảng trăm tuổi (Cú máy 1: overview)",
+      "text": "Hơn một thế kỷ mang danh thành phố cảng lớn nhất miền Bắc, nhưng suốt hàng chục năm, Hải Phòng không thể đón nổi một siêu tàu container đi thẳng sang Mỹ hay châu Âu. Vì sao cảng biển lại phải chạy trốn khỏi dòng sông sinh ra nó?",
+      "start_seconds": 0,
+      "end_seconds": 13,
+      "speaker_directions": "Vào nhịp điềm tĩnh, nhấn nhẹ cụm 'hơn một thế kỷ' và 'không thể đón nổi', ngắt nhịp ngắn trước câu hỏi cuối để mở khoảng trống tò mò.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "curious_authoritative",
+        "emphasis_words": [
+          "hơn một thế kỷ",
+          "không thể đón nổi",
+          "chạy trốn"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.45,
+        "delivery_note": "Đặt đối lập rõ giữa danh tiếng trăm năm và giới hạn không đón được siêu tàu tuyến xa.",
+        "provider_text": "Hơn một thế kỷ mang danh thành phố cảng lớn nhất miền Bắc, nhưng suốt hàng chục năm, Hải Phòng không thể đón nổi một siêu tàu công ten nơ đi thẳng sang Mỹ hay châu Âu. Vì sao cảng biển lại phải chạy trốn khỏi dòng sông sinh ra nó?"
+      },
+      "enhancement_cues": [
+        {
+          "type": "diagram",
+          "description": "Cú máy overview (16:9): Bản đồ vector toàn cảnh Việt Nam và Biển Đông, hiển thị đầy đủ nhãn Quần đảo Hoàng Sa và Quần đảo Trường Sa, định vị tâm điểm Hải Phòng ở miền Bắc.",
+          "timestamp_seconds": 0
+        },
+        {
+          "type": "overlay",
+          "description": "Đường hải trình xuất khẩu tuyến xa bị chặn lại ngoài khơi vịnh Bắc Bộ kèm nhãn câu hỏi mở màn trong vùng an toàn góc trên trái.",
+          "timestamp_seconds": 6.5
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "container",
+          "phonetic": "công ten nơ"
+        }
+      ],
+      "source_ref": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204165"
+    },
+    {
+      "id": "s2",
+      "label": "Setup — Khoảng cách 48 km từ nội đô ra biển (Cú máy 2: zoom)",
+      "text": "Phóng to bản đồ cửa biển Hải Phòng, bạn sẽ thấy ngay nghịch lý. Cụm cảng truyền thống nằm sâu trên sông Cấm, cách phao số 0 ngoài khơi tới 48 km. Trước đây, hàng xuất khẩu miền Bắc buộc phải đi tàu nhỏ sang Singapore hoặc Hồng Kông để ghép chuyến.",
+      "start_seconds": 13,
+      "end_seconds": 27,
+      "speaker_directions": "Giữ nhịp dẫn chuyện mạch lạc theo đà phóng to của camera bản đồ; nhấn rõ con số '48 km' và cụm 'buộc phải đi tàu nhỏ'.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "focused",
+        "emphasis_words": [
+          "nghịch lý",
+          "bốn mươi tám ki lô mét",
+          "ghép chuyến"
+        ],
+        "pause_before_seconds": 0.2,
+        "pause_after_seconds": 0.4,
+        "delivery_note": "Khớp nhịp đọc câu đầu với chuyển động camera zoom từ toàn miền Bắc vào vùng cửa sông Hải Phòng.",
+        "provider_text": "Phóng to bản đồ cửa biển Hải Phòng, bạn sẽ thấy ngay nghịch lý. Cụm cảng truyền thống nằm sâu trên sông Cấm, cách phao số không ngoài khơi tới bốn mươi tám ki lô mét. Trước đây, hàng xuất khẩu miền Bắc buộc phải đi tàu nhỏ sang Xin ga po hoặc Hồng Kông để ghép chuyến."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Cú máy zoom: Camera thu phóng mượt theo khung chiếu Mercator 16:9 từ bản đồ miền Bắc vào chi tiết hệ thống Sông Cấm - Bạch Đằng - đảo Cát Hải.",
+          "timestamp_seconds": 13
+        },
+        {
+          "type": "stat_card",
+          "description": "Hiển thị thẻ thông số góc phải: 'Cảng Sông Cấm ↔ Phao số 0: 48,0 km luồng dẫn | Hệ quả cũ: Trung chuyển qua Singapore / Hồng Kông'.",
+          "timestamp_seconds": 20
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "48 km",
+          "phonetic": "bốn mươi tám ki lô mét"
+        },
+        {
+          "word": "Singapore",
+          "phonetic": "Xin ga po"
+        }
+      ],
+      "source_ref": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/"
+    },
+    {
+      "id": "s3",
+      "label": "Build 1 — Cái bẫy phù sa Sông Cấm & Cửa Nam Triệu (Cú máy 3: pin-label)",
+      "text": "Thủ phạm nằm dưới mặt nước: phù sa hệ thống sông Thái Bình và Bạch Đằng đổ ra mỗi năm. Theo số liệu luồng hàng hải năm 2026, đoạn sông Cấm chỉ rộng 80 m và sâu -7,0 m, còn cửa tự nhiên Nam Triệu nhiều đoạn bồi cạn chỉ còn -0,5 m.",
+      "start_seconds": 27,
+      "end_seconds": 44,
+      "speaker_directions": "Hạ giọng trầm và chắc ở cụm 'Thủ phạm nằm dưới mặt nước'; đọc tách bạch từng con số độ sâu để người xem kịp đối chiếu nhãn ghim trên bản đồ.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "analytical",
+        "emphasis_words": [
+          "phù sa",
+          "tám mươi mét",
+          "âm bảy mét",
+          "âm không phẩy năm mét"
+        ],
+        "pause_before_seconds": 0.2,
+        "pause_after_seconds": 0.45,
+        "delivery_note": "Tạo cảm giác chật hẹp và nông cạn bằng nhịp ngắt dứt khoát giữa hai mốc âm bảy mét và âm không phẩy năm mét.",
+        "provider_text": "Thủ phạm nằm dưới mặt nước: phù sa hệ thống sông Thái Bình và Bạch Đằng đổ ra mỗi năm. Theo số liệu luồng hàng hải năm hai nghìn không trăm hai mươi sáu, đoạn sông Cấm chỉ rộng tám mươi mét và sâu âm bảy mét, còn cửa tự nhiên Nam Triệu nhiều đoạn bồi cạn chỉ còn âm không phẩy năm mét."
+      },
+      "enhancement_cues": [
+        {
+          "type": "overlay",
+          "description": "Cú máy pin-label: Ghim 2 cụm nhãn kỹ thuật nằm gọn trong vùng an toàn 16:9: (1) Sông Cấm: Rộng 80 m | Sâu -7,0 m; (2) Cửa Nam Triệu: Phù sa bồi cạn -0,5 m đến -3,7 m (tô vùng hổ phách #D97706).",
+          "timestamp_seconds": 27.5
+        },
+        {
+          "type": "stat_card",
+          "description": "Chú thích nguồn chuẩn xác ở đáy khung an toàn: 'Nguồn: Cảng vụ Hàng hải Hải Phòng — Thông báo luồng 29/08/2026 (QĐ 1995/QĐ-CHHĐTVN)'.",
+          "timestamp_seconds": 35.5
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "-7,0 m",
+          "phonetic": "âm bảy mét"
+        },
+        {
+          "word": "-0,5 m",
+          "phonetic": "âm không phẩy năm mét"
+        }
+      ],
+      "source_ref": "https://cangvuhaiphong.gov.vn/luong-nam-trieu/"
+    },
+    {
+      "id": "s4",
+      "label": "Build 2 — Cú nhảy vượt biển sang đảo Cát Hải (Cú máy 4: route)",
+      "text": "Khoét sâu lòng sông giữa nội đô vừa đe dọa sạt lở bờ phố, vừa tốn tiền vét bùn vô tận. Vì thế, Việt Nam chọn nhảy qua vùng phù sa: bắc tuyến đường cầu vượt biển Tân Vũ – Lạch Huyện dài 15,63 km, riêng phần cầu vượt biển 5,44 km, sang đảo Cát Hải.",
+      "start_seconds": 44,
+      "end_seconds": 61,
+      "speaker_directions": "Chuyển từ giọng cảnh báo ở câu đầu sang nhịp mở rộng, dứt khoát từ chữ 'Vì thế, Việt Nam chọn nhảy qua vùng phù sa'.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "decisive",
+        "emphasis_words": [
+          "vô tận",
+          "nhảy qua vùng phù sa",
+          "năm phẩy bốn tư ki lô mét",
+          "đảo Cát Hải"
+        ],
+        "pause_before_seconds": 0.2,
+        "pause_after_seconds": 0.45,
+        "delivery_note": "Nhấn chữ 'Vì thế' làm bản lề nhân quả giải thích trực tiếp lý do phải bắc cầu vượt biển.",
+        "provider_text": "Khoét sâu lòng sông giữa nội đô vừa đe dọa sạt lở bờ phố, vừa tốn tiền vét bùn vô tận. Vì thế, Việt Nam chọn nhảy qua vùng phù sa: bắc tuyến đường cầu vượt biển Tân Vũ Lạch Huyện dài mười lăm phẩy sáu ki lô mét, riêng phần cầu vượt biển năm phẩy bốn tư ki lô mét, sang đảo Cát Hải."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Cú máy route: Vẽ đường tiến trình màu ngọc lam (#2DD4BF) từ nút giao Tân Vũ - Đình Vũ băng qua biển sang đảo Cát Hải với nhãn 'Tuyến Tân Vũ – Lạch Huyện: 15,63 km (Cầu vượt biển: 5,44 km)'.",
+          "timestamp_seconds": 44.5
+        },
+        {
+          "type": "diagram",
+          "description": "Vẽ tiếp đường luồng hàng hải Lạch Huyện dài 20,66 km vươn thẳng ra Phao số 0 kèm đường đê chắn cát bảo vệ luồng phía Đông Nam đảo Cát Hải.",
+          "timestamp_seconds": 53
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "15,63 km",
+          "phonetic": "mười lăm phẩy sáu ki lô mét"
+        },
+        {
+          "word": "5,44 km",
+          "phonetic": "năm phẩy bốn tư ki lô mét"
+        }
+      ],
+      "source_ref": "https://tapchicongthuong.vn/hai-phong--khanh-thanh-ben-cang-container-quoc-te-so-3-va-4-khu-ben-cang-lach-huyen-140409.htm"
+    },
+    {
+      "id": "s5",
+      "label": "Climax — Mặt cắt dọc bậc thang độ sâu 48 km (Cú máy 5: comparison-measure + Signature Device)",
+      "text": "Nhìn lát cắt 48 km, câu trả lời lộ rõ. Trong sông Cấm -7,0 m hay kênh Hà Nam -8,0 m, tàu mẹ đều chạm đáy. Nhưng ngoài rìa Cát Hải, luồng Lạch Huyện rộng 160 m sâu gần 13 đến 14 m, đủ đón tàu 165.000 DWT.",
+      "start_seconds": 61,
+      "end_seconds": 78,
+      "speaker_directions": "Đây là khoảnh khắc 'aha' quan trọng nhất: đọc chắc từng bậc '-7,0 m', '-8,0 m', rồi mở rộng âm lượng ở vế 'Nhưng ngoài rìa Cát Hải... đón tàu 165.000 tấn'.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "revelatory",
+        "emphasis_words": [
+          "chạm đáy",
+          "một trăm sáu mươi mét",
+          "mười ba đến mười bốn mét",
+          "một trăm sáu mươi lăm nghìn tấn"
+        ],
+        "pause_before_seconds": 0.25,
+        "pause_after_seconds": 0.5,
+        "delivery_note": "Ngắt rõ sau chữ 'chạm đáy' (0,35s) để mắt người xem thấy vạch mớn nước đỏ va vào đáy sông trước khi chuyển ra vùng nước sâu Lạch Huyện.",
+        "provider_text": "Nhìn lát cắt bốn mươi tám ki lô mét, câu trả lời lộ rõ. Trong sông Cấm âm bảy mét hay kênh Hà Nam âm tám mét, tàu mẹ đều chạm đáy. Nhưng ngoài rìa Cát Hải, luồng Lạch Huyện rộng một trăm sáu mươi mét sâu gần mười ba đến mười bốn mét, đủ đón tàu một trăm sáu mươi lăm nghìn tấn."
+      },
+      "enhancement_cues": [
+        {
+          "type": "diagram",
+          "description": "Cú máy comparison-measure + Signature Device: Thước đo Haversine (distanceKm) trên bản đồ nhỏ phía trên kết hợp Mặt cắt dọc thủy văn 48 km phía dưới đối chiếu 3 bậc: Sông Cấm (-7,0 m) -> Kênh Hà Nam (-8,0 m) -> Luồng Lạch Huyện (-12,9 m thực đo | -14,0 m chuẩn tắc).",
+          "timestamp_seconds": 61
+        },
+        {
+          "type": "stat_card",
+          "description": "Mô phỏng mặt cắt mớn nước siêu tàu 165.000 DWT (giảm tải): báo đỏ 'Chạm đáy' tại Sông Cấm (-7,0 m) và báo xanh ngọc 'An toàn khai thác' tại Lạch Huyện.",
+          "timestamp_seconds": 69.5
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "-8,0 m",
+          "phonetic": "âm tám mét"
+        },
+        {
+          "word": "165.000 DWT",
+          "phonetic": "một trăm sáu mươi lăm nghìn tấn"
+        }
+      ],
+      "source_ref": "https://cangvuhaiphong.gov.vn/luong-lach-huyen/"
+    },
+    {
+      "id": "s6",
+      "label": "Landing — Tách bạch 6 bến đang chạy & Quy hoạch 2030 + CTA",
+      "text": "Hiện 6 bến tại Lạch Huyện đã khai thác, nối thẳng hàng miền Bắc tới Mỹ và châu Âu, tách biệt với phần mở rộng quy hoạch đến năm 2030. Tuần tới, giải mã Long Thành hay cao tốc miền Tây?",
+      "start_seconds": 78,
+      "end_seconds": 90,
+      "speaker_directions": "Nhịp kết gọn, sáng và chắc chắn; câu hỏi cuối nâng nhẹ ngữ điệu mời gọi người xem bình luận chọn chủ đề tiếp theo.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "warm_conclusive",
+        "emphasis_words": [
+          "sáu bến",
+          "nối thẳng",
+          "năm hai nghìn không trăm ba mươi",
+          "Long Thành",
+          "cao tốc miền Tây"
+        ],
+        "pause_before_seconds": 0.2,
+        "pause_after_seconds": 1.0,
+        "delivery_note": "Chừa khoảng lặng 1 giây cuối video để khung bản đồ tổng kết giữ tĩnh cho người xem đọc trọn hai trạng thái hạ tầng.",
+        "provider_text": "Hiện sáu bến tại Lạch Huyện đã khai thác, nối thẳng hàng miền Bắc tới Mỹ và châu Âu, tách biệt với phần mở rộng quy hoạch đến năm hai nghìn không trăm ba mươi. Tuần tới, giải mã Long Thành hay cao tốc miền Tây?"
+      },
+      "enhancement_cues": [
+        {
+          "type": "diagram",
+          "description": "Bản đồ trạng thái hạ tầng đảo Cát Hải: tô liền nét 6 bến đang vận hành thực tế (Bến 1-2 & Bến 3-6, đón tàu đến 165.000 DWT giảm tải) và viền nét đứt vùng quy hoạch mở rộng đến năm 2030 (QĐ 1579/QĐ-TTg).",
+          "timestamp_seconds": 78
+        },
+        {
+          "type": "overlay",
+          "description": "Thẻ câu hỏi tương tác cuối video: 'Bản đồ tiếp theo: [1] Sân bay Long Thành 40 km  |  [2] Cao tốc miền Tây?'.",
+          "timestamp_seconds": 84.5
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "2030",
+          "phonetic": "hai nghìn không trăm ba mươi"
+        }
+      ],
+      "source_ref": "https://logistics.gov.vn/dich-vu-logistics/cang-bien/ben-3-4-tai-khu-cang-lach-huyen-duoc-tiep-nhan-tau-len-den-165-000-dwt"
+    }
+  ],
+  "metadata": {
+    "language": "vi",
+    "vietnamese_syllable_calibration": {
+      "provider_text_syllables": 344,
+      "reference_voice": "Haitrieu (speech-2.8-hd, speed=1.1)",
+      "empirical_rate_syllables_per_sec": 3.88,
+      "estimated_spoken_seconds": 88.6,
+      "target_total_seconds": 90.0,
+      "lexical_compound_words_approx": 202
+    },
+    "stage_0_shots_mapped": {
+      "s1": "overview (kèm Quần đảo Hoàng Sa & Trường Sa)",
+      "s2": "zoom",
+      "s3": "pin-label",
+      "s4": "route",
+      "s5": "comparison-measure + longitudinal bathymetric cross-section",
+      "s6": "operating vs planned infrastructure ledger"
+    }
+  }
+}
+
