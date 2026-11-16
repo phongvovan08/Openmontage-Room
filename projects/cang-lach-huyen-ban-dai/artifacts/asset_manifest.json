@@ -628,6 +628,19 @@
       "original_url": "https://commons.wikimedia.org/wiki/File:Cang_Hai_Phong.jpg"
     },
     {
+      "id": "photo-ulcv_megaship_400m",
+      "type": "image",
+      "path": "public/photos/ulcv_megaship_400m.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_03",
+      "cost_usd": 0.0,
+      "resolution": "1920x1440",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:HMM_Algeciras_Arriving_in_Southampton_4.jpg"
+    },
+    {
       "id": "photo-chua_ve_port",
       "type": "image",
       "path": "public/photos/chua_ve_port.jpg",
@@ -654,6 +667,19 @@
       "original_url": "https://commons.wikimedia.org/wiki/File:CANG_TAN_VU.jpg"
     },
     {
+      "id": "photo-port_of_singapore",
+      "type": "image",
+      "path": "public/photos/port_of_singapore.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_05",
+      "cost_usd": 0.0,
+      "resolution": "1920x1280",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Tanjong_Pagar_Terminal_--_2019_--_4728.jpg"
+    },
+    {
       "id": "photo-song_cam_2023",
       "type": "image",
       "path": "public/photos/song_cam_2023.jpg",
@@ -667,6 +693,58 @@
       "original_url": "https://commons.wikimedia.org/wiki/File:S%C3%B4ng_C%E1%BA%A5m_H%E1%BA%A3i_Ph%C3%B2ng_th%C3%A1ng_12_n%C4%83m_2023f.jpg"
     },
     {
+      "id": "photo-cang_dinh_vu",
+      "type": "image",
+      "path": "public/photos/cang_dinh_vu.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_07",
+      "cost_usd": 0.0,
+      "resolution": "1544x994",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC0 1.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:CANG_DINH_VU.jpg"
+    },
+    {
+      "id": "photo-cau_hoang_van_thu",
+      "type": "image",
+      "path": "public/photos/cau_hoang_van_thu.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_08",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Cau-hoang-van-thu-hai-phong.jpg"
+    },
+    {
+      "id": "photo-cang_hoang_dieu",
+      "type": "image",
+      "path": "public/photos/cang_hoang_dieu.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_09",
+      "cost_usd": 0.0,
+      "resolution": "1920x1279",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC0 1.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:CANG_HOANG_DIEU_CHUA_VE.jpg"
+    },
+    {
+      "id": "photo-hopper_dredger",
+      "type": "image",
+      "path": "public/photos/hopper_dredger.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_10",
+      "cost_usd": 0.0,
+      "resolution": "1920x1111",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Pallieter_Hopper_Dredger_R02.jpg"
+    },
+    {
       "id": "photo-tan_vu_bridge",
       "type": "image",
       "path": "public/photos/tan_vu_bridge.jpg",
@@ -678,6 +756,19 @@
       "provider": "wikimedia_commons",
       "license": "CC BY 3.0",
       "original_url": "https://commons.wikimedia.org/wiki/File:Dinh_Vu_-_Cat_Hai_Bridge.jpg"
+    },
+    {
+      "id": "photo-hict_cat_hai_ship",
+      "type": "image",
+      "path": "public/photos/hict_cat_hai_ship.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_12",
+      "cost_usd": 0.0,
+      "resolution": "1920x1280",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Container_Ship_at_the_Hai_Phong_International_Container_Terminal_01.jpg"
     },
     {
       "id": "photo-lach_huyen_cranes",
@@ -704,6 +795,45 @@
       "provider": "wikimedia_commons",
       "license": "CC0 1.0",
       "original_url": "https://commons.wikimedia.org/wiki/File:CANG_HTIT.jpg"
+    },
+    {
+      "id": "photo-port_of_los_angeles",
+      "type": "image",
+      "path": "public/photos/port_of_los_angeles.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_16",
+      "cost_usd": 0.0,
+      "resolution": "1920x1047",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:View_of_Port_of_Los_Angeles_with_container_ships.jpg"
+    },
+    {
+      "id": "photo-ban_dao_do_son",
+      "type": "image",
+      "path": "public/photos/ban_dao_do_son.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_17",
+      "cost_usd": 0.0,
+      "resolution": "1920x1278",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 3.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Khu_du_l%E1%BB%8Bch_%C4%90%E1%BB%93_S%C6%A1n,_%C4%90%E1%BB%93_S%C6%A1n,_H%E1%BA%A3i_Ph%C3%B2ng,_Vietnam_-_panoramio_(1).jpg"
+    },
+    {
+      "id": "photo-ga_hai_phong",
+      "type": "image",
+      "path": "public/photos/ga_hai_phong.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_18",
+      "cost_usd": 0.0,
+      "resolution": "1920x1440",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Bambus-rejser-ga-hai-phong.jpg"
     },
     {
       "id": "snap-scene_01",

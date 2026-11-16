@@ -1,6 +1,8 @@
 import React from "react";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { REAL_PHOTOS } from "../data/realPhotosManifest";
 import { FONTS, PALETTE, SAFE_X } from "../theme";
+import { EvidencePhotoCard } from "./EvidencePhotoCard";
 
 export const Scene08UrbanBridgeAirDraft: React.FC = () => {
   const frame = useCurrentFrame();
@@ -156,15 +158,28 @@ export const Scene08UrbanBridgeAirDraft: React.FC = () => {
           )}
         </g>
 
-        {/* Bottom Explanation Summary Strip (cleanly positioned y=780..875 well above subtitles) */}
-        <rect x={SAFE_X} y={762} width={width - SAFE_X * 2} height={116} rx={14} fill="rgba(6, 17, 31, 0.94)" stroke="#38BDF8" strokeWidth={1.8} />
-        <text x={SAFE_X + 28} y={802} fill="#FACC15" fontFamily={FONTS.mono} fontSize={16} fontWeight={800}>
+        {/* Bottom Explanation Summary Strip (trimmed width to clear bottom-right documentary photo) */}
+        <rect x={SAFE_X} y={762} width={1268} height={116} rx={14} fill="rgba(6, 17, 31, 0.94)" stroke="#38BDF8" strokeWidth={1.8} />
+        <text x={SAFE_X + 26} y={794} fill="#FACC15" fontFamily={FONTS.mono} fontSize={15} fontWeight={800}>
           HAI NGUYÊN NHÂN NỘI ĐÔ KHÔNG THỂ ĐÓN SIÊU TÀU:
         </text>
-        <text x={SAFE_X + 28} y={838} fill="#FFFFFF" fontFamily={FONTS.sans} fontSize={21} fontWeight={700}>
-          1. Đài chỉ huy siêu tàu cao vượt trần tĩnh không cầu đường bộ   •   2. Lòng sông hẹp 80 m không đủ khẩu độ cho tàu dài 400 m quay trở
+        <text x={SAFE_X + 26} y={822} fill="#FFFFFF" fontFamily={FONTS.sans} fontSize={18.5} fontWeight={700}>
+          1. Đài chỉ huy siêu tàu cao vượt trần tĩnh không cầu đường bộ nội đô
+        </text>
+        <text x={SAFE_X + 26} y={850} fill="#FFFFFF" fontFamily={FONTS.sans} fontSize={18.5} fontWeight={700}>
+          2. Lòng sông hẹp 80 m không đủ khẩu độ cho tàu dài 400 m quay trở
         </text>
       </svg>
+
+      <EvidencePhotoCard
+        photo={REAL_PHOTOS.cau_hoang_van_thu}
+        left={width - SAFE_X - 442}
+        top={666}
+        width={442}
+        height={244}
+        accentColor="#FACC15"
+        appearAtSec={1.6}
+      />
     </AbsoluteFill>
   );
 };

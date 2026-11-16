@@ -1,6 +1,8 @@
 import React from "react";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { REAL_PHOTOS } from "../data/realPhotosManifest";
 import { FONTS, PALETTE, SAFE_X } from "../theme";
+import { EvidencePhotoCard } from "./EvidencePhotoCard";
 
 export const Scene03VesselEvolutionScale: React.FC = () => {
   const frame = useCurrentFrame();
@@ -165,10 +167,10 @@ export const Scene03VesselEvolutionScale: React.FC = () => {
         <text x={SAFE_X + 20} y={y7 + 4} fill="#FFFFFF" fontFamily={FONTS.mono} fontSize={13.5} fontWeight={800}>
           ĐÁY SÔNG CẤM HIỆN HỮU: -7,0 M
         </text>
-        <text x={SAFE_X + 12} y={y14 - 8} fill={PALETTE.tealDeep} fontFamily={FONTS.mono} fontSize={14} fontWeight={800}>
+        <text x={518} y={y14 - 8} fill={PALETTE.tealDeep} fontFamily={FONTS.mono} fontSize={14} fontWeight={800}>
           CHUẨN TẮC SIÊU TÀU: -14,0 M
         </text>
-        <text x={SAFE_X + 12} y={y16 - 8} fill="#7DD3FC" fontFamily={FONTS.mono} fontSize={14} fontWeight={800}>
+        <text x={518} y={y16 - 8} fill="#7DD3FC" fontFamily={FONTS.mono} fontSize={14} fontWeight={800}>
           BẾN NƯỚC SÂU TỐI ĐA: -16,0 M
         </text>
 
@@ -193,6 +195,16 @@ export const Scene03VesselEvolutionScale: React.FC = () => {
           </text>
         </g>
       </svg>
+
+      <EvidencePhotoCard
+        photo={REAL_PHOTOS.ulcv_megaship_400m}
+        left={SAFE_X}
+        top={682}
+        width={396}
+        height={226}
+        accentColor={PALETTE.tealDeep}
+        appearAtSec={2.4}
+      />
     </AbsoluteFill>
   );
 };

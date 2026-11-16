@@ -1,6 +1,8 @@
 import React from "react";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { REAL_PHOTOS } from "../data/realPhotosManifest";
 import { FONTS, PALETTE, SAFE_X } from "../theme";
+import { EvidencePhotoCard } from "./EvidencePhotoCard";
 
 export const Scene10AnnualSiltFunnel: React.FC = () => {
   const frame = useCurrentFrame();
@@ -108,22 +110,22 @@ export const Scene10AnnualSiltFunnel: React.FC = () => {
           position: "absolute",
           right: SAFE_X,
           top: 144,
-          width: 780,
+          width: 752,
           display: "flex",
           flexDirection: "column",
-          gap: 20,
+          gap: 14,
           opacity: stageIn,
         }}
       >
         <div
           style={{
-            padding: "22px 26px",
+            padding: "16px 22px",
             background: "rgba(6, 17, 31, 0.94)",
             borderRadius: 16,
             border: `2px solid ${PALETTE.amberBright}`,
           }}
         >
-          <div style={{ fontFamily: FONTS.mono, fontSize: 13.5, fontWeight: 800, color: "#FACC15", marginBottom: 14 }}>
+          <div style={{ fontFamily: FONTS.mono, fontSize: 13.5, fontWeight: 800, color: "#FACC15", marginBottom: 10 }}>
             CHU KỲ NẠO VÉT LẶP LẠI VÔ TẬN TRONG CỬA SÔNG
           </div>
           {[
@@ -133,11 +135,11 @@ export const Scene10AnnualSiltFunnel: React.FC = () => {
           ].map((b, bi) => {
             const wPct = b.pct * Math.min(1, progress * 1.4);
             return (
-              <div key={bi} style={{ marginBottom: bi < 2 ? 14 : 0 }}>
-                <div style={{ fontFamily: FONTS.sans, fontSize: 17, fontWeight: 700, color: "#F8FAFC", marginBottom: 5 }}>
+              <div key={bi} style={{ marginBottom: bi < 2 ? 10 : 0 }}>
+                <div style={{ fontFamily: FONTS.sans, fontSize: 16.5, fontWeight: 700, color: "#F8FAFC", marginBottom: 4 }}>
                   {b.yr}
                 </div>
-                <div style={{ width: "100%", height: 22, borderRadius: 6, background: "#0F172A", overflow: "hidden" }}>
+                <div style={{ width: "100%", height: 18, borderRadius: 6, background: "#0F172A", overflow: "hidden" }}>
                   <div style={{ width: `${wPct}%`, height: "100%", background: b.col, borderRadius: 6 }} />
                 </div>
               </div>
@@ -148,7 +150,7 @@ export const Scene10AnnualSiltFunnel: React.FC = () => {
         {/* Decisive Green/Teal Pivot Banner leading directly into Chapter 4 */}
         <div
           style={{
-            padding: "26px 28px",
+            padding: "18px 24px",
             background: "linear-gradient(135deg, rgba(13, 148, 136, 0.28) 0%, rgba(6, 17, 31, 0.96) 100%)",
             borderRadius: 16,
             border: `2.5px solid ${PALETTE.tealDeep}`,
@@ -158,15 +160,25 @@ export const Scene10AnnualSiltFunnel: React.FC = () => {
             transform: `scale(${0.94 + 0.06 * pivotIn})`,
           }}
         >
-          <div style={{ fontFamily: FONTS.mono, fontSize: 14, fontWeight: 800, color: PALETTE.tealDeep, marginBottom: 8 }}>
+          <div style={{ fontFamily: FONTS.mono, fontSize: 13.5, fontWeight: 800, color: PALETTE.tealDeep, marginBottom: 6 }}>
             CHÂN LÝ ĐỊA LÝ KINH TẾ
           </div>
-          <div style={{ fontFamily: FONTS.sans, fontSize: 28, fontWeight: 800, color: "#FFFFFF", lineHeight: 1.3 }}>
+          <div style={{ fontFamily: FONTS.sans, fontSize: 25, fontWeight: 800, color: "#FFFFFF", lineHeight: 1.28 }}>
             Không cố đào sâu dòng sông cũ —{" "}
             <span style={{ color: PALETTE.tealDeep }}>NHẢY QUA CỬA SÔNG RA BIỂN HỞ!</span>
           </div>
         </div>
       </div>
+
+      <EvidencePhotoCard
+        photo={REAL_PHOTOS.hopper_dredger}
+        left={width - SAFE_X - 510}
+        top={520}
+        width={510}
+        height={274}
+        accentColor={PALETTE.amberBright}
+        appearAtSec={1.8}
+      />
     </AbsoluteFill>
   );
 };

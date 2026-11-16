@@ -2,8 +2,10 @@ import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { ANCHORS } from "../data/haiphongHydroData";
 import { SINGAPORE_COORD } from "../data/nationalMapData";
+import { REAL_PHOTOS } from "../data/realPhotosManifest";
 import { boxOfBounds, lonLatToScreen } from "../mapMath";
 import { FONTS, PALETTE, SAFE_X } from "../theme";
+import { EvidencePhotoCard } from "./EvidencePhotoCard";
 import { HydroGraticule, NationalWorldLayer } from "./HydroBaseLayers";
 import { Arc3DRoute, Camera3DSpec, createProjector3D, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
@@ -126,6 +128,16 @@ export const Scene16DirectTranspacificRoutes: React.FC = () => {
               </div>
             </div>
           </div>
+
+          <EvidencePhotoCard
+            photo={REAL_PHOTOS.port_of_los_angeles}
+            left={width - SAFE_X - 416}
+            top={676}
+            width={416}
+            height={240}
+            accentColor={PALETTE.tealDeep}
+            appearAtSec={2.2}
+          />
         </>
       }
     />

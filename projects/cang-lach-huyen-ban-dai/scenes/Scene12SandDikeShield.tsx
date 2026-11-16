@@ -1,8 +1,10 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { BREAKWATER_NE, LUONG_LACH_HUYEN, SAND_DIKE_SW } from "../data/haiphongHydroData";
+import { REAL_PHOTOS } from "../data/realPhotosManifest";
 import { boxOfBounds, coordsToScreenPath, interpolateCameraBox, lonLatToScreen, screenPolylineLength } from "../mapMath";
 import { FONTS, PALETTE, SAFE_X } from "../theme";
+import { EvidencePhotoCard } from "./EvidencePhotoCard";
 import { HaiPhongEstuaryLayer, HydroGraticule, RealSatelliteBasemap } from "./HydroBaseLayers";
 import { Camera3DSpec, createProjector3D, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
@@ -161,6 +163,16 @@ export const Scene12SandDikeShield: React.FC = () => {
               Gọng kìm Đê chắn cát – Đê chắn sóng bảo vệ luồng Lạch Huyện
             </div>
           </div>
+
+          <EvidencePhotoCard
+            photo={REAL_PHOTOS.hict_cat_hai_ship}
+            left={width - SAFE_X - 408}
+            top={40}
+            width={408}
+            height={230}
+            accentColor={PALETTE.tealDeep}
+            appearAtSec={1.8}
+          />
         </>
       }
     />

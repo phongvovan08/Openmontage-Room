@@ -8,8 +8,10 @@ import {
   RAIL_1435_MAINLINE,
 } from "../data/haiphongHydroData";
 import { HA_NOI_COORD } from "../data/nationalMapData";
+import { REAL_PHOTOS } from "../data/realPhotosManifest";
 import { boxOfBounds, coordsToScreenPath, interpolateCameraBox, lonLatToScreen, screenPolylineLength } from "../mapMath";
 import { FONTS, PALETTE, SAFE_X } from "../theme";
+import { EvidencePhotoCard } from "./EvidencePhotoCard";
 import { HaiPhongEstuaryLayer, HydroGraticule, NationalWorldLayer } from "./HydroBaseLayers";
 import { Camera3DSpec, createProjector3D, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
@@ -160,6 +162,16 @@ export const Scene18StandardGaugeRail1435: React.FC = () => {
               </div>
             ))}
           </div>
+
+          <EvidencePhotoCard
+            photo={REAL_PHOTOS.ga_hai_phong}
+            left={SAFE_X}
+            top={684}
+            width={416}
+            height={240}
+            accentColor="#FACC15"
+            appearAtSec={2.0}
+          />
         </>
       }
     />

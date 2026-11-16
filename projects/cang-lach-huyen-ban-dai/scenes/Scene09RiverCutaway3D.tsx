@@ -1,10 +1,12 @@
 import React from "react";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { REAL_PHOTOS } from "../data/realPhotosManifest";
 import { FONTS, PALETTE, SAFE_X } from "../theme";
+import { EvidencePhotoCard } from "./EvidencePhotoCard";
 
 export const Scene09RiverCutaway3D: React.FC = () => {
   const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
+  const { fps, durationInFrames, width } = useVideoConfig();
   const progress = frame / Math.max(1, durationInFrames - 1);
 
   const stageIn = spring({ frame: frame - 3, fps, config: { damping: 18, stiffness: 130 } });
@@ -251,6 +253,16 @@ export const Scene09RiverCutaway3D: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <EvidencePhotoCard
+        photo={REAL_PHOTOS.cang_hoang_dieu}
+        left={width - SAFE_X - 492}
+        top={444}
+        width={492}
+        height={272}
+        accentColor={PALETTE.coralWarn}
+        appearAtSec={2.0}
+      />
     </AbsoluteFill>
   );
 };

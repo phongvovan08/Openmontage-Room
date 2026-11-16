@@ -8,7 +8,9 @@ import {
   OPERATING_BERTHS_1_6,
 } from "../data/haiphongHydroData";
 import { boxOfBounds, coordsToScreenPath, lonLatToScreen } from "../mapMath";
+import { REAL_PHOTOS } from "../data/realPhotosManifest";
 import { FONTS, PALETTE, SAFE_X } from "../theme";
+import { EvidencePhotoCard } from "./EvidencePhotoCard";
 import { HaiPhongEstuaryLayer, HydroGraticule, RealSatelliteBasemap } from "./HydroBaseLayers";
 import { Camera3DSpec, createProjector3D, Extruded3DPolygon, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
@@ -139,6 +141,17 @@ export const Scene17Berths78NamDoSon1579: React.FC = () => {
               </div>
             </div>
           </div>
+
+          <EvidencePhotoCard
+            photo={REAL_PHOTOS.ban_dao_do_son}
+            left={SAFE_X}
+            top={428}
+            width={404}
+            height={232}
+            accentColor="#FACC15"
+            anchorPoint={[project(ndsX, ndsY, 0)[0], project(ndsX, ndsY, 0)[1]]}
+            appearAtSec={2.4}
+          />
         </>
       }
     />

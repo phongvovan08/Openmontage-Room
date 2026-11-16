@@ -178,6 +178,16 @@ export const Scene05SingaporeDetour: React.FC = () => {
             anchorPoint={[project(hpX, hpY, 0)[0], project(hpX, hpY, 0)[1]]}
             appearAtSec={2.4}
           />
+          <EvidencePhotoCard
+            photo={REAL_PHOTOS.port_of_singapore}
+            left={width - SAFE_X - 408}
+            top={height - 122 - 236}
+            width={408}
+            height={236}
+            accentColor={PALETTE.coralWarn}
+            anchorPoint={[project(sgX, sgY, 0)[0], project(sgX, sgY, 0)[1]]}
+            appearAtSec={4.2}
+          />
         </>
       }
     />
