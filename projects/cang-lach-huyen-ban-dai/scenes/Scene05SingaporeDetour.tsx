@@ -8,10 +8,46 @@ import { EvidencePhotoCard } from "./EvidencePhotoCard";
 import { HydroGraticule, NationalWorldLayer } from "./HydroBaseLayers";
 import { Arc3DRoute, Camera3DSpec, createProjector3D, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
-const FEEDER_TO_HK = [HAI_PHONG_COORD, [108.4, 20.1], [111.2, 20.9], HONG_KONG_COORD] as const;
-const FEEDER_TO_SGP = [HAI_PHONG_COORD, [108.6, 17.4], [109.7, 12.2], [107.2, 6.8], SINGAPORE_COORD] as const;
-const MOTHER_FROM_HK = [HONG_KONG_COORD, [118.2, 22.6], [123.0, 23.8]] as const;
-const MOTHER_FROM_SGP = [SINGAPORE_COORD, [99.8, 3.4], [95.2, 6.4]] as const;
+const FEEDER_TO_HK = [
+  HAI_PHONG_COORD,
+  [107.35, 20.45],
+  [107.85, 19.35],
+  [108.45, 18.10],
+  [110.30, 17.85],
+  [112.40, 19.60],
+  [113.85, 21.65],
+  HONG_KONG_COORD,
+] as const;
+
+const FEEDER_TO_SGP = [
+  HAI_PHONG_COORD,
+  [107.60, 19.65],
+  [109.40, 17.10],
+  [110.65, 14.20],
+  [110.35, 10.60],
+  [108.15, 7.10],
+  [105.35, 3.20],
+  [104.25, 1.32],
+  SINGAPORE_COORD,
+] as const;
+
+const MOTHER_FROM_HK = [
+  HONG_KONG_COORD,
+  [116.20, 21.65],
+  [119.20, 21.30],
+  [121.35, 21.45],
+  [124.50, 21.85],
+] as const;
+
+const MOTHER_FROM_SGP = [
+  SINGAPORE_COORD,
+  [103.50, 1.18],
+  [102.25, 1.82],
+  [100.95, 2.85],
+  [99.65, 4.25],
+  [97.80, 5.65],
+  [95.20, 6.25],
+] as const;
 
 export const Scene05SingaporeDetour: React.FC = () => {
   const frame = useCurrentFrame();
@@ -60,7 +96,7 @@ export const Scene05SingaporeDetour: React.FC = () => {
             coords={FEEDER_TO_HK}
             box={box}
             project={project}
-            maxAltitudeZ={95}
+            maxAltitudeZ={56}
             reveal={feederProgress}
             color={PALETTE.amberBright}
             capsuleProgress={interpolate(progress, [0.06, 0.85], [0.1, 0.94], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
@@ -69,7 +105,7 @@ export const Scene05SingaporeDetour: React.FC = () => {
             coords={FEEDER_TO_SGP}
             box={box}
             project={project}
-            maxAltitudeZ={160}
+            maxAltitudeZ={68}
             reveal={feederProgress}
             color={PALETTE.amberBright}
             capsuleProgress={interpolate(progress, [0.06, 0.92], [0.08, 0.94], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
@@ -79,7 +115,7 @@ export const Scene05SingaporeDetour: React.FC = () => {
             coords={MOTHER_FROM_HK}
             box={box}
             project={project}
-            maxAltitudeZ={92}
+            maxAltitudeZ={58}
             reveal={motherProgress}
             color={PALETTE.tealDeep}
             capsuleProgress={Math.min(0.95, motherProgress * 1.12 + 0.16)}
@@ -89,7 +125,7 @@ export const Scene05SingaporeDetour: React.FC = () => {
             coords={MOTHER_FROM_SGP}
             box={box}
             project={project}
-            maxAltitudeZ={115}
+            maxAltitudeZ={58}
             reveal={motherProgress}
             color={PALETTE.tealDeep}
             capsuleProgress={motherProgress}

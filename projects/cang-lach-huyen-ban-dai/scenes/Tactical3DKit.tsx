@@ -545,25 +545,32 @@ export const Bridge3DExtrusion: React.FC<{
   const deckPts: [number, number][] = [];
 
   for (let i = 0; i <= limit; i++) {
+    const u = i / Math.max(1, pierCount - 1);
+    const ramp = u <= 0.16 ? u / 0.16 : u >= 0.84 ? (1 - u) / 0.16 : 1;
+    const zHere = 2 + (deckZ - 2) * Math.sin((Math.min(1, Math.max(0, ramp)) * Math.PI) / 2);
     const [gx, gy] = lonLatToScreen(box, ptsGeo[i], 1920, 1080);
     const [bx, by] = project(gx, gy, 0);
-    const [sx, sy] = project(gx + 8, gy + 12, 0);
-    const [dx, dy] = project(gx, gy, deckZ);
+    const [sx, sy] = project(gx + 6, gy + 9, 0);
+    const [dx, dy] = project(gx, gy, zHere);
     basePts.push([bx, by]);
     shadowPts.push([sx, sy]);
     deckPts.push([dx, dy]);
   }
 
-  const shadowD = shadowPts.map((p, i) => `${i === 0 ? "M" : "L"}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(" ");
+  const waterShadows = shadowPts.slice(1, Math.max(2, shadowPts.length - 1));
+  const shadowD = waterShadows.map((p, i) => `${i === 0 ? "M" : "L"}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(" ");
   const deckD = deckPts.map((p, i) => `${i === 0 ? "M" : "L"}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(" ");
 
   return (
     <svg width={1920} height={1080} style={{ position: "absolute", inset: 0, pointerEvents: "none" }}>
       {/* Cast shadow on estuary water */}
-      <path d={shadowD} fill="none" stroke="rgba(2, 6, 17, 0.78)" strokeWidth={11} strokeLinecap="round" />
+      {waterShadows.length >= 2 && (
+        <path d={shadowD} fill="none" stroke="rgba(2, 6, 17, 0.78)" strokeWidth={11} strokeLinecap="round" />
+      )}
 
-      {/* Vertical 3D Bridge Piers rising out of Nam Trieu mouth */}
+      {/* Vertical 3D Bridge Piers rising out of Nam Trieu mouth (skipping onshore touchdown abutments) */}
       {deckPts.map((dp, i) => {
+        if (i === 0 || i === pierCount - 1) return null;
         const bp = basePts[i];
         return (
           <g key={i}>

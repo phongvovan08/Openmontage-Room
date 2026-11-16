@@ -14,8 +14,8 @@ import { EvidencePhotoCard } from "./EvidencePhotoCard";
 import { HaiPhongEstuaryLayer, HydroGraticule, RealSatelliteBasemap } from "./HydroBaseLayers";
 import { Camera3DSpec, createProjector3D, Extruded3DPolygon, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
-const NAM_DO_SON_CENTER = [106.818, 20.656] as const;
-const BERTH_7_8_CENTER = [106.921, 20.770] as const;
+const NAM_DO_SON_CENTER = [106.774, 20.674] as const;
+const BERTH_7_8_CENTER = [106.9183, 20.7774] as const;
 
 export const Scene17Berths78NamDoSon1579: React.FC = () => {
   const frame = useCurrentFrame();
@@ -72,7 +72,7 @@ export const Scene17Berths78NamDoSon1579: React.FC = () => {
           <Extruded3DPolygon coords={NAM_DO_SON_ZONE} box={box} project={project} heightZ={24} fillTop="rgba(250, 204, 21, 0.22)" fillSide="rgba(180, 83, 9, 0.45)" strokeColor="#FACC15" dashed opacity={ndsIn} />
 
           <Pin3DStalk gx={b16X} gy={b16Y} stalkZ={198} project={project} color={PALETTE.tealDeep} kicker="● ĐANG KHAI THÁC" title="Bến 1–6 Lạch Huyện" metric="2,4 km • 4,7 triệu TEU" reveal={opIn} pulsePhase={pulse} align="left" cardWidth={302} />
-          <Pin3DStalk gx={b78X} gy={b78Y} stalkZ={104} project={project} color="#FACC15" kicker="◌ ĐANG CHUẨN BỊ TRIỂN KHAI" title="Bến số 7 & số 8" metric="Dài 900 m • ~1,9 triệu TEU" reveal={b78In} pulsePhase={(pulse + 0.4) % 1} align="right" cardWidth={318} />
+          <Pin3DStalk gx={b78X} gy={b78Y} stalkZ={64} project={project} color="#FACC15" kicker="◌ ĐANG CHUẨN BỊ TRIỂN KHAI" title="Bến số 7 & số 8" metric="Dài 900 m • ~1,9 triệu TEU" reveal={b78In} pulsePhase={(pulse + 0.4) % 1} align="right" cardWidth={318} />
           <Pin3DStalk gx={ndsX} gy={ndsY} stalkZ={136} project={project} color="#FACC15" kicker="◌ CỰC TĂNG TRƯỞNG MỚI" title="Khu bến Nam Đồ Sơn" sub="Mở rộng không gian cảng biển Hải Phòng" reveal={ndsIn} pulsePhase={(pulse + 0.7) % 1} align="left" cardWidth={324} />
 
           <div

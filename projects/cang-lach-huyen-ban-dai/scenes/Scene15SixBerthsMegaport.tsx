@@ -58,9 +58,9 @@ export const Scene15SixBerthsMegaport: React.FC = () => {
     extrapolateRight: "clamp",
   });
 
-  const [b12X, b12Y] = lonLatToScreen(box, [106.903, 20.798], width, height);
-  const [b34X, b34Y] = lonLatToScreen(box, [106.909, 20.789], width, height);
-  const [b56X, b56Y] = lonLatToScreen(box, [106.915, 20.780], width, height);
+  const [b12X, b12Y] = lonLatToScreen(box, [106.9055, 20.7983], width, height);
+  const [b34X, b34Y] = lonLatToScreen(box, [106.9095, 20.7919], width, height);
+  const [b56X, b56Y] = lonLatToScreen(box, [106.9139, 20.7848], width, height);
   const pulse = (frame % 42) / 42;
   const outboundProg = Math.max(0, Math.min(1, (progress - 0.36) * 1.55));
 

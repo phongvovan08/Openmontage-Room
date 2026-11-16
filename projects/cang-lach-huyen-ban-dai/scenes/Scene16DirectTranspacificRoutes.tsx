@@ -9,9 +9,46 @@ import { EvidencePhotoCard } from "./EvidencePhotoCard";
 import { HydroGraticule, NationalWorldLayer } from "./HydroBaseLayers";
 import { Arc3DRoute, Camera3DSpec, createProjector3D, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
-const LH_TO_US_WEST = [ANCHORS.benLachHuyen, [114.8, 21.8], [124.0, 26.2], [133.5, 31.0]] as const;
-const LH_TO_EU = [ANCHORS.benLachHuyen, [109.5, 16.5], [106.2, 6.2], [95.0, 4.8]] as const;
-const OLD_SGP_DETOUR = [ANCHORS.benLachHuyen, [108.6, 16.2], [107.0, 7.4], SINGAPORE_COORD] as const;
+const LH_TO_US_WEST = [
+  ANCHORS.benLachHuyen,
+  [107.60, 19.75],
+  [108.55, 17.50],
+  [110.65, 17.25],
+  [114.60, 18.85],
+  [118.40, 20.45],
+  [121.00, 21.05],
+  [125.50, 21.65],
+  [132.80, 22.75],
+] as const;
+
+const LH_TO_EU = [
+  ANCHORS.benLachHuyen,
+  [107.60, 19.65],
+  [109.40, 17.10],
+  [110.65, 14.20],
+  [110.35, 10.60],
+  [108.15, 7.10],
+  [105.35, 3.20],
+  [104.35, 1.32],
+  [103.65, 1.16],
+  [102.25, 1.82],
+  [100.95, 2.85],
+  [99.65, 4.25],
+  [97.80, 5.65],
+  [95.20, 6.25],
+] as const;
+
+const OLD_SGP_DETOUR = [
+  ANCHORS.benLachHuyen,
+  [107.60, 19.65],
+  [109.40, 17.10],
+  [110.65, 14.20],
+  [110.35, 10.60],
+  [108.15, 7.10],
+  [105.35, 3.20],
+  [104.25, 1.32],
+  SINGAPORE_COORD,
+] as const;
 
 export const Scene16DirectTranspacificRoutes: React.FC = () => {
   const frame = useCurrentFrame();
@@ -38,8 +75,8 @@ export const Scene16DirectTranspacificRoutes: React.FC = () => {
   const cardIn = spring({ frame: frame - Math.round(durationInFrames * 0.24), fps, config: { damping: 18, stiffness: 135 } });
 
   const [lhX, lhY] = lonLatToScreen(box, ANCHORS.benLachHuyen, width, height);
-  const [usX, usY] = lonLatToScreen(box, [132.0, 29.8], width, height);
-  const [euX, euY] = lonLatToScreen(box, [95.5, 5.2], width, height);
+  const [usX, usY] = lonLatToScreen(box, [131.8, 22.65], width, height);
+  const [euX, euY] = lonLatToScreen(box, [97.8, 5.65], width, height);
   const pulse = (frame % 42) / 42;
 
   return (
@@ -57,7 +94,7 @@ export const Scene16DirectTranspacificRoutes: React.FC = () => {
         <>
           {/* Dimmed old Singapore Detour Arc being replaced */}
           <g opacity={oldFade}>
-            <Arc3DRoute coords={OLD_SGP_DETOUR} box={box} project={project} maxAltitudeZ={100} reveal={1} color={PALETTE.coralWarn} />
+            <Arc3DRoute coords={OLD_SGP_DETOUR} box={box} project={project} maxAltitudeZ={20} reveal={1} color={PALETTE.coralWarn} />
           </g>
 
           {/* Direct Trans-Pacific & Europe Master Routes from Cát Hải */}
@@ -65,17 +102,17 @@ export const Scene16DirectTranspacificRoutes: React.FC = () => {
             coords={LH_TO_US_WEST}
             box={box}
             project={project}
-            maxAltitudeZ={155}
+            maxAltitudeZ={28}
             reveal={usDraw}
             color={PALETTE.tealDeep}
-            capsuleProgress={interpolate(progress, [0.14, 0.94], [0.06, 0.56], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
+            capsuleProgress={interpolate(progress, [0.14, 0.94], [0.08, 0.50], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
             capsuleLabel="ĐI THẲNG BỜ TÂY / ĐÔNG MỸ"
           />
           <Arc3DRoute
             coords={LH_TO_EU}
             box={box}
             project={project}
-            maxAltitudeZ={130}
+            maxAltitudeZ={26}
             reveal={euDraw}
             color="#38BDF8"
             capsuleProgress={interpolate(progress, [0.24, 0.94], [0.06, 0.94], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
@@ -95,8 +132,8 @@ export const Scene16DirectTranspacificRoutes: React.FC = () => {
             align="left"
             cardWidth={342}
           />
-          <Pin3DStalk gx={usX} gy={usY} stalkZ={124} project={project} color={PALETTE.tealDeep} kicker="XUYÊN THÁI BÌNH DƯƠNG" title="Bờ Tây & Bờ Đông Mỹ" reveal={usDraw} pulsePhase={(pulse + 0.3) % 1} align="left" cardWidth={268} />
-          <Pin3DStalk gx={euX} gy={euY} stalkZ={96} project={project} color="#38BDF8" kicker="QUA KÊNH ĐÀO SUEZ" title="Thị trường châu Âu" reveal={euDraw} pulsePhase={(pulse + 0.65) % 1} align="right" cardWidth={256} />
+          <Pin3DStalk gx={usX} gy={usY} stalkZ={92} project={project} color={PALETTE.tealDeep} kicker="QUA EO LUZON • VƯỢT THÁI BÌNH DƯƠNG" title="Hướng thẳng Bờ Tây &amp; Đông Mỹ" reveal={usDraw} pulsePhase={(pulse + 0.3) % 1} align="left" cardWidth={292} />
+          <Pin3DStalk gx={euX} gy={euY} stalkZ={88} project={project} color="#38BDF8" kicker="QUA EO MALACCA &amp; KÊNH SUEZ" title="Hướng thẳng châu Âu" reveal={euDraw} pulsePhase={(pulse + 0.65) % 1} align="right" cardWidth={268} />
 
           {/* Top-Left Summary Header */}
           <div

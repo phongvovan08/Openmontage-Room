@@ -7,7 +7,14 @@ import { FONTS, PALETTE, SAFE_X } from "../theme";
 import { HydroGraticule, NationalWorldLayer } from "./HydroBaseLayers";
 import { Arc3DRoute, Camera3DSpec, createProjector3D, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
-const GRAND_VISION_ARC = [ANCHORS.benLachHuyen, [112.5, 19.5], [118.2, 20.8]] as const;
+const GRAND_VISION_ARC = [
+  ANCHORS.benLachHuyen,
+  [107.60, 19.65],
+  [108.60, 17.35],
+  [110.85, 17.15],
+  [115.00, 18.65],
+  [120.80, 20.35],
+] as const;
 
 export const Scene19GrandFinale150Years: React.FC = () => {
   const frame = useCurrentFrame();
@@ -57,7 +64,7 @@ export const Scene19GrandFinale150Years: React.FC = () => {
             coords={GRAND_VISION_ARC}
             box={box}
             project={project}
-            maxAltitudeZ={125}
+            maxAltitudeZ={24}
             reveal={Math.min(1, progress * 1.6)}
             color={PALETTE.tealDeep}
             capsuleProgress={interpolate(progress, [0.10, 0.94], [0.05, 0.94], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}

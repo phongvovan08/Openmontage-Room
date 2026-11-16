@@ -19,7 +19,7 @@ export const Scene07HaNamCanal1904: React.FC = () => {
     width / height
   );
   const macroCanalBox = boxOfBounds(
-    { west: 106.775, east: 106.890, south: 20.775, north: 20.842 },
+    { west: 106.785, east: 106.920, south: 20.780, north: 20.848 },
     0.03,
     width / height
   );

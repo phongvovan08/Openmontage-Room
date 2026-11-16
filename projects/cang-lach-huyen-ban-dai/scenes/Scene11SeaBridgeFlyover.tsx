@@ -2,6 +2,7 @@ import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import {
   ANCHORS,
+  BACH_DANG_LINE,
   BREAKWATER_NE,
   LUONG_LACH_HUYEN,
   SAND_DIKE_SW,
@@ -29,7 +30,7 @@ export const Scene11SeaBridgeFlyover: React.FC = () => {
     width / height
   );
   const macroBridgeBox = boxOfBounds(
-    { west: 106.765, east: 106.900, south: 20.765, north: 20.842 },
+    { west: 106.805, east: 106.888, south: 20.784, north: 20.832 },
     0.03,
     width / height
   );
@@ -69,14 +70,14 @@ export const Scene11SeaBridgeFlyover: React.FC = () => {
   const dikeLen = screenPolylineLength(box, SAND_DIKE_SW, width, height);
 
   const [tvX, tvY] = lonLatToScreen(box, ANCHORS.nutTanVu, width, height);
-  const [brMidX, brMidY] = lonLatToScreen(box, [106.8214, 20.8065], width, height);
+  const [brMidX, brMidY] = lonLatToScreen(box, [106.8390, 20.80689], width, height);
   const [lhX, lhY] = lonLatToScreen(box, ANCHORS.benLachHuyen, width, height);
   const [p0X, p0Y] = lonLatToScreen(box, ANCHORS.phaoSo0, width, height);
   const [dikeMidX, dikeMidY] = lonLatToScreen(box, [106.94, 20.738], width, height);
 
   const [tv2dX, tv2dY] = project(tvX, tvY, 0);
   const [dk2dX, dk2dY] = project(dikeMidX, dikeMidY, 0);
-  const [brDeckX, brDeckY] = project(brMidX, brMidY, 38);
+  const [brDeckX, brDeckY] = project(brMidX, brMidY, 26);
 
   const pulse = (frame % 42) / 42;
   const inboundShipProg = interpolate(progress, [0.30, 0.96], [0.08, 0.94], {
@@ -93,9 +94,11 @@ export const Scene11SeaBridgeFlyover: React.FC = () => {
         <>
           <RealSatelliteBasemap box={box} width={width} height={height} dim={0.02} showAttribution={false} />
           <HydroGraticule box={box} lonStep={0.05} latStep={0.05} lonRange={[106.65, 107.2]} latRange={[20.55, 20.96]} width={width} height={height} />
-          <HaiPhongEstuaryLayer box={box} width={width} height={height} siltOpacity={0.30} showSatellite={false} />
+          <HaiPhongEstuaryLayer box={box} width={width} height={height} siltOpacity={0.12} showSatellite={false} />
 
           <svg width={width} height={height} style={{ position: "absolute", inset: 0, overflow: "visible" }}>
+            <path d={coordsToScreenPath(box, BACH_DANG_LINE.slice(5), false, width, height)} fill="none" stroke="rgba(56, 189, 248, 0.42)" strokeWidth={14} strokeLinecap="round" />
+            <path d={coordsToScreenPath(box, BACH_DANG_LINE.slice(5), false, width, height)} fill="none" stroke="#38BDF8" strokeWidth={2.5} strokeDasharray="8 6" strokeLinecap="round" />
             <path
               d={coordsToScreenPath(box, TAN_VU_FULL_ROUTE, false, width, height)}
               fill="none"
@@ -154,18 +157,20 @@ export const Scene11SeaBridgeFlyover: React.FC = () => {
             coords={TAN_VU_SEA_BRIDGE}
             box={box}
             project={project}
-            deckZ={38}
-            pierCount={18}
+            deckZ={26}
+            pierCount={13}
             reveal={route1Draw}
             deckColor="#FFFFFF"
             glowColor={PALETTE.tealDeep}
           />
 
           <svg width={width} height={height} style={{ position: "absolute", inset: 0, pointerEvents: "none" }}>
-            <circle cx={tv2dX} cy={tv2dY} r={6} fill={PALETTE.tealDeep} stroke="#FFFFFF" strokeWidth={2} />
-            <text x={tv2dX - 14} y={tv2dY + 6} textAnchor="end" fill="#FFFFFF" stroke="#020611" strokeWidth={4} paintOrder="stroke" fontFamily={FONTS.sans} fontSize={16} fontWeight={700}>
-              Nút Tân Vũ (Đình Vũ)
-            </text>
+            <g opacity={Math.max(0, 1 - zoomInT * 1.4) + zoomOutT * 0.8}>
+              <circle cx={tv2dX} cy={tv2dY} r={6} fill={PALETTE.tealDeep} stroke="#FFFFFF" strokeWidth={2} />
+              <text x={tv2dX - 14} y={tv2dY + 6} textAnchor="end" fill="#FFFFFF" stroke="#020611" strokeWidth={4} paintOrder="stroke" fontFamily={FONTS.sans} fontSize={16} fontWeight={700}>
+                Nút Tân Vũ (Đình Vũ)
+              </text>
+            </g>
             {route2Draw > 0.75 && (
               <text x={dk2dX - 20} y={dk2dY + 12} textAnchor="end" fill="#FDE047" stroke="#020611" strokeWidth={4} paintOrder="stroke" fontFamily={FONTS.sans} fontSize={16.5} fontWeight={800}>
                 Đê chắn cát ngăn bùn phù sa →

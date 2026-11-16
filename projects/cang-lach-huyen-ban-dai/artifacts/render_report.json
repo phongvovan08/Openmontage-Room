@@ -9,14 +9,14 @@
       "resolution": "1920x1080",
       "fps": 30.0,
       "duration_seconds": 590.49,
-      "file_size_bytes": 2030426968,
+      "file_size_bytes": 2024017435,
       "platform_target": "youtube_landscape"
     }
   ],
-  "render_time_seconds": 1643.76,
+  "render_time_seconds": 1521.94,
   "warnings": [],
   "verification_notes": [
-    "Rendered 590.49s @ 30.0fps (2,030,426,968 bytes, CRF 14).",
+    "Rendered 590.49s @ 30.0fps (2,024,017,435 bytes, CRF 14).",
     "Atelier check: stock_reuse_detected=False, art_direction_declared=True.",
     "Transcript accuracy: word_accuracy=1.0, transcript_matches_script=True."
   ],

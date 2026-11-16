@@ -8,17 +8,20 @@ import { MovingVessel } from "./MovingVessel";
 import { Arc3DRoute, Camera3DSpec, createProjector3D, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
 const MAIN_SHIPPING_LANE = [
-  [104.2, 5.8],
-  [108.6, 9.2],
-  [111.2, 13.5],
-  [113.8, 18.2],
-  [117.5, 22.2],
+  [105.10, 3.60],
+  [108.20, 7.20],
+  [110.85, 11.20],
+  [113.55, 15.40],
+  [116.80, 18.90],
+  [121.20, 20.30],
 ] as const;
 
 const BLOCKED_FEEDER_BRANCH = [
-  [111.2, 13.5],
-  [109.8, 17.2],
-  [108.2, 19.6],
+  [113.55, 15.40],
+  [112.60, 14.70],
+  [110.10, 15.40],
+  [108.45, 17.85],
+  [107.65, 19.65],
   [107.35, 20.42],
 ] as const;
 
@@ -60,7 +63,7 @@ export const Scene01ColdOpen: React.FC = () => {
 
   const [hpX, hpY] = lonLatToScreen(box, HAI_PHONG_COORD, width, height);
   const [hnX, hnY] = lonLatToScreen(box, HA_NOI_COORD, width, height);
-  const [gateX, gateY] = lonLatToScreen(box, BLOCKED_FEEDER_BRANCH[3], width, height);
+  const [gateX, gateY] = lonLatToScreen(box, BLOCKED_FEEDER_BRANCH[5], width, height);
   const [eastSeaX, eastSeaY] = lonLatToScreen(box, [111.8, 13.2], width, height);
   const [hn2dX, hn2dY] = project(hnX, hnY, 0);
 
@@ -173,7 +176,7 @@ export const Scene01ColdOpen: React.FC = () => {
             coords={BLOCKED_FEEDER_BRANCH}
             box={box}
             project={project}
-            maxAltitudeZ={108}
+            maxAltitudeZ={68}
             reveal={branchDraw}
             color={PALETTE.coralWarn}
             capsuleProgress={branchDraw > 0.2 ? Math.min(0.95, (progress - 0.16) * 2.1) : undefined}

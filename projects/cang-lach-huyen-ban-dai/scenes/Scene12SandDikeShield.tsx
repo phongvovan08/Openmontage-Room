@@ -9,9 +9,9 @@ import { HaiPhongEstuaryLayer, HydroGraticule, RealSatelliteBasemap } from "./Hy
 import { Camera3DSpec, createProjector3D, Pin3DStalk, Tactical3DStage } from "./Tactical3DKit";
 
 const SILT_DEFLECTION_ARROWS: readonly (readonly [readonly [number, number], readonly [number, number], readonly [number, number]])[] = [
-  [[106.875, 20.772], [106.912, 20.758], [106.895, 20.728]],
-  [[106.888, 20.756], [106.925, 20.742], [106.908, 20.708]],
-  [[106.902, 20.738], [106.940, 20.722], [106.922, 20.688]],
+  [[106.882, 20.778], [106.906, 20.772], [106.894, 20.744]],
+  [[106.895, 20.762], [106.920, 20.756], [106.908, 20.728]],
+  [[106.908, 20.746], [106.934, 20.740], [106.920, 20.712]],
 ];
 
 export const Scene12SandDikeShield: React.FC = () => {
@@ -25,7 +25,7 @@ export const Scene12SandDikeShield: React.FC = () => {
     width / height
   );
   const macroShieldBox = boxOfBounds(
-    { west: 106.885, east: 107.000, south: 20.705, north: 20.785 },
+    { west: 106.890, east: 106.985, south: 20.720, north: 20.798 },
     0.03,
     width / height
   );
@@ -54,8 +54,8 @@ export const Scene12SandDikeShield: React.FC = () => {
   const dikeLen = screenPolylineLength(box, SAND_DIKE_SW, width, height);
   const bwLen = screenPolylineLength(box, BREAKWATER_NE, width, height);
 
-  const [dkX, dkY] = lonLatToScreen(box, [106.942, 20.736], width, height);
-  const [bwX, bwY] = lonLatToScreen(box, [106.944, 20.761], width, height);
+  const [dkX, dkY] = lonLatToScreen(box, [106.926, 20.761], width, height);
+  const [bwX, bwY] = lonLatToScreen(box, [106.9385, 20.7705], width, height);
   const pulse = (frame % 42) / 42;
   const siltFlow = ((frame % 54) / 54);
 

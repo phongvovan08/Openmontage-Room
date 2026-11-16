@@ -105,3 +105,24 @@ Bắt buộc tuân thủ đủ 4 quy tắc kỹ thuật sau để bản đồ ng
    - Đặt `"concurrency": 4` và `"crf": 14` trong `edit_decisions.json["bespoke"]`.
    - Luôn chụp `renderStill` cả khung rộng lẫn khung zoom cận cảnh (`CHUNK = 8` mỗi browser session) và mở kiểm tra 100% bằng `read_file` trước khi chạy `VideoCompose` và sau khi xuất `final.mp4`.
    - Với các tập dài nhiều cảnh hoặc khi mở văn bản gốc trên cổng Chính phủ nặng JavaScript (`vanban.chinhphu.vn`, `vbpl.vn`) / kiểm tra va chạm khung chữ trên `Remotion Studio`, kết hợp plugin `chrome-devtools` (`take_snapshot`, `get_css_styles`, `evaluate_script` đo `getBoundingClientRect()`).
+
+---
+
+## 6. Quy Chuẩn Kiểm Chứng Tọa Độ & Chống Cắt Đất Liền Khi Kẻ Tuyến (`Cartographic Polyline & Land-Collision QA`)
+
+Cấm tuyệt đối việc tự ước lượng `3–4` điểm nối thẳng cho tuyến hàng hải, đường sông, kênh đào, cầu, đường sắt, đê hay bến cảng. Mọi tập bản đồ bắt buộc phải vượt qua cổng kiểm chứng hình học sau trước khi render:
+
+1. **Lấy Tọa Độ Gốc Từ OpenStreetMap & Soi Pixel Vệ Tinh `z14`:**
+   - Truy vấn tọa độ hình học thực tế qua `https://api.openstreetmap.org/api/0.6/map.json?bbox=...` hoặc Nominatim (`polygon_geojson=1`) cho mọi con sông, kênh đào, tuyến cao tốc/đường sắt, đê chắn cát và ranh giới bến cảng.
+   - Luôn đối chiếu đường bờ trên **ảnh vệ tinh `2024 z14` mới nhất** để tách riêng đoạn cầu cạn/đường dẫn trên đất lấn biển sau xây dựng (như KCN Nam Đình Vũ `2018–2024`) với nhịp `Bridge3DExtrusion` thực sự bắc qua mặt nước mở.
+   - Luôn xuất ảnh kiểm tra `debug_z14_local_polylines.png` phủ thẳng nét kẻ lên mảnh ghép `*_z14_ready.webp` và soi `100%` qua `read_file` để bảo đảm rãnh kênh, mặt cầu và cầu cảng nằm khít từng mét lên địa hình thật.
+2. **Cổng Toán Học Chống Cắt Đất Liền ([scripts/verify_polylines.py](./scripts/verify_polylines.py)):**
+   - Chạy bắt buộc `python .agents/skills/vietnam-map-explainer/scripts/verify_polylines.py projects/<project-id> --debug-dir ...` và yêu cầu thoát mã `0` (`0` vi phạm):
+     - **Tuyến hàng hải `0` va chạm đất liền:** Khi nội suy `N = 400` điểm dọc tuyến, **0 điểm** được cắt ngang đất liền hay bán đảo (bán đảo Lôi Châu, đảo Hải Nam, eo biển Đài Loan / Kênh Bashi – eo Luzon, mũi Đôi miền Trung `109.47°E`, bán đảo Malaysia – eo biển Malacca, đảo Sumatra, Okinawa/Kyushu).
+     - **Khoảng cách chủ quyền đảo:** Mọi tuyến tàu biển phải giữ khoảng cách an toàn `>= 0.30°` khỏi các chấm đảo thuộc `HOANG_SA_ISLANDS` và `TRUONG_SA_ISLANDS`.
+     - **Luồng thủy/đường sắt cục bộ:** Kênh đào và luồng tàu không được cắt ngang đa giác đảo OSM; nhánh đường sắt ven biển phải dừng sạch trên ranh giới bến/đất liền, tuyệt đối không lao thẳng ra biển hở.
+3. **Kỷ Luật Độ Cao Vòng Cung 3D & Ghim Cửa Ngõ Đại Dương:**
+   - Với `Arc3DRoute` uốn lượn qua nhiều eo biển (Malacca, Luzon, quanh Hải Nam), giới hạn `maxAltitudeZ <= 72` để phép nâng trục `Z` 3D không bẻ cong nét bay trên màn hình tràn sang đất liền phía Bắc.
+   - Không đặt ghim chỉ hướng đại lục (như *Đi Mỹ*, *Đi châu Âu*) đè lên lãnh thổ một quốc gia/đảo khác trên bản đồ (ví dụ đặt ghim đi Mỹ lên đảo Nhật Bản); phải đặt ghim cửa ngõ ngay trên vùng biển mở kèm nhãn hướng tuyến rõ ràng.
+4. **Soi 100% PNG Still Các Góc Rộng, Zoom Đỉnh & Mốc Thời Gian Trọng Điểm:**
+   - Chụp đủ ảnh `renderStill` mọi cảnh bản đồ trước khi chạy `VideoCompose` và đọc kiểm tra `100%` bằng `read_file` để xác nhận cả đường nét chính xác lẫn `0%` đè chữ/thẻ nổi.
