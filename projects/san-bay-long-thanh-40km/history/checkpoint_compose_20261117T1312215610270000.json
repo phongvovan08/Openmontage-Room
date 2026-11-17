@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "project_id": "san-bay-long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "compose",
+  "status": "completed",
+  "timestamp": "2026-11-17T13:12:21.561027+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": true,
+  "artifacts": {
+    "render_report": {
+      "version": "1.0",
+      "outputs": [
+        {
+          "path": "projects/san-bay-long-thanh-40km/renders/final.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "audio_codec": "aac",
+          "resolution": "1920x1080",
+          "fps": 30.0,
+          "duration_seconds": 668.27,
+          "file_size_bytes": 3560474673,
+          "platform_target": "youtube_landscape"
+        }
+      ],
+      "render_time_seconds": 1301.1,
+      "warnings": [],
+      "verification_notes": [
+        "Rendered 668.27s @ 30.0fps (3,560,474,673 bytes, CRF 14 video stream preserved via -c:v copy).",
+        "Audio remixed via selective v2 Foley + gentle 96 BPM pulse (45 essential cues across 20 scenes, speech-priority ducked).",
+        "Atelier check: stock_reuse_detected=False, art_direction_declared=True.",
+        "Transcript accuracy: word_accuracy=1.0, transcript_matches_script=True."
+      ],
+      "render_grammar": "explainer-data",
+      "slideshow_risk_score": {
+        "average": 0.0,
+        "verdict": "strong"
+      }
+    },
+    "final_review": {
+      "version": "1.0",
+      "output_path": "c:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\final.mp4",
+      "status": "pass",
+      "checks": {
+        "technical_probe": {
+          "valid_container": true,
+          "duration_seconds": 668.27,
+          "resolution": "1920x1080",
+          "fps": 30.0,
+          "has_audio": true,
+          "codec": "h264",
+          "file_size_bytes": 3560474673,
+          "issues": [],
+          "target_duration": 668.27,
+          "duration_drift_pct": 0.0
+        },
+        "visual_spotcheck": {
+          "frames_sampled": 4,
+          "frame_paths": [
+            "c:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\.final_review_frames\\review_frame_0.png",
+            "c:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\.final_review_frames\\review_frame_1.png",
+            "c:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\.final_review_frames\\review_frame_2.png",
+            "c:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\.final_review_frames\\review_frame_3.png"
+          ],
+          "black_frames_detected": false,
+          "broken_overlays": false,
+          "missing_assets": false,
+          "unreadable_text": false,
+          "issues": []
+        },
+        "audio_spotcheck": {
+          "narration_present": true,
+          "music_present": true,
+          "unexpected_silence": false,
+          "clipping_detected": false,
+          "mix_intelligible": true,
+          "issues": []
+        },
+        "promise_preservation": {
+          "delivery_promise_honored": true,
+          "silent_downgrade_detected": false,
+          "runtime_swap_detected": false,
+          "issues": [],
+          "renderer_family_used": "explainer-data",
+          "render_runtime_used": "remotion",
+          "runtime_swap_check": "ok \u2014 proposal and edit agree (proposal_packet.production_plan.render_runtime)"
+        },
+        "subtitle_check": {
+          "subtitles_expected": false,
+          "subtitles_present": false,
+          "issues": []
+        },
+        "transcript_comparison": {
+          "transcript_matches_script": true,
+          "word_accuracy": 1.0,
+          "script_word_count": 2713,
+          "transcript_word_count": 2713,
+          "spurious_punctuation_words": [],
+          "issues": []
+        },
+        "atelier": {
+          "stock_reuse_detected": false,
+          "offending_imports": [],
+          "art_direction_declared": true,
+          "art_direction": "projects/san-bay-long-thanh-40km/art-direction.md",
+          "issues": []
+        }
+      },
+      "issues_found": [],
+      "recommended_action": "present_to_user"
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "passed": true,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "notes": [
+      "Rendered 668.27s @ 30.0fps (3,560,474,673 bytes, CRF 14 video stream preserved via -c:v copy).",
+      "Audio remixed via selective v2 Foley + gentle 96 BPM pulse (45 essential cues across 20 scenes, speech-priority ducked).",
+      "Atelier check: stock_reuse_detected=False, art_direction_declared=True.",
+      "Transcript accuracy: word_accuracy=1.0, transcript_matches_script=True."
+    ]
+  },
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "version": "1.0",
+  "project_id": "san-bay-long-thanh-40km",
+  "decisions": [
+    {
+      "decision_id": "d-001",
+      "stage": "proposal",
+      "category": "pipeline_selection",
+      "subject": "Pipeline cho Tập dài số 2: Sân bay Long Thành 40km",
+      "options_considered": [
+        {
+          "option_id": "animated-explainer",
+          "label": "Animated Explainer Pipeline",
+          "score": 0.98,
+          "reason": "Tối ưu cho phim tài liệu giải mã địa lý bằng bản đồ 3D và sơ đồ tỷ lệ thực."
+        },
+        {
+          "option_id": "documentary-montage",
+          "label": "Documentary Montage",
+          "score": 0.3,
+          "reason": "Thiên về cắt ghép video quay thật.",
+          "rejected_because": "Kênh đã khóa hướng 100% bản đồ, sơ đồ code và ảnh thực địa tĩnh."
+        }
+      ],
+      "selected": "animated-explainer",
+      "reason": "Đề xuất dùng animated-explainer nhất quán với Tập 1.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-002",
+      "stage": "proposal",
+      "category": "concept_selection",
+      "subject": "Chọn hướng kịch bản và thời lượng cho Tập 2 Sân bay Long Thành",
+      "options_considered": [
+        {
+          "option_id": "c1",
+          "label": "Bản chuẩn ~11 phút (5 Chương: 365m -> Phễu đô thị -> Bài toán 40km -> 791ha vs 5.000ha -> Đường sắt 20 phút)",
+          "score": 0.97,
+          "reason": "Trả lời trọn vẹn câu hỏi vì sao, có chiều sâu kỹ thuật & giữ chân tốt."
+        },
+        {
+          "option_id": "c2",
+          "label": "Mở rộng ~12.5 phút (So sánh hub khu vực Changi – Suvarnabhumi)",
+          "score": 0.84,
+          "reason": "Góc nhìn quốc tế rộng hơn nhưng phân tán khỏi trọng tâm 40 km.",
+          "rejected_because": "Đề xuất ưu tiên c1 để giữ sự tập trung; chờ người dùng chọn."
+        },
+        {
+          "option_id": "c3",
+          "label": "Cô đọng ~9.5 phút (Phản biện 3 hiểu lầm phổ biến)",
+          "score": 0.8,
+          "reason": "Nhịp nhanh hơn.",
+          "rejected_because": "Ít đất diễn cho giải phẫu địa chất Bình Sơn và mạng cao tốc/đường sắt."
+        }
+      ],
+      "selected": "c1",
+      "reason": "Khuyến nghị c1 (~11 phút, 5 Chương trọn vẹn), đang chờ người dùng duyệt.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.96
+    },
+    {
+      "decision_id": "d-003",
+      "stage": "proposal",
+      "category": "render_runtime_selection",
+      "subject": "Chọn Composition Runtime (Remotion vs HyperFrames vs FFmpeg)",
+      "options_considered": [
+        {
+          "option_id": "remotion",
+          "label": "Remotion (React + SVG + CSS 3D)",
+          "score": 0.97,
+          "reason": "Hỗ trợ tốt nhất cho chuỗi React map 3D, phụ đề từng từ 0px jitter và vệ tinh z14."
+        },
+        {
+          "option_id": "hyperframes",
+          "label": "HyperFrames (HTML/CSS/GSAP)",
+          "score": 0.65,
+          "reason": "Khả dụng trên máy, mạnh cho kinetic typography HTML/GSAP.",
+          "rejected_because": "Chưa có sẵn module phụ đề từng từ & phép chiếu Mercator 3D như Remotion; trình bày để người dùng quyết định."
+        },
+        {
+          "option_id": "ffmpeg",
+          "label": "FFmpeg concat/trim",
+          "score": 0.15,
+          "reason": "Chỉ cắt ghép đơn giản.",
+          "rejected_because": "Không dựng được bản đồ nghiêng 3D hay đồ họa động."
+        }
+      ],
+      "selected": "remotion",
+      "reason": "Khuyến nghị Remotion vì tương thích 100% hệ phụ đề từng từ và kiến trúc bản đồ 3D; chờ người dùng duyệt.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.97
+    },
+    {
+      "decision_id": "d-004",
+      "stage": "proposal",
+      "category": "composition_mode",
+      "subject": "Chọn chế độ tác quyền bố cục (Atelier vs Templated)",
+      "options_considered": [
+        {
+          "option_id": "atelier",
+          "label": "Atelier (Thiết kế thủ công độc bản theo từng cảnh)",
+          "score": 0.98,
+          "reason": "Tạo bản sắc Aviation Radar riêng biệt và bản đồ 3D chính xác."
+        },
+        {
+          "option_id": "templated",
+          "label": "Templated (Lắp ghép mẫu text_card/stat_card có sẵn)",
+          "score": 0.25,
+          "reason": "Nhanh hơn nhưng dễ lặp lại khuôn mẫu.",
+          "rejected_because": "Không dựng được phễu không lưu và mặt cắt đường băng 3D; chờ người dùng duyệt."
+        }
+      ],
+      "selected": "atelier",
+      "reason": "Khuyến nghị Atelier để đạt chất lượng broadcast giải mã bản đồ.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-005",
+      "stage": "proposal",
+      "category": "voice_selection",
+      "subject": "Chọn giọng đọc thuyết minh tiếng Việt",
+      "options_considered": [
+        {
+          "option_id": "vibi_haitrieu",
+          "label": "Vibi TTS — Haitrieu (MiniMax speech-2.8-hd, speed 1.1)",
+          "score": 0.97,
+          "reason": "Khóa đồng bộ theo Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md và phản hồi hài lòng từ Tập 1."
+        },
+        {
+          "option_id": "piper_local",
+          "label": "Piper TTS Local",
+          "score": 0.4,
+          "reason": "Offline miễn phí.",
+          "rejected_because": "Độ tự nhiên tiếng Việt chưa đạt chuẩn broadcast."
+        }
+      ],
+      "selected": "vibi_haitrieu",
+      "reason": "Khuyến nghị giữ nguyên giọng Vibi Haitrieu; chờ xác nhận.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.97
+    },
+    {
+      "decision_id": "d-006",
+      "stage": "proposal",
+      "category": "concept_selection",
+      "subject": "Chọn cặp Tiêu đề & Chữ Thumbnail cho Tập 2 (yt-package)",
+      "options_considered": [
+        {
+          "option_id": "pair_a",
+          "label": "Cặp A (92/100): 'Vì sao sân bay Long Thành phải lùi xa TP.HCM 40km?' | 'KẸT BẦU TRỜI!'",
+          "score": 0.94,
+          "reason": "Trả lời thẳng truy vấn chính trên tiêu đề 50 ký tự, hình ảnh ẩn dụ bầu trời ngắn 3 từ."
+        },
+        {
+          "option_id": "pair_b",
+          "label": "Cặp B (92/100): 'Cách nhau 365m: Nút thắt buộc TP.HCM xây sân bay 40km?' | 'KHÓA ĐƯỜNG BĂNG!'",
+          "score": 0.9,
+          "reason": "Đánh thẳng vào thông số 365 m nhưng khái niệm kỹ thuật khó giải mã nhanh bằng mắt lướt qua hơn Cặp A.",
+          "rejected_because": "Ưu tiên Cặp A để làm biến chính và lưu Cặp B làm biến Test & Compare khi xuất."
+        },
+        {
+          "option_id": "pair_c",
+          "label": "Cặp C (74/100): 'Có nhà ga T3, vì sao vẫn cần siêu sân bay cách 40km?' | 'HẾT CHỖ MỞ RỘNG!'",
+          "score": 0.74,
+          "reason": "Khai thác trực tiếp Nhà ga T3.",
+          "rejected_because": "Chữ thumbnail 4 từ hơi dài cho kích thước feed di động."
+        }
+      ],
+      "selected": "pair_a",
+      "reason": "Khớp từ khóa tìm kiếm chính của Tập 2 và đạt điểm yt-package 92/100 với 3 từ thumbnail.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.94
+    },
+    {
+      "decision_id": "d-007",
+      "stage": "proposal",
+      "category": "music_source",
+      "subject": "Chọn nguồn nhạc nền & SFX cho Tập 2",
+      "options_considered": [
+        {
+          "option_id": "procedural_pulse_3bus",
+          "label": "Procedural Documentary Pulse + 3-Bus Aviation Telemetry SFX (ffmpeg/scipy)",
+          "score": 0.96,
+          "reason": "Khớp đúng nhịp 5 chương 660 giây, có ducking sidechain tách thoại và hoàn toàn sạch Content ID ($0.00)."
+        },
+        {
+          "option_id": "music_library_track",
+          "label": "Chọn nhạc có sẵn trong music_library/",
+          "score": 0.45,
+          "reason": "Không cần tổng hợp nhưng cấu trúc cao trào không đồng bộ với từng cảnh chuyển bản đồ.",
+          "rejected_because": "Không giữ được độ đồng bộ nhịp 20 cảnh như bản phối 3-Bus riêng."
+        }
+      ],
+      "selected": "procedural_pulse_3bus",
+      "reason": "Bảo đảm 100% không bản quyền Content ID và nhịp telemetry hàng không nhất quán.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.96
+    },
+    {
+      "decision_id": "d-008",
+      "stage": "proposal",
+      "category": "renderer_family_selection",
+      "subject": "Chọn họ ngôn ngữ hình ảnh (Renderer Family)",
+      "options_considered": [
+        {
+          "option_id": "explainer-data",
+          "label": "Explainer Data (Bản đồ 3D vệ tinh z14 + Thước đo tỷ lệ 1:1 + Lát cắt địa chất)",
+          "score": 0.98,
+          "reason": "Đúng ngữ pháp điều tra dữ liệu địa lý kinh tế Johnny Harris / Vox của kênh."
+        },
+        {
+          "option_id": "documentary-montage",
+          "label": "Documentary Montage (Ghép footage thực địa là chính)",
+          "score": 0.32,
+          "reason": "Không có nguồn video tự quay thực địa.",
+          "rejected_because": "Quyết định Giai đoạn 0 chỉ dùng bản đồ, sơ đồ code và ảnh tĩnh thực địa CC/PD."
+        }
+      ],
+      "selected": "explainer-data",
+      "reason": "Chính xác cho giải phẫu không lưu 365 m và tọa độ 40 km.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-009",
+      "stage": "proposal",
+      "category": "playbook_selection",
+      "subject": "Chọn Style Playbook nền kèm Taste Profile Aviation Radar",
+      "options_considered": [
+        {
+          "option_id": "clean-professional",
+          "label": "Clean Professional + Custom Aviation Radar Taste Profile",
+          "score": 0.95,
+          "reason": "Giữ độ tin cậy dữ liệu cao, hỗ trợ tương phản nét trên nền vệ tinh EOX z14."
+        },
+        {
+          "option_id": "minimalist-diagram",
+          "label": "Minimalist Diagram (Sơ đồ phẳng trắng tối giản)",
+          "score": 0.7,
+          "reason": "Gọn nhẹ nhưng thiếu chiều sâu 3D vệ tinh cho bài toán không lưu & địa hình.",
+          "rejected_because": "Tập 2 cần độ nghiêng 3D nhìn rõ địa chất Bình Sơn và phễu tiếp cận đô thị."
+        }
+      ],
+      "selected": "clean-professional",
+      "reason": "Kết hợp chuẩn clean-professional với bảng màu radar #030814 / #38BDF8 / #2DD4BF / #F43F5E.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.95
+    },
+    {
+      "decision_id": "d-010",
+      "stage": "script",
+      "category": "approval_policy",
+      "subject": "Ủy quyền chạy xuyên suốt từ kịch bản đã duyệt tới xuất bản video Tập 2",
+      "options_considered": [
+        {
+          "option_id": "full_run_to_export",
+          "label": "Ủy quyền chạy trọn quy trình sau kịch bản: scene_plan -> assets -> edit -> compose -> publish (exports/)",
+          "score": 0.98,
+          "reason": "Người dùng phản hồi 'ok ra video' ngay sau câu hỏi ủy quyền chạy thẳng ra video hoàn chỉnh tại cổng script."
+        },
+        {
+          "option_id": "step_by_step_gates",
+          "label": "Dừng xin duyệt lẻ tại từng cổng scene_plan và assets",
+          "score": 0.35,
+          "reason": "Làm ngắt quãng quá trình dựng video dài 11 phút khi người dùng đã chốt yêu cầu 'ok ra video'.",
+          "rejected_because": "Người dùng yêu cầu xuất thẳng ra video hoàn chỉnh."
+        }
+      ],
+      "selected": "full_run_to_export",
+      "reason": "Thực hiện đúng chỉ thị 'ok ra video' ở cổng script, vẫn giữ nguyên cổng publish (chỉ export_bundle cục bộ, không tự đăng YouTube).",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-011",
+      "stage": "compose",
+      "category": "motion_commitment",
+      "subject": "Dựng bản demo đối chiếu 57,4s áp dụng trọn bộ 7 kỹ thuật chuyển động OpenMotion trên dữ liệu Sân bay Long Thành",
+      "options_considered": [
+        {
+          "option_id": "openmotion_full_7_upgrades_57s",
+          "label": "Bản demo đối chiếu 57,4s (Remotion Atelier CRF 14) tích hợp trọn 7 kỹ thuật OpenMotion + Vibi Haitrieu + Foley 18 điểm khóa",
+          "score": 0.98,
+          "reason": "Thể hiện đầy đủ chuyển động mở màn, camera hold->pull-back, vòng bút vẽ tay, biểu đồ NYT đổi màu điểm gãy + Leader card QĐ 648, lát cắt địa chất gạch chéo <pattern>, cây quyết định tăng tốc và tuyến đường sắt 3 lớp phát sáng kèm .route-tick."
+        },
+        {
+          "option_id": "short_15s_silent_preview",
+          "label": "Bản nháp ngắn 15–20 giây ít thoại",
+          "score": 0.45,
+          "reason": "Nhanh hơn nhưng không đủ nhịp thuyết minh để cảm nhận rõ quy luật tăng tốc loại trừ cây quyết định và kéo lùi camera toàn hành lang.",
+          "rejected_because": "Người dùng nâng yêu cầu lên 30s–1 phút để đủ thời lượng trải nghiệm trọn 7 hiệu ứng kèm thuyết minh & Foley."
+        }
+      ],
+      "selected": "openmotion_full_7_upgrades_57s",
+      "reason": "Khớp trọn yêu cầu mới nhất của người dùng (30s–1 phút), tận dụng tối đa dữ liệu và giọng Vibi Haitrieu thật của Tập 2 mà không phát sinh chi phí API ($0.00) và không ảnh hưởng file render/export chính của Tập 2.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.98
+    },
+    {
+      "decision_id": "d-012",
+      "stage": "compose",
+      "category": "motion_commitment",
+      "subject": "Chuyển bản demo 57,4s sang 100% tương tác trực tiếp trên bản đồ 3D + cắt dán bài báo VnExpress thật và chuẩn hóa SKILL.md",
+      "options_considered": [
+        {
+          "option_id": "map_first_100_with_press_clippings",
+          "label": "100% khung hình trên bản đồ vệ tinh 3D EOX (cột 3D T3 vs đường băng, gạch chéo địa chất, dấu X/sóng đỏ, cắt dán 3 bài báo VnExpress thật)",
+          "score": 0.99,
+          "reason": "Đáp ứng trực tiếp 2 yêu cầu cốt lõi của người dùng ('vẽ gì thì vả vào bản đồ', ít biểu đồ rời & chụp bài báo thật đưa vào), giữ nguyên $0.00 chi phí và đồng bộ 26 điểm Foley trên bản đồ."
+        },
+        {
+          "option_id": "split_paper_chart_scenes",
+          "label": "Giữ 50% thời lượng ở trang biểu đồ/sơ đồ giấy tách rời khỏi bản đồ (như demo_openmotion_57s.mp4)",
+          "score": 0.62,
+          "reason": "Biểu đồ rõ nhưng cắt đứt dòng trải nghiệm địa lý trên bản đồ vệ tinh.",
+          "rejected_because": "Người dùng yêu cầu tương tác với bản đồ nhiều hơn, ít vẽ biểu đồ tách rời, vẽ gì gắn thẳng vào bản đồ và dùng ảnh chụp bài báo."
+        }
+      ],
+      "selected": "map_first_100_with_press_clippings",
+      "reason": "Đã nâng cấp toàn bộ 5 cảnh demo sang Map-First 100% + tích hợp 3 thẻ cắt dán báo VnExpress thật (có highlight & leader line), đồng thời cập nhật chuẩn này vào SKILL.md kênh.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.99
+    },
+    {
+      "decision_id": "d-013",
+      "stage": "compose",
+      "category": "motion_commitment",
+      "subject": "Dựng lại bản demo 57,40s (demo_skill_moi_57s.mp4) tuân thủ nghiêm ngặt SKILL.md đã tinh gọn (3 trụ cột + bỏ toàn bộ gimmick thừa)",
+      "options_considered": [
+        {
+          "option_id": "refined_skill_3_pillars_clean_cartography",
+          "label": "Giữ trọn 3 trụ cột Camera Choreography + Direct On-Map 3D Charting + Search & Press Clipping; bỏ sạch VoxSketchDoodle, WavyRejectSquiggle, hatch <pattern>, chấm .route-tick và nảy cao su",
+          "score": 0.99,
+          "reason": "Khớp 100% chỉ đạo tinh gọn skill của người dùng: ảnh vệ tinh trong trẻo, Beat 0 mở màn bằng cú 3D Plunge không che màn hình, Cảnh D4 bổ sung cặp cột 3D đối chiếu 60–120 phút vs 20–25 phút trực tiếp trên bản đồ."
+        },
+        {
+          "option_id": "keep_v2_sketch_and_hatch_gimmicks",
+          "label": "Giữ lại nét vẽ tay nguệch ngoạc, gạch chân sóng đỏ và họa tiết chéo trên nền vệ tinh như demo_openmotion_map_57s.mp4",
+          "score": 0.45,
+          "reason": "Cần minh họa trực tiếp phần lớn openmotion trong bản demo cũ.",
+          "rejected_because": "Người dùng chốt chỉ giữ hiệu ứng camera, search báo và vẽ biểu đồ trực tiếp trên map trong skill — loại bỏ toàn bộ gimmick vẽ tay/gạch chéo làm rối bản đồ vệ tinh."
+        }
+      ],
+      "selected": "refined_skill_3_pillars_clean_cartography",
+      "reason": "Đã viết lại sạch 5 cảnh demo_openmotion, phối âm thanh Tactical Foley mới (demo_skill_moi_master.mp3) và xuất bản render đối chiếu demo_skill_moi_57s.mp4 đạt 100% tiêu chuẩn SKILL.md mới.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.99
+    },
+    {
+      "decision_id": "d-014",
+      "stage": "compose",
+      "category": "motion_commitment",
+      "subject": "Nâng cấp cú máy mở đầu 0,00s–11,45s thành Orbital Wide-to-Macro Zoom (từ bản đồ xa nhất z4 từ từ vào z14) và cập nhật SKILL.md",
+      "options_considered": [
+        {
+          "option_id": "one_take_orbital_z4_to_z14_zoom",
+          "label": "Gộp 0–11,45s thành một cú zoom logarit liên tục từ tầng vệ tinh xa nhất asia_pacific_z4 (toàn bộ Đông Nam Á, chữ S Việt Nam, Hoàng Sa & Trường Sa) xuyên z6->z7->z9->z12->z14 rồi Hold-Then-Move khóa 365 M",
+          "score": 0.99,
+          "reason": "Đáp ứng chính xác yêu cầu 'câu đầu zoom từ bản đồ xa nhất từ từ vào gần', tạo mạch kể tự nhiên từ tầm nhìn quốc gia xuống đúng cặp đường băng 365 m Tân Sơn Nhất rồi chuyển thẳng sang Cảnh D2 ở z14."
+        },
+        {
+          "option_id": "split_beat0_plunge_and_macro_pullback",
+          "label": "Giữ cú cắt Beat 0 ở z12 rồi cắt vào z14 rồi lại kéo lùi ra đô thị như bản trước",
+          "score": 0.58,
+          "reason": "Đẹp nhưng đảo chiều zoom 2 lần trong 11 giây đầu.",
+          "rejected_because": "Người dùng yêu cầu câu đầu zoom từ bản đồ xa nhất từ từ vào gần."
+        }
+      ],
+      "selected": "one_take_orbital_z4_to_z14_zoom",
+      "reason": "Đã cập nhật AviationBaseLayers.tsx tránh nhảy opacity đồng cấp z14, hợp nhất DemoScene1Runway365.tsx 0–11.45s (z4->z14), cập nhật SKILL.md Mục 4.1 và render demo_skill_moi_zoom_57s.mp4 CRF 14.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.99
+    }
+  ]
+}

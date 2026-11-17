@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "title": "Demo đối chiếu kỹ thuật OpenMotion trên dữ liệu Sân bay Long Thành 40 km",
+  "scenes": [
+    {
+      "id": "demo_beat0",
+      "start_seconds": 0.0,
+      "end_seconds": 1.4,
+      "label": "Beat 0 — Event Display Typography"
+    },
+    {
+      "id": "demo_d1",
+      "start_seconds": 1.4,
+      "end_seconds": 11.45,
+      "label": "D1 — Camera vs Subject + Sketch Doodle + Pull-back 791 ha"
+    },
+    {
+      "id": "demo_d2",
+      "start_seconds": 11.45,
+      "end_seconds": 23.45,
+      "label": "D2 — Biểu đồ NYT đổi màu điểm gãy + Leader Evidence Card QĐ 648"
+    },
+    {
+      "id": "demo_d3",
+      "start_seconds": 23.45,
+      "end_seconds": 38.65,
+      "label": "D3 — Mặt cắt gạch chéo hatch + Cây quyết định tăng tốc"
+    },
+    {
+      "id": "demo_d4",
+      "start_seconds": 38.65,
+      "end_seconds": 57.4,
+      "label": "D4 — Tuyến 3 lớp ánh sáng + Chấm mốc cự ly + Đàn hồi khóa đích"
+    }
+  ]
+}

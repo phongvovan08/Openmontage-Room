@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "renderer_family": "explainer-data",
+  "render_runtime": "remotion",
+  "composition_mode": "atelier",
+  "bespoke": {
+    "entry": "projects/san-bay-long-thanh-40km/index.tsx",
+    "composition_id": "DemoOpenMotion57s",
+    "art_direction": "projects/san-bay-long-thanh-40km/art-direction.md",
+    "props_path": "C:/Users/ACER/Desktop/Openmontage-Room/projects/san-bay-long-thanh-40km/artifacts/demo_openmotion_map_props.json",
+    "public_dir": "projects/san-bay-long-thanh-40km/public",
+    "crf": 14,
+    "concurrency": 4
+  },
+  "cuts": [
+    {
+      "id": "cut_map_beat0",
+      "source": "snapshots/demo_openmotion_map/m01_00s8_beat0_map.png",
+      "in_seconds": 0.0,
+      "out_seconds": 1.4,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_beat0: Beat 0 — Bổ nhào bản đồ 3D + Event Display 365m -> 40km"
+    },
+    {
+      "id": "cut_map_d1",
+      "source": "snapshots/demo_openmotion_map/m02_06s5_d1_doodle.png",
+      "in_seconds": 1.4,
+      "out_seconds": 11.45,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_d1: D1 — Hold Camera tàu bay 25R + Khoanh đỏ chờ slot + Kéo lùi quận nội đô 791 ha"
+    },
+    {
+      "id": "cut_map_d2",
+      "source": "snapshots/demo_openmotion_map/m05_19s5_d2_skylock.png",
+      "in_seconds": 11.45,
+      "out_seconds": 23.45,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_d2: D2 — Cột 3D T3 50tr vs Trần đường băng 38-40tr ngay trên vệ tinh z14 + Bài báo VnExpress T3"
+    },
+    {
+      "id": "cut_map_d3",
+      "source": "snapshots/demo_openmotion_map/m08_36s8_d3_lt_press.png",
+      "in_seconds": 23.45,
+      "out_seconds": 38.65,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_d3: D3 — Gạch đỏ địa chất 3 hướng trên bản đồ vùng + Tia Radar 40 km Bình Sơn + Bài báo Long Thành"
+    },
+    {
+      "id": "cut_map_d4",
+      "source": "snapshots/demo_openmotion_map/m10_54s8_d4_arrive.png",
+      "in_seconds": 38.65,
+      "out_seconds": 57.4,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_d4: D4 — Tuyến đường sắt 3 lớp ánh sáng + Chấm .route-tick + Bài báo lệnh khẩn cấp + Đàn hồi khóa đích"
+    }
+  ],
+  "audio": {
+    "narration": {
+      "segments": [
+        {
+          "asset_id": "demo-openmotion-map-narration",
+          "start_seconds": 0.0,
+          "end_seconds": 57.4
+        }
+      ]
+    },
+    "sfx": [
+      {
+        "asset_id": "demo-openmotion-map-sfx",
+        "start_seconds": 0.0,
+        "volume": 1.0
+      }
+    ]
+  },
+  "subtitles": {
+    "enabled": false,
+    "source": "assets/audio/demo_openmotion.srt"
+  },
+  "slideshow_risk_score": {
+    "average": 0.0,
+    "verdict": "strong"
+  },
+  "metadata": {
+    "target_duration_seconds": 57.4,
+    "proposal_render_runtime": "remotion",
+    "style_playbook": "clean-professional",
+    "demo_showcase": "openmotion_map_first_press_57s"
+  }
+}

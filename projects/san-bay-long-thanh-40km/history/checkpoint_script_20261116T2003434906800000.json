@@ -1,0 +1,1652 @@
+{
+  "version": "1.0",
+  "project_id": "san-bay-long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "script",
+  "status": "awaiting_human",
+  "timestamp": "2026-11-16T20:03:43.490680+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": false,
+  "artifacts": {
+    "script": {
+      "version": "1.0",
+      "title": "V\u00ec sao s\u00e2n bay Long Th\u00e0nh ph\u1ea3i l\u00f9i xa TP.HCM 40km?",
+      "total_duration_seconds": 687.52,
+      "voice_performance": {
+        "performance_intent": "Bi\u00ean t\u1eadp vi\u00ean phim t\u00e0i li\u1ec7u \u0111\u1ecba l\u00fd kinh t\u1ebf phong c\u00e1ch Johnny Harris / Vox: \u0111i\u1ec1m t\u0129nh, s\u1eafc s\u1ea3o, d\u1eabn d\u1eaft 5 ch\u01b0\u01a1ng t\u1eeb c\u00e1i kh\u00f3a b\u1ea7u tr\u1eddi 365 m -> \u0111\u1ecba ch\u1ea5t B\u00ecnh S\u01a1n -> t\u1ef7 l\u1ec7 1:1 5.000 ha -> gi\u1ea3i ph\u00e1p \u0111\u01b0\u1eddng s\u1eaft ~20\u201325 ph\u00fat.",
+        "pacing_profile": "conversational",
+        "energy_curve": "Hook t\u00f2 m\u00f2 l\u1eadt ngh\u1ecbch l\u00fd T3 (Ch\u01b0\u01a1ng 1) -> Tr\u1ea7m v\u00e0 si\u1ebft \u00e1p l\u1ef1c \u0111\u00f4 th\u1ecb/ph\u1ec5u bay (Ch\u01b0\u01a1ng 2) -> Qu\u00e9t radar h\u1ed3i h\u1ed9p t\u00ecm \u0111i\u1ec3m r\u01a1i B\u00ecnh S\u01a1n (Ch\u01b0\u01a1ng 3) -> Cao tr\u00e0o th\u1ecb gi\u00e1c 791 ha vs 5.000 ha (Ch\u01b0\u01a1ng 4) -> M\u1edf tho\u00e1ng nh\u1eb9 nh\u00f5m v\u1edbi \u0111\u01b0\u1eddng s\u1eaft 20 ph\u00fat & c\u1eb7p s\u00e2n bay 150 tri\u1ec7u kh\u00e1ch (Ch\u01b0\u01a1ng 5).",
+        "pause_policy": "Ngh\u1ec9 0,55s cu\u1ed1i m\u1ed7i ph\u00e2n \u0111o\u1ea1n \u0111\u1ec3 t\u1ea1o nh\u1ecbp th\u1edf chuy\u1ec3n c\u1ea3nh b\u1ea3n \u0111\u1ed3 3D; gi\u1eef d\u1ea5u ph\u1ea9y ng\u1eaft nh\u1ecbp t\u1ef1 nhi\u00ean khi li\u1ec7t k\u00ea s\u1ed1 li\u1ec7u 365 m, 791 ha, 5.000 ha v\u00e0 4.000 m.",
+        "sample_section_id": "s13",
+        "provider_notes": {
+          "vibi": "D\u00f9ng gi\u1ecdng Haitrieu (voice_id 1ad2682d-1c78-4bb2-8061-b7cc216362c9, MiniMax speech-2.8-hd, speed 1.1). M\u1ecdi ch\u1eef s\u1ed1, \u0111\u01a1n v\u1ecb km/ha/m, t\u00ean ri\u00eang n\u01b0\u1edbc ngo\u00e0i v\u00e0 s\u1ed1 hi\u1ec7u v\u0103n b\u1ea3n trong provider_text \u0111\u00e3 \u0111\u01b0\u1ee3c phi\u00ean \u00e2m 100% sang ch\u1eef ti\u1ebfng Vi\u1ec7t thu\u1ea7n t\u00fay \u0111\u1ec3 tr\u00e1nh \u0111\u1ecdc v\u1ea5p."
+        }
+      },
+      "sections": [
+        {
+          "id": "s01",
+          "label": "Ch\u01b0\u01a1ng 1.1 \u2014 Hook: Nh\u00e0 ga T3 v\u1eeba xong, v\u00ec sao v\u1eabn c\u1ea7n si\u00eau s\u00e2n bay c\u00e1ch 40 km?",
+          "text": "Nhi\u1ec1u ng\u01b0\u1eddi ngh\u0129 khi Nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t m\u1edf c\u1eeda, c\u1ea3nh k\u1eb9t b\u1ea7u tr\u1eddi c\u1ee7a Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh s\u1ebd l\u1eadp t\u1ee9c h\u1ea1 nhi\u1ec7t. Th\u1ef1c t\u1ebf kh\u00f4ng \u0111\u01a1n gi\u1ea3n nh\u01b0 v\u1eady. D\u00f9 m\u1eb7t \u0111\u1ea5t c\u00f3 th\u00eam m\u1ed9t nh\u00e0 ga khang trang, b\u1ea7u tr\u1eddi ph\u00eda tr\u00ean T\u00e2n S\u01a1n Nh\u1ea5t v\u1eabn \u0111ang b\u1ecb kh\u00f3a ch\u1eb7t b\u1edfi m\u1ed9t con s\u1ed1 \u00edt ai \u0111\u1ec3 \u00fd: kho\u1ea3ng c\u00e1ch gi\u1eefa hai \u0111\u01b0\u1eddng b\u0103ng ch\u1ec9 \u0111\u00fang ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t. N\u00fat th\u1eaft \u1ea5y \u0111\u00e3 bu\u1ed9c Vi\u1ec7t Nam \u0111i \u0111\u1ebfn m\u1ed9t quy\u1ebft \u0111\u1ecbnh l\u1edbn: kh\u00f4ng n\u1edbi s\u00e2n bay c\u0169 t\u1ea1i ch\u1ed7, m\u00e0 d\u1eddi h\u1eb3n m\u1ed9t si\u00eau s\u00e2n bay m\u1edbi c\u00e1ch trung t\u00e2m kho\u1ea3ng b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t v\u1ec1 ph\u00eda \u0110\u00f4ng. V\u00ec sao l\u1ea1i l\u00e0 b\u1ed1n m\u01b0\u01a1i c\u00e2y s\u1ed1 \u0111\u00f3?",
+          "start_seconds": 0.0,
+          "end_seconds": 32.95,
+          "speaker_directions": "M\u1edf \u0111\u1ea7u d\u1ee9t kho\u00e1t b\u1eb1ng ngh\u1ecbch l\u00fd T3 vs b\u1ea7u tr\u1eddi 365m; ngh\u1ec9 nh\u1eb9 tr\u01b0\u1edbc c\u00e2u h\u1ecfi ch\u1ed1t 40 km.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "curious_authoritative",
+            "emphasis_words": [
+              "Nh\u00e0 ga T3",
+              "365 m",
+              "40 km",
+              "kh\u00f3a ch\u1eb7t"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Gi\u1eef nh\u1ecbp ch\u1eafc, tr\u1ea7m t\u0129nh ki\u1ec3u Johnny Harris khi l\u1eadt ngh\u1ecbch l\u00fd ngay 10 gi\u00e2y \u0111\u1ea7u.",
+            "provider_text": "Nhi\u1ec1u ng\u01b0\u1eddi ngh\u0129 khi Nh\u00e0 ga T\u00ea ba T\u00e2n S\u01a1n Nh\u1ea5t m\u1edf c\u1eeda, c\u1ea3nh k\u1eb9t b\u1ea7u tr\u1eddi c\u1ee7a th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh s\u1ebd l\u1eadp t\u1ee9c h\u1ea1 nhi\u1ec7t. Th\u1ef1c t\u1ebf kh\u00f4ng \u0111\u01a1n gi\u1ea3n nh\u01b0 v\u1eady. D\u00f9 m\u1eb7t \u0111\u1ea5t c\u00f3 th\u00eam m\u1ed9t nh\u00e0 ga khang trang, b\u1ea7u tr\u1eddi ph\u00eda tr\u00ean T\u00e2n S\u01a1n Nh\u1ea5t v\u1eabn \u0111ang b\u1ecb kh\u00f3a ch\u1eb7t b\u1edfi m\u1ed9t con s\u1ed1 \u00edt ai \u0111\u1ec3 \u00fd: kho\u1ea3ng c\u00e1ch gi\u1eefa hai \u0111\u01b0\u1eddng b\u0103ng ch\u1ec9 \u0111\u00fang ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t. N\u00fat th\u1eaft \u1ea5y \u0111\u00e3 bu\u1ed9c Vi\u1ec7t Nam \u0111i \u0111\u1ebfn m\u1ed9t quy\u1ebft \u0111\u1ecbnh l\u1edbn: kh\u00f4ng n\u1edbi s\u00e2n bay c\u0169 t\u1ea1i ch\u1ed7, m\u00e0 d\u1eddi h\u1eb3n m\u1ed9t si\u00eau s\u00e2n bay m\u1edbi c\u00e1ch trung t\u00e2m kho\u1ea3ng b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t v\u1ec1 ph\u00eda \u0110\u00f4ng. V\u00ec sao l\u1ea1i l\u00e0 b\u1ed1n m\u01b0\u01a1i c\u00e2y s\u1ed1 \u0111\u00f3?"
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "M\u1edf m\u00e0n 3D v\u1ec7 tinh \u0110\u00f4ng Nam B\u1ed9: v\u00f2ng radar ph\u00f3ng t\u1eeb T\u00e2n S\u01a1n Nh\u1ea5t qu\u00e9t th\u1eb3ng 40 km sang Long Th\u00e0nh.",
+              "timestamp_seconds": 1.5
+            },
+            {
+              "type": "stat_card",
+              "description": "Hi\u1ec7n th\u1ebb \u0111\u1ed1i ngh\u1ecbch HUD: Nh\u00e0 ga T3 m\u1edbi vs N\u00fat th\u1eaft \u0111\u01b0\u1eddng b\u0103ng 365 m.",
+              "timestamp_seconds": 9.5
+            },
+            {
+              "type": "diagram",
+              "description": "B\u1eadt s\u00e1ng cung bay \u0111\u1ecf b\u1ecb ch\u1eb7n tr\u00ean b\u1ea7u tr\u1eddi T\u00e2n S\u01a1n Nh\u1ea5t v\u00e0 ch\u1ea5m xanh ng\u1ecdc Long Th\u00e0nh.",
+              "timestamp_seconds": 18.0
+            },
+            {
+              "type": "overlay",
+              "description": "Ghim c\u00e2u h\u1ecfi trung t\u00e2m tr\u00ean \u0111\u01b0\u1eddng n\u1ed1i 40 km h\u01b0\u1edbng \u0110\u00f4ng: V\u00cc SAO PH\u1ea2I L\u00d9I XA 40 KM?",
+              "timestamp_seconds": 26.5
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://tapchihangkhong.vn/"
+        },
+        {
+          "id": "s02",
+          "label": "Ch\u01b0\u01a1ng 1.2 \u2014 T\u1eeb s\u00e2n bay ngo\u1ea1i \u00f4 th\u1eadp ni\u00ean 1930 th\u00e0nh \u1ed1c \u0111\u1ea3o 791 ha gi\u1eefa n\u1ed9i \u0111\u00f4",
+          "text": "H\u00e3y tua ng\u01b0\u1ee3c b\u1ea3n \u0111\u1ed3 S\u00e0i G\u00f2n v\u1ec1 g\u1ea7n m\u1ed9t th\u1ebf k\u1ef7 tr\u01b0\u1edbc. Khi s\u00e2n bay T\u00e2n S\u01a1n Nh\u1ea5t h\u00ecnh th\u00e0nh t\u1eeb th\u1eadp ni\u00ean m\u1ed9t ngh\u00ecn ch\u00edn tr\u0103m hai m\u01b0\u01a1i, n\u01a1i \u0111\u00e2y v\u1eabn l\u00e0 v\u00f9ng \u0111\u1ea5t ven \u0111\u00f4 th\u01b0a v\u1eafng \u1edf ph\u00eda T\u00e2y B\u1eafc S\u00e0i G\u00f2n \u2013 Ch\u1ee3 L\u1edbn. Nh\u01b0ng \u0111\u00e0 \u0111\u00f4 th\u1ecb h\u00f3a ch\u00f3ng m\u1eb7t \u0111\u00e3 nu\u1ed1t tr\u1ecdn T\u00e2n B\u00ecnh, Ph\u00fa Nhu\u1eadn r\u1ed3i tr\u00e0n sang G\u00f2 V\u1ea5p, bi\u1ebfn s\u00e2n bay ngo\u1ea1i \u00f4 n\u0103m x\u01b0a th\u00e0nh m\u1ed9t \u1ed1c \u0111\u1ea3o kh\u00e9p k\u00edn gi\u1eefa b\u1ed1n b\u1ec1 nh\u00e0 c\u1eeda. Theo Quy\u1ebft \u0111\u1ecbnh 648 c\u1ee7a Th\u1ee7 t\u01b0\u1edbng Ch\u00ednh ph\u1ee7 v\u1ec1 quy ho\u1ea1ch h\u1ec7 th\u1ed1ng c\u1ea3ng h\u00e0ng kh\u00f4ng, to\u00e0n b\u1ed9 ranh gi\u1edbi c\u1ee7a T\u00e2n S\u01a1n Nh\u1ea5t ng\u00e0y nay g\u00f3i g\u1ecdn trong kho\u1ea3ng b\u1ea3y tr\u0103m ch\u00edn m\u01b0\u01a1i m\u1ed1t h\u00e9c ta, kh\u00f4ng c\u00f2n \u0111\u1ea5t d\u1ef1 ph\u00f2ng b\u00ean r\u00eca.",
+          "start_seconds": 32.95,
+          "end_seconds": 66.92,
+          "speaker_directions": "Gi\u1ecdng k\u1ec3 l\u1ecbch s\u1eed \u0111\u00f4 th\u1ecb h\u00f3a r\u00f5 r\u00e0ng, t\u0103ng nh\u1eb9 nh\u1ecbp khi m\u00f4 t\u1ea3 th\u00e0nh ph\u1ed1 lan r\u1ed9ng bao v\u00e2y s\u00e2n bay.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "historical_storytelling",
+            "emphasis_words": [
+              "ngo\u1ea1i \u00f4",
+              "\u1ed1c \u0111\u1ea3o kh\u00e9p k\u00edn",
+              "Quy\u1ebft \u0111\u1ecbnh 648",
+              "791 ha"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ea5n r\u00e0nh m\u1ea1ch con s\u1ed1 791 ha v\u00e0 t\u00ednh ch\u1ea5t '\u1ed1c \u0111\u1ea3o gi\u1eefa b\u1ed1n b\u1ec1 nh\u00e0 c\u1eeda'.",
+            "provider_text": "H\u00e3y tua ng\u01b0\u1ee3c b\u1ea3n \u0111\u1ed3 S\u00e0i G\u00f2n v\u1ec1 g\u1ea7n m\u1ed9t th\u1ebf k\u1ef7 tr\u01b0\u1edbc. Khi s\u00e2n bay T\u00e2n S\u01a1n Nh\u1ea5t h\u00ecnh th\u00e0nh t\u1eeb th\u1eadp ni\u00ean m\u1ed9t ngh\u00ecn ch\u00edn tr\u0103m hai m\u01b0\u01a1i, n\u01a1i \u0111\u00e2y v\u1eabn l\u00e0 v\u00f9ng \u0111\u1ea5t ven \u0111\u00f4 th\u01b0a v\u1eafng \u1edf ph\u00eda T\u00e2y B\u1eafc S\u00e0i G\u00f2n Ch\u1ee3 L\u1edbn. Nh\u01b0ng \u0111\u00e0 \u0111\u00f4 th\u1ecb h\u00f3a ch\u00f3ng m\u1eb7t \u0111\u00e3 nu\u1ed1t tr\u1ecdn T\u00e2n B\u00ecnh, Ph\u00fa Nhu\u1eadn r\u1ed3i tr\u00e0n sang G\u00f2 V\u1ea5p, bi\u1ebfn s\u00e2n bay ngo\u1ea1i \u00f4 n\u0103m x\u01b0a th\u00e0nh m\u1ed9t \u1ed1c \u0111\u1ea3o kh\u00e9p k\u00edn gi\u1eefa b\u1ed1n b\u1ec1 nh\u00e0 c\u1eeda. Theo Quy\u1ebft \u0111\u1ecbnh s\u00e1u tr\u0103m b\u1ed1n m\u01b0\u01a1i t\u00e1m c\u1ee7a Th\u1ee7 t\u01b0\u1edbng Ch\u00ednh ph\u1ee7 v\u1ec1 quy ho\u1ea1ch h\u1ec7 th\u1ed1ng c\u1ea3ng h\u00e0ng kh\u00f4ng, to\u00e0n b\u1ed9 ranh gi\u1edbi c\u1ee7a T\u00e2n S\u01a1n Nh\u1ea5t ng\u00e0y nay g\u00f3i g\u1ecdn trong kho\u1ea3ng b\u1ea3y tr\u0103m ch\u00edn m\u01b0\u01a1i m\u1ed1t h\u00e9c ta, kh\u00f4ng c\u00f2n \u0111\u1ea5t d\u1ef1 ph\u00f2ng b\u00ean r\u00eca."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Timeline b\u1ea3n \u0111\u1ed3 TP.HCM th\u1eadp ni\u00ean 1920\u20131930 v\u1edbi T\u00e2n S\u01a1n Nh\u1ea5t c\u00f2n n\u1eb1m h\u1eb3n ngo\u00e0i r\u00eca T\u00e2y B\u1eafc.",
+              "timestamp_seconds": 34.45
+            },
+            {
+              "type": "diagram",
+              "description": "Lan t\u1ecfa v\u1ec7t \u0111\u00f4 th\u1ecb h\u00f3a m\u00e0u h\u1ed5 ph\u00e1ch nu\u1ed1t tr\u1ecdn T\u00e2n B\u00ecnh \u2013 Ph\u00fa Nhu\u1eadn \u2013 G\u00f2 V\u1ea5p bao v\u00e2y 4 m\u1eb7t s\u00e2n bay.",
+              "timestamp_seconds": 42.95
+            },
+            {
+              "type": "overlay",
+              "description": "H\u1ed3 s\u01a1 Q\u0110 648/Q\u0110-TTg tr\u01b0\u1ee3t v\u00e0o c\u00f9ng \u1ea3nh t\u01b0 li\u1ec7u th\u1ef1c \u0111\u1ecba khu v\u1ef1c T\u00e2n S\u01a1n Nh\u1ea5t.",
+              "timestamp_seconds": 51.45
+            },
+            {
+              "type": "stat_card",
+              "description": "Kh\u00f3a ranh \u0111a gi\u00e1c OSM T\u00e2n S\u01a1n Nh\u1ea5t: QU\u1ef8 \u0110\u1ea4T KH\u00c9P K\u00cdN ~791 HA (KH\u00d4NG C\u00d2N \u0110\u1ea4T R\u00ccA).",
+              "timestamp_seconds": 59.45
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://chinhphu.vn/"
+        },
+        {
+          "id": "s03",
+          "label": "Ch\u01b0\u01a1ng 1.3 \u2014 Nh\u00e0 ga T3 gi\u1ea3i t\u1ecfa m\u1eb7t \u0111\u1ea5t, nh\u01b0ng kh\u00f4ng th\u1ec3 nh\u00e2n \u0111\u00f4i \u0111\u01b0\u1eddng b\u0103ng",
+          "text": "T\u1eeb th\u1ef1c t\u1ebf \u1ea5y n\u1ea3y sinh hi\u1ec3u l\u1ea7m l\u1edbn nh\u1ea5t nhi\u1ec1u n\u0103m qua: x\u00e2y th\u00eam Nh\u00e0 ga T3 l\u00e0 T\u00e2n S\u01a1n Nh\u1ea5t c\u00f3 th\u1ec3 \u0111\u00f3n g\u1ea5p \u0111\u00f4i chuy\u1ebfn bay. S\u1ef1 th\u1eadt ho\u00e0n to\u00e0n kh\u00e1c. Nh\u00e0 ga h\u00e0nh kh\u00e1ch v\u00e0 b\u00e3i \u0111\u1ed7 ch\u1ec9 ph\u1ee5c v\u1ee5 tr\u00ean m\u1eb7t \u0111\u1ea5t, gi\u00fap gi\u1ea3m \u00f9n \u1ee9 soi chi\u1ebfu, n\u00e2ng t\u1ed5ng c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf c\u1ee7a s\u00e2n bay l\u00ean n\u0103m m\u01b0\u01a1i tri\u1ec7u h\u00e0nh kh\u00e1ch m\u1ed7i n\u0103m. C\u00f2n n\u0103ng l\u1ef1c b\u1ea7u tr\u1eddi l\u1ea1i do \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh quy\u1ebft \u0111\u1ecbnh. D\u00f9 c\u00f3 th\u00eam Nh\u00e0 ga T3 hi\u1ec7n \u0111\u1ea1i \u1edf ph\u00eda Nam, T\u00e2n S\u01a1n Nh\u1ea5t v\u1eabn ch\u1ec9 khai th\u00e1c tr\u00ean \u0111\u00fang hai \u0111\u01b0\u1eddng b\u0103ng song song c\u0169 \u1edf ph\u00eda B\u1eafc, kh\u00f4ng th\u1ec3 b\u1ed5 sung th\u00eam b\u1ea5t k\u1ef3 m\u00e9t \u0111\u01b0\u1eddng b\u0103ng m\u1edbi n\u00e0o.",
+          "start_seconds": 66.92,
+          "end_seconds": 99.1,
+          "speaker_directions": "Nh\u1ea5n \u0111\u1ed1i l\u1eadp gi\u1eefa 'h\u1ea1 t\u1ea7ng m\u1eb7t \u0111\u1ea5t' (T3) v\u00e0 'n\u0103ng l\u1ef1c b\u1ea7u tr\u1eddi' (\u0111\u01b0\u1eddng b\u0103ng).",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "analytical_build",
+            "emphasis_words": [
+              "m\u1eb7t \u0111\u1ea5t",
+              "n\u0103ng l\u1ef1c b\u1ea7u tr\u1eddi",
+              "50 tri\u1ec7u",
+              "kh\u00f4ng th\u00eam m\u00e9t \u0111\u01b0\u1eddng b\u0103ng"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Ch\u1ed1t d\u1ee9t kho\u00e1t c\u00e2u cu\u1ed1i nh\u01b0 c\u00fa l\u1eadt b\u1ea3n \u0111\u1ed3 chuy\u1ec3n sang gi\u1ea3i ph\u1eabu \u0111\u01b0\u1eddng b\u0103ng.",
+            "provider_text": "T\u1eeb th\u1ef1c t\u1ebf \u1ea5y n\u1ea3y sinh hi\u1ec3u l\u1ea7m l\u1edbn nh\u1ea5t nhi\u1ec1u n\u0103m qua: x\u00e2y th\u00eam Nh\u00e0 ga T\u00ea ba l\u00e0 T\u00e2n S\u01a1n Nh\u1ea5t c\u00f3 th\u1ec3 \u0111\u00f3n g\u1ea5p \u0111\u00f4i chuy\u1ebfn bay. S\u1ef1 th\u1eadt ho\u00e0n to\u00e0n kh\u00e1c. Nh\u00e0 ga h\u00e0nh kh\u00e1ch v\u00e0 b\u00e3i \u0111\u1ed7 ch\u1ec9 ph\u1ee5c v\u1ee5 tr\u00ean m\u1eb7t \u0111\u1ea5t, gi\u00fap gi\u1ea3m \u00f9n \u1ee9 soi chi\u1ebfu, n\u00e2ng t\u1ed5ng c\u00f4ng su\u1ea5t thi\u1ebft k\u1ebf c\u1ee7a s\u00e2n bay l\u00ean n\u0103m m\u01b0\u01a1i tri\u1ec7u h\u00e0nh kh\u00e1ch m\u1ed7i n\u0103m. C\u00f2n n\u0103ng l\u1ef1c b\u1ea7u tr\u1eddi l\u1ea1i do \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh quy\u1ebft \u0111\u1ecbnh. D\u00f9 c\u00f3 th\u00eam Nh\u00e0 ga T\u00ea ba hi\u1ec7n \u0111\u1ea1i \u1edf ph\u00eda Nam, T\u00e2n S\u01a1n Nh\u1ea5t v\u1eabn ch\u1ec9 khai th\u00e1c tr\u00ean \u0111\u00fang hai \u0111\u01b0\u1eddng b\u0103ng song song c\u0169 \u1edf ph\u00eda B\u1eafc, kh\u00f4ng th\u1ec3 b\u1ed5 sung th\u00eam b\u1ea5t k\u1ef3 m\u00e9t \u0111\u01b0\u1eddng b\u0103ng m\u1edbi n\u00e0o."
+          },
+          "enhancement_cues": [
+            {
+              "type": "overlay",
+              "description": "Hi\u1ec7n nh\u00e3n ph\u1ea3n bi\u1ec7n: HI\u1ec2U L\u1ea6M NH\u00c0 GA T3 = T\u0102NG G\u1ea4P \u0110\u00d4I CHUY\u1ebeN BAY.",
+              "timestamp_seconds": 68.42
+            },
+            {
+              "type": "broll",
+              "description": "\u1ea2nh th\u1ef1c \u0111\u1ecba Nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t k\u00e8m m\u1ed1c c\u00f4ng su\u1ea5t n\u00e2ng l\u00ean ~50 tri\u1ec7u h\u00e0nh kh\u00e1ch/n\u0103m.",
+              "timestamp_seconds": 76.92
+            },
+            {
+              "type": "diagram",
+              "description": "T\u00e1ch l\u1edbp 3D: Khu nh\u00e0 ga T1/T2/T3 ph\u00eda Nam s\u00e1ng xanh vs C\u1eb7p \u0111\u01b0\u1eddng b\u0103ng ph\u00eda B\u1eafc kh\u00f3a \u0111\u1ecf.",
+              "timestamp_seconds": 85.42
+            },
+            {
+              "type": "stat_card",
+              "description": "Nh\u1ea5n k\u1ebft lu\u1eadn: M\u1eb6T \u0110\u1ea4T \u0110\u01af\u1ee2C M\u1ede \u2022 B\u1ea6U TR\u1edcI V\u1eaaN CH\u1ec8 C\u00d3 2 \u0110\u01af\u1edcNG B\u0102NG C\u0168.",
+              "timestamp_seconds": 93.42
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://chinhphu.vn/"
+        },
+        {
+          "id": "s04",
+          "label": "Ch\u01b0\u01a1ng 1.4 \u2014 Gi\u1ea3i ph\u1eabu con s\u1ed1 365 m: V\u00ec sao hai \u0111\u01b0\u1eddng b\u0103ng kh\u00f4ng th\u1ec3 bay \u0111\u1ed9c l\u1eadp?",
+          "text": "Ph\u00f3ng to \u1ea3nh v\u1ec7 tinh xu\u1ed1ng gi\u1eefa hai v\u1ec7t b\u00ea t\u00f4ng d\u00e0i h\u01a1n ba ki l\u00f4 m\u00e9t \u0111\u00f3, n\u00fat th\u1eaft l\u1eadp t\u1ee9c l\u1ed9 di\u1ec7n. Hai \u0111\u01b0\u1eddng b\u0103ng song song c\u1ee7a T\u00e2n S\u01a1n Nh\u1ea5t n\u1eb1m c\u1ea1nh nhau nh\u01b0ng kho\u1ea3ng c\u00e1ch t\u1eeb tim \u0111\u01b0\u1eddng n\u00e0y sang tim \u0111\u01b0\u1eddng kia ch\u1ec9 \u0111\u00fang ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t. Theo chu\u1ea9n an to\u00e0n c\u1ee7a T\u1ed5 ch\u1ee9c H\u00e0ng kh\u00f4ng D\u00e2n d\u1ee5ng Qu\u1ed1c t\u1ebf ICAO, hai \u0111\u01b0\u1eddng b\u0103ng song song ch\u1ec9 \u0111\u01b0\u1ee3c c\u1ea5t h\u1ea1 c\u00e1nh \u0111\u1ed9c l\u1eadp c\u00f9ng l\u00fac khi c\u00e1ch nhau t\u1ed1i thi\u1ec3u b\u1ea3y tr\u0103m s\u00e1u m\u01b0\u01a1i m\u00e9t \u0111\u1ebfn h\u01a1n m\u1ed9t ki l\u00f4 m\u00e9t t\u00f9y ph\u01b0\u01a1ng th\u1ee9c. V\u00ec ch\u1ec9 c\u00e1ch ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t, T\u00e2n S\u01a1n Nh\u1ea5t bu\u1ed9c ph\u1ea3i \u0111i\u1ec1u h\u00e0nh ph\u1ee5 thu\u1ed9c: chi\u1ebfc n\u00e0y \u0111\u00e1p th\u00ec chi\u1ebfc kia ph\u1ea3i ch\u1edd.",
+          "start_seconds": 99.1,
+          "end_seconds": 132.3,
+          "speaker_directions": "\u0110\u1ecdc r\u00f5, h\u01a1i ch\u1eadm l\u1ea1i t\u1ea1i c\u1eb7p s\u1ed1 365 m vs 760\u20131.035 m \u0111\u1ec3 kh\u00e1n gi\u1ea3 k\u1ecbp nh\u00ecn th\u01b0\u1edbc \u0111o tr\u00ean m\u00e0n h\u00ecnh.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "revelation",
+            "emphasis_words": [
+              "365 m",
+              "ICAO",
+              "760 m \u0111\u1ebfn h\u01a1n 1 km",
+              "\u0111i\u1ec1u h\u00e0nh ph\u1ee5 thu\u1ed9c"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Gi\u1ea3i th\u00edch k\u1ef9 thu\u1eadt h\u00e0ng kh\u00f4ng b\u1eb1ng gi\u1ecdng m\u1ea1ch l\u1ea1c, d\u1ec5 h\u00ecnh dung.",
+            "provider_text": "Ph\u00f3ng to \u1ea3nh v\u1ec7 tinh xu\u1ed1ng gi\u1eefa hai v\u1ec7t b\u00ea t\u00f4ng d\u00e0i h\u01a1n ba ki l\u00f4 m\u00e9t \u0111\u00f3, n\u00fat th\u1eaft l\u1eadp t\u1ee9c l\u1ed9 di\u1ec7n. Hai \u0111\u01b0\u1eddng b\u0103ng song song c\u1ee7a T\u00e2n S\u01a1n Nh\u1ea5t n\u1eb1m c\u1ea1nh nhau nh\u01b0ng kho\u1ea3ng c\u00e1ch t\u1eeb tim \u0111\u01b0\u1eddng n\u00e0y sang tim \u0111\u01b0\u1eddng kia ch\u1ec9 \u0111\u00fang ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t. Theo chu\u1ea9n an to\u00e0n c\u1ee7a T\u1ed5 ch\u1ee9c H\u00e0ng kh\u00f4ng D\u00e2n d\u1ee5ng Qu\u1ed1c t\u1ebf I cao, hai \u0111\u01b0\u1eddng b\u0103ng song song ch\u1ec9 \u0111\u01b0\u1ee3c c\u1ea5t h\u1ea1 c\u00e1nh \u0111\u1ed9c l\u1eadp c\u00f9ng l\u00fac khi c\u00e1ch nhau t\u1ed1i thi\u1ec3u b\u1ea3y tr\u0103m s\u00e1u m\u01b0\u01a1i m\u00e9t \u0111\u1ebfn h\u01a1n m\u1ed9t ki l\u00f4 m\u00e9t t\u00f9y ph\u01b0\u01a1ng th\u1ee9c. V\u00ec ch\u1ec9 c\u00e1ch ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t, T\u00e2n S\u01a1n Nh\u1ea5t bu\u1ed9c ph\u1ea3i \u0111i\u1ec1u h\u00e0nh ph\u1ee5 thu\u1ed9c: chi\u1ebfc n\u00e0y \u0111\u00e1p th\u00ec chi\u1ebfc kia ph\u1ea3i ch\u1edd."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Zoom s\u00e1t v\u1ec7 tinh EOX z14 xu\u1ed1ng th\u1eb3ng c\u1eb7p \u0111\u01b0\u1eddng b\u0103ng song song 25R/07L v\u00e0 25L/07R T\u00e2n S\u01a1n Nh\u1ea5t.",
+              "timestamp_seconds": 100.6
+            },
+            {
+              "type": "stat_card",
+              "description": "B\u1eadt th\u01b0\u1edbc \u0111o t\u1ef7 l\u1ec7 1:1 gi\u1eefa hai tr\u1ee5c tim \u0111\u01b0\u1eddng b\u0103ng: CH\u1ec8 C\u00c1CH NHAU 365 M.",
+              "timestamp_seconds": 108.6
+            },
+            {
+              "type": "diagram",
+              "description": "\u0110\u1ed1i chi\u1ebfu thanh chu\u1ea9n ICAO: ng\u01b0\u1ee1ng \u0111\u1ed9c l\u1eadp 760 m \u2013 1.035 m d\u00e0i h\u01a1n g\u1ea5p \u0111\u00f4i th\u1ef1c t\u1ebf.",
+              "timestamp_seconds": 117.1
+            },
+            {
+              "type": "animation",
+              "description": "M\u00f4 ph\u1ecfng v\u00f9ng nhi\u1ec5u \u0111\u1ed9ng/an to\u00e0n tr\u00f9m ch\u00e9o: 1 m\u00e1y bay h\u1ea1 c\u00e1nh bu\u1ed9c chi\u1ebfc b\u00ean c\u1ea1nh ch\u1edd slot.",
+              "timestamp_seconds": 125.6
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://tapchihangkhong.vn/"
+        },
+        {
+          "id": "s05",
+          "label": "Ch\u01b0\u01a1ng 2.1 \u2014 Ph\u1ec5u h\u1ea1 c\u00e1nh qu\u00e9t qua cao \u1ed1c v\u00e0 h\u00e0nh lang ti\u1ebfng \u1ed3n 10 tri\u1ec7u d\u00e2n",
+          "text": "Nh\u00ecn l\u00ean m\u00f4 h\u00ecnh ba chi\u1ec1u theo h\u01b0\u1edbng m\u00e1y bay \u0111\u00e1p xu\u1ed1ng, b\u1ea1n s\u1ebd th\u1ea5y T\u00e2n S\u01a1n Nh\u1ea5t c\u00f2n \u0111ang ch\u1ecbu \u00e1p l\u1ef1c t\u1eeb b\u1ed1n ph\u00eda \u0111\u00f4 th\u1ecb. H\u01b0\u1edbng ti\u1ebfp c\u1eadn ch\u00ednh t\u1eeb \u0110\u00f4ng sang T\u00e2y c\u1eaft th\u1eb3ng qua b\u1ea7u tr\u1eddi c\u00e1c qu\u1eadn \u0111\u00f4ng d\u00e2n b\u1eadc nh\u1ea5t nh\u01b0 B\u00ecnh Th\u1ea1nh, Ph\u00fa Nhu\u1eadn, G\u00f2 V\u1ea5p v\u00e0 T\u00e2n B\u00ecnh \u1edf \u0111\u1ed9 cao ch\u1ec9 v\u00e0i tr\u0103m m\u00e9t. B\u1ea5t k\u1ef3 d\u1ef1 \u00e1n n\u1edbi d\u00e0i hay th\u00eam \u0111\u01b0\u1eddng b\u0103ng n\u00e0o t\u1ea1i \u0111\u00e2y \u0111\u1ec1u l\u1eadp t\u1ee9c ch\u1ea1m ba r\u00e0o c\u1ea3n l\u1edbn: ti\u1ebfng \u1ed3n v\u01b0\u1ee3t ng\u01b0\u1ee1ng l\u00ean h\u00e0ng tr\u0103m ngh\u00ecn h\u1ed9 d\u00e2n, r\u1ee7i ro ti\u1ebfp c\u1eadn kh\u1ea9n c\u1ea5p gi\u1eefa khu d\u00e2n c\u01b0 d\u00e0y \u0111\u1eb7c, v\u00e0 gi\u1edbi h\u1ea1n t\u0129nh kh\u00f4ng kh\u00f3a ch\u1eb7t chi\u1ec1u cao cao \u1ed1c d\u1ecdc su\u1ed1t tr\u1ee5c ph\u00e1t tri\u1ec3n n\u1ed9i \u0111\u00f4.",
+          "start_seconds": 132.3,
+          "end_seconds": 164.74,
+          "speaker_directions": "T\u1ea1o c\u1ea3m gi\u00e1c ng\u1ed9t ng\u1ea1t kh\u00f4ng gian \u0111\u00f4 th\u1ecb bao quanh \u0111\u01b0\u1eddng bay.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "tension",
+            "emphasis_words": [
+              "ba r\u00e0o c\u1ea3n l\u1edbn",
+              "ti\u1ebfng \u1ed3n",
+              "gi\u1edbi h\u1ea1n t\u0129nh kh\u00f4ng cao \u1ed1c"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ea5n r\u00f5 3 h\u1ec7 l\u1ee5y d\u00e2y chuy\u1ec1n \u0111\u1ec3 kh\u00e1n gi\u1ea3 hi\u1ec3u m\u1edf r\u1ed9ng n\u1ed9i \u0111\u00f4 l\u00e0 kh\u00f4ng th\u1ec3.",
+            "provider_text": "Nh\u00ecn l\u00ean m\u00f4 h\u00ecnh ba chi\u1ec1u theo h\u01b0\u1edbng m\u00e1y bay \u0111\u00e1p xu\u1ed1ng, b\u1ea1n s\u1ebd th\u1ea5y T\u00e2n S\u01a1n Nh\u1ea5t c\u00f2n \u0111ang ch\u1ecbu \u00e1p l\u1ef1c t\u1eeb b\u1ed1n ph\u00eda \u0111\u00f4 th\u1ecb. H\u01b0\u1edbng ti\u1ebfp c\u1eadn ch\u00ednh t\u1eeb \u0110\u00f4ng sang T\u00e2y c\u1eaft th\u1eb3ng qua b\u1ea7u tr\u1eddi c\u00e1c qu\u1eadn \u0111\u00f4ng d\u00e2n b\u1eadc nh\u1ea5t nh\u01b0 B\u00ecnh Th\u1ea1nh, Ph\u00fa Nhu\u1eadn, G\u00f2 V\u1ea5p v\u00e0 T\u00e2n B\u00ecnh \u1edf \u0111\u1ed9 cao ch\u1ec9 v\u00e0i tr\u0103m m\u00e9t. B\u1ea5t k\u1ef3 d\u1ef1 \u00e1n n\u1edbi d\u00e0i hay th\u00eam \u0111\u01b0\u1eddng b\u0103ng n\u00e0o t\u1ea1i \u0111\u00e2y \u0111\u1ec1u l\u1eadp t\u1ee9c ch\u1ea1m ba r\u00e0o c\u1ea3n l\u1edbn: ti\u1ebfng \u1ed3n v\u01b0\u1ee3t ng\u01b0\u1ee1ng l\u00ean h\u00e0ng tr\u0103m ngh\u00ecn h\u1ed9 d\u00e2n, r\u1ee7i ro ti\u1ebfp c\u1eadn kh\u1ea9n c\u1ea5p gi\u1eefa khu d\u00e2n c\u01b0 d\u00e0y \u0111\u1eb7c, v\u00e0 gi\u1edbi h\u1ea1n t\u0129nh kh\u00f4ng kh\u00f3a ch\u1eb7t chi\u1ec1u cao cao \u1ed1c d\u1ecdc su\u1ed1t tr\u1ee5c ph\u00e1t tri\u1ec3n n\u1ed9i \u0111\u00f4."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "B\u1ea3n \u0111\u1ed3 nghi\u00eang 52\u00b0 nh\u00ecn t\u1eeb h\u01b0\u1edbng \u0110\u00f4ng d\u1ecdc \u0111\u01b0\u1eddng bay h\u1ea1 c\u00e1nh xuy\u00ean qua l\u00f5i \u0111\u00f4 th\u1ecb TP.HCM.",
+              "timestamp_seconds": 133.8
+            },
+            {
+              "type": "diagram",
+              "description": "D\u1ef1ng n\u00f3n t\u0129nh kh\u00f4ng 3D qu\u00e9t th\u1ea5p qua n\u00f3c B\u00ecnh Th\u1ea1nh \u2013 Ph\u00fa Nhu\u1eadn \u2013 G\u00f2 V\u1ea5p \u2013 T\u00e2n B\u00ecnh.",
+              "timestamp_seconds": 141.8
+            },
+            {
+              "type": "stat_card",
+              "description": "Tr\u1ea3i v\u00f2ng \u0111\u1ed3ng m\u1ee9c ti\u1ebfng \u1ed3n \u0111\u1ecf tr\u00ean c\u00e1c \u00f4 khu d\u00e2n c\u01b0 m\u1eadt \u0111\u1ed9 cao hai \u0111\u1ea7u s\u00e2n bay.",
+              "timestamp_seconds": 150.3
+            },
+            {
+              "type": "overlay",
+              "description": "C\u1ea3nh b\u00e1o 3 kh\u00f3a \u0111\u00f4 th\u1ecb: TI\u1ebeNG \u1ed2N \u2022 AN TO\u00c0N D\u00c2N C\u01af \u2022 TR\u1ea6N CAO \u1ed0C.",
+              "timestamp_seconds": 158.8
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://chinhphu.vn/"
+        },
+        {
+          "id": "s06",
+          "label": "Ch\u01b0\u01a1ng 2.2 \u2014 Th\u1eed b\u00e0i to\u00e1n gi\u1ea3 \u0111\u1ecbnh: D\u1ecbch th\u00eam 1 \u0111\u01b0\u1eddng b\u0103ng \u1edf T\u00e2n S\u01a1n Nh\u1ea5t s\u1ebd t\u1ed1n g\u00ec?",
+          "text": "V\u1eady n\u1ebfu ch\u1ea5p nh\u1eadn chi ng\u00e2n s\u00e1ch gi\u1ea3i t\u1ecfa xung quanh \u0111\u1ec3 l\u00e0m th\u00eam \u0111\u01b0\u1eddng b\u0103ng th\u1ee9 ba c\u00e1ch xa b\u1ea3y tr\u0103m s\u00e1u m\u01b0\u01a1i m\u00e9t ngay t\u1ea1i S\u00e0i G\u00f2n th\u00ec sao? Th\u1eed \u0111\u1eb7t v\u1ea1ch gi\u1ea3 \u0111\u1ecbnh \u1ea5y l\u00ean \u1ea3nh v\u1ec7 tinh th\u1ef1c t\u1ebf, \u0111\u00e1p \u00e1n l\u1eadp t\u1ee9c \u0111\u00f3ng l\u1ea1i. \u0110\u1ea9y tim \u0111\u01b0\u1eddng b\u0103ng m\u1edbi d\u1ecbch ra h\u01a1n b\u1ea3y tr\u0103m m\u00e9t k\u00e8m h\u1ec7 th\u1ed1ng \u0111\u01b0\u1eddng l\u0103n v\u00e0 h\u00e0nh lang an to\u00e0n d\u00e0i g\u1ea7n b\u1ed1n ki l\u00f4 m\u00e9t s\u1ebd c\u1eaft ph\u1eb3ng h\u00e0ng tr\u0103m h\u00e9c ta khu d\u00e2n c\u01b0 s\u1ea7m u\u1ea5t c\u1ee7a T\u00e2n B\u00ecnh ho\u1eb7c G\u00f2 V\u1ea5p. Chi ph\u00ed \u0111\u1ec1n b\u00f9 di d\u1eddi h\u00e0ng tr\u0103m ngh\u00ecn c\u01b0 d\u00e2n n\u1ed9i \u0111\u00f4 khi \u0111\u00f3 c\u00f2n c\u00f3 th\u1ec3 v\u01b0\u1ee3t c\u1ea3 ti\u1ec1n x\u00e2y m\u1edbi m\u1ed9t \u0111\u1ea1i c\u1ea3ng h\u00e0ng kh\u00f4ng b\u00ean ngo\u00e0i th\u00e0nh ph\u1ed1.",
+          "start_seconds": 164.74,
+          "end_seconds": 197.43,
+          "speaker_directions": "M\u1edf \u0111\u1ea7u b\u1eb1ng ch\u00ednh c\u00e2u h\u1ecfi ph\u1ea3n bi\u1ec7n c\u1ee7a ng\u01b0\u1eddi xem r\u1ed3i d\u00f9ng tr\u1ef1c gi\u00e1c kh\u00f4ng gian \u0111\u1ec3 d\u1eadp t\u1eaft ho\u00e0n to\u00e0n kh\u1ea3 n\u0103ng \u0111\u00f3.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "analytical_build",
+            "emphasis_words": [
+              "760 m\u00e9t",
+              "c\u1eaft ph\u1eb3ng h\u00e0ng tr\u0103m h\u00e9c ta",
+              "v\u01b0\u1ee3t chi ph\u00ed x\u00e2y m\u1edbi"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ecbp ch\u1eafc, r\u00f5 khi li\u1ec7t k\u00ea di\u1ec7n t\u00edch c\u00e0n qu\u00e9t v\u00e0o T\u00e2n B\u00ecnh \u2013 G\u00f2 V\u1ea5p.",
+            "provider_text": "V\u1eady n\u1ebfu ch\u1ea5p nh\u1eadn chi ng\u00e2n s\u00e1ch gi\u1ea3i t\u1ecfa xung quanh \u0111\u1ec3 l\u00e0m th\u00eam \u0111\u01b0\u1eddng b\u0103ng th\u1ee9 ba c\u00e1ch xa b\u1ea3y tr\u0103m s\u00e1u m\u01b0\u01a1i m\u00e9t ngay t\u1ea1i S\u00e0i G\u00f2n th\u00ec sao? Th\u1eed \u0111\u1eb7t v\u1ea1ch gi\u1ea3 \u0111\u1ecbnh \u1ea5y l\u00ean \u1ea3nh v\u1ec7 tinh th\u1ef1c t\u1ebf, \u0111\u00e1p \u00e1n l\u1eadp t\u1ee9c \u0111\u00f3ng l\u1ea1i. \u0110\u1ea9y tim \u0111\u01b0\u1eddng b\u0103ng m\u1edbi d\u1ecbch ra h\u01a1n b\u1ea3y tr\u0103m m\u00e9t k\u00e8m h\u1ec7 th\u1ed1ng \u0111\u01b0\u1eddng l\u0103n v\u00e0 h\u00e0nh lang an to\u00e0n d\u00e0i g\u1ea7n b\u1ed1n ki l\u00f4 m\u00e9t s\u1ebd c\u1eaft ph\u1eb3ng h\u00e0ng tr\u0103m h\u00e9c ta khu d\u00e2n c\u01b0 s\u1ea7m u\u1ea5t c\u1ee7a T\u00e2n B\u00ecnh ho\u1eb7c G\u00f2 V\u1ea5p. Chi ph\u00ed \u0111\u1ec1n b\u00f9 di d\u1eddi h\u00e0ng tr\u0103m ngh\u00ecn c\u01b0 d\u00e2n n\u1ed9i \u0111\u00f4 khi \u0111\u00f3 c\u00f2n c\u00f3 th\u1ec3 v\u01b0\u1ee3t c\u1ea3 ti\u1ec1n x\u00e2y m\u1edbi m\u1ed9t \u0111\u1ea1i c\u1ea3ng h\u00e0ng kh\u00f4ng b\u00ean ngo\u00e0i th\u00e0nh ph\u1ed1."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "D\u1ef1ng \u0111\u01b0\u1eddng b\u0103ng gi\u1ea3 \u0111\u1ecbnh s\u1ed1 3 d\u1ecbch ra +760 m theo chu\u1ea9n ICAO ngay tr\u00ean m\u1eb7t b\u1eb1ng T\u00e2n S\u01a1n Nh\u1ea5t.",
+              "timestamp_seconds": 166.24
+            },
+            {
+              "type": "animation",
+              "description": "Tr\u1ea3i b\u00f3ng \u0111\u1ecf d\u1ea3i b\u1ea3o hi\u1ec3m & \u0111\u01b0\u1eddng l\u0103n c\u1eaft ph\u1eb3ng h\u00e0ng tr\u0103m h\u00e9c ta khu d\u00e2n c\u01b0 G\u00f2 V\u1ea5p \u2013 T\u00e2n B\u00ecnh.",
+              "timestamp_seconds": 174.74
+            },
+            {
+              "type": "broll",
+              "description": "Soi c\u1eadn l\u1edbp nh\u00e0 ph\u1ed1 ken \u0111\u1eb7c tr\u00ean \u1ea3nh v\u1ec7 tinh EOX z14 t\u1ea1i khu v\u1ef1c ti\u1ebfp gi\u00e1p.",
+              "timestamp_seconds": 182.74
+            },
+            {
+              "type": "stat_card",
+              "description": "Kh\u00f3a k\u1ebft lu\u1eadn: CHI PH\u00cd \u0110\u1ec0N B\u00d9 N\u1ed8I \u0110\u00d4 V\u01af\u1ee2T X\u00c2Y S\u00c2N BAY M\u1edaI M\u00c0 V\u1eaaN CH\u1eacT H\u1eb8P.",
+              "timestamp_seconds": 190.24
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://tapchihangkhong.vn/"
+        },
+        {
+          "id": "s07",
+          "label": "Ch\u01b0\u01a1ng 2.3 \u2014 C\u01a1n kh\u00e1t bay xuy\u00ean l\u1ee5c \u0111\u1ecba & logistic c\u00f4ng ngh\u1ec7 cao v\u00f9ng \u0110\u00f4ng Nam B\u1ed9",
+          "text": "Trong khi T\u00e2n S\u01a1n Nh\u1ea5t ch\u1ea1m tr\u1ea7n n\u0103m m\u01b0\u01a1i tri\u1ec7u kh\u00e1ch v\u1edbi hai \u0111\u01b0\u1eddng b\u0103ng ph\u1ee5 thu\u1ed9c, kinh t\u1ebf v\u00f9ng \u0110\u00f4ng Nam B\u1ed9 v\u00e0 \u0110\u1ed3ng b\u1eb1ng s\u00f4ng C\u1eedu Long l\u1ea1i \u0111ang chuy\u1ec3n nh\u1ecbp sang m\u1ed9t giai \u0111o\u1ea1n m\u1edbi. Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh, \u0110\u1ed3ng Nai, B\u00ecnh D\u01b0\u01a1ng v\u00e0 B\u00e0 R\u1ecba \u2013 V\u0169ng T\u00e0u \u0111ang thu h\u00fat m\u1ea1nh chu\u1ed7i s\u1ea3n xu\u1ea5t \u0111i\u1ec7n t\u1eed, b\u00e1n d\u1eabn, thi\u1ebft b\u1ecb y t\u1ebf v\u00e0 h\u00e0ng xu\u1ea5t kh\u1ea9u gi\u00e1 tr\u1ecb cao. Nh\u1eefng l\u00f4 h\u00e0ng tri\u1ec7u \u0111\u00f4 \u1ea5y kh\u00f4ng \u0111i t\u00e0u bi\u1ec3n nhi\u1ec1u tu\u1ea7n m\u00e0 c\u1ea7n l\u00ean th\u1eb3ng khoang m\u00e1y bay th\u00e2n r\u1ed9ng n\u1ed1i li\u1ec1n B\u1eafc M\u1ef9 v\u00e0 ch\u00e2u \u00c2u. N\u1ebfu m\u00e3i k\u1eb9t trong b\u1ea7u tr\u1eddi c\u0169, Vi\u1ec7t Nam s\u1ebd ti\u1ebfp t\u1ee5c nh\u01b0\u1eddng d\u00f2ng kh\u00e1ch v\u00e0 h\u00e0ng trung chuy\u1ec3n v\u1ec1 tay c\u00e1c hub l\u1edbn quanh khu v\u1ef1c.",
+          "start_seconds": 197.43,
+          "end_seconds": 231.14,
+          "speaker_directions": "Chuy\u1ec3n t\u1eeb b\u00e0i to\u00e1n k\u1ef9 thu\u1eadt sang s\u1ee9c \u00e9p kinh t\u1ebf v\u0129 m\u00f4: h\u00e0ng h\u00f3a c\u00f4ng ngh\u1ec7 cao v\u00e0 bay th\u1eb3ng xuy\u00ean l\u1ee5c \u0111\u1ecba.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "urgency",
+            "emphasis_words": [
+              "tr\u1ea7n 50 tri\u1ec7u",
+              "b\u00e1n d\u1eabn",
+              "m\u00e1y bay th\u00e2n r\u1ed9ng B\u1eafc M\u1ef9 ch\u00e2u \u00c2u"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "T\u1ea1o xung l\u1ef1c chuy\u1ec3n ti\u1ebfp m\u01b0\u1ee3t sang quy\u1ebft s\u00e1ch c\u1ea5p Qu\u1ed1c h\u1ed9i \u1edf c\u1ea3nh 08.",
+            "provider_text": "Trong khi T\u00e2n S\u01a1n Nh\u1ea5t ch\u1ea1m tr\u1ea7n n\u0103m m\u01b0\u01a1i tri\u1ec7u kh\u00e1ch v\u1edbi hai \u0111\u01b0\u1eddng b\u0103ng ph\u1ee5 thu\u1ed9c, kinh t\u1ebf v\u00f9ng \u0110\u00f4ng Nam B\u1ed9 v\u00e0 \u0110\u1ed3ng b\u1eb1ng s\u00f4ng C\u1eedu Long l\u1ea1i \u0111ang chuy\u1ec3n nh\u1ecbp sang m\u1ed9t giai \u0111o\u1ea1n m\u1edbi. Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh, \u0110\u1ed3ng Nai, B\u00ecnh D\u01b0\u01a1ng v\u00e0 B\u00e0 R\u1ecba V\u0169ng T\u00e0u \u0111ang thu h\u00fat m\u1ea1nh chu\u1ed7i s\u1ea3n xu\u1ea5t \u0111i\u1ec7n t\u1eed, b\u00e1n d\u1eabn, thi\u1ebft b\u1ecb y t\u1ebf v\u00e0 h\u00e0ng xu\u1ea5t kh\u1ea9u gi\u00e1 tr\u1ecb cao. Nh\u1eefng l\u00f4 h\u00e0ng tri\u1ec7u \u0111\u00f4 \u1ea5y kh\u00f4ng \u0111i t\u00e0u bi\u1ec3n nhi\u1ec1u tu\u1ea7n m\u00e0 c\u1ea7n l\u00ean th\u1eb3ng khoang m\u00e1y bay th\u00e2n r\u1ed9ng n\u1ed1i li\u1ec1n B\u1eafc M\u1ef9 v\u00e0 ch\u00e2u \u00c2u. N\u1ebfu m\u00e3i k\u1eb9t trong b\u1ea7u tr\u1eddi c\u0169, Vi\u1ec7t Nam s\u1ebd ti\u1ebfp t\u1ee5c nh\u01b0\u1eddng d\u00f2ng kh\u00e1ch v\u00e0 h\u00e0ng trung chuy\u1ec3n v\u1ec1 tay c\u00e1c \u0111i\u1ec3m trung chuy\u1ec3n l\u1edbn quanh khu v\u1ef1c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "B\u1ea3n \u0111\u1ed3 v\u00f9ng \u0110\u00f4ng Nam B\u1ed9 b\u1eadt s\u00e1ng c\u1ee5m KCN TP.HCM \u2013 B\u00ecnh D\u01b0\u01a1ng \u2013 \u0110\u1ed3ng Nai \u2013 B\u00e0 R\u1ecba V\u0169ng T\u00e0u.",
+              "timestamp_seconds": 198.93
+            },
+            {
+              "type": "stat_card",
+              "description": "Li\u1ec7t k\u00ea nh\u00f3m h\u00e0ng xu\u1ea5t kh\u1ea9u t\u1ed1c \u0111\u1ed9 cao: B\u00c1N D\u1eaaN \u2022 \u0110I\u1ec6N T\u1eec \u2022 THI\u1ebeT B\u1eca Y T\u1ebe.",
+              "timestamp_seconds": 207.43
+            },
+            {
+              "type": "diagram",
+              "description": "Qu\u1ef9 \u0111\u1ea1o bay v\u00f2ng cung 3D n\u1ed1i sang B\u1eafc M\u1ef9 v\u00e0 ch\u00e2u \u00c2u v\u01b0\u1ee3t qua c\u00e1c hub khu v\u1ef1c.",
+              "timestamp_seconds": 215.93
+            },
+            {
+              "type": "overlay",
+              "description": "C\u1ea3nh b\u00e1o: B\u1ea6U TR\u1edcI CH\u1eacT S\u1ebc \u0110\u1ea8Y D\u00d2NG KH\u00c1CH TRUNG CHUY\u1ec2N RA NGO\u00c0I.",
+              "timestamp_seconds": 223.93
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://vanban.chinhphu.vn/"
+        },
+        {
+          "id": "s08",
+          "label": "Ch\u01b0\u01a1ng 2.4 \u2014 H\u1ed3 s\u01a1 Ngh\u1ecb quy\u1ebft 94: \u0110\u1ea7u b\u00e0i 5.000 ha, c\u1ea5p 4F v\u00e0 100 tri\u1ec7u kh\u00e1ch/n\u0103m",
+          "text": "\u0110\u00f3 l\u00e0 l\u00fd do Ngh\u1ecb quy\u1ebft 94 n\u0103m 2015 c\u1ee7a Qu\u1ed1c h\u1ed9i ph\u00ea duy\u1ec7t ch\u1ee7 tr\u01b0\u01a1ng \u0111\u1ea7u t\u01b0 C\u1ea3ng h\u00e0ng kh\u00f4ng qu\u1ed1c t\u1ebf Long Th\u00e0nh ra \u0111\u1eddi. Tr\u00ean h\u1ed3 s\u01a1 quy ho\u1ea1ch, \u0111\u1ea7u b\u00e0i \u0111\u1eb7t ra c\u00f3 quy m\u00f4 ch\u01b0a t\u1eebng c\u00f3 \u1edf Vi\u1ec7t Nam: t\u00ecm m\u1ed9t m\u1eb7t b\u1eb1ng li\u1ec1n kh\u1ed1i r\u1ed9ng n\u0103m ngh\u00ecn h\u00e9c ta cho m\u1ed9t si\u00eau s\u00e2n bay \u0111\u1ea1t c\u1ea5p b\u1ed1n F, c\u1ea5p cao nh\u1ea5t c\u1ee7a ICAO. Khi ho\u00e0n ch\u1ec9nh to\u00e0n b\u1ed9, t\u1ed5 h\u1ee3p n\u00e0y v\u1eadn h\u00e0nh b\u1ed1n \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh \u0111\u1ed9c l\u1eadp, c\u00f4ng su\u1ea5t m\u1ed9t tr\u0103m tri\u1ec7u h\u00e0nh kh\u00e1ch v\u00e0 n\u0103m tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a m\u1ed7i n\u0103m. C\u00e2u h\u1ecfi ti\u1ebfp theo hi\u1ec7n l\u00ean ngay tr\u00ean b\u1ea3n \u0111\u1ed3: qu\u00e9t radar quanh Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh, \u0111\u1eb7t n\u0103m ngh\u00ecn h\u00e9c ta \u1ea5y v\u00e0o \u0111\u00e2u?",
+          "start_seconds": 231.14,
+          "end_seconds": 264.34,
+          "speaker_directions": "\u0110\u1ecdc d\u00f5ng d\u1ea1c nh\u01b0 m\u1edf h\u1ed3 s\u01a1 ph\u00e1p l\u00fd ch\u00ednh th\u1ee9c; k\u1ebft th\u00fac b\u1eb1ng c\u00e2u h\u1ecfi m\u1edf chuy\u1ec3n sang Ch\u01b0\u01a1ng 3 qu\u00e9t b\u1ea3n \u0111\u1ed3 \u0111\u1ecba l\u00fd.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "serious_authoritative",
+            "emphasis_words": [
+              "Ngh\u1ecb quy\u1ebft 94",
+              "5.000 ha",
+              "c\u1ea5p 4F",
+              "100 tri\u1ec7u kh\u00e1ch"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Kh\u1edbp ch\u00ednh x\u00e1c nh\u1ecbp l\u1eadt trang h\u1ed3 s\u01a1 gi\u1ea5y kem v\u00e0 t\u00f4 b\u00fat d\u1ea1 v\u00e0ng l\u00ean c\u00e1c con s\u1ed1 \u0111inh.",
+            "provider_text": "\u0110\u00f3 l\u00e0 l\u00fd do Ngh\u1ecb quy\u1ebft ch\u00edn m\u01b0\u01a1i t\u01b0 n\u0103m hai ngh\u00ecn kh\u00f4ng tr\u0103m m\u01b0\u1eddi l\u0103m c\u1ee7a Qu\u1ed1c h\u1ed9i ph\u00ea duy\u1ec7t ch\u1ee7 tr\u01b0\u01a1ng \u0111\u1ea7u t\u01b0 C\u1ea3ng h\u00e0ng kh\u00f4ng qu\u1ed1c t\u1ebf Long Th\u00e0nh ra \u0111\u1eddi. Tr\u00ean h\u1ed3 s\u01a1 quy ho\u1ea1ch, \u0111\u1ea7u b\u00e0i \u0111\u1eb7t ra c\u00f3 quy m\u00f4 ch\u01b0a t\u1eebng c\u00f3 \u1edf Vi\u1ec7t Nam: t\u00ecm m\u1ed9t m\u1eb7t b\u1eb1ng li\u1ec1n kh\u1ed1i r\u1ed9ng n\u0103m ngh\u00ecn h\u00e9c ta cho m\u1ed9t si\u00eau s\u00e2n bay \u0111\u1ea1t c\u1ea5p b\u1ed1n \u00e9p, c\u1ea5p cao nh\u1ea5t c\u1ee7a I cao. Khi ho\u00e0n ch\u1ec9nh to\u00e0n b\u1ed9, t\u1ed5 h\u1ee3p n\u00e0y v\u1eadn h\u00e0nh b\u1ed1n \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh \u0111\u1ed9c l\u1eadp, c\u00f4ng su\u1ea5t m\u1ed9t tr\u0103m tri\u1ec7u h\u00e0nh kh\u00e1ch v\u00e0 n\u0103m tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a m\u1ed7i n\u0103m. C\u00e2u h\u1ecfi ti\u1ebfp theo hi\u1ec7n l\u00ean ngay tr\u00ean b\u1ea3n \u0111\u1ed3: qu\u00e9t ra \u0111a quanh th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh, \u0111\u1eb7t n\u0103m ngh\u00ecn h\u00e9c ta \u1ea5y v\u00e0o \u0111\u00e2u?"
+          },
+          "enhancement_cues": [
+            {
+              "type": "overlay",
+              "description": "T\u1edd h\u1ed3 s\u01a1 Ngh\u1ecb quy\u1ebft 94/2015/QH13 gi\u1ea5y kem tr\u01b0\u1ee3t nghi\u00eang v\u00e0o gi\u1eefa m\u00e0n h\u00ecnh.",
+              "timestamp_seconds": 232.64
+            },
+            {
+              "type": "animation",
+              "description": "Qu\u00e9t b\u00fat d\u1ea1 v\u00e0ng s\u00e1ng d\u1ea7n qua d\u00f2ng m\u1ee5c ti\u00eau: 5.000 HA \u2022 C\u1ea4P 4F ICAO.",
+              "timestamp_seconds": 240.64
+            },
+            {
+              "type": "stat_card",
+              "description": "Hi\u1ec7n b\u1ea3ng ch\u1ec9 ti\u00eau to\u00e0n k\u1ef3: 4 \u0110\u01af\u1edcNG B\u0102NG \u0110\u1ed8C L\u1eacP \u2022 100 TRI\u1ec6U KH\u00c1CH / 5 TRI\u1ec6U T\u1ea4N H\u00c0NG.",
+              "timestamp_seconds": 249.14
+            },
+            {
+              "type": "diagram",
+              "description": "V\u00f2ng qu\u00e9t radar xanh l\u01a1 360\u00b0 bung r\u1ed9ng t\u1eeb t\u00e2m TP.HCM m\u1edf m\u00e0n Ch\u01b0\u01a1ng 3.",
+              "timestamp_seconds": 257.64
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://vanban.chinhphu.vn/"
+        },
+        {
+          "id": "s09",
+          "label": "Ch\u01b0\u01a1ng 3.1 \u2014 Lo\u1ea1i tr\u1eeb h\u01b0\u1edbng Nam & T\u00e2y Nam: T\u00fai b\u00f9n y\u1ebfu v\u00e0 v\u00f9ng l\u00f5i sinh quy\u1ec3n",
+          "text": "N\u1ebfu ch\u1ec9 \u0111o \u0111\u01b0\u1eddng chim bay cho g\u1ea7n trung t\u00e2m, l\u1ef1a ch\u1ecdn \u0111\u1ea7u ti\u00ean d\u1ec5 ngh\u0129 t\u1edbi l\u00e0 v\u00f9ng \u0111\u1ea5t c\u00f2n tho\u00e1ng \u1edf ph\u00eda Nam v\u00e0 T\u00e2y Nam nh\u01b0 Nh\u00e0 B\u00e8, B\u00ecnh Ch\u00e1nh hay C\u1ea7n Gi\u1edd, c\u00e1ch l\u00f5i ph\u1ed1 hai m\u01b0\u01a1i \u0111\u1ebfn ba m\u01b0\u01a1i ki l\u00f4 m\u00e9t. Nh\u01b0ng b\u1eadt l\u1edbp \u0111\u1ecba ch\u1ea5t l\u00ean b\u1ea3n \u0111\u1ed3, to\u00e0n b\u1ed9 h\u01b0\u1edbng Nam l\u1eadp t\u1ee9c b\u1ecb g\u1ea1ch \u0111\u1ecf. V\u00f9ng n\u00e0y n\u1eb1m tr\u00ean n\u1ec1n tr\u0169ng ch\u00e2u th\u1ed5 s\u00f4ng S\u00e0i G\u00f2n \u2013 \u0110\u1ed3ng Nai, cao \u0111\u1ed9 th\u1ea5p, ch\u1ecbu th\u1ee7y tri\u1ec1u v\u00e0 l\u1edbp b\u00f9n s\u00e9t h\u1eefu c\u01a1 y\u1ebfu d\u00e0y h\u00e0ng ch\u1ee5c m\u00e9t. \u0110\u1eb7t b\u1ed1n \u0111\u01b0\u1eddng b\u0103ng d\u00e0i b\u1ed1n ki l\u00f4 m\u00e9t ch\u1ecbu t\u1ea3i t\u00e0u bay h\u01a1n n\u0103m tr\u0103m t\u1ea5n l\u00ean n\u1ec1n b\u00f9n y\u1ebfu v\u1eeba \u0111\u1ed9i chi ph\u00ed x\u1eed l\u00fd, v\u1eeba \u0111\u1ed1i di\u1ec7n r\u1ee7i ro l\u00fan l\u1ec7ch v\u00e0 ch\u1ea1m v\u00f9ng sinh quy\u1ec3n C\u1ea7n Gi\u1edd.",
+          "start_seconds": 264.34,
+          "end_seconds": 299.58,
+          "speaker_directions": "Gi\u1ecdng ph\u00e2n t\u00edch khoa h\u1ecdc ch\u1eb7t ch\u1ebd, nh\u1ea5n m\u1ea1nh y\u1ebfu t\u1ed1 \u0111\u1ecba k\u1ef9 thu\u1eadt b\u00f9n y\u1ebfu v\u00e0 sinh quy\u1ec3n.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "analytical_build",
+            "emphasis_words": [
+              "g\u1ea1ch \u0111\u1ecf",
+              "b\u00f9n s\u00e9t y\u1ebfu",
+              "r\u1ee7i ro l\u00fan l\u1ec7ch",
+              "sinh quy\u1ec3n C\u1ea7n Gi\u1edd"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "\u0110i qua t\u1eebng l\u00fd do t\u1ef1 nhi\u00ean khi\u1ebfn h\u01b0\u1edbng Nam th\u1ea5t b\u1ea1i tr\u01b0\u1edbc b\u00e0i ki\u1ec3m tra n\u1ec1n m\u00f3ng 4F.",
+            "provider_text": "N\u1ebfu ch\u1ec9 \u0111o \u0111\u01b0\u1eddng chim bay cho g\u1ea7n trung t\u00e2m, l\u1ef1a ch\u1ecdn \u0111\u1ea7u ti\u00ean d\u1ec5 ngh\u0129 t\u1edbi l\u00e0 v\u00f9ng \u0111\u1ea5t c\u00f2n tho\u00e1ng \u1edf ph\u00eda Nam v\u00e0 T\u00e2y Nam nh\u01b0 Nh\u00e0 B\u00e8, B\u00ecnh Ch\u00e1nh hay C\u1ea7n Gi\u1edd, c\u00e1ch l\u00f5i ph\u1ed1 hai m\u01b0\u01a1i \u0111\u1ebfn ba m\u01b0\u01a1i ki l\u00f4 m\u00e9t. Nh\u01b0ng b\u1eadt l\u1edbp \u0111\u1ecba ch\u1ea5t l\u00ean b\u1ea3n \u0111\u1ed3, to\u00e0n b\u1ed9 h\u01b0\u1edbng Nam l\u1eadp t\u1ee9c b\u1ecb g\u1ea1ch \u0111\u1ecf. V\u00f9ng n\u00e0y n\u1eb1m tr\u00ean n\u1ec1n tr\u0169ng ch\u00e2u th\u1ed5 s\u00f4ng S\u00e0i G\u00f2n \u0110\u1ed3ng Nai, cao \u0111\u1ed9 th\u1ea5p, ch\u1ecbu th\u1ee7y tri\u1ec1u v\u00e0 l\u1edbp b\u00f9n s\u00e9t h\u1eefu c\u01a1 y\u1ebfu d\u00e0y h\u00e0ng ch\u1ee5c m\u00e9t. \u0110\u1eb7t b\u1ed1n \u0111\u01b0\u1eddng b\u0103ng d\u00e0i b\u1ed1n ki l\u00f4 m\u00e9t ch\u1ecbu t\u1ea3i t\u00e0u bay h\u01a1n n\u0103m tr\u0103m t\u1ea5n l\u00ean n\u1ec1n b\u00f9n y\u1ebfu v\u1eeba \u0111\u1ed9i chi ph\u00ed x\u1eed l\u00fd, v\u1eeba \u0111\u1ed1i di\u1ec7n r\u1ee7i ro l\u00fan l\u1ec7ch v\u00e0 ch\u1ea1m v\u00f9ng sinh quy\u1ec3n C\u1ea7n Gi\u1edd."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Tia radar qu\u00e9t xu\u1ed1ng g\u00f3c ph\u1ea7n t\u01b0 Nam \u2013 T\u00e2y Nam qua B\u00ecnh Ch\u00e1nh, Nh\u00e0 B\u00e8 v\u00e0 C\u1ea7n Gi\u1edd (20\u201330 km).",
+              "timestamp_seconds": 265.84
+            },
+            {
+              "type": "diagram",
+              "description": "B\u1eadt l\u1edbp b\u1ea3n \u0111\u1ed3 \u0111\u1ecba ch\u1ea5t: to\u00e0n b\u1ed9 v\u00f9ng h\u1ea1 l\u01b0u tr\u0169ng s\u00f4ng S\u00e0i G\u00f2n \u2013 \u0110\u1ed3ng Nai chuy\u1ec3n c\u1ea3nh b\u00e1o \u0111\u1ecf.",
+              "timestamp_seconds": 273.84
+            },
+            {
+              "type": "animation",
+              "description": "Sa b\u00e0n 3D c\u1eaft \u0111\u1ee9ng n\u1ec1n \u0111\u1ea5t: t\u1ea7ng b\u00f9n s\u00e9t h\u1eefu c\u01a1 m\u1ec1m l\u00fan d\u01b0\u1edbi t\u1ea3i \u0111\u01b0\u1eddng b\u0103ng 4.000 m (>500 t\u1ea5n).",
+              "timestamp_seconds": 282.34
+            },
+            {
+              "type": "overlay",
+              "description": "D\u1ea5u X \u0111\u1ecf lo\u1ea1i tr\u1eeb h\u01b0\u1edbng Nam k\u00e8m ranh gi\u1edbi Khu d\u1ef1 tr\u1eef sinh quy\u1ec3n C\u1ea7n Gi\u1edd.",
+              "timestamp_seconds": 290.84
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://tapchihangkhong.vn/"
+        },
+        {
+          "id": "s10",
+          "label": "Ch\u01b0\u01a1ng 3.2 \u2014 Lo\u1ea1i tr\u1eeb c\u1ef1 ly g\u1ea7n \u0110\u00f4ng B\u1eafc: K\u00edn \u0111\u1eb7c \u0111\u00f4 th\u1ecb & v\u00f9ng bay qu\u00e2n s\u1ef1 Bi\u00ean H\u00f2a",
+          "text": "Quay radar sang h\u01b0\u1edbng \u0111\u1ea5t cao ph\u00eda \u0110\u00f4ng B\u1eafc trong b\u00e1n k\u00ednh m\u01b0\u1eddi l\u0103m \u0111\u1ebfn hai m\u01b0\u01a1i l\u0103m ki l\u00f4 m\u00e9t c\u0169ng \u0111\u1ee5ng hai b\u1ee9c t\u01b0\u1eddng ch\u1eafn l\u1edbn. Th\u1ee9 nh\u1ea5t, d\u1ea3i th\u00e0nh ph\u1ed1 Th\u1ee7 \u0110\u1ee9c, D\u0129 An, Thu\u1eadn An t\u1edbi Bi\u00ean H\u00f2a \u0111\u00e3 \u0111\u00f4 th\u1ecb h\u00f3a c\u00f4ng nghi\u1ec7p k\u00edn \u0111\u1eb7c, kh\u00f4ng c\u00f2n qu\u1ef9 \u0111\u1ea5t tr\u1ed1ng li\u1ec1n kh\u1ed1i n\u0103m ngh\u00ecn h\u00e9c ta. Th\u1ee9 hai v\u00e0 \u0111\u1eb7c bi\u1ec7t nh\u1ea1y c\u1ea3m l\u00e0 an to\u00e0n b\u1ea7u tr\u1eddi: ngay ph\u00eda B\u1eafc h\u00e0nh lang n\u00e0y \u0111\u00e3 c\u00f3 s\u00e2n bay qu\u00e2n s\u1ef1 Bi\u00ean H\u00f2a gi\u1eef vai tr\u00f2 qu\u1ed1c ph\u00f2ng tr\u1ecdng y\u1ebfu. N\u1ebfu \u0111\u1eb7t si\u00eau s\u00e2n bay d\u00e2n d\u1ee5ng qu\u00e1 g\u1ea7n trong v\u00e0nh \u0111ai hai m\u01b0\u01a1i l\u0103m c\u00e2y s\u1ed1, ph\u1ec5u h\u1ea1 c\u00e1nh th\u01b0\u01a1ng m\u1ea1i s\u1ebd \u0111an ch\u00e9o v\u00e0o c\u1ea3 v\u00f9ng bay Bi\u00ean H\u00f2a l\u1eabn kh\u00f4ng l\u01b0u T\u00e2n S\u01a1n Nh\u1ea5t.",
+          "start_seconds": 299.58,
+          "end_seconds": 333.55,
+          "speaker_directions": "Gi\u1eef nh\u1ecbp kh\u1ea9n tr\u01b0\u01a1ng, gi\u1ea3i th\u00edch m\u1ea1ch l\u1ea1c hai r\u00e0o c\u1ea3n ch\u1ed3ng l\u00ean nhau \u1edf v\u00e0nh \u0111ai 15\u201325 km.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "focused",
+            "emphasis_words": [
+              "\u0111\u00f4 th\u1ecb h\u00f3a k\u00edn \u0111\u1eb7c",
+              "s\u00e2n bay qu\u00e2n s\u1ef1 Bi\u00ean H\u00f2a",
+              "\u0111an ch\u00e9o kh\u00f4ng l\u01b0u"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ea5n r\u00f5 v\u00f9ng tr\u1eddi Bi\u00ean H\u00f2a \u0111\u1ec3 th\u1ea5y b\u00e0i to\u00e1n v\u1ecb tr\u00ed l\u00e0 giao \u0111i\u1ec3m c\u1ee7a c\u1ea3 m\u1eb7t \u0111\u1ea5t l\u1eabn b\u1ea7u tr\u1eddi.",
+            "provider_text": "Quay ra \u0111a sang h\u01b0\u1edbng \u0111\u1ea5t cao ph\u00eda \u0110\u00f4ng B\u1eafc trong b\u00e1n k\u00ednh m\u01b0\u1eddi l\u0103m \u0111\u1ebfn hai m\u01b0\u01a1i l\u0103m ki l\u00f4 m\u00e9t c\u0169ng \u0111\u1ee5ng hai b\u1ee9c t\u01b0\u1eddng ch\u1eafn l\u1edbn. Th\u1ee9 nh\u1ea5t, d\u1ea3i th\u00e0nh ph\u1ed1 Th\u1ee7 \u0110\u1ee9c, D\u0129 An, Thu\u1eadn An t\u1edbi Bi\u00ean H\u00f2a \u0111\u00e3 \u0111\u00f4 th\u1ecb h\u00f3a c\u00f4ng nghi\u1ec7p k\u00edn \u0111\u1eb7c, kh\u00f4ng c\u00f2n qu\u1ef9 \u0111\u1ea5t tr\u1ed1ng li\u1ec1n kh\u1ed1i n\u0103m ngh\u00ecn h\u00e9c ta. Th\u1ee9 hai v\u00e0 \u0111\u1eb7c bi\u1ec7t nh\u1ea1y c\u1ea3m l\u00e0 an to\u00e0n b\u1ea7u tr\u1eddi: ngay ph\u00eda B\u1eafc h\u00e0nh lang n\u00e0y \u0111\u00e3 c\u00f3 s\u00e2n bay qu\u00e2n s\u1ef1 Bi\u00ean H\u00f2a gi\u1eef vai tr\u00f2 qu\u1ed1c ph\u00f2ng tr\u1ecdng y\u1ebfu. N\u1ebfu \u0111\u1eb7t si\u00eau s\u00e2n bay d\u00e2n d\u1ee5ng qu\u00e1 g\u1ea7n trong v\u00e0nh \u0111ai hai m\u01b0\u01a1i l\u0103m c\u00e2y s\u1ed1, ph\u1ec5u h\u1ea1 c\u00e1nh th\u01b0\u01a1ng m\u1ea1i s\u1ebd \u0111an ch\u00e9o v\u00e0o c\u1ea3 v\u00f9ng bay Bi\u00ean H\u00f2a l\u1eabn kh\u00f4ng l\u01b0u T\u00e2n S\u01a1n Nh\u1ea5t."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "V\u00f2ng radar xoay sang h\u01b0\u1edbng \u0110\u00f4ng B\u1eafc (v\u00e0nh \u0111ai 15\u201325 km: Th\u1ee7 \u0110\u1ee9c \u2013 D\u0129 An \u2013 Bi\u00ean H\u00f2a).",
+              "timestamp_seconds": 301.08
+            },
+            {
+              "type": "broll",
+              "description": "M\u1eb7t b\u1eb1ng v\u1ec7 tinh khu c\u00f4ng nghi\u1ec7p v\u00e0 khu d\u00e2n c\u01b0 d\u00e0y \u0111\u1eb7c d\u1ecdc xa l\u1ed9 H\u00e0 N\u1ed9i \u2013 Bi\u00ean H\u00f2a.",
+              "timestamp_seconds": 309.58
+            },
+            {
+              "type": "diagram",
+              "description": "B\u1eadt v\u00f2ng ki\u1ec3m so\u00e1t kh\u00f4ng l\u01b0u qu\u00e2n s\u1ef1 Bi\u00ean H\u00f2a giao c\u1eaft \u0111\u1ecf v\u1edbi ph\u1ec5u bay gi\u1ea3 \u0111\u1ecbnh <25 km.",
+              "timestamp_seconds": 317.58
+            },
+            {
+              "type": "stat_card",
+              "description": "\u0110\u00f3ng d\u1ea5u lo\u1ea1i tr\u1eeb v\u00e0nh \u0111ai c\u1eadn \u0111\u00f4: K\u00cdN \u0110\u1ea4T S\u1ea0CH + XUNG \u0110\u1ed8T KH\u00d4NG L\u01afU.",
+              "timestamp_seconds": 325.58
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://tapchihangkhong.vn/"
+        },
+        {
+          "id": "s11",
+          "label": "Ch\u01b0\u01a1ng 3.3 \u2014 \u0110i\u1ec3m r\u01a1i v\u00e0ng \u1edf km 40 t\u1ea1i B\u00ecnh S\u01a1n: Th\u1ec1m \u0111\u1ea5t \u0111\u1ecf bazan v\u00e0 c\u1eeda tr\u1eddi m\u1edf",
+          "text": "Ch\u1ec9 khi tia radar v\u01b0\u01a1n ra m\u1ed1c kho\u1ea3ng b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t v\u1ec1 ph\u00eda \u0110\u00f4ng, d\u1eebng t\u1ea1i cao nguy\u00ean thoai tho\u1ea3i x\u00e3 B\u00ecnh S\u01a1n, huy\u1ec7n Long Th\u00e0nh, t\u1ec9nh \u0110\u1ed3ng Nai, c\u1ea3 ba \u1ed5 kh\u00f3a k\u1ef9 thu\u1eadt m\u1edbi \u0111\u1ed3ng lo\u1ea1t m\u1edf ra. V\u1ec1 \u0111\u1ecba ch\u1ea5t, \u0111\u00e2y l\u00e0 th\u1ec1m \u0111\u1ea5t \u0111\u1ecf bazan c\u1ed5 cao r\u00e1o, ch\u1ecbu t\u1ea3i v\u01b0\u1ee3t tr\u1ed9i v\u00e0 ho\u00e0n to\u00e0n tho\u00e1t ng\u1eadp tri\u1ec1u. V\u1ec1 m\u1eb7t b\u1eb1ng, v\u00f9ng n\u00e0y v\u1ed1n l\u00e0 n\u00f4ng tr\u01b0\u1eddng cao su b\u1ea1t ng\u00e0n \u00edt d\u00e2n c\u01b0, gi\u00fap gi\u1ea3i t\u1ecfa g\u1ecdn m\u1ed9t kh\u1ed1i li\u1ec1n m\u1ea1ch n\u0103m ngh\u00ecn h\u00e9c ta. C\u00f2n tr\u00ean b\u1ea7u tr\u1eddi, tr\u1ee5c \u0111\u01b0\u1eddng b\u0103ng t\u1ea1i B\u00ecnh S\u01a1n m\u1edf h\u01b0\u1edbng tho\u00e1ng \u0111\u00e3ng, kh\u00f4ng c\u1eaft qua cao \u1ed1c S\u00e0i G\u00f2n v\u00e0 t\u00e1ch bi\u1ec7t an to\u00e0n kh\u1ecfi v\u00f9ng bay Bi\u00ean H\u00f2a l\u1eabn T\u00e2n S\u01a1n Nh\u1ea5t.",
+          "start_seconds": 333.55,
+          "end_seconds": 366.5,
+          "speaker_directions": "M\u1edf gi\u1ecdng s\u00e1ng h\u01a1n khi c\u1ea3 3 \u1ed5 kh\u00f3a (\u0111\u1ecba ch\u1ea5t, m\u1eb7t b\u1eb1ng, kh\u00f4ng l\u01b0u) \u0111\u1ed3ng lo\u1ea1t m\u1edf ra t\u1ea1i B\u00ecnh S\u01a1n.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "breakthrough",
+            "emphasis_words": [
+              "ba \u1ed5 kh\u00f3a k\u1ef9 thu\u1eadt",
+              "\u0111\u1ea5t \u0111\u1ecf bazan",
+              "n\u00f4ng tr\u01b0\u1eddng cao su",
+              "t\u00e1ch bi\u1ec7t an to\u00e0n"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ea5n nh\u1ecbp 'V\u1ec1 \u0111\u1ecba ch\u1ea5t... V\u1ec1 m\u1eb7t b\u1eb1ng... C\u00f2n tr\u00ean b\u1ea7u tr\u1eddi...' th\u1eadt g\u1ecdn \u0111\u1ec3 ng\u01b0\u1eddi xem n\u1eafm tr\u1ecdn logic 40 km.",
+            "provider_text": "Ch\u1ec9 khi tia ra \u0111a v\u01b0\u01a1n ra m\u1ed1c kho\u1ea3ng b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t v\u1ec1 ph\u00eda \u0110\u00f4ng, d\u1eebng t\u1ea1i cao nguy\u00ean thoai tho\u1ea3i x\u00e3 B\u00ecnh S\u01a1n, huy\u1ec7n Long Th\u00e0nh, t\u1ec9nh \u0110\u1ed3ng Nai, c\u1ea3 ba \u1ed5 kh\u00f3a k\u1ef9 thu\u1eadt m\u1edbi \u0111\u1ed3ng lo\u1ea1t m\u1edf ra. V\u1ec1 \u0111\u1ecba ch\u1ea5t, \u0111\u00e2y l\u00e0 th\u1ec1m \u0111\u1ea5t \u0111\u1ecf ba dan c\u1ed5 cao r\u00e1o, ch\u1ecbu t\u1ea3i v\u01b0\u1ee3t tr\u1ed9i v\u00e0 ho\u00e0n to\u00e0n tho\u00e1t ng\u1eadp tri\u1ec1u. V\u1ec1 m\u1eb7t b\u1eb1ng, v\u00f9ng n\u00e0y v\u1ed1n l\u00e0 n\u00f4ng tr\u01b0\u1eddng cao su b\u1ea1t ng\u00e0n \u00edt d\u00e2n c\u01b0, gi\u00fap gi\u1ea3i t\u1ecfa g\u1ecdn m\u1ed9t kh\u1ed1i li\u1ec1n m\u1ea1ch n\u0103m ngh\u00ecn h\u00e9c ta. C\u00f2n tr\u00ean b\u1ea7u tr\u1eddi, tr\u1ee5c \u0111\u01b0\u1eddng b\u0103ng t\u1ea1i B\u00ecnh S\u01a1n m\u1edf h\u01b0\u1edbng tho\u00e1ng \u0111\u00e3ng, kh\u00f4ng c\u1eaft qua cao \u1ed1c S\u00e0i G\u00f2n v\u00e0 t\u00e1ch bi\u1ec7t an to\u00e0n kh\u1ecfi v\u00f9ng bay Bi\u00ean H\u00f2a l\u1eabn T\u00e2n S\u01a1n Nh\u1ea5t."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "V\u00f2ng radar \u0111\u1ea9y qua m\u1ed1c 25 km t\u1edbi 40 km v\u00e0 kh\u00f3a s\u00e1ng xanh ng\u1ecdc t\u1ea1i B\u00ecnh S\u01a1n \u2013 Long Th\u00e0nh.",
+              "timestamp_seconds": 335.05
+            },
+            {
+              "type": "diagram",
+              "description": "L\u00e1t c\u1eaft \u0111\u1ecba ch\u1ea5t 3D Isometric: th\u1ec1m \u0111\u1ea5t \u0111\u1ecf bazan c\u1ed5 m\u00e0u cam \u0111\u1ea5t cao r\u00e1o, kh\u00f4ng ng\u1eadp tri\u1ec1u.",
+              "timestamp_seconds": 343.05
+            },
+            {
+              "type": "broll",
+              "description": "\u1ea2nh th\u1ef1c \u0111\u1ecba m\u1ea3ng cao su & c\u00f4ng tr\u01b0\u1eddng Long Th\u00e0nh x\u00e1c nh\u1eadn qu\u1ef9 \u0111\u1ea5t li\u1ec1n kho\u1ea3nh 5.000 ha.",
+              "timestamp_seconds": 351.05
+            },
+            {
+              "type": "stat_card",
+              "description": "Kh\u1edbp tr\u1ecdn 3 ch\u1ed1t xanh: \u0110\u1ea4T BAZAN C\u1ee8NG \u2022 M\u1eb6T B\u1eb0NG LI\u1ec0N KH\u1ed0I \u2022 C\u1eecA TR\u1edcI \u0110\u1ed8C L\u1eacP.",
+              "timestamp_seconds": 359.05
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://tapchihangkhong.vn/"
+        },
+        {
+          "id": "s12",
+          "label": "Ch\u01b0\u01a1ng 3.4 \u2014 T\u1ecda \u0111\u1ed9 trung t\u00e2m c\u1ee7a tam gi\u00e1c c\u00f4ng nghi\u1ec7p TP.HCM \u2013 \u0110\u1ed3ng Nai \u2013 C\u00e1i M\u00e9p",
+          "text": "C\u00e0ng thu nh\u1ecf b\u1ea3n \u0111\u1ed3 \u1edf t\u1ea7m li\u00ean v\u00f9ng, b\u1ea1n c\u00e0ng th\u1ea5y Long Th\u00e0nh kh\u00f4ng h\u1ec1 b\u1ecb \u0111\u1ea9y ra r\u00eca, m\u00e0 l\u1ea1i ng\u1ed3i ngay t\u00e2m \u0111i\u1ec3m k\u1ebft n\u1ed1i c\u1ee7a c\u1ef1c t\u0103ng tr\u01b0\u1edfng ph\u00eda Nam. H\u00e3y nh\u00ecn v\u00e0o tam gi\u00e1c tr\u00ean m\u00e0n h\u00ecnh: ph\u00eda T\u00e2y l\u00e0 trung t\u00e2m Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh c\u00e1ch kho\u1ea3ng b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t; xung quanh l\u00e0 th\u1ee7 ph\u1ee7 khu c\u00f4ng nghi\u1ec7p c\u1ee7a \u0110\u1ed3ng Nai v\u00e0 B\u00ecnh D\u01b0\u01a1ng; c\u00f2n xu\u00f4i xu\u1ed1ng ph\u00eda Nam ch\u1ec9 kho\u1ea3ng ba m\u01b0\u01a1i \u0111\u1ebfn ba m\u01b0\u01a1i l\u0103m ki l\u00f4 m\u00e9t l\u00e0 c\u1ee5m c\u1ea3ng n\u01b0\u1edbc s\u00e2u C\u00e1i M\u00e9p \u2013 Th\u1ecb V\u1ea3i \u0111\u00f3n si\u00eau t\u00e0u \u0111i th\u1eb3ng M\u1ef9 v\u00e0 ch\u00e2u \u00c2u. Khi c\u1ea3ng h\u00e0ng kh\u00f4ng l\u1edbn nh\u1ea5t g\u1eb7p c\u1ea3ng bi\u1ec3n n\u01b0\u1edbc s\u00e2u trong b\u00e1n k\u00ednh n\u1eeda gi\u1edd xe ch\u1ea1y, t\u1ecda \u0111\u1ed9 \u1ea5y tr\u1edf th\u00e0nh c\u1eeda ng\u00f5 logistics Sea \u2013 Air v\u00f4 song.",
+          "start_seconds": 366.5,
+          "end_seconds": 402.51,
+          "speaker_directions": "T\u1ea1o c\u1ea3m gi\u00e1c '\u00e0 ra l\u00e0 th\u1ebf' khi n\u1ed1i h\u00ecnh tam gi\u00e1c TP.HCM \u2013 \u0110\u1ed3ng Nai/B\u00ecnh D\u01b0\u01a1ng \u2013 C\u00e1i M\u00e9p Th\u1ecb V\u1ea3i.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "insightful",
+            "emphasis_words": [
+              "t\u00e2m \u0111i\u1ec3m k\u1ebft n\u1ed1i",
+              "C\u00e1i M\u00e9p \u2013 Th\u1ecb V\u1ea3i",
+              "30\u201335 km",
+              "n\u1eeda gi\u1edd xe ch\u1ea1y"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ea5n li\u00ean k\u1ebft c\u1ea3ng n\u01b0\u1edbc s\u00e2u C\u00e1i M\u00e9p (ti\u1ec1n \u0111\u1ec1 cho T\u1eadp 3) v\u00e0 chu\u1ed7i logistics \u0111a ph\u01b0\u01a1ng th\u1ee9c.",
+            "provider_text": "C\u00e0ng thu nh\u1ecf b\u1ea3n \u0111\u1ed3 \u1edf t\u1ea7m li\u00ean v\u00f9ng, b\u1ea1n c\u00e0ng th\u1ea5y Long Th\u00e0nh kh\u00f4ng h\u1ec1 b\u1ecb \u0111\u1ea9y ra r\u00eca, m\u00e0 l\u1ea1i ng\u1ed3i ngay t\u00e2m \u0111i\u1ec3m k\u1ebft n\u1ed1i c\u1ee7a c\u1ef1c t\u0103ng tr\u01b0\u1edfng ph\u00eda Nam. H\u00e3y nh\u00ecn v\u00e0o tam gi\u00e1c tr\u00ean m\u00e0n h\u00ecnh: ph\u00eda T\u00e2y l\u00e0 trung t\u00e2m th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh c\u00e1ch kho\u1ea3ng b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t; xung quanh l\u00e0 th\u1ee7 ph\u1ee7 khu c\u00f4ng nghi\u1ec7p c\u1ee7a \u0110\u1ed3ng Nai v\u00e0 B\u00ecnh D\u01b0\u01a1ng; c\u00f2n xu\u00f4i xu\u1ed1ng ph\u00eda Nam ch\u1ec9 kho\u1ea3ng ba m\u01b0\u01a1i \u0111\u1ebfn ba m\u01b0\u01a1i l\u0103m ki l\u00f4 m\u00e9t l\u00e0 c\u1ee5m c\u1ea3ng n\u01b0\u1edbc s\u00e2u C\u00e1i M\u00e9p Th\u1ecb V\u1ea3i \u0111\u00f3n si\u00eau t\u00e0u \u0111i th\u1eb3ng M\u1ef9 v\u00e0 ch\u00e2u \u00c2u. Khi c\u1ea3ng h\u00e0ng kh\u00f4ng l\u1edbn nh\u1ea5t g\u1eb7p c\u1ea3ng bi\u1ec3n n\u01b0\u1edbc s\u00e2u trong b\u00e1n k\u00ednh n\u1eeda gi\u1edd xe ch\u1ea1y, t\u1ecda \u0111\u1ed9 \u1ea5y tr\u1edf th\u00e0nh c\u1eeda ng\u00f5 l\u00f4 g\u00edt t\u00edc bi\u1ec3n v\u00e0 h\u00e0ng kh\u00f4ng v\u00f4 song."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Thu camera l\u00ean g\u00f3c 52\u00b0 to\u00e0n v\u00f9ng \u0110\u00f4ng Nam B\u1ed9 l\u1ed9 r\u00f5 v\u1ecb tr\u00ed tr\u1ecdng t\u00e2m c\u1ee7a Long Th\u00e0nh.",
+              "timestamp_seconds": 368.0
+            },
+            {
+              "type": "diagram",
+              "description": "V\u1ebd tam gi\u00e1c k\u1ebft n\u1ed1i 3 c\u1ef1c ph\u00e1t s\u00e1ng quanh Long Th\u00e0nh: TP.HCM (40 km) \u2013 B\u00ecnh D\u01b0\u01a1ng/\u0110\u1ed3ng Nai \u2013 C\u00e1i M\u00e9p (30\u201335 km).",
+              "timestamp_seconds": 376.0
+            },
+            {
+              "type": "broll",
+              "description": "\u1ea2nh c\u1ee5m c\u1ea3ng n\u01b0\u1edbc s\u00e2u C\u00e1i M\u00e9p \u2013 Th\u1ecb V\u1ea3i (m\u1ed3i n\u1ed1i t\u1ef1 nhi\u00ean sang ch\u1ee7 \u0111\u1ec1 T\u1eadp 3).",
+              "timestamp_seconds": 384.5
+            },
+            {
+              "type": "stat_card",
+              "description": "\u0110\u00f3ng d\u1ea5u trung t\u00e2m: TR\u1ee4C LOGISTICS SEA\u2013AIR TRONG B\u00c1N K\u00cdNH ~30 PH\u00daT.",
+              "timestamp_seconds": 392.0
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://baochinhphu.vn/"
+        },
+        {
+          "id": "s13",
+          "label": "Ch\u01b0\u01a1ng 4.1 \u2014 Hero Moment 1:1: Nh\u1ea5c tr\u1ecdn 791 ha T\u00e2n S\u01a1n Nh\u1ea5t \u0111\u1eb7t v\u00e0o 5.000 ha Long Th\u00e0nh",
+          "text": "\u0110\u1ec3 th\u1ea5y r\u00f5 v\u00ec sao Long Th\u00e0nh kh\u00f4ng th\u1ec3 nh\u00e9t v\u1eeba v\u00e0o n\u1ed9i th\u00e0nh, h\u00e3y th\u1ef1c hi\u1ec7n ph\u00e9p ch\u1ed3ng b\u1ea3n \u0111\u1ed3 \u0111\u00fang t\u1ef7 l\u1ec7 m\u1ed9t m\u1ed9t ngay tr\u00ean v\u1ec7 tinh. Kh\u1ed1i m\u00e0u \u0111\u1ecf \u0111ang n\u1ed5i l\u00ean l\u00e0 to\u00e0n b\u1ed9 b\u1ea3y tr\u0103m ch\u00edn m\u01b0\u01a1i m\u1ed1t h\u00e9c ta c\u1ee7a s\u00e2n bay T\u00e2n S\u01a1n Nh\u1ea5t. B\u00e2y gi\u1edd, h\u00e3y nh\u1ea5c nguy\u00ean to\u00e0n khu s\u00e2n bay s\u1ea7m u\u1ea5t nh\u1ea5t c\u1ea3 n\u01b0\u1edbc \u1ea5y \u0111\u1eb7t v\u00e0o gi\u1eefa v\u00f9ng ranh gi\u1edbi n\u0103m ngh\u00ecn h\u00e9c ta c\u1ee7a Long Th\u00e0nh. To\u00e0n b\u1ed9 T\u00e2n S\u01a1n Nh\u1ea5t l\u1eadp t\u1ee9c n\u1eb1m l\u1ecdt th\u1ecfm ch\u01b0a t\u1edbi m\u1ed9t ph\u1ea7n s\u00e1u kh\u00f4ng gian, b\u1edfi Long Th\u00e0nh r\u1ed9ng g\u1ea5p t\u1edbi s\u00e1u ph\u1ea9y ba l\u1ea7n. C\u1ea7n m\u1eb7t b\u1eb1ng l\u1edbn h\u01a1n s\u00e1u s\u00e2n bay c\u0169 gh\u00e9p l\u1ea1i m\u1edbi \u0111\u1ee7 ch\u1ed7 cho b\u1ed1n \u0111\u01b0\u1eddng b\u0103ng \u0111\u1ed9c l\u1eadp, c\u1ee5m nh\u00e0 ga hoa sen, khu b\u1ea3o d\u01b0\u1ee1ng v\u00e0 ga h\u00e0ng h\u00f3a.",
+          "start_seconds": 402.51,
+          "end_seconds": 438.52,
+          "speaker_directions": "Sample section \u0111inh c\u1ee7a T\u1eadp 2: ch\u1eadm r\u00e3i, gi\u00e0u k\u1ecbch t\u00ednh th\u1ecb gi\u00e1c khi kh\u1ed1i 791 ha bay sang l\u1ecdt th\u1ecfm trong 5.000 ha.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "dramatic_climax",
+            "emphasis_words": [
+              "t\u1ef7 l\u1ec7 1:1",
+              "l\u1ecdt th\u1ecfm",
+              "6,3 l\u1ea7n",
+              "5.000 ha"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ea5n m\u1ea1nh ph\u00e9p so s\u00e1nh tr\u1ef1c quan '6,3 l\u1ea7n' b\u1eb1ng nh\u1ecbp d\u1eebng t\u1ef1 nhi\u00ean tr\u01b0\u1edbc c\u00e2u gi\u1ea3i th\u00edch cu\u1ed1i.",
+            "provider_text": "\u0110\u1ec3 th\u1ea5y r\u00f5 v\u00ec sao Long Th\u00e0nh kh\u00f4ng th\u1ec3 nh\u00e9t v\u1eeba v\u00e0o n\u1ed9i th\u00e0nh, h\u00e3y th\u1ef1c hi\u1ec7n ph\u00e9p ch\u1ed3ng b\u1ea3n \u0111\u1ed3 \u0111\u00fang t\u1ef7 l\u1ec7 m\u1ed9t m\u1ed9t ngay tr\u00ean v\u1ec7 tinh. Kh\u1ed1i m\u00e0u \u0111\u1ecf \u0111ang n\u1ed5i l\u00ean l\u00e0 to\u00e0n b\u1ed9 b\u1ea3y tr\u0103m ch\u00edn m\u01b0\u01a1i m\u1ed1t h\u00e9c ta c\u1ee7a s\u00e2n bay T\u00e2n S\u01a1n Nh\u1ea5t. B\u00e2y gi\u1edd, h\u00e3y nh\u1ea5c nguy\u00ean to\u00e0n khu s\u00e2n bay s\u1ea7m u\u1ea5t nh\u1ea5t c\u1ea3 n\u01b0\u1edbc \u1ea5y \u0111\u1eb7t v\u00e0o gi\u1eefa v\u00f9ng ranh gi\u1edbi n\u0103m ngh\u00ecn h\u00e9c ta c\u1ee7a Long Th\u00e0nh. To\u00e0n b\u1ed9 T\u00e2n S\u01a1n Nh\u1ea5t l\u1eadp t\u1ee9c n\u1eb1m l\u1ecdt th\u1ecfm ch\u01b0a t\u1edbi m\u1ed9t ph\u1ea7n s\u00e1u kh\u00f4ng gian, b\u1edfi Long Th\u00e0nh r\u1ed9ng g\u1ea5p t\u1edbi s\u00e1u ph\u1ea9y ba l\u1ea7n. C\u1ea7n m\u1eb7t b\u1eb1ng l\u1edbn h\u01a1n s\u00e1u s\u00e2n bay c\u0169 gh\u00e9p l\u1ea1i m\u1edbi \u0111\u1ee7 ch\u1ed7 cho b\u1ed1n \u0111\u01b0\u1eddng b\u0103ng \u0111\u1ed9c l\u1eadp, c\u1ee5m nh\u00e0 ga hoa sen, khu b\u1ea3o d\u01b0\u1ee1ng v\u00e0 ga h\u00e0ng h\u00f3a."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "\u0110\u01b0a \u0111a gi\u00e1c ranh gi\u1edbi \u0111\u1ecf T\u00e2n S\u01a1n Nh\u1ea5t (791 ha) l\u00ean v\u1ec7 tinh z14 gi\u1eef nguy\u00ean t\u1ef7 l\u1ec7 1:1.",
+              "timestamp_seconds": 404.01
+            },
+            {
+              "type": "animation",
+              "description": "Nh\u1ea5c kh\u1ed1i 791 ha bay sang \u0111\u1eb7t l\u1ecdt th\u1ecfm v\u00e0o gi\u1eefa \u0111a gi\u00e1c xanh ng\u1ecdc 5.000 ha Long Th\u00e0nh.",
+              "timestamp_seconds": 412.01
+            },
+            {
+              "type": "stat_card",
+              "description": "B\u1eadt b\u1ed9 \u0111\u1ebfm ch\u00eanh l\u1ec7ch: 791 HA VS 5.000 HA = G\u1ea4P 6,3 L\u1ea6N QU\u1ef8 \u0110\u1ea4T.",
+              "timestamp_seconds": 420.01
+            },
+            {
+              "type": "diagram",
+              "description": "Hi\u1ec3n th\u1ecb ph\u00e2n khu ch\u1ee9c n\u0103ng b\u00ean trong 5.000 ha: 4 \u0111\u01b0\u1eddng b\u0103ng, nh\u00e0 ga trung t\u00e2m, hangar & cargo.",
+              "timestamp_seconds": 427.51
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://vanban.chinhphu.vn/"
+        },
+        {
+          "id": "s14",
+          "label": "Ch\u01b0\u01a1ng 4.2 \u2014 Ph\u00e1 b\u1ecf kh\u00f3a 365 m: C\u1ea5u h\u00ecnh m\u1edf 4 \u0111\u01b0\u1eddng b\u0103ng d\u00e0i 4.000 m chu\u1ea9n 4F",
+          "text": "Kho\u1ea3ng tr\u1ed1ng s\u00e1u ph\u1ea9y ba l\u1ea7n \u0111\u00f3 tr\u1ef1c ti\u1ebfp ph\u00e1 b\u1ecf ho\u00e0n to\u00e0n chi\u1ebfc kh\u00f3a ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t n\u0103m n\u00e0o. Quy ho\u1ea1ch Long Th\u00e0nh m\u1edf r\u1ed9ng t\u1edbi b\u1ed1n \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh ti\u00eau chu\u1ea9n d\u00e0i b\u1ed1n ngh\u00ecn m\u00e9t, r\u1ed9ng s\u00e1u m\u01b0\u01a1i m\u00e9t \u0111\u1ea1t c\u1ea5p b\u1ed1n F, t\u00e1ch th\u00e0nh hai c\u1eb7p \u1edf hai ph\u00eda B\u1eafc v\u00e0 Nam nh\u00e0 ga trung t\u00e2m. Nh\u1edd k\u00e9o d\u00e3n hai c\u1ee5m \u0111\u01b0\u1eddng b\u0103ng sang hai c\u00e1nh c\u1ee7a khu \u0111\u1ea5t r\u1ed9ng h\u00e0ng ngh\u00ecn m\u00e9t, kho\u1ea3ng c\u00e1ch gi\u1eefa \u0111\u01b0\u1eddng b\u0103ng c\u00e1nh B\u1eafc v\u00e0 c\u00e1nh Nam v\u01b0\u1ee3t xa ng\u01b0\u1ee1ng an to\u00e0n hai ki l\u00f4 m\u00e9t. Nh\u1eefng si\u00eau t\u00e0u bay th\u00e2n r\u1ed9ng l\u1edbn nh\u1ea5t nh\u01b0 Airbus A380 hay Boeing 747, 777 c\u00f3 th\u1ec3 c\u1ea5t c\u00e1nh v\u00e0 h\u1ea1 c\u00e1nh song song \u0111\u1ed9c l\u1eadp ho\u00e0n to\u00e0n m\u00e0 kh\u00f4ng ph\u1ea3i ch\u1edd \u0111\u1ee3i nhau.",
+          "start_seconds": 438.52,
+          "end_seconds": 473.0,
+          "speaker_directions": "Nh\u1ea5n \u0111\u1ed1i x\u1ee9ng 'ph\u00eda B\u1eafc \u2013 ph\u00eda Nam' v\u00e0 '\u0111\u1ed9c l\u1eadp ho\u00e0n to\u00e0n', t\u1ea1o kh\u00ed th\u1ebf b\u1ee9t ph\u00e1 c\u00f4ng tr\u00ecnh.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "powerful",
+            "emphasis_words": [
+              "4 \u0111\u01b0\u1eddng b\u0103ng 4.000 m",
+              "hai c\u00e1nh B\u1eafc \u2013 Nam",
+              "\u0111\u1ed9c l\u1eadp ho\u00e0n to\u00e0n"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "\u0110\u1ec3 nh\u1ecbp m\u01b0\u1ee3t qua t\u00ean c\u00e1c d\u00f2ng t\u00e0u bay th\u00e2n r\u1ed9ng Airbus A380, Boeing 747, 777.",
+            "provider_text": "Kho\u1ea3ng tr\u1ed1ng s\u00e1u ph\u1ea9y ba l\u1ea7n \u0111\u00f3 tr\u1ef1c ti\u1ebfp ph\u00e1 b\u1ecf ho\u00e0n to\u00e0n chi\u1ebfc kh\u00f3a ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t n\u0103m n\u00e0o. Quy ho\u1ea1ch Long Th\u00e0nh m\u1edf r\u1ed9ng t\u1edbi b\u1ed1n \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh ti\u00eau chu\u1ea9n d\u00e0i b\u1ed1n ngh\u00ecn m\u00e9t, r\u1ed9ng s\u00e1u m\u01b0\u01a1i m\u00e9t \u0111\u1ea1t c\u1ea5p b\u1ed1n \u00e9p, t\u00e1ch th\u00e0nh hai c\u1eb7p \u1edf hai ph\u00eda B\u1eafc v\u00e0 Nam nh\u00e0 ga trung t\u00e2m. Nh\u1edd k\u00e9o d\u00e3n hai c\u1ee5m \u0111\u01b0\u1eddng b\u0103ng sang hai c\u00e1nh c\u1ee7a khu \u0111\u1ea5t r\u1ed9ng h\u00e0ng ngh\u00ecn m\u00e9t, kho\u1ea3ng c\u00e1ch gi\u1eefa \u0111\u01b0\u1eddng b\u0103ng c\u00e1nh B\u1eafc v\u00e0 c\u00e1nh Nam v\u01b0\u1ee3t xa ng\u01b0\u1ee1ng an to\u00e0n hai ki l\u00f4 m\u00e9t. Nh\u1eefng si\u00eau t\u00e0u bay th\u00e2n r\u1ed9ng l\u1edbn nh\u1ea5t nh\u01b0 E b\u1edbt a ba tr\u0103m t\u00e1m m\u01b0\u01a1i hay B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y, b\u1ea3y b\u1ea3y b\u1ea3y c\u00f3 th\u1ec3 c\u1ea5t c\u00e1nh v\u00e0 h\u1ea1 c\u00e1nh song song \u0111\u1ed9c l\u1eadp ho\u00e0n to\u00e0n m\u00e0 kh\u00f4ng ph\u1ea3i ch\u1edd \u0111\u1ee3i nhau."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "S\u01a1 \u0111\u1ed3 tr\u1ee5c 4 \u0111\u01b0\u1eddng b\u0103ng 4.000 m \u00d7 60 m chia \u0111\u00f4i th\u00e0nh c\u1ee5m B\u1eafc v\u00e0 c\u1ee5m Nam nh\u00e0 ga trung t\u00e2m.",
+              "timestamp_seconds": 440.02
+            },
+            {
+              "type": "stat_card",
+              "description": "\u0110o kho\u1ea3ng c\u00e1ch c\u00e1ch ly gi\u1eefa hai c\u00e1nh \u0111\u01b0\u1eddng b\u0103ng >2.000 m \u2014 g\u1ea5p h\u01a1n 5 l\u1ea7n ng\u01b0\u1ee1ng 365 m.",
+              "timestamp_seconds": 448.02
+            },
+            {
+              "type": "animation",
+              "description": "Hai lu\u1ed3ng t\u00e0u bay Code F (Airbus A380 & Boeing 747/777) c\u1ea5t \u2013 h\u1ea1 c\u00e1nh \u0111\u1ed3ng th\u1eddi \u0111\u1ed9c l\u1eadp.",
+              "timestamp_seconds": 456.02
+            },
+            {
+              "type": "overlay",
+              "description": "Nh\u00e3n ti\u00eau chu\u1ea9n cao nh\u1ea5t ICAO: C\u1ea4P 4F \u2022 PH\u00c1 B\u1ece V\u0128NH VI\u1ec4N KH\u00d3A KH\u00d4NG L\u01afU 365 M.",
+              "timestamp_seconds": 463.52
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://tapchihangkhong.vn/"
+        },
+        {
+          "id": "s15",
+          "label": "Ch\u01b0\u01a1ng 4.3 \u2014 H\u1ed3 s\u01a1 Ngh\u1ecb quy\u1ebft 174 (11/2024): X\u00e2y ngay 2 \u0111\u01b0\u1eddng b\u0103ng trong Giai \u0111o\u1ea1n 1",
+          "text": "B\u01b0\u1edbc ngo\u1eb7t quan tr\u1ecdng nh\u1ea5t tr\u01b0\u1edbc th\u1ec1m khai th\u00e1c c\u0169ng \u0111\u01b0\u1ee3c ghi trong h\u1ed3 s\u01a1 l\u1eadp ph\u00e1p m\u1edbi: Ngh\u1ecb quy\u1ebft s\u1ed1 174 ng\u00e0y 30 th\u00e1ng 11 n\u0103m 2024 c\u1ee7a Qu\u1ed1c h\u1ed9i. Theo k\u1ebf ho\u1ea1ch c\u0169, Giai \u0111o\u1ea1n 1 ch\u1ec9 l\u00e0m tr\u01b0\u1edbc m\u1ed9t \u0111\u01b0\u1eddng b\u0103ng. Nh\u01b0ng \u0111\u1ec3 ch\u1ee7 \u0111\u1ed9ng d\u1ef1 ph\u00f2ng khi khai th\u00e1c, Qu\u1ed1c h\u1ed9i \u0111\u00e3 th\u00f4ng qua vi\u1ec7c x\u00e2y ngay \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh th\u1ee9 hai \u1edf ph\u00eda B\u1eafc song song \u0111\u01b0\u1eddng b\u0103ng s\u1ed1 m\u1ed9t ngay trong Giai \u0111o\u1ea1n 1, \u1ea5n \u0111\u1ecbnh m\u1ed1c ho\u00e0n th\u00e0nh ch\u1eadm nh\u1ea5t cu\u1ed1i n\u0103m 2026. Nh\u1edd m\u1eb7t b\u1eb1ng \u0111\u00e3 san l\u1ea5p s\u1eb5n s\u00e0ng trong l\u00f5i n\u0103m ngh\u00ecn h\u00e9c ta, Long Th\u00e0nh ngay ng\u00e0y m\u1edf c\u1eeda \u0111\u00e3 \u0111\u1ea1t c\u00f4ng su\u1ea5t hai m\u01b0\u01a1i l\u0103m tri\u1ec7u kh\u00e1ch v\u00e0 m\u1ed9t ph\u1ea9y hai tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a m\u1ed7i n\u0103m.",
+          "start_seconds": 473.0,
+          "end_seconds": 506.71,
+          "speaker_directions": "\u0110\u1ecdc d\u1ee9t kho\u00e1t v\u0103n b\u1ea3n ph\u00e1p l\u00fd m\u1edbi, t\u00f4 s\u00e1ng t\u00ednh ch\u1ee7 \u0111\u1ed9ng k\u1ef9 thu\u1eadt nh\u1edd qu\u1ef9 \u0111\u1ea5t \u0111\u00e3 c\u00f3 s\u1eb5n.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "authoritative",
+            "emphasis_words": [
+              "Ngh\u1ecb quy\u1ebft 174",
+              "2 \u0111\u01b0\u1eddng b\u0103ng",
+              "Giai \u0111o\u1ea1n 1",
+              "cu\u1ed1i n\u0103m 2026"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Kh\u1edbp th\u1eddi \u0111i\u1ec3m ch\u1ed1t s\u1ed1 Giai \u0111o\u1ea1n 1 v\u1edbi \u1ea3nh th\u1ef1c \u0111\u1ecba c\u00f4ng tr\u01b0\u1eddng \u0111\u01b0\u1eddng b\u0103ng & nh\u00e0 ga hoa sen.",
+            "provider_text": "B\u01b0\u1edbc ngo\u1eb7t quan tr\u1ecdng nh\u1ea5t tr\u01b0\u1edbc th\u1ec1m khai th\u00e1c c\u0169ng \u0111\u01b0\u1ee3c ghi trong h\u1ed3 s\u01a1 l\u1eadp ph\u00e1p m\u1edbi: Ngh\u1ecb quy\u1ebft s\u1ed1 m\u1ed9t tr\u0103m b\u1ea3y m\u01b0\u01a1i t\u01b0 ng\u00e0y ba m\u01b0\u01a1i th\u00e1ng m\u01b0\u1eddi m\u1ed9t n\u0103m hai ngh\u00ecn kh\u00f4ng tr\u0103m hai m\u01b0\u01a1i t\u01b0 c\u1ee7a Qu\u1ed1c h\u1ed9i. Theo k\u1ebf ho\u1ea1ch c\u0169, giai \u0111o\u1ea1n m\u1ed9t ch\u1ec9 l\u00e0m tr\u01b0\u1edbc m\u1ed9t \u0111\u01b0\u1eddng b\u0103ng. Nh\u01b0ng \u0111\u1ec3 ch\u1ee7 \u0111\u1ed9ng d\u1ef1 ph\u00f2ng khi khai th\u00e1c, Qu\u1ed1c h\u1ed9i \u0111\u00e3 th\u00f4ng qua vi\u1ec7c x\u00e2y ngay \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh th\u1ee9 hai \u1edf ph\u00eda B\u1eafc song song \u0111\u01b0\u1eddng b\u0103ng s\u1ed1 m\u1ed9t ngay trong giai \u0111o\u1ea1n m\u1ed9t, \u1ea5n \u0111\u1ecbnh m\u1ed1c ho\u00e0n th\u00e0nh ch\u1eadm nh\u1ea5t cu\u1ed1i n\u0103m hai ngh\u00ecn kh\u00f4ng tr\u0103m hai m\u01b0\u01a1i s\u00e1u. Nh\u1edd m\u1eb7t b\u1eb1ng \u0111\u00e3 san l\u1ea5p s\u1eb5n s\u00e0ng trong l\u00f5i n\u0103m ngh\u00ecn h\u00e9c ta, Long Th\u00e0nh ngay ng\u00e0y m\u1edf c\u1eeda \u0111\u00e3 \u0111\u1ea1t c\u00f4ng su\u1ea5t hai m\u01b0\u01a1i l\u0103m tri\u1ec7u kh\u00e1ch v\u00e0 m\u1ed9t ph\u1ea9y hai tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a m\u1ed7i n\u0103m."
+          },
+          "enhancement_cues": [
+            {
+              "type": "overlay",
+              "description": "H\u1ed3 s\u01a1 Ngh\u1ecb quy\u1ebft 174/2024/QH15 (30/11/2024) tr\u01b0\u1ee3t nghi\u00eang n\u1ed5i b\u1eadt v\u00e0o khung h\u00ecnh.",
+              "timestamp_seconds": 474.5
+            },
+            {
+              "type": "animation",
+              "description": "Qu\u00e9t b\u00fat d\u1ea1 v\u00e0ng l\u00ean \u0111i\u1ec1u kho\u1ea3n b\u1ed5 sung \u0111\u01b0\u1eddng CHC s\u1ed1 2 ph\u00eda B\u1eafc & m\u1ed1c ch\u1eadm nh\u1ea5t 31/12/2026.",
+              "timestamp_seconds": 483.0
+            },
+            {
+              "type": "diagram",
+              "description": "Chuy\u1ec3n \u0111\u01b0\u1eddng b\u0103ng s\u1ed1 3 t\u1eeb n\u00e9t \u0111\u1ee9t sang n\u00e9t li\u1ec1n xanh ng\u1ecdc tr\u00ean v\u1ec7 tinh z14 Long Th\u00e0nh.",
+              "timestamp_seconds": 491.0
+            },
+            {
+              "type": "broll",
+              "description": "\u1ea2nh th\u1ef1c \u0111\u1ecba \u0111\u1ea1i c\u00f4ng tr\u01b0\u1eddng Giai \u0111o\u1ea1n 1 (25 tri\u1ec7u kh\u00e1ch & 1,2 tri\u1ec7u t\u1ea5n h\u00e0ng/n\u0103m).",
+              "timestamp_seconds": 498.5
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://acv.vn/"
+        },
+        {
+          "id": "s16",
+          "label": "Ch\u01b0\u01a1ng 4.4 \u2014 Soi b\u1ea3n \u0111\u1ed3 th\u1ebf gi\u1edbi: V\u00ec sao si\u00eau s\u00e2n bay \u0111\u1ec1u l\u00f9i 30\u201360 km ngo\u00e0i n\u1ed9i \u0111\u00f4?",
+          "text": "N\u1ebfu v\u1eabn th\u1ea5y b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t t\u1eeb S\u00e0i G\u00f2n ra Long Th\u00e0nh l\u00e0 xa, h\u00e3y \u0111\u1ed1i chi\u1ebfu b\u1ea3n \u0111\u1ed3 v\u1edbi nh\u1eefng \u0111\u1ea1i \u0111\u00f4 th\u1ecb h\u00e0ng kh\u00f4ng th\u00e0nh c\u00f4ng nh\u1ea5t ch\u00e2u \u00c1. S\u00e2n bay Suvarnabhumi c\u1ee7a Bangkok c\u00e1ch trung t\u00e2m kho\u1ea3ng ba m\u01b0\u01a1i ki l\u00f4 m\u00e9t; s\u00e2n bay Ph\u1ed1 \u0110\u00f4ng c\u1ee7a Th\u01b0\u1ee3ng H\u1ea3i c\u00e1ch l\u00f5i ph\u1ed1 kho\u1ea3ng ba m\u01b0\u01a1i \u0111\u1ebfn b\u1ed1n m\u01b0\u01a1i c\u00e2y s\u1ed1; Incheon c\u1ee7a Seoul n\u1eb1m ngo\u00e0i \u0111\u1ea3o c\u00e1ch trung t\u00e2m g\u1ea7n n\u0103m m\u01b0\u01a1i ki l\u00f4 m\u00e9t; c\u00f2n Narita c\u1ee7a Tokyo th\u1eadm ch\u00ed xa kho\u1ea3ng s\u00e1u m\u01b0\u01a1i ki l\u00f4 m\u00e9t. Khi c\u00e1c th\u00e0nh ph\u1ed1 v\u01b0\u1ee3t ng\u01b0\u1ee1ng m\u01b0\u1eddi tri\u1ec7u d\u00e2n, s\u00e2n bay c\u1ea5p b\u1ed1n F \u0111\u1ec1u ph\u1ea3i b\u01b0\u1edbc ra v\u00f2ng ngo\u00e0i. Nh\u01b0ng m\u1ecdi c\u1ea3ng h\u00e0ng kh\u00f4ng \u1ea5y \u0111\u1ec1u chung m\u1ed9t b\u00ed quy\u1ebft: c\u1ef1 ly xa ch\u1ec9 an to\u00e0n khi c\u00f3 \u0111\u01b0\u1eddng \u1ed1ng t\u1ed1c \u0111\u1ed9 cao.",
+          "start_seconds": 506.71,
+          "end_seconds": 542.21,
+          "speaker_directions": "\u0110\u1ecdc h\u00e0o h\u1ee9ng, m\u1ea1ch l\u1ea1c qua t\u1eebng m\u1ed1c so s\u00e1nh Bangkok, Th\u01b0\u1ee3ng H\u1ea3i, Seoul, Tokyo; nh\u1ea5n m\u1ea1nh c\u00e2u ch\u1ed1t m\u1edf sang Ch\u01b0\u01a1ng 5.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "worldview_expansion",
+            "emphasis_words": [
+              "Suvarnabhumi ~30 km",
+              "Incheon ~50 km",
+              "Narita ~60 km",
+              "\u0111\u01b0\u1eddng \u1ed1ng t\u1ed1c \u0111\u1ed9 cao"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "C\u1ee5m '\u0111\u01b0\u1eddng \u1ed1ng t\u1ed1c \u0111\u1ed9 cao' d\u1eaft th\u1eb3ng ng\u01b0\u1eddi xem v\u00e0o n\u1ed7i lo l\u1edbn nh\u1ea5t: l\u00e0m sao \u0111i h\u1ebft 40 km \u0111\u00f3.",
+            "provider_text": "N\u1ebfu v\u1eabn th\u1ea5y b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t t\u1eeb S\u00e0i G\u00f2n ra Long Th\u00e0nh l\u00e0 xa, h\u00e3y \u0111\u1ed1i chi\u1ebfu b\u1ea3n \u0111\u1ed3 v\u1edbi nh\u1eefng \u0111\u1ea1i \u0111\u00f4 th\u1ecb h\u00e0ng kh\u00f4ng th\u00e0nh c\u00f4ng nh\u1ea5t ch\u00e2u \u00c1. S\u00e2n bay Xu va na bu mi c\u1ee7a B\u0103ng C\u1ed1c c\u00e1ch trung t\u00e2m kho\u1ea3ng ba m\u01b0\u01a1i ki l\u00f4 m\u00e9t; s\u00e2n bay Ph\u1ed1 \u0110\u00f4ng c\u1ee7a Th\u01b0\u1ee3ng H\u1ea3i c\u00e1ch l\u00f5i ph\u1ed1 kho\u1ea3ng ba m\u01b0\u01a1i \u0111\u1ebfn b\u1ed1n m\u01b0\u01a1i c\u00e2y s\u1ed1; In ch\u01a1n c\u1ee7a X\u01a1 un n\u1eb1m ngo\u00e0i \u0111\u1ea3o c\u00e1ch trung t\u00e2m g\u1ea7n n\u0103m m\u01b0\u01a1i ki l\u00f4 m\u00e9t; c\u00f2n Na ri ta c\u1ee7a T\u00f4 ky \u00f4 th\u1eadm ch\u00ed xa kho\u1ea3ng s\u00e1u m\u01b0\u01a1i ki l\u00f4 m\u00e9t. Khi c\u00e1c th\u00e0nh ph\u1ed1 v\u01b0\u1ee3t ng\u01b0\u1ee1ng m\u01b0\u1eddi tri\u1ec7u d\u00e2n, s\u00e2n bay c\u1ea5p b\u1ed1n \u00e9p \u0111\u1ec1u ph\u1ea3i b\u01b0\u1edbc ra v\u00f2ng ngo\u00e0i. Nh\u01b0ng m\u1ecdi c\u1ea3ng h\u00e0ng kh\u00f4ng \u1ea5y \u0111\u1ec1u chung m\u1ed9t b\u00ed quy\u1ebft: c\u1ef1 ly xa ch\u1ec9 an to\u00e0n khi c\u00f3 \u0111\u01b0\u1eddng \u1ed1ng t\u1ed1c \u0111\u1ed9 cao."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "M\u1edf b\u1ea3n \u0111\u1ed3 \u0110\u00f4ng \u00c1 \u2013 \u0110\u00f4ng Nam \u00c1 n\u1ed1i v\u00f2ng cung t\u1edbi Bangkok, Th\u01b0\u1ee3ng H\u1ea3i, Seoul v\u00e0 Tokyo.",
+              "timestamp_seconds": 508.21
+            },
+            {
+              "type": "stat_card",
+              "description": "Bi\u1ec3u \u0111\u1ed3 thanh c\u1ef1 ly t\u1edbi trung t\u00e2m: Suvarnabhumi (~30 km) \u2022 Ph\u1ed1 \u0110\u00f4ng (~35 km) \u2022 Long Th\u00e0nh (~40 km).",
+              "timestamp_seconds": 516.71
+            },
+            {
+              "type": "stat_card",
+              "description": "M\u1edf r\u1ed9ng so s\u00e1nh v\u1edbi Incheon (~48 km) & Narita (~60 km) c\u1ee7a c\u00e1c si\u00eau \u0111\u00f4 th\u1ecb >10 tri\u1ec7u d\u00e2n.",
+              "timestamp_seconds": 524.71
+            },
+            {
+              "type": "overlay",
+              "description": "C\u00e2u kh\u00f3a chuy\u1ec3n sang Ch\u01b0\u01a1ng 5: KHO\u1ea2NG C\u00c1CH 40 KM \u0110\u00d2I H\u1eceI \u0110\u01af\u1edcNG \u1ed0NG T\u1ed0C \u0110\u1ed8 CAO.",
+              "timestamp_seconds": 533.21
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://vnexpress.net/"
+        },
+        {
+          "id": "s17",
+          "label": "Ch\u01b0\u01a1ng 5.1 \u2014 N\u1ed7i lo cao t\u1ed1c 4 l\u00e0n c\u0169 & \u0111\u1ea1i m\u1ea1ng l\u01b0\u1edbi \u0111\u01b0\u1eddng b\u1ed9 8\u201310 l\u00e0n",
+          "text": "\u0110\u00f3 ch\u00ednh l\u00e0 n\u1ed7i lo c\u00f3 th\u1eadt c\u1ee7a ng\u01b0\u1eddi d\u00e2n: nhi\u1ec1u n\u0103m qua, cao t\u1ed1c Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh \u2013 Long Th\u00e0nh \u2013 D\u1ea7u Gi\u00e2y v\u1edbi b\u1ed1n l\u00e0n xe \u0111\u00e3 th\u01b0\u1eddng xuy\u00ean \u00f9n t\u1eafc. N\u1ebfu d\u1ed3n th\u00eam h\u00e0ng ch\u1ee5c tri\u1ec7u h\u00e0nh kh\u00e1ch l\u00ean m\u1ed9t tuy\u1ebfn \u0111\u1ed9c \u0111\u1ea1o, b\u1ed1n m\u01b0\u01a1i c\u00e2y s\u1ed1 s\u1ebd th\u00e0nh hai ba gi\u1edd ch\u1edd \u0111\u1ee3i. L\u1eddi gi\u1ea3i h\u1ea1 t\u1ea7ng \u0111ang \u0111\u01b0\u1ee3c m\u1edf kh\u00f3a b\u1eb1ng b\u1ed1n h\u01b0\u1edbng \u0111\u01b0\u1eddng b\u1ed9 c\u00f9ng l\u00fac: m\u1edf r\u1ed9ng tr\u1ee5c cao t\u1ed1c huy\u1ebft m\u1ea1ch l\u00ean t\u00e1m v\u00e0 m\u01b0\u1eddi l\u00e0n xe k\u00e8m th\u00eam m\u1ed9t \u0111\u01a1n nguy\u00ean c\u1ea7u Long Th\u00e0nh m\u1edbi; kh\u00e9p V\u00e0nh \u0111ai 3 qua c\u1ea7u Nh\u01a1n Tr\u1ea1ch; th\u00f4ng tuy\u1ebfn B\u1ebfn L\u1ee9c \u2013 Long Th\u00e0nh \u0111\u1ec3 kh\u00e1ch mi\u1ec1n T\u00e2y \u0111i th\u1eb3ng kh\u00f4ng ph\u1ea3i xuy\u00ean n\u1ed9i \u0111\u00f4 S\u00e0i G\u00f2n; v\u00e0 n\u1ed1i cao t\u1ed1c Bi\u00ean H\u00f2a \u2013 V\u0169ng T\u00e0u.",
+          "start_seconds": 542.21,
+          "end_seconds": 576.69,
+          "speaker_directions": "Th\u1eeba nh\u1eadn th\u1eb3ng n\u1ed7i lo t\u1eafc cao t\u1ed1c 4 l\u00e0n, sau \u0111\u00f3 t\u0103ng nh\u1ecbp t\u1eebng b\u01b0\u1edbc khi b\u1eadt s\u00e1ng c\u1ea3 4 h\u00e0nh lang cao t\u1ed1c.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "momentum",
+            "emphasis_words": [
+              "8 v\u00e0 10 l\u00e0n xe",
+              "V\u00e0nh \u0111ai 3",
+              "B\u1ebfn L\u1ee9c \u2013 Long Th\u00e0nh",
+              "Bi\u00ean H\u00f2a \u2013 V\u0169ng T\u00e0u"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ea5n r\u00f5 l\u1ee3i \u00edch mi\u1ec1n T\u00e2y \u0111i th\u1eb3ng B\u1ebfn L\u1ee9c \u2013 Long Th\u00e0nh kh\u00f4ng c\u1ea7n chen qua n\u1ed9i \u0111\u00f4 S\u00e0i G\u00f2n.",
+            "provider_text": "\u0110\u00f3 ch\u00ednh l\u00e0 n\u1ed7i lo c\u00f3 th\u1eadt c\u1ee7a ng\u01b0\u1eddi d\u00e2n: nhi\u1ec1u n\u0103m qua, cao t\u1ed1c th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh Long Th\u00e0nh D\u1ea7u Gi\u00e2y v\u1edbi b\u1ed1n l\u00e0n xe \u0111\u00e3 th\u01b0\u1eddng xuy\u00ean \u00f9n t\u1eafc. N\u1ebfu d\u1ed3n th\u00eam h\u00e0ng ch\u1ee5c tri\u1ec7u h\u00e0nh kh\u00e1ch l\u00ean m\u1ed9t tuy\u1ebfn \u0111\u1ed9c \u0111\u1ea1o, b\u1ed1n m\u01b0\u01a1i c\u00e2y s\u1ed1 s\u1ebd th\u00e0nh hai ba gi\u1edd ch\u1edd \u0111\u1ee3i. L\u1eddi gi\u1ea3i h\u1ea1 t\u1ea7ng \u0111ang \u0111\u01b0\u1ee3c m\u1edf kh\u00f3a b\u1eb1ng b\u1ed1n h\u01b0\u1edbng \u0111\u01b0\u1eddng b\u1ed9 c\u00f9ng l\u00fac: m\u1edf r\u1ed9ng tr\u1ee5c cao t\u1ed1c huy\u1ebft m\u1ea1ch l\u00ean t\u00e1m v\u00e0 m\u01b0\u1eddi l\u00e0n xe k\u00e8m th\u00eam m\u1ed9t \u0111\u01a1n nguy\u00ean c\u1ea7u Long Th\u00e0nh m\u1edbi; kh\u00e9p V\u00e0nh \u0111ai ba qua c\u1ea7u Nh\u01a1n Tr\u1ea1ch; th\u00f4ng tuy\u1ebfn B\u1ebfn L\u1ee9c Long Th\u00e0nh \u0111\u1ec3 kh\u00e1ch mi\u1ec1n T\u00e2y \u0111i th\u1eb3ng kh\u00f4ng ph\u1ea3i xuy\u00ean n\u1ed9i \u0111\u00f4 S\u00e0i G\u00f2n; v\u00e0 n\u1ed1i cao t\u1ed1c Bi\u00ean H\u00f2a V\u0169ng T\u00e0u."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "T\u00f4 \u0111\u1ecf \u0111o\u1ea1n ngh\u1ebdn 4 l\u00e0n cao t\u1ed1c TP.HCM \u2013 Long Th\u00e0nh \u2013 D\u1ea7u Gi\u00e2y v\u01b0\u1ee3t c\u1ea7u Long Th\u00e0nh.",
+              "timestamp_seconds": 543.71
+            },
+            {
+              "type": "diagram",
+              "description": "M\u1edf r\u1ed9ng ph\u00e1t s\u00e1ng tr\u1ee5c huy\u1ebft m\u1ea1ch l\u00ean 8\u201310 l\u00e0n xe + V\u00e0nh \u0111ai 3 qua c\u1ea7u Nh\u01a1n Tr\u1ea1ch.",
+              "timestamp_seconds": 552.21
+            },
+            {
+              "type": "broll",
+              "description": "\u1ea2nh th\u1ef1c \u0111\u1ecba c\u1ea7u Nh\u01a1n Tr\u1ea1ch / n\u00fat giao V\u00e0nh \u0111ai 3 k\u1ebft n\u1ed1i TP.HCM sang \u0110\u1ed3ng Nai.",
+              "timestamp_seconds": 560.21
+            },
+            {
+              "type": "animation",
+              "description": "V\u1ebd tuy\u1ebfn B\u1ebfn L\u1ee9c \u2013 Long Th\u00e0nh (\u0111\u00f3n kh\u00e1ch mi\u1ec1n T\u00e2y) & Bi\u00ean H\u00f2a \u2013 V\u0169ng T\u00e0u x\u00f3a th\u1ebf \u0111\u1ed9c \u0111\u1ea1o.",
+              "timestamp_seconds": 568.21
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://dantri.com.vn/"
+        },
+        {
+          "id": "s18",
+          "label": "Ch\u01b0\u01a1ng 5.2 \u2014 \u0110\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh 120 km/h: Bi\u1ebfn 40 km th\u00e0nh ~20 ph\u00fat",
+          "text": "Nh\u01b0ng m\u1ea3nh gh\u00e9p quy\u1ebft \u0111\u1ecbnh bi\u1ebfn b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t th\u00e0nh c\u1ef1 ly quen thu\u1ed9c n\u1eb1m tr\u00ean m\u1ed9t \u0111\u01b0\u1eddng ray chuy\u00ean bi\u1ec7t: tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh. Theo h\u1ed3 s\u01a1 nghi\u00ean c\u1ee9u c\u1eadp nh\u1eadt m\u1edbi nh\u1ea5t, tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft n\u00e0y d\u00e0i kho\u1ea3ng b\u1ed1n m\u01b0\u01a1i s\u00e1u \u0111\u1ebfn g\u1ea7n b\u1ed1n m\u01b0\u01a1i t\u00e1m ki l\u00f4 m\u00e9t, g\u1ed3m h\u01a1n m\u01b0\u1eddi m\u1ed9t ki l\u00f4 m\u00e9t \u0111i ng\u1ea7m v\u00e0 h\u01a1n ba m\u01b0\u01a1i b\u1ed1n ki l\u00f4 m\u00e9t tr\u00ean cao, xu\u1ea5t ph\u00e1t t\u1eeb ga Th\u1ee7 Thi\u00eam ch\u1ea1y d\u1ecdc h\u00e0nh lang cao t\u1ed1c th\u1eb3ng v\u00e0o nh\u00e0 ga s\u00e2n bay Long Th\u00e0nh. V\u1edbi t\u1ed1c \u0111\u1ed9 thi\u1ebft k\u1ebf \u0111\u1ea1t m\u1ed9t tr\u0103m hai m\u01b0\u01a1i ki l\u00f4 m\u00e9t tr\u00ean gi\u1edd v\u00e0 kh\u00f4ng g\u1eb7p giao c\u1eaft \u0111\u00e8n \u0111\u1ecf, th\u1eddi gian di chuy\u1ec3n t\u1eeb c\u1eeda ng\u00f5 ph\u00eda \u0110\u00f4ng Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh ra t\u1edbi s\u1ea3nh bay ch\u1ec9 c\u00f2n kho\u1ea3ng hai m\u01b0\u01a1i \u0111\u1ebfn hai m\u01b0\u01a1i l\u0103m ph\u00fat.",
+          "start_seconds": 576.69,
+          "end_seconds": 614.48,
+          "speaker_directions": "\u0110\u1ecdc m\u01b0\u1ee3t, ph\u1ea5n ch\u1ea5n khi \u0111o\u00e0n t\u00e0u l\u01b0\u1edbt d\u1ecdc \u0111\u01b0\u1eddng ray v\u00e0ng h\u1ed5 ph\u00e1ch t\u1eeb Th\u1ee7 Thi\u00eam th\u1eb3ng v\u00e0o ga Long Th\u00e0nh.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "climax_relief",
+            "emphasis_words": [
+              "Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh",
+              "120 km/h",
+              "20 \u0111\u1ebfn 25 ph\u00fat"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ea5n b\u1eadt con s\u1ed1 ~20\u201325 ph\u00fat \u2014 c\u00fa l\u1eadt gi\u1ea3i t\u1ecfa ho\u00e0n to\u00e0n n\u1ed7i lo \u0111\u1ecba l\u00fd 40 km.",
+            "provider_text": "Nh\u01b0ng m\u1ea3nh gh\u00e9p quy\u1ebft \u0111\u1ecbnh bi\u1ebfn b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t th\u00e0nh c\u1ef1 ly quen thu\u1ed9c n\u1eb1m tr\u00ean m\u1ed9t \u0111\u01b0\u1eddng ray chuy\u00ean bi\u1ec7t: tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam Long Th\u00e0nh. Theo h\u1ed3 s\u01a1 nghi\u00ean c\u1ee9u c\u1eadp nh\u1eadt m\u1edbi nh\u1ea5t, tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft n\u00e0y d\u00e0i kho\u1ea3ng b\u1ed1n m\u01b0\u01a1i s\u00e1u \u0111\u1ebfn g\u1ea7n b\u1ed1n m\u01b0\u01a1i t\u00e1m ki l\u00f4 m\u00e9t, g\u1ed3m h\u01a1n m\u01b0\u1eddi m\u1ed9t ki l\u00f4 m\u00e9t \u0111i ng\u1ea7m v\u00e0 h\u01a1n ba m\u01b0\u01a1i b\u1ed1n ki l\u00f4 m\u00e9t tr\u00ean cao, xu\u1ea5t ph\u00e1t t\u1eeb ga Th\u1ee7 Thi\u00eam ch\u1ea1y d\u1ecdc h\u00e0nh lang cao t\u1ed1c th\u1eb3ng v\u00e0o nh\u00e0 ga s\u00e2n bay Long Th\u00e0nh. V\u1edbi t\u1ed1c \u0111\u1ed9 thi\u1ebft k\u1ebf \u0111\u1ea1t m\u1ed9t tr\u0103m hai m\u01b0\u01a1i ki l\u00f4 m\u00e9t tr\u00ean gi\u1edd v\u00e0 kh\u00f4ng g\u1eb7p giao c\u1eaft \u0111\u00e8n \u0111\u1ecf, th\u1eddi gian di chuy\u1ec3n t\u1eeb c\u1eeda ng\u00f5 ph\u00eda \u0110\u00f4ng th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh ra t\u1edbi s\u1ea3nh bay ch\u1ec9 c\u00f2n kho\u1ea3ng hai m\u01b0\u01a1i \u0111\u1ebfn hai m\u01b0\u01a1i l\u0103m ph\u00fat."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "V\u1ebd tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft n\u00e9t \u0111\u1ee9t v\u00e0ng h\u1ed5 ph\u00e1ch 46,4\u201347,7 km t\u1eeb ga Th\u1ee7 Thi\u00eam (TP. Th\u1ee7 \u0110\u1ee9c) ra Long Th\u00e0nh.",
+              "timestamp_seconds": 578.19
+            },
+            {
+              "type": "diagram",
+              "description": "Hi\u1ec3n th\u1ecb ph\u00e2n \u0111o\u1ea1n k\u1ef9 thu\u1eadt >11 km \u0111i ng\u1ea7m v\u00e0 >34 km c\u1ea7u c\u1ea1n tr\u00ean cao v\u01b0\u1ee3t s\u00f4ng \u0110\u1ed3ng Nai.",
+              "timestamp_seconds": 586.69
+            },
+            {
+              "type": "stat_card",
+              "description": "\u0110\u1ed3ng h\u1ed3 so s\u00e1nh 1:1: \u00d4 T\u00d4 K\u1eb8T XE ~90 PH\u00daT vs T\u00c0U 120 KM/H CH\u1ec8 ~20\u201325 PH\u00daT.",
+              "timestamp_seconds": 595.19
+            },
+            {
+              "type": "broll",
+              "description": "\u1ea2nh th\u1ef1c \u0111\u1ecba t\u00e0u \u0111\u01b0\u1eddng s\u1eaft \u0111\u00f4 th\u1ecb tr\u00ean cao (h\u00ecnh m\u1eabu k\u1ebft n\u1ed1i h\u00e0nh lang ph\u00eda \u0110\u00f4ng TP.HCM).",
+              "timestamp_seconds": 603.19
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://vnexpress.net/"
+        },
+        {
+          "id": "s19",
+          "label": "Ch\u01b0\u01a1ng 5.3 \u2014 C\u1eb7p s\u00e2n bay song h\u00e0nh 150 tri\u1ec7u kh\u00e1ch: Kh\u00f4ng b\u1ecf T\u00e2n S\u01a1n Nh\u1ea5t",
+          "text": "\u1ede \u0111o\u1ea1n k\u1ebft b\u00e0i to\u00e1n quy ho\u1ea1ch, c\u0169ng c\u1ea7n x\u00f3a b\u1ecf n\u1ed1t hi\u1ec3u l\u1ea7m r\u1eb1ng x\u00e2y Long Th\u00e0nh \u0111\u1ed3ng ngh\u0129a v\u1edbi vi\u1ec7c \u0111\u00f3ng c\u1eeda T\u00e2n S\u01a1n Nh\u1ea5t. Ng\u01b0\u1ee3c l\u1ea1i, khu v\u1ef1c Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh s\u1ebd v\u1eadn h\u00e0nh c\u1eb7p s\u00e2n bay song h\u00e0nh t\u01b0\u01a1ng t\u1ef1 Haneda \u2013 Narita c\u1ee7a Tokyo hay Gimpo \u2013 Incheon c\u1ee7a Seoul. T\u00e2n S\u01a1n Nh\u1ea5t v\u1edbi ba nh\u00e0 ga s\u00e1t trung t\u00e2m v\u1eabn \u0111\u1ea3m nh\u1eadn m\u1ea1ng \u0111\u01b0\u1eddng bay n\u1ed9i \u0111\u1ecba m\u1eadt \u0111\u1ed9 cao v\u00e0 qu\u1ed1c t\u1ebf t\u1ea7m ng\u1eafn quanh m\u1ee9c n\u0103m m\u01b0\u01a1i tri\u1ec7u kh\u00e1ch m\u1ed7i n\u0103m. C\u00f2n Long Th\u00e0nh ngo\u00e0i b\u00e1n k\u00ednh b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t s\u1ebd g\u00e1nh to\u00e0n b\u1ed9 c\u00e1c \u0111\u01b0\u1eddng bay xuy\u00ean l\u1ee5c \u0111\u1ecba t\u1ea7m xa, \u0111\u1ed9i t\u00e0u bay th\u00e2n r\u1ed9ng b\u1ed1n tr\u0103m gh\u1ebf v\u00e0 trung t\u00e2m h\u00e0ng h\u00f3a \u0111\u1ea1t tr\u1ea7n quy ho\u1ea1ch m\u1ed9t tr\u0103m tri\u1ec7u kh\u00e1ch.",
+          "start_seconds": 614.48,
+          "end_seconds": 649.47,
+          "speaker_directions": "Gi\u1ecdng t\u1ed5ng k\u1ebft \u0111\u0129nh \u0111\u1ea1c, cho th\u1ea5y hai s\u00e2n bay b\u1ed5 tr\u1ee3 ch\u1ee9 kh\u00f4ng tri\u1ec7t ti\u00eau l\u1eabn nhau.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "strategic_synthesis",
+            "emphasis_words": [
+              "c\u1eb7p s\u00e2n bay song h\u00e0nh",
+              "50 tri\u1ec7u n\u1ed9i \u0111\u1ecba",
+              "100 tri\u1ec7u qu\u1ed1c t\u1ebf"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "N\u1ed1i 50 tri\u1ec7u TSN + 100 tri\u1ec7u Long Th\u00e0nh th\u00e0nh m\u1ed9t h\u1ec7 sinh th\u00e1i 150 tri\u1ec7u kh\u00e1ch ph\u00eda Nam.",
+            "provider_text": "\u1ede \u0111o\u1ea1n k\u1ebft b\u00e0i to\u00e1n quy ho\u1ea1ch, c\u0169ng c\u1ea7n x\u00f3a b\u1ecf n\u1ed1t hi\u1ec3u l\u1ea7m r\u1eb1ng x\u00e2y Long Th\u00e0nh \u0111\u1ed3ng ngh\u0129a v\u1edbi vi\u1ec7c \u0111\u00f3ng c\u1eeda T\u00e2n S\u01a1n Nh\u1ea5t. Ng\u01b0\u1ee3c l\u1ea1i, khu v\u1ef1c th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh s\u1ebd v\u1eadn h\u00e0nh c\u1eb7p s\u00e2n bay song h\u00e0nh t\u01b0\u01a1ng t\u1ef1 Ha n\u00ea \u0111a Na ri ta c\u1ee7a T\u00f4 ky \u00f4 hay Gim p\u00f4 In ch\u01a1n c\u1ee7a X\u01a1 un. T\u00e2n S\u01a1n Nh\u1ea5t v\u1edbi ba nh\u00e0 ga s\u00e1t trung t\u00e2m v\u1eabn \u0111\u1ea3m nh\u1eadn m\u1ea1ng \u0111\u01b0\u1eddng bay n\u1ed9i \u0111\u1ecba m\u1eadt \u0111\u1ed9 cao v\u00e0 qu\u1ed1c t\u1ebf t\u1ea7m ng\u1eafn quanh m\u1ee9c n\u0103m m\u01b0\u01a1i tri\u1ec7u kh\u00e1ch m\u1ed7i n\u0103m. C\u00f2n Long Th\u00e0nh ngo\u00e0i b\u00e1n k\u00ednh b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t s\u1ebd g\u00e1nh to\u00e0n b\u1ed9 c\u00e1c \u0111\u01b0\u1eddng bay xuy\u00ean l\u1ee5c \u0111\u1ecba t\u1ea7m xa, \u0111\u1ed9i t\u00e0u bay th\u00e2n r\u1ed9ng b\u1ed1n tr\u0103m gh\u1ebf v\u00e0 trung t\u00e2m h\u00e0ng h\u00f3a \u0111\u1ea1t tr\u1ea7n quy ho\u1ea1ch m\u1ed9t tr\u0103m tri\u1ec7u kh\u00e1ch."
+          },
+          "enhancement_cues": [
+            {
+              "type": "overlay",
+              "description": "Ph\u00e1 b\u1ecf ch\u1eef HI\u1ec2U L\u1ea6M \u0110\u00d3NG C\u1eecA T\u00c2N S\u01a0N NH\u1ea4T -> chuy\u1ec3n sang c\u1eb7p \u0111\u1ed1i x\u1ee9ng qu\u1ed1c t\u1ebf Haneda\u2013Narita / Gimpo\u2013Incheon.",
+              "timestamp_seconds": 615.98
+            },
+            {
+              "type": "diagram",
+              "description": "Ph\u00e2n vai T\u00c2N S\u01a0N NH\u1ea4T (~50 tri\u1ec7u kh\u00e1ch): \u0111\u01b0\u1eddng bay n\u1ed9i \u0111\u1ecba d\u00e0y \u0111\u1eb7c & ASEAN t\u1ea7m ng\u1eafn.",
+              "timestamp_seconds": 624.48
+            },
+            {
+              "type": "animation",
+              "description": "C\u00e1c \u0111\u01b0\u1eddng bay t\u1ea7m xa xuy\u00ean l\u1ee5c \u0111\u1ecba 400 gh\u1ebf v\u00e0 \u0111\u1ed9i cargo ph\u00f3ng t\u1eeb LONG TH\u00c0NH (100 tri\u1ec7u kh\u00e1ch).",
+              "timestamp_seconds": 632.48
+            },
+            {
+              "type": "stat_card",
+              "description": "Kh\u00f3a t\u1ed5ng c\u00f4ng su\u1ea5t c\u1eb7p \u0111\u00f4i: ~150 TRI\u1ec6U H\u00c0NH KH\u00c1CH/N\u0102M C\u1ea0NH NHAU.",
+              "timestamp_seconds": 640.98
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://chinhphu.vn/"
+        },
+        {
+          "id": "s20",
+          "label": "Ch\u01b0\u01a1ng 5.4 \u2014 K\u1ebft 100 n\u0103m tr\u00ean b\u1ea3n \u0111\u1ed3 Vi\u1ec7t Nam & G\u1ee3i m\u1edf T\u1eadp 3",
+          "text": "Cu\u1ed1i c\u00f9ng, v\u00ec sao s\u00e2n bay Long Th\u00e0nh c\u00e1ch Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t th\u1ef1c ch\u1ea5t l\u00e0 m\u1ed9t \u0111\u00e1p \u00e1n \u0111\u1ecba l\u00fd ho\u00e0n to\u00e0n h\u1ee3p l\u00fd. C\u00f4ng tr\u00ecnh kh\u00f4ng l\u00f9i xa v\u00ec b\u1ea5t ti\u1ec7n, m\u00e0 l\u00f9i ra b\u1ed1n m\u01b0\u01a1i c\u00e2y s\u1ed1 \u0111\u1ec3 tho\u00e1t chi\u1ebfc l\u1ed3ng ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t ch\u1eadt h\u1eb9p, tr\u00e1nh v\u00f9ng b\u00f9n l\u00fan ph\u00eda Nam, tr\u00e1nh giao c\u1eaft b\u1ea7u tr\u1eddi Bi\u00ean H\u00f2a v\u00e0 m\u1edf b\u1ed1n \u0111\u01b0\u1eddng b\u0103ng b\u1ed1n ki l\u00f4 m\u00e9t cho m\u1ed9t tr\u0103m n\u0103m t\u1edbi. T\u1eeb c\u1ea3ng n\u01b0\u1edbc s\u00e2u L\u1ea1ch Huy\u1ec7n \u1edf H\u1ea3i Ph\u00f2ng t\u1edbi Long Th\u00e0nh \u1edf \u0110\u1ed3ng Nai, h\u1ea1 t\u1ea7ng Vi\u1ec7t Nam \u0111\u1ec1u \u0111ang b\u1ee9t kh\u1ecfi gi\u1edbi h\u1ea1n c\u0169. \u1ede t\u1eadp sau, b\u1ea1n mu\u1ed1n ch\u00fang t\u00f4i gi\u1ea3i m\u00e3 c\u1ea3ng n\u01b0\u1edbc s\u00e2u C\u00e1i M\u00e9p \u2013 Th\u1ecb V\u1ea3i hay c\u00e2u chuy\u1ec7n cao t\u1ed1c mi\u1ec1n T\u00e2y \u0111\u1eaft v\u00e0 ch\u1eadm h\u01a1n? H\u00e3y b\u00ecnh lu\u1eadn l\u1ef1a ch\u1ecdn b\u00ean d\u01b0\u1edbi nh\u00e9.",
+          "start_seconds": 649.47,
+          "end_seconds": 687.52,
+          "speaker_directions": "\u00c2m l\u01b0\u1ee3ng v\u1eefng v\u00e0ng, \u0111\u1ecdng l\u1ea1i th\u00f4ng \u0111i\u1ec7p 100 n\u0103m v\u00e0 \u0111\u1eb7t CTA b\u00ecnh ch\u1ecdn t\u1ef1 nhi\u00ean \u1edf cu\u1ed1i.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "grand_finale",
+            "emphasis_words": [
+              "tho\u00e1t chi\u1ebfc l\u1ed3ng 365 m",
+              "m\u1ed9t tr\u0103m n\u0103m t\u1edbi",
+              "b\u1ee9t kh\u1ecfi gi\u1edbi h\u1ea1n c\u0169"
+            ],
+            "pause_before_seconds": 0.15,
+            "pause_after_seconds": 0.55,
+            "delivery_note": "Nh\u1ea5n k\u1ebft n\u1ed1i m\u1ea1ch series L\u1ea1ch Huy\u1ec7n (T\u1eadp 1) -> Long Th\u00e0nh (T\u1eadp 2) -> C\u00e1i M\u00e9p / Cao t\u1ed1c mi\u1ec1n T\u00e2y (T\u1eadp 3).",
+            "provider_text": "Cu\u1ed1i c\u00f9ng, v\u00ec sao s\u00e2n bay Long Th\u00e0nh c\u00e1ch th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh b\u1ed1n m\u01b0\u01a1i ki l\u00f4 m\u00e9t th\u1ef1c ch\u1ea5t l\u00e0 m\u1ed9t \u0111\u00e1p \u00e1n \u0111\u1ecba l\u00fd ho\u00e0n to\u00e0n h\u1ee3p l\u00fd. C\u00f4ng tr\u00ecnh kh\u00f4ng l\u00f9i xa v\u00ec b\u1ea5t ti\u1ec7n, m\u00e0 l\u00f9i ra b\u1ed1n m\u01b0\u01a1i c\u00e2y s\u1ed1 \u0111\u1ec3 tho\u00e1t chi\u1ebfc l\u1ed3ng ba tr\u0103m s\u00e1u m\u01b0\u01a1i l\u0103m m\u00e9t ch\u1eadt h\u1eb9p, tr\u00e1nh v\u00f9ng b\u00f9n l\u00fan ph\u00eda Nam, tr\u00e1nh giao c\u1eaft b\u1ea7u tr\u1eddi Bi\u00ean H\u00f2a v\u00e0 m\u1edf b\u1ed1n \u0111\u01b0\u1eddng b\u0103ng b\u1ed1n ki l\u00f4 m\u00e9t cho m\u1ed9t tr\u0103m n\u0103m t\u1edbi. T\u1eeb c\u1ea3ng n\u01b0\u1edbc s\u00e2u L\u1ea1ch Huy\u1ec7n \u1edf H\u1ea3i Ph\u00f2ng t\u1edbi Long Th\u00e0nh \u1edf \u0110\u1ed3ng Nai, h\u1ea1 t\u1ea7ng Vi\u1ec7t Nam \u0111\u1ec1u \u0111ang b\u1ee9t kh\u1ecfi gi\u1edbi h\u1ea1n c\u0169. \u1ede t\u1eadp sau, b\u1ea1n mu\u1ed1n ch\u00fang t\u00f4i gi\u1ea3i m\u00e3 c\u1ea3ng n\u01b0\u1edbc s\u00e2u C\u00e1i M\u00e9p Th\u1ecb V\u1ea3i hay c\u00e2u chuy\u1ec7n cao t\u1ed1c mi\u1ec1n T\u00e2y \u0111\u1eaft v\u00e0 ch\u1eadm h\u01a1n? H\u00e3y b\u00ecnh lu\u1eadn l\u1ef1a ch\u1ecdn b\u00ean d\u01b0\u1edbi nh\u00e9."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "K\u00e9o camera l\u00f9i t\u1eeb \u0110\u00f4ng Nam B\u1ed9 ra to\u00e0n c\u1ea3nh b\u1ea3n \u0111\u1ed3 3D Vi\u1ec7t Nam & Bi\u1ec3n \u0110\u00f4ng (Ho\u00e0ng Sa \u2013 Tr\u01b0\u1eddng Sa c\u1ee7a Vi\u1ec7t Nam).",
+              "timestamp_seconds": 650.97
+            },
+            {
+              "type": "stat_card",
+              "description": "B\u1ea3ng t\u00f3m t\u1eaft 4 con s\u1ed1 ch\u1ed1t h\u1ea1: 365 M B\u1eca KH\u00d3A -> L\u00d9I 40 KM -> 5.000 HA (4F) -> ~20 PH\u00daT \u0110\u01af\u1edcNG S\u1eaeT.",
+              "timestamp_seconds": 659.47
+            },
+            {
+              "type": "diagram",
+              "description": "N\u1ed1i hai \u0111i\u1ec3m s\u00e1ng h\u1ea1 t\u1ea7ng th\u1ebf k\u1ef7: L\u1ea1ch Huy\u1ec7n (H\u1ea3i Ph\u00f2ng) \u2194 Long Th\u00e0nh (\u0110\u1ed3ng Nai).",
+              "timestamp_seconds": 667.47
+            },
+            {
+              "type": "overlay",
+              "description": "Th\u1ebb b\u00ecnh ch\u1ecdn T\u1eadp 3 cu\u1ed1i video: [1] C\u1ea3ng C\u00e1i M\u00e9p \u2013 Th\u1ecb V\u1ea3i vs [2] Cao t\u1ed1c \u0110\u1ed3ng b\u1eb1ng s\u00f4ng C\u1eedu Long.",
+              "timestamp_seconds": 675.47
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "ICAO",
+              "phonetic": "I cao"
+            },
+            {
+              "word": "4F",
+              "phonetic": "b\u1ed1n \u00e9p"
+            },
+            {
+              "word": "T3",
+              "phonetic": "T\u00ea ba"
+            },
+            {
+              "word": "Airbus A380",
+              "phonetic": "E b\u1edbt A ba tr\u0103m t\u00e1m m\u01b0\u01a1i"
+            },
+            {
+              "word": "Boeing 747",
+              "phonetic": "B\u00f4 inh b\u1ea3y b\u1ed1n b\u1ea3y"
+            },
+            {
+              "word": "Incheon",
+              "phonetic": "In ch\u01a1n"
+            },
+            {
+              "word": "Suvarnabhumi",
+              "phonetic": "Xu va na bu mi"
+            },
+            {
+              "word": "Narita",
+              "phonetic": "Na ri ta"
+            }
+          ],
+          "source_ref": "https://vanban.chinhphu.vn/"
+        }
+      ],
+      "metadata": {
+        "total_words": 2652,
+        "total_enhancement_cues": 80,
+        "seconds_per_cue": 8.59,
+        "words_per_second_model": 3.92,
+        "concept_id": "c1",
+        "title_pairing": {
+          "pair_id": "pair_a",
+          "title": "V\u00ec sao s\u00e2n bay Long Th\u00e0nh ph\u1ea3i l\u00f9i xa TP.HCM 40km?",
+          "thumbnail_text": "K\u1eb8T B\u1ea6U TR\u1edcI!",
+          "score": 92
+        },
+        "fact_ledger_status": "unverified",
+        "hook_candidates": [
+          {
+            "rank": 1,
+            "hookscore_verdict": 91,
+            "band": "STRONG",
+            "formula": "The Question + Contrarian Flip",
+            "en_probe": "You think 50 million Terminal T3 capacity stopped the risk, but nobody explains how two 365m runways cost you 40km?",
+            "vi_adaptation": "Nhi\u1ec1u ng\u01b0\u1eddi ngh\u0129 khi Nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t m\u1edf c\u1eeda, c\u1ea3nh k\u1eb9t b\u1ea7u tr\u1eddi c\u1ee7a Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh s\u1ebd l\u1eadp t\u1ee9c h\u1ea1 nhi\u1ec7t, nh\u01b0ng ch\u01b0a ai ch\u1ec9 r\u00f5 hai \u0111\u01b0\u1eddng b\u0103ng c\u00e1ch nhau 365 m l\u1ea1i bu\u1ed9c Vi\u1ec7t Nam x\u00e2y si\u00eau s\u00e2n bay m\u1edbi c\u00e1ch TP.HCM 40 km?"
+          },
+          {
+            "rank": 2,
+            "hookscore_verdict": 81,
+            "band": "STRONG",
+            "formula": "The Question",
+            "en_probe": "Why does your new Terminal T3 never stop 365m Tan Son Nhat runways before Long Thanh risks losing 40km?",
+            "vi_adaptation": "V\u00ec sao c\u00f3 Nh\u00e0 ga T3 hi\u1ec7n \u0111\u1ea1i r\u1ed3i m\u00e0 T\u00e2n S\u01a1n Nh\u1ea5t v\u1eabn b\u1ecb hai \u0111\u01b0\u1eddng b\u0103ng c\u00e1ch nhau 365 m kh\u00f3a ch\u1eb7t, bu\u1ed9c Long Th\u00e0nh ph\u1ea3i l\u00f9i xa t\u1edbi 40 km?"
+          }
+        ]
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "passed": true,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "notes": [
+      "Word count: 2652 words -> estimated 687.52s (+-10% window around 660s = 594..726s PASS).",
+      "Enhancement cues: 80 total (8.59s/cue, strictly inside <=10s rule).",
+      "Narrative arc: Hook -> Setup -> 5-Chapter Causal Build ('nh\u01b0ng / v\u00ec v\u1eady') -> Hero 1:1 Climax (s13) -> Rail 20\u201325m & 100-year Landing.",
+      "Voice performance plan (Haitrieu, speed 1.1, sample s13) and 100% pure-Vietnamese provider_text phonetics verified.",
+      "All technical metrics reference candidate_facts_sources.json (kept 'unverified' until human verifies primary decrees)."
+    ]
+  },
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  }
+}

@@ -19,8 +19,10 @@ Mỗi video trả lời một câu hỏi cụ thể về một cảng, sân bay,
 
 ## Tài liệu điều hành
 
+- [Bộ thông tin chuẩn bị kênh YouTube Giải mã Bản đồ (17/11/2026)](./24_BO_THONG_TIN_CHUAN_BI_KENH_YOUTUBE_BAN_DO_2026-11-17.md) — **tài liệu chuẩn bị kênh hoàn chỉnh**: 5 phương án tên kênh/`@handle` đã kiểm tra trống, mô tả & từ khóa SEO, cấu hình `Upload defaults` & cờ AI, quy chuẩn nhận diện `Branding`, 4 trụ cột nội dung, 5 playlists, lịch 4 tuần Giai đoạn 1 và checklist xuất bản.
 - [Quyết định ngách và checklist Giai đoạn 0](./21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md) — file hiện hành: đã chốt, chưa chốt, việc theo ngày và cổng duyệt.
 - [Gợi ý 20 chủ đề hấp dẫn & được tìm kiếm nhiều (2025–2026)](./22_GOI_Y_20_CHU_DE_XU_HUONG_TIM_KIEM_2026-11-17.md) — kho 20 đề tài bản đồ 3D bám sát xu hướng tìm kiếm mới nhất.
+- [Phân tích 3 video bản đồ mẫu bằng `rea-video` (17/11/2026)](./23_PHAN_TICH_3_VIDEO_MAU_REA_VIDEO_2026-11-17.md) — giải phẫu hook, nhịp WPM/LUFS, kỹ thuật đồ họa bản đồ & checklist nâng cấp cho Shorts/Tập 3.
 - [Phân tích GitHub, thị trường, chính sách và kế hoạch ngách](./16_PHAN_TICH_DOC_LAP_GITHUB_THI_TRUONG_NGACH_2026-11-14.md) — tài liệu nghiên cứu, giữ nguyên làm tư liệu tham khảo.
 - [Đánh giá 19 repository GitHub](./14_DANH_GIA_19_REPO_GITHUB.md) — chi tiết workflow, license, chi phí từng repo.
 - [Quét ngách YouTube ngày 14/11/2026](./17_QUET_NGACH_YOUTUBE_2026-11-14.md) — 4.585 video công khai trên 22 nhóm ngách.
@@ -39,8 +41,8 @@ Mỗi video trả lời một câu hỏi cụ thể về một cảng, sân bay,
 - Ngách: đã chọn.
 - Thị trường đầu tiên: đã chọn.
 - Quỹ thời gian pilot: đã chọn.
-- Tên kênh và handle: chưa chốt.
+- Tên kênh và handle: đã tổng hợp 5 phương án trống (`HTTP 404` ngày `17/11/2026`) trong [tài liệu chuẩn bị kênh](./24_BO_THONG_TIN_CHUAN_BI_KENH_YOUTUBE_BAN_DO_2026-11-17.md) (chờ bạn chọn 1 tên cuối cùng).
 - Giọng đọc: Vibi TTS.
 - Quay cảnh thật: không; visual dùng bản đồ, sơ đồ và đồ họa dựng bằng code.
-- Ba đề tài đầu: cần lập fact ledger và duyệt trước khi viết kịch bản.
+- Hai tập dài đã đóng gói sẵn ở trạng thái `awaiting_human`: [Tập 1 — Cảng Lạch Huyện](../projects/cang-lach-huyen-ban-dai/exports/) & [Tập 2 — Sân bay Long Thành 40 km](../projects/san-bay-long-thanh-40km/exports/) (chờ rà soát URL nguồn gốc & duyệt trước Giai đoạn 1).
 - Giai đoạn hiện tại: [Giai đoạn 0: Nền móng](./21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md#4-giai-đoạn-0-nền-móng-1511-đến-22112026).

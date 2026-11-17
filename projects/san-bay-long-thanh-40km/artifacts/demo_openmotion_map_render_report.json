@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "outputs": [
+    {
+      "path": "projects/san-bay-long-thanh-40km/renders/demo_openmotion_map_57s.mp4",
+      "format": "mp4",
+      "codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 30.0,
+      "duration_seconds": 57.45,
+      "file_size_bytes": 347214769,
+      "platform_target": "youtube_landscape"
+    }
+  ],
+  "render_time_seconds": 142.65,
+  "warnings": [],
+  "verification_notes": [
+    "Rendered 57.45s @ 30.0fps (347,214,769 bytes, CRF 14) with 100% Map-First 3D Satellite Choreography + 3 Real VnExpress Press Clippings.",
+    "Audio mixed via 3-Bus perceptual-apex Foley (15 event categories / 26 synthesized hits anchored to on-map strikes & locks).",
+    "Atelier check: stock_reuse_detected=False, art_direction_declared=True.",
+    "Transcript accuracy: word_accuracy=1.0, transcript_matches_script=True."
+  ],
+  "render_grammar": "explainer-data",
+  "slideshow_risk_score": {
+    "average": 0.0,
+    "verdict": "strong"
+  },
+  "decision_log_ref": "decision_log.json",
+  "final_review_ref": "artifacts/demo_openmotion_map_final_review.json"
+}

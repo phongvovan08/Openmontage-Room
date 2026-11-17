@@ -1,0 +1,70 @@
+{
+  "project_id": "san-bay-long-thanh-40km",
+  "status": "unverified",
+  "note": "Toàn bộ số liệu lưu ở trạng thái 'unverified' theo Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md (đối chiếu Nghị quyết 94/2015/QH13, Nghị quyết 174/2024/QH15 và Quyết định 648/QĐ-TTg), chờ người duyệt mở văn bản gốc xác nhận trước khi công bố.",
+  "claims": [
+    {
+      "id": "fact_nq94_longthanh_scale",
+      "claim": "Theo Nghị quyết 94/2015/QH13 (25/6/2015) và Nghị quyết điều chỉnh 174/2024/QH15 (30/11/2024), CHKQT Long Thành có quy mô đất 5.000 ha tại huyện Long Thành (Đồng Nai), đạt cấp 4F của ICAO, công suất khi hoàn thành toàn bộ đạt 100 triệu hành khách/năm và 5 triệu tấn hàng hóa/năm với 4 đường cất hạ cánh; riêng Giai đoạn 1 điều chỉnh đầu tư 2 đường cất hạ cánh ở phía Bắc (số 1 và số 3, dài 4.000 m), 1 nhà ga công suất 25 triệu hành khách/năm và 1,2 triệu tấn hàng hóa/năm, mốc hoàn thành chậm nhất 31/12/2026.",
+      "source_url": "https://vanban.chinhphu.vn/",
+      "source_name": "Nghị quyết 94/2015/QH13 & Nghị quyết 174/2024/QH15 (Quốc hội / Chính phủ / ACV)",
+      "credibility": "primary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "stat_card"
+    },
+    {
+      "id": "fact_tsn_365m_gap",
+      "claim": "CHKQT Tân Sơn Nhất có 2 đường cất hạ cánh song song nhưng khoảng cách giữa hai trục tim chỉ khoảng 365 m — thấp hơn ngưỡng tối thiểu theo tiêu chuẩn ICAO (từ khoảng 760 m đến hơn 1.035 m tùy phương thức) để khai thác cất/hạ cánh song song độc lập hoàn toàn, buộc phải điều hành phụ thuộc lẫn nhau.",
+      "source_url": "https://tapchihangkhong.vn/",
+      "source_name": "Thông số khai thác đường CHC Tân Sơn Nhất & Quy chuẩn ICAO Annex 14",
+      "credibility": "secondary_source",
+      "surprise_factor": "counterintuitive",
+      "usable_as": "hook"
+    },
+    {
+      "id": "fact_tsn_791ha_50m",
+      "claim": "Theo Quyết định 648/QĐ-TTg (07/6/2023) và quy hoạch CHKQT Tân Sơn Nhất thời kỳ 2021–2030, tầm nhìn 2050, diện tích quy hoạch sân bay khoảng 791 ha và công suất thiết kế toàn cảng đạt khoảng 50 triệu hành khách/năm sau khi đưa vào khai thác Nhà ga T3 (~20 triệu hành khách/năm). Quỹ đất 5.000 ha của Long Thành lớn gấp 6,3 lần Tân Sơn Nhất.",
+      "source_url": "https://chinhphu.vn/",
+      "source_name": "Quyết định 648/QĐ-TTg (07/6/2023) & Quy hoạch CHKQT Tân Sơn Nhất",
+      "credibility": "primary_source",
+      "surprise_factor": "notable",
+      "usable_as": "stat_card"
+    },
+    {
+      "id": "fact_runway_4000x60",
+      "claim": "Hệ thống đường cất hạ cánh chính tại sân bay Long Thành dài tiêu chuẩn 4.000 m, rộng 60 m–75 m (đáp ứng tàu bay thân rộng cấp ICAO Code E/F như Airbus A380, Boeing 747-8, Boeing 777-9), xây dựng trên thềm địa chất đất đỏ bazan cao ráo xã Bình Sơn (Long Thành), tránh nền bùn sét ngập triều Nam Sài Gòn và tránh xung đột không lưu quân sự Biên Hòa ở hướng Đông Bắc.",
+      "source_url": "https://tapchihangkhong.vn/",
+      "source_name": "Hồ sơ kỹ thuật đường CHC & địa chất CHKQT Long Thành",
+      "credibility": "secondary_source",
+      "surprise_factor": "notable",
+      "usable_as": "script_anchor"
+    },
+    {
+      "id": "fact_distance_40km",
+      "claim": "Sân bay Long Thành nằm cách trung tâm TP.HCM khoảng 40 km về phía Đông theo hành lang cao tốc, nằm ở trung tâm tam giác công nghiệp TP.HCM – Đồng Nai/Bình Dương – cụm cảng nước sâu Cái Mép – Thị Vải (~30–35 km).",
+      "source_url": "https://baochinhphu.vn/",
+      "source_name": "Cổng TTĐT Chính phủ — Vị trí và kết nối vùng CHKQT Long Thành",
+      "credibility": "primary_source",
+      "surprise_factor": "expected",
+      "usable_as": "script_anchor"
+    },
+    {
+      "id": "fact_expressway_hcm_lt",
+      "claim": "Mở rộng cao tốc TP.HCM – Long Thành – Dầu Giây đoạn gần 22 km lên 8 làn xe (Vành đai 2 – Vành đai 3) và 10 làn xe (Vành đai 3 – Biên Hòa – Vũng Tàu, kèm nhánh cầu Long Thành mới), kết hợp Vành đai 3 TP.HCM (cầu Nhơn Trạch), cao tốc Bến Lức – Long Thành và Biên Hòa – Vũng Tàu tạo thành mạng lưới đường bộ đa hướng.",
+      "source_url": "https://dantri.com.vn/",
+      "source_name": "Hạ tầng cao tốc & Vành đai kết nối sân bay Long Thành",
+      "credibility": "secondary_source",
+      "surprise_factor": "notable",
+      "usable_as": "stat_card"
+    },
+    {
+      "id": "fact_rail_thuthiem_lt",
+      "claim": "Tuyến đường sắt liên vùng Thủ Thiêm – Long Thành được nghiên cứu với chiều dài khoảng 46,44–47,7 km (trong đó hơn 11 km đi ngầm và hơn 34 km đi trên cao), nối ga Thủ Thiêm (TP. Thủ Đức) dọc hành lang cao tốc tới sân bay Long Thành, tốc độ thiết kế tối đa 120 km/h, rút ngắn thời gian đi lại xuống khoảng 20–25 phút.",
+      "source_url": "https://vnexpress.net/",
+      "source_name": "Báo cáo nghiên cứu tiền khả thi / FEED đường sắt Thủ Thiêm – Long Thành",
+      "credibility": "secondary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "closing_punch"
+    }
+  ]
+}

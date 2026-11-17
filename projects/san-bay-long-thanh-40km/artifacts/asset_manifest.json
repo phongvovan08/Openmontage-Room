@@ -1,0 +1,1050 @@
+{
+  "version": "1.0",
+  "assets": [
+    {
+      "id": "narration-s01",
+      "type": "narration",
+      "path": "assets/audio/segments/s01.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_01",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 30.017,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s01",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s02",
+      "type": "narration",
+      "path": "assets/audio/segments/s02.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_02",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 32.608,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s02",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s03",
+      "type": "narration",
+      "path": "assets/audio/segments/s03.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_03",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 30.658,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s03",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s04",
+      "type": "narration",
+      "path": "assets/audio/segments/s04.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_04",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 31.171,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s04",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s05",
+      "type": "narration",
+      "path": "assets/audio/segments/s05.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_05",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 30.823,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s05",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s06",
+      "type": "narration",
+      "path": "assets/audio/segments/s06.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_06",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 28.747,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s06",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s07",
+      "type": "narration",
+      "path": "assets/audio/segments/s07.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_07",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 31.501,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s07",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s08",
+      "type": "narration",
+      "path": "assets/audio/segments/s08.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_08",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 33.173,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s08",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s09",
+      "type": "narration",
+      "path": "assets/audio/segments/s09.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_09",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 34.241,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s09",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s10",
+      "type": "narration",
+      "path": "assets/audio/segments/s10.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_10",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 32.597,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s10",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s11",
+      "type": "narration",
+      "path": "assets/audio/segments/s11.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_11",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 33.243,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s11",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s12",
+      "type": "narration",
+      "path": "assets/audio/segments/s12.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_12",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 33.381,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s12",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s13",
+      "type": "narration",
+      "path": "assets/audio/segments/s13.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_13",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 34.159,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s13",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s14",
+      "type": "narration",
+      "path": "assets/audio/segments/s14.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_14",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 34.348,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s14",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s15",
+      "type": "narration",
+      "path": "assets/audio/segments/s15.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_15",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 34.07,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s15",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s16",
+      "type": "narration",
+      "path": "assets/audio/segments/s16.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_16",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 36.289,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s16",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s17",
+      "type": "narration",
+      "path": "assets/audio/segments/s17.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_17",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 31.808,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s17",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s18",
+      "type": "narration",
+      "path": "assets/audio/segments/s18.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_18",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 33.21,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s18",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s19",
+      "type": "narration",
+      "path": "assets/audio/segments/s19.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_19",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 33.364,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s19",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-s20",
+      "type": "narration",
+      "path": "assets/audio/segments/s20.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "scene_20",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 35.459,
+      "format": "mp3",
+      "provider": "vibi",
+      "voice_performance": {
+        "source_section_id": "s20",
+        "delivery_cues_applied": true,
+        "provider_text_used": true,
+        "provider_settings": {
+          "voice_name": "Haitrieu",
+          "voice_id": "1ad2682d-1c78-4bb2-8061-b7cc216362c9",
+          "speed": 1.1,
+          "lufs": -16.0
+        },
+        "sample_approved": true,
+        "sample_path": "assets/audio/segments/s13.mp3",
+        "review_notes": "Approved Haitrieu (speech-2.8-hd, speed 1.1, -16 LUFS) with pure-Vietnamese phonetic provider_text."
+      }
+    },
+    {
+      "id": "narration-full",
+      "type": "narration",
+      "path": "assets/audio/narration_full.mp3",
+      "source_tool": "_tools/vibi_tts.py",
+      "scene_id": "global",
+      "model": "speech-2.8-hd",
+      "cost_usd": 0.0,
+      "duration_seconds": 668.27,
+      "format": "mp3",
+      "provider": "vibi"
+    },
+    {
+      "id": "sfx-aviation-radar",
+      "type": "sfx",
+      "path": "assets/audio/sfx_aviation_radar.mp3",
+      "source_tool": "synth_documentary_audio_bed.py",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "duration_seconds": 668.27,
+      "format": "mp3",
+      "provider": "local_synthesis",
+      "license": "100% Procedural Original (Content-ID Safe)"
+    },
+    {
+      "id": "audio-master",
+      "type": "audio",
+      "path": "assets/audio/master_audio.mp3",
+      "source_tool": "synth_documentary_audio_bed.py",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "duration_seconds": 668.27,
+      "format": "mp3",
+      "provider": "ffmpeg_sidechain_mix"
+    },
+    {
+      "id": "subtitles-srt",
+      "type": "subtitle",
+      "path": "assets/audio/narration_full.srt",
+      "source_tool": "lt_step3a_tts_and_audio.py",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "format": "srt"
+    },
+    {
+      "id": "thumbnail-main",
+      "type": "image",
+      "path": "assets/images/thumbnail.jpg",
+      "source_tool": "lt_build_thumbnail.py",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "jpg"
+    },
+    {
+      "id": "sat-mosaic-asia_pacific_z4",
+      "type": "image",
+      "path": "public/sat/asia_pacific_z4_ready.webp",
+      "source_tool": "eox_sentinel2_2024",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "resolution": "1536x1280",
+      "format": "webp",
+      "provider": "EOxCloudless Sentinel-2 2024",
+      "license": "CC BY 4.0",
+      "original_url": "https://cloudless.eox.at"
+    },
+    {
+      "id": "sat-mosaic-sea_region_z6",
+      "type": "image",
+      "path": "public/sat/sea_region_z6_ready.webp",
+      "source_tool": "eox_sentinel2_2024",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "resolution": "3328x2816",
+      "format": "webp",
+      "provider": "EOxCloudless Sentinel-2 2024",
+      "license": "CC BY 4.0",
+      "original_url": "https://cloudless.eox.at"
+    },
+    {
+      "id": "sat-mosaic-vietnam_eastsea_z7",
+      "type": "image",
+      "path": "public/sat/vietnam_eastsea_z7_ready.webp",
+      "source_tool": "eox_sentinel2_2024",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "resolution": "2560x2816",
+      "format": "webp",
+      "provider": "EOxCloudless Sentinel-2 2024",
+      "license": "CC BY 4.0",
+      "original_url": "https://cloudless.eox.at"
+    },
+    {
+      "id": "sat-mosaic-south_vn_z9",
+      "type": "image",
+      "path": "public/sat/south_vn_z9_ready.webp",
+      "source_tool": "eox_sentinel2_2024",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "resolution": "2048x2048",
+      "format": "webp",
+      "provider": "EOxCloudless Sentinel-2 2024",
+      "license": "CC BY 4.0",
+      "original_url": "https://cloudless.eox.at"
+    },
+    {
+      "id": "sat-mosaic-hcm_lt_corridor_z12",
+      "type": "image",
+      "path": "public/sat/hcm_lt_corridor_z12_ready.webp",
+      "source_tool": "eox_sentinel2_2024",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "resolution": "2560x2048",
+      "format": "webp",
+      "provider": "EOxCloudless Sentinel-2 2024",
+      "license": "CC BY 4.0",
+      "original_url": "https://cloudless.eox.at"
+    },
+    {
+      "id": "sat-mosaic-long_thanh_z14",
+      "type": "image",
+      "path": "public/sat/long_thanh_z14_ready.webp",
+      "source_tool": "eox_sentinel2_2024",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "resolution": "2304x1792",
+      "format": "webp",
+      "provider": "EOxCloudless Sentinel-2 2024",
+      "license": "CC BY 4.0",
+      "original_url": "https://cloudless.eox.at"
+    },
+    {
+      "id": "sat-mosaic-tsn_z14",
+      "type": "image",
+      "path": "public/sat/tsn_z14_ready.webp",
+      "source_tool": "eox_sentinel2_2024",
+      "scene_id": "global",
+      "cost_usd": 0.0,
+      "resolution": "1536x1280",
+      "format": "webp",
+      "provider": "EOxCloudless Sentinel-2 2024",
+      "license": "CC BY 4.0",
+      "original_url": "https://cloudless.eox.at"
+    },
+    {
+      "id": "photo-tsn_apron",
+      "type": "image",
+      "path": "public/photos/tsn_apron.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_02",
+      "cost_usd": 0.0,
+      "resolution": "1920x1109",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY 2.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Tan_Son_Nhat_International_Airport_at_night_(12088245464).jpg"
+    },
+    {
+      "id": "photo-tsn_terminal",
+      "type": "image",
+      "path": "public/photos/tsn_terminal.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_03",
+      "cost_usd": 0.0,
+      "resolution": "1920x1152",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Tan_Son_Nhat_ramp_(08.2026).jpg"
+    },
+    {
+      "id": "photo-hcm_skyline",
+      "type": "image",
+      "path": "public/photos/hcm_skyline.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_05",
+      "cost_usd": 0.0,
+      "resolution": "1920x1280",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_-_Saigon1324.jpg"
+    },
+    {
+      "id": "photo-can_gio_mangrove",
+      "type": "image",
+      "path": "public/photos/can_gio_mangrove.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_09",
+      "cost_usd": 0.0,
+      "resolution": "1024x680",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 3.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Mangrove_bud.jpg"
+    },
+    {
+      "id": "photo-rubber_plantation_dn",
+      "type": "image",
+      "path": "public/photos/rubber_plantation_dn.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_11",
+      "cost_usd": 0.0,
+      "resolution": "1920x1366",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "Public domain",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Belle_plantation_d%27h%C3%A9v%C3%A9as_%C3%A0_Suzannah_avec_un_espacement_correct_des_plants_-_btv1b101030056.jpg"
+    },
+    {
+      "id": "photo-cai_mep_port",
+      "type": "image",
+      "path": "public/photos/cai_mep_port.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_12",
+      "cost_usd": 0.0,
+      "resolution": "1920x1272",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 3.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:VN-Phu-My-Hafen-3.jpg"
+    },
+    {
+      "id": "photo-widebody_a380",
+      "type": "image",
+      "path": "public/photos/widebody_a380.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_14",
+      "cost_usd": 0.0,
+      "resolution": "1920x1280",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 3.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:A380_-_Paris_Air_Show_2011_-_Take_off.jpg"
+    },
+    {
+      "id": "photo-long_thanh_site",
+      "type": "image",
+      "path": "public/photos/long_thanh_site.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_15",
+      "cost_usd": 0.0,
+      "resolution": "1920x1280",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Dji-0031-2479-7509-26233946999421542541397.jpg"
+    },
+    {
+      "id": "photo-incheon_airport",
+      "type": "image",
+      "path": "public/photos/incheon_airport.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_16",
+      "cost_usd": 0.0,
+      "resolution": "1634x1307",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:02-NOV-2023_-_KC910_ICN-ALA_(EI-KEB_-_B767-300)_(03)_(cropped).jpg"
+    },
+    {
+      "id": "photo-hcm_lt_expressway",
+      "type": "image",
+      "path": "public/photos/hcm_lt_expressway.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_17",
+      "cost_usd": 0.0,
+      "resolution": "1920x1280",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY-SA 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Long_Th%C3%A0nh-D%E1%BA%A7u_Gi%C3%A2y_Expressway_Speed_Limit_Sign.jpg"
+    },
+    {
+      "id": "photo-hcm_metro_line1",
+      "type": "image",
+      "path": "public/photos/hcm_metro_line1.jpg",
+      "source_tool": "wikimedia_commons",
+      "scene_id": "scene_18",
+      "cost_usd": 0.0,
+      "resolution": "1920x1515",
+      "format": "jpg",
+      "provider": "wikimedia_commons",
+      "license": "CC BY 4.0",
+      "original_url": "https://commons.wikimedia.org/wiki/File:L111_BenThanh_Train_Front_(20250202).jpg"
+    },
+    {
+      "id": "snap-scene_01",
+      "type": "animation",
+      "path": "snapshots/scene_01.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_01",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_02",
+      "type": "animation",
+      "path": "snapshots/scene_02.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_02",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_03",
+      "type": "animation",
+      "path": "snapshots/scene_03.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_03",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_04",
+      "type": "animation",
+      "path": "snapshots/scene_04.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_04",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_05",
+      "type": "animation",
+      "path": "snapshots/scene_05.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_05",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_06",
+      "type": "animation",
+      "path": "snapshots/scene_06.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_06",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_07",
+      "type": "animation",
+      "path": "snapshots/scene_07.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_07",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_08",
+      "type": "animation",
+      "path": "snapshots/scene_08.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_08",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_09",
+      "type": "animation",
+      "path": "snapshots/scene_09.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_09",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_10",
+      "type": "animation",
+      "path": "snapshots/scene_10.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_10",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_11",
+      "type": "animation",
+      "path": "snapshots/scene_11.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_11",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_12",
+      "type": "animation",
+      "path": "snapshots/scene_12.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_12",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_13",
+      "type": "animation",
+      "path": "snapshots/scene_13.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_13",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_14",
+      "type": "animation",
+      "path": "snapshots/scene_14.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_14",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_15",
+      "type": "animation",
+      "path": "snapshots/scene_15.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_15",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_16",
+      "type": "animation",
+      "path": "snapshots/scene_16.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_16",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_17",
+      "type": "animation",
+      "path": "snapshots/scene_17.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_17",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_18",
+      "type": "animation",
+      "path": "snapshots/scene_18.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_18",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_19",
+      "type": "animation",
+      "path": "snapshots/scene_19.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_19",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_20",
+      "type": "animation",
+      "path": "snapshots/scene_20.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_20",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_01_vn",
+      "type": "animation",
+      "path": "snapshots/scene_01_vn.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_01",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_14_zoom",
+      "type": "animation",
+      "path": "snapshots/scene_14_zoom.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_14",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    },
+    {
+      "id": "snap-scene_18_zoom",
+      "type": "animation",
+      "path": "snapshots/scene_18_zoom.png",
+      "source_tool": "remotion_still",
+      "scene_id": "scene_18",
+      "cost_usd": 0.0,
+      "resolution": "1920x1080",
+      "format": "png"
+    }
+  ],
+  "total_cost_usd": 0.0,
+  "metadata": {
+    "total_duration_seconds": 668.27,
+    "voice_provider": "vibi",
+    "voice_name": "Haitrieu",
+    "satellite_source": "EOxCloudless Sentinel-2 2024 (z4-z14, CC BY 4.0)"
+  }
+}

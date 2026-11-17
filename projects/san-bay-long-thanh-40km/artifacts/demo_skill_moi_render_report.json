@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "outputs": [
+    {
+      "path": "projects/san-bay-long-thanh-40km/renders/demo_skill_moi_57s.mp4",
+      "format": "mp4",
+      "codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 30.0,
+      "duration_seconds": 57.45,
+      "file_size_bytes": 341413702,
+      "platform_target": "youtube_landscape"
+    }
+  ],
+  "render_time_seconds": 148.18,
+  "warnings": [],
+  "verification_notes": [
+    "Rendered 57.45s @ 30.0fps (341,413,702 bytes, CRF 14) strictly following refined vietnam-map-explainer SKILL.md.",
+    "Showcases only the 3 approved upgrades: Map Camera Choreography (3D Plunge, Hold-Then-Move, Pull-Back, Corridor Pan, Subtle Yaw Orbit, Spotlight Dimming), Direct On-Map 3D Charting (T3 vs Ceiling + 1:1 791 ha + Road vs Rail travel-time pillars), and 3 VnExpress Press Clippings.",
+    "Atelier check: stock_reuse_detected=False, art_direction_declared=True.",
+    "Transcript accuracy: word_accuracy=1.0, transcript_matches_script=True."
+  ],
+  "render_grammar": "explainer-data",
+  "slideshow_risk_score": {
+    "average": 0.0,
+    "verdict": "strong"
+  },
+  "decision_log_ref": "decision_log.json",
+  "final_review_ref": "artifacts/demo_skill_moi_final_review.json"
+}

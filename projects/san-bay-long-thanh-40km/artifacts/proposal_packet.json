@@ -1,0 +1,294 @@
+{
+  "version": "1.0",
+  "concept_options": [
+    {
+      "id": "c1",
+      "title": "Vì sao sân bay Long Thành phải lùi xa TP.HCM 40km?",
+      "hook": "Nhà ga T3 không cứu nổi 2 đường băng cách nhau 365 m — buộc siêu sân bay phải lùi 40 km.",
+      "narrative_structure": "problem_solution",
+      "visual_approach": "Bản đồ không lưu 3D nghiêng 48°–52° trên nền vệ tinh EOX 2024 z14 kết hợp phễu tiếp cận bay cắt qua cao ốc TP.HCM, thước đo tỷ lệ 1:1 đường băng 365 m vs chuẩn ICAO, chồng khít 791 ha vào 5.000 ha (6,3×), lát cắt địa chất đất đỏ bazan Bình Sơn vs vùng trũng Nam Sài Gòn, và bản đồ đường sắt Thủ Thiêm – Long Thành (~20 phút).",
+      "suggested_playbook": "clean-professional",
+      "target_audience": "Khán giả Việt Nam quan tâm hạ tầng, địa lý kinh tế, hàng không và giao thông TP.HCM – Đông Nam Bộ",
+      "target_platform": "youtube",
+      "target_duration_seconds": 660,
+      "key_points": [
+        "Chương 1 — Cái lồng 791 ha & Bí mật 365 m: Vì sao Nhà ga T3 (nâng TSN lên ~50 triệu khách) không tháo được nút thắt hai đường băng phụ thuộc nhau trên bầu trời.",
+        "Chương 2 — Phễu bay trên nóc 10 triệu dân: Giải mã nón tĩnh không, hành lang tiếng ồn và chi phí giải tỏa nội đô bất khả thi nếu mở rộng Tân Sơn Nhất.",
+        "Chương 3 — Bài toán bán kính 40 km: Vì sao phải chọn thềm đất đỏ bazan Bình Sơn (Long Thành) chứ không phải vùng bùn yếu ngập triều phía Nam hay hành lang quân sự Biên Hòa.",
+        "Chương 4 — So găng 1:1: Đặt trọn 791 ha Tân Sơn Nhất lọt thỏm trong 5.000 ha Long Thành (gấp 6,3 lần), cấu hình 4 đường băng 4.000×60 m cấp 4F đón 100 triệu khách.",
+        "Chương 5 — Hóa giải nỗi lo 'xa 40 km': Cao tốc TP.HCM – Long Thành mở rộng 8–10 làn, Vành đai 3 cầu Nhơn Trạch, Biên Hòa – Vũng Tàu, Bến Lức – Long Thành và đường sắt Thủ Thiêm – Long Thành (~20 phút) vận hành cặp sân bay song hành."
+      ],
+      "core_message": "Sân bay không nằm xa 40 km vì bất tiện — mà để thoát chiếc lồng 365 m giữa nội đô, mở ra bầu trời độc lập cho một siêu đô thị trăm năm tới.",
+      "cta": "Bình luận chọn Tập 3 từ danh sách 20 chủ đề (Cái Mép – Thị Vải, Cao tốc miền Tây hay Siêu đô thị TP.HCM mới).",
+      "tone": "Điềm tĩnh, trực quan, giàu chứng cứ kỹ thuật kiểu Johnny Harris / Vox",
+      "grounded_in": [
+        "fact_tsn_365m_gap",
+        "fact_tsn_791ha_50m",
+        "fact_nq94_longthanh_scale",
+        "fact_rail_thuthiem_lt"
+      ],
+      "why_this_works": "Khớp trọn vẹn nhịp 5 Chương nhân quả (11 phút, 20 cảnh) trả lời trực diện câu hỏi nóng nhất của khán giả Việt, vừa bật được mid-roll >= 8 phút vừa kế thừa toàn bộ sức mạnh bản đồ 3D + vệ tinh z14 đã hoàn thiện ở Tập 1."
+    },
+    {
+      "id": "c2",
+      "title": "Đặt Long Thành cạnh Changi & Suvarnabhumi: Cuộc đua hub 40km",
+      "hook": "Từ bài toán thoát kẹt Tân Sơn Nhất, 5.000 ha Long Thành đang nhắm thẳng vào miếng bánh trung chuyển Đông Nam Á.",
+      "narrative_structure": "comparison",
+      "visual_approach": "Bản đồ Đông Nam Á tầm rộng đối chiếu bán kính bay quốc tế giữa Long Thành, Changi (Singapore), Suvarnabhumi (Bangkok) và Kuala Lumpur.",
+      "suggested_playbook": "clean-professional",
+      "target_audience": "Khán giả yêu thích kinh tế vĩ mô và cạnh tranh hàng không khu vực",
+      "target_platform": "youtube",
+      "target_duration_seconds": 750,
+      "key_points": [
+        "Đặt Tân Sơn Nhất & Long Thành vào bản đồ mạng trung chuyển Đông Nam Á.",
+        "So sánh khoảng cách từ trung tâm tới các sân bay ngoại ô lớn như Incheon, Narita, Suvarnabhumi."
+      ],
+      "core_message": "Quy mô 4F tại Long Thành đưa Việt Nam từ sân bay cuối tuyến thành cửa ngõ trung chuyển mới.",
+      "grounded_in": [
+        "fact_nq94_longthanh_scale",
+        "fact_distance_40km"
+      ],
+      "why_this_works": "Mở rộng góc nhìn khu vực Đông Nam Á (~12,5 phút)."
+    },
+    {
+      "id": "c3",
+      "title": "3 hiểu lầm lớn nhất về sân bay Long Thành cách TP.HCM 40km",
+      "hook": "Có Nhà ga T3 rồi xây Long Thành có thừa không, và 40 cây số có biến mỗi chuyến bay thành cực hình?",
+      "narrative_structure": "myth_busting",
+      "visual_approach": "Nhịp phản biện nhanh tập trung vào 3 lát cắt: T3 vs đường băng 365 m, so sánh khoảng cách ngoại ô thế giới, và mô phỏng tốc độ 20 phút của tuyến đường sắt Thủ Thiêm – Long Thành.",
+      "suggested_playbook": "clean-professional",
+      "target_audience": "Người xem tìm câu trả lời nhanh, trực diện các tranh luận trái chiều",
+      "target_platform": "youtube",
+      "target_duration_seconds": 570,
+      "key_points": [
+        "Phản biện 3 hiểu lầm phổ biến nhất bằng số liệu ICAO & mặt cắt 3D.",
+        "Tách bạch vai trò cặp sân bay song hành TSN (nội địa/ngắn) – Long Thành (quốc tế/hub)."
+      ],
+      "core_message": "Khoảng cách vật lý 40 km bị thu hẹp còn 20 phút khi hạ tầng đường sắt và cao tốc đồng bộ.",
+      "grounded_in": [
+        "fact_tsn_365m_gap",
+        "fact_rail_thuthiem_lt",
+        "fact_expressway_hcm_lt"
+      ],
+      "why_this_works": "Cô đọng ~9,5 phút dễ gây tranh luận tương tác cao ở phần bình luận."
+    }
+  ],
+  "selected_concept": {
+    "concept_id": "c1",
+    "rationale": "Người dùng đã duyệt phương án khuyến nghị c1 (~11 phút / 660 giây, 20 cảnh, 5 Chương) với Remotion + Atelier + Cặp tiêu đề A 'Vì sao sân bay Long Thành phải lùi xa TP.HCM 40km?' (Thumbnail: 'KẸT BẦU TRỜI!') và giọng Vibi TTS Haitrieu.",
+    "modifications": []
+  },
+  "production_plan": {
+    "pipeline": "animated-explainer",
+    "playbook": "clean-professional",
+    "renderer_family": "explainer-data",
+    "render_runtime": "remotion",
+    "composition_mode": "atelier",
+    "art_direction": "projects/san-bay-long-thanh-40km/art-direction.md",
+    "taste_profile": {
+      "design_read": "Bản đồ Radar & Không lưu 3D (Aviation Telemetry Johnny Harris / Vox) kết hợp lát cắt địa chất đất đỏ bazan, so sánh đường băng ICAO 1:1 và bản đồ đa phương thức 20 phút.",
+      "visual_variance": 8,
+      "motion_intensity": 6,
+      "information_density": 7,
+      "palette_discipline": "#030814 nền radar, #38BDF8 không lưu, #2DD4BF Long Thành 4F, #F43F5E TSN 365m/vùng ồn, #FACC15 quy hoạch đường sắt.",
+      "layout_variation": "Luân phiên 5 họ cảnh không lặp lại: Airspace Funnel 3D, Parallel Runway Ruler 1:1, Overlay 791ha trong 5000ha, Soil Cutaway 3D và Isochrone Rail Map.",
+      "reference_strategy": "Kế thừa kiến trúc engine full-bleed Tactical3DKit, EOX 2024 z4–z14 và KeywordCaptionBar 0px jitter với phong cách Aviation Radar mới hoàn toàn.",
+      "anti_patterns": [
+        "Không tạo asset trước khi proposal được duyệt",
+        "Không khoanh vòng tròn quanh Hoàng Sa & Trường Sa",
+        "Không để chữ nguồn Wikimedia/EOX vụn lên khung hình video",
+        "Không làm nhòe nền bản đồ bằng filter/mask trên thẻ CSS 3D"
+      ],
+      "quality_gates": [
+        "Mọi tuyến bay, cao tốc, đường sắt và ranh giới 5.000 ha / 791 ha bám sát OSM + z14 và đạt verify_polylines.py (0 vi phạm)",
+        "Mọi ảnh thực địa Wikimedia Commons đều kiểm tra 100% không watermark qua read_file",
+        "0% đè chữ trên toàn bộ các cảnh rộng và macro z14",
+        "Phụ đề đứng yên 0.00px layout shift & word_accuracy=1.0"
+      ]
+    },
+    "delivery_promise": {
+      "promise_type": "data_explainer",
+      "motion_required": true,
+      "tone_mode": "educational",
+      "quality_floor": "broadcast",
+      "approved_fallback": null
+    },
+    "music_source": {
+      "source_type": "bring_your_own",
+      "track_path": "projects/san-bay-long-thanh-40km/assets/audio/sfx_aviation_radar.mp3",
+      "mood_direction": "Procedural Documentary Pulse + Radar Telemetry / Jet Whoosh / Blueprint Lock 3-Bus SFX (100% sạch bản quyền Content ID).",
+      "estimated_cost_usd": 0.0
+    },
+    "voice_selection": {
+      "provider": "vibi",
+      "voice_id": "Haitrieu (1ad2682d-1c78-4bb2-8061-b7cc216362c9)",
+      "rationale": "Giọng đọc đồng bộ nhất quán chuỗi series Giải mã bản đồ từ Tập 1, hỗ trợ pronunciation overrides qua _tools/vibi_tts.py.",
+      "estimated_cost_usd": 0.0,
+      "delivery_style": "Điều tra địa lý kinh tế điềm tĩnh, dứt khoát từng số liệu",
+      "pacing_policy": "Speed 1.1, chuẩn hóa -16 LUFS, khoảng nghỉ rõ 0,45–0,65s chuyển cảnh.",
+      "sample_approval_required": false
+    },
+    "stages": [
+      {
+        "stage": "script",
+        "tools": [],
+        "approach": "Biên soạn kịch bản 20 phân đoạn (~11 phút) dựa trên fact ledger & hook đã duyệt, tách 2 lớp văn bản chuẩn chính tả (caption) và phiên âm tự nhiên (Vibi TTS)."
+      },
+      {
+        "stage": "scene_plan",
+        "tools": [],
+        "approach": "Thiết kế 20 cảnh luân phiên bản đồ 3D EOX z4–z14 Tân Sơn Nhất – TP.HCM – Long Thành, sơ đồ đường băng 1:1, sa bàn địa chất, hồ sơ pháp lý và mặt cắt đa phương thức."
+      },
+      {
+        "stage": "assets",
+        "tools": [
+          {
+            "tool_name": "vibi_tts",
+            "role": "Thu 20 đoạn thuyết minh tiếng Việt + word timestamps",
+            "provider": "vibi",
+            "available": true,
+            "estimated_cost_usd": 0.0
+          },
+          {
+            "tool_name": "eox_sentinel2_2024",
+            "role": "Tải tháp ảnh vệ tinh 2024 z4–z14 khu vực TP.HCM – Tân Sơn Nhất – Long Thành",
+            "provider": "eox",
+            "available": true,
+            "estimated_cost_usd": 0.0
+          },
+          {
+            "tool_name": "wikimedia_commons",
+            "role": "Tìm & kiểm tra sạch watermark ảnh thực địa (Tân Sơn Nhất, Long Thành, cao tốc, cầu Nhơn Trạch, metro)",
+            "provider": "wikimedia_commons",
+            "available": true,
+            "estimated_cost_usd": 0.0
+          },
+          {
+            "tool_name": "synth_documentary_audio_bed",
+            "role": "Tổng hợp nhạc nền Pulse sidechain + 3-Bus SFX không đè thoại",
+            "provider": "local_synthesis",
+            "available": true,
+            "estimated_cost_usd": 0.0
+          }
+        ],
+        "approach": "Tất cả tài nguyên đều cục bộ hoặc cấp phép tự do CC/PD ($0.00 phát sinh), kiểm tra 100% ảnh gốc qua read_file."
+      },
+      {
+        "stage": "edit",
+        "tools": [],
+        "approach": "Khóa timeline edit_decisions theo duration Vibi TTS thực tế, cấu hình CRF 14, concurrency 4."
+      },
+      {
+        "stage": "compose",
+        "tools": [
+          {
+            "tool_name": "video_compose",
+            "role": "Render Remotion Atelier 1920x1080 30fps + kiểm tra MP4 frame thực tế",
+            "provider": "remotion",
+            "available": true,
+            "estimated_cost_usd": 0.0
+          }
+        ],
+        "approach": "Kiểm tra trước toàn bộ ảnh PNG still mọi góc rộng & macro z14 trước khi chạy LongAtelierCompose.",
+        "fallback_if_unavailable": "Báo blocker ngay theo AGENT_GUIDE.md; không tự ý hạ cấp hoặc đổi runtime."
+      },
+      {
+        "stage": "publish",
+        "tools": [
+          {
+            "tool_name": "export_bundle",
+            "role": "Đóng gói video, SRT, thumbnail và description.txt đầy đủ bản quyền để người dùng duyệt đăng thủ công",
+            "provider": "local",
+            "available": true,
+            "estimated_cost_usd": 0.0
+          }
+        ],
+        "approach": "Bàn giao cục bộ trong exports/ với visibility private; không tự động tải lên YouTube hay Drive."
+      }
+    ],
+    "quality_tradeoffs": [
+      {
+        "tradeoff": "Remotion Atelier (React + SVG + CSS 3D) vs HyperFrames (HTML/CSS/GSAP)",
+        "recommendation": "Remotion Atelier",
+        "quality_impact": "Giữ trọn độ sắc nét 4K supersampling, đồng bộ phụ đề từng từ (word-level 0px jitter) và kế thừa nguyên hệ chiếu bản đồ 3D chính xác; đánh đổi thời gian render dài hơn (~20–28 phút ở CRF 14) so với slide/2D."
+      },
+      {
+        "tradeoff": "Giọng Vibi TTS Haitrieu vs OpenAI / Piper local",
+        "recommendation": "Vibi TTS Haitrieu",
+        "quality_impact": "Phát âm tiếng Việt tự nhiên và nhất quán toàn series; OpenAI tốn phí tiếng Anh thiên âm Tây, Piper local giọng kém tự nhiên hơn."
+      }
+    ],
+    "alternative_paths": [
+      {
+        "description": "Đường đề xuất: Remotion Atelier + Vệ tinh EOX 2024 z14 + Wikimedia Commons + Vibi TTS Haitrieu + 3-Bus SFX (CRF 14)",
+        "total_cost_usd": 0.0,
+        "quality_level": "premium",
+        "what_changes": "Độ nét cao nhất, bản đồ 3D tương tác chính xác địa lý thực"
+      },
+      {
+        "description": "Phương án HyperFrames HTML/GSAP thay thế Remotion",
+        "total_cost_usd": 0.0,
+        "quality_level": "standard",
+        "what_changes": "Phải xây dựng lại hệ chiếu bản đồ Mercator 3D và chưa có sẵn phụ đề karaoke từng từ"
+      }
+    ]
+  },
+  "cost_estimate": {
+    "total_estimated_usd": 0.0,
+    "line_items": [
+      {
+        "tool": "vibi_tts",
+        "operation": "Tổng hợp ~2.500 từ thuyết minh tiếng Việt (Haitrieu)",
+        "quantity": 20,
+        "estimated_usd": 0.0,
+        "notes": "Dùng gói/key Vibi đã cấu hình sẵn"
+      },
+      {
+        "tool": "eox_sentinel2_2024",
+        "operation": "Tháp vệ tinh EOX 2024 (CC BY 4.0) z4–z14",
+        "quantity": 6,
+        "estimated_usd": 0.0,
+        "notes": "Miễn phí có ghi công CC BY 4.0"
+      },
+      {
+        "tool": "wikimedia_commons",
+        "operation": "Ảnh chụp thực địa sạch watermark (CC/PD)",
+        "quantity": 12,
+        "estimated_usd": 0.0,
+        "notes": "Miễn phí có ghi công trong description.txt"
+      },
+      {
+        "tool": "synth_documentary_audio_bed",
+        "operation": "Nhạc nền Documentary Pulse + 3-Bus SFX cục bộ",
+        "quantity": 1,
+        "estimated_usd": 0.0,
+        "notes": "100% tổng hợp cục bộ, sạch Content ID"
+      },
+      {
+        "tool": "video_compose",
+        "operation": "Remotion Atelier 1920x1080 30fps CRF 14",
+        "quantity": 1,
+        "estimated_usd": 0.0,
+        "notes": "Render cục bộ trên máy"
+      }
+    ],
+    "budget_cap_usd": 5.0,
+    "budget_verdict": "within_budget",
+    "savings_options": [
+      "Toàn bộ quy trình hiện tại đã tối ưu ở mức $0.00 chi phí API bổ sung."
+    ]
+  },
+  "approval": {
+    "status": "approved",
+    "user_notes": "User approved recommended stack at proposal gate: animated-explainer, render_runtime=remotion, composition_mode=atelier, concept=c1, Title Pair A (92/100), Vibi TTS Haitrieu, budget cap $5.00.",
+    "approved_budget_usd": 5.0
+  },
+  "metadata": {
+    "title_selection": {
+      "pair_id": "pair_a",
+      "title": "Vì sao sân bay Long Thành phải lùi xa TP.HCM 40km?",
+      "thumbnail_text": "KẸT BẦU TRỜI!",
+      "score": 92
+    }
+  }
+}

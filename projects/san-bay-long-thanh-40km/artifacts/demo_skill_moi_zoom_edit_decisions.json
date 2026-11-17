@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "renderer_family": "explainer-data",
+  "render_runtime": "remotion",
+  "composition_mode": "atelier",
+  "bespoke": {
+    "entry": "projects/san-bay-long-thanh-40km/index.tsx",
+    "composition_id": "DemoOpenMotion57s",
+    "art_direction": "projects/san-bay-long-thanh-40km/art-direction.md",
+    "props_path": "C:/Users/ACER/Desktop/Openmontage-Room/projects/san-bay-long-thanh-40km/artifacts/demo_skill_moi_zoom_props.json",
+    "public_dir": "projects/san-bay-long-thanh-40km/public",
+    "crf": 14,
+    "concurrency": 4
+  },
+  "cuts": [
+    {
+      "id": "cut_zoom_d1_start",
+      "source": "snapshots/demo_skill_moi_zoom/z01_00s5_widest_z4.png",
+      "in_seconds": 0.0,
+      "out_seconds": 5.7,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_d1: D1 — Orbital Wide-to-Macro Zoom (z4 Việt Nam & Biển Đông -> TP.HCM -> z14 Tân Sơn Nhất 365 M)"
+    },
+    {
+      "id": "cut_zoom_d1_macro",
+      "source": "snapshots/demo_skill_moi_zoom/z04_10s2_macro_z14.png",
+      "in_seconds": 5.7,
+      "out_seconds": 11.45,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_d1: D1 — Orbital Wide-to-Macro Zoom (z4 Việt Nam & Biển Đông -> TP.HCM -> z14 Tân Sơn Nhất 365 M)"
+    },
+    {
+      "id": "cut_zoom_d2",
+      "source": "snapshots/demo_skill_moi/k05_19s5_d2_skylock.png",
+      "in_seconds": 11.45,
+      "out_seconds": 23.45,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_d2: D2 — Biểu đồ cột 3D T3 50tr vs Trần 38-40tr trực tiếp trên vệ tinh z14 + Bài báo VnExpress T3"
+    },
+    {
+      "id": "cut_zoom_d3",
+      "source": "snapshots/demo_skill_moi/k07_36s8_d3_radar_press.png",
+      "in_seconds": 23.45,
+      "out_seconds": 38.65,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_d3: D3 — Zone fill sạch 3 hướng bác bỏ + RadarRangeFan + Tia 40 km Bình Sơn + Bài báo Long Thành"
+    },
+    {
+      "id": "cut_zoom_d4",
+      "source": "snapshots/demo_skill_moi/k09_55s2_d4_time_pillars.png",
+      "in_seconds": 38.65,
+      "out_seconds": 57.4,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "transition_duration": 0.2,
+      "backgroundColor": "#100F0F",
+      "reason": "demo_d4: D4 — Đường sắt 120 km/h sạch + Phép đặt 1:1 791 ha + Bài báo lệnh khẩn cấp + Cặp cột thời gian trên bản đồ"
+    }
+  ],
+  "audio": {
+    "narration": {
+      "segments": [
+        {
+          "asset_id": "demo-skill-moi-zoom-narration",
+          "start_seconds": 0.0,
+          "end_seconds": 57.4
+        }
+      ]
+    },
+    "sfx": [
+      {
+        "asset_id": "demo-skill-moi-zoom-sfx",
+        "start_seconds": 0.0,
+        "volume": 1.0
+      }
+    ]
+  },
+  "subtitles": {
+    "enabled": false,
+    "source": "assets/audio/demo_openmotion.srt"
+  },
+  "slideshow_risk_score": {
+    "average": 0.0,
+    "verdict": "strong"
+  },
+  "metadata": {
+    "target_duration_seconds": 57.4,
+    "proposal_render_runtime": "remotion",
+    "style_playbook": "clean-professional",
+    "demo_showcase": "skill_moi_orbital_z4_to_z14_zoom_57s"
+  }
+}

@@ -1,28 +1,12 @@
 import React from "react";
 import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { CAPTION_CUES, HighlightTone } from "../data/captionCues";
+import { CAPTION_CUES } from "../data/captionCues";
 import { FONTS, PALETTE } from "../theme";
 
-function toneColor(tone: HighlightTone, isSpoken: boolean): string {
-  if (!isSpoken) return "rgba(203, 213, 225, 0.58)";
-  if (tone === "teal") return PALETTE.tealDeep;
-  if (tone === "gold") return "#FACC15";
-  if (tone === "coral") return "#FB7185";
-  return "#FFFFFF";
-}
-
-function toneUnderline(tone: HighlightTone, isSpoken: boolean): string {
-  if (!tone || !isSpoken) return "none";
-  if (tone === "teal") return `inset 0 -2px 0 ${PALETTE.tealDeep}`;
-  if (tone === "gold") return "inset 0 -2px 0 #FACC15";
-  return "inset 0 -2px 0 #FB7185";
-}
-
 /**
- * Stationary broadcast subtitle bar:
+ * Stationary broadcast subtitle bar (Monochrome Editorial Ivory):
  * - Zero translateY / scale bounce on cue transitions.
- * - Zero padding / fontWeight / border width changes when words become spoken/active,
- *   guaranteeing 0.00px horizontal layout shift ("không thụt ra thụt vào") while reading.
+ * - Zero keyword color tints, zero underlines, and zero layout shift while reading.
  */
 export const KeywordCaptionBar: React.FC = () => {
   const frame = useCurrentFrame();
@@ -70,10 +54,10 @@ export const KeywordCaptionBar: React.FC = () => {
         style={{
           maxWidth: 1240,
           padding: "8px 22px",
-          borderRadius: 12,
-          background: "rgba(4, 11, 22, 0.92)",
-          border: "1.5px solid rgba(56, 189, 248, 0.28)",
-          boxShadow: "0 10px 26px rgba(0, 0, 0, 0.68)",
+          borderRadius: 10,
+          background: "rgba(18, 17, 16, 0.93)",
+          border: `1px solid ${PALETTE.borderSubtle}`,
+          boxShadow: "0 12px 30px rgba(0, 0, 0, 0.58), inset 0 1px 0 rgba(255, 252, 240, 0.08)",
           display: "flex",
           flexWrap: "nowrap",
           alignItems: "baseline",
@@ -90,8 +74,8 @@ export const KeywordCaptionBar: React.FC = () => {
                 fontFamily: FONTS.sans,
                 fontSize: 20.5,
                 fontWeight: 700,
-                color: toneColor(tok.highlight, isSpoken),
-                boxShadow: toneUnderline(tok.highlight, isSpoken),
+                color: isSpoken ? "#FFFCF0" : "rgba(206, 205, 195, 0.52)",
+                boxShadow: "none",
                 padding: "1px 0px",
                 lineHeight: 1.28,
               }}

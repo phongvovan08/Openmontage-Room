@@ -1,0 +1,2832 @@
+{
+  "language": "vi",
+  "voice_name": "Haitrieu",
+  "duration_seconds": 57.4,
+  "text": "Dù mặt đất có thêm một nhà ga khang trang, bầu trời phía trên Tân Sơn Nhất vẫn đang bị khóa chặt bởi một con số ít ai để ý: khoảng cách giữa hai đường băng chỉ đúng ba trăm sáu mươi lăm mét. Nhà ga hành khách và bãi đỗ chỉ phục vụ trên mặt đất, giúp giảm ùn ứ soi chiếu, nâng tổng công suất thiết kế của sân bay lên năm mươi triệu hành khách mỗi năm. Còn năng lực bầu trời lại do đường cất hạ cánh quyết định. Nhưng bật lớp địa chất lên bản đồ, toàn bộ hướng Nam lập tức bị gạch đỏ. Chỉ khi tia ra đa vươn ra mốc khoảng bốn mươi ki lô mét về phía Đông, dừng tại cao nguyên thoai thoải xã Bình Sơn, huyện Long Thành, tỉnh Đồng Nai, cả ba ổ khóa kỹ thuật mới đồng loạt mở ra. Nhưng mảnh ghép quyết định biến bốn mươi ki lô mét thành cự ly quen thuộc nằm trên một đường ray chuyên biệt: tuyến đường sắt Thủ Thiêm Long Thành. Với tốc độ thiết kế đạt một trăm hai mươi ki lô mét trên giờ và không gặp giao cắt đèn đỏ, thời gian di chuyển từ cửa ngõ phía Đông thành phố Hồ Chí Minh ra tới sảnh bay chỉ còn khoảng hai mươi đến hai mươi lăm",
+  "word_timestamps": [
+    {
+      "word": "Dù",
+      "start": 1.772,
+      "end": 1.985,
+      "section_id": "s01"
+    },
+    {
+      "word": "mặt",
+      "start": 1.985,
+      "end": 2.199,
+      "section_id": "s01"
+    },
+    {
+      "word": "đất",
+      "start": 2.199,
+      "end": 2.412,
+      "section_id": "s01"
+    },
+    {
+      "word": "có",
+      "start": 2.412,
+      "end": 2.625,
+      "section_id": "s01"
+    },
+    {
+      "word": "thêm",
+      "start": 2.625,
+      "end": 2.839,
+      "section_id": "s01"
+    },
+    {
+      "word": "một",
+      "start": 2.839,
+      "end": 3.052,
+      "section_id": "s01"
+    },
+    {
+      "word": "nhà",
+      "start": 3.052,
+      "end": 3.265,
+      "section_id": "s01"
+    },
+    {
+      "word": "ga",
+      "start": 3.265,
+      "end": 3.479,
+      "section_id": "s01"
+    },
+    {
+      "word": "khang",
+      "start": 3.479,
+      "end": 3.692,
+      "section_id": "s01"
+    },
+    {
+      "word": "trang,",
+      "start": 3.692,
+      "end": 3.905,
+      "section_id": "s01"
+    },
+    {
+      "word": "bầu",
+      "start": 3.905,
+      "end": 4.119,
+      "section_id": "s01"
+    },
+    {
+      "word": "trời",
+      "start": 4.119,
+      "end": 4.332,
+      "section_id": "s01"
+    },
+    {
+      "word": "phía",
+      "start": 4.332,
+      "end": 4.545,
+      "section_id": "s01"
+    },
+    {
+      "word": "trên",
+      "start": 4.545,
+      "end": 4.759,
+      "section_id": "s01"
+    },
+    {
+      "word": "Tân",
+      "start": 4.759,
+      "end": 4.972,
+      "section_id": "s01"
+    },
+    {
+      "word": "Sơn",
+      "start": 4.972,
+      "end": 5.185,
+      "section_id": "s01"
+    },
+    {
+      "word": "Nhất",
+      "start": 5.185,
+      "end": 5.399,
+      "section_id": "s01"
+    },
+    {
+      "word": "vẫn",
+      "start": 5.399,
+      "end": 5.612,
+      "section_id": "s01"
+    },
+    {
+      "word": "đang",
+      "start": 5.612,
+      "end": 5.825,
+      "section_id": "s01"
+    },
+    {
+      "word": "bị",
+      "start": 5.825,
+      "end": 6.039,
+      "section_id": "s01"
+    },
+    {
+      "word": "khóa",
+      "start": 6.039,
+      "end": 6.252,
+      "section_id": "s01"
+    },
+    {
+      "word": "chặt",
+      "start": 6.252,
+      "end": 6.465,
+      "section_id": "s01"
+    },
+    {
+      "word": "bởi",
+      "start": 6.465,
+      "end": 6.679,
+      "section_id": "s01"
+    },
+    {
+      "word": "một",
+      "start": 6.679,
+      "end": 6.892,
+      "section_id": "s01"
+    },
+    {
+      "word": "con",
+      "start": 6.892,
+      "end": 7.105,
+      "section_id": "s01"
+    },
+    {
+      "word": "số",
+      "start": 7.105,
+      "end": 7.319,
+      "section_id": "s01"
+    },
+    {
+      "word": "ít",
+      "start": 7.319,
+      "end": 7.532,
+      "section_id": "s01"
+    },
+    {
+      "word": "ai",
+      "start": 7.532,
+      "end": 7.745,
+      "section_id": "s01"
+    },
+    {
+      "word": "để",
+      "start": 7.745,
+      "end": 7.959,
+      "section_id": "s01"
+    },
+    {
+      "word": "ý:",
+      "start": 7.959,
+      "end": 8.172,
+      "section_id": "s01"
+    },
+    {
+      "word": "khoảng",
+      "start": 8.461,
+      "end": 8.664,
+      "section_id": "s01"
+    },
+    {
+      "word": "cách",
+      "start": 8.664,
+      "end": 8.867,
+      "section_id": "s01"
+    },
+    {
+      "word": "giữa",
+      "start": 8.867,
+      "end": 9.069,
+      "section_id": "s01"
+    },
+    {
+      "word": "hai",
+      "start": 9.069,
+      "end": 9.272,
+      "section_id": "s01"
+    },
+    {
+      "word": "đường",
+      "start": 9.272,
+      "end": 9.475,
+      "section_id": "s01"
+    },
+    {
+      "word": "băng",
+      "start": 9.475,
+      "end": 9.678,
+      "section_id": "s01"
+    },
+    {
+      "word": "chỉ",
+      "start": 9.678,
+      "end": 9.881,
+      "section_id": "s01"
+    },
+    {
+      "word": "đúng",
+      "start": 9.881,
+      "end": 10.083,
+      "section_id": "s01"
+    },
+    {
+      "word": "ba",
+      "start": 10.083,
+      "end": 10.286,
+      "section_id": "s01"
+    },
+    {
+      "word": "trăm",
+      "start": 10.286,
+      "end": 10.489,
+      "section_id": "s01"
+    },
+    {
+      "word": "sáu",
+      "start": 10.489,
+      "end": 10.692,
+      "section_id": "s01"
+    },
+    {
+      "word": "mươi",
+      "start": 10.692,
+      "end": 10.894,
+      "section_id": "s01"
+    },
+    {
+      "word": "lăm",
+      "start": 10.894,
+      "end": 11.097,
+      "section_id": "s01"
+    },
+    {
+      "word": "mét.",
+      "start": 11.097,
+      "end": 11.3,
+      "section_id": "s01"
+    },
+    {
+      "word": "Nhà",
+      "start": 11.872,
+      "end": 12.098,
+      "section_id": "s03"
+    },
+    {
+      "word": "ga",
+      "start": 12.098,
+      "end": 12.325,
+      "section_id": "s03"
+    },
+    {
+      "word": "hành",
+      "start": 12.325,
+      "end": 12.551,
+      "section_id": "s03"
+    },
+    {
+      "word": "khách",
+      "start": 12.551,
+      "end": 12.777,
+      "section_id": "s03"
+    },
+    {
+      "word": "và",
+      "start": 12.777,
+      "end": 13.003,
+      "section_id": "s03"
+    },
+    {
+      "word": "bãi",
+      "start": 13.003,
+      "end": 13.23,
+      "section_id": "s03"
+    },
+    {
+      "word": "đỗ",
+      "start": 13.23,
+      "end": 13.456,
+      "section_id": "s03"
+    },
+    {
+      "word": "chỉ",
+      "start": 13.456,
+      "end": 13.682,
+      "section_id": "s03"
+    },
+    {
+      "word": "phục",
+      "start": 13.682,
+      "end": 13.909,
+      "section_id": "s03"
+    },
+    {
+      "word": "vụ",
+      "start": 13.909,
+      "end": 14.135,
+      "section_id": "s03"
+    },
+    {
+      "word": "trên",
+      "start": 14.135,
+      "end": 14.361,
+      "section_id": "s03"
+    },
+    {
+      "word": "mặt",
+      "start": 14.361,
+      "end": 14.587,
+      "section_id": "s03"
+    },
+    {
+      "word": "đất,",
+      "start": 14.587,
+      "end": 14.814,
+      "section_id": "s03"
+    },
+    {
+      "word": "giúp",
+      "start": 14.814,
+      "end": 15.04,
+      "section_id": "s03"
+    },
+    {
+      "word": "giảm",
+      "start": 15.04,
+      "end": 15.266,
+      "section_id": "s03"
+    },
+    {
+      "word": "ùn",
+      "start": 15.266,
+      "end": 15.492,
+      "section_id": "s03"
+    },
+    {
+      "word": "ứ",
+      "start": 15.492,
+      "end": 15.719,
+      "section_id": "s03"
+    },
+    {
+      "word": "soi",
+      "start": 15.719,
+      "end": 15.945,
+      "section_id": "s03"
+    },
+    {
+      "word": "chiếu,",
+      "start": 15.945,
+      "end": 16.171,
+      "section_id": "s03"
+    },
+    {
+      "word": "nâng",
+      "start": 16.171,
+      "end": 16.398,
+      "section_id": "s03"
+    },
+    {
+      "word": "tổng",
+      "start": 16.398,
+      "end": 16.624,
+      "section_id": "s03"
+    },
+    {
+      "word": "công",
+      "start": 16.624,
+      "end": 16.85,
+      "section_id": "s03"
+    },
+    {
+      "word": "suất",
+      "start": 16.85,
+      "end": 17.076,
+      "section_id": "s03"
+    },
+    {
+      "word": "thiết",
+      "start": 17.076,
+      "end": 17.303,
+      "section_id": "s03"
+    },
+    {
+      "word": "kế",
+      "start": 17.303,
+      "end": 17.529,
+      "section_id": "s03"
+    },
+    {
+      "word": "của",
+      "start": 17.529,
+      "end": 17.755,
+      "section_id": "s03"
+    },
+    {
+      "word": "sân",
+      "start": 17.755,
+      "end": 17.981,
+      "section_id": "s03"
+    },
+    {
+      "word": "bay",
+      "start": 17.981,
+      "end": 18.208,
+      "section_id": "s03"
+    },
+    {
+      "word": "lên",
+      "start": 18.208,
+      "end": 18.434,
+      "section_id": "s03"
+    },
+    {
+      "word": "năm",
+      "start": 18.434,
+      "end": 18.66,
+      "section_id": "s03"
+    },
+    {
+      "word": "mươi",
+      "start": 18.66,
+      "end": 18.887,
+      "section_id": "s03"
+    },
+    {
+      "word": "triệu",
+      "start": 18.887,
+      "end": 19.113,
+      "section_id": "s03"
+    },
+    {
+      "word": "hành",
+      "start": 19.113,
+      "end": 19.339,
+      "section_id": "s03"
+    },
+    {
+      "word": "khách",
+      "start": 19.339,
+      "end": 19.565,
+      "section_id": "s03"
+    },
+    {
+      "word": "mỗi",
+      "start": 19.565,
+      "end": 19.792,
+      "section_id": "s03"
+    },
+    {
+      "word": "năm.",
+      "start": 19.792,
+      "end": 20.018,
+      "section_id": "s03"
+    },
+    {
+      "word": "Còn",
+      "start": 20.52,
+      "end": 20.733,
+      "section_id": "s03"
+    },
+    {
+      "word": "năng",
+      "start": 20.733,
+      "end": 20.946,
+      "section_id": "s03"
+    },
+    {
+      "word": "lực",
+      "start": 20.946,
+      "end": 21.159,
+      "section_id": "s03"
+    },
+    {
+      "word": "bầu",
+      "start": 21.159,
+      "end": 21.373,
+      "section_id": "s03"
+    },
+    {
+      "word": "trời",
+      "start": 21.373,
+      "end": 21.586,
+      "section_id": "s03"
+    },
+    {
+      "word": "lại",
+      "start": 21.586,
+      "end": 21.799,
+      "section_id": "s03"
+    },
+    {
+      "word": "do",
+      "start": 21.799,
+      "end": 22.012,
+      "section_id": "s03"
+    },
+    {
+      "word": "đường",
+      "start": 22.012,
+      "end": 22.225,
+      "section_id": "s03"
+    },
+    {
+      "word": "cất",
+      "start": 22.225,
+      "end": 22.438,
+      "section_id": "s03"
+    },
+    {
+      "word": "hạ",
+      "start": 22.438,
+      "end": 22.652,
+      "section_id": "s03"
+    },
+    {
+      "word": "cánh",
+      "start": 22.652,
+      "end": 22.865,
+      "section_id": "s03"
+    },
+    {
+      "word": "quyết",
+      "start": 22.865,
+      "end": 23.078,
+      "section_id": "s03"
+    },
+    {
+      "word": "định.",
+      "start": 23.078,
+      "end": 23.291,
+      "section_id": "s03"
+    },
+    {
+      "word": "Nhưng",
+      "start": 23.888,
+      "end": 24.128,
+      "section_id": "s09"
+    },
+    {
+      "word": "bật",
+      "start": 24.128,
+      "end": 24.367,
+      "section_id": "s09"
+    },
+    {
+      "word": "lớp",
+      "start": 24.367,
+      "end": 24.607,
+      "section_id": "s09"
+    },
+    {
+      "word": "địa",
+      "start": 24.607,
+      "end": 24.847,
+      "section_id": "s09"
+    },
+    {
+      "word": "chất",
+      "start": 24.847,
+      "end": 25.086,
+      "section_id": "s09"
+    },
+    {
+      "word": "lên",
+      "start": 25.086,
+      "end": 25.326,
+      "section_id": "s09"
+    },
+    {
+      "word": "bản",
+      "start": 25.326,
+      "end": 25.566,
+      "section_id": "s09"
+    },
+    {
+      "word": "đồ,",
+      "start": 25.566,
+      "end": 25.805,
+      "section_id": "s09"
+    },
+    {
+      "word": "toàn",
+      "start": 25.805,
+      "end": 26.045,
+      "section_id": "s09"
+    },
+    {
+      "word": "bộ",
+      "start": 26.045,
+      "end": 26.284,
+      "section_id": "s09"
+    },
+    {
+      "word": "hướng",
+      "start": 26.284,
+      "end": 26.524,
+      "section_id": "s09"
+    },
+    {
+      "word": "Nam",
+      "start": 26.524,
+      "end": 26.764,
+      "section_id": "s09"
+    },
+    {
+      "word": "lập",
+      "start": 26.764,
+      "end": 27.003,
+      "section_id": "s09"
+    },
+    {
+      "word": "tức",
+      "start": 27.003,
+      "end": 27.243,
+      "section_id": "s09"
+    },
+    {
+      "word": "bị",
+      "start": 27.243,
+      "end": 27.483,
+      "section_id": "s09"
+    },
+    {
+      "word": "gạch",
+      "start": 27.483,
+      "end": 27.722,
+      "section_id": "s09"
+    },
+    {
+      "word": "đỏ.",
+      "start": 27.722,
+      "end": 27.962,
+      "section_id": "s09"
+    },
+    {
+      "word": "Chỉ",
+      "start": 28.1,
+      "end": 28.286,
+      "section_id": "s11"
+    },
+    {
+      "word": "khi",
+      "start": 28.286,
+      "end": 28.516,
+      "section_id": "s11"
+    },
+    {
+      "word": "tia",
+      "start": 28.516,
+      "end": 28.745,
+      "section_id": "s11"
+    },
+    {
+      "word": "ra",
+      "start": 28.745,
+      "end": 28.975,
+      "section_id": "s11"
+    },
+    {
+      "word": "đa",
+      "start": 28.975,
+      "end": 29.204,
+      "section_id": "s11"
+    },
+    {
+      "word": "vươn",
+      "start": 29.204,
+      "end": 29.433,
+      "section_id": "s11"
+    },
+    {
+      "word": "ra",
+      "start": 29.433,
+      "end": 29.663,
+      "section_id": "s11"
+    },
+    {
+      "word": "mốc",
+      "start": 29.663,
+      "end": 29.892,
+      "section_id": "s11"
+    },
+    {
+      "word": "khoảng",
+      "start": 29.892,
+      "end": 30.121,
+      "section_id": "s11"
+    },
+    {
+      "word": "bốn",
+      "start": 30.121,
+      "end": 30.351,
+      "section_id": "s11"
+    },
+    {
+      "word": "mươi",
+      "start": 30.351,
+      "end": 30.58,
+      "section_id": "s11"
+    },
+    {
+      "word": "ki",
+      "start": 30.58,
+      "end": 30.81,
+      "section_id": "s11"
+    },
+    {
+      "word": "lô",
+      "start": 30.81,
+      "end": 31.039,
+      "section_id": "s11"
+    },
+    {
+      "word": "mét",
+      "start": 31.039,
+      "end": 31.268,
+      "section_id": "s11"
+    },
+    {
+      "word": "về",
+      "start": 31.268,
+      "end": 31.498,
+      "section_id": "s11"
+    },
+    {
+      "word": "phía",
+      "start": 31.498,
+      "end": 31.727,
+      "section_id": "s11"
+    },
+    {
+      "word": "Đông,",
+      "start": 31.727,
+      "end": 31.957,
+      "section_id": "s11"
+    },
+    {
+      "word": "dừng",
+      "start": 31.957,
+      "end": 32.186,
+      "section_id": "s11"
+    },
+    {
+      "word": "tại",
+      "start": 32.186,
+      "end": 32.415,
+      "section_id": "s11"
+    },
+    {
+      "word": "cao",
+      "start": 32.415,
+      "end": 32.645,
+      "section_id": "s11"
+    },
+    {
+      "word": "nguyên",
+      "start": 32.645,
+      "end": 32.874,
+      "section_id": "s11"
+    },
+    {
+      "word": "thoai",
+      "start": 32.874,
+      "end": 33.103,
+      "section_id": "s11"
+    },
+    {
+      "word": "thoải",
+      "start": 33.103,
+      "end": 33.333,
+      "section_id": "s11"
+    },
+    {
+      "word": "xã",
+      "start": 33.333,
+      "end": 33.562,
+      "section_id": "s11"
+    },
+    {
+      "word": "Bình",
+      "start": 33.562,
+      "end": 33.792,
+      "section_id": "s11"
+    },
+    {
+      "word": "Sơn,",
+      "start": 33.792,
+      "end": 34.021,
+      "section_id": "s11"
+    },
+    {
+      "word": "huyện",
+      "start": 34.16,
+      "end": 34.413,
+      "section_id": "s11"
+    },
+    {
+      "word": "Long",
+      "start": 34.413,
+      "end": 34.666,
+      "section_id": "s11"
+    },
+    {
+      "word": "Thành,",
+      "start": 34.666,
+      "end": 34.918,
+      "section_id": "s11"
+    },
+    {
+      "word": "tỉnh",
+      "start": 34.918,
+      "end": 35.171,
+      "section_id": "s11"
+    },
+    {
+      "word": "Đồng",
+      "start": 35.171,
+      "end": 35.424,
+      "section_id": "s11"
+    },
+    {
+      "word": "Nai,",
+      "start": 35.424,
+      "end": 35.677,
+      "section_id": "s11"
+    },
+    {
+      "word": "cả",
+      "start": 35.677,
+      "end": 35.93,
+      "section_id": "s11"
+    },
+    {
+      "word": "ba",
+      "start": 35.93,
+      "end": 36.183,
+      "section_id": "s11"
+    },
+    {
+      "word": "ổ",
+      "start": 36.183,
+      "end": 36.435,
+      "section_id": "s11"
+    },
+    {
+      "word": "khóa",
+      "start": 36.435,
+      "end": 36.688,
+      "section_id": "s11"
+    },
+    {
+      "word": "kỹ",
+      "start": 36.688,
+      "end": 36.941,
+      "section_id": "s11"
+    },
+    {
+      "word": "thuật",
+      "start": 36.941,
+      "end": 37.194,
+      "section_id": "s11"
+    },
+    {
+      "word": "mới",
+      "start": 37.194,
+      "end": 37.447,
+      "section_id": "s11"
+    },
+    {
+      "word": "đồng",
+      "start": 37.447,
+      "end": 37.7,
+      "section_id": "s11"
+    },
+    {
+      "word": "loạt",
+      "start": 37.7,
+      "end": 37.952,
+      "section_id": "s11"
+    },
+    {
+      "word": "mở",
+      "start": 37.952,
+      "end": 38.205,
+      "section_id": "s11"
+    },
+    {
+      "word": "ra.",
+      "start": 38.205,
+      "end": 38.458,
+      "section_id": "s11"
+    },
+    {
+      "word": "Nhưng",
+      "start": 38.65,
+      "end": 38.842,
+      "section_id": "s18"
+    },
+    {
+      "word": "mảnh",
+      "start": 38.842,
+      "end": 39.057,
+      "section_id": "s18"
+    },
+    {
+      "word": "ghép",
+      "start": 39.057,
+      "end": 39.272,
+      "section_id": "s18"
+    },
+    {
+      "word": "quyết",
+      "start": 39.272,
+      "end": 39.487,
+      "section_id": "s18"
+    },
+    {
+      "word": "định",
+      "start": 39.487,
+      "end": 39.702,
+      "section_id": "s18"
+    },
+    {
+      "word": "biến",
+      "start": 39.702,
+      "end": 39.917,
+      "section_id": "s18"
+    },
+    {
+      "word": "bốn",
+      "start": 39.917,
+      "end": 40.132,
+      "section_id": "s18"
+    },
+    {
+      "word": "mươi",
+      "start": 40.132,
+      "end": 40.347,
+      "section_id": "s18"
+    },
+    {
+      "word": "ki",
+      "start": 40.347,
+      "end": 40.562,
+      "section_id": "s18"
+    },
+    {
+      "word": "lô",
+      "start": 40.562,
+      "end": 40.777,
+      "section_id": "s18"
+    },
+    {
+      "word": "mét",
+      "start": 40.777,
+      "end": 40.992,
+      "section_id": "s18"
+    },
+    {
+      "word": "thành",
+      "start": 40.992,
+      "end": 41.208,
+      "section_id": "s18"
+    },
+    {
+      "word": "cự",
+      "start": 41.208,
+      "end": 41.423,
+      "section_id": "s18"
+    },
+    {
+      "word": "ly",
+      "start": 41.423,
+      "end": 41.638,
+      "section_id": "s18"
+    },
+    {
+      "word": "quen",
+      "start": 41.638,
+      "end": 41.853,
+      "section_id": "s18"
+    },
+    {
+      "word": "thuộc",
+      "start": 41.853,
+      "end": 42.068,
+      "section_id": "s18"
+    },
+    {
+      "word": "nằm",
+      "start": 42.068,
+      "end": 42.283,
+      "section_id": "s18"
+    },
+    {
+      "word": "trên",
+      "start": 42.283,
+      "end": 42.498,
+      "section_id": "s18"
+    },
+    {
+      "word": "một",
+      "start": 42.498,
+      "end": 42.713,
+      "section_id": "s18"
+    },
+    {
+      "word": "đường",
+      "start": 42.713,
+      "end": 42.928,
+      "section_id": "s18"
+    },
+    {
+      "word": "ray",
+      "start": 42.928,
+      "end": 43.143,
+      "section_id": "s18"
+    },
+    {
+      "word": "chuyên",
+      "start": 43.143,
+      "end": 43.358,
+      "section_id": "s18"
+    },
+    {
+      "word": "biệt:",
+      "start": 43.358,
+      "end": 43.573,
+      "section_id": "s18"
+    },
+    {
+      "word": "tuyến",
+      "start": 44.037,
+      "end": 44.282,
+      "section_id": "s18"
+    },
+    {
+      "word": "đường",
+      "start": 44.282,
+      "end": 44.528,
+      "section_id": "s18"
+    },
+    {
+      "word": "sắt",
+      "start": 44.528,
+      "end": 44.773,
+      "section_id": "s18"
+    },
+    {
+      "word": "Thủ",
+      "start": 44.773,
+      "end": 45.019,
+      "section_id": "s18"
+    },
+    {
+      "word": "Thiêm",
+      "start": 45.019,
+      "end": 45.264,
+      "section_id": "s18"
+    },
+    {
+      "word": "Long",
+      "start": 45.264,
+      "end": 45.51,
+      "section_id": "s18"
+    },
+    {
+      "word": "Thành.",
+      "start": 45.51,
+      "end": 45.755,
+      "section_id": "s18"
+    },
+    {
+      "word": "Với",
+      "start": 46.317,
+      "end": 46.537,
+      "section_id": "s18"
+    },
+    {
+      "word": "tốc",
+      "start": 46.537,
+      "end": 46.757,
+      "section_id": "s18"
+    },
+    {
+      "word": "độ",
+      "start": 46.757,
+      "end": 46.977,
+      "section_id": "s18"
+    },
+    {
+      "word": "thiết",
+      "start": 46.977,
+      "end": 47.197,
+      "section_id": "s18"
+    },
+    {
+      "word": "kế",
+      "start": 47.197,
+      "end": 47.417,
+      "section_id": "s18"
+    },
+    {
+      "word": "đạt",
+      "start": 47.417,
+      "end": 47.637,
+      "section_id": "s18"
+    },
+    {
+      "word": "một",
+      "start": 47.637,
+      "end": 47.857,
+      "section_id": "s18"
+    },
+    {
+      "word": "trăm",
+      "start": 47.857,
+      "end": 48.077,
+      "section_id": "s18"
+    },
+    {
+      "word": "hai",
+      "start": 48.077,
+      "end": 48.297,
+      "section_id": "s18"
+    },
+    {
+      "word": "mươi",
+      "start": 48.297,
+      "end": 48.517,
+      "section_id": "s18"
+    },
+    {
+      "word": "ki",
+      "start": 48.517,
+      "end": 48.738,
+      "section_id": "s18"
+    },
+    {
+      "word": "lô",
+      "start": 48.738,
+      "end": 48.958,
+      "section_id": "s18"
+    },
+    {
+      "word": "mét",
+      "start": 48.958,
+      "end": 49.178,
+      "section_id": "s18"
+    },
+    {
+      "word": "trên",
+      "start": 49.178,
+      "end": 49.398,
+      "section_id": "s18"
+    },
+    {
+      "word": "giờ",
+      "start": 49.398,
+      "end": 49.618,
+      "section_id": "s18"
+    },
+    {
+      "word": "và",
+      "start": 49.618,
+      "end": 49.838,
+      "section_id": "s18"
+    },
+    {
+      "word": "không",
+      "start": 49.838,
+      "end": 50.058,
+      "section_id": "s18"
+    },
+    {
+      "word": "gặp",
+      "start": 50.058,
+      "end": 50.278,
+      "section_id": "s18"
+    },
+    {
+      "word": "giao",
+      "start": 50.278,
+      "end": 50.498,
+      "section_id": "s18"
+    },
+    {
+      "word": "cắt",
+      "start": 50.498,
+      "end": 50.718,
+      "section_id": "s18"
+    },
+    {
+      "word": "đèn",
+      "start": 50.718,
+      "end": 50.938,
+      "section_id": "s18"
+    },
+    {
+      "word": "đỏ,",
+      "start": 50.938,
+      "end": 51.158,
+      "section_id": "s18"
+    },
+    {
+      "word": "thời",
+      "start": 51.448,
+      "end": 51.651,
+      "section_id": "s18"
+    },
+    {
+      "word": "gian",
+      "start": 51.651,
+      "end": 51.853,
+      "section_id": "s18"
+    },
+    {
+      "word": "di",
+      "start": 51.853,
+      "end": 52.056,
+      "section_id": "s18"
+    },
+    {
+      "word": "chuyển",
+      "start": 52.056,
+      "end": 52.259,
+      "section_id": "s18"
+    },
+    {
+      "word": "từ",
+      "start": 52.259,
+      "end": 52.461,
+      "section_id": "s18"
+    },
+    {
+      "word": "cửa",
+      "start": 52.461,
+      "end": 52.664,
+      "section_id": "s18"
+    },
+    {
+      "word": "ngõ",
+      "start": 52.664,
+      "end": 52.867,
+      "section_id": "s18"
+    },
+    {
+      "word": "phía",
+      "start": 52.867,
+      "end": 53.069,
+      "section_id": "s18"
+    },
+    {
+      "word": "Đông",
+      "start": 53.069,
+      "end": 53.272,
+      "section_id": "s18"
+    },
+    {
+      "word": "thành",
+      "start": 53.272,
+      "end": 53.474,
+      "section_id": "s18"
+    },
+    {
+      "word": "phố",
+      "start": 53.474,
+      "end": 53.677,
+      "section_id": "s18"
+    },
+    {
+      "word": "Hồ",
+      "start": 53.677,
+      "end": 53.88,
+      "section_id": "s18"
+    },
+    {
+      "word": "Chí",
+      "start": 53.88,
+      "end": 54.082,
+      "section_id": "s18"
+    },
+    {
+      "word": "Minh",
+      "start": 54.082,
+      "end": 54.285,
+      "section_id": "s18"
+    },
+    {
+      "word": "ra",
+      "start": 54.285,
+      "end": 54.488,
+      "section_id": "s18"
+    },
+    {
+      "word": "tới",
+      "start": 54.488,
+      "end": 54.69,
+      "section_id": "s18"
+    },
+    {
+      "word": "sảnh",
+      "start": 54.69,
+      "end": 54.893,
+      "section_id": "s18"
+    },
+    {
+      "word": "bay",
+      "start": 54.893,
+      "end": 55.096,
+      "section_id": "s18"
+    },
+    {
+      "word": "chỉ",
+      "start": 55.096,
+      "end": 55.298,
+      "section_id": "s18"
+    },
+    {
+      "word": "còn",
+      "start": 55.298,
+      "end": 55.501,
+      "section_id": "s18"
+    },
+    {
+      "word": "khoảng",
+      "start": 55.501,
+      "end": 55.703,
+      "section_id": "s18"
+    },
+    {
+      "word": "hai",
+      "start": 55.703,
+      "end": 55.906,
+      "section_id": "s18"
+    },
+    {
+      "word": "mươi",
+      "start": 55.906,
+      "end": 56.109,
+      "section_id": "s18"
+    },
+    {
+      "word": "đến",
+      "start": 56.109,
+      "end": 56.311,
+      "section_id": "s18"
+    },
+    {
+      "word": "hai",
+      "start": 56.311,
+      "end": 56.514,
+      "section_id": "s18"
+    },
+    {
+      "word": "mươi",
+      "start": 56.514,
+      "end": 56.717,
+      "section_id": "s18"
+    },
+    {
+      "word": "lăm",
+      "start": 56.717,
+      "end": 56.919,
+      "section_id": "s18"
+    }
+  ],
+  "words": [
+    {
+      "word": "Dù",
+      "start": 1.772,
+      "end": 1.985,
+      "section_id": "s01"
+    },
+    {
+      "word": "mặt",
+      "start": 1.985,
+      "end": 2.199,
+      "section_id": "s01"
+    },
+    {
+      "word": "đất",
+      "start": 2.199,
+      "end": 2.412,
+      "section_id": "s01"
+    },
+    {
+      "word": "có",
+      "start": 2.412,
+      "end": 2.625,
+      "section_id": "s01"
+    },
+    {
+      "word": "thêm",
+      "start": 2.625,
+      "end": 2.839,
+      "section_id": "s01"
+    },
+    {
+      "word": "một",
+      "start": 2.839,
+      "end": 3.052,
+      "section_id": "s01"
+    },
+    {
+      "word": "nhà",
+      "start": 3.052,
+      "end": 3.265,
+      "section_id": "s01"
+    },
+    {
+      "word": "ga",
+      "start": 3.265,
+      "end": 3.479,
+      "section_id": "s01"
+    },
+    {
+      "word": "khang",
+      "start": 3.479,
+      "end": 3.692,
+      "section_id": "s01"
+    },
+    {
+      "word": "trang,",
+      "start": 3.692,
+      "end": 3.905,
+      "section_id": "s01"
+    },
+    {
+      "word": "bầu",
+      "start": 3.905,
+      "end": 4.119,
+      "section_id": "s01"
+    },
+    {
+      "word": "trời",
+      "start": 4.119,
+      "end": 4.332,
+      "section_id": "s01"
+    },
+    {
+      "word": "phía",
+      "start": 4.332,
+      "end": 4.545,
+      "section_id": "s01"
+    },
+    {
+      "word": "trên",
+      "start": 4.545,
+      "end": 4.759,
+      "section_id": "s01"
+    },
+    {
+      "word": "Tân",
+      "start": 4.759,
+      "end": 4.972,
+      "section_id": "s01"
+    },
+    {
+      "word": "Sơn",
+      "start": 4.972,
+      "end": 5.185,
+      "section_id": "s01"
+    },
+    {
+      "word": "Nhất",
+      "start": 5.185,
+      "end": 5.399,
+      "section_id": "s01"
+    },
+    {
+      "word": "vẫn",
+      "start": 5.399,
+      "end": 5.612,
+      "section_id": "s01"
+    },
+    {
+      "word": "đang",
+      "start": 5.612,
+      "end": 5.825,
+      "section_id": "s01"
+    },
+    {
+      "word": "bị",
+      "start": 5.825,
+      "end": 6.039,
+      "section_id": "s01"
+    },
+    {
+      "word": "khóa",
+      "start": 6.039,
+      "end": 6.252,
+      "section_id": "s01"
+    },
+    {
+      "word": "chặt",
+      "start": 6.252,
+      "end": 6.465,
+      "section_id": "s01"
+    },
+    {
+      "word": "bởi",
+      "start": 6.465,
+      "end": 6.679,
+      "section_id": "s01"
+    },
+    {
+      "word": "một",
+      "start": 6.679,
+      "end": 6.892,
+      "section_id": "s01"
+    },
+    {
+      "word": "con",
+      "start": 6.892,
+      "end": 7.105,
+      "section_id": "s01"
+    },
+    {
+      "word": "số",
+      "start": 7.105,
+      "end": 7.319,
+      "section_id": "s01"
+    },
+    {
+      "word": "ít",
+      "start": 7.319,
+      "end": 7.532,
+      "section_id": "s01"
+    },
+    {
+      "word": "ai",
+      "start": 7.532,
+      "end": 7.745,
+      "section_id": "s01"
+    },
+    {
+      "word": "để",
+      "start": 7.745,
+      "end": 7.959,
+      "section_id": "s01"
+    },
+    {
+      "word": "ý:",
+      "start": 7.959,
+      "end": 8.172,
+      "section_id": "s01"
+    },
+    {
+      "word": "khoảng",
+      "start": 8.461,
+      "end": 8.664,
+      "section_id": "s01"
+    },
+    {
+      "word": "cách",
+      "start": 8.664,
+      "end": 8.867,
+      "section_id": "s01"
+    },
+    {
+      "word": "giữa",
+      "start": 8.867,
+      "end": 9.069,
+      "section_id": "s01"
+    },
+    {
+      "word": "hai",
+      "start": 9.069,
+      "end": 9.272,
+      "section_id": "s01"
+    },
+    {
+      "word": "đường",
+      "start": 9.272,
+      "end": 9.475,
+      "section_id": "s01"
+    },
+    {
+      "word": "băng",
+      "start": 9.475,
+      "end": 9.678,
+      "section_id": "s01"
+    },
+    {
+      "word": "chỉ",
+      "start": 9.678,
+      "end": 9.881,
+      "section_id": "s01"
+    },
+    {
+      "word": "đúng",
+      "start": 9.881,
+      "end": 10.083,
+      "section_id": "s01"
+    },
+    {
+      "word": "ba",
+      "start": 10.083,
+      "end": 10.286,
+      "section_id": "s01"
+    },
+    {
+      "word": "trăm",
+      "start": 10.286,
+      "end": 10.489,
+      "section_id": "s01"
+    },
+    {
+      "word": "sáu",
+      "start": 10.489,
+      "end": 10.692,
+      "section_id": "s01"
+    },
+    {
+      "word": "mươi",
+      "start": 10.692,
+      "end": 10.894,
+      "section_id": "s01"
+    },
+    {
+      "word": "lăm",
+      "start": 10.894,
+      "end": 11.097,
+      "section_id": "s01"
+    },
+    {
+      "word": "mét.",
+      "start": 11.097,
+      "end": 11.3,
+      "section_id": "s01"
+    },
+    {
+      "word": "Nhà",
+      "start": 11.872,
+      "end": 12.098,
+      "section_id": "s03"
+    },
+    {
+      "word": "ga",
+      "start": 12.098,
+      "end": 12.325,
+      "section_id": "s03"
+    },
+    {
+      "word": "hành",
+      "start": 12.325,
+      "end": 12.551,
+      "section_id": "s03"
+    },
+    {
+      "word": "khách",
+      "start": 12.551,
+      "end": 12.777,
+      "section_id": "s03"
+    },
+    {
+      "word": "và",
+      "start": 12.777,
+      "end": 13.003,
+      "section_id": "s03"
+    },
+    {
+      "word": "bãi",
+      "start": 13.003,
+      "end": 13.23,
+      "section_id": "s03"
+    },
+    {
+      "word": "đỗ",
+      "start": 13.23,
+      "end": 13.456,
+      "section_id": "s03"
+    },
+    {
+      "word": "chỉ",
+      "start": 13.456,
+      "end": 13.682,
+      "section_id": "s03"
+    },
+    {
+      "word": "phục",
+      "start": 13.682,
+      "end": 13.909,
+      "section_id": "s03"
+    },
+    {
+      "word": "vụ",
+      "start": 13.909,
+      "end": 14.135,
+      "section_id": "s03"
+    },
+    {
+      "word": "trên",
+      "start": 14.135,
+      "end": 14.361,
+      "section_id": "s03"
+    },
+    {
+      "word": "mặt",
+      "start": 14.361,
+      "end": 14.587,
+      "section_id": "s03"
+    },
+    {
+      "word": "đất,",
+      "start": 14.587,
+      "end": 14.814,
+      "section_id": "s03"
+    },
+    {
+      "word": "giúp",
+      "start": 14.814,
+      "end": 15.04,
+      "section_id": "s03"
+    },
+    {
+      "word": "giảm",
+      "start": 15.04,
+      "end": 15.266,
+      "section_id": "s03"
+    },
+    {
+      "word": "ùn",
+      "start": 15.266,
+      "end": 15.492,
+      "section_id": "s03"
+    },
+    {
+      "word": "ứ",
+      "start": 15.492,
+      "end": 15.719,
+      "section_id": "s03"
+    },
+    {
+      "word": "soi",
+      "start": 15.719,
+      "end": 15.945,
+      "section_id": "s03"
+    },
+    {
+      "word": "chiếu,",
+      "start": 15.945,
+      "end": 16.171,
+      "section_id": "s03"
+    },
+    {
+      "word": "nâng",
+      "start": 16.171,
+      "end": 16.398,
+      "section_id": "s03"
+    },
+    {
+      "word": "tổng",
+      "start": 16.398,
+      "end": 16.624,
+      "section_id": "s03"
+    },
+    {
+      "word": "công",
+      "start": 16.624,
+      "end": 16.85,
+      "section_id": "s03"
+    },
+    {
+      "word": "suất",
+      "start": 16.85,
+      "end": 17.076,
+      "section_id": "s03"
+    },
+    {
+      "word": "thiết",
+      "start": 17.076,
+      "end": 17.303,
+      "section_id": "s03"
+    },
+    {
+      "word": "kế",
+      "start": 17.303,
+      "end": 17.529,
+      "section_id": "s03"
+    },
+    {
+      "word": "của",
+      "start": 17.529,
+      "end": 17.755,
+      "section_id": "s03"
+    },
+    {
+      "word": "sân",
+      "start": 17.755,
+      "end": 17.981,
+      "section_id": "s03"
+    },
+    {
+      "word": "bay",
+      "start": 17.981,
+      "end": 18.208,
+      "section_id": "s03"
+    },
+    {
+      "word": "lên",
+      "start": 18.208,
+      "end": 18.434,
+      "section_id": "s03"
+    },
+    {
+      "word": "năm",
+      "start": 18.434,
+      "end": 18.66,
+      "section_id": "s03"
+    },
+    {
+      "word": "mươi",
+      "start": 18.66,
+      "end": 18.887,
+      "section_id": "s03"
+    },
+    {
+      "word": "triệu",
+      "start": 18.887,
+      "end": 19.113,
+      "section_id": "s03"
+    },
+    {
+      "word": "hành",
+      "start": 19.113,
+      "end": 19.339,
+      "section_id": "s03"
+    },
+    {
+      "word": "khách",
+      "start": 19.339,
+      "end": 19.565,
+      "section_id": "s03"
+    },
+    {
+      "word": "mỗi",
+      "start": 19.565,
+      "end": 19.792,
+      "section_id": "s03"
+    },
+    {
+      "word": "năm.",
+      "start": 19.792,
+      "end": 20.018,
+      "section_id": "s03"
+    },
+    {
+      "word": "Còn",
+      "start": 20.52,
+      "end": 20.733,
+      "section_id": "s03"
+    },
+    {
+      "word": "năng",
+      "start": 20.733,
+      "end": 20.946,
+      "section_id": "s03"
+    },
+    {
+      "word": "lực",
+      "start": 20.946,
+      "end": 21.159,
+      "section_id": "s03"
+    },
+    {
+      "word": "bầu",
+      "start": 21.159,
+      "end": 21.373,
+      "section_id": "s03"
+    },
+    {
+      "word": "trời",
+      "start": 21.373,
+      "end": 21.586,
+      "section_id": "s03"
+    },
+    {
+      "word": "lại",
+      "start": 21.586,
+      "end": 21.799,
+      "section_id": "s03"
+    },
+    {
+      "word": "do",
+      "start": 21.799,
+      "end": 22.012,
+      "section_id": "s03"
+    },
+    {
+      "word": "đường",
+      "start": 22.012,
+      "end": 22.225,
+      "section_id": "s03"
+    },
+    {
+      "word": "cất",
+      "start": 22.225,
+      "end": 22.438,
+      "section_id": "s03"
+    },
+    {
+      "word": "hạ",
+      "start": 22.438,
+      "end": 22.652,
+      "section_id": "s03"
+    },
+    {
+      "word": "cánh",
+      "start": 22.652,
+      "end": 22.865,
+      "section_id": "s03"
+    },
+    {
+      "word": "quyết",
+      "start": 22.865,
+      "end": 23.078,
+      "section_id": "s03"
+    },
+    {
+      "word": "định.",
+      "start": 23.078,
+      "end": 23.291,
+      "section_id": "s03"
+    },
+    {
+      "word": "Nhưng",
+      "start": 23.888,
+      "end": 24.128,
+      "section_id": "s09"
+    },
+    {
+      "word": "bật",
+      "start": 24.128,
+      "end": 24.367,
+      "section_id": "s09"
+    },
+    {
+      "word": "lớp",
+      "start": 24.367,
+      "end": 24.607,
+      "section_id": "s09"
+    },
+    {
+      "word": "địa",
+      "start": 24.607,
+      "end": 24.847,
+      "section_id": "s09"
+    },
+    {
+      "word": "chất",
+      "start": 24.847,
+      "end": 25.086,
+      "section_id": "s09"
+    },
+    {
+      "word": "lên",
+      "start": 25.086,
+      "end": 25.326,
+      "section_id": "s09"
+    },
+    {
+      "word": "bản",
+      "start": 25.326,
+      "end": 25.566,
+      "section_id": "s09"
+    },
+    {
+      "word": "đồ,",
+      "start": 25.566,
+      "end": 25.805,
+      "section_id": "s09"
+    },
+    {
+      "word": "toàn",
+      "start": 25.805,
+      "end": 26.045,
+      "section_id": "s09"
+    },
+    {
+      "word": "bộ",
+      "start": 26.045,
+      "end": 26.284,
+      "section_id": "s09"
+    },
+    {
+      "word": "hướng",
+      "start": 26.284,
+      "end": 26.524,
+      "section_id": "s09"
+    },
+    {
+      "word": "Nam",
+      "start": 26.524,
+      "end": 26.764,
+      "section_id": "s09"
+    },
+    {
+      "word": "lập",
+      "start": 26.764,
+      "end": 27.003,
+      "section_id": "s09"
+    },
+    {
+      "word": "tức",
+      "start": 27.003,
+      "end": 27.243,
+      "section_id": "s09"
+    },
+    {
+      "word": "bị",
+      "start": 27.243,
+      "end": 27.483,
+      "section_id": "s09"
+    },
+    {
+      "word": "gạch",
+      "start": 27.483,
+      "end": 27.722,
+      "section_id": "s09"
+    },
+    {
+      "word": "đỏ.",
+      "start": 27.722,
+      "end": 27.962,
+      "section_id": "s09"
+    },
+    {
+      "word": "Chỉ",
+      "start": 28.1,
+      "end": 28.286,
+      "section_id": "s11"
+    },
+    {
+      "word": "khi",
+      "start": 28.286,
+      "end": 28.516,
+      "section_id": "s11"
+    },
+    {
+      "word": "tia",
+      "start": 28.516,
+      "end": 28.745,
+      "section_id": "s11"
+    },
+    {
+      "word": "ra",
+      "start": 28.745,
+      "end": 28.975,
+      "section_id": "s11"
+    },
+    {
+      "word": "đa",
+      "start": 28.975,
+      "end": 29.204,
+      "section_id": "s11"
+    },
+    {
+      "word": "vươn",
+      "start": 29.204,
+      "end": 29.433,
+      "section_id": "s11"
+    },
+    {
+      "word": "ra",
+      "start": 29.433,
+      "end": 29.663,
+      "section_id": "s11"
+    },
+    {
+      "word": "mốc",
+      "start": 29.663,
+      "end": 29.892,
+      "section_id": "s11"
+    },
+    {
+      "word": "khoảng",
+      "start": 29.892,
+      "end": 30.121,
+      "section_id": "s11"
+    },
+    {
+      "word": "bốn",
+      "start": 30.121,
+      "end": 30.351,
+      "section_id": "s11"
+    },
+    {
+      "word": "mươi",
+      "start": 30.351,
+      "end": 30.58,
+      "section_id": "s11"
+    },
+    {
+      "word": "ki",
+      "start": 30.58,
+      "end": 30.81,
+      "section_id": "s11"
+    },
+    {
+      "word": "lô",
+      "start": 30.81,
+      "end": 31.039,
+      "section_id": "s11"
+    },
+    {
+      "word": "mét",
+      "start": 31.039,
+      "end": 31.268,
+      "section_id": "s11"
+    },
+    {
+      "word": "về",
+      "start": 31.268,
+      "end": 31.498,
+      "section_id": "s11"
+    },
+    {
+      "word": "phía",
+      "start": 31.498,
+      "end": 31.727,
+      "section_id": "s11"
+    },
+    {
+      "word": "Đông,",
+      "start": 31.727,
+      "end": 31.957,
+      "section_id": "s11"
+    },
+    {
+      "word": "dừng",
+      "start": 31.957,
+      "end": 32.186,
+      "section_id": "s11"
+    },
+    {
+      "word": "tại",
+      "start": 32.186,
+      "end": 32.415,
+      "section_id": "s11"
+    },
+    {
+      "word": "cao",
+      "start": 32.415,
+      "end": 32.645,
+      "section_id": "s11"
+    },
+    {
+      "word": "nguyên",
+      "start": 32.645,
+      "end": 32.874,
+      "section_id": "s11"
+    },
+    {
+      "word": "thoai",
+      "start": 32.874,
+      "end": 33.103,
+      "section_id": "s11"
+    },
+    {
+      "word": "thoải",
+      "start": 33.103,
+      "end": 33.333,
+      "section_id": "s11"
+    },
+    {
+      "word": "xã",
+      "start": 33.333,
+      "end": 33.562,
+      "section_id": "s11"
+    },
+    {
+      "word": "Bình",
+      "start": 33.562,
+      "end": 33.792,
+      "section_id": "s11"
+    },
+    {
+      "word": "Sơn,",
+      "start": 33.792,
+      "end": 34.021,
+      "section_id": "s11"
+    },
+    {
+      "word": "huyện",
+      "start": 34.16,
+      "end": 34.413,
+      "section_id": "s11"
+    },
+    {
+      "word": "Long",
+      "start": 34.413,
+      "end": 34.666,
+      "section_id": "s11"
+    },
+    {
+      "word": "Thành,",
+      "start": 34.666,
+      "end": 34.918,
+      "section_id": "s11"
+    },
+    {
+      "word": "tỉnh",
+      "start": 34.918,
+      "end": 35.171,
+      "section_id": "s11"
+    },
+    {
+      "word": "Đồng",
+      "start": 35.171,
+      "end": 35.424,
+      "section_id": "s11"
+    },
+    {
+      "word": "Nai,",
+      "start": 35.424,
+      "end": 35.677,
+      "section_id": "s11"
+    },
+    {
+      "word": "cả",
+      "start": 35.677,
+      "end": 35.93,
+      "section_id": "s11"
+    },
+    {
+      "word": "ba",
+      "start": 35.93,
+      "end": 36.183,
+      "section_id": "s11"
+    },
+    {
+      "word": "ổ",
+      "start": 36.183,
+      "end": 36.435,
+      "section_id": "s11"
+    },
+    {
+      "word": "khóa",
+      "start": 36.435,
+      "end": 36.688,
+      "section_id": "s11"
+    },
+    {
+      "word": "kỹ",
+      "start": 36.688,
+      "end": 36.941,
+      "section_id": "s11"
+    },
+    {
+      "word": "thuật",
+      "start": 36.941,
+      "end": 37.194,
+      "section_id": "s11"
+    },
+    {
+      "word": "mới",
+      "start": 37.194,
+      "end": 37.447,
+      "section_id": "s11"
+    },
+    {
+      "word": "đồng",
+      "start": 37.447,
+      "end": 37.7,
+      "section_id": "s11"
+    },
+    {
+      "word": "loạt",
+      "start": 37.7,
+      "end": 37.952,
+      "section_id": "s11"
+    },
+    {
+      "word": "mở",
+      "start": 37.952,
+      "end": 38.205,
+      "section_id": "s11"
+    },
+    {
+      "word": "ra.",
+      "start": 38.205,
+      "end": 38.458,
+      "section_id": "s11"
+    },
+    {
+      "word": "Nhưng",
+      "start": 38.65,
+      "end": 38.842,
+      "section_id": "s18"
+    },
+    {
+      "word": "mảnh",
+      "start": 38.842,
+      "end": 39.057,
+      "section_id": "s18"
+    },
+    {
+      "word": "ghép",
+      "start": 39.057,
+      "end": 39.272,
+      "section_id": "s18"
+    },
+    {
+      "word": "quyết",
+      "start": 39.272,
+      "end": 39.487,
+      "section_id": "s18"
+    },
+    {
+      "word": "định",
+      "start": 39.487,
+      "end": 39.702,
+      "section_id": "s18"
+    },
+    {
+      "word": "biến",
+      "start": 39.702,
+      "end": 39.917,
+      "section_id": "s18"
+    },
+    {
+      "word": "bốn",
+      "start": 39.917,
+      "end": 40.132,
+      "section_id": "s18"
+    },
+    {
+      "word": "mươi",
+      "start": 40.132,
+      "end": 40.347,
+      "section_id": "s18"
+    },
+    {
+      "word": "ki",
+      "start": 40.347,
+      "end": 40.562,
+      "section_id": "s18"
+    },
+    {
+      "word": "lô",
+      "start": 40.562,
+      "end": 40.777,
+      "section_id": "s18"
+    },
+    {
+      "word": "mét",
+      "start": 40.777,
+      "end": 40.992,
+      "section_id": "s18"
+    },
+    {
+      "word": "thành",
+      "start": 40.992,
+      "end": 41.208,
+      "section_id": "s18"
+    },
+    {
+      "word": "cự",
+      "start": 41.208,
+      "end": 41.423,
+      "section_id": "s18"
+    },
+    {
+      "word": "ly",
+      "start": 41.423,
+      "end": 41.638,
+      "section_id": "s18"
+    },
+    {
+      "word": "quen",
+      "start": 41.638,
+      "end": 41.853,
+      "section_id": "s18"
+    },
+    {
+      "word": "thuộc",
+      "start": 41.853,
+      "end": 42.068,
+      "section_id": "s18"
+    },
+    {
+      "word": "nằm",
+      "start": 42.068,
+      "end": 42.283,
+      "section_id": "s18"
+    },
+    {
+      "word": "trên",
+      "start": 42.283,
+      "end": 42.498,
+      "section_id": "s18"
+    },
+    {
+      "word": "một",
+      "start": 42.498,
+      "end": 42.713,
+      "section_id": "s18"
+    },
+    {
+      "word": "đường",
+      "start": 42.713,
+      "end": 42.928,
+      "section_id": "s18"
+    },
+    {
+      "word": "ray",
+      "start": 42.928,
+      "end": 43.143,
+      "section_id": "s18"
+    },
+    {
+      "word": "chuyên",
+      "start": 43.143,
+      "end": 43.358,
+      "section_id": "s18"
+    },
+    {
+      "word": "biệt:",
+      "start": 43.358,
+      "end": 43.573,
+      "section_id": "s18"
+    },
+    {
+      "word": "tuyến",
+      "start": 44.037,
+      "end": 44.282,
+      "section_id": "s18"
+    },
+    {
+      "word": "đường",
+      "start": 44.282,
+      "end": 44.528,
+      "section_id": "s18"
+    },
+    {
+      "word": "sắt",
+      "start": 44.528,
+      "end": 44.773,
+      "section_id": "s18"
+    },
+    {
+      "word": "Thủ",
+      "start": 44.773,
+      "end": 45.019,
+      "section_id": "s18"
+    },
+    {
+      "word": "Thiêm",
+      "start": 45.019,
+      "end": 45.264,
+      "section_id": "s18"
+    },
+    {
+      "word": "Long",
+      "start": 45.264,
+      "end": 45.51,
+      "section_id": "s18"
+    },
+    {
+      "word": "Thành.",
+      "start": 45.51,
+      "end": 45.755,
+      "section_id": "s18"
+    },
+    {
+      "word": "Với",
+      "start": 46.317,
+      "end": 46.537,
+      "section_id": "s18"
+    },
+    {
+      "word": "tốc",
+      "start": 46.537,
+      "end": 46.757,
+      "section_id": "s18"
+    },
+    {
+      "word": "độ",
+      "start": 46.757,
+      "end": 46.977,
+      "section_id": "s18"
+    },
+    {
+      "word": "thiết",
+      "start": 46.977,
+      "end": 47.197,
+      "section_id": "s18"
+    },
+    {
+      "word": "kế",
+      "start": 47.197,
+      "end": 47.417,
+      "section_id": "s18"
+    },
+    {
+      "word": "đạt",
+      "start": 47.417,
+      "end": 47.637,
+      "section_id": "s18"
+    },
+    {
+      "word": "một",
+      "start": 47.637,
+      "end": 47.857,
+      "section_id": "s18"
+    },
+    {
+      "word": "trăm",
+      "start": 47.857,
+      "end": 48.077,
+      "section_id": "s18"
+    },
+    {
+      "word": "hai",
+      "start": 48.077,
+      "end": 48.297,
+      "section_id": "s18"
+    },
+    {
+      "word": "mươi",
+      "start": 48.297,
+      "end": 48.517,
+      "section_id": "s18"
+    },
+    {
+      "word": "ki",
+      "start": 48.517,
+      "end": 48.738,
+      "section_id": "s18"
+    },
+    {
+      "word": "lô",
+      "start": 48.738,
+      "end": 48.958,
+      "section_id": "s18"
+    },
+    {
+      "word": "mét",
+      "start": 48.958,
+      "end": 49.178,
+      "section_id": "s18"
+    },
+    {
+      "word": "trên",
+      "start": 49.178,
+      "end": 49.398,
+      "section_id": "s18"
+    },
+    {
+      "word": "giờ",
+      "start": 49.398,
+      "end": 49.618,
+      "section_id": "s18"
+    },
+    {
+      "word": "và",
+      "start": 49.618,
+      "end": 49.838,
+      "section_id": "s18"
+    },
+    {
+      "word": "không",
+      "start": 49.838,
+      "end": 50.058,
+      "section_id": "s18"
+    },
+    {
+      "word": "gặp",
+      "start": 50.058,
+      "end": 50.278,
+      "section_id": "s18"
+    },
+    {
+      "word": "giao",
+      "start": 50.278,
+      "end": 50.498,
+      "section_id": "s18"
+    },
+    {
+      "word": "cắt",
+      "start": 50.498,
+      "end": 50.718,
+      "section_id": "s18"
+    },
+    {
+      "word": "đèn",
+      "start": 50.718,
+      "end": 50.938,
+      "section_id": "s18"
+    },
+    {
+      "word": "đỏ,",
+      "start": 50.938,
+      "end": 51.158,
+      "section_id": "s18"
+    },
+    {
+      "word": "thời",
+      "start": 51.448,
+      "end": 51.651,
+      "section_id": "s18"
+    },
+    {
+      "word": "gian",
+      "start": 51.651,
+      "end": 51.853,
+      "section_id": "s18"
+    },
+    {
+      "word": "di",
+      "start": 51.853,
+      "end": 52.056,
+      "section_id": "s18"
+    },
+    {
+      "word": "chuyển",
+      "start": 52.056,
+      "end": 52.259,
+      "section_id": "s18"
+    },
+    {
+      "word": "từ",
+      "start": 52.259,
+      "end": 52.461,
+      "section_id": "s18"
+    },
+    {
+      "word": "cửa",
+      "start": 52.461,
+      "end": 52.664,
+      "section_id": "s18"
+    },
+    {
+      "word": "ngõ",
+      "start": 52.664,
+      "end": 52.867,
+      "section_id": "s18"
+    },
+    {
+      "word": "phía",
+      "start": 52.867,
+      "end": 53.069,
+      "section_id": "s18"
+    },
+    {
+      "word": "Đông",
+      "start": 53.069,
+      "end": 53.272,
+      "section_id": "s18"
+    },
+    {
+      "word": "thành",
+      "start": 53.272,
+      "end": 53.474,
+      "section_id": "s18"
+    },
+    {
+      "word": "phố",
+      "start": 53.474,
+      "end": 53.677,
+      "section_id": "s18"
+    },
+    {
+      "word": "Hồ",
+      "start": 53.677,
+      "end": 53.88,
+      "section_id": "s18"
+    },
+    {
+      "word": "Chí",
+      "start": 53.88,
+      "end": 54.082,
+      "section_id": "s18"
+    },
+    {
+      "word": "Minh",
+      "start": 54.082,
+      "end": 54.285,
+      "section_id": "s18"
+    },
+    {
+      "word": "ra",
+      "start": 54.285,
+      "end": 54.488,
+      "section_id": "s18"
+    },
+    {
+      "word": "tới",
+      "start": 54.488,
+      "end": 54.69,
+      "section_id": "s18"
+    },
+    {
+      "word": "sảnh",
+      "start": 54.69,
+      "end": 54.893,
+      "section_id": "s18"
+    },
+    {
+      "word": "bay",
+      "start": 54.893,
+      "end": 55.096,
+      "section_id": "s18"
+    },
+    {
+      "word": "chỉ",
+      "start": 55.096,
+      "end": 55.298,
+      "section_id": "s18"
+    },
+    {
+      "word": "còn",
+      "start": 55.298,
+      "end": 55.501,
+      "section_id": "s18"
+    },
+    {
+      "word": "khoảng",
+      "start": 55.501,
+      "end": 55.703,
+      "section_id": "s18"
+    },
+    {
+      "word": "hai",
+      "start": 55.703,
+      "end": 55.906,
+      "section_id": "s18"
+    },
+    {
+      "word": "mươi",
+      "start": 55.906,
+      "end": 56.109,
+      "section_id": "s18"
+    },
+    {
+      "word": "đến",
+      "start": 56.109,
+      "end": 56.311,
+      "section_id": "s18"
+    },
+    {
+      "word": "hai",
+      "start": 56.311,
+      "end": 56.514,
+      "section_id": "s18"
+    },
+    {
+      "word": "mươi",
+      "start": 56.514,
+      "end": 56.717,
+      "section_id": "s18"
+    },
+    {
+      "word": "lăm",
+      "start": 56.717,
+      "end": 56.919,
+      "section_id": "s18"
+    }
+  ],
+  "segments": [
+    {
+      "id": "demo_d1",
+      "start": 1.772,
+      "end": 11.3,
+      "duration_seconds": 9.528
+    },
+    {
+      "id": "demo_d2",
+      "start": 11.872,
+      "end": 23.291,
+      "duration_seconds": 11.419
+    },
+    {
+      "id": "demo_d3a",
+      "start": 23.888,
+      "end": 27.962,
+      "duration_seconds": 4.074
+    },
+    {
+      "id": "demo_d3b",
+      "start": 28.1,
+      "end": 38.458,
+      "duration_seconds": 10.358
+    },
+    {
+      "id": "demo_d4a",
+      "start": 38.65,
+      "end": 45.755,
+      "duration_seconds": 7.105
+    },
+    {
+      "id": "demo_d4b",
+      "start": 46.317,
+      "end": 56.919,
+      "duration_seconds": 10.602
+    }
+  ]
+}

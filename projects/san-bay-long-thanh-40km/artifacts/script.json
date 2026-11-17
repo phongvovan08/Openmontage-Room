@@ -1,0 +1,1621 @@
+{
+  "version": "1.0",
+  "title": "Vì sao sân bay Long Thành phải lùi xa TP.HCM 40km?",
+  "total_duration_seconds": 668.27,
+  "voice_performance": {
+    "performance_intent": "Biên tập viên phim tài liệu địa lý kinh tế phong cách Johnny Harris / Vox: điềm tĩnh, sắc sảo, dẫn dắt 5 chương từ cái khóa bầu trời 365 m -> địa chất Bình Sơn -> tỷ lệ 1:1 5.000 ha -> giải pháp đường sắt ~20–25 phút.",
+    "pacing_profile": "conversational",
+    "energy_curve": "Hook tò mò lật nghịch lý T3 (Chương 1) -> Trầm và siết áp lực đô thị/phễu bay (Chương 2) -> Quét radar hồi hộp tìm điểm rơi Bình Sơn (Chương 3) -> Cao trào thị giác 791 ha vs 5.000 ha (Chương 4) -> Mở thoáng nhẹ nhõm với đường sắt 20 phút & cặp sân bay 150 triệu khách (Chương 5).",
+    "pause_policy": "Nghỉ 0,55s cuối mỗi phân đoạn để tạo nhịp thở chuyển cảnh bản đồ 3D; giữ dấu phẩy ngắt nhịp tự nhiên khi liệt kê số liệu 365 m, 791 ha, 5.000 ha và 4.000 m.",
+    "sample_section_id": "s13",
+    "provider_notes": {
+      "vibi": "Dùng giọng Haitrieu (voice_id 1ad2682d-1c78-4bb2-8061-b7cc216362c9, MiniMax speech-2.8-hd, speed 1.1). Mọi chữ số, đơn vị km/ha/m, tên riêng nước ngoài và số hiệu văn bản trong provider_text đã được phiên âm 100% sang chữ tiếng Việt thuần túy để tránh đọc vấp."
+    }
+  },
+  "sections": [
+    {
+      "id": "s01",
+      "label": "Chương 1.1 — Hook: Nhà ga T3 vừa xong, vì sao vẫn cần siêu sân bay cách 40 km?",
+      "text": "Nhiều người nghĩ khi Nhà ga T3 Tân Sơn Nhất mở cửa, cảnh kẹt bầu trời của Thành phố Hồ Chí Minh sẽ lập tức hạ nhiệt. Thực tế không đơn giản như vậy. Dù mặt đất có thêm một nhà ga khang trang, bầu trời phía trên Tân Sơn Nhất vẫn đang bị khóa chặt bởi một con số ít ai để ý: khoảng cách giữa hai đường băng chỉ đúng ba trăm sáu mươi lăm mét. Nút thắt ấy đã buộc Việt Nam đi đến một quyết định lớn: không nới sân bay cũ tại chỗ, mà dời hẳn một siêu sân bay mới cách trung tâm khoảng bốn mươi ki lô mét về phía Đông. Vì sao lại là bốn mươi cây số đó?",
+      "start_seconds": 0.0,
+      "end_seconds": 30.67,
+      "speaker_directions": "Mở đầu dứt khoát bằng nghịch lý T3 vs bầu trời 365m; nghỉ nhẹ trước câu hỏi chốt 40 km.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "curious_authoritative",
+        "emphasis_words": [
+          "Nhà ga T3",
+          "365 m",
+          "40 km",
+          "khóa chặt"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Giữ nhịp chắc, trầm tĩnh kiểu Johnny Harris khi lật nghịch lý ngay 10 giây đầu.",
+        "provider_text": "Nhiều người nghĩ khi Nhà ga Tê ba Tân Sơn Nhất mở cửa, cảnh kẹt bầu trời của thành phố Hồ Chí Minh sẽ lập tức hạ nhiệt. Thực tế không đơn giản như vậy. Dù mặt đất có thêm một nhà ga khang trang, bầu trời phía trên Tân Sơn Nhất vẫn đang bị khóa chặt bởi một con số ít ai để ý: khoảng cách giữa hai đường băng chỉ đúng ba trăm sáu mươi lăm mét. Nút thắt ấy đã buộc Việt Nam đi đến một quyết định lớn: không nới sân bay cũ tại chỗ, mà dời hẳn một siêu sân bay mới cách trung tâm khoảng bốn mươi ki lô mét về phía Đông. Vì sao lại là bốn mươi cây số đó?"
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Mở màn 3D vệ tinh Đông Nam Bộ: vòng radar phóng từ Tân Sơn Nhất quét thẳng 40 km sang Long Thành.",
+          "timestamp_seconds": 1.5
+        },
+        {
+          "type": "stat_card",
+          "description": "Hiện thẻ đối nghịch HUD: Nhà ga T3 mới vs Nút thắt đường băng 365 m.",
+          "timestamp_seconds": 9.5
+        },
+        {
+          "type": "diagram",
+          "description": "Bật sáng cung bay đỏ bị chặn trên bầu trời Tân Sơn Nhất và chấm xanh ngọc Long Thành.",
+          "timestamp_seconds": 18.0
+        },
+        {
+          "type": "overlay",
+          "description": "Ghim câu hỏi trung tâm trên đường nối 40 km hướng Đông: VÌ SAO PHẢI LÙI XA 40 KM?",
+          "timestamp_seconds": 26.5
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://tapchihangkhong.vn/"
+    },
+    {
+      "id": "s02",
+      "label": "Chương 1.2 — Từ sân bay ngoại ô thập niên 1930 thành ốc đảo 791 ha giữa nội đô",
+      "text": "Hãy tua ngược bản đồ Sài Gòn về gần một thế kỷ trước. Khi sân bay Tân Sơn Nhất hình thành từ thập niên một nghìn chín trăm hai mươi, nơi đây vẫn là vùng đất ven đô thưa vắng ở phía Tây Bắc Sài Gòn – Chợ Lớn. Nhưng đà đô thị hóa chóng mặt đã nuốt trọn Tân Bình, Phú Nhuận rồi tràn sang Gò Vấp, biến sân bay ngoại ô năm xưa thành một ốc đảo khép kín giữa bốn bề nhà cửa. Theo Quyết định 648 của Thủ tướng Chính phủ về quy hoạch hệ thống cảng hàng không, toàn bộ ranh giới của Tân Sơn Nhất ngày nay gói gọn trong khoảng bảy trăm chín mươi mốt héc ta, không còn đất dự phòng bên rìa.",
+      "start_seconds": 30.67,
+      "end_seconds": 63.93,
+      "speaker_directions": "Giọng kể lịch sử đô thị hóa rõ ràng, tăng nhẹ nhịp khi mô tả thành phố lan rộng bao vây sân bay.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "historical_storytelling",
+        "emphasis_words": [
+          "ngoại ô",
+          "ốc đảo khép kín",
+          "Quyết định 648",
+          "791 ha"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhấn rành mạch con số 791 ha và tính chất 'ốc đảo giữa bốn bề nhà cửa'.",
+        "provider_text": "Hãy tua ngược bản đồ Sài Gòn về gần một thế kỷ trước. Khi sân bay Tân Sơn Nhất hình thành từ thập niên một nghìn chín trăm hai mươi, nơi đây vẫn là vùng đất ven đô thưa vắng ở phía Tây Bắc Sài Gòn Chợ Lớn. Nhưng đà đô thị hóa chóng mặt đã nuốt trọn Tân Bình, Phú Nhuận rồi tràn sang Gò Vấp, biến sân bay ngoại ô năm xưa thành một ốc đảo khép kín giữa bốn bề nhà cửa. Theo Quyết định sáu trăm bốn mươi tám của Thủ tướng Chính phủ về quy hoạch hệ thống cảng hàng không, toàn bộ ranh giới của Tân Sơn Nhất ngày nay gói gọn trong khoảng bảy trăm chín mươi mốt héc ta, không còn đất dự phòng bên rìa."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Timeline bản đồ TP.HCM thập niên 1920–1930 với Tân Sơn Nhất còn nằm hẳn ngoài rìa Tây Bắc.",
+          "timestamp_seconds": 34.45
+        },
+        {
+          "type": "diagram",
+          "description": "Lan tỏa vệt đô thị hóa màu hổ phách nuốt trọn Tân Bình – Phú Nhuận – Gò Vấp bao vây 4 mặt sân bay.",
+          "timestamp_seconds": 42.95
+        },
+        {
+          "type": "overlay",
+          "description": "Hồ sơ QĐ 648/QĐ-TTg trượt vào cùng ảnh tư liệu thực địa khu vực Tân Sơn Nhất.",
+          "timestamp_seconds": 51.45
+        },
+        {
+          "type": "stat_card",
+          "description": "Khóa ranh đa giác OSM Tân Sơn Nhất: QUỸ ĐẤT KHÉP KÍN ~791 HA (KHÔNG CÒN ĐẤT RÌA).",
+          "timestamp_seconds": 59.45
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://chinhphu.vn/"
+    },
+    {
+      "id": "s03",
+      "label": "Chương 1.3 — Nhà ga T3 giải tỏa mặt đất, nhưng không thể nhân đôi đường băng",
+      "text": "Từ thực tế ấy nảy sinh hiểu lầm lớn nhất nhiều năm qua: xây thêm Nhà ga T3 là Tân Sơn Nhất có thể đón gấp đôi chuyến bay. Sự thật hoàn toàn khác. Nhà ga hành khách và bãi đỗ chỉ phục vụ trên mặt đất, giúp giảm ùn ứ soi chiếu, nâng tổng công suất thiết kế của sân bay lên năm mươi triệu hành khách mỗi năm. Còn năng lực bầu trời lại do đường cất hạ cánh quyết định. Dù có thêm Nhà ga T3 hiện đại ở phía Nam, Tân Sơn Nhất vẫn chỉ khai thác trên đúng hai đường băng song song cũ ở phía Bắc, không thể bổ sung thêm bất kỳ mét đường băng mới nào.",
+      "start_seconds": 63.93,
+      "end_seconds": 95.24,
+      "speaker_directions": "Nhấn đối lập giữa 'hạ tầng mặt đất' (T3) và 'năng lực bầu trời' (đường băng).",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "analytical_build",
+        "emphasis_words": [
+          "mặt đất",
+          "năng lực bầu trời",
+          "50 triệu",
+          "không thêm mét đường băng"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Chốt dứt khoát câu cuối như cú lật bản đồ chuyển sang giải phẫu đường băng.",
+        "provider_text": "Từ thực tế ấy nảy sinh hiểu lầm lớn nhất nhiều năm qua: xây thêm Nhà ga Tê ba là Tân Sơn Nhất có thể đón gấp đôi chuyến bay. Sự thật hoàn toàn khác. Nhà ga hành khách và bãi đỗ chỉ phục vụ trên mặt đất, giúp giảm ùn ứ soi chiếu, nâng tổng công suất thiết kế của sân bay lên năm mươi triệu hành khách mỗi năm. Còn năng lực bầu trời lại do đường cất hạ cánh quyết định. Dù có thêm Nhà ga Tê ba hiện đại ở phía Nam, Tân Sơn Nhất vẫn chỉ khai thác trên đúng hai đường băng song song cũ ở phía Bắc, không thể bổ sung thêm bất kỳ mét đường băng mới nào."
+      },
+      "enhancement_cues": [
+        {
+          "type": "overlay",
+          "description": "Hiện nhãn phản biện: HIỂU LẦM NHÀ GA T3 = TĂNG GẤP ĐÔI CHUYẾN BAY.",
+          "timestamp_seconds": 68.42
+        },
+        {
+          "type": "broll",
+          "description": "Ảnh thực địa Nhà ga T3 Tân Sơn Nhất kèm mốc công suất nâng lên ~50 triệu hành khách/năm.",
+          "timestamp_seconds": 76.92
+        },
+        {
+          "type": "diagram",
+          "description": "Tách lớp 3D: Khu nhà ga T1/T2/T3 phía Nam sáng xanh vs Cặp đường băng phía Bắc khóa đỏ.",
+          "timestamp_seconds": 85.42
+        },
+        {
+          "type": "stat_card",
+          "description": "Nhấn kết luận: MẶT ĐẤT ĐƯỢC MỞ • BẦU TRỜI VẪN CHỈ CÓ 2 ĐƯỜNG BĂNG CŨ.",
+          "timestamp_seconds": 93.42
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://chinhphu.vn/"
+    },
+    {
+      "id": "s04",
+      "label": "Chương 1.4 — Giải phẫu con số 365 m: Vì sao hai đường băng không thể bay độc lập?",
+      "text": "Phóng to ảnh vệ tinh xuống giữa hai vệt bê tông dài hơn ba ki lô mét đó, nút thắt lập tức lộ diện. Hai đường băng song song của Tân Sơn Nhất nằm cạnh nhau nhưng khoảng cách từ tim đường này sang tim đường kia chỉ đúng ba trăm sáu mươi lăm mét. Theo chuẩn an toàn của Tổ chức Hàng không Dân dụng Quốc tế ICAO, hai đường băng song song chỉ được cất hạ cánh độc lập cùng lúc khi cách nhau tối thiểu bảy trăm sáu mươi mét đến hơn một ki lô mét tùy phương thức. Vì chỉ cách ba trăm sáu mươi lăm mét, Tân Sơn Nhất buộc phải điều hành phụ thuộc: chiếc này đáp thì chiếc kia phải chờ.",
+      "start_seconds": 95.24,
+      "end_seconds": 127.06,
+      "speaker_directions": "Đọc rõ, hơi chậm lại tại cặp số 365 m vs 760–1.035 m để khán giả kịp nhìn thước đo trên màn hình.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "revelation",
+        "emphasis_words": [
+          "365 m",
+          "ICAO",
+          "760 m đến hơn 1 km",
+          "điều hành phụ thuộc"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Giải thích kỹ thuật hàng không bằng giọng mạch lạc, dễ hình dung.",
+        "provider_text": "Phóng to ảnh vệ tinh xuống giữa hai vệt bê tông dài hơn ba ki lô mét đó, nút thắt lập tức lộ diện. Hai đường băng song song của Tân Sơn Nhất nằm cạnh nhau nhưng khoảng cách từ tim đường này sang tim đường kia chỉ đúng ba trăm sáu mươi lăm mét. Theo chuẩn an toàn của Tổ chức Hàng không Dân dụng Quốc tế I cao, hai đường băng song song chỉ được cất hạ cánh độc lập cùng lúc khi cách nhau tối thiểu bảy trăm sáu mươi mét đến hơn một ki lô mét tùy phương thức. Vì chỉ cách ba trăm sáu mươi lăm mét, Tân Sơn Nhất buộc phải điều hành phụ thuộc: chiếc này đáp thì chiếc kia phải chờ."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Zoom sát vệ tinh EOX z14 xuống thẳng cặp đường băng song song 25R/07L và 25L/07R Tân Sơn Nhất.",
+          "timestamp_seconds": 100.6
+        },
+        {
+          "type": "stat_card",
+          "description": "Bật thước đo tỷ lệ 1:1 giữa hai trục tim đường băng: CHỈ CÁCH NHAU 365 M.",
+          "timestamp_seconds": 108.6
+        },
+        {
+          "type": "diagram",
+          "description": "Đối chiếu thanh chuẩn ICAO: ngưỡng độc lập 760 m – 1.035 m dài hơn gấp đôi thực tế.",
+          "timestamp_seconds": 117.1
+        },
+        {
+          "type": "animation",
+          "description": "Mô phỏng vùng nhiễu động/an toàn trùm chéo: 1 máy bay hạ cánh buộc chiếc bên cạnh chờ slot.",
+          "timestamp_seconds": 125.6
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://tapchihangkhong.vn/"
+    },
+    {
+      "id": "s05",
+      "label": "Chương 2.1 — Phễu hạ cánh quét qua cao ốc và hành lang tiếng ồn 10 triệu dân",
+      "text": "Nhìn lên mô hình ba chiều theo hướng máy bay đáp xuống, bạn sẽ thấy Tân Sơn Nhất còn đang chịu áp lực từ bốn phía đô thị. Hướng tiếp cận chính từ Đông sang Tây cắt thẳng qua bầu trời các quận đông dân bậc nhất như Bình Thạnh, Phú Nhuận, Gò Vấp và Tân Bình ở độ cao chỉ vài trăm mét. Bất kỳ dự án nới dài hay thêm đường băng nào tại đây đều lập tức chạm ba rào cản lớn: tiếng ồn vượt ngưỡng lên hàng trăm nghìn hộ dân, rủi ro tiếp cận khẩn cấp giữa khu dân cư dày đặc, và giới hạn tĩnh không khóa chặt chiều cao cao ốc dọc suốt trục phát triển nội đô.",
+      "start_seconds": 127.06,
+      "end_seconds": 158.53,
+      "speaker_directions": "Tạo cảm giác ngột ngạt không gian đô thị bao quanh đường bay.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "tension",
+        "emphasis_words": [
+          "ba rào cản lớn",
+          "tiếng ồn",
+          "giới hạn tĩnh không cao ốc"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhấn rõ 3 hệ lụy dây chuyền để khán giả hiểu mở rộng nội đô là không thể.",
+        "provider_text": "Nhìn lên mô hình ba chiều theo hướng máy bay đáp xuống, bạn sẽ thấy Tân Sơn Nhất còn đang chịu áp lực từ bốn phía đô thị. Hướng tiếp cận chính từ Đông sang Tây cắt thẳng qua bầu trời các quận đông dân bậc nhất như Bình Thạnh, Phú Nhuận, Gò Vấp và Tân Bình ở độ cao chỉ vài trăm mét. Bất kỳ dự án nới dài hay thêm đường băng nào tại đây đều lập tức chạm ba rào cản lớn: tiếng ồn vượt ngưỡng lên hàng trăm nghìn hộ dân, rủi ro tiếp cận khẩn cấp giữa khu dân cư dày đặc, và giới hạn tĩnh không khóa chặt chiều cao cao ốc dọc suốt trục phát triển nội đô."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Bản đồ nghiêng 52° nhìn từ hướng Đông dọc đường bay hạ cánh xuyên qua lõi đô thị TP.HCM.",
+          "timestamp_seconds": 133.8
+        },
+        {
+          "type": "diagram",
+          "description": "Dựng nón tĩnh không 3D quét thấp qua nóc Bình Thạnh – Phú Nhuận – Gò Vấp – Tân Bình.",
+          "timestamp_seconds": 141.8
+        },
+        {
+          "type": "stat_card",
+          "description": "Trải vòng đồng mức tiếng ồn đỏ trên các ô khu dân cư mật độ cao hai đầu sân bay.",
+          "timestamp_seconds": 150.3
+        },
+        {
+          "type": "overlay",
+          "description": "Cảnh báo 3 khóa đô thị: TIẾNG ỒN • AN TOÀN DÂN CƯ • TRẦN CAO ỐC.",
+          "timestamp_seconds": 158.8
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://chinhphu.vn/"
+    },
+    {
+      "id": "s06",
+      "label": "Chương 2.2 — Thử bài toán giả định: Dịch thêm 1 đường băng ở Tân Sơn Nhất sẽ tốn gì?",
+      "text": "Vậy nếu chấp nhận chi ngân sách giải tỏa xung quanh để làm thêm đường băng thứ ba cách xa bảy trăm sáu mươi mét ngay tại Sài Gòn thì sao? Thử đặt vạch giả định ấy lên ảnh vệ tinh thực tế, đáp án lập tức đóng lại. Đẩy tim đường băng mới dịch ra hơn bảy trăm mét kèm hệ thống đường lăn và hành lang an toàn dài gần bốn ki lô mét sẽ cắt phẳng hàng trăm héc ta khu dân cư sầm uất của Tân Bình hoặc Gò Vấp. Chi phí đền bù di dời hàng trăm nghìn cư dân nội đô khi đó còn có thể vượt cả tiền xây mới một đại cảng hàng không bên ngoài thành phố.",
+      "start_seconds": 158.53,
+      "end_seconds": 187.93,
+      "speaker_directions": "Mở đầu bằng chính câu hỏi phản biện của người xem rồi dùng trực giác không gian để dập tắt hoàn toàn khả năng đó.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "analytical_build",
+        "emphasis_words": [
+          "760 mét",
+          "cắt phẳng hàng trăm héc ta",
+          "vượt chi phí xây mới"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhịp chắc, rõ khi liệt kê diện tích càn quét vào Tân Bình – Gò Vấp.",
+        "provider_text": "Vậy nếu chấp nhận chi ngân sách giải tỏa xung quanh để làm thêm đường băng thứ ba cách xa bảy trăm sáu mươi mét ngay tại Sài Gòn thì sao? Thử đặt vạch giả định ấy lên ảnh vệ tinh thực tế, đáp án lập tức đóng lại. Đẩy tim đường băng mới dịch ra hơn bảy trăm mét kèm hệ thống đường lăn và hành lang an toàn dài gần bốn ki lô mét sẽ cắt phẳng hàng trăm héc ta khu dân cư sầm uất của Tân Bình hoặc Gò Vấp. Chi phí đền bù di dời hàng trăm nghìn cư dân nội đô khi đó còn có thể vượt cả tiền xây mới một đại cảng hàng không bên ngoài thành phố."
+      },
+      "enhancement_cues": [
+        {
+          "type": "diagram",
+          "description": "Dựng đường băng giả định số 3 dịch ra +760 m theo chuẩn ICAO ngay trên mặt bằng Tân Sơn Nhất.",
+          "timestamp_seconds": 166.24
+        },
+        {
+          "type": "animation",
+          "description": "Trải bóng đỏ dải bảo hiểm & đường lăn cắt phẳng hàng trăm héc ta khu dân cư Gò Vấp – Tân Bình.",
+          "timestamp_seconds": 174.74
+        },
+        {
+          "type": "broll",
+          "description": "Soi cận lớp nhà phố ken đặc trên ảnh vệ tinh EOX z14 tại khu vực tiếp giáp.",
+          "timestamp_seconds": 182.74
+        },
+        {
+          "type": "stat_card",
+          "description": "Khóa kết luận: CHI PHÍ ĐỀN BÙ NỘI ĐÔ VƯỢT XÂY SÂN BAY MỚI MÀ VẪN CHẬT HẸP.",
+          "timestamp_seconds": 190.24
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://tapchihangkhong.vn/"
+    },
+    {
+      "id": "s07",
+      "label": "Chương 2.3 — Cơn khát bay xuyên lục địa & logistic công nghệ cao vùng Đông Nam Bộ",
+      "text": "Trong khi Tân Sơn Nhất chạm trần năm mươi triệu khách với hai đường băng phụ thuộc, kinh tế vùng Đông Nam Bộ và Đồng bằng sông Cửu Long lại đang chuyển nhịp sang một giai đoạn mới. Thành phố Hồ Chí Minh, Đồng Nai, Bình Dương và Bà Rịa – Vũng Tàu đang thu hút mạnh chuỗi sản xuất điện tử, bán dẫn, thiết bị y tế và hàng xuất khẩu giá trị cao. Những lô hàng triệu đô ấy không đi tàu biển nhiều tuần mà cần lên thẳng khoang máy bay thân rộng nối liền Bắc Mỹ và châu Âu. Nếu mãi kẹt trong bầu trời cũ, Việt Nam sẽ tiếp tục nhường dòng khách và hàng trung chuyển về tay các hub lớn quanh khu vực.",
+      "start_seconds": 187.93,
+      "end_seconds": 220.08,
+      "speaker_directions": "Chuyển từ bài toán kỹ thuật sang sức ép kinh tế vĩ mô: hàng hóa công nghệ cao và bay thẳng xuyên lục địa.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "urgency",
+        "emphasis_words": [
+          "trần 50 triệu",
+          "bán dẫn",
+          "máy bay thân rộng Bắc Mỹ châu Âu"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Tạo xung lực chuyển tiếp mượt sang quyết sách cấp Quốc hội ở cảnh 08.",
+        "provider_text": "Trong khi Tân Sơn Nhất chạm trần năm mươi triệu khách với hai đường băng phụ thuộc, kinh tế vùng Đông Nam Bộ và Đồng bằng sông Cửu Long lại đang chuyển nhịp sang một giai đoạn mới. Thành phố Hồ Chí Minh, Đồng Nai, Bình Dương và Bà Rịa Vũng Tàu đang thu hút mạnh chuỗi sản xuất điện tử, bán dẫn, thiết bị y tế và hàng xuất khẩu giá trị cao. Những lô hàng triệu đô ấy không đi tàu biển nhiều tuần mà cần lên thẳng khoang máy bay thân rộng nối liền Bắc Mỹ và châu Âu. Nếu mãi kẹt trong bầu trời cũ, Việt Nam sẽ tiếp tục nhường dòng khách và hàng trung chuyển về tay các điểm trung chuyển lớn quanh khu vực."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Bản đồ vùng Đông Nam Bộ bật sáng cụm KCN TP.HCM – Bình Dương – Đồng Nai – Bà Rịa Vũng Tàu.",
+          "timestamp_seconds": 198.93
+        },
+        {
+          "type": "stat_card",
+          "description": "Liệt kê nhóm hàng xuất khẩu tốc độ cao: BÁN DẪN • ĐIỆN TỬ • THIẾT BỊ Y TẾ.",
+          "timestamp_seconds": 207.43
+        },
+        {
+          "type": "diagram",
+          "description": "Quỹ đạo bay vòng cung 3D nối sang Bắc Mỹ và châu Âu vượt qua các hub khu vực.",
+          "timestamp_seconds": 215.93
+        },
+        {
+          "type": "overlay",
+          "description": "Cảnh báo: BẦU TRỜI CHẬT SẼ ĐẨY DÒNG KHÁCH TRUNG CHUYỂN RA NGOÀI.",
+          "timestamp_seconds": 223.93
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://vanban.chinhphu.vn/"
+    },
+    {
+      "id": "s08",
+      "label": "Chương 2.4 — Hồ sơ Nghị quyết 94: Đầu bài 5.000 ha, cấp 4F và 100 triệu khách/năm",
+      "text": "Đó là lý do Nghị quyết 94 năm 2015 của Quốc hội phê duyệt chủ trương đầu tư Cảng hàng không quốc tế Long Thành ra đời. Trên hồ sơ quy hoạch, đầu bài đặt ra có quy mô chưa từng có ở Việt Nam: tìm một mặt bằng liền khối rộng năm nghìn héc ta cho một siêu sân bay đạt cấp bốn F, cấp cao nhất của ICAO. Khi hoàn chỉnh toàn bộ, tổ hợp này vận hành bốn đường cất hạ cánh độc lập, công suất một trăm triệu hành khách và năm triệu tấn hàng hóa mỗi năm. Câu hỏi tiếp theo hiện lên ngay trên bản đồ: quét radar quanh Thành phố Hồ Chí Minh, đặt năm nghìn héc ta ấy vào đâu?",
+      "start_seconds": 220.08,
+      "end_seconds": 253.9,
+      "speaker_directions": "Đọc dõng dạc như mở hồ sơ pháp lý chính thức; kết thúc bằng câu hỏi mở chuyển sang Chương 3 quét bản đồ địa lý.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "serious_authoritative",
+        "emphasis_words": [
+          "Nghị quyết 94",
+          "5.000 ha",
+          "cấp 4F",
+          "100 triệu khách"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Khớp chính xác nhịp lật trang hồ sơ giấy kem và tô bút dạ vàng lên các con số đinh.",
+        "provider_text": "Đó là lý do Nghị quyết chín mươi tư năm hai nghìn không trăm mười lăm của Quốc hội phê duyệt chủ trương đầu tư Cảng hàng không quốc tế Long Thành ra đời. Trên hồ sơ quy hoạch, đầu bài đặt ra có quy mô chưa từng có ở Việt Nam: tìm một mặt bằng liền khối rộng năm nghìn héc ta cho một siêu sân bay đạt cấp bốn ép, cấp cao nhất của I cao. Khi hoàn chỉnh toàn bộ, tổ hợp này vận hành bốn đường cất hạ cánh độc lập, công suất một trăm triệu hành khách và năm triệu tấn hàng hóa mỗi năm. Câu hỏi tiếp theo hiện lên ngay trên bản đồ: quét ra đa quanh thành phố Hồ Chí Minh, đặt năm nghìn héc ta ấy vào đâu?"
+      },
+      "enhancement_cues": [
+        {
+          "type": "overlay",
+          "description": "Tờ hồ sơ Nghị quyết 94/2015/QH13 giấy kem trượt nghiêng vào giữa màn hình.",
+          "timestamp_seconds": 232.64
+        },
+        {
+          "type": "animation",
+          "description": "Quét bút dạ vàng sáng dần qua dòng mục tiêu: 5.000 HA • CẤP 4F ICAO.",
+          "timestamp_seconds": 240.64
+        },
+        {
+          "type": "stat_card",
+          "description": "Hiện bảng chỉ tiêu toàn kỳ: 4 ĐƯỜNG BĂNG ĐỘC LẬP • 100 TRIỆU KHÁCH / 5 TRIỆU TẤN HÀNG.",
+          "timestamp_seconds": 249.14
+        },
+        {
+          "type": "diagram",
+          "description": "Vòng quét radar xanh lơ 360° bung rộng từ tâm TP.HCM mở màn Chương 3.",
+          "timestamp_seconds": 257.64
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://vanban.chinhphu.vn/"
+    },
+    {
+      "id": "s09",
+      "label": "Chương 3.1 — Loại trừ hướng Nam & Tây Nam: Túi bùn yếu và vùng lõi sinh quyển",
+      "text": "Nếu chỉ đo đường chim bay cho gần trung tâm, lựa chọn đầu tiên dễ nghĩ tới là vùng đất còn thoáng ở phía Nam và Tây Nam như Nhà Bè, Bình Chánh hay Cần Giờ, cách lõi phố hai mươi đến ba mươi ki lô mét. Nhưng bật lớp địa chất lên bản đồ, toàn bộ hướng Nam lập tức bị gạch đỏ. Vùng này nằm trên nền trũng châu thổ sông Sài Gòn – Đồng Nai, cao độ thấp, chịu thủy triều và lớp bùn sét hữu cơ yếu dày hàng chục mét. Đặt bốn đường băng dài bốn ki lô mét chịu tải tàu bay hơn năm trăm tấn lên nền bùn yếu vừa đội chi phí xử lý, vừa đối diện rủi ro lún lệch và chạm vùng sinh quyển Cần Giờ.",
+      "start_seconds": 253.9,
+      "end_seconds": 288.79,
+      "speaker_directions": "Giọng phân tích khoa học chặt chẽ, nhấn mạnh yếu tố địa kỹ thuật bùn yếu và sinh quyển.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "analytical_build",
+        "emphasis_words": [
+          "gạch đỏ",
+          "bùn sét yếu",
+          "rủi ro lún lệch",
+          "sinh quyển Cần Giờ"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Đi qua từng lý do tự nhiên khiến hướng Nam thất bại trước bài kiểm tra nền móng 4F.",
+        "provider_text": "Nếu chỉ đo đường chim bay cho gần trung tâm, lựa chọn đầu tiên dễ nghĩ tới là vùng đất còn thoáng ở phía Nam và Tây Nam như Nhà Bè, Bình Chánh hay Cần Giờ, cách lõi phố hai mươi đến ba mươi ki lô mét. Nhưng bật lớp địa chất lên bản đồ, toàn bộ hướng Nam lập tức bị gạch đỏ. Vùng này nằm trên nền trũng châu thổ sông Sài Gòn Đồng Nai, cao độ thấp, chịu thủy triều và lớp bùn sét hữu cơ yếu dày hàng chục mét. Đặt bốn đường băng dài bốn ki lô mét chịu tải tàu bay hơn năm trăm tấn lên nền bùn yếu vừa đội chi phí xử lý, vừa đối diện rủi ro lún lệch và chạm vùng sinh quyển Cần Giờ."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Tia radar quét xuống góc phần tư Nam – Tây Nam qua Bình Chánh, Nhà Bè và Cần Giờ (20–30 km).",
+          "timestamp_seconds": 265.84
+        },
+        {
+          "type": "diagram",
+          "description": "Bật lớp bản đồ địa chất: toàn bộ vùng hạ lưu trũng sông Sài Gòn – Đồng Nai chuyển cảnh báo đỏ.",
+          "timestamp_seconds": 273.84
+        },
+        {
+          "type": "animation",
+          "description": "Sa bàn 3D cắt đứng nền đất: tầng bùn sét hữu cơ mềm lún dưới tải đường băng 4.000 m (>500 tấn).",
+          "timestamp_seconds": 282.34
+        },
+        {
+          "type": "overlay",
+          "description": "Dấu X đỏ loại trừ hướng Nam kèm ranh giới Khu dự trữ sinh quyển Cần Giờ.",
+          "timestamp_seconds": 290.84
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://tapchihangkhong.vn/"
+    },
+    {
+      "id": "s10",
+      "label": "Chương 3.2 — Loại trừ cự ly gần Đông Bắc: Kín đặc đô thị & vùng bay quân sự Biên Hòa",
+      "text": "Quay radar sang hướng đất cao phía Đông Bắc trong bán kính mười lăm đến hai mươi lăm ki lô mét cũng đụng hai bức tường chắn lớn. Thứ nhất, dải thành phố Thủ Đức, Dĩ An, Thuận An tới Biên Hòa đã đô thị hóa công nghiệp kín đặc, không còn quỹ đất trống liền khối năm nghìn héc ta. Thứ hai và đặc biệt nhạy cảm là an toàn bầu trời: ngay phía Bắc hành lang này đã có sân bay quân sự Biên Hòa giữ vai trò quốc phòng trọng yếu. Nếu đặt siêu sân bay dân dụng quá gần trong vành đai hai mươi lăm cây số, phễu hạ cánh thương mại sẽ đan chéo vào cả vùng bay Biên Hòa lẫn không lưu Tân Sơn Nhất.",
+      "start_seconds": 288.79,
+      "end_seconds": 322.04,
+      "speaker_directions": "Giữ nhịp khẩn trương, giải thích mạch lạc hai rào cản chồng lên nhau ở vành đai 15–25 km.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "focused",
+        "emphasis_words": [
+          "đô thị hóa kín đặc",
+          "sân bay quân sự Biên Hòa",
+          "đan chéo không lưu"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhấn rõ vùng trời Biên Hòa để thấy bài toán vị trí là giao điểm của cả mặt đất lẫn bầu trời.",
+        "provider_text": "Quay ra đa sang hướng đất cao phía Đông Bắc trong bán kính mười lăm đến hai mươi lăm ki lô mét cũng đụng hai bức tường chắn lớn. Thứ nhất, dải thành phố Thủ Đức, Dĩ An, Thuận An tới Biên Hòa đã đô thị hóa công nghiệp kín đặc, không còn quỹ đất trống liền khối năm nghìn héc ta. Thứ hai và đặc biệt nhạy cảm là an toàn bầu trời: ngay phía Bắc hành lang này đã có sân bay quân sự Biên Hòa giữ vai trò quốc phòng trọng yếu. Nếu đặt siêu sân bay dân dụng quá gần trong vành đai hai mươi lăm cây số, phễu hạ cánh thương mại sẽ đan chéo vào cả vùng bay Biên Hòa lẫn không lưu Tân Sơn Nhất."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Vòng radar xoay sang hướng Đông Bắc (vành đai 15–25 km: Thủ Đức – Dĩ An – Biên Hòa).",
+          "timestamp_seconds": 301.08
+        },
+        {
+          "type": "broll",
+          "description": "Mặt bằng vệ tinh khu công nghiệp và khu dân cư dày đặc dọc xa lộ Hà Nội – Biên Hòa.",
+          "timestamp_seconds": 309.58
+        },
+        {
+          "type": "diagram",
+          "description": "Bật vòng kiểm soát không lưu quân sự Biên Hòa giao cắt đỏ với phễu bay giả định <25 km.",
+          "timestamp_seconds": 317.58
+        },
+        {
+          "type": "stat_card",
+          "description": "Đóng dấu loại trừ vành đai cận đô: KÍN ĐẤT SẠCH + XUNG ĐỘT KHÔNG LƯU.",
+          "timestamp_seconds": 325.58
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://tapchihangkhong.vn/"
+    },
+    {
+      "id": "s11",
+      "label": "Chương 3.3 — Điểm rơi vàng ở km 40 tại Bình Sơn: Thềm đất đỏ bazan và cửa trời mở",
+      "text": "Chỉ khi tia radar vươn ra mốc khoảng bốn mươi ki lô mét về phía Đông, dừng tại cao nguyên thoai thoải xã Bình Sơn, huyện Long Thành, tỉnh Đồng Nai, cả ba ổ khóa kỹ thuật mới đồng loạt mở ra. Về địa chất, đây là thềm đất đỏ bazan cổ cao ráo, chịu tải vượt trội và hoàn toàn thoát ngập triều. Về mặt bằng, vùng này vốn là nông trường cao su bạt ngàn ít dân cư, giúp giải tỏa gọn một khối liền mạch năm nghìn héc ta. Còn trên bầu trời, trục đường băng tại Bình Sơn mở hướng thoáng đãng, không cắt qua cao ốc Sài Gòn và tách biệt an toàn khỏi vùng bay Biên Hòa lẫn Tân Sơn Nhất.",
+      "start_seconds": 322.04,
+      "end_seconds": 355.93,
+      "speaker_directions": "Mở giọng sáng hơn khi cả 3 ổ khóa (địa chất, mặt bằng, không lưu) đồng loạt mở ra tại Bình Sơn.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "breakthrough",
+        "emphasis_words": [
+          "ba ổ khóa kỹ thuật",
+          "đất đỏ bazan",
+          "nông trường cao su",
+          "tách biệt an toàn"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhấn nhịp 'Về địa chất... Về mặt bằng... Còn trên bầu trời...' thật gọn để người xem nắm trọn logic 40 km.",
+        "provider_text": "Chỉ khi tia ra đa vươn ra mốc khoảng bốn mươi ki lô mét về phía Đông, dừng tại cao nguyên thoai thoải xã Bình Sơn, huyện Long Thành, tỉnh Đồng Nai, cả ba ổ khóa kỹ thuật mới đồng loạt mở ra. Về địa chất, đây là thềm đất đỏ ba dan cổ cao ráo, chịu tải vượt trội và hoàn toàn thoát ngập triều. Về mặt bằng, vùng này vốn là nông trường cao su bạt ngàn ít dân cư, giúp giải tỏa gọn một khối liền mạch năm nghìn héc ta. Còn trên bầu trời, trục đường băng tại Bình Sơn mở hướng thoáng đãng, không cắt qua cao ốc Sài Gòn và tách biệt an toàn khỏi vùng bay Biên Hòa lẫn Tân Sơn Nhất."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Vòng radar đẩy qua mốc 25 km tới 40 km và khóa sáng xanh ngọc tại Bình Sơn – Long Thành.",
+          "timestamp_seconds": 335.05
+        },
+        {
+          "type": "diagram",
+          "description": "Lát cắt địa chất 3D Isometric: thềm đất đỏ bazan cổ màu cam đất cao ráo, không ngập triều.",
+          "timestamp_seconds": 343.05
+        },
+        {
+          "type": "broll",
+          "description": "Ảnh thực địa mảng cao su & công trường Long Thành xác nhận quỹ đất liền khoảnh 5.000 ha.",
+          "timestamp_seconds": 351.05
+        },
+        {
+          "type": "stat_card",
+          "description": "Khớp trọn 3 chốt xanh: ĐẤT BAZAN CỨNG • MẶT BẰNG LIỀN KHỐI • CỬA TRỜI ĐỘC LẬP.",
+          "timestamp_seconds": 359.05
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://tapchihangkhong.vn/"
+    },
+    {
+      "id": "s12",
+      "label": "Chương 3.4 — Tọa độ trung tâm của tam giác công nghiệp TP.HCM – Đồng Nai – Cái Mép",
+      "text": "Càng thu nhỏ bản đồ ở tầm liên vùng, bạn càng thấy Long Thành không hề bị đẩy ra rìa, mà lại ngồi ngay tâm điểm kết nối của cực tăng trưởng phía Nam. Hãy nhìn vào tam giác trên màn hình: phía Tây là trung tâm Thành phố Hồ Chí Minh cách khoảng bốn mươi ki lô mét; xung quanh là thủ phủ khu công nghiệp của Đồng Nai và Bình Dương; còn xuôi xuống phía Nam chỉ khoảng ba mươi đến ba mươi lăm ki lô mét là cụm cảng nước sâu Cái Mép – Thị Vải đón siêu tàu đi thẳng Mỹ và châu Âu. Khi cảng hàng không lớn nhất gặp cảng biển nước sâu trong bán kính nửa giờ xe chạy, tọa độ ấy trở thành cửa ngõ logistics Sea – Air vô song.",
+      "start_seconds": 355.93,
+      "end_seconds": 389.96,
+      "speaker_directions": "Tạo cảm giác 'à ra là thế' khi nối hình tam giác TP.HCM – Đồng Nai/Bình Dương – Cái Mép Thị Vải.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "insightful",
+        "emphasis_words": [
+          "tâm điểm kết nối",
+          "Cái Mép – Thị Vải",
+          "30–35 km",
+          "nửa giờ xe chạy"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhấn liên kết cảng nước sâu Cái Mép (tiền đề cho Tập 3) và chuỗi logistics đa phương thức.",
+        "provider_text": "Càng thu nhỏ bản đồ ở tầm liên vùng, bạn càng thấy Long Thành không hề bị đẩy ra rìa, mà lại ngồi ngay tâm điểm kết nối của cực tăng trưởng phía Nam. Hãy nhìn vào tam giác trên màn hình: phía Tây là trung tâm thành phố Hồ Chí Minh cách khoảng bốn mươi ki lô mét; xung quanh là thủ phủ khu công nghiệp của Đồng Nai và Bình Dương; còn xuôi xuống phía Nam chỉ khoảng ba mươi đến ba mươi lăm ki lô mét là cụm cảng nước sâu Cái Mép Thị Vải đón siêu tàu đi thẳng Mỹ và châu Âu. Khi cảng hàng không lớn nhất gặp cảng biển nước sâu trong bán kính nửa giờ xe chạy, tọa độ ấy trở thành cửa ngõ lô gít tíc biển và hàng không vô song."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Thu camera lên góc 52° toàn vùng Đông Nam Bộ lộ rõ vị trí trọng tâm của Long Thành.",
+          "timestamp_seconds": 368.0
+        },
+        {
+          "type": "diagram",
+          "description": "Vẽ tam giác kết nối 3 cực phát sáng quanh Long Thành: TP.HCM (40 km) – Bình Dương/Đồng Nai – Cái Mép (30–35 km).",
+          "timestamp_seconds": 376.0
+        },
+        {
+          "type": "broll",
+          "description": "Ảnh cụm cảng nước sâu Cái Mép – Thị Vải (mồi nối tự nhiên sang chủ đề Tập 3).",
+          "timestamp_seconds": 384.5
+        },
+        {
+          "type": "stat_card",
+          "description": "Đóng dấu trung tâm: TRỤC LOGISTICS SEA–AIR TRONG BÁN KÍNH ~30 PHÚT.",
+          "timestamp_seconds": 392.0
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://baochinhphu.vn/"
+    },
+    {
+      "id": "s13",
+      "label": "Chương 4.1 — Hero Moment 1:1: Nhấc trọn 791 ha Tân Sơn Nhất đặt vào 5.000 ha Long Thành",
+      "text": "Để thấy rõ vì sao Long Thành không thể nhét vừa vào nội thành, hãy thực hiện phép chồng bản đồ đúng tỷ lệ một một ngay trên vệ tinh. Khối màu đỏ đang nổi lên là toàn bộ bảy trăm chín mươi mốt héc ta của sân bay Tân Sơn Nhất. Bây giờ, hãy nhấc nguyên toàn khu sân bay sầm uất nhất cả nước ấy đặt vào giữa vùng ranh giới năm nghìn héc ta của Long Thành. Toàn bộ Tân Sơn Nhất lập tức nằm lọt thỏm chưa tới một phần sáu không gian, bởi Long Thành rộng gấp tới sáu phẩy ba lần. Cần mặt bằng lớn hơn sáu sân bay cũ ghép lại mới đủ chỗ cho bốn đường băng độc lập, cụm nhà ga hoa sen, khu bảo dưỡng và ga hàng hóa.",
+      "start_seconds": 389.96,
+      "end_seconds": 424.77,
+      "speaker_directions": "Sample section đinh của Tập 2: chậm rãi, giàu kịch tính thị giác khi khối 791 ha bay sang lọt thỏm trong 5.000 ha.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "dramatic_climax",
+        "emphasis_words": [
+          "tỷ lệ 1:1",
+          "lọt thỏm",
+          "6,3 lần",
+          "5.000 ha"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhấn mạnh phép so sánh trực quan '6,3 lần' bằng nhịp dừng tự nhiên trước câu giải thích cuối.",
+        "provider_text": "Để thấy rõ vì sao Long Thành không thể nhét vừa vào nội thành, hãy thực hiện phép chồng bản đồ đúng tỷ lệ một một ngay trên vệ tinh. Khối màu đỏ đang nổi lên là toàn bộ bảy trăm chín mươi mốt héc ta của sân bay Tân Sơn Nhất. Bây giờ, hãy nhấc nguyên toàn khu sân bay sầm uất nhất cả nước ấy đặt vào giữa vùng ranh giới năm nghìn héc ta của Long Thành. Toàn bộ Tân Sơn Nhất lập tức nằm lọt thỏm chưa tới một phần sáu không gian, bởi Long Thành rộng gấp tới sáu phẩy ba lần. Cần mặt bằng lớn hơn sáu sân bay cũ ghép lại mới đủ chỗ cho bốn đường băng độc lập, cụm nhà ga hoa sen, khu bảo dưỡng và ga hàng hóa."
+      },
+      "enhancement_cues": [
+        {
+          "type": "diagram",
+          "description": "Đưa đa giác ranh giới đỏ Tân Sơn Nhất (791 ha) lên vệ tinh z14 giữ nguyên tỷ lệ 1:1.",
+          "timestamp_seconds": 404.01
+        },
+        {
+          "type": "animation",
+          "description": "Nhấc khối 791 ha bay sang đặt lọt thỏm vào giữa đa giác xanh ngọc 5.000 ha Long Thành.",
+          "timestamp_seconds": 412.01
+        },
+        {
+          "type": "stat_card",
+          "description": "Bật bộ đếm chênh lệch: 791 HA VS 5.000 HA = GẤP 6,3 LẦN QUỸ ĐẤT.",
+          "timestamp_seconds": 420.01
+        },
+        {
+          "type": "diagram",
+          "description": "Hiển thị phân khu chức năng bên trong 5.000 ha: 4 đường băng, nhà ga trung tâm, hangar & cargo.",
+          "timestamp_seconds": 427.51
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://vanban.chinhphu.vn/"
+    },
+    {
+      "id": "s14",
+      "label": "Chương 4.2 — Phá bỏ khóa 365 m: Cấu hình mở 4 đường băng dài 4.000 m chuẩn 4F",
+      "text": "Khoảng trống sáu phẩy ba lần đó trực tiếp phá bỏ hoàn toàn chiếc khóa ba trăm sáu mươi lăm mét năm nào. Quy hoạch Long Thành mở rộng tới bốn đường cất hạ cánh tiêu chuẩn dài bốn nghìn mét, rộng sáu mươi mét đạt cấp bốn F, tách thành hai cặp ở hai phía Bắc và Nam nhà ga trung tâm. Nhờ kéo dãn hai cụm đường băng sang hai cánh của khu đất rộng hàng nghìn mét, khoảng cách giữa đường băng cánh Bắc và cánh Nam vượt xa ngưỡng an toàn hai ki lô mét. Những siêu tàu bay thân rộng lớn nhất như Airbus A380 hay Boeing 747, 777 có thể cất cánh và hạ cánh song song độc lập hoàn toàn mà không phải chờ đợi nhau.",
+      "start_seconds": 424.77,
+      "end_seconds": 459.77,
+      "speaker_directions": "Nhấn đối xứng 'phía Bắc – phía Nam' và 'độc lập hoàn toàn', tạo khí thế bứt phá công trình.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "powerful",
+        "emphasis_words": [
+          "4 đường băng 4.000 m",
+          "hai cánh Bắc – Nam",
+          "độc lập hoàn toàn"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Để nhịp mượt qua tên các dòng tàu bay thân rộng Airbus A380, Boeing 747, 777.",
+        "provider_text": "Khoảng trống sáu phẩy ba lần đó trực tiếp phá bỏ hoàn toàn chiếc khóa ba trăm sáu mươi lăm mét năm nào. Quy hoạch Long Thành mở rộng tới bốn đường cất hạ cánh tiêu chuẩn dài bốn nghìn mét, rộng sáu mươi mét đạt cấp bốn ép, tách thành hai cặp ở hai phía Bắc và Nam nhà ga trung tâm. Nhờ kéo dãn hai cụm đường băng sang hai cánh của khu đất rộng hàng nghìn mét, khoảng cách giữa đường băng cánh Bắc và cánh Nam vượt xa ngưỡng an toàn hai ki lô mét. Những siêu tàu bay thân rộng lớn nhất như E bớt a ba trăm tám mươi hay Bô inh bảy bốn bảy, bảy bảy bảy có thể cất cánh và hạ cánh song song độc lập hoàn toàn mà không phải chờ đợi nhau."
+      },
+      "enhancement_cues": [
+        {
+          "type": "diagram",
+          "description": "Sơ đồ trục 4 đường băng 4.000 m × 60 m chia đôi thành cụm Bắc và cụm Nam nhà ga trung tâm.",
+          "timestamp_seconds": 440.02
+        },
+        {
+          "type": "stat_card",
+          "description": "Đo khoảng cách cách ly giữa hai cánh đường băng >2.000 m — gấp hơn 5 lần ngưỡng 365 m.",
+          "timestamp_seconds": 448.02
+        },
+        {
+          "type": "animation",
+          "description": "Hai luồng tàu bay Code F (Airbus A380 & Boeing 747/777) cất – hạ cánh đồng thời độc lập.",
+          "timestamp_seconds": 456.02
+        },
+        {
+          "type": "overlay",
+          "description": "Nhãn tiêu chuẩn cao nhất ICAO: CẤP 4F • PHÁ BỎ VĨNH VIỄN KHÓA KHÔNG LƯU 365 M.",
+          "timestamp_seconds": 463.52
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://tapchihangkhong.vn/"
+    },
+    {
+      "id": "s15",
+      "label": "Chương 4.3 — Hồ sơ Nghị quyết 174 (11/2024): Xây ngay 2 đường băng trong Giai đoạn 1",
+      "text": "Bước ngoặt quan trọng nhất trước thềm khai thác cũng được ghi trong hồ sơ lập pháp mới: Nghị quyết số 174 ngày 30 tháng 11 năm 2024 của Quốc hội. Theo kế hoạch cũ, Giai đoạn 1 chỉ làm trước một đường băng. Nhưng để chủ động dự phòng khi khai thác, Quốc hội đã thông qua việc xây ngay đường cất hạ cánh thứ hai ở phía Bắc song song đường băng số một ngay trong Giai đoạn 1, ấn định mốc hoàn thành chậm nhất cuối năm 2026. Nhờ mặt bằng đã san lấp sẵn sàng trong lõi năm nghìn héc ta, Long Thành ngay ngày mở cửa đã đạt công suất hai mươi lăm triệu khách và một phẩy hai triệu tấn hàng hóa mỗi năm.",
+      "start_seconds": 459.77,
+      "end_seconds": 494.49,
+      "speaker_directions": "Đọc dứt khoát văn bản pháp lý mới, tô sáng tính chủ động kỹ thuật nhờ quỹ đất đã có sẵn.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "authoritative",
+        "emphasis_words": [
+          "Nghị quyết 174",
+          "2 đường băng",
+          "Giai đoạn 1",
+          "cuối năm 2026"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Khớp thời điểm chốt số Giai đoạn 1 với ảnh thực địa công trường đường băng & nhà ga hoa sen.",
+        "provider_text": "Bước ngoặt quan trọng nhất trước thềm khai thác cũng được ghi trong hồ sơ lập pháp mới: Nghị quyết số một trăm bảy mươi tư ngày ba mươi tháng mười một năm hai nghìn không trăm hai mươi tư của Quốc hội. Theo kế hoạch cũ, giai đoạn một chỉ làm trước một đường băng. Nhưng để chủ động dự phòng khi khai thác, Quốc hội đã thông qua việc xây ngay đường cất hạ cánh thứ hai ở phía Bắc song song đường băng số một ngay trong giai đoạn một, ấn định mốc hoàn thành chậm nhất cuối năm hai nghìn không trăm hai mươi sáu. Nhờ mặt bằng đã san lấp sẵn sàng trong lõi năm nghìn héc ta, Long Thành ngay ngày mở cửa đã đạt công suất hai mươi lăm triệu khách và một phẩy hai triệu tấn hàng hóa mỗi năm."
+      },
+      "enhancement_cues": [
+        {
+          "type": "overlay",
+          "description": "Hồ sơ Nghị quyết 174/2024/QH15 (30/11/2024) trượt nghiêng nổi bật vào khung hình.",
+          "timestamp_seconds": 474.5
+        },
+        {
+          "type": "animation",
+          "description": "Quét bút dạ vàng lên điều khoản bổ sung đường CHC số 2 phía Bắc & mốc chậm nhất 31/12/2026.",
+          "timestamp_seconds": 483.0
+        },
+        {
+          "type": "diagram",
+          "description": "Chuyển đường băng số 3 từ nét đứt sang nét liền xanh ngọc trên vệ tinh z14 Long Thành.",
+          "timestamp_seconds": 491.0
+        },
+        {
+          "type": "broll",
+          "description": "Ảnh thực địa đại công trường Giai đoạn 1 (25 triệu khách & 1,2 triệu tấn hàng/năm).",
+          "timestamp_seconds": 498.5
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://acv.vn/"
+    },
+    {
+      "id": "s16",
+      "label": "Chương 4.4 — Soi bản đồ thế giới: Vì sao siêu sân bay đều lùi 30–60 km ngoài nội đô?",
+      "text": "Nếu vẫn thấy bốn mươi ki lô mét từ Sài Gòn ra Long Thành là xa, hãy đối chiếu bản đồ với những đại đô thị hàng không thành công nhất châu Á. Sân bay Suvarnabhumi của Bangkok cách trung tâm khoảng ba mươi ki lô mét; sân bay Phố Đông của Thượng Hải cách lõi phố khoảng ba mươi đến bốn mươi cây số; Incheon của Seoul nằm ngoài đảo cách trung tâm gần năm mươi ki lô mét; còn Narita của Tokyo thậm chí xa khoảng sáu mươi ki lô mét. Khi các thành phố vượt ngưỡng mười triệu dân, sân bay cấp bốn F đều phải bước ra vòng ngoài. Nhưng mọi cảng hàng không ấy đều chung một bí quyết: cự ly xa chỉ an toàn khi có đường ống tốc độ cao.",
+      "start_seconds": 494.49,
+      "end_seconds": 531.43,
+      "speaker_directions": "Đọc hào hứng, mạch lạc qua từng mốc so sánh Bangkok, Thượng Hải, Seoul, Tokyo; nhấn mạnh câu chốt mở sang Chương 5.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "worldview_expansion",
+        "emphasis_words": [
+          "Suvarnabhumi ~30 km",
+          "Incheon ~50 km",
+          "Narita ~60 km",
+          "đường ống tốc độ cao"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Cụm 'đường ống tốc độ cao' dắt thẳng người xem vào nỗi lo lớn nhất: làm sao đi hết 40 km đó.",
+        "provider_text": "Nếu vẫn thấy bốn mươi ki lô mét từ Sài Gòn ra Long Thành là xa, hãy đối chiếu bản đồ với những đại đô thị hàng không thành công nhất châu Á. Sân bay Xu va na bu mi của Băng Cốc cách trung tâm khoảng ba mươi ki lô mét; sân bay Phố Đông của Thượng Hải cách lõi phố khoảng ba mươi đến bốn mươi cây số; In chơn của Xơ un nằm ngoài đảo cách trung tâm gần năm mươi ki lô mét; còn Na ri ta của Tô ky ô thậm chí xa khoảng sáu mươi ki lô mét. Khi các thành phố vượt ngưỡng mười triệu dân, sân bay cấp bốn ép đều phải bước ra vòng ngoài. Nhưng mọi cảng hàng không ấy đều chung một bí quyết: cự ly xa chỉ an toàn khi có đường ống tốc độ cao."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Mở bản đồ Đông Á – Đông Nam Á nối vòng cung tới Bangkok, Thượng Hải, Seoul và Tokyo.",
+          "timestamp_seconds": 508.21
+        },
+        {
+          "type": "stat_card",
+          "description": "Biểu đồ thanh cự ly tới trung tâm: Suvarnabhumi (~30 km) • Phố Đông (~35 km) • Long Thành (~40 km).",
+          "timestamp_seconds": 516.71
+        },
+        {
+          "type": "stat_card",
+          "description": "Mở rộng so sánh với Incheon (~48 km) & Narita (~60 km) của các siêu đô thị >10 triệu dân.",
+          "timestamp_seconds": 524.71
+        },
+        {
+          "type": "overlay",
+          "description": "Câu khóa chuyển sang Chương 5: KHOẢNG CÁCH 40 KM ĐÒI HỎI ĐƯỜNG ỐNG TỐC ĐỘ CAO.",
+          "timestamp_seconds": 533.21
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://vnexpress.net/"
+    },
+    {
+      "id": "s17",
+      "label": "Chương 5.1 — Nỗi lo cao tốc 4 làn cũ & đại mạng lưới đường bộ 8–10 làn",
+      "text": "Đó chính là nỗi lo có thật của người dân: nhiều năm qua, cao tốc Thành phố Hồ Chí Minh – Long Thành – Dầu Giây với bốn làn xe đã thường xuyên ùn tắc. Nếu dồn thêm hàng chục triệu hành khách lên một tuyến độc đạo, bốn mươi cây số sẽ thành hai ba giờ chờ đợi. Lời giải hạ tầng đang được mở khóa bằng bốn hướng đường bộ cùng lúc: mở rộng trục cao tốc huyết mạch lên tám và mười làn xe kèm thêm một đơn nguyên cầu Long Thành mới; khép Vành đai 3 qua cầu Nhơn Trạch; thông tuyến Bến Lức – Long Thành để khách miền Tây đi thẳng không phải xuyên nội đô Sài Gòn; và nối cao tốc Biên Hòa – Vũng Tàu.",
+      "start_seconds": 531.43,
+      "end_seconds": 563.89,
+      "speaker_directions": "Thừa nhận thẳng nỗi lo tắc cao tốc 4 làn, sau đó tăng nhịp từng bước khi bật sáng cả 4 hành lang cao tốc.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "momentum",
+        "emphasis_words": [
+          "8 và 10 làn xe",
+          "Vành đai 3",
+          "Bến Lức – Long Thành",
+          "Biên Hòa – Vũng Tàu"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhấn rõ lợi ích miền Tây đi thẳng Bến Lức – Long Thành không cần chen qua nội đô Sài Gòn.",
+        "provider_text": "Đó chính là nỗi lo có thật của người dân: nhiều năm qua, cao tốc thành phố Hồ Chí Minh Long Thành Dầu Giây với bốn làn xe đã thường xuyên ùn tắc. Nếu dồn thêm hàng chục triệu hành khách lên một tuyến độc đạo, bốn mươi cây số sẽ thành hai ba giờ chờ đợi. Lời giải hạ tầng đang được mở khóa bằng bốn hướng đường bộ cùng lúc: mở rộng trục cao tốc huyết mạch lên tám và mười làn xe kèm thêm một đơn nguyên cầu Long Thành mới; khép Vành đai ba qua cầu Nhơn Trạch; thông tuyến Bến Lức Long Thành để khách miền Tây đi thẳng không phải xuyên nội đô Sài Gòn; và nối cao tốc Biên Hòa Vũng Tàu."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Tô đỏ đoạn nghẽn 4 làn cao tốc TP.HCM – Long Thành – Dầu Giây vượt cầu Long Thành.",
+          "timestamp_seconds": 543.71
+        },
+        {
+          "type": "diagram",
+          "description": "Mở rộng phát sáng trục huyết mạch lên 8–10 làn xe + Vành đai 3 qua cầu Nhơn Trạch.",
+          "timestamp_seconds": 552.21
+        },
+        {
+          "type": "broll",
+          "description": "Ảnh thực địa cầu Nhơn Trạch / nút giao Vành đai 3 kết nối TP.HCM sang Đồng Nai.",
+          "timestamp_seconds": 560.21
+        },
+        {
+          "type": "animation",
+          "description": "Vẽ tuyến Bến Lức – Long Thành (đón khách miền Tây) & Biên Hòa – Vũng Tàu xóa thế độc đạo.",
+          "timestamp_seconds": 568.21
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://dantri.com.vn/"
+    },
+    {
+      "id": "s18",
+      "label": "Chương 5.2 — Đường sắt Thủ Thiêm – Long Thành 120 km/h: Biến 40 km thành ~20 phút",
+      "text": "Nhưng mảnh ghép quyết định biến bốn mươi ki lô mét thành cự ly quen thuộc nằm trên một đường ray chuyên biệt: tuyến đường sắt Thủ Thiêm – Long Thành. Theo hồ sơ nghiên cứu cập nhật mới nhất, tuyến đường sắt này dài khoảng bốn mươi sáu đến gần bốn mươi tám ki lô mét, gồm hơn mười một ki lô mét đi ngầm và hơn ba mươi bốn ki lô mét trên cao, xuất phát từ ga Thủ Thiêm chạy dọc hành lang cao tốc thẳng vào nhà ga sân bay Long Thành. Với tốc độ thiết kế đạt một trăm hai mươi ki lô mét trên giờ và không gặp giao cắt đèn đỏ, thời gian di chuyển từ cửa ngõ phía Đông Thành phố Hồ Chí Minh ra tới sảnh bay chỉ còn khoảng hai mươi đến hai mươi lăm phút.",
+      "start_seconds": 563.89,
+      "end_seconds": 597.75,
+      "speaker_directions": "Đọc mượt, phấn chấn khi đoàn tàu lướt dọc đường ray vàng hổ phách từ Thủ Thiêm thẳng vào ga Long Thành.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "climax_relief",
+        "emphasis_words": [
+          "Thủ Thiêm – Long Thành",
+          "120 km/h",
+          "20 đến 25 phút"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhấn bật con số ~20–25 phút — cú lật giải tỏa hoàn toàn nỗi lo địa lý 40 km.",
+        "provider_text": "Nhưng mảnh ghép quyết định biến bốn mươi ki lô mét thành cự ly quen thuộc nằm trên một đường ray chuyên biệt: tuyến đường sắt Thủ Thiêm Long Thành. Theo hồ sơ nghiên cứu cập nhật mới nhất, tuyến đường sắt này dài khoảng bốn mươi sáu đến gần bốn mươi tám ki lô mét, gồm hơn mười một ki lô mét đi ngầm và hơn ba mươi bốn ki lô mét trên cao, xuất phát từ ga Thủ Thiêm chạy dọc hành lang cao tốc thẳng vào nhà ga sân bay Long Thành. Với tốc độ thiết kế đạt một trăm hai mươi ki lô mét trên giờ và không gặp giao cắt đèn đỏ, thời gian di chuyển từ cửa ngõ phía Đông thành phố Hồ Chí Minh ra tới sảnh bay chỉ còn khoảng hai mươi đến hai mươi lăm phút."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Vẽ tuyến đường sắt nét đứt vàng hổ phách 46,4–47,7 km từ ga Thủ Thiêm (TP. Thủ Đức) ra Long Thành.",
+          "timestamp_seconds": 578.19
+        },
+        {
+          "type": "diagram",
+          "description": "Hiển thị phân đoạn kỹ thuật >11 km đi ngầm và >34 km cầu cạn trên cao vượt sông Đồng Nai.",
+          "timestamp_seconds": 586.69
+        },
+        {
+          "type": "stat_card",
+          "description": "Đồng hồ so sánh 1:1: Ô TÔ KẸT XE ~90 PHÚT vs TÀU 120 KM/H CHỈ ~20–25 PHÚT.",
+          "timestamp_seconds": 595.19
+        },
+        {
+          "type": "broll",
+          "description": "Ảnh thực địa tàu đường sắt đô thị trên cao (hình mẫu kết nối hành lang phía Đông TP.HCM).",
+          "timestamp_seconds": 603.19
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://vnexpress.net/"
+    },
+    {
+      "id": "s19",
+      "label": "Chương 5.3 — Cặp sân bay song hành 150 triệu khách: Không bỏ Tân Sơn Nhất",
+      "text": "Ở đoạn kết bài toán quy hoạch, cũng cần xóa bỏ nốt hiểu lầm rằng xây Long Thành đồng nghĩa với việc đóng cửa Tân Sơn Nhất. Ngược lại, khu vực Thành phố Hồ Chí Minh sẽ vận hành cặp sân bay song hành tương tự Haneda – Narita của Tokyo hay Gimpo – Incheon của Seoul. Tân Sơn Nhất với ba nhà ga sát trung tâm vẫn đảm nhận mạng đường bay nội địa mật độ cao và quốc tế tầm ngắn quanh mức năm mươi triệu khách mỗi năm. Còn Long Thành ngoài bán kính bốn mươi ki lô mét sẽ gánh toàn bộ các đường bay xuyên lục địa tầm xa, đội tàu bay thân rộng bốn trăm ghế và trung tâm hàng hóa đạt trần quy hoạch một trăm triệu khách.",
+      "start_seconds": 597.75,
+      "end_seconds": 631.76,
+      "speaker_directions": "Giọng tổng kết đĩnh đạc, cho thấy hai sân bay bổ trợ chứ không triệt tiêu lẫn nhau.",
+      "delivery_cues": {
+        "pace": "conversational",
+        "energy": "strategic_synthesis",
+        "emphasis_words": [
+          "cặp sân bay song hành",
+          "50 triệu nội địa",
+          "100 triệu quốc tế"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nối 50 triệu TSN + 100 triệu Long Thành thành một hệ sinh thái 150 triệu khách phía Nam.",
+        "provider_text": "Ở đoạn kết bài toán quy hoạch, cũng cần xóa bỏ nốt hiểu lầm rằng xây Long Thành đồng nghĩa với việc đóng cửa Tân Sơn Nhất. Ngược lại, khu vực thành phố Hồ Chí Minh sẽ vận hành cặp sân bay song hành tương tự Ha nê đa Na ri ta của Tô ky ô hay Gim pô In chơn của Xơ un. Tân Sơn Nhất với ba nhà ga sát trung tâm vẫn đảm nhận mạng đường bay nội địa mật độ cao và quốc tế tầm ngắn quanh mức năm mươi triệu khách mỗi năm. Còn Long Thành ngoài bán kính bốn mươi ki lô mét sẽ gánh toàn bộ các đường bay xuyên lục địa tầm xa, đội tàu bay thân rộng bốn trăm ghế và trung tâm hàng hóa đạt trần quy hoạch một trăm triệu khách."
+      },
+      "enhancement_cues": [
+        {
+          "type": "overlay",
+          "description": "Phá bỏ chữ HIỂU LẦM ĐÓNG CỬA TÂN SƠN NHẤT -> chuyển sang cặp đối xứng quốc tế Haneda–Narita / Gimpo–Incheon.",
+          "timestamp_seconds": 615.98
+        },
+        {
+          "type": "diagram",
+          "description": "Phân vai TÂN SƠN NHẤT (~50 triệu khách): đường bay nội địa dày đặc & ASEAN tầm ngắn.",
+          "timestamp_seconds": 624.48
+        },
+        {
+          "type": "animation",
+          "description": "Các đường bay tầm xa xuyên lục địa 400 ghế và đội cargo phóng từ LONG THÀNH (100 triệu khách).",
+          "timestamp_seconds": 632.48
+        },
+        {
+          "type": "stat_card",
+          "description": "Khóa tổng công suất cặp đôi: ~150 TRIỆU HÀNH KHÁCH/NĂM CẠNH NHAU.",
+          "timestamp_seconds": 640.98
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://chinhphu.vn/"
+    },
+    {
+      "id": "s20",
+      "label": "Chương 5.4 — Kết 100 năm trên bản đồ Việt Nam & Gợi mở Tập 3",
+      "text": "Cuối cùng, vì sao sân bay Long Thành cách Thành phố Hồ Chí Minh bốn mươi ki lô mét thực chất là một đáp án địa lý hoàn toàn hợp lý. Công trình không lùi xa vì bất tiện, mà lùi ra bốn mươi cây số để thoát chiếc lồng ba trăm sáu mươi lăm mét chật hẹp, tránh vùng bùn lún phía Nam, tránh giao cắt bầu trời Biên Hòa và mở bốn đường băng bốn ki lô mét cho một trăm năm tới. Từ cảng nước sâu Lạch Huyện ở Hải Phòng tới Long Thành ở Đồng Nai, hạ tầng Việt Nam đều đang bứt khỏi giới hạn cũ. Ở tập sau, bạn muốn chúng tôi giải mã cảng nước sâu Cái Mép – Thị Vải hay câu chuyện cao tốc miền Tây đắt và chậm hơn? Hãy bình luận lựa chọn bên dưới nhé.",
+      "start_seconds": 631.76,
+      "end_seconds": 668.27,
+      "speaker_directions": "Âm lượng vững vàng, đọng lại thông điệp 100 năm và đặt CTA bình chọn tự nhiên ở cuối.",
+      "delivery_cues": {
+        "pace": "measured",
+        "energy": "grand_finale",
+        "emphasis_words": [
+          "thoát chiếc lồng 365 m",
+          "một trăm năm tới",
+          "bứt khỏi giới hạn cũ"
+        ],
+        "pause_before_seconds": 0.15,
+        "pause_after_seconds": 0.55,
+        "delivery_note": "Nhấn kết nối mạch series Lạch Huyện (Tập 1) -> Long Thành (Tập 2) -> Cái Mép / Cao tốc miền Tây (Tập 3).",
+        "provider_text": "Cuối cùng, vì sao sân bay Long Thành cách thành phố Hồ Chí Minh bốn mươi ki lô mét thực chất là một đáp án địa lý hoàn toàn hợp lý. Công trình không lùi xa vì bất tiện, mà lùi ra bốn mươi cây số để thoát chiếc lồng ba trăm sáu mươi lăm mét chật hẹp, tránh vùng bùn lún phía Nam, tránh giao cắt bầu trời Biên Hòa và mở bốn đường băng bốn ki lô mét cho một trăm năm tới. Từ cảng nước sâu Lạch Huyện ở Hải Phòng tới Long Thành ở Đồng Nai, hạ tầng Việt Nam đều đang bứt khỏi giới hạn cũ. Ở tập sau, bạn muốn chúng tôi giải mã cảng nước sâu Cái Mép Thị Vải hay câu chuyện cao tốc miền Tây đắt và chậm hơn? Hãy bình luận lựa chọn bên dưới nhé."
+      },
+      "enhancement_cues": [
+        {
+          "type": "animation",
+          "description": "Kéo camera lùi từ Đông Nam Bộ ra toàn cảnh bản đồ 3D Việt Nam & Biển Đông (Hoàng Sa – Trường Sa của Việt Nam).",
+          "timestamp_seconds": 650.97
+        },
+        {
+          "type": "stat_card",
+          "description": "Bảng tóm tắt 4 con số chốt hạ: 365 M BỊ KHÓA -> LÙI 40 KM -> 5.000 HA (4F) -> ~20 PHÚT ĐƯỜNG SẮT.",
+          "timestamp_seconds": 659.47
+        },
+        {
+          "type": "diagram",
+          "description": "Nối hai điểm sáng hạ tầng thế kỷ: Lạch Huyện (Hải Phòng) ↔ Long Thành (Đồng Nai).",
+          "timestamp_seconds": 667.47
+        },
+        {
+          "type": "overlay",
+          "description": "Thẻ bình chọn Tập 3 cuối video: [1] Cảng Cái Mép – Thị Vải vs [2] Cao tốc Đồng bằng sông Cửu Long.",
+          "timestamp_seconds": 675.47
+        }
+      ],
+      "pronunciation_guides": [
+        {
+          "word": "ICAO",
+          "phonetic": "I cao"
+        },
+        {
+          "word": "4F",
+          "phonetic": "bốn ép"
+        },
+        {
+          "word": "T3",
+          "phonetic": "Tê ba"
+        },
+        {
+          "word": "Airbus A380",
+          "phonetic": "E bớt A ba trăm tám mươi"
+        },
+        {
+          "word": "Boeing 747",
+          "phonetic": "Bô inh bảy bốn bảy"
+        },
+        {
+          "word": "Incheon",
+          "phonetic": "In chơn"
+        },
+        {
+          "word": "Suvarnabhumi",
+          "phonetic": "Xu va na bu mi"
+        },
+        {
+          "word": "Narita",
+          "phonetic": "Na ri ta"
+        }
+      ],
+      "source_ref": "https://vanban.chinhphu.vn/"
+    }
+  ],
+  "metadata": {
+    "total_words": 2652,
+    "total_enhancement_cues": 80,
+    "seconds_per_cue": 8.59,
+    "words_per_second_model": 3.92,
+    "concept_id": "c1",
+    "title_pairing": {
+      "pair_id": "pair_a",
+      "title": "Vì sao sân bay Long Thành phải lùi xa TP.HCM 40km?",
+      "thumbnail_text": "KẸT BẦU TRỜI!",
+      "score": 92
+    },
+    "fact_ledger_status": "unverified",
+    "hook_candidates": [
+      {
+        "rank": 1,
+        "hookscore_verdict": 91,
+        "band": "STRONG",
+        "formula": "The Question + Contrarian Flip",
+        "en_probe": "You think 50 million Terminal T3 capacity stopped the risk, but nobody explains how two 365m runways cost you 40km?",
+        "vi_adaptation": "Nhiều người nghĩ khi Nhà ga T3 Tân Sơn Nhất mở cửa, cảnh kẹt bầu trời của Thành phố Hồ Chí Minh sẽ lập tức hạ nhiệt, nhưng chưa ai chỉ rõ hai đường băng cách nhau 365 m lại buộc Việt Nam xây siêu sân bay mới cách TP.HCM 40 km?"
+      },
+      {
+        "rank": 2,
+        "hookscore_verdict": 81,
+        "band": "STRONG",
+        "formula": "The Question",
+        "en_probe": "Why does your new Terminal T3 never stop 365m Tan Son Nhat runways before Long Thanh risks losing 40km?",
+        "vi_adaptation": "Vì sao có Nhà ga T3 hiện đại rồi mà Tân Sơn Nhất vẫn bị hai đường băng cách nhau 365 m khóa chặt, buộc Long Thành phải lùi xa tới 40 km?"
+      }
+    ]
+  }
+}

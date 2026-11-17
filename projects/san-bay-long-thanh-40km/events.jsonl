@@ -1,0 +1,23 @@
+{"ts": "2026-11-17T02:44:04.110626+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\final.mp4"}
+{"ts": "2026-11-17T03:06:58.313036+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\final.mp4"}
+{"ts": "2026-11-17T03:22:14.649049+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\final.mp4", "success": false, "cost_usd": 0.0, "duration_s": 916.34}
+{"ts": "2026-11-17T03:29:01.586471+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\final.mp4"}
+{"ts": "2026-11-17T03:50:42.562140+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\final.mp4", "success": true, "cost_usd": 0.0, "duration_s": 1300.99}
+{"ts": "2026-11-17T03:51:23.249588+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-17T03:51:29.113188+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 5.86}
+{"ts": "2026-11-17T12:53:08.147473+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-17T12:53:13.363562+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 5.22}
+{"ts": "2026-11-17T13:12:22.573876+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-17T13:12:29.304927+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 6.73}
+{"ts": "2026-11-17T15:07:42.400385+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\final.mp4"}
+{"ts": "2026-11-17T15:37:33.957222+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\final.mp4", "success": true, "cost_usd": 0.0, "duration_s": 1791.56}
+{"ts": "2026-11-17T15:43:32.833702+00:00", "tool": "export_bundle", "event": "start"}
+{"ts": "2026-11-17T15:43:39.695891+00:00", "tool": "export_bundle", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 6.86}
+{"ts": "2026-11-17T16:35:08.664572+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\demo_openmotion_57s.mp4"}
+{"ts": "2026-11-17T16:40:21.657526+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\demo_openmotion_57s.mp4", "success": true, "cost_usd": 0.0, "duration_s": 312.98}
+{"ts": "2026-11-17T17:19:52.014877+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\demo_openmotion_map_57s.mp4"}
+{"ts": "2026-11-17T17:22:14.522897+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\demo_openmotion_map_57s.mp4", "success": true, "cost_usd": 0.0, "duration_s": 142.52}
+{"ts": "2026-11-17T17:52:40.961424+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\demo_skill_moi_57s.mp4"}
+{"ts": "2026-11-17T17:55:09.016549+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\demo_skill_moi_57s.mp4", "success": true, "cost_usd": 0.0, "duration_s": 148.06}
+{"ts": "2026-11-17T18:07:13.142129+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\demo_skill_moi_zoom_57s.mp4"}
+{"ts": "2026-11-17T18:09:51.032479+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\renders\\demo_skill_moi_zoom_57s.mp4", "success": true, "cost_usd": 0.0, "duration_s": 157.89}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "title": "Demo SKILL.md Tinh Gọn + Câu Đầu Zoom Từ Bản Đồ Xa Nhất z4 -> z14",
+  "scenes": [
+    {
+      "id": "demo_d1",
+      "start_seconds": 0.0,
+      "end_seconds": 11.45,
+      "label": "D1 — Orbital Wide-to-Macro Zoom (z4 Việt Nam & Biển Đông -> TP.HCM -> z14 Tân Sơn Nhất 365 M)"
+    },
+    {
+      "id": "demo_d2",
+      "start_seconds": 11.45,
+      "end_seconds": 23.45,
+      "label": "D2 — Biểu đồ cột 3D T3 50tr vs Trần 38-40tr trực tiếp trên vệ tinh z14 + Bài báo VnExpress T3"
+    },
+    {
+      "id": "demo_d3",
+      "start_seconds": 23.45,
+      "end_seconds": 38.65,
+      "label": "D3 — Zone fill sạch 3 hướng bác bỏ + RadarRangeFan + Tia 40 km Bình Sơn + Bài báo Long Thành"
+    },
+    {
+      "id": "demo_d4",
+      "start_seconds": 38.65,
+      "end_seconds": 57.4,
+      "label": "D4 — Đường sắt 120 km/h sạch + Phép đặt 1:1 791 ha + Bài báo lệnh khẩn cấp + Cặp cột thời gian trên bản đồ"
+    }
+  ]
+}
+

@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "renderer_family": "explainer-data",
+  "render_runtime": "remotion",
+  "composition_mode": "atelier",
+  "bespoke": {
+    "entry": "projects/san-bay-long-thanh-40km/index.tsx",
+    "composition_id": "DemoOpenMotion57s",
+    "art_direction": "projects/san-bay-long-thanh-40km/art-direction.md",
+    "props_path": "C:/Users/ACER/Desktop/Openmontage-Room/projects/san-bay-long-thanh-40km/artifacts/demo_openmotion_props.json",
+    "public_dir": "projects/san-bay-long-thanh-40km/public",
+    "crf": 14,
+    "concurrency": 4
+  },
+  "cuts": [
+    {
+      "id": "cut_demo_beat0",
+      "source": "snapshots/demo_openmotion/s01_00s8_beat0.png",
+      "in_seconds": 0.0,
+      "out_seconds": 1.4,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#0D1B2A",
+      "reason": "demo_beat0: Beat 0 — Event Display Typography"
+    },
+    {
+      "id": "cut_demo_d1",
+      "source": "snapshots/demo_openmotion/s02_06s5_d1_doodle.png",
+      "in_seconds": 1.4,
+      "out_seconds": 11.45,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#0D1B2A",
+      "reason": "demo_d1: D1 — Camera vs Subject + Sketch Doodle + Pull-back 791 ha"
+    },
+    {
+      "id": "cut_demo_d2",
+      "source": "snapshots/demo_openmotion/s05_21s5_d2_leader.png",
+      "in_seconds": 11.45,
+      "out_seconds": 23.45,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#0D1B2A",
+      "reason": "demo_d2: D2 — Biểu đồ NYT đổi màu điểm gãy + Leader Evidence Card QĐ 648"
+    },
+    {
+      "id": "cut_demo_d3",
+      "source": "snapshots/demo_openmotion/s07_36s8_d3_basalt_locks.png",
+      "in_seconds": 23.45,
+      "out_seconds": 38.65,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "transition_duration": 0.2,
+      "backgroundColor": "#0D1B2A",
+      "reason": "demo_d3: D3 — Mặt cắt gạch chéo hatch + Cây quyết định tăng tốc"
+    },
+    {
+      "id": "cut_demo_d4",
+      "source": "snapshots/demo_openmotion/s09_54s8_d4_rail_arrive.png",
+      "in_seconds": 38.65,
+      "out_seconds": 57.4,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "transition_duration": 0.2,
+      "backgroundColor": "#0D1B2A",
+      "reason": "demo_d4: D4 — Tuyến 3 lớp ánh sáng + Chấm mốc cự ly + Đàn hồi khóa đích"
+    }
+  ],
+  "audio": {
+    "narration": {
+      "segments": [
+        {
+          "asset_id": "demo-openmotion-narration",
+          "start_seconds": 0.0,
+          "end_seconds": 57.4
+        }
+      ]
+    },
+    "sfx": [
+      {
+        "asset_id": "demo-openmotion-sfx",
+        "start_seconds": 0.0,
+        "volume": 1.0
+      }
+    ]
+  },
+  "subtitles": {
+    "enabled": false,
+    "source": "assets/audio/demo_openmotion.srt"
+  },
+  "slideshow_risk_score": {
+    "average": 0.0,
+    "verdict": "strong"
+  },
+  "metadata": {
+    "target_duration_seconds": 57.4,
+    "proposal_render_runtime": "remotion",
+    "style_playbook": "clean-professional",
+    "demo_showcase": "openmotion_7_techniques_57s"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "outputs": [
+    {
+      "path": "projects/san-bay-long-thanh-40km/renders/demo_openmotion_57s.mp4",
+      "format": "mp4",
+      "codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 30.0,
+      "duration_seconds": 57.45,
+      "file_size_bytes": 265813718,
+      "platform_target": "youtube_landscape"
+    }
+  ],
+  "render_time_seconds": 313.44,
+  "warnings": [],
+  "verification_notes": [
+    "Rendered 57.45s @ 30.0fps (265,813,718 bytes, CRF 14) showcasing all 7 nexu-io/openmotion choreography upgrades.",
+    "Audio mixed via 3-Bus perceptual-apex Foley (14 event groups / 18 hits anchored to physical lock apexes + speech-priority ducked pulse).",
+    "Atelier check: stock_reuse_detected=False, art_direction_declared=True.",
+    "Transcript accuracy: word_accuracy=1.0, transcript_matches_script=True."
+  ],
+  "render_grammar": "explainer-data",
+  "slideshow_risk_score": {
+    "average": 0.0,
+    "verdict": "strong"
+  },
+  "decision_log_ref": "decision_log.json",
+  "final_review_ref": "artifacts/demo_openmotion_final_review.json"
+}

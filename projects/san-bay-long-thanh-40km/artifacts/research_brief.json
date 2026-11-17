@@ -1,0 +1,402 @@
+{
+  "version": "1.0",
+  "topic": "Vì sao sân bay Long Thành nằm cách trung tâm TP.HCM khoảng 40 km?",
+  "research_date": "2026-11-17",
+  "landscape": {
+    "existing_content": [
+      {
+        "title": "Báo cáo tiến độ đại công trường sân bay Long Thành & Nhà ga T3 Tân Sơn Nhất (2025–2026)",
+        "url": "https://baochinhphu.vn/",
+        "source": "news_portal",
+        "angle": "Cập nhật tiến độ thi công ngoài công trường và con số vốn đầu tư.",
+        "what_it_covers": "Tiến độ đường băng, nhà ga hoa sen, gói thầu sân đỗ và vốn giai đoạn 1.",
+        "what_it_misses": "Không giải phẫu bằng bản đồ 3D lý do vật lý/không lưu buộc sân bay mới phải cách TP.HCM ~40 km.",
+        "engagement_signal": "Độ quan tâm truyền thông liên tục cao 2025–2026"
+      },
+      {
+        "title": "Vì sao không mở rộng Tân Sơn Nhất mà phải xây sân bay Long Thành?",
+        "url": "https://vnexpress.net/",
+        "source": "news_explainer",
+        "angle": "Liệt kê các gạch đầu dòng về quá tải hành khách và giá đền bù giải tỏa nội đô.",
+        "what_it_covers": "Quá tải Tân Sơn Nhất và khó khăn giải phóng mặt bằng xung quanh quận Tân Bình – Gò Vấp.",
+        "what_it_misses": "Thiếu mô phỏng trực quan tỷ lệ 1:1 khoảng cách hai đường băng 365 m so với chuẩn ICAO và đối chiếu diện tích 791 ha trong 5.000 ha.",
+        "engagement_signal": "Hàng nghìn bình luận tranh luận giữa 'có T3 rồi sao còn xây Long Thành?'"
+      },
+      {
+        "title": "Các video tổng quan mạng lưới 33 cảng hàng không và hạ tầng phía Nam (YouTube 2025–2026)",
+        "url": "https://youtube.com/",
+        "source": "youtube",
+        "angle": "Flycam và bản đồ phẳng 2D liệt kê hàng loạt dự án cùng lúc.",
+        "what_it_covers": "Điểm mặt các công trình hàng không – cao tốc.",
+        "what_it_misses": "Không có góc nhìn địa chất (đất đỏ bazan Bình Sơn vs vùng sụt lún ngập triều Nam Sài Gòn), không lưu quân sự Biên Hòa và bản đồ thời gian thực hành lang đường sắt ~20 phút.",
+        "engagement_signal": "Nhóm vn_ha_tang_dia_ly thu hút hàng trăm nghìn lượt xem cho câu hỏi đơn điểm"
+      }
+    ],
+    "saturated_angles": [
+      "Tin tức flycam công trường hàng tuần chỉ quay cận cảnh cẩu tháp và đổ bê tông",
+      "Đọc lại văn bản vốn đầu tư mà thiếu giải thích bản đồ & không lưu",
+      "Bài liệt kê chung chung 'Top các siêu dự án phía Nam'"
+    ],
+    "underserved_gaps": [
+      "Trực quan hóa 1:1 con số 365 m giữa hai tim đường băng Tân Sơn Nhất vs ngưỡng cất hạ cánh độc lập ICAO",
+      "Đặt lọt thỏm 791 ha Tân Sơn Nhất lên vệ tinh thực 5.000 ha Long Thành kèm nón phễu tĩnh không trên cao ốc nội đô",
+      "Giải thích tại sao chọn hướng Đông (Bình Sơn – đất đỏ bazan) ở bán kính 40 km chứ không chọn phía Nam (Nhà Bè/Bình Chánh) hay phía Tây Bắc (Củ Chi)"
+    ]
+  },
+  "trending": {
+    "recent_developments": [
+      {
+        "headline": "Giai đoạn 1 Long Thành bổ sung đường băng thứ 2, gấp rút hướng tới khai thác thương mại & chuẩn bị giai đoạn 2",
+        "url": "https://laodong.vn/",
+        "date": "2025–2026",
+        "relevance": "Khiến câu hỏi 'Tân Sơn Nhất vừa có T3, Long Thành lại sắp đón khách — đi ra 40 km thế nào?' thành chủ đề nóng nhất của người dân TP.HCM."
+      },
+      {
+        "headline": "Nhà ga T3 Tân Sơn Nhất đưa vào khai thác giúp giảm ùn ứ nội địa nhưng trần đường băng 365 m vẫn không đổi",
+        "url": "https://baodautu.vn/",
+        "date": "2025–2026",
+        "relevance": "Xóa tan hiểu lầm phổ biến cho rằng xây thêm nhà ga là Tân Sơn Nhất có thể tăng vô hạn chuyến bay."
+      },
+      {
+        "headline": "Tăng tốc mở rộng cao tốc TP.HCM – Long Thành (8–10 làn), Vành đai 3 & tuyến đường sắt Thủ Thiêm – Long Thành (~46,5–47,7 km)",
+        "url": "https://tuoitre.vn/",
+        "date": "2025–2026",
+        "relevance": "Cung cấp mảnh ghép kết luận cho Chương 5 về cách rút ngắn 40 km xuống ~20 phút đường sắt."
+      }
+    ],
+    "active_discussions": [
+      {
+        "platform": "youtube_and_local_forums",
+        "topic_or_url": "Tranh luận đi sân bay Long Thành mất bao lâu & tại sao không xây gần hơn",
+        "sentiment": "Hoài nghi về kẹt xe hướng Đông song song tò mò lý do quy hoạch kỹ thuật",
+        "key_quotes": [
+          "Xây tận Long Thành xa 40 cây số, kẹt cao tốc thì bay nội địa tốn gấp đôi thời gian?",
+          "Có nhà ga T3 Tân Sơn Nhất mới rồi sao vẫn cần thêm một siêu sân bay nữa?"
+        ]
+      }
+    ],
+    "timeliness_window": "trending_2025_2026_and_evergreen"
+  },
+  "data_points": [
+    {
+      "claim": "Theo Nghị quyết số 94/2015/QH13 và Quy hoạch tổng thể (QĐ 909/QĐ-TTg cùng các quyết định điều chỉnh tiếp theo của Thủ tướng / Bộ Xây dựng), Cảng hàng không quốc tế Long Thành có quy mô đất khoảng 5.000 ha tại huyện Long Thành, tỉnh Đồng Nai, đạt cấp 4F của ICAO, công suất khi hoàn thành toàn bộ các giai đoạn đạt 100 triệu hành khách/năm và 5 triệu tấn hàng hóa/năm với 4 đường cất hạ cánh cấu hình mở (Giai đoạn 1 công suất 25 triệu hành khách/năm, nâng lên 2 đường cất hạ cánh).",
+      "source_url": "https://vanban.chinhphu.vn/",
+      "source_name": "Nghị quyết 94/2015/QH13 & Quyết định 909/QĐ-TTg / QĐ 562/QĐ-BXD (Cổng TTĐT Chính phủ)",
+      "credibility": "primary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Cảng hàng không quốc tế Tân Sơn Nhất hiện có 2 đường cất hạ cánh song song nhưng khoảng cách giữa hai tim đường băng chỉ khoảng 365 m — nhỏ hơn ngưỡng tối thiểu theo tiêu chuẩn ICAO để vận hành cất/hạ cánh độc lập hoàn toàn, buộc hai đường băng phải điều hành phụ thuộc lẫn nhau.",
+      "source_url": "https://tapchihangkhong.vn/",
+      "source_name": "Thông số khai thác đường CHC Tân Sơn Nhất / Tiêu chuẩn ICAO & Báo Xây dựng",
+      "credibility": "secondary_source",
+      "surprise_factor": "counterintuitive",
+      "usable_as": "hook"
+    },
+    {
+      "claim": "Phạm vi nghiên cứu quy hoạch sân bay Tân Sơn Nhất thời kỳ 2021–2030, tầm nhìn 2050 (QĐ 2429/QĐ-BXD, nối tiếp quy hoạch điều chỉnh QĐ 648/QĐ-TTg / QĐ 1707/QĐ-TTg) có diện tích khoảng 791 ha và định hướng công suất toàn cảng đạt khoảng 50 triệu hành khách/năm sau khi bổ sung Nhà ga hành khách T3.",
+      "source_url": "https://baophapluat.vn/",
+      "source_name": "Quy hoạch Cảng hàng không quốc tế Tân Sơn Nhất (QĐ 648/QĐ-TTg & QĐ 2429/QĐ-BXD)",
+      "credibility": "secondary_source",
+      "surprise_factor": "notable",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Hệ thống đường cất hạ cánh chính tại sân bay Long Thành được thiết kế chiều dài tiêu chuẩn 4.000 m và chiều rộng 60 m–70 m (đáp ứng tàu bay thân rộng cấp ICAO Code E/F như Airbus A380, Boeing 747, Boeing 777), xây dựng trên vùng nền địa chất đất đỏ bazan khu vực xã Bình Sơn, huyện Long Thành.",
+      "source_url": "https://tapchihangkhong.vn/",
+      "source_name": "Thông số kỹ thuật đường cất hạ cánh Long Thành (Tạp chí Hàng không)",
+      "credibility": "secondary_source",
+      "surprise_factor": "notable",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Sân bay Long Thành nằm cách trung tâm TP.HCM khoảng hơn 40 km về phía Đông theo hành lang cao tốc kết nối vùng.",
+      "source_url": "https://baochinhphu.vn/",
+      "source_name": "Quy hoạch kết nối Cảng hàng không quốc tế Long Thành (Báo Chính phủ)",
+      "credibility": "primary_source",
+      "surprise_factor": "expected",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Tuyến đường sắt Thủ Thiêm – Long Thành được quy hoạch dài khoảng 46,5–47,7 km nối ga Thủ Thiêm (TP. Thủ Đức) dọc hành lang cao tốc đến thẳng sân bay Long Thành, tốc độ thiết kế đến 120 km/h, giúp rút ngắn thời gian di chuyển từ trung tâm TP.HCM ra sân bay xuống còn khoảng 20 phút.",
+      "source_url": "https://tuoitre.vn/",
+      "source_name": "Báo cáo quy hoạch tuyến đường sắt Thủ Thiêm – Long Thành (Tuổi Trẻ / Lao Động)",
+      "credibility": "secondary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "closing_punch"
+    },
+    {
+      "claim": "Dự án mở rộng cao tốc TP.HCM – Long Thành – Dầu Giây đoạn gần 22 km từ Vành đai 2 tới cao tốc Biên Hòa – Vũng Tàu nâng quy mô từ Vành đai 2–Vành đai 3 lên 8 làn xe và đoạn Vành đai 3–Biên Hòa – Vũng Tàu lên 10 làn xe (kèm xây thêm 1 đơn nguyên cầu Long Thành), kết hợp Vành đai 3 TP.HCM và cao tốc Biên Hòa – Vũng Tàu.",
+      "source_url": "https://dantri.com.vn/",
+      "source_name": "Tiến độ mở rộng cao tốc TP.HCM – Long Thành – Dầu Giây & Vành đai 3",
+      "credibility": "secondary_source",
+      "surprise_factor": "notable",
+      "usable_as": "stat_card"
+    }
+  ],
+  "audience_insights": {
+    "common_questions": [
+      "Vì sao không mở rộng sân bay Tân Sơn Nhất cho gần trung tâm mà phải dời xa hơn 40 km sang Đồng Nai?",
+      "Tân Sơn Nhất vừa có Nhà ga T3 nâng công suất lên ~50 triệu khách/năm, vậy có thừa sân bay Long Thành không?",
+      "Vì sao chọn vị trí xã Bình Sơn (Long Thành) chứ không phải phía Nam TP.HCM (Nhà Bè, Cần Giờ) hay Củ Chi?"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Chỉ cần xây thêm nhà ga (như T3) là Tân Sơn Nhất đón được gấp đôi máy bay.",
+        "reality": "Nhà ga chỉ giải tỏa ùn ứ mặt đất cho hành khách; nút thắt bầu trời nằm ở khoảng cách tim hai đường băng 365 m không đủ chuẩn cất/hạ cánh độc lập song song.",
+        "source": "https://tapchihangkhong.vn/"
+      },
+      {
+        "myth": "Đặt sân bay xa 40 km là bất thường vì sân bay nào cũng nằm sát thành phố.",
+        "reality": "Các đại cảng hàng không trung chuyển thế hệ mới cần 4.000–5.000 ha quỹ đất bằng phẳng, hành lang tiếng ồn tách biệt nội đô và kết nối bằng đường sắt tốc độ 120 km/h (chỉ ~20 phút từ Thủ Thiêm).",
+        "source": "https://tuoitre.vn/"
+      },
+      {
+        "myth": "Cứ ở đâu gần TP.HCM còn đất trống (như phía Nam / Tây Nam) cũng làm được sân bay 4F.",
+        "reality": "Phía Nam TP.HCM nền bùn sét yếu, ngập triều; vùng biên phía Đông Bắc xung đột trực diện luồng bay quân sự Biên Hòa; chỉ thềm đất đỏ bazan Bình Sơn (Long Thành) mới hội đủ cao độ, địa chất và không lưu mở.",
+        "source": "https://tapchihangkhong.vn/"
+      }
+    ],
+    "knowledge_level": "Khán giả biết rõ tình trạng ùn tắc quanh Tân Sơn Nhất và cao tốc Long Thành, nhưng đa số chưa từng nhìn thấy cấu trúc không lưu, khoảng cách đường băng 365 m hay ranh giới địa chất trên bản đồ 3D.",
+    "pain_points": [
+      "Lo ngại tốn nhiều giờ di chuyển ra sân bay mới khi đi công tác, du lịch",
+      "Khó hình dung tại sao đường băng lại có giới hạn không thể nới rộng như nhà ga"
+    ]
+  },
+  "angles_discovered": [
+    {
+      "name": "Cái lồng 365m & Bán kính vàng 40 km",
+      "hook": "Nhà ga T3 có thể nới mặt đất, nhưng hai đường băng cách nhau chỉ 365 mét đã khóa cứng bầu trời Tân Sơn Nhất — buộc siêu sân bay phải lùi xa đúng 40 km.",
+      "type": "data_driven",
+      "why_now": "Khán giả 2025–2026 đang trải nghiệm đồng thời cả T3 Tân Sơn Nhất lẫn tin tức Long Thành sắp khai thác — tương phản trực tiếp giúp giữ chân 11 phút.",
+      "grounded_in": [
+        "fact_tsn_365m_gap",
+        "fact_tsn_791ha_50m",
+        "fact_nq94_longthanh_scale"
+      ]
+    },
+    {
+      "name": "Long Thành trên bàn cờ hub Đông Nam Á",
+      "hook": "Không chỉ để thoát kẹt cho Sài Gòn, 5.000 ha Long Thành được chọn để giành lại dòng khách trung chuyển từ Changi và Suvarnabhumi.",
+      "type": "trending",
+      "why_now": "Đặt Việt Nam đối đầu các hub hàng không khu vực giống công thức 'Bypassing Singapore' ở Lạch Huyện / Cái Mép.",
+      "grounded_in": [
+        "fact_nq94_longthanh_scale",
+        "fact_runway_4000x60"
+      ]
+    },
+    {
+      "name": "Giải ảo 3 hiểu lầm về sân bay 40km",
+      "hook": "Có T3 rồi cần gì Long Thành, và liệu đi 40 km có trở thành cơn ác mộng kẹt xe như nỗi lo của hàng triệu người Sài Gòn?",
+      "type": "contrarian",
+      "why_now": "Đánh thẳng vào tranh luận gay gắt nhất dưới mọi bài báo về Long Thành.",
+      "grounded_in": [
+        "fact_tsn_365m_gap",
+        "fact_rail_thuthiem_lt",
+        "fact_expressway_hcm_lt"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://vanban.chinhphu.vn/",
+      "title": "Nghị quyết 94/2015/QH13 & QĐ 909/QĐ-TTg về Quy hoạch CHKQT Long Thành",
+      "used_for": "Diện tích 5.000 ha, công suất 100 triệu khách, 4 đường băng 4F",
+      "reliability": "primary"
+    },
+    {
+      "url": "https://baochinhphu.vn/",
+      "title": "Cổng TTĐT Chính phủ — Hồ sơ dự án CHKQT Long Thành & Kết nối vùng",
+      "used_for": "Khoảng cách ~40 km từ TP.HCM và cấu trúc giai đoạn 1",
+      "reliability": "primary"
+    },
+    {
+      "url": "https://tapchihangkhong.vn/",
+      "title": "Tạp chí Hàng không — Thông số đường cất hạ cánh 4.000x60m, nền đất Bình Sơn & khoảng cách 365m TSN",
+      "used_for": "Giải thích kỹ thuật đường băng phụ thuộc vs độc lập & địa chất đất đỏ bazan",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://baophapluat.vn/",
+      "title": "Phạm vi quy hoạch CHKQT Tân Sơn Nhất 791 ha & công suất ~50 triệu hành khách",
+      "used_for": "Giới hạn quỹ đất 791 ha và vai trò Nhà ga T3",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://tuoitre.vn/",
+      "title": "Quy hoạch tuyến đường sắt Thủ Thiêm – Long Thành (~46,5–47,7 km, 120 km/h)",
+      "used_for": "Bài toán rút ngắn thời gian di chuyển từ 40 km xuống ~20 phút",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://dantri.com.vn/",
+      "title": "Mở rộng cao tốc TP.HCM – Long Thành – Dầu Giây 8–10 làn & Vành đai 3",
+      "used_for": "Hạ tầng đường bộ đa tầng quanh sân bay Long Thành",
+      "reliability": "secondary"
+    }
+  ],
+  "research_summary": "Người dân thường tưởng xây thêm nhà ga T3 là đủ giải quyết quá tải Tân Sơn Nhất, nhưng nút thắt vật lý không thể phá vỡ nằm ở khoảng cách tim 2 đường băng chỉ 365 m (buộc vận hành phụ thuộc) và vòng vây đô thị trên quỹ đất chỉ 791 ha. Để có 4 đường băng độc lập dài 4.000 m đạt chuẩn 4F (100 triệu khách/năm) trên nền đất đỏ bazan cao ráo và tách phễu ồn khỏi nội đô lẫn vùng bay quân sự Biên Hòa, tọa độ buộc phải lùi ra bán kính ~40 km tại Bình Sơn (Long Thành), đi kèm mạng cao tốc 8–10 làn và đường sắt Thủ Thiêm – Long Thành rút thời gian đi lại xuống ~20 phút.",
+  "metadata": {
+    "fact_ledger_path": "projects/san-bay-long-thanh-40km/artifacts/candidate_facts_sources.json",
+    "title_pairing_candidates": [
+      {
+        "title": "Vì sao sân bay Long Thành phải lùi xa TP.HCM 40km?",
+        "chars": 50,
+        "score": 92,
+        "issues": [
+          [
+            "mobile",
+            "a mobile feed shows about \"Vì sao sân bay Long Thành phải lùi xa...\" - check the subject survives"
+          ],
+          [
+            "thumb-length",
+            "6 words on the thumbnail - three is the ceiling at feed size"
+          ]
+        ],
+        "good": [
+          "50 characters, inside the 60-character desktop cut",
+          "1 all-caps word for emphasis",
+          "carries a concrete figure (40)",
+          "open question in the title",
+          "thumbnail and title carry different words"
+        ],
+        "thumb": "KẸT BẦU TRỜI!",
+        "thumb_words": 3
+      },
+      {
+        "title": "Cách nhau 365m: Nút thắt buộc TP.HCM xây sân bay 40km?",
+        "chars": 54,
+        "score": 92,
+        "issues": [
+          [
+            "mobile",
+            "a mobile feed shows about \"Cách nhau 365m: Nút thắt buộc TP.HCM...\" - check the subject survives"
+          ],
+          [
+            "thumb-length",
+            "5 words on the thumbnail - three is the ceiling at feed size"
+          ]
+        ],
+        "good": [
+          "54 characters, inside the 60-character desktop cut",
+          "1 all-caps word for emphasis",
+          "carries a concrete figure (365, 40)",
+          "open question in the title",
+          "thumbnail and title carry different words"
+        ],
+        "thumb": "KHÓA ĐƯỜNG BĂNG!",
+        "thumb_words": 3
+      },
+      {
+        "title": "Có nhà ga T3, vì sao vẫn cần siêu sân bay cách 40km?",
+        "chars": 52,
+        "score": 74,
+        "issues": [
+          [
+            "mobile",
+            "a mobile feed shows about \"Có nhà ga T3, vì sao vẫn cần siêu sân...\" - check the subject survives"
+          ],
+          [
+            "duplicate",
+            "thumbnail repeats the title on ch - the thumbnail should say what the title does not"
+          ],
+          [
+            "thumb-length",
+            "6 words on the thumbnail - three is the ceiling at feed size"
+          ]
+        ],
+        "good": [
+          "52 characters, inside the 60-character desktop cut",
+          "1 all-caps word for emphasis",
+          "carries a concrete figure (3,, 40)",
+          "open question in the title"
+        ],
+        "thumb": "HẾT CHỖ MỞ RỘNG!",
+        "thumb_words": 4
+      }
+    ],
+    "hook_candidates": [
+      {
+        "id": "h1_contrarian",
+        "formula": "Contrarian Opening + Specific Number",
+        "vi": "TP.HCM vừa mở nhà ga T3 khổng lồ ở Tân Sơn Nhất, nhưng hai đường băng cách nhau chỉ 365 mét vẫn khóa chặt bầu trời thành phố — buộc phải lùi ra tận 40 cây số.",
+        "probe": "Ho Chi Minh City built Terminal 3, yet two runways 365m apart still lock the sky — forcing Long Thanh 40km away.",
+        "hookscore_vi": 27,
+        "hookscore_structure_probe": 43,
+        "probe_formula": "Unclassified",
+        "probe_parts": {
+          "SPECIFICITY": 96,
+          "ADDRESS": 26,
+          "STAKES": 36,
+          "CURIOSITY": 24,
+          "BREVITY": 100
+        }
+      },
+      {
+        "id": "h2_cost_scale",
+        "formula": "Shocking Geography Contrast",
+        "vi": "Bạn mất 20 phút lái xe từ Quận 1 tới Tân Sơn Nhất, nhưng tại sao siêu sân bay 100 triệu khách lại phải dời xa hơn 40 kilômét sang Đồng Nai?",
+        "probe": "You reach Tan Son Nhat in 20 minutes, so why is the 100M-passenger airport forced 40km away in Dong Nai?",
+        "hookscore_vi": 30,
+        "hookscore_structure_probe": 58,
+        "probe_formula": "The Clock",
+        "probe_parts": {
+          "SPECIFICITY": 91,
+          "ADDRESS": 76,
+          "STAKES": 36,
+          "CURIOSITY": 59,
+          "BREVITY": 100
+        }
+      },
+      {
+        "id": "h3_runway_paradox",
+        "formula": "Physical Bottleneck Reveal",
+        "vi": "Có tới hai đường băng song song nhưng Tân Sơn Nhất gần như chỉ dám cất hạ cánh như một đường băng đơn — nguyên nhân nằm ở con số 365 mét.",
+        "probe": "With two parallel runways, why does Tan Son Nhat run almost like a single strip? The 365m gap explains why.",
+        "hookscore_vi": 24,
+        "hookscore_structure_probe": 47,
+        "probe_formula": "Unclassified",
+        "probe_parts": {
+          "SPECIFICITY": 69,
+          "ADDRESS": 26,
+          "STAKES": 36,
+          "CURIOSITY": 75,
+          "BREVITY": 100
+        }
+      },
+      {
+        "id": "h4_urban_cage",
+        "formula": "Concrete Constraint",
+        "vi": "Nếu bạn đặt cả sân bay Tân Sơn Nhất lên bản đồ Long Thành, toàn bộ 791 héc-ta cũ chỉ lọt thỏm một góc trong đại công trường 5.000 héc-ta.",
+        "probe": "Drop all 791 hectares of Tan Son Nhat onto Long Thanh and it vanishes inside a 5,000-hectare megaproject.",
+        "hookscore_vi": 27,
+        "hookscore_structure_probe": 43,
+        "probe_formula": "Unclassified",
+        "probe_parts": {
+          "SPECIFICITY": 96,
+          "ADDRESS": 26,
+          "STAKES": 36,
+          "CURIOSITY": 24,
+          "BREVITY": 100
+        }
+      },
+      {
+        "id": "h5_transit_payoff",
+        "formula": "Pain Point + Question",
+        "vi": "Nỗi lo lớn nhất của hành khách là đi Long Thành xa hơn 40 cây số — nhưng bản đồ cao tốc 10 làn và đường sắt 20 phút lại kể một câu chuyện khác.",
+        "probe": "Wait — is 40km to Long Thanh airport too far for you, or do the 20-minute rail plans change the cost?",
+        "hookscore_vi": 28,
+        "hookscore_structure_probe": 55,
+        "probe_formula": "The Question",
+        "probe_parts": {
+          "SPECIFICITY": 68,
+          "ADDRESS": 46,
+          "STAKES": 62,
+          "CURIOSITY": 42,
+          "BREVITY": 100
+        }
+      }
+    ]
+  }
+}

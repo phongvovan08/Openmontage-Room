@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "title": "Demo 100% Tương Tác Bản Đồ 3D + Bài Báo Thật trên Dữ Liệu Sân Bay Long Thành 40 km",
+  "scenes": [
+    {
+      "id": "demo_beat0",
+      "start_seconds": 0.0,
+      "end_seconds": 1.4,
+      "label": "Beat 0 — Bổ nhào bản đồ 3D + Event Display 365m -> 40km"
+    },
+    {
+      "id": "demo_d1",
+      "start_seconds": 1.4,
+      "end_seconds": 11.45,
+      "label": "D1 — Hold Camera tàu bay 25R + Khoanh đỏ chờ slot + Kéo lùi quận nội đô 791 ha"
+    },
+    {
+      "id": "demo_d2",
+      "start_seconds": 11.45,
+      "end_seconds": 23.45,
+      "label": "D2 — Cột 3D T3 50tr vs Trần đường băng 38-40tr ngay trên vệ tinh z14 + Bài báo VnExpress T3"
+    },
+    {
+      "id": "demo_d3",
+      "start_seconds": 23.45,
+      "end_seconds": 38.65,
+      "label": "D3 — Gạch đỏ địa chất 3 hướng trên bản đồ vùng + Tia Radar 40 km Bình Sơn + Bài báo Long Thành"
+    },
+    {
+      "id": "demo_d4",
+      "start_seconds": 38.65,
+      "end_seconds": 57.4,
+      "label": "D4 — Tuyến đường sắt 3 lớp ánh sáng + Chấm .route-tick + Bài báo lệnh khẩn cấp + Đàn hồi khóa đích"
+    }
+  ]
+}

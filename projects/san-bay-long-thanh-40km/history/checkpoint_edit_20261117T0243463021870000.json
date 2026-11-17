@@ -1,0 +1,421 @@
+{
+  "version": "1.0",
+  "project_id": "san-bay-long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "edit",
+  "status": "completed",
+  "timestamp": "2026-11-17T02:43:46.302187+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": true,
+  "artifacts": {
+    "edit_decisions": {
+      "version": "1.0",
+      "renderer_family": "explainer-data",
+      "render_runtime": "remotion",
+      "composition_mode": "atelier",
+      "bespoke": {
+        "entry": "projects/san-bay-long-thanh-40km/index.tsx",
+        "composition_id": "SanBayLongThanh40km",
+        "art_direction": "projects/san-bay-long-thanh-40km/art-direction.md",
+        "props_path": "C:/Users/ACER/Desktop/Openmontage-Room/projects/san-bay-long-thanh-40km/artifacts/props.json",
+        "public_dir": "projects/san-bay-long-thanh-40km/public",
+        "crf": 14,
+        "concurrency": 4
+      },
+      "cuts": [
+        {
+          "id": "cut_01",
+          "source": "snapshots/scene_01.png",
+          "in_seconds": 0.0,
+          "out_seconds": 30.67,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_01 (establish_context): [Airspace & National Opening Map] B\u1ea3n \u0111\u1ed3 v\u1ec7 tinh 3D nghi\u00eang 52\u00b0 to\u00e0n mi\u1ec1n Nam & Bi\u1ec3n \u0110\u00f4ng (hi\u1ec3n th\u1ecb Ho\u00e0ng Sa \u2013 Tr\u01b0\u1eddng Sa t\u1ef1 nhi\u00ean): cung rad"
+        },
+        {
+          "id": "cut_02",
+          "source": "snapshots/scene_02.png",
+          "in_seconds": 30.67,
+          "out_seconds": 63.93,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_02 (introduce_subject): [Urbanization Timeline & Perimeter Polygon] S\u01a1 \u0111\u1ed3 b\u1ea3n \u0111\u1ed3 3D \u0111\u00f4 th\u1ecb h\u00f3a TP.HCM theo m\u1ed1c 1930 -> 2026: v\u1ec7t \u0111\u00f4 th\u1ecb h\u1ed5 ph\u00e1ch lan qua T\u00e2n B\u00ecnh, P"
+        },
+        {
+          "id": "cut_03",
+          "source": "snapshots/scene_03.png",
+          "in_seconds": 63.93,
+          "out_seconds": 95.24,
+          "layer": "primary",
+          "transition_in": "slide-left",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_03 (evidence): [Terminal T3 Evidence & Layer Split] T\u00e1ch \u0111\u00f4i tr\u1ef1c quan gi\u1eefa \u1ea3nh th\u1ef1c \u0111\u1ecba Nh\u00e0 ga T3/s\u00e2n \u0111\u1ed7 T\u00e2n S\u01a1n Nh\u1ea5t v\u00e0 b\u1ea3n \u0111\u1ed3 3D ph\u00e2n l\u1edbp s\u00e1ng xanh khu "
+        },
+        {
+          "id": "cut_04",
+          "source": "snapshots/scene_04.png",
+          "in_seconds": 95.24,
+          "out_seconds": 127.06,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_04 (deliver_payload): [1:1 Parallel Runway Ruler (Hero)] Zoom c\u1eadn c\u1ea3nh v\u1ec7 tinh EOX 2024 z14 th\u1eb3ng xu\u1ed1ng c\u1eb7p \u0111\u01b0\u1eddng b\u0103ng 25R/07L & 25L/07R T\u00e2n S\u01a1n Nh\u1ea5t k\u1ebft h\u1ee3p th\u01b0\u1edb"
+        },
+        {
+          "id": "cut_05",
+          "source": "snapshots/scene_05.png",
+          "in_seconds": 127.06,
+          "out_seconds": 158.53,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_05 (build_tension): [3D Airspace Approach Funnel] B\u1ea3n \u0111\u1ed3 nghi\u00eang 52\u00b0 ph\u00f3ng n\u00f3n t\u0129nh kh\u00f4ng 3D t\u1eeb \u0111\u1ea7u \u0111\u01b0\u1eddng b\u0103ng TSN qu\u00e9t ngang B\u00ecnh Th\u1ea1nh, Ph\u00fa Nhu\u1eadn, G\u00f2 V\u1ea5p c\u00f9ng"
+        },
+        {
+          "id": "cut_06",
+          "source": "snapshots/scene_06.png",
+          "in_seconds": 158.53,
+          "out_seconds": 187.93,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "slide-left",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_06 (evidence): [Hypothetical Runway 3 Clearance Simulation] Tr\u00ean v\u1ec7 tinh EOX z14, d\u1ecbch m\u1ed9t v\u1ec7t \u0111\u01b0\u1eddng b\u0103ng gi\u1ea3 \u0111\u1ecbnh 4.000 m + d\u1ea3i b\u1ea3o hi\u1ec3m ra +760 m v\u1ec1 ph\u00eda"
+        },
+        {
+          "id": "cut_07",
+          "source": "snapshots/scene_07.png",
+          "in_seconds": 187.93,
+          "out_seconds": 220.08,
+          "layer": "primary",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_07 (build_tension): [Southeast Economic & Cargo Arc] B\u1ea3n \u0111\u1ed3 ch\u00e2u \u00c1 \u2013 Th\u00e1i B\u00ecnh D\u01b0\u01a1ng nghi\u00eang 50\u00b0 v\u1edbi c\u00e1c c\u1ee5m KCN TP.HCM \u2013 B\u00ecnh D\u01b0\u01a1ng \u2013 \u0110\u1ed3ng Nai \u2013 BRVT ph\u00e1t s\u00e1ng"
+        },
+        {
+          "id": "cut_08",
+          "source": "snapshots/scene_08.png",
+          "in_seconds": 220.08,
+          "out_seconds": 253.9,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_08 (deliver_payload): [Cream Legal Dossier NQ 94/2015] C\u1ea3nh \u0111\u1eb7c t\u1ea3 ki\u1ec3u ph\u00f3ng s\u1ef1: t\u1edd h\u1ed3 s\u01a1 gi\u1ea5y kem Ngh\u1ecb quy\u1ebft 94/2015/QH13 nghi\u00eang g\u00f3c tr\u00ean n\u1ec1n b\u1ea3n \u0111\u1ed3 t\u1ed1i, n\u00e9t b"
+        },
+        {
+          "id": "cut_09",
+          "source": "snapshots/scene_09.png",
+          "in_seconds": 253.9,
+          "out_seconds": 288.79,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_09 (evidence): [3D Geological Soil Cutaway (Mud)] V\u00f2ng radar qu\u00e9t xu\u1ed1ng v\u00f9ng tr\u0169ng Nam S\u00e0i G\u00f2n r\u1ed3i chuy\u1ec3n th\u00e0nh sa b\u00e0n l\u00e1t c\u1eaft \u0111\u1ecba ch\u1ea5t 3D Isometric: t\u1ea7ng "
+        },
+        {
+          "id": "cut_10",
+          "source": "snapshots/scene_10.png",
+          "in_seconds": 288.79,
+          "out_seconds": 322.04,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_10 (build_tension): [NE Urban Wall & Bien Hoa Airspace Conflict] Radar qu\u00e9t v\u00e0nh \u0111ai 15\u201325 km \u0110\u00f4ng B\u1eafc tr\u00ean n\u1ec1n v\u1ec7 tinh EOX z12 k\u00e8m v\u00f2ng tr\u00f2n ki\u1ec3m so\u00e1t kh\u00f4ng l\u01b0"
+        },
+        {
+          "id": "cut_11",
+          "source": "snapshots/scene_11.png",
+          "in_seconds": 322.04,
+          "out_seconds": 355.93,
+          "layer": "primary",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_11 (resolution): [3D Geological Soil Cutaway (Red Basalt)] Radar b\u01b0\u1edbc t\u1edbi m\u1ed1c 40 km kh\u00f3a s\u00e1ng xanh ng\u1ecdc t\u1ea1i B\u00ecnh S\u01a1n \u2013 Long Th\u00e0nh tr\u00ean v\u1ec7 tinh z14, d\u1ef1ng l\u00e1t "
+        },
+        {
+          "id": "cut_12",
+          "source": "snapshots/scene_12.png",
+          "in_seconds": 355.93,
+          "out_seconds": 389.96,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_12 (deliver_payload): [Regional Industrial Triangle] Camera zoom-out g\u00f3c 52\u00b0 to\u00e0n \u0110\u00f4ng Nam B\u1ed9 v\u1ebd tam gi\u00e1c ph\u00e1t s\u00e1ng n\u1ed1i TP.HCM (~40 km) \u2013 B\u00ecnh D\u01b0\u01a1ng/\u0110\u1ed3ng Nai \u2013 C\u00e1"
+        },
+        {
+          "id": "cut_13",
+          "source": "snapshots/scene_13.png",
+          "in_seconds": 389.96,
+          "out_seconds": 424.77,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_13 (deliver_payload): [1:1 Polygon Overlay (791ha in 5,000ha Hero)] Nh\u1ea5c nguy\u00ean \u0111a gi\u00e1c \u0111\u1ecf ranh gi\u1edbi T\u00e2n S\u01a1n Nh\u1ea5t (791 ha) t\u1eeb g\u00f3c tr\u00e1i bay tr\u01b0\u1ee3t \u0111\u00fang t\u1ef7 l\u1ec7 1:1 \u0111\u1eb7"
+        },
+        {
+          "id": "cut_14",
+          "source": "snapshots/scene_14.png",
+          "in_seconds": 424.77,
+          "out_seconds": 459.77,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_14 (evidence): [4F 4-Runway Layout & Selective Photo Zoom #1] S\u01a1 \u0111\u1ed3 3D 4 \u0111\u01b0\u1eddng b\u0103ng 4.000\u00d760 m t\u1ea1i Long Th\u00e0nh t\u00e1ch hai c\u00e1nh B\u1eafc \u2013 Nam v\u1edbi kho\u1ea3ng c\u00e1ch >2.00"
+        },
+        {
+          "id": "cut_15",
+          "source": "snapshots/scene_15.png",
+          "in_seconds": 459.77,
+          "out_seconds": 494.49,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_15 (deliver_payload): [Cream Legal Dossier NQ 174/2024] H\u1ed3 s\u01a1 gi\u1ea5y kem Ngh\u1ecb quy\u1ebft 174/2024/QH15 (30/11/2024) tr\u01b0\u1ee3t nghi\u00eang n\u1ed5i b\u1eadt, b\u00fat d\u1ea1 v\u00e0ng t\u00f4 s\u00e1ng \u0111i\u1ec1u kho\u1ea3n"
+        },
+        {
+          "id": "cut_16",
+          "source": "snapshots/scene_16.png",
+          "in_seconds": 494.49,
+          "out_seconds": 531.43,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_16 (comparison): [Asian Mega-Hub Distance Bar Comparison] B\u1ea3n \u0111\u1ed3 \u0110\u00f4ng \u00c1 \u2013 \u0110\u00f4ng Nam \u00c1 k\u1ebft h\u1ee3p bi\u1ec3u \u0111\u1ed3 thanh ngang t\u1ef7 l\u1ec7 chu\u1ea9n so c\u1ef1 ly v\u1ec1 trung t\u00e2m c\u1ee7a Suvarn"
+        },
+        {
+          "id": "cut_17",
+          "source": "snapshots/scene_17.png",
+          "in_seconds": 531.43,
+          "out_seconds": 563.89,
+          "layer": "primary",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_17 (resolution): [Expressway Grid & Dong Nai Bridges] B\u1ea3n \u0111\u1ed3 v\u1ec7 tinh h\u00e0nh lang TP.HCM \u2013 \u0110\u1ed3ng Nai zoom z12: v\u1ec7t \u0111\u1ecf k\u1eb9t 4 l\u00e0n c\u0169 m\u1edf r\u1ed9ng ph\u00e1t s\u00e1ng 8\u201310 l\u00e0n qua"
+        },
+        {
+          "id": "cut_18",
+          "source": "snapshots/scene_18.png",
+          "in_seconds": 563.89,
+          "out_seconds": 597.75,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_18 (deliver_payload): [120 km/h Rail Isochrone & Selective Photo Zoom #2 (Hero)] B\u1ea3n \u0111\u1ed3 \u0111a ph\u01b0\u01a1ng th\u1ee9c v\u1ec7 tinh h\u00e0nh lang \u0110\u00f4ng: tuy\u1ebfn ray v\u00e0ng h\u1ed5 ph\u00e1ch n\u00e9t \u0111\u1ee9t (11"
+        },
+        {
+          "id": "cut_19",
+          "source": "snapshots/scene_19.png",
+          "in_seconds": 597.75,
+          "out_seconds": 631.76,
+          "layer": "primary",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_19 (resolution): [Twin-Hub 150M Capacity Ecosystem] S\u01a1 \u0111\u1ed3 m\u1ea1ng bay \u0111\u1ed1i x\u1ee9ng 3D tr\u00ean n\u1ec1n mi\u1ec1n Nam: T\u00e2n S\u01a1n Nh\u1ea5t t\u1ecfa \u0111\u01b0\u1eddng bay n\u1ed9i \u0111\u1ecba d\u00e0y \u0111\u1eb7c & ASEAN t\u1ea7m ng\u1eafn"
+        },
+        {
+          "id": "cut_20",
+          "source": "snapshots/scene_20.png",
+          "in_seconds": 631.76,
+          "out_seconds": 668.27,
+          "layer": "primary",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "transition_duration": 0.27,
+          "backgroundColor": "#030814",
+          "reason": "scene_20 (call_to_action): [National 100-Year Finale & Ep03 CTA] K\u00e9o camera l\u00f9i t\u1eeb Long Th\u00e0nh l\u00ean to\u00e0n c\u1ea3nh b\u1ea3n \u0111\u1ed3 3D Vi\u1ec7t Nam & Bi\u1ec3n \u0110\u00f4ng (hi\u1ec3n th\u1ecb trang tr\u1ecdng Ho\u00e0ng "
+        }
+      ],
+      "audio": {
+        "narration": {
+          "segments": [
+            {
+              "asset_id": "narration-s01",
+              "start_seconds": 0.2,
+              "end_seconds": 30.217
+            },
+            {
+              "asset_id": "narration-s02",
+              "start_seconds": 30.87,
+              "end_seconds": 63.478
+            },
+            {
+              "asset_id": "narration-s03",
+              "start_seconds": 64.13,
+              "end_seconds": 94.788
+            },
+            {
+              "asset_id": "narration-s04",
+              "start_seconds": 95.44,
+              "end_seconds": 126.611
+            },
+            {
+              "asset_id": "narration-s05",
+              "start_seconds": 127.26,
+              "end_seconds": 158.083
+            },
+            {
+              "asset_id": "narration-s06",
+              "start_seconds": 158.73,
+              "end_seconds": 187.477
+            },
+            {
+              "asset_id": "narration-s07",
+              "start_seconds": 188.13,
+              "end_seconds": 219.631
+            },
+            {
+              "asset_id": "narration-s08",
+              "start_seconds": 220.28,
+              "end_seconds": 253.453
+            },
+            {
+              "asset_id": "narration-s09",
+              "start_seconds": 254.1,
+              "end_seconds": 288.341
+            },
+            {
+              "asset_id": "narration-s10",
+              "start_seconds": 288.99,
+              "end_seconds": 321.587
+            },
+            {
+              "asset_id": "narration-s11",
+              "start_seconds": 322.24,
+              "end_seconds": 355.483
+            },
+            {
+              "asset_id": "narration-s12",
+              "start_seconds": 356.13,
+              "end_seconds": 389.511
+            },
+            {
+              "asset_id": "narration-s13",
+              "start_seconds": 390.16,
+              "end_seconds": 424.319
+            },
+            {
+              "asset_id": "narration-s14",
+              "start_seconds": 424.97,
+              "end_seconds": 459.318
+            },
+            {
+              "asset_id": "narration-s15",
+              "start_seconds": 459.97,
+              "end_seconds": 494.04
+            },
+            {
+              "asset_id": "narration-s16",
+              "start_seconds": 494.69,
+              "end_seconds": 530.979
+            },
+            {
+              "asset_id": "narration-s17",
+              "start_seconds": 531.63,
+              "end_seconds": 563.438
+            },
+            {
+              "asset_id": "narration-s18",
+              "start_seconds": 564.09,
+              "end_seconds": 597.3
+            },
+            {
+              "asset_id": "narration-s19",
+              "start_seconds": 597.95,
+              "end_seconds": 631.314
+            },
+            {
+              "asset_id": "narration-s20",
+              "start_seconds": 631.96,
+              "end_seconds": 667.419
+            }
+          ]
+        },
+        "sfx": [
+          {
+            "asset_id": "sfx-aviation-radar",
+            "start_seconds": 0.0,
+            "volume": 1.0
+          }
+        ]
+      },
+      "subtitles": {
+        "enabled": false,
+        "source": "assets/audio/narration_full.srt"
+      },
+      "slideshow_risk_score": {
+        "average": 0.0,
+        "verdict": "strong"
+      },
+      "metadata": {
+        "target_duration_seconds": 668.27,
+        "proposal_render_runtime": "remotion",
+        "style_playbook": "clean-professional",
+        "selective_photo_zoom_scenes": {
+          "scene_14": [
+            13.0,
+            27.6
+          ],
+          "scene_18": [
+            12.6,
+            27.4
+          ]
+        }
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "passed": true,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "notes": [
+      "Locked bespoke Atelier render config (SanBayLongThanh40km, 20 scenes, 668.27s, CRF 14, concurrency 4).",
+      "Selective photo zoom restricted exclusively to Scene 14 (Incheon Airport) and Scene 18 (Metro Line 1)."
+    ]
+  },
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  }
+}

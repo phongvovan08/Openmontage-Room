@@ -1,0 +1,109 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalDurationSeconds": 668.27,
+  "masterAudioFile": "audio/master_audio.mp3",
+  "scenes": [
+    {
+      "id": "scene_01",
+      "start_seconds": 0.0,
+      "end_seconds": 30.67
+    },
+    {
+      "id": "scene_02",
+      "start_seconds": 30.67,
+      "end_seconds": 63.93
+    },
+    {
+      "id": "scene_03",
+      "start_seconds": 63.93,
+      "end_seconds": 95.24
+    },
+    {
+      "id": "scene_04",
+      "start_seconds": 95.24,
+      "end_seconds": 127.06
+    },
+    {
+      "id": "scene_05",
+      "start_seconds": 127.06,
+      "end_seconds": 158.53
+    },
+    {
+      "id": "scene_06",
+      "start_seconds": 158.53,
+      "end_seconds": 187.93
+    },
+    {
+      "id": "scene_07",
+      "start_seconds": 187.93,
+      "end_seconds": 220.08
+    },
+    {
+      "id": "scene_08",
+      "start_seconds": 220.08,
+      "end_seconds": 253.9
+    },
+    {
+      "id": "scene_09",
+      "start_seconds": 253.9,
+      "end_seconds": 288.79
+    },
+    {
+      "id": "scene_10",
+      "start_seconds": 288.79,
+      "end_seconds": 322.04
+    },
+    {
+      "id": "scene_11",
+      "start_seconds": 322.04,
+      "end_seconds": 355.93
+    },
+    {
+      "id": "scene_12",
+      "start_seconds": 355.93,
+      "end_seconds": 389.96
+    },
+    {
+      "id": "scene_13",
+      "start_seconds": 389.96,
+      "end_seconds": 424.77
+    },
+    {
+      "id": "scene_14",
+      "start_seconds": 424.77,
+      "end_seconds": 459.77
+    },
+    {
+      "id": "scene_15",
+      "start_seconds": 459.77,
+      "end_seconds": 494.49
+    },
+    {
+      "id": "scene_16",
+      "start_seconds": 494.49,
+      "end_seconds": 531.43
+    },
+    {
+      "id": "scene_17",
+      "start_seconds": 531.43,
+      "end_seconds": 563.89
+    },
+    {
+      "id": "scene_18",
+      "start_seconds": 563.89,
+      "end_seconds": 597.75
+    },
+    {
+      "id": "scene_19",
+      "start_seconds": 597.75,
+      "end_seconds": 631.76
+    },
+    {
+      "id": "scene_20",
+      "start_seconds": 631.76,
+      "end_seconds": 668.27
+    }
+  ]
+}

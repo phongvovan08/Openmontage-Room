@@ -132,6 +132,17 @@ TARGET LUFS:    -14 LUFS (YouTube/TikTok/IG) | -16 LUFS (podcasts)
 - Cut 2-4 kHz on the music bed to clear the "intelligibility band" for voice
 - Always test on phone speakers — if voice disappears, boost 2-4 kHz more aggressively
 
+## Applied Micro-Foley Density & Band-Normalized Synthesis (Map & Motion-Graphics Explainers)
+
+When synthesizing or mixing sound effects for documentary maps, historical explainers, or data-motion graphics, follow **selective, visually-motivated SFX placement** (see [vietnam-map-explainer](../vietnam-map-explainer/SKILL.md) for the concrete synthesizer & QA script):
+
+1. **Always peak-normalize AFTER narrow bandpass filtering:** Passing white noise through a narrow Butterworth bandpass (`140–600 Hz` or `1.0–2.4 kHz`) attenuates RMS energy by `18–25 dB`. Scaling un-normalized filtered noise by `0.15` drops transients down to `-35..-60 dB` (`pres2.5k-7k < -80 dB`), making SFX completely inaudible beneath `-16 LUFS` narration. Peak-normalize each individual foley asset to `-18.5 to -13.5 dBFS` *after* filtering and *before* reverb tailing so SFX punctuate cleanly at `>= 6 dB` below foreground narration.
+2. **Never ship `< 100 Hz`-only music beds:** Sub-bass drones at `50–80 Hz` vanish on phone and laptop speakers. Add a warm, unobtrusive `110–350 Hz` harmonic pulse (`90–105 BPM`, gentle `-19.5 dBFS` peak, subtle shaker texture) and duck both bed (`4.5:1`) and SFX (`2.2:1` + `2.8 kHz -3.0 dB` vocal pocket) under speech via sidechain so narration always leads cleanly.
+3. **Selective, Visually-Motivated SFX Placement (Never Pad Speech):**
+   - **Long-form (`10–14 min` 16:9 documentary):** **`3–5 cues/min` (`1–3` cues per `30–35s` scene)** — fire SFX **only** on high-value structural and visual beats (chapter transitions, major camera dives / hero photo zoom windows, `GeoCaliperRule` distance spans, archival decree snaps + highlighter sweeps, hero polygon drops). Leave calm analytical narration stretches completely clean.
+   - **Short-form (`45–58s` 9:16 Reels/Shorts):** **`10–16 cues/min`** strictly locked to rapid visual cuts and reveals (`whooshes` `-15..-20 ms` before camera moves; tactile pops/stamps on visual apex).
+4. **Verify Active-Window 5-Band Spectral Balance Before Video Render:** Probe **active cue samples** (`|x| > 1e-4`, so restrained mixes are not penalized by intentional calm stretches) and final master via `ebur128` + multi-band RMS (`active pres2.5k-7k >= -52 dB`, `sfx_peak >= -24 dB`, final integrated `-14.5 to -14.0 LUFS`, true peak/max `<= -1.2 dB`).
+
 ## Applying to OpenMontage
 
 When the **audio_mixer** tool is used in the compose stage:

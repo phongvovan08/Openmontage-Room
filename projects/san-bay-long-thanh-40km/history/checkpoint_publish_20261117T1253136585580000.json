@@ -1,0 +1,92 @@
+{
+  "version": "1.0",
+  "project_id": "san-bay-long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "publish",
+  "status": "awaiting_human",
+  "timestamp": "2026-11-17T12:53:13.658558+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": false,
+  "artifacts": {
+    "publish_log": {
+      "version": "1.0",
+      "entries": [
+        {
+          "platform": "youtube",
+          "status": "exported",
+          "export_path": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\exports",
+          "timestamp": "2026-11-17T12:53:13.344459+00:00",
+          "metadata_used": {
+            "title": "V\u00ec sao s\u00e2n bay Long Th\u00e0nh ph\u1ea3i l\u00f9i xa TP.HCM 40km?",
+            "description": "Nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t gi\u00fap gi\u1ea3m t\u1ea3i m\u1eb7t \u0111\u1ea5t, nh\u01b0ng v\u00ec sao b\u1ea7u tr\u1eddi TP.HCM v\u1eabn c\u1ea7n m\u1ed9t si\u00eau s\u00e2n bay m\u1edbi c\u00e1ch trung t\u00e2m kho\u1ea3ng 40 km t\u1ea1i Long Th\u00e0nh (\u0110\u1ed3ng Nai)?\nT\u1eeb quy t\u1eafc 365 m gi\u1eefa hai \u0111\u01b0\u1eddng b\u0103ng 25R/25L, h\u00e0nh lang ph\u1ec5u h\u1ea1 c\u00e1nh tr\u00ean \u0111\u1ea7u 10 tri\u1ec7u d\u00e2n, ph\u00e9p lo\u1ea1i tr\u1eeb 4 h\u01b0\u1edbng \u0111\u1ecba l\u00fd \u2013 kh\u00f4ng ph\u1eadn \u0111\u1ebfn b\u00e0i to\u00e1n \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh (~20\u201325 ph\u00fat): video gi\u1ea3i m\u00e3 tr\u1ecdn v\u1eb9n logic \u0111\u1ecba l\u00fd kinh t\u1ebf \u0111\u1eb1ng sau \u0111\u1ea1i c\u00f4ng tr\u00ecnh 5.000 ha.\n\n\ud83c\udfaf PH\u01af\u01a0NG \u00c1N TI\u00caU \u0110\u1ec0 TEST & COMPARE TR\u00caN YOUTUBE STUDIO:\n\u2022 Ch\u00ednh (A): V\u00ec sao s\u00e2n bay Long Th\u00e0nh ph\u1ea3i l\u00f9i xa TP.HCM 40km?\n\u2022 Ph\u01b0\u01a1ng \u00e1n B: Nh\u00e0 ga T3 c\u00f3 r\u1ed3i, sao v\u1eabn ph\u1ea3i x\u00e2y Long Th\u00e0nh c\u00e1ch 40km?\n\u2022 Ph\u01b0\u01a1ng \u00e1n C: Gi\u1ea3i m\u00e3 s\u00e2n bay Long Th\u00e0nh: Tho\u00e1t b\u1eaby 365m \u1edf T\u00e2n S\u01a1n Nh\u1ea5t\n\n\ud83d\udccc NGU\u1ed2N PH\u00c1P L\u00dd & D\u1eee LI\u1ec6U THAM CHI\u1ebeU (Tr\u1ea1ng th\u00e1i `unverified` trong artifacts/candidate_facts_sources.json \u2014 c\u1ea7n ng\u01b0\u1eddi duy\u1ec7t ki\u1ec3m ch\u1ee9ng tr\u01b0\u1edbc khi c\u00f4ng khai):\n1. Ngh\u1ecb quy\u1ebft 94/2015/QH13 \u2014 Ch\u1ee7 tr\u01b0\u01a1ng \u0111\u1ea7u t\u01b0 D\u1ef1 \u00e1n C\u1ea3ng HKQT Long Th\u00e0nh (100 tri\u1ec7u HK/n\u0103m, 5 tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a/n\u0103m, 5.000 ha).\n2. Ngh\u1ecb quy\u1ebft 174/2024/QH15 \u2014 \u0110i\u1ec1u ch\u1ec9nh ch\u1ee7 tr\u01b0\u01a1ng Giai \u0111o\u1ea1n 1, b\u1ed5 sung \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh s\u1ed1 3 (\u0111\u01b0\u1eddng b\u0103ng th\u1ee9 2 ph\u00eda B\u1eafc).\n3. Quy\u1ebft \u0111\u1ecbnh 648/Q\u0110-TTg \u2014 Quy ho\u1ea1ch t\u1ed5ng th\u1ec3 ph\u00e1t tri\u1ec3n h\u1ec7 th\u1ed1ng c\u1ea3ng h\u00e0ng kh\u00f4ng, s\u00e2n bay to\u00e0n qu\u1ed1c.\n\n\ud83d\udef0\ufe0f B\u1ea2N QUY\u1ec0N H\u00ccNH \u1ea2NH, B\u1ea2N \u0110\u1ed2 & \u00c2M THANH:\n\u2022 \u1ea2nh v\u1ec7 tinh n\u1ec1n: EOxCloudless Sentinel-2 cloudless mosaic 2024 (z4\u2013z14) by EOX IT Services GmbH / Copernicus \u2014 CC BY 4.0 (https://cloudless.eox.at).\n\u2022 \u0110\u01b0\u1eddng b\u1edd, s\u00f4ng ng\u00f2i, c\u1ea7u & cao t\u1ed1c: Natural Earth (Public Domain) & \u00a9 OpenStreetMap contributors \u2014 ODbL (https://www.openstreetmap.org/copyright).\n\u2022 \u1ea2nh t\u01b0 li\u1ec7u th\u1ef1c \u0111\u1ecba (Wikimedia Commons \u2014 11 \u1ea3nh t\u1ef1 do b\u1ea3n quy\u1ec1n):\n  - T\u00e2n S\u01a1n Nh\u1ea5t ban \u0111\u00eam (File:Tan_Son_Nhat_International_Airport_at_night_(12088245464).jpg) \u2014 Bem photography, CC BY 2.0.\n  - S\u00e2n \u0111\u1ed7 & nh\u00e0 ga TSN (File:Tan_Son_Nhat_ramp_(08.2026).jpg) \u2014 Hwi.padam, CC BY-SA 4.0.\n  - \u0110\u01b0\u1eddng ch\u00e2n tr\u1eddi TP.HCM (File:Ho_Chi_Minh_City_-_Saigon1324.jpg) \u2014 lumoplank, CC0.\n  - H\u1ec7 sinh th\u00e1i r\u1eebng ng\u1eadp m\u1eb7n (File:Mangrove_bud.jpg) \u2014 Tho nau, CC BY-SA 3.0.\n  - T\u01b0 li\u1ec7u \u0111\u1ed3n \u0111i\u1ec1n cao su Suzannah (File:Belle_plantation_d'h\u00e9v\u00e9as_\u00e0_Suzannah...jpg) \u2014 Gallica BnF, Public domain.\n  - B\u1ebfn c\u1ea3ng n\u01b0\u1edbc s\u00e2u Ph\u00fa M\u1ef9 \u2013 Th\u1ecb V\u1ea3i \u2013 C\u00e1i M\u00e9p (File:VN-Phu-My-Hafen-3.jpg) \u2014 Balou46, CC BY-SA 3.0.\n  - Si\u00eau t\u00e0u bay Airbus A380 (File:A380_-_Paris_Air_Show_2011_-_Take_off.jpg) \u2014 Boute95, CC BY-SA 3.0.\n  - Kh\u00f4ng \u1ea3nh nh\u00e0 ga hoa sen & c\u00f4ng tr\u01b0\u1eddng S\u00e2n bay Long Th\u00e0nh (File:Dji-0031-2479-7509-26233946999421542541397.jpg) \u2014 Hehebisbis, CC BY-SA 4.0.\n  - S\u00e2n bay qu\u1ed1c t\u1ebf Incheon (File:02-NOV-2023_-_KC910_ICN-ALA...jpg) \u2014 Simply Aviation, CC BY-SA 4.0.\n  - Bi\u1ec3n b\u00e1o cao t\u1ed1c CT.01 Long Th\u00e0nh \u2013 D\u1ea7u Gi\u00e2y (File:Long_Th\u00e0nh-D\u1ea7u_Gi\u00e2y_Expressway_Speed_Limit_Sign.jpg) \u2014 MinhVN123, CC BY-SA 4.0.\n  - \u0110o\u00e0n t\u00e0u Metro s\u1ed1 1 TP.HCM (File:L111_BenThanh_Train_Front_(20250202).jpg) \u2014 Kateru Zakuro, CC BY 4.0.\n\u2022 C\u00f4ng b\u1ed1 n\u1ed9i dung t\u1ed5ng h\u1ee3p (Altered/Synthetic Content Disclosure): Gi\u1ecdng \u0111\u1ecdc b\u00ecnh lu\u1eadn do AI t\u1ed5ng h\u1ee3p (Vibi TTS \u2014 Haitrieu) k\u1ebft h\u1ee3p \u0111\u1ed3 h\u1ecda b\u1ea3n \u0111\u1ed3 3D m\u00f4 ph\u1ecfng t\u1eeb \u1ea3nh v\u1ec7 tinh v\u00e0 d\u1eef li\u1ec7u \u0111\u1ecba l\u00fd th\u1ef1c t\u1ebf.\n\n#GiaiMaBanDo #SanBayLongThanh #TanSonNhat #DiaLyKinhTe #HaTangVietNam",
+            "hashtags": [
+              "#GiaiMaBanDo",
+              "#SanBayLongThanh",
+              "#TanSonNhat",
+              "#DiaLyKinhTe",
+              "#HaTangVietNam"
+            ],
+            "chapters": [
+              {
+                "start_seconds": 0,
+                "title": "Ngh\u1ecbch l\u00fd Nh\u00e0 ga T3 & B\u00e0i to\u00e1n l\u00f9i 40 km"
+              },
+              {
+                "start_seconds": 95,
+                "title": "Quy t\u1eafc 365 m & N\u00fat th\u1eaft b\u1ea7u tr\u1eddi T\u00e2n S\u01a1n Nh\u1ea5t"
+              },
+              {
+                "start_seconds": 220,
+                "title": "Ph\u00e9p lo\u1ea1i tr\u1eeb B\u1eafc \u2013 T\u00e2y \u2013 Nam & N\u1ec1n b\u00f9n C\u1ea7n Gi\u1edd"
+              },
+              {
+                "start_seconds": 322,
+                "title": "\u0110\u1ea5t \u0111\u1ecf B\u00ecnh S\u01a1n 40 km & \u0110\u1ea1i c\u00f4ng tr\u01b0\u1eddng 5.000 ha c\u1ea5p 4F"
+              },
+              {
+                "start_seconds": 460,
+                "title": "Ngh\u1ecb quy\u1ebft 174 & Chu\u1ea9n c\u1ef1 ly si\u00eau s\u00e2n bay ch\u00e2u \u00c1"
+              },
+              {
+                "start_seconds": 531,
+                "title": "4 tr\u1ee5c cao t\u1ed1c v\u01b0\u1ee3t s\u00f4ng \u0110\u1ed3ng Nai & \u0110\u01b0\u1eddng s\u1eaft 120 km/h"
+              }
+            ]
+          },
+          "visibility": "private"
+        }
+      ],
+      "metadata": {
+        "manual_upload_checklist": [
+          "X\u00e1c minh c\u00e1c URL ngu\u1ed3n trong artifacts/candidate_facts_sources.json (hi\u1ec7n \u0111ang \u1edf tr\u1ea1ng th\u00e1i 'unverified') tr\u01b0\u1edbc khi \u0111\u1eb7t ch\u1ebf \u0111\u1ed9 C\u00f4ng khai.",
+          "T\u1ea3i l\u00ean th\u1ee7 c\u00f4ng qua YouTube Studio k\u00e8m subtitles.srt, thumbnail.jpg ('K\u1eb8T B\u1ea6U TR\u1edcI!') v\u00e0 3 ti\u00eau \u0111\u1ec1 Test & Compare (A/B/C).",
+          "B\u1eadt c\u1edd Altered or synthetic content tr\u00ean YouTube Studio (gi\u1ecdng Vibi TTS Haitrieu)."
+        ],
+        "files_written": [
+          "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\exports\\video\\output.mp4",
+          "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\exports\\video\\subtitles.srt",
+          "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\exports\\metadata\\metadata.json",
+          "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\exports\\metadata\\description.txt",
+          "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\exports\\metadata\\tags.txt",
+          "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\exports\\metadata\\chapters.txt",
+          "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\exports\\thumbnails\\thumbnail.jpg"
+        ]
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "passed": true,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "notes": [
+      "Packaged full ~11m YouTube Studio bundle in projects/san-bay-long-thanh-40km/exports/ (local private bundle, zero auto-upload)."
+    ]
+  },
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  }
+}

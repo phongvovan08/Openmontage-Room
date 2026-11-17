@@ -1,0 +1,467 @@
+{
+  "version": "1.0",
+  "project_id": "san-bay-long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "proposal",
+  "status": "awaiting_human",
+  "timestamp": "2026-11-16T18:35:56.170286+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": false,
+  "artifacts": {
+    "proposal_packet": {
+      "version": "1.0",
+      "concept_options": [
+        {
+          "id": "c1",
+          "title": "V\u00ec sao s\u00e2n bay Long Th\u00e0nh ph\u1ea3i l\u00f9i xa TP.HCM 40km?",
+          "hook": "Nh\u00e0 ga T3 kh\u00f4ng c\u1ee9u n\u1ed5i 2 \u0111\u01b0\u1eddng b\u0103ng c\u00e1ch nhau 365 m \u2014 bu\u1ed9c si\u00eau s\u00e2n bay ph\u1ea3i l\u00f9i 40 km.",
+          "narrative_structure": "problem_solution",
+          "visual_approach": "B\u1ea3n \u0111\u1ed3 kh\u00f4ng l\u01b0u 3D nghi\u00eang 48\u00b0\u201352\u00b0 tr\u00ean n\u1ec1n v\u1ec7 tinh EOX 2024 z14 k\u1ebft h\u1ee3p ph\u1ec5u ti\u1ebfp c\u1eadn bay c\u1eaft qua cao \u1ed1c TP.HCM, th\u01b0\u1edbc \u0111o t\u1ef7 l\u1ec7 1:1 \u0111\u01b0\u1eddng b\u0103ng 365 m vs chu\u1ea9n ICAO, ch\u1ed3ng kh\u00edt 791 ha v\u00e0o 5.000 ha (6,3\u00d7), l\u00e1t c\u1eaft \u0111\u1ecba ch\u1ea5t \u0111\u1ea5t \u0111\u1ecf bazan B\u00ecnh S\u01a1n vs v\u00f9ng tr\u0169ng Nam S\u00e0i G\u00f2n, v\u00e0 b\u1ea3n \u0111\u1ed3 \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh (~20 ph\u00fat).",
+          "suggested_playbook": "clean-professional",
+          "target_audience": "Kh\u00e1n gi\u1ea3 Vi\u1ec7t Nam quan t\u00e2m h\u1ea1 t\u1ea7ng, \u0111\u1ecba l\u00fd kinh t\u1ebf, h\u00e0ng kh\u00f4ng v\u00e0 giao th\u00f4ng TP.HCM \u2013 \u0110\u00f4ng Nam B\u1ed9",
+          "target_platform": "youtube",
+          "target_duration_seconds": 660,
+          "key_points": [
+            "Ch\u01b0\u01a1ng 1 \u2014 C\u00e1i l\u1ed3ng 791 ha & B\u00ed m\u1eadt 365 m: V\u00ec sao Nh\u00e0 ga T3 (n\u00e2ng TSN l\u00ean ~50 tri\u1ec7u kh\u00e1ch) kh\u00f4ng th\u00e1o \u0111\u01b0\u1ee3c n\u00fat th\u1eaft hai \u0111\u01b0\u1eddng b\u0103ng ph\u1ee5 thu\u1ed9c nhau tr\u00ean b\u1ea7u tr\u1eddi.",
+            "Ch\u01b0\u01a1ng 2 \u2014 Ph\u1ec5u bay tr\u00ean n\u00f3c 10 tri\u1ec7u d\u00e2n: Gi\u1ea3i m\u00e3 n\u00f3n t\u0129nh kh\u00f4ng, h\u00e0nh lang ti\u1ebfng \u1ed3n v\u00e0 chi ph\u00ed gi\u1ea3i t\u1ecfa n\u1ed9i \u0111\u00f4 b\u1ea5t kh\u1ea3 thi n\u1ebfu m\u1edf r\u1ed9ng T\u00e2n S\u01a1n Nh\u1ea5t.",
+            "Ch\u01b0\u01a1ng 3 \u2014 B\u00e0i to\u00e1n b\u00e1n k\u00ednh 40 km: V\u00ec sao ph\u1ea3i ch\u1ecdn th\u1ec1m \u0111\u1ea5t \u0111\u1ecf bazan B\u00ecnh S\u01a1n (Long Th\u00e0nh) ch\u1ee9 kh\u00f4ng ph\u1ea3i v\u00f9ng b\u00f9n y\u1ebfu ng\u1eadp tri\u1ec1u ph\u00eda Nam hay h\u00e0nh lang qu\u00e2n s\u1ef1 Bi\u00ean H\u00f2a.",
+            "Ch\u01b0\u01a1ng 4 \u2014 So g\u0103ng 1:1: \u0110\u1eb7t tr\u1ecdn 791 ha T\u00e2n S\u01a1n Nh\u1ea5t l\u1ecdt th\u1ecfm trong 5.000 ha Long Th\u00e0nh (g\u1ea5p 6,3 l\u1ea7n), c\u1ea5u h\u00ecnh 4 \u0111\u01b0\u1eddng b\u0103ng 4.000\u00d760 m c\u1ea5p 4F \u0111\u00f3n 100 tri\u1ec7u kh\u00e1ch.",
+            "Ch\u01b0\u01a1ng 5 \u2014 H\u00f3a gi\u1ea3i n\u1ed7i lo 'xa 40 km': Cao t\u1ed1c TP.HCM \u2013 Long Th\u00e0nh m\u1edf r\u1ed9ng 8\u201310 l\u00e0n, V\u00e0nh \u0111ai 3 c\u1ea7u Nh\u01a1n Tr\u1ea1ch, Bi\u00ean H\u00f2a \u2013 V\u0169ng T\u00e0u, B\u1ebfn L\u1ee9c \u2013 Long Th\u00e0nh v\u00e0 \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh (~20 ph\u00fat) v\u1eadn h\u00e0nh c\u1eb7p s\u00e2n bay song h\u00e0nh."
+          ],
+          "core_message": "S\u00e2n bay kh\u00f4ng n\u1eb1m xa 40 km v\u00ec b\u1ea5t ti\u1ec7n \u2014 m\u00e0 \u0111\u1ec3 tho\u00e1t chi\u1ebfc l\u1ed3ng 365 m gi\u1eefa n\u1ed9i \u0111\u00f4, m\u1edf ra b\u1ea7u tr\u1eddi \u0111\u1ed9c l\u1eadp cho m\u1ed9t si\u00eau \u0111\u00f4 th\u1ecb tr\u0103m n\u0103m t\u1edbi.",
+          "cta": "B\u00ecnh lu\u1eadn ch\u1ecdn T\u1eadp 3 t\u1eeb danh s\u00e1ch 20 ch\u1ee7 \u0111\u1ec1 (C\u00e1i M\u00e9p \u2013 Th\u1ecb V\u1ea3i, Cao t\u1ed1c mi\u1ec1n T\u00e2y hay Si\u00eau \u0111\u00f4 th\u1ecb TP.HCM m\u1edbi).",
+          "tone": "\u0110i\u1ec1m t\u0129nh, tr\u1ef1c quan, gi\u00e0u ch\u1ee9ng c\u1ee9 k\u1ef9 thu\u1eadt ki\u1ec3u Johnny Harris / Vox",
+          "grounded_in": [
+            "fact_tsn_365m_gap",
+            "fact_tsn_791ha_50m",
+            "fact_nq94_longthanh_scale",
+            "fact_rail_thuthiem_lt"
+          ],
+          "why_this_works": "Kh\u1edbp tr\u1ecdn v\u1eb9n nh\u1ecbp 5 Ch\u01b0\u01a1ng nh\u00e2n qu\u1ea3 (11 ph\u00fat, 20 c\u1ea3nh) tr\u1ea3 l\u1eddi tr\u1ef1c di\u1ec7n c\u00e2u h\u1ecfi n\u00f3ng nh\u1ea5t c\u1ee7a kh\u00e1n gi\u1ea3 Vi\u1ec7t, v\u1eeba b\u1eadt \u0111\u01b0\u1ee3c mid-roll >= 8 ph\u00fat v\u1eeba k\u1ebf th\u1eeba to\u00e0n b\u1ed9 s\u1ee9c m\u1ea1nh b\u1ea3n \u0111\u1ed3 3D + v\u1ec7 tinh z14 \u0111\u00e3 ho\u00e0n thi\u1ec7n \u1edf T\u1eadp 1."
+        },
+        {
+          "id": "c2",
+          "title": "\u0110\u1eb7t Long Th\u00e0nh c\u1ea1nh Changi & Suvarnabhumi: Cu\u1ed9c \u0111ua hub 40km",
+          "hook": "T\u1eeb b\u00e0i to\u00e1n tho\u00e1t k\u1eb9t T\u00e2n S\u01a1n Nh\u1ea5t, 5.000 ha Long Th\u00e0nh \u0111ang nh\u1eafm th\u1eb3ng v\u00e0o mi\u1ebfng b\u00e1nh trung chuy\u1ec3n \u0110\u00f4ng Nam \u00c1.",
+          "narrative_structure": "comparison",
+          "visual_approach": "B\u1ea3n \u0111\u1ed3 \u0110\u00f4ng Nam \u00c1 t\u1ea7m r\u1ed9ng \u0111\u1ed1i chi\u1ebfu b\u00e1n k\u00ednh bay qu\u1ed1c t\u1ebf gi\u1eefa Long Th\u00e0nh, Changi (Singapore), Suvarnabhumi (Bangkok) v\u00e0 Kuala Lumpur.",
+          "suggested_playbook": "clean-professional",
+          "target_audience": "Kh\u00e1n gi\u1ea3 y\u00eau th\u00edch kinh t\u1ebf v\u0129 m\u00f4 v\u00e0 c\u1ea1nh tranh h\u00e0ng kh\u00f4ng khu v\u1ef1c",
+          "target_platform": "youtube",
+          "target_duration_seconds": 750,
+          "key_points": [
+            "\u0110\u1eb7t T\u00e2n S\u01a1n Nh\u1ea5t & Long Th\u00e0nh v\u00e0o b\u1ea3n \u0111\u1ed3 m\u1ea1ng trung chuy\u1ec3n \u0110\u00f4ng Nam \u00c1.",
+            "So s\u00e1nh kho\u1ea3ng c\u00e1ch t\u1eeb trung t\u00e2m t\u1edbi c\u00e1c s\u00e2n bay ngo\u1ea1i \u00f4 l\u1edbn nh\u01b0 Incheon, Narita, Suvarnabhumi."
+          ],
+          "core_message": "Quy m\u00f4 4F t\u1ea1i Long Th\u00e0nh \u0111\u01b0a Vi\u1ec7t Nam t\u1eeb s\u00e2n bay cu\u1ed1i tuy\u1ebfn th\u00e0nh c\u1eeda ng\u00f5 trung chuy\u1ec3n m\u1edbi.",
+          "grounded_in": [
+            "fact_nq94_longthanh_scale",
+            "fact_distance_40km"
+          ],
+          "why_this_works": "M\u1edf r\u1ed9ng g\u00f3c nh\u00ecn khu v\u1ef1c \u0110\u00f4ng Nam \u00c1 (~12,5 ph\u00fat)."
+        },
+        {
+          "id": "c3",
+          "title": "3 hi\u1ec3u l\u1ea7m l\u1edbn nh\u1ea5t v\u1ec1 s\u00e2n bay Long Th\u00e0nh c\u00e1ch TP.HCM 40km",
+          "hook": "C\u00f3 Nh\u00e0 ga T3 r\u1ed3i x\u00e2y Long Th\u00e0nh c\u00f3 th\u1eeba kh\u00f4ng, v\u00e0 40 c\u00e2y s\u1ed1 c\u00f3 bi\u1ebfn m\u1ed7i chuy\u1ebfn bay th\u00e0nh c\u1ef1c h\u00ecnh?",
+          "narrative_structure": "myth_busting",
+          "visual_approach": "Nh\u1ecbp ph\u1ea3n bi\u1ec7n nhanh t\u1eadp trung v\u00e0o 3 l\u00e1t c\u1eaft: T3 vs \u0111\u01b0\u1eddng b\u0103ng 365 m, so s\u00e1nh kho\u1ea3ng c\u00e1ch ngo\u1ea1i \u00f4 th\u1ebf gi\u1edbi, v\u00e0 m\u00f4 ph\u1ecfng t\u1ed1c \u0111\u1ed9 20 ph\u00fat c\u1ee7a tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh.",
+          "suggested_playbook": "clean-professional",
+          "target_audience": "Ng\u01b0\u1eddi xem t\u00ecm c\u00e2u tr\u1ea3 l\u1eddi nhanh, tr\u1ef1c di\u1ec7n c\u00e1c tranh lu\u1eadn tr\u00e1i chi\u1ec1u",
+          "target_platform": "youtube",
+          "target_duration_seconds": 570,
+          "key_points": [
+            "Ph\u1ea3n bi\u1ec7n 3 hi\u1ec3u l\u1ea7m ph\u1ed5 bi\u1ebfn nh\u1ea5t b\u1eb1ng s\u1ed1 li\u1ec7u ICAO & m\u1eb7t c\u1eaft 3D.",
+            "T\u00e1ch b\u1ea1ch vai tr\u00f2 c\u1eb7p s\u00e2n bay song h\u00e0nh TSN (n\u1ed9i \u0111\u1ecba/ng\u1eafn) \u2013 Long Th\u00e0nh (qu\u1ed1c t\u1ebf/hub)."
+          ],
+          "core_message": "Kho\u1ea3ng c\u00e1ch v\u1eadt l\u00fd 40 km b\u1ecb thu h\u1eb9p c\u00f2n 20 ph\u00fat khi h\u1ea1 t\u1ea7ng \u0111\u01b0\u1eddng s\u1eaft v\u00e0 cao t\u1ed1c \u0111\u1ed3ng b\u1ed9.",
+          "grounded_in": [
+            "fact_tsn_365m_gap",
+            "fact_rail_thuthiem_lt",
+            "fact_expressway_hcm_lt"
+          ],
+          "why_this_works": "C\u00f4 \u0111\u1ecdng ~9,5 ph\u00fat d\u1ec5 g\u00e2y tranh lu\u1eadn t\u01b0\u01a1ng t\u00e1c cao \u1edf ph\u1ea7n b\u00ecnh lu\u1eadn."
+        }
+      ],
+      "selected_concept": {
+        "concept_id": "c1",
+        "rationale": "\u0110\u1ec1 xu\u1ea5t m\u1eb7c \u0111\u1ecbnh c1 (~11 ph\u00fat, 20 c\u1ea3nh, 5 Ch\u01b0\u01a1ng tr\u1ecdn v\u1eb9n) k\u1ebft h\u1ee3p ti\u00eau \u0111\u1ec1 C\u1eb7p A 'V\u00ec sao s\u00e2n bay Long Th\u00e0nh ph\u1ea3i l\u00f9i xa TP.HCM 40km?' + b\u00eca 'K\u1eb8T B\u1ea6U TR\u1edcI!' \u2014 ch\u1edd ng\u01b0\u1eddi d\u00f9ng x\u00e1c nh\u1eadn.",
+        "modifications": [
+          "Ch\u1edd duy\u1ec7t c\u1ee7a ng\u01b0\u1eddi d\u00f9ng cho: concept_id, c\u1eb7p ti\u00eau \u0111\u1ec1/thumbnail, runtime (Remotion vs HyperFrames), authoring mode (Atelier vs Templated) v\u00e0 gi\u1ecdng \u0111\u1ecdc Vibi Haitrieu."
+        ]
+      },
+      "production_plan": {
+        "pipeline": "animated-explainer",
+        "playbook": "clean-professional",
+        "renderer_family": "explainer-data",
+        "render_runtime": "remotion",
+        "composition_mode": "atelier",
+        "art_direction": "projects/san-bay-long-thanh-40km/art-direction.md",
+        "taste_profile": {
+          "design_read": "B\u1ea3n \u0111\u1ed3 Radar & Kh\u00f4ng l\u01b0u 3D (Aviation Telemetry Johnny Harris / Vox) k\u1ebft h\u1ee3p l\u00e1t c\u1eaft \u0111\u1ecba ch\u1ea5t \u0111\u1ea5t \u0111\u1ecf bazan, so s\u00e1nh \u0111\u01b0\u1eddng b\u0103ng ICAO 1:1 v\u00e0 b\u1ea3n \u0111\u1ed3 \u0111a ph\u01b0\u01a1ng th\u1ee9c 20 ph\u00fat.",
+          "visual_variance": 8,
+          "motion_intensity": 6,
+          "information_density": 7,
+          "palette_discipline": "#030814 n\u1ec1n radar, #38BDF8 kh\u00f4ng l\u01b0u, #2DD4BF Long Th\u00e0nh 4F, #F43F5E TSN 365m/v\u00f9ng \u1ed3n, #FACC15 quy ho\u1ea1ch \u0111\u01b0\u1eddng s\u1eaft.",
+          "layout_variation": "Lu\u00e2n phi\u00ean 5 h\u1ecd c\u1ea3nh kh\u00f4ng l\u1eb7p l\u1ea1i: Airspace Funnel 3D, Parallel Runway Ruler 1:1, Overlay 791ha trong 5000ha, Soil Cutaway 3D v\u00e0 Isochrone Rail Map.",
+          "reference_strategy": "K\u1ebf th\u1eeba ki\u1ebfn tr\u00fac engine full-bleed Tactical3DKit, EOX 2024 z4\u2013z14 v\u00e0 KeywordCaptionBar 0px jitter v\u1edbi phong c\u00e1ch Aviation Radar m\u1edbi ho\u00e0n to\u00e0n.",
+          "anti_patterns": [
+            "Kh\u00f4ng t\u1ea1o asset tr\u01b0\u1edbc khi proposal \u0111\u01b0\u1ee3c duy\u1ec7t",
+            "Kh\u00f4ng khoanh v\u00f2ng tr\u00f2n quanh Ho\u00e0ng Sa & Tr\u01b0\u1eddng Sa",
+            "Kh\u00f4ng \u0111\u1ec3 ch\u1eef ngu\u1ed3n Wikimedia/EOX v\u1ee5n l\u00ean khung h\u00ecnh video",
+            "Kh\u00f4ng l\u00e0m nh\u00f2e n\u1ec1n b\u1ea3n \u0111\u1ed3 b\u1eb1ng filter/mask tr\u00ean th\u1ebb CSS 3D"
+          ],
+          "quality_gates": [
+            "M\u1ecdi tuy\u1ebfn bay, cao t\u1ed1c, \u0111\u01b0\u1eddng s\u1eaft v\u00e0 ranh gi\u1edbi 5.000 ha / 791 ha b\u00e1m s\u00e1t OSM + z14 v\u00e0 \u0111\u1ea1t verify_polylines.py (0 vi ph\u1ea1m)",
+            "M\u1ecdi \u1ea3nh th\u1ef1c \u0111\u1ecba Wikimedia Commons \u0111\u1ec1u ki\u1ec3m tra 100% kh\u00f4ng watermark qua read_file",
+            "0% \u0111\u00e8 ch\u1eef tr\u00ean to\u00e0n b\u1ed9 c\u00e1c c\u1ea3nh r\u1ed9ng v\u00e0 macro z14",
+            "Ph\u1ee5 \u0111\u1ec1 \u0111\u1ee9ng y\u00ean 0.00px layout shift & word_accuracy=1.0"
+          ]
+        },
+        "delivery_promise": {
+          "promise_type": "data_explainer",
+          "motion_required": true,
+          "tone_mode": "educational",
+          "quality_floor": "broadcast",
+          "approved_fallback": null
+        },
+        "music_source": {
+          "source_type": "bring_your_own",
+          "track_path": "projects/san-bay-long-thanh-40km/assets/audio/sfx_aviation_radar.mp3",
+          "mood_direction": "Procedural Documentary Pulse + Radar Telemetry / Jet Whoosh / Blueprint Lock 3-Bus SFX (100% s\u1ea1ch b\u1ea3n quy\u1ec1n Content ID).",
+          "estimated_cost_usd": 0.0
+        },
+        "voice_selection": {
+          "provider": "vibi",
+          "voice_id": "Haitrieu (1ad2682d-1c78-4bb2-8061-b7cc216362c9)",
+          "rationale": "Gi\u1ecdng \u0111\u1ecdc \u0111\u1ed3ng b\u1ed9 nh\u1ea5t qu\u00e1n chu\u1ed7i series Gi\u1ea3i m\u00e3 b\u1ea3n \u0111\u1ed3 t\u1eeb T\u1eadp 1, h\u1ed7 tr\u1ee3 pronunciation overrides qua _tools/vibi_tts.py.",
+          "estimated_cost_usd": 0.0,
+          "delivery_style": "\u0110i\u1ec1u tra \u0111\u1ecba l\u00fd kinh t\u1ebf \u0111i\u1ec1m t\u0129nh, d\u1ee9t kho\u00e1t t\u1eebng s\u1ed1 li\u1ec7u",
+          "pacing_policy": "Speed 1.1, chu\u1ea9n h\u00f3a -16 LUFS, kho\u1ea3ng ngh\u1ec9 r\u00f5 0,45\u20130,65s chuy\u1ec3n c\u1ea3nh.",
+          "sample_approval_required": false
+        },
+        "stages": [
+          {
+            "stage": "script",
+            "tools": [],
+            "approach": "Bi\u00ean so\u1ea1n k\u1ecbch b\u1ea3n 20 ph\u00e2n \u0111o\u1ea1n (~11 ph\u00fat) d\u1ef1a tr\u00ean fact ledger & hook \u0111\u00e3 duy\u1ec7t, t\u00e1ch 2 l\u1edbp v\u0103n b\u1ea3n chu\u1ea9n ch\u00ednh t\u1ea3 (caption) v\u00e0 phi\u00ean \u00e2m t\u1ef1 nhi\u00ean (Vibi TTS)."
+          },
+          {
+            "stage": "scene_plan",
+            "tools": [],
+            "approach": "Thi\u1ebft k\u1ebf 20 c\u1ea3nh lu\u00e2n phi\u00ean b\u1ea3n \u0111\u1ed3 3D EOX z4\u2013z14 T\u00e2n S\u01a1n Nh\u1ea5t \u2013 TP.HCM \u2013 Long Th\u00e0nh, s\u01a1 \u0111\u1ed3 \u0111\u01b0\u1eddng b\u0103ng 1:1, sa b\u00e0n \u0111\u1ecba ch\u1ea5t, h\u1ed3 s\u01a1 ph\u00e1p l\u00fd v\u00e0 m\u1eb7t c\u1eaft \u0111a ph\u01b0\u01a1ng th\u1ee9c."
+          },
+          {
+            "stage": "assets",
+            "tools": [
+              {
+                "tool_name": "vibi_tts",
+                "role": "Thu 20 \u0111o\u1ea1n thuy\u1ebft minh ti\u1ebfng Vi\u1ec7t + word timestamps",
+                "provider": "vibi",
+                "available": true,
+                "estimated_cost_usd": 0.0
+              },
+              {
+                "tool_name": "eox_sentinel2_2024",
+                "role": "T\u1ea3i th\u00e1p \u1ea3nh v\u1ec7 tinh 2024 z4\u2013z14 khu v\u1ef1c TP.HCM \u2013 T\u00e2n S\u01a1n Nh\u1ea5t \u2013 Long Th\u00e0nh",
+                "provider": "eox",
+                "available": true,
+                "estimated_cost_usd": 0.0
+              },
+              {
+                "tool_name": "wikimedia_commons",
+                "role": "T\u00ecm & ki\u1ec3m tra s\u1ea1ch watermark \u1ea3nh th\u1ef1c \u0111\u1ecba (T\u00e2n S\u01a1n Nh\u1ea5t, Long Th\u00e0nh, cao t\u1ed1c, c\u1ea7u Nh\u01a1n Tr\u1ea1ch, metro)",
+                "provider": "wikimedia_commons",
+                "available": true,
+                "estimated_cost_usd": 0.0
+              },
+              {
+                "tool_name": "synth_documentary_audio_bed",
+                "role": "T\u1ed5ng h\u1ee3p nh\u1ea1c n\u1ec1n Pulse sidechain + 3-Bus SFX kh\u00f4ng \u0111\u00e8 tho\u1ea1i",
+                "provider": "local_synthesis",
+                "available": true,
+                "estimated_cost_usd": 0.0
+              }
+            ],
+            "approach": "T\u1ea5t c\u1ea3 t\u00e0i nguy\u00ean \u0111\u1ec1u c\u1ee5c b\u1ed9 ho\u1eb7c c\u1ea5p ph\u00e9p t\u1ef1 do CC/PD ($0.00 ph\u00e1t sinh), ki\u1ec3m tra 100% \u1ea3nh g\u1ed1c qua read_file."
+          },
+          {
+            "stage": "edit",
+            "tools": [],
+            "approach": "Kh\u00f3a timeline edit_decisions theo duration Vibi TTS th\u1ef1c t\u1ebf, c\u1ea5u h\u00ecnh CRF 14, concurrency 4."
+          },
+          {
+            "stage": "compose",
+            "tools": [
+              {
+                "tool_name": "video_compose",
+                "role": "Render Remotion Atelier 1920x1080 30fps + ki\u1ec3m tra MP4 frame th\u1ef1c t\u1ebf",
+                "provider": "remotion",
+                "available": true,
+                "estimated_cost_usd": 0.0
+              }
+            ],
+            "approach": "Ki\u1ec3m tra tr\u01b0\u1edbc to\u00e0n b\u1ed9 \u1ea3nh PNG still m\u1ecdi g\u00f3c r\u1ed9ng & macro z14 tr\u01b0\u1edbc khi ch\u1ea1y LongAtelierCompose.",
+            "fallback_if_unavailable": "B\u00e1o blocker ngay theo AGENT_GUIDE.md; kh\u00f4ng t\u1ef1 \u00fd h\u1ea1 c\u1ea5p ho\u1eb7c \u0111\u1ed5i runtime."
+          },
+          {
+            "stage": "publish",
+            "tools": [
+              {
+                "tool_name": "export_bundle",
+                "role": "\u0110\u00f3ng g\u00f3i video, SRT, thumbnail v\u00e0 description.txt \u0111\u1ea7y \u0111\u1ee7 b\u1ea3n quy\u1ec1n \u0111\u1ec3 ng\u01b0\u1eddi d\u00f9ng duy\u1ec7t \u0111\u0103ng th\u1ee7 c\u00f4ng",
+                "provider": "local",
+                "available": true,
+                "estimated_cost_usd": 0.0
+              }
+            ],
+            "approach": "B\u00e0n giao c\u1ee5c b\u1ed9 trong exports/ v\u1edbi visibility private; kh\u00f4ng t\u1ef1 \u0111\u1ed9ng t\u1ea3i l\u00ean YouTube hay Drive."
+          }
+        ],
+        "quality_tradeoffs": [
+          {
+            "tradeoff": "Remotion Atelier (React + SVG + CSS 3D) vs HyperFrames (HTML/CSS/GSAP)",
+            "recommendation": "Remotion Atelier",
+            "quality_impact": "Gi\u1eef tr\u1ecdn \u0111\u1ed9 s\u1eafc n\u00e9t 4K supersampling, \u0111\u1ed3ng b\u1ed9 ph\u1ee5 \u0111\u1ec1 t\u1eebng t\u1eeb (word-level 0px jitter) v\u00e0 k\u1ebf th\u1eeba nguy\u00ean h\u1ec7 chi\u1ebfu b\u1ea3n \u0111\u1ed3 3D ch\u00ednh x\u00e1c; \u0111\u00e1nh \u0111\u1ed5i th\u1eddi gian render d\u00e0i h\u01a1n (~20\u201328 ph\u00fat \u1edf CRF 14) so v\u1edbi slide/2D."
+          },
+          {
+            "tradeoff": "Gi\u1ecdng Vibi TTS Haitrieu vs OpenAI / Piper local",
+            "recommendation": "Vibi TTS Haitrieu",
+            "quality_impact": "Ph\u00e1t \u00e2m ti\u1ebfng Vi\u1ec7t t\u1ef1 nhi\u00ean v\u00e0 nh\u1ea5t qu\u00e1n to\u00e0n series; OpenAI t\u1ed1n ph\u00ed ti\u1ebfng Anh thi\u00ean \u00e2m T\u00e2y, Piper local gi\u1ecdng k\u00e9m t\u1ef1 nhi\u00ean h\u01a1n."
+          }
+        ],
+        "alternative_paths": [
+          {
+            "description": "\u0110\u01b0\u1eddng \u0111\u1ec1 xu\u1ea5t: Remotion Atelier + V\u1ec7 tinh EOX 2024 z14 + Wikimedia Commons + Vibi TTS Haitrieu + 3-Bus SFX (CRF 14)",
+            "total_cost_usd": 0.0,
+            "quality_level": "premium",
+            "what_changes": "\u0110\u1ed9 n\u00e9t cao nh\u1ea5t, b\u1ea3n \u0111\u1ed3 3D t\u01b0\u01a1ng t\u00e1c ch\u00ednh x\u00e1c \u0111\u1ecba l\u00fd th\u1ef1c"
+          },
+          {
+            "description": "Ph\u01b0\u01a1ng \u00e1n HyperFrames HTML/GSAP thay th\u1ebf Remotion",
+            "total_cost_usd": 0.0,
+            "quality_level": "standard",
+            "what_changes": "Ph\u1ea3i x\u00e2y d\u1ef1ng l\u1ea1i h\u1ec7 chi\u1ebfu b\u1ea3n \u0111\u1ed3 Mercator 3D v\u00e0 ch\u01b0a c\u00f3 s\u1eb5n ph\u1ee5 \u0111\u1ec1 karaoke t\u1eebng t\u1eeb"
+          }
+        ],
+        "decision_log_ref": "C:\\Users\\ACER\\Desktop\\Openmontage-Room\\projects\\san-bay-long-thanh-40km\\decision_log.json"
+      },
+      "cost_estimate": {
+        "total_estimated_usd": 0.0,
+        "line_items": [
+          {
+            "tool": "vibi_tts",
+            "operation": "T\u1ed5ng h\u1ee3p ~2.500 t\u1eeb thuy\u1ebft minh ti\u1ebfng Vi\u1ec7t (Haitrieu)",
+            "quantity": 20,
+            "estimated_usd": 0.0,
+            "notes": "D\u00f9ng g\u00f3i/key Vibi \u0111\u00e3 c\u1ea5u h\u00ecnh s\u1eb5n"
+          },
+          {
+            "tool": "eox_sentinel2_2024",
+            "operation": "Th\u00e1p v\u1ec7 tinh EOX 2024 (CC BY 4.0) z4\u2013z14",
+            "quantity": 6,
+            "estimated_usd": 0.0,
+            "notes": "Mi\u1ec5n ph\u00ed c\u00f3 ghi c\u00f4ng CC BY 4.0"
+          },
+          {
+            "tool": "wikimedia_commons",
+            "operation": "\u1ea2nh ch\u1ee5p th\u1ef1c \u0111\u1ecba s\u1ea1ch watermark (CC/PD)",
+            "quantity": 12,
+            "estimated_usd": 0.0,
+            "notes": "Mi\u1ec5n ph\u00ed c\u00f3 ghi c\u00f4ng trong description.txt"
+          },
+          {
+            "tool": "synth_documentary_audio_bed",
+            "operation": "Nh\u1ea1c n\u1ec1n Documentary Pulse + 3-Bus SFX c\u1ee5c b\u1ed9",
+            "quantity": 1,
+            "estimated_usd": 0.0,
+            "notes": "100% t\u1ed5ng h\u1ee3p c\u1ee5c b\u1ed9, s\u1ea1ch Content ID"
+          },
+          {
+            "tool": "video_compose",
+            "operation": "Remotion Atelier 1920x1080 30fps CRF 14",
+            "quantity": 1,
+            "estimated_usd": 0.0,
+            "notes": "Render c\u1ee5c b\u1ed9 tr\u00ean m\u00e1y"
+          }
+        ],
+        "budget_cap_usd": 5.0,
+        "budget_verdict": "within_budget",
+        "savings_options": [
+          "To\u00e0n b\u1ed9 quy tr\u00ecnh hi\u1ec7n t\u1ea1i \u0111\u00e3 t\u1ed1i \u01b0u \u1edf m\u1ee9c $0.00 chi ph\u00ed API b\u1ed5 sung."
+        ]
+      },
+      "approval": {
+        "status": "pending",
+        "user_notes": "Ch\u1edd ng\u01b0\u1eddi d\u00f9ng x\u00e1c nh\u1eadn Concept, Runtime (Remotion vs HyperFrames), Composition Mode (Atelier vs Templated) v\u00e0 C\u1eb7p Ti\u00eau \u0111\u1ec1/Thumbnail.",
+        "approved_budget_usd": 5.0
+      }
+    },
+    "decision_log": {
+      "version": "1.0",
+      "project_id": "san-bay-long-thanh-40km",
+      "decisions": [
+        {
+          "decision_id": "d-001",
+          "stage": "proposal",
+          "category": "pipeline_selection",
+          "subject": "Pipeline cho T\u1eadp d\u00e0i s\u1ed1 2: S\u00e2n bay Long Th\u00e0nh 40km",
+          "options_considered": [
+            {
+              "option_id": "animated-explainer",
+              "label": "Animated Explainer Pipeline",
+              "score": 0.98,
+              "reason": "T\u1ed1i \u01b0u cho phim t\u00e0i li\u1ec7u gi\u1ea3i m\u00e3 \u0111\u1ecba l\u00fd b\u1eb1ng b\u1ea3n \u0111\u1ed3 3D v\u00e0 s\u01a1 \u0111\u1ed3 t\u1ef7 l\u1ec7 th\u1ef1c."
+            },
+            {
+              "option_id": "documentary-montage",
+              "label": "Documentary Montage",
+              "score": 0.3,
+              "reason": "Thi\u00ean v\u1ec1 c\u1eaft gh\u00e9p video quay th\u1eadt.",
+              "rejected_because": "K\u00eanh \u0111\u00e3 kh\u00f3a h\u01b0\u1edbng 100% b\u1ea3n \u0111\u1ed3, s\u01a1 \u0111\u1ed3 code v\u00e0 \u1ea3nh th\u1ef1c \u0111\u1ecba t\u0129nh."
+            }
+          ],
+          "selected": "animated-explainer",
+          "reason": "\u0110\u1ec1 xu\u1ea5t d\u00f9ng animated-explainer nh\u1ea5t qu\u00e1n v\u1edbi T\u1eadp 1.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.98
+        },
+        {
+          "decision_id": "d-002",
+          "stage": "proposal",
+          "category": "concept_selection",
+          "subject": "Ch\u1ecdn h\u01b0\u1edbng k\u1ecbch b\u1ea3n v\u00e0 th\u1eddi l\u01b0\u1ee3ng cho T\u1eadp 2 S\u00e2n bay Long Th\u00e0nh",
+          "options_considered": [
+            {
+              "option_id": "c1",
+              "label": "B\u1ea3n chu\u1ea9n ~11 ph\u00fat (5 Ch\u01b0\u01a1ng: 365m -> Ph\u1ec5u \u0111\u00f4 th\u1ecb -> B\u00e0i to\u00e1n 40km -> 791ha vs 5.000ha -> \u0110\u01b0\u1eddng s\u1eaft 20 ph\u00fat)",
+              "score": 0.97,
+              "reason": "Tr\u1ea3 l\u1eddi tr\u1ecdn v\u1eb9n c\u00e2u h\u1ecfi v\u00ec sao, c\u00f3 chi\u1ec1u s\u00e2u k\u1ef9 thu\u1eadt & gi\u1eef ch\u00e2n t\u1ed1t."
+            },
+            {
+              "option_id": "c2",
+              "label": "M\u1edf r\u1ed9ng ~12.5 ph\u00fat (So s\u00e1nh hub khu v\u1ef1c Changi \u2013 Suvarnabhumi)",
+              "score": 0.84,
+              "reason": "G\u00f3c nh\u00ecn qu\u1ed1c t\u1ebf r\u1ed9ng h\u01a1n nh\u01b0ng ph\u00e2n t\u00e1n kh\u1ecfi tr\u1ecdng t\u00e2m 40 km.",
+              "rejected_because": "\u0110\u1ec1 xu\u1ea5t \u01b0u ti\u00ean c1 \u0111\u1ec3 gi\u1eef s\u1ef1 t\u1eadp trung; ch\u1edd ng\u01b0\u1eddi d\u00f9ng ch\u1ecdn."
+            },
+            {
+              "option_id": "c3",
+              "label": "C\u00f4 \u0111\u1ecdng ~9.5 ph\u00fat (Ph\u1ea3n bi\u1ec7n 3 hi\u1ec3u l\u1ea7m ph\u1ed5 bi\u1ebfn)",
+              "score": 0.8,
+              "reason": "Nh\u1ecbp nhanh h\u01a1n.",
+              "rejected_because": "\u00cdt \u0111\u1ea5t di\u1ec5n cho gi\u1ea3i ph\u1eabu \u0111\u1ecba ch\u1ea5t B\u00ecnh S\u01a1n v\u00e0 m\u1ea1ng cao t\u1ed1c/\u0111\u01b0\u1eddng s\u1eaft."
+            }
+          ],
+          "selected": "c1",
+          "reason": "Khuy\u1ebfn ngh\u1ecb c1 (~11 ph\u00fat, 5 Ch\u01b0\u01a1ng tr\u1ecdn v\u1eb9n), \u0111ang ch\u1edd ng\u01b0\u1eddi d\u00f9ng duy\u1ec7t.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.96
+        },
+        {
+          "decision_id": "d-003",
+          "stage": "proposal",
+          "category": "render_runtime_selection",
+          "subject": "Ch\u1ecdn Composition Runtime (Remotion vs HyperFrames vs FFmpeg)",
+          "options_considered": [
+            {
+              "option_id": "remotion",
+              "label": "Remotion (React + SVG + CSS 3D)",
+              "score": 0.97,
+              "reason": "H\u1ed7 tr\u1ee3 t\u1ed1t nh\u1ea5t cho chu\u1ed7i React map 3D, ph\u1ee5 \u0111\u1ec1 t\u1eebng t\u1eeb 0px jitter v\u00e0 v\u1ec7 tinh z14."
+            },
+            {
+              "option_id": "hyperframes",
+              "label": "HyperFrames (HTML/CSS/GSAP)",
+              "score": 0.65,
+              "reason": "Kh\u1ea3 d\u1ee5ng tr\u00ean m\u00e1y, m\u1ea1nh cho kinetic typography HTML/GSAP.",
+              "rejected_because": "Ch\u01b0a c\u00f3 s\u1eb5n module ph\u1ee5 \u0111\u1ec1 t\u1eebng t\u1eeb & ph\u00e9p chi\u1ebfu Mercator 3D nh\u01b0 Remotion; tr\u00ecnh b\u00e0y \u0111\u1ec3 ng\u01b0\u1eddi d\u00f9ng quy\u1ebft \u0111\u1ecbnh."
+            },
+            {
+              "option_id": "ffmpeg",
+              "label": "FFmpeg concat/trim",
+              "score": 0.15,
+              "reason": "Ch\u1ec9 c\u1eaft gh\u00e9p \u0111\u01a1n gi\u1ea3n.",
+              "rejected_because": "Kh\u00f4ng d\u1ef1ng \u0111\u01b0\u1ee3c b\u1ea3n \u0111\u1ed3 nghi\u00eang 3D hay \u0111\u1ed3 h\u1ecda \u0111\u1ed9ng."
+            }
+          ],
+          "selected": "remotion",
+          "reason": "Khuy\u1ebfn ngh\u1ecb Remotion v\u00ec t\u01b0\u01a1ng th\u00edch 100% h\u1ec7 ph\u1ee5 \u0111\u1ec1 t\u1eebng t\u1eeb v\u00e0 ki\u1ebfn tr\u00fac b\u1ea3n \u0111\u1ed3 3D; ch\u1edd ng\u01b0\u1eddi d\u00f9ng duy\u1ec7t.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.97
+        },
+        {
+          "decision_id": "d-004",
+          "stage": "proposal",
+          "category": "composition_mode",
+          "subject": "Ch\u1ecdn ch\u1ebf \u0111\u1ed9 t\u00e1c quy\u1ec1n b\u1ed1 c\u1ee5c (Atelier vs Templated)",
+          "options_considered": [
+            {
+              "option_id": "atelier",
+              "label": "Atelier (Thi\u1ebft k\u1ebf th\u1ee7 c\u00f4ng \u0111\u1ed9c b\u1ea3n theo t\u1eebng c\u1ea3nh)",
+              "score": 0.98,
+              "reason": "T\u1ea1o b\u1ea3n s\u1eafc Aviation Radar ri\u00eang bi\u1ec7t v\u00e0 b\u1ea3n \u0111\u1ed3 3D ch\u00ednh x\u00e1c."
+            },
+            {
+              "option_id": "templated",
+              "label": "Templated (L\u1eafp gh\u00e9p m\u1eabu text_card/stat_card c\u00f3 s\u1eb5n)",
+              "score": 0.25,
+              "reason": "Nhanh h\u01a1n nh\u01b0ng d\u1ec5 l\u1eb7p l\u1ea1i khu\u00f4n m\u1eabu.",
+              "rejected_because": "Kh\u00f4ng d\u1ef1ng \u0111\u01b0\u1ee3c ph\u1ec5u kh\u00f4ng l\u01b0u v\u00e0 m\u1eb7t c\u1eaft \u0111\u01b0\u1eddng b\u0103ng 3D; ch\u1edd ng\u01b0\u1eddi d\u00f9ng duy\u1ec7t."
+            }
+          ],
+          "selected": "atelier",
+          "reason": "Khuy\u1ebfn ngh\u1ecb Atelier \u0111\u1ec3 \u0111\u1ea1t ch\u1ea5t l\u01b0\u1ee3ng broadcast gi\u1ea3i m\u00e3 b\u1ea3n \u0111\u1ed3.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.98
+        },
+        {
+          "decision_id": "d-005",
+          "stage": "proposal",
+          "category": "voice_selection",
+          "subject": "Ch\u1ecdn gi\u1ecdng \u0111\u1ecdc thuy\u1ebft minh ti\u1ebfng Vi\u1ec7t",
+          "options_considered": [
+            {
+              "option_id": "vibi_haitrieu",
+              "label": "Vibi TTS \u2014 Haitrieu (MiniMax speech-2.8-hd, speed 1.1)",
+              "score": 0.97,
+              "reason": "Kh\u00f3a \u0111\u1ed3ng b\u1ed9 theo Chu-De/21_QUYET_DINH_NGACH_VA_GIAI_DOAN_0.md v\u00e0 ph\u1ea3n h\u1ed3i h\u00e0i l\u00f2ng t\u1eeb T\u1eadp 1."
+            },
+            {
+              "option_id": "piper_local",
+              "label": "Piper TTS Local",
+              "score": 0.4,
+              "reason": "Offline mi\u1ec5n ph\u00ed.",
+              "rejected_because": "\u0110\u1ed9 t\u1ef1 nhi\u00ean ti\u1ebfng Vi\u1ec7t ch\u01b0a \u0111\u1ea1t chu\u1ea9n broadcast."
+            }
+          ],
+          "selected": "vibi_haitrieu",
+          "reason": "Khuy\u1ebfn ngh\u1ecb gi\u1eef nguy\u00ean gi\u1ecdng Vibi Haitrieu; ch\u1edd x\u00e1c nh\u1eadn.",
+          "user_visible": true,
+          "user_approved": false,
+          "confidence": 0.97
+        }
+      ]
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "passed": true,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "notes": [
+      "Proposal & all 3 runtime options (remotion/hyperframes/ffmpeg) + composition modes (atelier/templated) prepared.",
+      "STOPPED at mandatory human approval gate before creating any assets or media."
+    ]
+  },
+  "cost_snapshot": {
+    "stage_cost_usd": 0.0,
+    "cumulative_cost_usd": 0.0,
+    "budget_usd": 5.0
+  }
+}

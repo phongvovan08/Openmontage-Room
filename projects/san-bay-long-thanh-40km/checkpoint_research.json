@@ -1,0 +1,429 @@
+{
+  "version": "1.0",
+  "project_id": "san-bay-long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "research",
+  "status": "completed",
+  "timestamp": "2026-11-16T18:35:55.929017+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": true,
+  "artifacts": {
+    "research_brief": {
+      "version": "1.0",
+      "topic": "V\u00ec sao s\u00e2n bay Long Th\u00e0nh n\u1eb1m c\u00e1ch trung t\u00e2m TP.HCM kho\u1ea3ng 40 km?",
+      "research_date": "2026-11-17",
+      "landscape": {
+        "existing_content": [
+          {
+            "title": "B\u00e1o c\u00e1o ti\u1ebfn \u0111\u1ed9 \u0111\u1ea1i c\u00f4ng tr\u01b0\u1eddng s\u00e2n bay Long Th\u00e0nh & Nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t (2025\u20132026)",
+            "url": "https://baochinhphu.vn/",
+            "source": "news_portal",
+            "angle": "C\u1eadp nh\u1eadt ti\u1ebfn \u0111\u1ed9 thi c\u00f4ng ngo\u00e0i c\u00f4ng tr\u01b0\u1eddng v\u00e0 con s\u1ed1 v\u1ed1n \u0111\u1ea7u t\u01b0.",
+            "what_it_covers": "Ti\u1ebfn \u0111\u1ed9 \u0111\u01b0\u1eddng b\u0103ng, nh\u00e0 ga hoa sen, g\u00f3i th\u1ea7u s\u00e2n \u0111\u1ed7 v\u00e0 v\u1ed1n giai \u0111o\u1ea1n 1.",
+            "what_it_misses": "Kh\u00f4ng gi\u1ea3i ph\u1eabu b\u1eb1ng b\u1ea3n \u0111\u1ed3 3D l\u00fd do v\u1eadt l\u00fd/kh\u00f4ng l\u01b0u bu\u1ed9c s\u00e2n bay m\u1edbi ph\u1ea3i c\u00e1ch TP.HCM ~40 km.",
+            "engagement_signal": "\u0110\u1ed9 quan t\u00e2m truy\u1ec1n th\u00f4ng li\u00ean t\u1ee5c cao 2025\u20132026"
+          },
+          {
+            "title": "V\u00ec sao kh\u00f4ng m\u1edf r\u1ed9ng T\u00e2n S\u01a1n Nh\u1ea5t m\u00e0 ph\u1ea3i x\u00e2y s\u00e2n bay Long Th\u00e0nh?",
+            "url": "https://vnexpress.net/",
+            "source": "news_explainer",
+            "angle": "Li\u1ec7t k\u00ea c\u00e1c g\u1ea1ch \u0111\u1ea7u d\u00f2ng v\u1ec1 qu\u00e1 t\u1ea3i h\u00e0nh kh\u00e1ch v\u00e0 gi\u00e1 \u0111\u1ec1n b\u00f9 gi\u1ea3i t\u1ecfa n\u1ed9i \u0111\u00f4.",
+            "what_it_covers": "Qu\u00e1 t\u1ea3i T\u00e2n S\u01a1n Nh\u1ea5t v\u00e0 kh\u00f3 kh\u0103n gi\u1ea3i ph\u00f3ng m\u1eb7t b\u1eb1ng xung quanh qu\u1eadn T\u00e2n B\u00ecnh \u2013 G\u00f2 V\u1ea5p.",
+            "what_it_misses": "Thi\u1ebfu m\u00f4 ph\u1ecfng tr\u1ef1c quan t\u1ef7 l\u1ec7 1:1 kho\u1ea3ng c\u00e1ch hai \u0111\u01b0\u1eddng b\u0103ng 365 m so v\u1edbi chu\u1ea9n ICAO v\u00e0 \u0111\u1ed1i chi\u1ebfu di\u1ec7n t\u00edch 791 ha trong 5.000 ha.",
+            "engagement_signal": "H\u00e0ng ngh\u00ecn b\u00ecnh lu\u1eadn tranh lu\u1eadn gi\u1eefa 'c\u00f3 T3 r\u1ed3i sao c\u00f2n x\u00e2y Long Th\u00e0nh?'"
+          },
+          {
+            "title": "C\u00e1c video t\u1ed5ng quan m\u1ea1ng l\u01b0\u1edbi 33 c\u1ea3ng h\u00e0ng kh\u00f4ng v\u00e0 h\u1ea1 t\u1ea7ng ph\u00eda Nam (YouTube 2025\u20132026)",
+            "url": "https://youtube.com/",
+            "source": "youtube",
+            "angle": "Flycam v\u00e0 b\u1ea3n \u0111\u1ed3 ph\u1eb3ng 2D li\u1ec7t k\u00ea h\u00e0ng lo\u1ea1t d\u1ef1 \u00e1n c\u00f9ng l\u00fac.",
+            "what_it_covers": "\u0110i\u1ec3m m\u1eb7t c\u00e1c c\u00f4ng tr\u00ecnh h\u00e0ng kh\u00f4ng \u2013 cao t\u1ed1c.",
+            "what_it_misses": "Kh\u00f4ng c\u00f3 g\u00f3c nh\u00ecn \u0111\u1ecba ch\u1ea5t (\u0111\u1ea5t \u0111\u1ecf bazan B\u00ecnh S\u01a1n vs v\u00f9ng s\u1ee5t l\u00fan ng\u1eadp tri\u1ec1u Nam S\u00e0i G\u00f2n), kh\u00f4ng l\u01b0u qu\u00e2n s\u1ef1 Bi\u00ean H\u00f2a v\u00e0 b\u1ea3n \u0111\u1ed3 th\u1eddi gian th\u1ef1c h\u00e0nh lang \u0111\u01b0\u1eddng s\u1eaft ~20 ph\u00fat.",
+            "engagement_signal": "Nh\u00f3m vn_ha_tang_dia_ly thu h\u00fat h\u00e0ng tr\u0103m ngh\u00ecn l\u01b0\u1ee3t xem cho c\u00e2u h\u1ecfi \u0111\u01a1n \u0111i\u1ec3m"
+          }
+        ],
+        "saturated_angles": [
+          "Tin t\u1ee9c flycam c\u00f4ng tr\u01b0\u1eddng h\u00e0ng tu\u1ea7n ch\u1ec9 quay c\u1eadn c\u1ea3nh c\u1ea9u th\u00e1p v\u00e0 \u0111\u1ed5 b\u00ea t\u00f4ng",
+          "\u0110\u1ecdc l\u1ea1i v\u0103n b\u1ea3n v\u1ed1n \u0111\u1ea7u t\u01b0 m\u00e0 thi\u1ebfu gi\u1ea3i th\u00edch b\u1ea3n \u0111\u1ed3 & kh\u00f4ng l\u01b0u",
+          "B\u00e0i li\u1ec7t k\u00ea chung chung 'Top c\u00e1c si\u00eau d\u1ef1 \u00e1n ph\u00eda Nam'"
+        ],
+        "underserved_gaps": [
+          "Tr\u1ef1c quan h\u00f3a 1:1 con s\u1ed1 365 m gi\u1eefa hai tim \u0111\u01b0\u1eddng b\u0103ng T\u00e2n S\u01a1n Nh\u1ea5t vs ng\u01b0\u1ee1ng c\u1ea5t h\u1ea1 c\u00e1nh \u0111\u1ed9c l\u1eadp ICAO",
+          "\u0110\u1eb7t l\u1ecdt th\u1ecfm 791 ha T\u00e2n S\u01a1n Nh\u1ea5t l\u00ean v\u1ec7 tinh th\u1ef1c 5.000 ha Long Th\u00e0nh k\u00e8m n\u00f3n ph\u1ec5u t\u0129nh kh\u00f4ng tr\u00ean cao \u1ed1c n\u1ed9i \u0111\u00f4",
+          "Gi\u1ea3i th\u00edch t\u1ea1i sao ch\u1ecdn h\u01b0\u1edbng \u0110\u00f4ng (B\u00ecnh S\u01a1n \u2013 \u0111\u1ea5t \u0111\u1ecf bazan) \u1edf b\u00e1n k\u00ednh 40 km ch\u1ee9 kh\u00f4ng ch\u1ecdn ph\u00eda Nam (Nh\u00e0 B\u00e8/B\u00ecnh Ch\u00e1nh) hay ph\u00eda T\u00e2y B\u1eafc (C\u1ee7 Chi)"
+        ]
+      },
+      "trending": {
+        "recent_developments": [
+          {
+            "headline": "Giai \u0111o\u1ea1n 1 Long Th\u00e0nh b\u1ed5 sung \u0111\u01b0\u1eddng b\u0103ng th\u1ee9 2, g\u1ea5p r\u00fat h\u01b0\u1edbng t\u1edbi khai th\u00e1c th\u01b0\u01a1ng m\u1ea1i & chu\u1ea9n b\u1ecb giai \u0111o\u1ea1n 2",
+            "url": "https://laodong.vn/",
+            "date": "2025\u20132026",
+            "relevance": "Khi\u1ebfn c\u00e2u h\u1ecfi 'T\u00e2n S\u01a1n Nh\u1ea5t v\u1eeba c\u00f3 T3, Long Th\u00e0nh l\u1ea1i s\u1eafp \u0111\u00f3n kh\u00e1ch \u2014 \u0111i ra 40 km th\u1ebf n\u00e0o?' th\u00e0nh ch\u1ee7 \u0111\u1ec1 n\u00f3ng nh\u1ea5t c\u1ee7a ng\u01b0\u1eddi d\u00e2n TP.HCM."
+          },
+          {
+            "headline": "Nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t \u0111\u01b0a v\u00e0o khai th\u00e1c gi\u00fap gi\u1ea3m \u00f9n \u1ee9 n\u1ed9i \u0111\u1ecba nh\u01b0ng tr\u1ea7n \u0111\u01b0\u1eddng b\u0103ng 365 m v\u1eabn kh\u00f4ng \u0111\u1ed5i",
+            "url": "https://baodautu.vn/",
+            "date": "2025\u20132026",
+            "relevance": "X\u00f3a tan hi\u1ec3u l\u1ea7m ph\u1ed5 bi\u1ebfn cho r\u1eb1ng x\u00e2y th\u00eam nh\u00e0 ga l\u00e0 T\u00e2n S\u01a1n Nh\u1ea5t c\u00f3 th\u1ec3 t\u0103ng v\u00f4 h\u1ea1n chuy\u1ebfn bay."
+          },
+          {
+            "headline": "T\u0103ng t\u1ed1c m\u1edf r\u1ed9ng cao t\u1ed1c TP.HCM \u2013 Long Th\u00e0nh (8\u201310 l\u00e0n), V\u00e0nh \u0111ai 3 & tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh (~46,5\u201347,7 km)",
+            "url": "https://tuoitre.vn/",
+            "date": "2025\u20132026",
+            "relevance": "Cung c\u1ea5p m\u1ea3nh gh\u00e9p k\u1ebft lu\u1eadn cho Ch\u01b0\u01a1ng 5 v\u1ec1 c\u00e1ch r\u00fat ng\u1eafn 40 km xu\u1ed1ng ~20 ph\u00fat \u0111\u01b0\u1eddng s\u1eaft."
+          }
+        ],
+        "active_discussions": [
+          {
+            "platform": "youtube_and_local_forums",
+            "topic_or_url": "Tranh lu\u1eadn \u0111i s\u00e2n bay Long Th\u00e0nh m\u1ea5t bao l\u00e2u & t\u1ea1i sao kh\u00f4ng x\u00e2y g\u1ea7n h\u01a1n",
+            "sentiment": "Ho\u00e0i nghi v\u1ec1 k\u1eb9t xe h\u01b0\u1edbng \u0110\u00f4ng song song t\u00f2 m\u00f2 l\u00fd do quy ho\u1ea1ch k\u1ef9 thu\u1eadt",
+            "key_quotes": [
+              "X\u00e2y t\u1eadn Long Th\u00e0nh xa 40 c\u00e2y s\u1ed1, k\u1eb9t cao t\u1ed1c th\u00ec bay n\u1ed9i \u0111\u1ecba t\u1ed1n g\u1ea5p \u0111\u00f4i th\u1eddi gian?",
+              "C\u00f3 nh\u00e0 ga T3 T\u00e2n S\u01a1n Nh\u1ea5t m\u1edbi r\u1ed3i sao v\u1eabn c\u1ea7n th\u00eam m\u1ed9t si\u00eau s\u00e2n bay n\u1eefa?"
+            ]
+          }
+        ],
+        "timeliness_window": "trending_2025_2026_and_evergreen"
+      },
+      "data_points": [
+        {
+          "claim": "Theo Ngh\u1ecb quy\u1ebft s\u1ed1 94/2015/QH13 v\u00e0 Quy ho\u1ea1ch t\u1ed5ng th\u1ec3 (Q\u0110 909/Q\u0110-TTg c\u00f9ng c\u00e1c quy\u1ebft \u0111\u1ecbnh \u0111i\u1ec1u ch\u1ec9nh ti\u1ebfp theo c\u1ee7a Th\u1ee7 t\u01b0\u1edbng / B\u1ed9 X\u00e2y d\u1ef1ng), C\u1ea3ng h\u00e0ng kh\u00f4ng qu\u1ed1c t\u1ebf Long Th\u00e0nh c\u00f3 quy m\u00f4 \u0111\u1ea5t kho\u1ea3ng 5.000 ha t\u1ea1i huy\u1ec7n Long Th\u00e0nh, t\u1ec9nh \u0110\u1ed3ng Nai, \u0111\u1ea1t c\u1ea5p 4F c\u1ee7a ICAO, c\u00f4ng su\u1ea5t khi ho\u00e0n th\u00e0nh to\u00e0n b\u1ed9 c\u00e1c giai \u0111o\u1ea1n \u0111\u1ea1t 100 tri\u1ec7u h\u00e0nh kh\u00e1ch/n\u0103m v\u00e0 5 tri\u1ec7u t\u1ea5n h\u00e0ng h\u00f3a/n\u0103m v\u1edbi 4 \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh c\u1ea5u h\u00ecnh m\u1edf (Giai \u0111o\u1ea1n 1 c\u00f4ng su\u1ea5t 25 tri\u1ec7u h\u00e0nh kh\u00e1ch/n\u0103m, n\u00e2ng l\u00ean 2 \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh).",
+          "source_url": "https://vanban.chinhphu.vn/",
+          "source_name": "Ngh\u1ecb quy\u1ebft 94/2015/QH13 & Quy\u1ebft \u0111\u1ecbnh 909/Q\u0110-TTg / Q\u0110 562/Q\u0110-BXD (C\u1ed5ng TT\u0110T Ch\u00ednh ph\u1ee7)",
+          "credibility": "primary_source",
+          "surprise_factor": "surprising",
+          "usable_as": "stat_card"
+        },
+        {
+          "claim": "C\u1ea3ng h\u00e0ng kh\u00f4ng qu\u1ed1c t\u1ebf T\u00e2n S\u01a1n Nh\u1ea5t hi\u1ec7n c\u00f3 2 \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh song song nh\u01b0ng kho\u1ea3ng c\u00e1ch gi\u1eefa hai tim \u0111\u01b0\u1eddng b\u0103ng ch\u1ec9 kho\u1ea3ng 365 m \u2014 nh\u1ecf h\u01a1n ng\u01b0\u1ee1ng t\u1ed1i thi\u1ec3u theo ti\u00eau chu\u1ea9n ICAO \u0111\u1ec3 v\u1eadn h\u00e0nh c\u1ea5t/h\u1ea1 c\u00e1nh \u0111\u1ed9c l\u1eadp ho\u00e0n to\u00e0n, bu\u1ed9c hai \u0111\u01b0\u1eddng b\u0103ng ph\u1ea3i \u0111i\u1ec1u h\u00e0nh ph\u1ee5 thu\u1ed9c l\u1eabn nhau.",
+          "source_url": "https://tapchihangkhong.vn/",
+          "source_name": "Th\u00f4ng s\u1ed1 khai th\u00e1c \u0111\u01b0\u1eddng CHC T\u00e2n S\u01a1n Nh\u1ea5t / Ti\u00eau chu\u1ea9n ICAO & B\u00e1o X\u00e2y d\u1ef1ng",
+          "credibility": "secondary_source",
+          "surprise_factor": "counterintuitive",
+          "usable_as": "hook"
+        },
+        {
+          "claim": "Ph\u1ea1m vi nghi\u00ean c\u1ee9u quy ho\u1ea1ch s\u00e2n bay T\u00e2n S\u01a1n Nh\u1ea5t th\u1eddi k\u1ef3 2021\u20132030, t\u1ea7m nh\u00ecn 2050 (Q\u0110 2429/Q\u0110-BXD, n\u1ed1i ti\u1ebfp quy ho\u1ea1ch \u0111i\u1ec1u ch\u1ec9nh Q\u0110 648/Q\u0110-TTg / Q\u0110 1707/Q\u0110-TTg) c\u00f3 di\u1ec7n t\u00edch kho\u1ea3ng 791 ha v\u00e0 \u0111\u1ecbnh h\u01b0\u1edbng c\u00f4ng su\u1ea5t to\u00e0n c\u1ea3ng \u0111\u1ea1t kho\u1ea3ng 50 tri\u1ec7u h\u00e0nh kh\u00e1ch/n\u0103m sau khi b\u1ed5 sung Nh\u00e0 ga h\u00e0nh kh\u00e1ch T3.",
+          "source_url": "https://baophapluat.vn/",
+          "source_name": "Quy ho\u1ea1ch C\u1ea3ng h\u00e0ng kh\u00f4ng qu\u1ed1c t\u1ebf T\u00e2n S\u01a1n Nh\u1ea5t (Q\u0110 648/Q\u0110-TTg & Q\u0110 2429/Q\u0110-BXD)",
+          "credibility": "secondary_source",
+          "surprise_factor": "notable",
+          "usable_as": "stat_card"
+        },
+        {
+          "claim": "H\u1ec7 th\u1ed1ng \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh ch\u00ednh t\u1ea1i s\u00e2n bay Long Th\u00e0nh \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf chi\u1ec1u d\u00e0i ti\u00eau chu\u1ea9n 4.000 m v\u00e0 chi\u1ec1u r\u1ed9ng 60 m\u201370 m (\u0111\u00e1p \u1ee9ng t\u00e0u bay th\u00e2n r\u1ed9ng c\u1ea5p ICAO Code E/F nh\u01b0 Airbus A380, Boeing 747, Boeing 777), x\u00e2y d\u1ef1ng tr\u00ean v\u00f9ng n\u1ec1n \u0111\u1ecba ch\u1ea5t \u0111\u1ea5t \u0111\u1ecf bazan khu v\u1ef1c x\u00e3 B\u00ecnh S\u01a1n, huy\u1ec7n Long Th\u00e0nh.",
+          "source_url": "https://tapchihangkhong.vn/",
+          "source_name": "Th\u00f4ng s\u1ed1 k\u1ef9 thu\u1eadt \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh Long Th\u00e0nh (T\u1ea1p ch\u00ed H\u00e0ng kh\u00f4ng)",
+          "credibility": "secondary_source",
+          "surprise_factor": "notable",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "S\u00e2n bay Long Th\u00e0nh n\u1eb1m c\u00e1ch trung t\u00e2m TP.HCM kho\u1ea3ng h\u01a1n 40 km v\u1ec1 ph\u00eda \u0110\u00f4ng theo h\u00e0nh lang cao t\u1ed1c k\u1ebft n\u1ed1i v\u00f9ng.",
+          "source_url": "https://baochinhphu.vn/",
+          "source_name": "Quy ho\u1ea1ch k\u1ebft n\u1ed1i C\u1ea3ng h\u00e0ng kh\u00f4ng qu\u1ed1c t\u1ebf Long Th\u00e0nh (B\u00e1o Ch\u00ednh ph\u1ee7)",
+          "credibility": "primary_source",
+          "surprise_factor": "expected",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "Tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh \u0111\u01b0\u1ee3c quy ho\u1ea1ch d\u00e0i kho\u1ea3ng 46,5\u201347,7 km n\u1ed1i ga Th\u1ee7 Thi\u00eam (TP. Th\u1ee7 \u0110\u1ee9c) d\u1ecdc h\u00e0nh lang cao t\u1ed1c \u0111\u1ebfn th\u1eb3ng s\u00e2n bay Long Th\u00e0nh, t\u1ed1c \u0111\u1ed9 thi\u1ebft k\u1ebf \u0111\u1ebfn 120 km/h, gi\u00fap r\u00fat ng\u1eafn th\u1eddi gian di chuy\u1ec3n t\u1eeb trung t\u00e2m TP.HCM ra s\u00e2n bay xu\u1ed1ng c\u00f2n kho\u1ea3ng 20 ph\u00fat.",
+          "source_url": "https://tuoitre.vn/",
+          "source_name": "B\u00e1o c\u00e1o quy ho\u1ea1ch tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh (Tu\u1ed5i Tr\u1ebb / Lao \u0110\u1ed9ng)",
+          "credibility": "secondary_source",
+          "surprise_factor": "surprising",
+          "usable_as": "closing_punch"
+        },
+        {
+          "claim": "D\u1ef1 \u00e1n m\u1edf r\u1ed9ng cao t\u1ed1c TP.HCM \u2013 Long Th\u00e0nh \u2013 D\u1ea7u Gi\u00e2y \u0111o\u1ea1n g\u1ea7n 22 km t\u1eeb V\u00e0nh \u0111ai 2 t\u1edbi cao t\u1ed1c Bi\u00ean H\u00f2a \u2013 V\u0169ng T\u00e0u n\u00e2ng quy m\u00f4 t\u1eeb V\u00e0nh \u0111ai 2\u2013V\u00e0nh \u0111ai 3 l\u00ean 8 l\u00e0n xe v\u00e0 \u0111o\u1ea1n V\u00e0nh \u0111ai 3\u2013Bi\u00ean H\u00f2a \u2013 V\u0169ng T\u00e0u l\u00ean 10 l\u00e0n xe (k\u00e8m x\u00e2y th\u00eam 1 \u0111\u01a1n nguy\u00ean c\u1ea7u Long Th\u00e0nh), k\u1ebft h\u1ee3p V\u00e0nh \u0111ai 3 TP.HCM v\u00e0 cao t\u1ed1c Bi\u00ean H\u00f2a \u2013 V\u0169ng T\u00e0u.",
+          "source_url": "https://dantri.com.vn/",
+          "source_name": "Ti\u1ebfn \u0111\u1ed9 m\u1edf r\u1ed9ng cao t\u1ed1c TP.HCM \u2013 Long Th\u00e0nh \u2013 D\u1ea7u Gi\u00e2y & V\u00e0nh \u0111ai 3",
+          "credibility": "secondary_source",
+          "surprise_factor": "notable",
+          "usable_as": "stat_card"
+        }
+      ],
+      "audience_insights": {
+        "common_questions": [
+          "V\u00ec sao kh\u00f4ng m\u1edf r\u1ed9ng s\u00e2n bay T\u00e2n S\u01a1n Nh\u1ea5t cho g\u1ea7n trung t\u00e2m m\u00e0 ph\u1ea3i d\u1eddi xa h\u01a1n 40 km sang \u0110\u1ed3ng Nai?",
+          "T\u00e2n S\u01a1n Nh\u1ea5t v\u1eeba c\u00f3 Nh\u00e0 ga T3 n\u00e2ng c\u00f4ng su\u1ea5t l\u00ean ~50 tri\u1ec7u kh\u00e1ch/n\u0103m, v\u1eady c\u00f3 th\u1eeba s\u00e2n bay Long Th\u00e0nh kh\u00f4ng?",
+          "V\u00ec sao ch\u1ecdn v\u1ecb tr\u00ed x\u00e3 B\u00ecnh S\u01a1n (Long Th\u00e0nh) ch\u1ee9 kh\u00f4ng ph\u1ea3i ph\u00eda Nam TP.HCM (Nh\u00e0 B\u00e8, C\u1ea7n Gi\u1edd) hay C\u1ee7 Chi?"
+        ],
+        "misconceptions": [
+          {
+            "myth": "Ch\u1ec9 c\u1ea7n x\u00e2y th\u00eam nh\u00e0 ga (nh\u01b0 T3) l\u00e0 T\u00e2n S\u01a1n Nh\u1ea5t \u0111\u00f3n \u0111\u01b0\u1ee3c g\u1ea5p \u0111\u00f4i m\u00e1y bay.",
+            "reality": "Nh\u00e0 ga ch\u1ec9 gi\u1ea3i t\u1ecfa \u00f9n \u1ee9 m\u1eb7t \u0111\u1ea5t cho h\u00e0nh kh\u00e1ch; n\u00fat th\u1eaft b\u1ea7u tr\u1eddi n\u1eb1m \u1edf kho\u1ea3ng c\u00e1ch tim hai \u0111\u01b0\u1eddng b\u0103ng 365 m kh\u00f4ng \u0111\u1ee7 chu\u1ea9n c\u1ea5t/h\u1ea1 c\u00e1nh \u0111\u1ed9c l\u1eadp song song.",
+            "source": "https://tapchihangkhong.vn/"
+          },
+          {
+            "myth": "\u0110\u1eb7t s\u00e2n bay xa 40 km l\u00e0 b\u1ea5t th\u01b0\u1eddng v\u00ec s\u00e2n bay n\u00e0o c\u0169ng n\u1eb1m s\u00e1t th\u00e0nh ph\u1ed1.",
+            "reality": "C\u00e1c \u0111\u1ea1i c\u1ea3ng h\u00e0ng kh\u00f4ng trung chuy\u1ec3n th\u1ebf h\u1ec7 m\u1edbi c\u1ea7n 4.000\u20135.000 ha qu\u1ef9 \u0111\u1ea5t b\u1eb1ng ph\u1eb3ng, h\u00e0nh lang ti\u1ebfng \u1ed3n t\u00e1ch bi\u1ec7t n\u1ed9i \u0111\u00f4 v\u00e0 k\u1ebft n\u1ed1i b\u1eb1ng \u0111\u01b0\u1eddng s\u1eaft t\u1ed1c \u0111\u1ed9 120 km/h (ch\u1ec9 ~20 ph\u00fat t\u1eeb Th\u1ee7 Thi\u00eam).",
+            "source": "https://tuoitre.vn/"
+          },
+          {
+            "myth": "C\u1ee9 \u1edf \u0111\u00e2u g\u1ea7n TP.HCM c\u00f2n \u0111\u1ea5t tr\u1ed1ng (nh\u01b0 ph\u00eda Nam / T\u00e2y Nam) c\u0169ng l\u00e0m \u0111\u01b0\u1ee3c s\u00e2n bay 4F.",
+            "reality": "Ph\u00eda Nam TP.HCM n\u1ec1n b\u00f9n s\u00e9t y\u1ebfu, ng\u1eadp tri\u1ec1u; v\u00f9ng bi\u00ean ph\u00eda \u0110\u00f4ng B\u1eafc xung \u0111\u1ed9t tr\u1ef1c di\u1ec7n lu\u1ed3ng bay qu\u00e2n s\u1ef1 Bi\u00ean H\u00f2a; ch\u1ec9 th\u1ec1m \u0111\u1ea5t \u0111\u1ecf bazan B\u00ecnh S\u01a1n (Long Th\u00e0nh) m\u1edbi h\u1ed9i \u0111\u1ee7 cao \u0111\u1ed9, \u0111\u1ecba ch\u1ea5t v\u00e0 kh\u00f4ng l\u01b0u m\u1edf.",
+            "source": "https://tapchihangkhong.vn/"
+          }
+        ],
+        "knowledge_level": "Kh\u00e1n gi\u1ea3 bi\u1ebft r\u00f5 t\u00ecnh tr\u1ea1ng \u00f9n t\u1eafc quanh T\u00e2n S\u01a1n Nh\u1ea5t v\u00e0 cao t\u1ed1c Long Th\u00e0nh, nh\u01b0ng \u0111a s\u1ed1 ch\u01b0a t\u1eebng nh\u00ecn th\u1ea5y c\u1ea5u tr\u00fac kh\u00f4ng l\u01b0u, kho\u1ea3ng c\u00e1ch \u0111\u01b0\u1eddng b\u0103ng 365 m hay ranh gi\u1edbi \u0111\u1ecba ch\u1ea5t tr\u00ean b\u1ea3n \u0111\u1ed3 3D.",
+        "pain_points": [
+          "Lo ng\u1ea1i t\u1ed1n nhi\u1ec1u gi\u1edd di chuy\u1ec3n ra s\u00e2n bay m\u1edbi khi \u0111i c\u00f4ng t\u00e1c, du l\u1ecbch",
+          "Kh\u00f3 h\u00ecnh dung t\u1ea1i sao \u0111\u01b0\u1eddng b\u0103ng l\u1ea1i c\u00f3 gi\u1edbi h\u1ea1n kh\u00f4ng th\u1ec3 n\u1edbi r\u1ed9ng nh\u01b0 nh\u00e0 ga"
+        ]
+      },
+      "angles_discovered": [
+        {
+          "name": "C\u00e1i l\u1ed3ng 365m & B\u00e1n k\u00ednh v\u00e0ng 40 km",
+          "hook": "Nh\u00e0 ga T3 c\u00f3 th\u1ec3 n\u1edbi m\u1eb7t \u0111\u1ea5t, nh\u01b0ng hai \u0111\u01b0\u1eddng b\u0103ng c\u00e1ch nhau ch\u1ec9 365 m\u00e9t \u0111\u00e3 kh\u00f3a c\u1ee9ng b\u1ea7u tr\u1eddi T\u00e2n S\u01a1n Nh\u1ea5t \u2014 bu\u1ed9c si\u00eau s\u00e2n bay ph\u1ea3i l\u00f9i xa \u0111\u00fang 40 km.",
+          "type": "data_driven",
+          "why_now": "Kh\u00e1n gi\u1ea3 2025\u20132026 \u0111ang tr\u1ea3i nghi\u1ec7m \u0111\u1ed3ng th\u1eddi c\u1ea3 T3 T\u00e2n S\u01a1n Nh\u1ea5t l\u1eabn tin t\u1ee9c Long Th\u00e0nh s\u1eafp khai th\u00e1c \u2014 t\u01b0\u01a1ng ph\u1ea3n tr\u1ef1c ti\u1ebfp gi\u00fap gi\u1eef ch\u00e2n 11 ph\u00fat.",
+          "grounded_in": [
+            "fact_tsn_365m_gap",
+            "fact_tsn_791ha_50m",
+            "fact_nq94_longthanh_scale"
+          ]
+        },
+        {
+          "name": "Long Th\u00e0nh tr\u00ean b\u00e0n c\u1edd hub \u0110\u00f4ng Nam \u00c1",
+          "hook": "Kh\u00f4ng ch\u1ec9 \u0111\u1ec3 tho\u00e1t k\u1eb9t cho S\u00e0i G\u00f2n, 5.000 ha Long Th\u00e0nh \u0111\u01b0\u1ee3c ch\u1ecdn \u0111\u1ec3 gi\u00e0nh l\u1ea1i d\u00f2ng kh\u00e1ch trung chuy\u1ec3n t\u1eeb Changi v\u00e0 Suvarnabhumi.",
+          "type": "trending",
+          "why_now": "\u0110\u1eb7t Vi\u1ec7t Nam \u0111\u1ed1i \u0111\u1ea7u c\u00e1c hub h\u00e0ng kh\u00f4ng khu v\u1ef1c gi\u1ed1ng c\u00f4ng th\u1ee9c 'Bypassing Singapore' \u1edf L\u1ea1ch Huy\u1ec7n / C\u00e1i M\u00e9p.",
+          "grounded_in": [
+            "fact_nq94_longthanh_scale",
+            "fact_runway_4000x60"
+          ]
+        },
+        {
+          "name": "Gi\u1ea3i \u1ea3o 3 hi\u1ec3u l\u1ea7m v\u1ec1 s\u00e2n bay 40km",
+          "hook": "C\u00f3 T3 r\u1ed3i c\u1ea7n g\u00ec Long Th\u00e0nh, v\u00e0 li\u1ec7u \u0111i 40 km c\u00f3 tr\u1edf th\u00e0nh c\u01a1n \u00e1c m\u1ed9ng k\u1eb9t xe nh\u01b0 n\u1ed7i lo c\u1ee7a h\u00e0ng tri\u1ec7u ng\u01b0\u1eddi S\u00e0i G\u00f2n?",
+          "type": "contrarian",
+          "why_now": "\u0110\u00e1nh th\u1eb3ng v\u00e0o tranh lu\u1eadn gay g\u1eaft nh\u1ea5t d\u01b0\u1edbi m\u1ecdi b\u00e0i b\u00e1o v\u1ec1 Long Th\u00e0nh.",
+          "grounded_in": [
+            "fact_tsn_365m_gap",
+            "fact_rail_thuthiem_lt",
+            "fact_expressway_hcm_lt"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vanban.chinhphu.vn/",
+          "title": "Ngh\u1ecb quy\u1ebft 94/2015/QH13 & Q\u0110 909/Q\u0110-TTg v\u1ec1 Quy ho\u1ea1ch CHKQT Long Th\u00e0nh",
+          "used_for": "Di\u1ec7n t\u00edch 5.000 ha, c\u00f4ng su\u1ea5t 100 tri\u1ec7u kh\u00e1ch, 4 \u0111\u01b0\u1eddng b\u0103ng 4F",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://baochinhphu.vn/",
+          "title": "C\u1ed5ng TT\u0110T Ch\u00ednh ph\u1ee7 \u2014 H\u1ed3 s\u01a1 d\u1ef1 \u00e1n CHKQT Long Th\u00e0nh & K\u1ebft n\u1ed1i v\u00f9ng",
+          "used_for": "Kho\u1ea3ng c\u00e1ch ~40 km t\u1eeb TP.HCM v\u00e0 c\u1ea5u tr\u00fac giai \u0111o\u1ea1n 1",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://tapchihangkhong.vn/",
+          "title": "T\u1ea1p ch\u00ed H\u00e0ng kh\u00f4ng \u2014 Th\u00f4ng s\u1ed1 \u0111\u01b0\u1eddng c\u1ea5t h\u1ea1 c\u00e1nh 4.000x60m, n\u1ec1n \u0111\u1ea5t B\u00ecnh S\u01a1n & kho\u1ea3ng c\u00e1ch 365m TSN",
+          "used_for": "Gi\u1ea3i th\u00edch k\u1ef9 thu\u1eadt \u0111\u01b0\u1eddng b\u0103ng ph\u1ee5 thu\u1ed9c vs \u0111\u1ed9c l\u1eadp & \u0111\u1ecba ch\u1ea5t \u0111\u1ea5t \u0111\u1ecf bazan",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://baophapluat.vn/",
+          "title": "Ph\u1ea1m vi quy ho\u1ea1ch CHKQT T\u00e2n S\u01a1n Nh\u1ea5t 791 ha & c\u00f4ng su\u1ea5t ~50 tri\u1ec7u h\u00e0nh kh\u00e1ch",
+          "used_for": "Gi\u1edbi h\u1ea1n qu\u1ef9 \u0111\u1ea5t 791 ha v\u00e0 vai tr\u00f2 Nh\u00e0 ga T3",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://tuoitre.vn/",
+          "title": "Quy ho\u1ea1ch tuy\u1ebfn \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh (~46,5\u201347,7 km, 120 km/h)",
+          "used_for": "B\u00e0i to\u00e1n r\u00fat ng\u1eafn th\u1eddi gian di chuy\u1ec3n t\u1eeb 40 km xu\u1ed1ng ~20 ph\u00fat",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://dantri.com.vn/",
+          "title": "M\u1edf r\u1ed9ng cao t\u1ed1c TP.HCM \u2013 Long Th\u00e0nh \u2013 D\u1ea7u Gi\u00e2y 8\u201310 l\u00e0n & V\u00e0nh \u0111ai 3",
+          "used_for": "H\u1ea1 t\u1ea7ng \u0111\u01b0\u1eddng b\u1ed9 \u0111a t\u1ea7ng quanh s\u00e2n bay Long Th\u00e0nh",
+          "reliability": "secondary"
+        }
+      ],
+      "research_summary": "Ng\u01b0\u1eddi d\u00e2n th\u01b0\u1eddng t\u01b0\u1edfng x\u00e2y th\u00eam nh\u00e0 ga T3 l\u00e0 \u0111\u1ee7 gi\u1ea3i quy\u1ebft qu\u00e1 t\u1ea3i T\u00e2n S\u01a1n Nh\u1ea5t, nh\u01b0ng n\u00fat th\u1eaft v\u1eadt l\u00fd kh\u00f4ng th\u1ec3 ph\u00e1 v\u1ee1 n\u1eb1m \u1edf kho\u1ea3ng c\u00e1ch tim 2 \u0111\u01b0\u1eddng b\u0103ng ch\u1ec9 365 m (bu\u1ed9c v\u1eadn h\u00e0nh ph\u1ee5 thu\u1ed9c) v\u00e0 v\u00f2ng v\u00e2y \u0111\u00f4 th\u1ecb tr\u00ean qu\u1ef9 \u0111\u1ea5t ch\u1ec9 791 ha. \u0110\u1ec3 c\u00f3 4 \u0111\u01b0\u1eddng b\u0103ng \u0111\u1ed9c l\u1eadp d\u00e0i 4.000 m \u0111\u1ea1t chu\u1ea9n 4F (100 tri\u1ec7u kh\u00e1ch/n\u0103m) tr\u00ean n\u1ec1n \u0111\u1ea5t \u0111\u1ecf bazan cao r\u00e1o v\u00e0 t\u00e1ch ph\u1ec5u \u1ed3n kh\u1ecfi n\u1ed9i \u0111\u00f4 l\u1eabn v\u00f9ng bay qu\u00e2n s\u1ef1 Bi\u00ean H\u00f2a, t\u1ecda \u0111\u1ed9 bu\u1ed9c ph\u1ea3i l\u00f9i ra b\u00e1n k\u00ednh ~40 km t\u1ea1i B\u00ecnh S\u01a1n (Long Th\u00e0nh), \u0111i k\u00e8m m\u1ea1ng cao t\u1ed1c 8\u201310 l\u00e0n v\u00e0 \u0111\u01b0\u1eddng s\u1eaft Th\u1ee7 Thi\u00eam \u2013 Long Th\u00e0nh r\u00fat th\u1eddi gian \u0111i l\u1ea1i xu\u1ed1ng ~20 ph\u00fat.",
+      "metadata": {
+        "fact_ledger_path": "projects/san-bay-long-thanh-40km/artifacts/candidate_facts_sources.json",
+        "title_pairing_candidates": [
+          {
+            "title": "V\u00ec sao s\u00e2n bay Long Th\u00e0nh ph\u1ea3i l\u00f9i xa TP.HCM 40km?",
+            "chars": 50,
+            "score": 92,
+            "issues": [
+              [
+                "mobile",
+                "a mobile feed shows about \"V\u00ec sao s\u00e2n bay Long Th\u00e0nh ph\u1ea3i l\u00f9i xa...\" - check the subject survives"
+              ],
+              [
+                "thumb-length",
+                "6 words on the thumbnail - three is the ceiling at feed size"
+              ]
+            ],
+            "good": [
+              "50 characters, inside the 60-character desktop cut",
+              "1 all-caps word for emphasis",
+              "carries a concrete figure (40)",
+              "open question in the title",
+              "thumbnail and title carry different words"
+            ],
+            "thumb": "K\u1eb8T B\u1ea6U TR\u1edcI!",
+            "thumb_words": 3
+          },
+          {
+            "title": "C\u00e1ch nhau 365m: N\u00fat th\u1eaft bu\u1ed9c TP.HCM x\u00e2y s\u00e2n bay 40km?",
+            "chars": 54,
+            "score": 92,
+            "issues": [
+              [
+                "mobile",
+                "a mobile feed shows about \"C\u00e1ch nhau 365m: N\u00fat th\u1eaft bu\u1ed9c TP.HCM...\" - check the subject survives"
+              ],
+              [
+                "thumb-length",
+                "5 words on the thumbnail - three is the ceiling at feed size"
+              ]
+            ],
+            "good": [
+              "54 characters, inside the 60-character desktop cut",
+              "1 all-caps word for emphasis",
+              "carries a concrete figure (365, 40)",
+              "open question in the title",
+              "thumbnail and title carry different words"
+            ],
+            "thumb": "KH\u00d3A \u0110\u01af\u1edcNG B\u0102NG!",
+            "thumb_words": 3
+          },
+          {
+            "title": "C\u00f3 nh\u00e0 ga T3, v\u00ec sao v\u1eabn c\u1ea7n si\u00eau s\u00e2n bay c\u00e1ch 40km?",
+            "chars": 52,
+            "score": 74,
+            "issues": [
+              [
+                "mobile",
+                "a mobile feed shows about \"C\u00f3 nh\u00e0 ga T3, v\u00ec sao v\u1eabn c\u1ea7n si\u00eau s\u00e2n...\" - check the subject survives"
+              ],
+              [
+                "duplicate",
+                "thumbnail repeats the title on ch - the thumbnail should say what the title does not"
+              ],
+              [
+                "thumb-length",
+                "6 words on the thumbnail - three is the ceiling at feed size"
+              ]
+            ],
+            "good": [
+              "52 characters, inside the 60-character desktop cut",
+              "1 all-caps word for emphasis",
+              "carries a concrete figure (3,, 40)",
+              "open question in the title"
+            ],
+            "thumb": "H\u1ebeT CH\u1ed6 M\u1ede R\u1ed8NG!",
+            "thumb_words": 4
+          }
+        ],
+        "hook_candidates": [
+          {
+            "id": "h1_contrarian",
+            "formula": "Contrarian Opening + Specific Number",
+            "vi": "TP.HCM v\u1eeba m\u1edf nh\u00e0 ga T3 kh\u1ed5ng l\u1ed3 \u1edf T\u00e2n S\u01a1n Nh\u1ea5t, nh\u01b0ng hai \u0111\u01b0\u1eddng b\u0103ng c\u00e1ch nhau ch\u1ec9 365 m\u00e9t v\u1eabn kh\u00f3a ch\u1eb7t b\u1ea7u tr\u1eddi th\u00e0nh ph\u1ed1 \u2014 bu\u1ed9c ph\u1ea3i l\u00f9i ra t\u1eadn 40 c\u00e2y s\u1ed1.",
+            "probe": "Ho Chi Minh City built Terminal 3, yet two runways 365m apart still lock the sky \u2014 forcing Long Thanh 40km away.",
+            "hookscore_vi": 27,
+            "hookscore_structure_probe": 43,
+            "probe_formula": "Unclassified",
+            "probe_parts": {
+              "SPECIFICITY": 96,
+              "ADDRESS": 26,
+              "STAKES": 36,
+              "CURIOSITY": 24,
+              "BREVITY": 100
+            }
+          },
+          {
+            "id": "h2_cost_scale",
+            "formula": "Shocking Geography Contrast",
+            "vi": "B\u1ea1n m\u1ea5t 20 ph\u00fat l\u00e1i xe t\u1eeb Qu\u1eadn 1 t\u1edbi T\u00e2n S\u01a1n Nh\u1ea5t, nh\u01b0ng t\u1ea1i sao si\u00eau s\u00e2n bay 100 tri\u1ec7u kh\u00e1ch l\u1ea1i ph\u1ea3i d\u1eddi xa h\u01a1n 40 kil\u00f4m\u00e9t sang \u0110\u1ed3ng Nai?",
+            "probe": "You reach Tan Son Nhat in 20 minutes, so why is the 100M-passenger airport forced 40km away in Dong Nai?",
+            "hookscore_vi": 30,
+            "hookscore_structure_probe": 58,
+            "probe_formula": "The Clock",
+            "probe_parts": {
+              "SPECIFICITY": 91,
+              "ADDRESS": 76,
+              "STAKES": 36,
+              "CURIOSITY": 59,
+              "BREVITY": 100
+            }
+          },
+          {
+            "id": "h3_runway_paradox",
+            "formula": "Physical Bottleneck Reveal",
+            "vi": "C\u00f3 t\u1edbi hai \u0111\u01b0\u1eddng b\u0103ng song song nh\u01b0ng T\u00e2n S\u01a1n Nh\u1ea5t g\u1ea7n nh\u01b0 ch\u1ec9 d\u00e1m c\u1ea5t h\u1ea1 c\u00e1nh nh\u01b0 m\u1ed9t \u0111\u01b0\u1eddng b\u0103ng \u0111\u01a1n \u2014 nguy\u00ean nh\u00e2n n\u1eb1m \u1edf con s\u1ed1 365 m\u00e9t.",
+            "probe": "With two parallel runways, why does Tan Son Nhat run almost like a single strip? The 365m gap explains why.",
+            "hookscore_vi": 24,
+            "hookscore_structure_probe": 47,
+            "probe_formula": "Unclassified",
+            "probe_parts": {
+              "SPECIFICITY": 69,
+              "ADDRESS": 26,
+              "STAKES": 36,
+              "CURIOSITY": 75,
+              "BREVITY": 100
+            }
+          },
+          {
+            "id": "h4_urban_cage",
+            "formula": "Concrete Constraint",
+            "vi": "N\u1ebfu b\u1ea1n \u0111\u1eb7t c\u1ea3 s\u00e2n bay T\u00e2n S\u01a1n Nh\u1ea5t l\u00ean b\u1ea3n \u0111\u1ed3 Long Th\u00e0nh, to\u00e0n b\u1ed9 791 h\u00e9c-ta c\u0169 ch\u1ec9 l\u1ecdt th\u1ecfm m\u1ed9t g\u00f3c trong \u0111\u1ea1i c\u00f4ng tr\u01b0\u1eddng 5.000 h\u00e9c-ta.",
+            "probe": "Drop all 791 hectares of Tan Son Nhat onto Long Thanh and it vanishes inside a 5,000-hectare megaproject.",
+            "hookscore_vi": 27,
+            "hookscore_structure_probe": 43,
+            "probe_formula": "Unclassified",
+            "probe_parts": {
+              "SPECIFICITY": 96,
+              "ADDRESS": 26,
+              "STAKES": 36,
+              "CURIOSITY": 24,
+              "BREVITY": 100
+            }
+          },
+          {
+            "id": "h5_transit_payoff",
+            "formula": "Pain Point + Question",
+            "vi": "N\u1ed7i lo l\u1edbn nh\u1ea5t c\u1ee7a h\u00e0nh kh\u00e1ch l\u00e0 \u0111i Long Th\u00e0nh xa h\u01a1n 40 c\u00e2y s\u1ed1 \u2014 nh\u01b0ng b\u1ea3n \u0111\u1ed3 cao t\u1ed1c 10 l\u00e0n v\u00e0 \u0111\u01b0\u1eddng s\u1eaft 20 ph\u00fat l\u1ea1i k\u1ec3 m\u1ed9t c\u00e2u chuy\u1ec7n kh\u00e1c.",
+            "probe": "Wait \u2014 is 40km to Long Thanh airport too far for you, or do the 20-minute rail plans change the cost?",
+            "hookscore_vi": 28,
+            "hookscore_structure_probe": 55,
+            "probe_formula": "The Question",
+            "probe_parts": {
+              "SPECIFICITY": 68,
+              "ADDRESS": 46,
+              "STAKES": 62,
+              "CURIOSITY": 42,
+              "BREVITY": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "passed": true,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "notes": [
+      "Mapped 3 landscape gaps, 7 primary/secondary candidate data points (unverified status per Chu-De/21), and 3 title/thumbnail + 5 hook candidates."
+    ]
+  },
+  "cost_snapshot": {
+    "stage_cost_usd": 0.0,
+    "cumulative_cost_usd": 0.0,
+    "budget_usd": 5.0
+  }
+}

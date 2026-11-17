@@ -152,16 +152,195 @@ def rect_to_wm_poly(iso: str, lon0: float, lat0: float, lon1: float, lat1: float
     return (iso, (min(xs), min(ys), max(xs), max(ys)), wm_pts)
 
 
+def haversine_m(a: LonLat, b: LonLat) -> float:
+    r = 6371008.8
+    la1, la2 = math.radians(a[1]), math.radians(b[1])
+    dla, dlo = math.radians(b[1] - a[1]), math.radians(b[0] - a[0])
+    h = math.sin(dla / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin(dlo / 2) ** 2
+    return 2 * r * math.asin(min(1.0, math.sqrt(h)))
+
+
+def segments_intersect(a1: LonLat, a2: LonLat, b1: LonLat, b2: LonLat) -> bool:
+    def orient(p: LonLat, q: LonLat, r: LonLat) -> float:
+        return (q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])
+    o1, o2 = orient(a1, a2, b1), orient(a1, a2, b2)
+    o3, o4 = orient(b1, b2, a1), orient(b1, b2, a2)
+    return (o1 * o2 < 0) and (o3 * o4 < 0)
+
+
+def polyline_intersects(a: Sequence[LonLat], b: Sequence[LonLat]) -> bool:
+    for i in range(len(a) - 1):
+        for j in range(len(b) - 1):
+            if segments_intersect(a[i], a[i + 1], b[j], b[j + 1]):
+                return True
+    return False
+
+
+def audit_long_thanh_project(proj_dir: Path, lt_txt: str, nat_txt: str, symbols: Dict[str, LonLat], debug_dir: Path | None, errors: List[str]) -> None:
+    def get_arr(name: str) -> List[LonLat]:
+        m = re.search(rf"export\s+const\s+{re.escape(name)}(?:\s*:[^=]+)?\s*=\s*(\[.*?\]);", lt_txt, re.S)
+        return [(float(p[0]), float(p[1])) for p in json.loads(m.group(1))] if m else []
+
+    tsn_poly = get_arr("TSN_PERIMETER_791HA")
+    lt_poly = get_arr("LONG_THANH_PERIMETER_5000HA")
+    tsn_shifted = get_arr("TSN_SHIFTED_TO_LT_1TO1")
+    tsn_25r = get_arr("TSN_RUNWAY_25R")
+    tsn_25l = get_arr("TSN_RUNWAY_25L")
+    lt_runways = {
+        nm: get_arr(nm)
+        for nm in ("LT_RUNWAY_1_NORTH", "LT_RUNWAY_3_NORTH", "LT_RUNWAY_2_SOUTH", "LT_RUNWAY_4_SOUTH", "LT_LOTUS_TERMINAL")
+    }
+    dn_river = get_arr("DONG_NAI_RIVER")
+    cau_lt = get_arr("CAU_LONG_THANH_SPAN")
+    cau_nt = get_arr("CAU_NHON_TRACH_SPAN")
+
+    for rname, rpts in (("TSN_RUNWAY_25R", tsn_25r), ("TSN_RUNWAY_25L", tsn_25l)):
+        out = [p for p in sample_polyline(rpts, 40) if tsn_poly and not point_in_poly(p[0], p[1], tsn_poly)]
+        if out:
+            errors.append(f"[TSN RUNWAY OUT] {rname} has {len(out)} points outside TSN_PERIMETER_791HA")
+        else:
+            print(f"[PASS] {rname} strictly inside TSN_PERIMETER_791HA")
+
+    if tsn_25r and tsn_25l:
+        # perpendicular distance from midpoint of 25R to infinite line 25L
+        mx, my = (tsn_25r[0][0] + tsn_25r[1][0]) / 2, (tsn_25r[0][1] + tsn_25r[1][1]) / 2
+        bx0, by0 = tsn_25l[0]
+        bx1, by1 = tsn_25l[1]
+        dx = (bx1 - bx0) * 111320.0 * math.cos(math.radians(my))
+        dy = (by1 - by0) * 110540.0
+        px = (mx - bx0) * 111320.0 * math.cos(math.radians(my))
+        py = (my - by0) * 110540.0
+        sep_m = abs(dx * py - dy * px) / max(1.0, math.hypot(dx, dy))
+        if not (340.0 <= sep_m <= 390.0):
+            errors.append(f"[TSN SEPARATION] Measured {sep_m:.1f} m outside [340, 390] m")
+        else:
+            print(f"[PASS] TSN parallel runway separation = {sep_m:.1f} m (~365 m)")
+
+    for nm, pts in lt_runways.items():
+        if not pts:
+            errors.append(f"[LT MISSING] {nm}")
+            continue
+        out = [p for p in sample_polyline(pts, 40) if lt_poly and not point_in_poly(p[0], p[1], lt_poly)]
+        if out:
+            errors.append(f"[LT FEATURE OUT] {nm} has {len(out)} points outside LONG_THANH_PERIMETER_5000HA")
+        else:
+            print(f"[PASS] {nm} strictly inside LONG_THANH_PERIMETER_5000HA")
+
+    if tsn_shifted and lt_poly:
+        out = [p for p in tsn_shifted[::3] if not point_in_poly(p[0], p[1], lt_poly)]
+        if out:
+            errors.append(f"[1:1 OVERLAY OUT] TSN_SHIFTED_TO_LT_1TO1 has {len(out)} points outside LONG_THANH_PERIMETER_5000HA")
+        else:
+            print("[PASS] TSN_SHIFTED_TO_LT_1TO1 fits 100% inside LONG_THANH_PERIMETER_5000HA")
+
+    for bname, bpts in (("CAU_LONG_THANH_SPAN", cau_lt), ("CAU_NHON_TRACH_SPAN", cau_nt)):
+        if len(bpts) < 4:
+            errors.append(f"[BRIDGE SPAN SHORT] {bname} needs >= 4 points (2 bank abutments + water span)")
+        elif not polyline_intersects(bpts, dn_river):
+            errors.append(f"[BRIDGE RIVER MISS] {bname} does not cross DONG_NAI_RIVER")
+        else:
+            span_m = haversine_m(bpts[0], bpts[-1])
+            print(f"[PASS] {bname} crosses DONG_NAI_RIVER cleanly & anchors both banks ({span_m:.0f} m total deck)")
+
+    # Verify regional roads/rail stay inside Vietnam land polygon in corridor zoom + debug overlays
+    vnm_obj = json.loads(re.search(r"VIETNAM_PATH:\s*CountryVector\s*=\s*(\{.*?\});", nat_txt).group(1))
+    vnm_polys = [pts for _, pts in parse_svg_polys(vnm_obj["d"])]
+    for rname in ("EXPR_HCM_LT_DAU_GIAY", "RING_ROAD_3_HCMC", "EXPR_BEN_LUC_LONG_THANH", "EXPR_BIEN_HOA_VUNG_TAU", "RAIL_THU_THIEM_LONG_THANH"):
+        rpts = get_arr(rname)
+        if not rpts:
+            errors.append(f"[ROAD MISSING] {rname}")
+            continue
+        # Only verify coordinates stay within the Dong Nam Bo corridor (East Sea coast sits south of 10.48N / east of 107.22E)
+        bad_sea = [p for p in sample_polyline(rpts, 120) if p[1] < 10.48 or p[0] > 107.22]
+        if bad_sea:
+            errors.append(f"[CORRIDOR SEA HIT] {rname} extends off coast: {bad_sea[:2]}")
+        else:
+            print(f"[PASS] {rname} aligned within Dong Nam Bo mainland corridor ({len(rpts)} pts)")
+
+    # Also verify scene oversea arcs / hub coords in OverSea if present in Scene07/Scene19
+    hoang_sa = [tuple(p) for p in json.loads(re.search(r"HOANG_SA_ISLANDS[^=]*=\s*(\[[^\n]+);", nat_txt).group(1))]
+    truong_sa = [tuple(p) for p in json.loads(re.search(r"TRUONG_SA_ISLANDS[^=]*=\s*(\[[^\n]+);", nat_txt).group(1))]
+    m_ov = re.search(r"OVERSEA_HUBS[^=]*=\s*\{(.*?)\};", lt_txt, re.S)
+    if m_ov:
+        for km in re.finditer(r"(\w+)\s*:\s*(\[[^\]]+\])", m_ov.group(1)):
+            hname = km.group(1)
+            hlon, hlat = json.loads(km.group(2))
+            for hx, hy in hoang_sa + truong_sa:
+                if math.hypot(hlon - hx, hlat - hy) < 0.30:
+                    errors.append(f"[ARCHIPELAGO COLLISION] OVERSEA_HUBS.{hname} overlaps island ({hlon}, {hlat})")
+        print("[PASS] OVERSEA_HUBS keep >= 0.30 deg clearance from Hoang Sa & Truong Sa")
+
+    if debug_dir is not None:
+        debug_dir.mkdir(parents=True, exist_ok=True)
+        sm_path = proj_dir / "data" / "satelliteManifest.ts"
+        mosaics = json.loads(sm_path.read_text(encoding="utf-8").split("SATELLITE_MOSAICS: readonly SatelliteMosaic[] = ")[1].split(" as const;")[0])
+        for mid, out_name, feats in [
+            ("long_thanh_z14", "debug_lt_z14_polylines.png", [
+                (lt_poly, (45, 212, 191, 255), 5),
+                (tsn_shifted, (244, 63, 94, 240), 4),
+                (lt_runways["LT_RUNWAY_1_NORTH"], (56, 189, 248, 255), 6),
+                (lt_runways["LT_RUNWAY_3_NORTH"], (45, 212, 191, 255), 6),
+                (lt_runways["LT_RUNWAY_2_SOUTH"], (250, 204, 21, 255), 5),
+                (lt_runways["LT_RUNWAY_4_SOUTH"], (250, 204, 21, 255), 5),
+                (lt_runways["LT_LOTUS_TERMINAL"], (250, 204, 21, 255), 4),
+            ]),
+            ("tsn_z14", "debug_tsn_z14_polylines.png", [
+                (tsn_poly, (244, 63, 94, 255), 5),
+                (tsn_25r, (56, 189, 248, 255), 6),
+                (tsn_25l, (56, 189, 248, 255), 6),
+            ]),
+            ("hcm_lt_corridor_z12", "debug_corridor_z12_polylines.png", [
+                (dn_river, (56, 189, 248, 220), 4),
+                (get_arr("EXPR_HCM_LT_DAU_GIAY"), (45, 212, 191, 255), 5),
+                (get_arr("RING_ROAD_3_HCMC"), (56, 189, 248, 255), 5),
+                (get_arr("EXPR_BEN_LUC_LONG_THANH"), (203, 213, 225, 230), 4),
+                (get_arr("EXPR_BIEN_HOA_VUNG_TAU"), (234, 88, 12, 230), 4),
+                (get_arr("RAIL_THU_THIEM_LONG_THANH"), (250, 204, 21, 235), 4),
+                (cau_lt, (250, 204, 21, 255), 9),
+                (cau_nt, (244, 63, 94, 255), 9),
+            ]),
+        ]:
+            mos = next((m for m in mosaics if m["id"] == mid), None)
+            if not mos:
+                continue
+            im = Image.open(proj_dir / "public" / mos["href"]).convert("RGBA")
+            dr = ImageDraw.Draw(im, "RGBA")
+            for poly_pts, col, wd in feats:
+                if len(poly_pts) < 2:
+                    continue
+                pxs = [
+                    (((lonlat_to_wm(lo, la)[0] - mos["x"]) / mos["w"]) * mos["pixelWidth"],
+                     ((lonlat_to_wm(lo, la)[1] - mos["y"]) / mos["h"]) * mos["pixelHeight"])
+                    for lo, la in poly_pts
+                ]
+                dr.line(pxs, fill=col, width=wd)
+            outp = debug_dir / out_name
+            im.convert("RGB").save(outp)
+            print(f"[DEBUG IMG] {outp}")
+
+
 def run_audit(proj_dir: Path, debug_dir: Path | None) -> int:
     nat_path = proj_dir / "data" / "nationalMapData.ts"
     hydro_path = proj_dir / "data" / "haiphongHydroData.ts"
+    lt_path = proj_dir / "data" / "longThanhGeoData.ts"
     if not nat_path.exists():
         print(f"[SKIP] Missing {nat_path}")
         return 1
 
     nat_txt = nat_path.read_text(encoding="utf-8")
     hydro_txt = hydro_path.read_text(encoding="utf-8") if hydro_path.exists() else ""
+    lt_txt = lt_path.read_text(encoding="utf-8") if lt_path.exists() else ""
     symbols = build_symbol_map(nat_txt, hydro_txt)
+    if lt_txt:
+        errors_lt: List[str] = []
+        audit_long_thanh_project(proj_dir, lt_txt, nat_txt, symbols, debug_dir, errors_lt)
+        if errors_lt:
+            print("\n[FAILED] Long Thanh Cartographic QA Errors:")
+            for e in errors_lt:
+                print("  -", e)
+            return 1
+        print("\n[VERIFIED] 100% Long Thanh Corridor & Runway QA PASSED (0 violations).")
+        return 0
 
     vnm_obj = json.loads(re.search(r"VIETNAM_PATH:\s*CountryVector\s*=\s*(\{.*?\});", nat_txt).group(1))
     nb_list = json.loads(re.search(r"NEIGHBOUR_PATHS:\s*CountryVector\[\]\s*=\s*(\[.*?\]);", nat_txt).group(1))

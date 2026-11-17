@@ -1,0 +1,38 @@
+Nhà ga T3 Tân Sơn Nhất giúp giảm tải mặt đất, nhưng vì sao bầu trời TP.HCM vẫn cần một siêu sân bay mới cách trung tâm khoảng 40 km tại Long Thành (Đồng Nai)?
+Từ quy tắc 365 m giữa hai đường băng 25R/25L, hành lang phễu hạ cánh trên đầu 10 triệu dân, phép loại trừ 4 hướng địa lý – không phận đến bài toán đường sắt Thủ Thiêm – Long Thành (~20–25 phút): video giải mã trọn vẹn logic địa lý kinh tế đằng sau đại công trình 5.000 ha.
+
+🎯 PHƯƠNG ÁN TIÊU ĐỀ TEST & COMPARE TRÊN YOUTUBE STUDIO:
+• Chính (A): Vì sao sân bay Long Thành phải lùi xa TP.HCM 40km?
+• Phương án B: Nhà ga T3 có rồi, sao vẫn phải xây Long Thành cách 40km?
+• Phương án C: Giải mã sân bay Long Thành: Thoát bẫy 365m ở Tân Sơn Nhất
+
+📌 NGUỒN PHÁP LÝ & DỮ LIỆU THAM CHIẾU (Trạng thái `unverified` trong artifacts/candidate_facts_sources.json — cần người duyệt kiểm chứng trước khi công khai):
+1. Nghị quyết 94/2015/QH13 — Chủ trương đầu tư Dự án Cảng HKQT Long Thành (100 triệu HK/năm, 5 triệu tấn hàng hóa/năm, 5.000 ha).
+2. Nghị quyết 174/2024/QH15 — Điều chỉnh chủ trương Giai đoạn 1, bổ sung đường cất hạ cánh số 3 (đường băng thứ 2 phía Bắc).
+3. Quyết định 648/QĐ-TTg — Quy hoạch tổng thể phát triển hệ thống cảng hàng không, sân bay toàn quốc.
+
+🛰️ BẢN QUYỀN HÌNH ẢNH, BẢN ĐỒ & ÂM THANH:
+• Ảnh vệ tinh nền: EOxCloudless Sentinel-2 cloudless mosaic 2024 (z4–z14) by EOX IT Services GmbH / Copernicus — CC BY 4.0 (https://cloudless.eox.at).
+• Đường bờ, sông ngòi, cầu & cao tốc: Natural Earth (Public Domain) & © OpenStreetMap contributors — ODbL (https://www.openstreetmap.org/copyright).
+• Ảnh tư liệu thực địa (Wikimedia Commons — 11 ảnh tự do bản quyền):
+  - Tân Sơn Nhất ban đêm (File:Tan_Son_Nhat_International_Airport_at_night_(12088245464).jpg) — Bem photography, CC BY 2.0.
+  - Sân đỗ & nhà ga TSN (File:Tan_Son_Nhat_ramp_(08.2026).jpg) — Hwi.padam, CC BY-SA 4.0.
+  - Đường chân trời TP.HCM (File:Ho_Chi_Minh_City_-_Saigon1324.jpg) — lumoplank, CC0.
+  - Hệ sinh thái rừng ngập mặn (File:Mangrove_bud.jpg) — Tho nau, CC BY-SA 3.0.
+  - Tư liệu đồn điền cao su Suzannah (File:Belle_plantation_d'hévéas_à_Suzannah...jpg) — Gallica BnF, Public domain.
+  - Bến cảng nước sâu Phú Mỹ – Thị Vải – Cái Mép (File:VN-Phu-My-Hafen-3.jpg) — Balou46, CC BY-SA 3.0.
+  - Siêu tàu bay Airbus A380 (File:A380_-_Paris_Air_Show_2011_-_Take_off.jpg) — Boute95, CC BY-SA 3.0.
+  - Không ảnh nhà ga hoa sen & công trường Sân bay Long Thành (File:Dji-0031-2479-7509-26233946999421542541397.jpg) — Hehebisbis, CC BY-SA 4.0.
+  - Sân bay quốc tế Incheon (File:02-NOV-2023_-_KC910_ICN-ALA...jpg) — Simply Aviation, CC BY-SA 4.0.
+  - Biển báo cao tốc CT.01 Long Thành – Dầu Giây (File:Long_Thành-Dầu_Giây_Expressway_Speed_Limit_Sign.jpg) — MinhVN123, CC BY-SA 4.0.
+  - Đoàn tàu Metro số 1 TP.HCM (File:L111_BenThanh_Train_Front_(20250202).jpg) — Kateru Zakuro, CC BY 4.0.
+• Công bố nội dung tổng hợp (Altered/Synthetic Content Disclosure): Giọng đọc bình luận do AI tổng hợp (Vibi TTS — Haitrieu) kết hợp đồ họa bản đồ 3D mô phỏng từ ảnh vệ tinh và dữ liệu địa lý thực tế.
+
+#GiaiMaBanDo #SanBayLongThanh #TanSonNhat #DiaLyKinhTe #HaTangVietNam
+
+0:00 - Nghịch lý Nhà ga T3 & Bài toán lùi 40 km
+1:35 - Quy tắc 365 m & Nút thắt bầu trời Tân Sơn Nhất
+3:40 - Phép loại trừ Bắc – Tây – Nam & Nền bùn Cần Giờ
+5:22 - Đất đỏ Bình Sơn 40 km & Đại công trường 5.000 ha cấp 4F
+7:40 - Nghị quyết 174 & Chuẩn cự ly siêu sân bay châu Á
+8:51 - 4 trục cao tốc vượt sông Đồng Nai & Đường sắt 120 km/h

@@ -1,0 +1,393 @@
+{
+  "version": "1.0",
+  "renderer_family": "explainer-data",
+  "render_runtime": "remotion",
+  "composition_mode": "atelier",
+  "bespoke": {
+    "entry": "projects/san-bay-long-thanh-40km/index.tsx",
+    "composition_id": "SanBayLongThanh40km",
+    "art_direction": "projects/san-bay-long-thanh-40km/art-direction.md",
+    "props_path": "C:/Users/ACER/Desktop/Openmontage-Room/projects/san-bay-long-thanh-40km/artifacts/props.json",
+    "public_dir": "projects/san-bay-long-thanh-40km/public",
+    "crf": 14,
+    "concurrency": 4
+  },
+  "cuts": [
+    {
+      "id": "cut_01",
+      "source": "snapshots/scene_01.png",
+      "in_seconds": 0.0,
+      "out_seconds": 30.67,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_01 (establish_context): [Airspace & National Opening Map] Bản đồ vệ tinh 3D nghiêng 52° toàn miền Nam & Biển Đông (hiển thị Hoàng Sa – Trường Sa tự nhiên): cung rad"
+    },
+    {
+      "id": "cut_02",
+      "source": "snapshots/scene_02.png",
+      "in_seconds": 30.67,
+      "out_seconds": 63.93,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "slide-left",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_02 (introduce_subject): [Urbanization Timeline & Perimeter Polygon] Sơ đồ bản đồ 3D đô thị hóa TP.HCM theo mốc 1930 -> 2026: vệt đô thị hổ phách lan qua Tân Bình, P"
+    },
+    {
+      "id": "cut_03",
+      "source": "snapshots/scene_03.png",
+      "in_seconds": 63.93,
+      "out_seconds": 95.24,
+      "layer": "primary",
+      "transition_in": "slide-left",
+      "transition_out": "fade",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_03 (evidence): [Terminal T3 Evidence & Layer Split] Tách đôi trực quan giữa ảnh thực địa Nhà ga T3/sân đỗ Tân Sơn Nhất và bản đồ 3D phân lớp sáng xanh khu "
+    },
+    {
+      "id": "cut_04",
+      "source": "snapshots/scene_04.png",
+      "in_seconds": 95.24,
+      "out_seconds": 127.06,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_04 (deliver_payload): [1:1 Parallel Runway Ruler (Hero)] Zoom cận cảnh vệ tinh EOX 2024 z14 thẳng xuống cặp đường băng 25R/07L & 25L/07R Tân Sơn Nhất kết hợp thướ"
+    },
+    {
+      "id": "cut_05",
+      "source": "snapshots/scene_05.png",
+      "in_seconds": 127.06,
+      "out_seconds": 158.53,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_05 (build_tension): [3D Airspace Approach Funnel] Bản đồ nghiêng 52° phóng nón tĩnh không 3D từ đầu đường băng TSN quét ngang Bình Thạnh, Phú Nhuận, Gò Vấp cùng"
+    },
+    {
+      "id": "cut_06",
+      "source": "snapshots/scene_06.png",
+      "in_seconds": 158.53,
+      "out_seconds": 187.93,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "slide-left",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_06 (evidence): [Hypothetical Runway 3 Clearance Simulation] Trên vệ tinh EOX z14, dịch một vệt đường băng giả định 4.000 m + dải bảo hiểm ra +760 m về phía"
+    },
+    {
+      "id": "cut_07",
+      "source": "snapshots/scene_07.png",
+      "in_seconds": 187.93,
+      "out_seconds": 220.08,
+      "layer": "primary",
+      "transition_in": "slide-left",
+      "transition_out": "dissolve",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_07 (build_tension): [Southeast Economic & Cargo Arc] Bản đồ châu Á – Thái Bình Dương nghiêng 50° với các cụm KCN TP.HCM – Bình Dương – Đồng Nai – BRVT phát sáng"
+    },
+    {
+      "id": "cut_08",
+      "source": "snapshots/scene_08.png",
+      "in_seconds": 220.08,
+      "out_seconds": 253.9,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_08 (deliver_payload): [Cream Legal Dossier NQ 94/2015] Cảnh đặc tả kiểu phóng sự: tờ hồ sơ giấy kem Nghị quyết 94/2015/QH13 nghiêng góc trên nền bản đồ tối, nét b"
+    },
+    {
+      "id": "cut_09",
+      "source": "snapshots/scene_09.png",
+      "in_seconds": 253.9,
+      "out_seconds": 288.79,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_09 (evidence): [3D Geological Soil Cutaway (Mud)] Vòng radar quét xuống vùng trũng Nam Sài Gòn rồi chuyển thành sa bàn lát cắt địa chất 3D Isometric: tầng "
+    },
+    {
+      "id": "cut_10",
+      "source": "snapshots/scene_10.png",
+      "in_seconds": 288.79,
+      "out_seconds": 322.04,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "slide-left",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_10 (build_tension): [NE Urban Wall & Bien Hoa Airspace Conflict] Radar quét vành đai 15–25 km Đông Bắc trên nền vệ tinh EOX z12 kèm vòng tròn kiểm soát không lư"
+    },
+    {
+      "id": "cut_11",
+      "source": "snapshots/scene_11.png",
+      "in_seconds": 322.04,
+      "out_seconds": 355.93,
+      "layer": "primary",
+      "transition_in": "slide-left",
+      "transition_out": "dissolve",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_11 (resolution): [3D Geological Soil Cutaway (Red Basalt)] Radar bước tới mốc 40 km khóa sáng xanh ngọc tại Bình Sơn – Long Thành trên vệ tinh z14, dựng lát "
+    },
+    {
+      "id": "cut_12",
+      "source": "snapshots/scene_12.png",
+      "in_seconds": 355.93,
+      "out_seconds": 389.96,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_12 (deliver_payload): [Regional Industrial Triangle] Camera zoom-out góc 52° toàn Đông Nam Bộ vẽ tam giác phát sáng nối TP.HCM (~40 km) – Bình Dương/Đồng Nai – Cá"
+    },
+    {
+      "id": "cut_13",
+      "source": "snapshots/scene_13.png",
+      "in_seconds": 389.96,
+      "out_seconds": 424.77,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_13 (deliver_payload): [1:1 Polygon Overlay (791ha in 5,000ha Hero)] Nhấc nguyên đa giác đỏ ranh giới Tân Sơn Nhất (791 ha) từ góc trái bay trượt đúng tỷ lệ 1:1 đặ"
+    },
+    {
+      "id": "cut_14",
+      "source": "snapshots/scene_14.png",
+      "in_seconds": 424.77,
+      "out_seconds": 459.77,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_14 (evidence): [4F 4-Runway Layout & Selective Photo Zoom #1] Sơ đồ 3D 4 đường băng 4.000×60 m tại Long Thành tách hai cánh Bắc – Nam với khoảng cách >2.00"
+    },
+    {
+      "id": "cut_15",
+      "source": "snapshots/scene_15.png",
+      "in_seconds": 459.77,
+      "out_seconds": 494.49,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_15 (deliver_payload): [Cream Legal Dossier NQ 174/2024] Hồ sơ giấy kem Nghị quyết 174/2024/QH15 (30/11/2024) trượt nghiêng nổi bật, bút dạ vàng tô sáng điều khoản"
+    },
+    {
+      "id": "cut_16",
+      "source": "snapshots/scene_16.png",
+      "in_seconds": 494.49,
+      "out_seconds": 531.43,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "slide-left",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_16 (comparison): [Asian Mega-Hub Distance Bar Comparison] Bản đồ Đông Á – Đông Nam Á kết hợp biểu đồ thanh ngang tỷ lệ chuẩn so cự ly về trung tâm của Suvarn"
+    },
+    {
+      "id": "cut_17",
+      "source": "snapshots/scene_17.png",
+      "in_seconds": 531.43,
+      "out_seconds": 563.89,
+      "layer": "primary",
+      "transition_in": "slide-left",
+      "transition_out": "dissolve",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_17 (resolution): [Expressway Grid & Dong Nai Bridges] Bản đồ vệ tinh hành lang TP.HCM – Đồng Nai zoom z12: vệt đỏ kẹt 4 làn cũ mở rộng phát sáng 8–10 làn qua"
+    },
+    {
+      "id": "cut_18",
+      "source": "snapshots/scene_18.png",
+      "in_seconds": 563.89,
+      "out_seconds": 597.75,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_18 (deliver_payload): [120 km/h Rail Isochrone & Selective Photo Zoom #2 (Hero)] Bản đồ đa phương thức vệ tinh hành lang Đông: tuyến ray vàng hổ phách nét đứt (11"
+    },
+    {
+      "id": "cut_19",
+      "source": "snapshots/scene_19.png",
+      "in_seconds": 597.75,
+      "out_seconds": 631.76,
+      "layer": "primary",
+      "transition_in": "fade",
+      "transition_out": "dissolve",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_19 (resolution): [Twin-Hub 150M Capacity Ecosystem] Sơ đồ mạng bay đối xứng 3D trên nền miền Nam: Tân Sơn Nhất tỏa đường bay nội địa dày đặc & ASEAN tầm ngắn"
+    },
+    {
+      "id": "cut_20",
+      "source": "snapshots/scene_20.png",
+      "in_seconds": 631.76,
+      "out_seconds": 668.27,
+      "layer": "primary",
+      "transition_in": "dissolve",
+      "transition_out": "fade",
+      "transition_duration": 0.27,
+      "backgroundColor": "#030814",
+      "reason": "scene_20 (call_to_action): [National 100-Year Finale & Ep03 CTA] Kéo camera lùi từ Long Thành lên toàn cảnh bản đồ 3D Việt Nam & Biển Đông (hiển thị trang trọng Hoàng "
+    }
+  ],
+  "audio": {
+    "narration": {
+      "segments": [
+        {
+          "asset_id": "narration-s01",
+          "start_seconds": 0.2,
+          "end_seconds": 30.217
+        },
+        {
+          "asset_id": "narration-s02",
+          "start_seconds": 30.87,
+          "end_seconds": 63.478
+        },
+        {
+          "asset_id": "narration-s03",
+          "start_seconds": 64.13,
+          "end_seconds": 94.788
+        },
+        {
+          "asset_id": "narration-s04",
+          "start_seconds": 95.44,
+          "end_seconds": 126.611
+        },
+        {
+          "asset_id": "narration-s05",
+          "start_seconds": 127.26,
+          "end_seconds": 158.083
+        },
+        {
+          "asset_id": "narration-s06",
+          "start_seconds": 158.73,
+          "end_seconds": 187.477
+        },
+        {
+          "asset_id": "narration-s07",
+          "start_seconds": 188.13,
+          "end_seconds": 219.631
+        },
+        {
+          "asset_id": "narration-s08",
+          "start_seconds": 220.28,
+          "end_seconds": 253.453
+        },
+        {
+          "asset_id": "narration-s09",
+          "start_seconds": 254.1,
+          "end_seconds": 288.341
+        },
+        {
+          "asset_id": "narration-s10",
+          "start_seconds": 288.99,
+          "end_seconds": 321.587
+        },
+        {
+          "asset_id": "narration-s11",
+          "start_seconds": 322.24,
+          "end_seconds": 355.483
+        },
+        {
+          "asset_id": "narration-s12",
+          "start_seconds": 356.13,
+          "end_seconds": 389.511
+        },
+        {
+          "asset_id": "narration-s13",
+          "start_seconds": 390.16,
+          "end_seconds": 424.319
+        },
+        {
+          "asset_id": "narration-s14",
+          "start_seconds": 424.97,
+          "end_seconds": 459.318
+        },
+        {
+          "asset_id": "narration-s15",
+          "start_seconds": 459.97,
+          "end_seconds": 494.04
+        },
+        {
+          "asset_id": "narration-s16",
+          "start_seconds": 494.69,
+          "end_seconds": 530.979
+        },
+        {
+          "asset_id": "narration-s17",
+          "start_seconds": 531.63,
+          "end_seconds": 563.438
+        },
+        {
+          "asset_id": "narration-s18",
+          "start_seconds": 564.09,
+          "end_seconds": 597.3
+        },
+        {
+          "asset_id": "narration-s19",
+          "start_seconds": 597.95,
+          "end_seconds": 631.314
+        },
+        {
+          "asset_id": "narration-s20",
+          "start_seconds": 631.96,
+          "end_seconds": 667.419
+        }
+      ]
+    },
+    "sfx": [
+      {
+        "asset_id": "sfx-aviation-radar",
+        "start_seconds": 0.0,
+        "volume": 1.0
+      }
+    ]
+  },
+  "subtitles": {
+    "enabled": false,
+    "source": "assets/audio/narration_full.srt"
+  },
+  "slideshow_risk_score": {
+    "average": 0.0,
+    "verdict": "strong"
+  },
+  "metadata": {
+    "target_duration_seconds": 668.27,
+    "proposal_render_runtime": "remotion",
+    "style_playbook": "clean-professional",
+    "selective_photo_zoom_scenes": {
+      "scene_14": [
+        13.0,
+        27.6
+      ],
+      "scene_18": [
+        12.6,
+        27.4
+      ]
+    }
+  }
+}

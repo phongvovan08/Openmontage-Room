@@ -1,38 +1,51 @@
-// Bespoke Art Direction Tokens — Modern Nautical & Hydrographic Atlas
+// Bespoke Art Direction Tokens — Vox / Johnny Harris + Flexoki Archival Atlas Hybrid
 // Strictly local to projects/demo-giai-ma-ban-do-90s (Atelier mode).
 
 export const CANVAS_W = 1920;
 export const CANVAS_H = 1080;
-export const SAFE_X = 96; // 5% horizontal title-safe margin
-export const SAFE_Y = 64; // ~6% vertical title-safe margin
+export const SAFE_X = 64; // Editorial title-safe margin
+export const SAFE_Y = 64; // Editorial vertical title-safe margin
 
 export const PALETTE = {
-  deepSea: "#071320",
-  shelfSea: "#0D2238",
-  panelBg: "rgba(9, 22, 38, 0.90)",
-  panelBgSolid: "#0B192C",
-  landMain: "#16293D",
-  landHighlight: "#1E3852",
-  landNeighbour: "#0B1828",
-  coastStroke: "#38BDF8",
-  neighbourStroke: "#1E3A54",
-  gridLine: "rgba(56, 189, 248, 0.12)",
-  sovereignty: "#E2E8F0",
-  amberSilt: "#D97706",
-  amberBright: "#F59E0B",
-  tealDeep: "#2DD4BF",
-  tealSoft: "rgba(45, 212, 191, 0.18)",
-  coralWarn: "#F43F5E",
-  coralSoft: "rgba(244, 63, 94, 0.16)",
-  textPrimary: "#F8FAFC",
-  textSecondary: "#94A3B8",
-  textMuted: "#64748B",
-  borderSubtle: "rgba(148, 163, 184, 0.26)",
+  deepSea: "#100F0F",
+  shelfSea: "#161514",
+  panelBg: "rgba(24, 23, 21, 0.92)",
+  panelBgSolid: "#1C1B1A",
+  landMain: "#1C1B1A",
+  landHighlight: "#282726",
+  landNeighbour: "#141312",
+  coastStroke: "#5695C9",
+  neighbourStroke: "#282726",
+  gridLine: "rgba(242, 240, 229, 0.10)",
+  sovereignty: "#E6E4D9",
+  amberSilt: "#BC5215",
+  amberBright: "#E5AF28",
+  tealDeep: "#1E7870",
+  tealSoft: "rgba(58, 169, 159, 0.18)",
+  coralWarn: "#D94E41",
+  coralSoft: "rgba(217, 78, 65, 0.16)",
+  textPrimary: "#FFFCF0",
+  textSecondary: "#CECDC3",
+  textMuted: "#878580",
+  borderSubtle: "rgba(242, 240, 229, 0.14)",
+} as const;
+
+export const PAPER = {
+  bgGrad: ["#F7F3E8", "#F1EBDD", "#E6DFCE"] as const,
+  sheet: "#FFFCF0",
+  sheetAlt: "#F2F0E5",
+  ink: "#100F0F",
+  ink2: "#575653",
+  rule: "rgba(28, 27, 26, 0.12)",
+  barMuted: "#D4CFC0",
+  jade: "#1E7870",
+  vermilion: "#C93B2B",
+  ochre: "#B88308",
 } as const;
 
 export const FONTS = {
   sans: "'BeVietnamProLocal', 'Segoe UI', sans-serif",
-  mono: "'TechMonoLocal', 'Cascadia Mono', 'Consolas', monospace",
+  mono: "'IBMPlexMonoLocal', 'TechMonoLocal', 'Consolas', monospace",
 } as const;
 
 /** Format decimal numbers using Vietnamese comma separator (e.g. -12,9 m | 15,63 km). */

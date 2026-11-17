@@ -1,0 +1,984 @@
+{
+  "version": "1.0",
+  "project_id": "san-bay-long-thanh-40km",
+  "pipeline_type": "animated-explainer",
+  "stage": "scene_plan",
+  "status": "completed",
+  "timestamp": "2026-11-17T02:15:43.066397+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "scene_plan": {
+      "version": "1.0",
+      "style_playbook": "clean-professional",
+      "scenes": [
+        {
+          "id": "scene_01",
+          "type": "animation",
+          "description": "[Airspace & National Opening Map] Bản đồ vệ tinh 3D nghiêng 52° toàn miền Nam & Biển Đông (hiển thị Hoàng Sa – Trường Sa tự nhiên): cung radar đỏ khóa trên TSN đối lập chấm xanh ngọc Bình Sơn – Long Thành cách 40 km; Camera dolly-in mượt; Overlays HUD tỷ lệ 365 m vs 40 km.",
+          "start_seconds": 0.0,
+          "end_seconds": 30.67,
+          "script_section_id": "s01",
+          "framing": "extreme_wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "dolly_in",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "extreme_wide",
+            "camera_movement": "dolly_in",
+            "lens_mm": 24,
+            "lighting_key": "low_key",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Mở đầu bằng nghịch lý T3 vs bầu trời 365 m trên bản đồ 3D Đông Nam Bộ – Việt Nam",
+          "narrative_role": "establish_context",
+          "information_role": "TSN đang bị khóa không lưu dù có Nhà ga T3 mới; Long Thành phải lùi 40 km về phía Đông.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s01",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_02",
+          "type": "diagram",
+          "description": "[Urbanization Timeline & Perimeter Polygon] Sơ đồ bản đồ 3D đô thị hóa TP.HCM theo mốc 1930 -> 2026: vệt đô thị hổ phách lan qua Tân Bình, Phú Nhuận, Gò Vấp bao chặt đa giác ranh 791 ha TSN trên vệ tinh z14; Camera zoom-in từ metro z12 vào sân bay; Overlays hồ sơ QĐ 648 & thẻ ảnh tư liệu TSN.",
+          "start_seconds": 30.67,
+          "end_seconds": 63.93,
+          "script_section_id": "s02",
+          "framing": "wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "zoom_in",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "zoom_in",
+            "lens_mm": 35,
+            "lighting_key": "blue_hour",
+            "depth_of_field": "medium",
+            "color_temperature": "mixed"
+          },
+          "shot_intent": "Cho thấy Tân Sơn Nhất từ ngoại ô 1930 bị đô thị hóa nuốt gọn thành ốc đảo 791 ha",
+          "narrative_role": "introduce_subject",
+          "information_role": "Quỹ đất khép kín ~791 ha theo QĐ 648/QĐ-TTg không còn mặt bằng dự phòng.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s02",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh thực địa khu vực sân bay Tân Sơn Nhất (Wikimedia Commons, không watermark)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_03",
+          "type": "broll",
+          "description": "[Terminal T3 Evidence & Layer Split] Tách đôi trực quan giữa ảnh thực địa Nhà ga T3/sân đỗ Tân Sơn Nhất và bản đồ 3D phân lớp sáng xanh khu nhà ga phía Nam vs cặp đường băng khóa đỏ phía Bắc; Camera pan ngang; Overlays thẻ đối nghịch MẶT ĐẤT vs BẦU TRỜI.",
+          "start_seconds": 63.93,
+          "end_seconds": 95.24,
+          "script_section_id": "s03",
+          "framing": "medium_wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "pan_right",
+          "transition_in": "slide-left",
+          "transition_out": "fade",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "pan_right",
+            "lens_mm": 50,
+            "lighting_key": "natural",
+            "depth_of_field": "shallow",
+            "color_temperature": "neutral"
+          },
+          "shot_intent": "Tách bạch hạ tầng mặt đất (T3 50 triệu khách) với trần đường băng trên bầu trời",
+          "narrative_role": "evidence",
+          "information_role": "Nhà ga T3 chỉ giải ùn ứ mặt đất chứ không bổ sung thêm bất kỳ đường băng nào.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s03",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh thực địa Nhà ga / sân đỗ máy bay Tân Sơn Nhất (Wikimedia Commons)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_04",
+          "type": "diagram",
+          "description": "[1:1 Parallel Runway Ruler (Hero)] Zoom cận cảnh vệ tinh EOX 2024 z14 thẳng xuống cặp đường băng 25R/07L & 25L/07R Tân Sơn Nhất kết hợp thước đo tỷ lệ 1:1 đối chiếu thanh ICAO 760–1.035 m và luồng nhiễu động đỏ buộc tàu thứ hai chờ slot; Camera cố định khóa trục tim.",
+          "start_seconds": 95.24,
+          "end_seconds": 127.06,
+          "script_section_id": "s04",
+          "framing": "extreme_close_up 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "static",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "extreme_close_up",
+            "camera_movement": "static",
+            "lens_mm": 85,
+            "lighting_key": "low_key",
+            "depth_of_field": "shallow",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Hero Moment #1: Giải phẫu vật lý khoảng cách tim 365 m so với chuẩn độc lập ICAO",
+          "narrative_role": "deliver_payload",
+          "information_role": "365 m < ngưỡng tối thiểu ICAO (760–1.035 m), buộc hai đường băng bay phụ thuộc lẫn nhau.",
+          "hero_moment": true,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s04",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_05",
+          "type": "animation",
+          "description": "[3D Airspace Approach Funnel] Bản đồ nghiêng 52° phóng nón tĩnh không 3D từ đầu đường băng TSN quét ngang Bình Thạnh, Phú Nhuận, Gò Vấp cùng vòng đồng mức tiếng ồn; Camera quỹ đạo xoay nhẹ ngắm hướng Đông-Tây; Overlays 3 khóa đô thị.",
+          "start_seconds": 127.06,
+          "end_seconds": 158.53,
+          "script_section_id": "s05",
+          "framing": "wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "orbital",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "orbital",
+            "lens_mm": 24,
+            "lighting_key": "rim_lit",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Dựng phễu hạ cánh 3D quét sát nóc khu dân cư & hành lang giới hạn chiều cao cao ốc",
+          "narrative_role": "build_tension",
+          "information_role": "Mỗi mét mở rộng ở TSN va chạm trực diện vùng ồn & trần tĩnh không 10 triệu dân.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s05",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh đường chân trời cao ốc TP.HCM / máy bay tiếp cận đô thị (Wikimedia Commons)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_06",
+          "type": "diagram",
+          "description": "[Hypothetical Runway 3 Clearance Simulation] Trên vệ tinh EOX z14, dịch một vệt đường băng giả định 4.000 m + dải bảo hiểm ra +760 m về phía Bắc quét đỏ lên ô bàn cờ nhà dân Gò Vấp; Camera lùi dần (dolly-out) phô bày mật độ đô thị hóa dày đặc.",
+          "start_seconds": 158.53,
+          "end_seconds": 187.93,
+          "script_section_id": "s06",
+          "framing": "medium 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "dolly_out",
+          "transition_in": "fade",
+          "transition_out": "slide-left",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "dolly_out",
+            "lens_mm": 35,
+            "lighting_key": "low_key",
+            "depth_of_field": "medium",
+            "color_temperature": "mixed"
+          },
+          "shot_intent": "Chứng minh giải tỏa làm đường băng thứ 3 cách +760 m trong Gò Vấp/Tân Bình là bất khả thi",
+          "narrative_role": "evidence",
+          "information_role": "Phải xén phẳng hàng trăm héc ta khu dân cư sầm uất, chi phí đền bù vượt xây sân bay mới.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s06",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_07",
+          "type": "animation",
+          "description": "[Southeast Economic & Cargo Arc] Bản đồ châu Á – Thái Bình Dương nghiêng 50° với các cụm KCN TP.HCM – Bình Dương – Đồng Nai – BRVT phát sáng, bắn quỹ đạo bay vòng cung 3D sang Bắc Mỹ & châu Âu; Overlays danh mục hàng công nghệ cao.",
+          "start_seconds": 187.93,
+          "end_seconds": 220.08,
+          "script_section_id": "s07",
+          "framing": "extreme_wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "tracking_right",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "extreme_wide",
+            "camera_movement": "tracking_right",
+            "lens_mm": 14,
+            "lighting_key": "blue_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Kết nối áp lực chuỗi cung ứng bán dẫn/công nghệ cao với nhu cầu bay thẳng xuyên lục địa",
+          "narrative_role": "build_tension",
+          "information_role": "Đông Nam Bộ cần tàu bay thân rộng bay thẳng Bắc Mỹ/châu Âu chứ không chỉ trung chuyển qua hub ngoại.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s07",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh máy bay chở hàng / khu công nghiệp công nghệ cao",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_08",
+          "type": "text_card",
+          "description": "[Cream Legal Dossier NQ 94/2015] Cảnh đặc tả kiểu phóng sự: tờ hồ sơ giấy kem Nghị quyết 94/2015/QH13 nghiêng góc trên nền bản đồ tối, nét bút dạ vàng quét sáng qua 5.000 HA, cấp 4F, 100 triệu khách & 5 triệu tấn hàng, sau đó vòng radar 360° bung ra quanh TP.HCM.",
+          "start_seconds": 220.08,
+          "end_seconds": 253.9,
+          "script_section_id": "s08",
+          "framing": "close_up 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "zoom_in",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "zoom_in",
+            "lens_mm": 50,
+            "lighting_key": "tungsten_warm",
+            "depth_of_field": "shallow",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Hiện rõ trang hồ sơ pháp lý Nghị quyết 94 khóa đầu bài 5.000 ha – 4F – 100 triệu khách",
+          "narrative_role": "deliver_payload",
+          "information_role": "Thông số mục tiêu từ Nghị quyết 94/2015/QH13 và mở vòng quét radar tìm đất Chương 3.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s08",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_09",
+          "type": "animation",
+          "description": "[3D Geological Soil Cutaway (Mud)] Vòng radar quét xuống vùng trũng Nam Sài Gòn rồi chuyển thành sa bàn lát cắt địa chất 3D Isometric: tầng bùn sét hữu cơ xám nâu cong lún dưới tải đường băng 4.000 m (>500 tấn), đánh dấu X đỏ & ranh sinh quyển Cần Giờ.",
+          "start_seconds": 253.9,
+          "end_seconds": 288.79,
+          "script_section_id": "s09",
+          "framing": "medium_close 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "tilt_down",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "tilt_down",
+            "lens_mm": 50,
+            "lighting_key": "low_key",
+            "depth_of_field": "medium",
+            "color_temperature": "mixed"
+          },
+          "shot_intent": "Giải thích bằng mặt cắt 3D vì sao hướng Nam (Nhà Bè/Bình Chánh/Cần Giờ) bị gạch đỏ",
+          "narrative_role": "evidence",
+          "information_role": "Địa chất châu thổ nền bùn sét hữu cơ dày, ngập triều và vướng khu dự trữ sinh quyển Cần Giờ.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s09",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh rừng ngập mặn / sông Soài Rạp – Lòng Tàu Cần Giờ (Wikimedia Commons)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_10",
+          "type": "broll",
+          "description": "[NE Urban Wall & Bien Hoa Airspace Conflict] Radar quét vành đai 15–25 km Đông Bắc trên nền vệ tinh EOX z12 kèm vòng tròn kiểm soát không lưu quân sự Biên Hòa xung đột đỏ với phễu bay giả định; đối chiếu ảnh thực địa đô thị & công nghiệp Biên Hòa – Thủ Đức.",
+          "start_seconds": 288.79,
+          "end_seconds": 322.04,
+          "script_section_id": "s10",
+          "framing": "wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "pan_left",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "pan_left",
+            "lens_mm": 35,
+            "lighting_key": "overcast_soft",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Chứng minh vành đai gần 15–25 km phía Đông Bắc vướng cả đô thị hóa lẫn vùng trời Biên Hòa",
+          "narrative_role": "build_tension",
+          "information_role": "Thủ Đức – Dĩ An – Biên Hòa kín đất 5.000 ha và phễu bay giao cắt vùng bay quân sự Biên Hòa.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s10",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh thực địa đô thị hóa hành lang phía Đông TP.HCM / Biên Hòa",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_11",
+          "type": "diagram",
+          "description": "[3D Geological Soil Cutaway (Red Basalt)] Radar bước tới mốc 40 km khóa sáng xanh ngọc tại Bình Sơn – Long Thành trên vệ tinh z14, dựng lát cắt 3D nền đất đỏ bazan cổ màu cam đất nâng vững chắc cấu hình đường băng + 3 chốt xanh ĐỊA CHẤT • QUỸ ĐẤT • BẦU TRỜI.",
+          "start_seconds": 322.04,
+          "end_seconds": 355.93,
+          "script_section_id": "s11",
+          "framing": "medium 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "crane_up",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "crane_up",
+            "lens_mm": 35,
+            "lighting_key": "golden_hour",
+            "depth_of_field": "medium",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Đột phá Chương 3: Thềm đất đỏ bazan Bình Sơn – Long Thành hội tụ cả 3 điều kiện vàng",
+          "narrative_role": "resolution",
+          "information_role": "Cao ráo không ngập triều, đất cao su liền khối 5.000 ha và bầu trời thoáng tách biệt.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s11",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh công trường / thềm đất đỏ Long Thành hoặc vùng đất cao su Đồng Nai (Wikimedia Commons)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_12",
+          "type": "animation",
+          "description": "[Regional Industrial Triangle] Camera zoom-out góc 52° toàn Đông Nam Bộ vẽ tam giác phát sáng nối TP.HCM (~40 km) – Bình Dương/Đồng Nai – Cái Mép Thị Vải (~30–35 km) hội tụ vào tâm Long Thành; kèm ảnh thực địa cụm cảng nước sâu Cái Mép.",
+          "start_seconds": 355.93,
+          "end_seconds": 389.96,
+          "script_section_id": "s12",
+          "framing": "establishing 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "zoom_out",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "establishing",
+            "camera_movement": "zoom_out",
+            "lens_mm": 24,
+            "lighting_key": "blue_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Chứng minh Long Thành nằm ngay tâm tam giác TP.HCM – Đồng Nai/Bình Dương – Cái Mép",
+          "narrative_role": "deliver_payload",
+          "information_role": "Cách TP.HCM ~40 km và cách cảng nước sâu Cái Mép – Thị Vải ~30–35 km -> cửa ngõ Sea-Air.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s12",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh cảng container nước sâu Cái Mép – Thị Vải (Wikimedia Commons)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_13",
+          "type": "diagram",
+          "description": "[1:1 Polygon Overlay (791ha in 5,000ha Hero)] Nhấc nguyên đa giác đỏ ranh giới Tân Sơn Nhất (791 ha) từ góc trái bay trượt đúng tỷ lệ 1:1 đặt lọt thỏm vào lòng đa giác xanh ngọc 5.000 ha Long Thành trên ảnh vệ tinh EOX 2024 z14; bộ đếm tỷ lệ GẤP 6,3 LẦN & phân khu 4 đường băng.",
+          "start_seconds": 389.96,
+          "end_seconds": 424.77,
+          "script_section_id": "s13",
+          "framing": "wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "dolly_in",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "dolly_in",
+            "lens_mm": 35,
+            "lighting_key": "low_key",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Hero Moment #2: Trực giác không thể chối cãi khi đặt trọn 791 ha TSN vào trong 5.000 ha Long Thành",
+          "narrative_role": "deliver_payload",
+          "information_role": "Long Thành gấp 6,3 lần diện tích Tân Sơn Nhất theo đúng tỷ lệ trắc địa 1:1 trên vệ tinh z14.",
+          "hero_moment": true,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s13",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_14",
+          "type": "animation",
+          "description": "[4F 4-Runway Layout & Selective Photo Zoom #1] Sơ đồ 3D 4 đường băng 4.000×60 m tại Long Thành tách hai cánh Bắc – Nam với khoảng cách >2.000 m và 2 luồng bay thân rộng hoạt động đồng thời; kích hoạt Phóng to Ảnh Đinh #1 (tàu bay thân rộng tầm xa Code F).",
+          "start_seconds": 424.77,
+          "end_seconds": 459.77,
+          "script_section_id": "s14",
+          "framing": "medium_wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "tracking_left",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "tracking_left",
+            "lens_mm": 50,
+            "lighting_key": "rim_lit",
+            "depth_of_field": "medium",
+            "color_temperature": "mixed"
+          },
+          "shot_intent": "Giải thích bố cục 2 cặp đường băng cánh Bắc – cánh Nam dài 4.000 m giải phóng hoàn toàn 365 m",
+          "narrative_role": "evidence",
+          "information_role": "Khoảng cách giữa hai cánh >2.000 m, tàu bay Code E/F như Airbus A380 cất/hạ cánh độc lập.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s14",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh tàu bay thân rộng Airbus A380 / Boeing 747-8 cất hạ cánh (Wikimedia Commons)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_15",
+          "type": "text_card",
+          "description": "[Cream Legal Dossier NQ 174/2024] Hồ sơ giấy kem Nghị quyết 174/2024/QH15 (30/11/2024) trượt nghiêng nổi bật, bút dạ vàng tô sáng điều khoản làm 02 đường CHC phía Bắc + mốc 31/12/2026; phía sau đường băng số 3 chuyển từ nét đứt sang nét liền xanh ngọc.",
+          "start_seconds": 459.77,
+          "end_seconds": 494.49,
+          "script_section_id": "s15",
+          "framing": "close_up 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "zoom_in",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "zoom_in",
+            "lens_mm": 50,
+            "lighting_key": "tungsten_warm",
+            "depth_of_field": "shallow",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Cập nhật Nghị quyết 174/2024/QH15 bổ sung ngay đường băng thứ 2 ở Giai đoạn 1",
+          "narrative_role": "deliver_payload",
+          "information_role": "2 đường băng Bắc dài 4.000 m, công suất 25 triệu khách & 1,2 triệu tấn hàng, mốc 31/12/2026.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s15",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh thực địa công trường / nhà ga sân bay Long Thành hoặc tương đương",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_16",
+          "type": "diagram",
+          "description": "[Asian Mega-Hub Distance Bar Comparison] Bản đồ Đông Á – Đông Nam Á kết hợp biểu đồ thanh ngang tỷ lệ chuẩn so cự ly về trung tâm của Suvarnabhumi (~30 km), Phố Đông (~35 km), Long Thành (~40 km), Incheon (~48 km) và Narita (~60 km); kèm ảnh thực địa Incheon/Suvarnabhumi.",
+          "start_seconds": 494.49,
+          "end_seconds": 531.43,
+          "script_section_id": "s16",
+          "framing": "wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "pan_right",
+          "transition_in": "dissolve",
+          "transition_out": "slide-left",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "pan_right",
+            "lens_mm": 24,
+            "lighting_key": "blue_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Bình thường hóa cự ly 40 km qua bản đồ đối chiếu Suvarnabhumi, Phố Đông, Incheon, Narita",
+          "narrative_role": "comparison",
+          "information_role": "Mọi siêu sân bay >10 triệu dân đều đặt cách lõi 30–60 km nhưng sống còn nhờ đường ống tốc độ cao.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s16",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh sân bay quốc tế Incheon / Suvarnabhumi kết nối đường sắt (Wikimedia Commons)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_17",
+          "type": "animation",
+          "description": "[Expressway Grid & Dong Nai Bridges] Bản đồ vệ tinh hành lang TP.HCM – Đồng Nai zoom z12: vệt đỏ kẹt 4 làn cũ mở rộng phát sáng 8–10 làn qua Cầu Long Thành & Cầu Nhơn Trạch (dựng cầu 3D ăn chắc hai bờ sông Đồng Nai) cùng Bến Lức – Long Thành & Biên Hòa – Vũng Tàu.",
+          "start_seconds": 531.43,
+          "end_seconds": 563.89,
+          "script_section_id": "s17",
+          "framing": "medium_wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "tracking_right",
+          "transition_in": "slide-left",
+          "transition_out": "dissolve",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "tracking_right",
+            "lens_mm": 35,
+            "lighting_key": "low_key",
+            "depth_of_field": "medium",
+            "color_temperature": "mixed"
+          },
+          "shot_intent": "Hiển thị 4 trục cao tốc & Vành đai 3 (với cầu nối hai bờ sông Đồng Nai) phá thế độc đạo",
+          "narrative_role": "resolution",
+          "information_role": "Mở rộng 8–10 làn + Vành đai 3 cầu Nhơn Trạch + Bến Lức – Long Thành + Biên Hòa – Vũng Tàu.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s17",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh cao tốc TP.HCM – Long Thành – Dầu Giây / cầu Long Thành hoặc cầu Nhơn Trạch (Wikimedia Commons)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_18",
+          "type": "diagram",
+          "description": "[120 km/h Rail Isochrone & Selective Photo Zoom #2 (Hero)] Bản đồ đa phương thức vệ tinh hành lang Đông: tuyến ray vàng hổ phách nét đứt (11 km ngầm / 34 km trên cao) phóng đoàn tàu chạy qua cầu sông Đồng Nai từ Ga Thủ Thiêm tới Long Thành đọ đồng hồ 90 phút ô tô vs ~20 phút tàu; kích hoạt Phóng to Ảnh Đinh #2 (tàu đường sắt đô thị trên cao).",
+          "start_seconds": 563.89,
+          "end_seconds": 597.75,
+          "script_section_id": "s18",
+          "framing": "medium_close 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "dolly_in",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "dolly_in",
+            "lens_mm": 50,
+            "lighting_key": "golden_hour",
+            "depth_of_field": "shallow",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Hero Moment #3: Đường sắt Thủ Thiêm – Long Thành (~47 km, 120 km/h) nén 40 km còn ~20 phút",
+          "narrative_role": "deliver_payload",
+          "information_role": "Hơn 11 km đi ngầm + >34 km trên cao nối thẳng ga Thủ Thiêm tới Long Thành chỉ ~20–25 phút.",
+          "hero_moment": true,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s18",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            },
+            {
+              "type": "image",
+              "description": "Ảnh đoàn tàu Metro số 1 TP.HCM trên cao tại Thủ Đức (Wikimedia Commons)",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_19",
+          "type": "animation",
+          "description": "[Twin-Hub 150M Capacity Ecosystem] Sơ đồ mạng bay đối xứng 3D trên nền miền Nam: Tân Sơn Nhất tỏa đường bay nội địa dày đặc & ASEAN tầm ngắn kết nối qua đường sắt với Long Thành phóng cung bay xuyên lục địa 400 ghế (~150 triệu khách/năm).",
+          "start_seconds": 597.75,
+          "end_seconds": 631.76,
+          "script_section_id": "s19",
+          "framing": "wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "crane_up",
+          "transition_in": "fade",
+          "transition_out": "dissolve",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "crane_up",
+            "lens_mm": 24,
+            "lighting_key": "blue_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Phá bỏ tin đồn đóng cửa Tân Sơn Nhất: mô hình cặp sân bay song hành 150 triệu khách",
+          "narrative_role": "resolution",
+          "information_role": "TSN ~50 triệu khách (nội địa/ngắn) + Long Thành 100 triệu khách (tầm xa/cargo) tương tự Haneda–Narita.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s19",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            }
+          ]
+        },
+        {
+          "id": "scene_20",
+          "type": "animation",
+          "description": "[National 100-Year Finale & Ep03 CTA] Kéo camera lùi từ Long Thành lên toàn cảnh bản đồ 3D Việt Nam & Biển Đông (hiển thị trang trọng Hoàng Sa – Trường Sa của Việt Nam không vòng tròn), nối vệt sáng Lạch Huyện ↔ Long Thành, hiện bảng tóm tắt & thẻ chọn Tập 3.",
+          "start_seconds": 631.76,
+          "end_seconds": 668.27,
+          "script_section_id": "s20",
+          "framing": "extreme_wide 16:9 full-bleed 3D oblique stage (pitch 48°–56°) + HUD safe zone",
+          "movement": "zoom_out",
+          "transition_in": "dissolve",
+          "transition_out": "fade",
+          "overlay_notes": "Stationary single-line caption bar at bottom (y~960), clean upper-left chapter badge, zero attribution clutter on video frame.",
+          "shot_language": {
+            "shot_size": "extreme_wide",
+            "camera_movement": "zoom_out",
+            "lens_mm": 14,
+            "lighting_key": "blue_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "Tổng kết 4 con số vàng trên toàn cảnh Việt Nam & mời khán giả bình chọn Tập 3",
+          "narrative_role": "call_to_action",
+          "information_role": "365 m -> Lùi 40 km -> 5.000 ha (4F) -> ~20 phút đường sắt; CTA Cái Mép – Thị Vải vs Cao tốc miền Tây.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "aviation_radar_dark",
+            "sentinel2_2024_sharp",
+            "crisp_vector_hud",
+            "zero_jitter"
+          ],
+          "required_assets": [
+            {
+              "type": "narration",
+              "description": "Vibi TTS Haitrieu audio cho s20",
+              "source": "generate"
+            },
+            {
+              "type": "image",
+              "description": "Bản đồ vệ tinh EOX 2024 z4–z14 & dữ liệu OpenStreetMap đã xác minh",
+              "source": "source"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "project_id": "san-bay-long-thanh-40km",
+        "total_scenes": 20,
+        "scene_families": [
+          "Airspace Funnel 3D",
+          "1:1 Runway & Polygon Scale",
+          "Cream Legal Dossier",
+          "3D Geological Soil Cutaway",
+          "Isochrone Rail & Twin-Hub Map"
+        ],
+        "selective_photo_zoom_scenes": [
+          "scene_14",
+          "scene_18"
+        ],
+        "slideshow_risk": {
+          "average": 0.0,
+          "verdict": "strong"
+        },
+        "variation_check": {
+          "score": 0.0,
+          "verdict": "strong"
+        }
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "passed": true,
+    "critical_count": 0,
+    "suggestion_count": 0,
+    "notes": [
+      "20 contiguous scenes spanning 0.00s..687.52s across 5 causal chapters.",
+      "slideshow_risk=0.00 (strong), variation=0.00 (strong), 0 three-in-a-row type repeats.",
+      "Hero moments placed on scene_04 (365m ICAO), scene_13 (791ha in 5,000ha), and scene_18 (120km/h ~20m rail).",
+      "Completed under approved d-010 approval_policy."
+    ]
+  },
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  }
+}
